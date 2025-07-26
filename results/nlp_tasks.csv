@@ -1,0 +1,1000 @@
+Task Name,Dataset Count
+Question Answering,416
+Classification,222
+Text Classification,167
+Language Modelling,166
+Text Generation,162
+Sentiment Analysis,105
+Text Summarization,98
+Domain Adaptation,96
+Reading Comprehension,95
+Machine Translation,83
+Natural Language Inference,81
+Node Classification,76
+Natural Language Understanding,72
+Code Generation,70
+Common Sense Reasoning,56
+Recommendation Systems,56
+Graph Classification,54
+Word Embeddings,53
+Knowledge Graphs,46
+Few-Shot Learning,45
+Coreference Resolution,45
+Audio Classification,43
+Zero-Shot Learning,43
+Machine Reading Comprehension,43
+Unsupervised Domain Adaptation,34
+Dialogue Generation,34
+Music Generation,33
+Domain Generalization,31
+Multi-Label Classification,30
+Slot Filling,28
+Document Summarization,28
+NER,27
+Part-Of-Speech Tagging,26
+Open-Domain Question Answering,26
+Mathematical Reasoning,26
+Question Generation,25
+Data-to-Text Generation,24
+Relation Classification,23
+Math Word Problem Solving,23
+Task-Oriented Dialogue Systems,22
+Text-To-SQL,21
+Text Simplification,20
+Style Transfer,20
+Language Identification,20
+Time Series Classification,19
+Transfer Learning,18
+Paraphrase Identification,18
+Document Classification,18
+Logical Reasoning,18
+Paraphrase Generation,17
+Sign Language Translation,17
+Binary Classification,17
+Translation,17
+Zero-shot Text Search,16
+Knowledge Graph Completion,16
+Word Sense Disambiguation,16
+Token Classification,15
+Dependency Parsing,15
+Sentiment Classification,15
+Knowledge Base Question Answering,15
+Node Classification on Non-Homophilic (Heterophilic) Graphs,15
+Hierarchical Multi-label Classification,15
+Multi-Document Summarization,15
+Cross-Lingual Transfer,15
+Sentence Classification,14
+Code Search,14
+Spoken Language Understanding,14
+Intent Classification,14
+Multi-class Classification,14
+Multi-Label Text Classification,13
+Document Layout Analysis,13
+Relational Reasoning,12
+News Classification,12
+Code Completion,12
+Generalizable Person Re-identification,11
+Sequential Recommendation,11
+Audio Generation,11
+Synthetic Data Generation,11
+Opinion Mining,11
+Sentence Embeddings,11
+Mathematical Question Answering,11
+Chatbot,11
+Multimodal Reasoning,11
+Generalized Zero-Shot Learning,10
+Conversational Question Answering,10
+Robust classification,10
+Topic Classification,10
+Audio Tagging,10
+Discourse Parsing,10
+Citation Recommendation,10
+Music Classification,10
+Binary text classification,10
+Handwriting generation,10
+Code Translation,10
+Text-to-Code Generation,10
+Conversational Response Generation,10
+Large Language Model,10
+Explanation Generation,9
+Few-Shot Audio Classification,9
+KG-to-Text Generation,9
+Person Search,9
+Anomaly Classification,9
+Cross-Lingual NER,9
+Chart Question Answering,9
+Abusive Language,9
+Dialogue Understanding,9
+Arithmetic Reasoning,9
+Multiple Choice Question Answering (MCQA),9
+General Classification,8
+Few-Shot Learning - 4 shots,8
+Temporal Tagging,8
+Formation Energy,8
+Gloss-free Sign Language Translation,8
+ECG Classification,8
+Dialogue Evaluation,8
+Chinese Reading Comprehension,8
+Heterogeneous Node Classification,8
+Summarization,8
+Translation deu-eng,8
+Translation eng-deu,8
+Keyword Spotting,8
+Sentence Embedding,8
+Causal Inference,8
+Stance Classification,8
+Story Generation,8
+Code Classification,8
+Code Summarization,8
+Multilingual NLP,8
+Response Generation,8
+Multimodal Sentiment Analysis,7
+Text Style Transfer,7
+imbalanced classification,7
+Bayesian Inference,7
+Sequence-to-sequence Language Modeling,7
+News Recommendation,7
+Tabular Data Generation,7
+Source Code Summarization,7
+Scientific Document Summarization,7
+Malware Classification,7
+Document Ranking,7
+Extreme Summarization,7
+Language Acquisition,7
+Systematic Generalization,7
+General Reinforcement Learning,7
+Twitter Sentiment Analysis,7
+Toxic Comment Classification,7
+News Summarization,7
+Masked Language Modeling,7
+Concept-based Classification,6
+Knowledge Distillation,6
+Constituency Parsing,6
+Document Text Classification,6
+Multi-Modal Document Classification,6
+Cross-Domain Few-Shot,6
+Few-Shot Relation Classification,6
+Generative Question Answering,6
+Environmental Sound Classification,6
+Community Question Answering,6
+Text Spotting,6
+Source-Free Domain Adaptation,6
+Table-to-Text Generation,6
+Multi-Source Unsupervised Domain Adaptation,6
+AMR Parsing,6
+News Generation,6
+Compositional Zero-Shot Learning,6
+Lexical Entailment,6
+Multimodal Recommendation,6
+Age And Gender Classification,6
+Text Categorization,6
+Genre classification,6
+Meme Classification,6
+multimodal generation,6
+Meeting Summarization,6
+Text-to-Music Generation,6
+text annotation,6
+Generalized Few-Shot Learning,5
+Reading Comprehension (Zero-Shot),5
+Reading Comprehension (One-Shot),5
+Reading Comprehension (Few-Shot),5
+Open Intent Discovery,5
+Synthetic-to-Real Translation,5
+Variational Inference,5
+Universal Domain Adaptation,5
+Paper generation,5
+AMR-to-Text Generation,5
+Text Clustering,5
+Code Documentation Generation,5
+Multimodal Machine Translation,5
+Translation eng-fra,5
+Morphological Analysis,5
+Low-Resource Neural Machine Translation,5
+Goal-Oriented Dialogue Systems,5
+Zero-shot Classification (unified classes),5
+Hateful Meme Classification,5
+Long Form Question Answering,5
+Cross-Lingual Question Answering,5
+Transliteration,5
+Multilabel Text Classification,5
+Material Classification,5
+Graph Generation,5
+Texture Classification,5
+Crop Classification,5
+Knowledge Probing,5
+Multi-task Language Understanding,5
+Temporal Relation Classification,5
+Speech-to-Speech Translation,5
+Protein Language Model,5
+Spatial Reasoning,5
+Gender Classification,5
+Long-Context Understanding,5
+Multi Label Text Classification,4
+Multi-Human Parsing,4
+Predicate Classification,4
+Zero-shot Audio Classification,4
+Intent Discovery,4
+Unsupervised Text Classification,4
+Zero-Shot Text Classification,4
+Few-Shot Text Classification,4
+Citation Intent Classification,4
+Partial Domain Adaptation,4
+Multi-target Domain Adaptation,4
+Knowledge Graph Embedding,4
+Multi-modal Classification,4
+Breast Tumour Classification,4
+Logical Reasoning Question Answering,4
+Translation ces-eng,4
+Translation deu-fra,4
+Spoken language identification,4
+Music Auto-Tagging,4
+Music Tagging,4
+End-To-End Dialogue Modelling,4
+Unsupervised Machine Translation,4
+Triple Classification,4
+Speech-to-Text Translation,4
+Cloze (multi-choices) (Zero-Shot),4
+Cloze (multi-choices) (Few-Shot),4
+Morphological Tagging,4
+Knowledge Graph Embeddings,4
+Zero-Shot Cross-Lingual Transfer,4
+Translation eng-spa,4
+Translation ben-eng,4
+Arabic Sentiment Analysis,4
+Grasp Generation,4
+text-based games,4
+Few-shot NER,4
+Weakly Supervised Classification,4
+Conditional Text Generation,4
+Multi-hop Question Answering,4
+Answer Generation,4
+Temporal/Casual QA,4
+Math Word Problem SolvingΩ,4
+Science Question Answering,4
+Music Recommendation,4
+Text Reranking,4
+Lay Summarization,4
+Sports Understanding,4
+Out-of-Distribution Generalization,4
+Text2text Generation,4
+Referring expression generation,4
+tabular-classification,4
+Classification with Binary Weight Network,3
+Data-free Knowledge Distillation,3
+Sentence-Embedding,3
+Classification with Binary Neural Network,3
+Human Parsing,3
+Unsupervised KG-to-Text Generation,3
+Few-Shot Class-Incremental Learning,3
+text2text-generation,3
+SQL Parsing,3
+Chinese Sentiment Analysis,3
+Unsupervised Text Style Transfer,3
+Unsupervised Opinion Summarization,3
+Multibehavior Recommendation,3
+Molecular Graph Generation,3
+Blended-target Domain Adaptation,3
+Talking Head Generation,3
+Annotated Code Search,3
+Automatic Sleep Stage Classification,3
+Topological Data Analysis,3
+Sentence Fusion,3
+Few-Shot Point Cloud Classification,3
+Recipe Generation,3
+Translation ces-deu,3
+Graph Similarity,3
+Spoken Dialogue Systems,3
+Multi-Hop Reading Comprehension,3
+Translation spa-eng,3
+Translation afr-deu,3
+Translation afr-eng,3
+Translation cat-eng,3
+Translation rus-por,3
+Translation eng-por,3
+Translation ara-eng,3
+Translation cym-eng,3
+Translation dan-eng,3
+Translation heb-eng,3
+Translation hun-eng,3
+Translation cat-fra,3
+Translation glg-spa,3
+Translation por-fra,3
+Translation por-spa,3
+Translation dan-spa,3
+Translation ara-fra,3
+Translation heb-fra,3
+Translation heb-por,3
+Translation afr-spa,3
+Translation ceb-eng,3
+Translation ces-spa,3
+Translation hin-eng,3
+Translation hun-deu,3
+Translation hun-fra,3
+Translation hun-por,3
+Translation ind-deu,3
+Translation ind-eng,3
+Translation ind-fra,3
+Translation mar-eng,3
+Arabic Text Diacritization,3
+Font Generation,3
+automatic-speech-translation,3
+coreference-resolution,3
+Contextual Embedding for Source Code,3
+Document Embedding,3
+Short-Text Conversation,3
+Food recommendation,3
+Knowledge Base Population,3
+Zero-shot Slot Filling,3
+Session-Based Recommendations,3
+Cross Document Coreference Resolution,3
+Intent Classification and Slot Filling,3
+Facial Makeup Transfer,3
+Text to Speech,3
+Document Translation,3
+Long-Form Narrative Summarization,3
+Translation hin-fra,3
+Music Style Transfer,3
+Probing Language Models,3
+Word Similarity,3
+ContextNER,3
+Multi-modal Dialogue Generation,3
+Natural Language Queries,3
+Land Cover Classification,3
+Text-based de novo Molecule Generation,3
+Formal Logic,3
+text similarity,3
+Lemmatization,3
+Word Translation,3
+Data Summarization,3
+Text Pair Classification,3
+Document Shadow Removal,3
+Sentence-Pair Classification,3
+Music Question Answering,3
+Commonsense Causal Reasoning,3
+knowledge editing,3
+Multi-modal Recommendation,3
+TruthfulQA,3
+Informal-to-formal Style Transfer,3
+Facial Expression Translation,2
+Point Cloud Generation,2
+NR-IQA,2
+Zero-shot Relation Classification,2
+Passage Re-Ranking,2
+Chinese Sentence Pair Classification,2
+Cross-Lingual Natural Language Inference,2
+Linear-Probe Classification,2
+Environment Sound Classification,2
+Short Text Clustering,2
+Semi-Supervised Text Classification,2
+One-shot Unsupervised Domain Adaptation,2
+Explainable Recommendation,2
+Movie Recommendation,2
+Multi-label zero-shot learning,2
+CCG Supertagging,2
+Unconditional Molecule Generation,2
+Extended Summarization,2
+Open-Set Multi-Target Domain Adaptation,2
+Few-Shot NLI,2
+Cross-Lingual Document Classification,2
+Sentence Completion,2
+Zero-Shot Learning + Domain Generalization,2
+Cross-Lingual POS Tagging,2
+Reasoning Chain Explanations,2
+End-to-End RST Parsing,2
+Empathetic Response Generation,2
+Translation fra-eng,2
+Translation ces-fra,2
+Dialogue Rewriting,2
+domain classification,2
+Fine-Grained Opinion Analysis,2
+Cross-Lingual Sentiment Classification,2
+Phrase Ranking,2
+Phrase Tagging,2
+Zero-shot Audio Captioning,2
+Music Genre Classification,2
+Cross-Lingual Paraphrase Identification,2
+Re-Ranking,2
+Natural Language Inference (Few-Shot),2
+Veracity Classification,2
+Translation tur-eng,2
+Translation deu-afr,2
+Translation eng-afr,2
+Translation eng-nld,2
+Translation nld-eng,2
+Translation rus-eng,2
+Translation rus-deu,2
+Translation rus-spa,2
+Translation bel-spa,2
+Translation eng-cat,2
+Translation eng-tur,2
+Translation bul-eng,2
+Translation gle-eng,2
+Translation ell-eng,2
+Translation est-eng,2
+Translation isl-eng,2
+Translation fao-eng,2
+Translation hrv-eng,2
+Translation pol-eng,2
+Translation kor-eng,2
+Translation cat-por,2
+Translation cat-spa,2
+Translation fra-por,2
+Translation fra-spa,2
+Translation glg-por,2
+Translation ita-por,2
+Translation ita-spa,2
+Translation ron-fra,2
+Translation ron-spa,2
+Translation bul-spa,2
+Translation hrv-fra,2
+Translation hrv-spa,2
+Translation mkd-spa,2
+Translation dan-fra,2
+Translation isl-spa,2
+Translation ara-spa,2
+Translation bul-deu,2
+Translation hrv-deu,2
+Translation deu-spa,2
+Translation heb-spa,2
+Translation fas-fra,2
+Translation dan-deu,2
+Translation deu-por,2
+Translation ell-deu,2
+Translation ell-fra,2
+Translation ell-por,2
+Translation ell-spa,2
+Translation epo-deu,2
+Translation epo-eng,2
+Translation epo-por,2
+Translation epo-spa,2
+Translation est-deu,2
+Translation eus-deu,2
+Translation hun-spa,2
+Translation hye-eng,2
+Translation ilo-eng,2
+Translation isl-deu,2
+Translation ita-deu,2
+Translation jpn-eng,2
+Translation jpn-por,2
+Translation jpn-spa,2
+Translation kat-eng,2
+Translation mal-eng,2
+Translation mlt-eng,2
+Translation pes-eng,2
+Translation pol-deu,2
+Translation pol-fra,2
+Translation pol-por,2
+Translation pol-spa,2
+Translation por-deu,2
+Translation ron-deu,2
+Translation ron-eng,2
+Translation run-eng,2
+Translation run-fra,2
+Common Sense Reasoning (Zero-Shot),2
+Dialogue Management,2
+Knowledge Tracing,2
+Paper generation (Conclusion-to-title),2
+Headline Generation,2
+Age Classification,2
+Physiological Computing,2
+English-Ukrainian Translation,2
+Context Query Reformulation,2
+Zero-Shot Region Description,2
+Extreme Multi-Label Classification,2
+Inference Attack,2
+Native Language Identification,2
+Adversarial Text,2
+Vietnamese Machine Reading Comprehension,2
+Multi-modal Knowledge Graph,2
+Claim Verification,2
+Caption Generation,2
+Cancer type classification,2
+Robot Manipulation Generalization,2
+Cross-Lingual Entity Linking,2
+Embodied Question Answering,2
+Translation bel-por,2
+Translation afr-fra,2
+Translation afr-por,2
+Translation amh-eng,2
+Translation ben-deu,2
+Translation ceb-deu,2
+Translation ceb-fra,2
+Translation ceb-por,2
+Translation cym-por,2
+Translation cym-spa,2
+Translation est-por,2
+Translation gle-spa,2
+Translation hau-eng,2
+Translation hye-deu,2
+Core Psychological Reasoning,2
+Logical Reasoning Reading Comprehension,2
+NLP based Person Retrival,2
+Sentence ReWriting,2
+Multilingual text classification,2
+Knowledge Base Completion,2
+Code Comment Generation,2
+General Knowledge,2
+Logical Fallacies,2
+Implicit Discourse Relation Classification,2
+single catogory classification,2
+Behavioral Malware Classification,2
+Job classification,2
+Vocal technique classification,2
+Sentence Ordering,2
+Multilingual Machine Comprehension in English Hindi,2
+Point Cloud Classification,2
+Text based Person Search,2
+Translation rus-fra,2
+Translation ben-fra,2
+Translation ben-por,2
+Translation ben-spa,2
+Translation hau-fra,2
+Translation hin-por,2
+Translation hin-spa,2
+Translation ind-spa,2
+Translation mar-fra,2
+Translation mar-por,2
+Translation mar-spa,2
+Translation por-eng,2
+Translation prs-eng,2
+Translation prs-fra,2
+Translation prs-por,2
+Translation prs-spa,2
+Lung Sound Classification,2
+Cancer-no cancer per breast classification,2
+Document-level RE with incomplete labeling,2
+Generalized Few-Shot Classification,2
+Zero-Shot Machine Translation,2
+Conversational Search,2
+Genome Understanding,2
+Library-Oriented Code Generation,2
+document understanding,2
+Sound Classification,2
+Atomic number classification,2
+Crystal system classification,2
+Space group classification,2
+Distance regression,2
+World Knowledge,2
+Keyphrase Generation,2
+Persian Sentiment Analysis,2
+Open-Ended Question Answering,2
+text-to-Cypher,2
+Zero-Shot Multi-Speaker TTS,2
+POS Tagging,2
+Patent classification,2
+Drug ATC Classification,2
+2-task Classification,2
+Continuously Indexed Domain Adaptation,1
+candy animation generation,1
+text-to-speech,1
+Unsupervised Dependency Parsing,1
+SQL-to-Text,1
+Sql Chatbots,1
+Error Understanding,1
+TREC 2019 Passage Ranking,1
+Passage Ranking,1
+Temporal Sentence Grounding,1
+Self-Supervised Audio Classification,1
+Zero-Shot Environment Sound Classification,1
+Paraphrase Identification within Bi-Encoder,1
+Cross-Domain Document Classification,1
+Multi-Media Recommendation,1
+Recommendation Systems (Item cold-start),1
+Sparse Representation-based Classification,1
+Concept-To-Text Generation,1
+Few-shot Age Estimation,1
+Unsupervised Domain Adaptationn,1
+cross-domain few-shot learning,1
+KB-to-Language Generation,1
+Memex Question Answering,1
+Single-Source Domain Generalization,1
+Thoracic Disease Classification,1
+Pulmonary Artery–Vein Classification,1
+Lung Nodule Classification,1
+Question Similarity,1
+Chinese Document Classification,1
+Formality Style Transfer,1
+Graph Ranking,1
+Sentence Similarity,1
+LWR Classification,1
+Pill Classification (Both Sides),1
+Cross-lingual zero-shot dependency parsing,1
+Translation fra-deu,1
+Entity Cross-Document Coreference Resolution,1
+Document Dating,1
+Mitigating Contextual Bias,1
+Semi-supervised Domain Adaptation,1
+Cross-Document Language Modeling,1
+Cross-Lingual Bitext Mining,1
+Graph Question Answering,1
+Pitch Classification,1
+Cross-Lingual ASR,1
+Speech-to-Text,1
+UCCA Parsing,1
+Open Knowledge Graph Embedding,1
+Legal Document Summarization,1
+Unsupervised Text Summarization,1
+Text Infilling,1
+Procedural Text Understanding,1
+Natural Language Inference (Zero-Shot),1
+Natural Language Inference (One-Shot),1
+Translation afr-nld,1
+Translation deu-nld,1
+Translation ltz-deu,1
+Translation ltz-eng,1
+Translation ltz-nld,1
+Translation nld-afr,1
+Translation nld-deu,1
+Translation fry-eng,1
+Translation fry-nld,1
+Translation hrx-deu,1
+Translation hrx-eng,1
+Translation nds-deu,1
+Translation nds-eng,1
+Translation nds-nld,1
+Translation nld-fry,1
+Translation nld-nds,1
+Translation gos-deu,1
+Translation gos-eng,1
+Translation bel-deu,1
+Translation bel-fra,1
+Translation bos_Latn-eng,1
+Translation hbs-eng,1
+Translation lav-eng,1
+Translation slv-eng,1
+Translation oci-fra,1
+Translation bul-fra,1
+Translation slv-fra,1
+Translation hbs-fra,1
+Translation hbs-spa,1
+Translation slv-deu,1
+Translation hbs-deu,1
+Translation eus-spa,1
+Translation deu-deu,1
+Translation eng-eng,1
+Translation awa-eng,1
+Translation epo-fra,1
+Translation jpn-fra,1
+Translation kaz-eng,1
+Translation fas-deu,1
+Translation msa-deu,1
+Translation msa-eng,1
+Translation ara-deu,1
+Translation cmn_Hans-eng,1
+Translation cmn_Hans-fra,1
+Translation cmn_Hans-por,1
+Translation cmn_Hans-spa,1
+Translation cmn_Hant-eng,1
+Translation cmn_Hant-fra,1
+Translation cmn_Hant-por,1
+Translation cmn_Hant-spa,1
+Translation dsb-deu,1
+Translation hsb-deu,1
+Translation ido_Latn-eng,1
+Translation kaz_Cyrl-eng,1
+Translation lfn_Latn-deu,1
+Translation lfn_Latn-eng,1
+Translation lfn_Latn-por,1
+Translation nor-deu,1
+Translation por-por,1
+Micro-expression Generation,1
+Wildly Unsupervised Domain Adaptation,1
+Common Sense Reasoning (Few-Shot),1
+Common Sense Reasoning (One-Shot),1
+multi-word expression embedding,1
+Multi Class Text Classification,1
+Coherence Evaluation,1
+Controllable Grasp Generation,1
+Conversation Disentanglement,1
+Traffic Classification,1
+Fashion Understanding,1
+Complex Word Identification,1
+Audio Question Answering,1
+Point cloud classification dataset,1
+dialogue summary,1
+Chinese Landscape Painting Generation,1
+Text Complexity Assessment (GermEval 2022),1
+Lip password classification,1
+Open Knowledge Graph Canonicalization,1
+Component Classification,1
+Poem meters classification,1
+Multi-Domain Sentiment Classification,1
+Tweet-Reply Sentiment Analysis,1
+Word-level pronunciation scoring,1
+Zero Shot on BEIR (Inference Free Model),1
+EEG Signal Classification,1
+Keyword Spotting CSS,1
+Scale Generalisation,1
+Morphological Disambiguation,1
+Translation oci-eng,1
+Translation eng-oci,1
+Translation eng-ell,1
+Translation bul-por,1
+Translation dan-por,1
+Translation fas-spa,1
+Translation cym-fra,1
+Translation zho-eng,1
+IFC Entity Classification,1
+Handwritten Word Generation,1
+Multimodal Lexical Translation,1
+TFLM sequence generation,1
+Heartbeat Classification,1
+Email Thread Summarization,1
+Document AI,1
+Compositional Generalization (AVG),1
+Czech Text Diacritization,1
+Vietnamese Text Diacritization,1
+Romanian Text Diacritization,1
+Slovak Text Diacritization,1
+Latvian Text Diacritization,1
+Polish Text Diacritization,1
+Irish Text Diacritization,1
+Hungarian Text Diacritization,1
+French Text Diacritization,1
+Turkish Text Diacritization,1
+Spanish Text Diacritization,1
+Croatian Text Diacritization,1
+CodeSearchNet - Java,1
+Audio Multiple Target Classification,1
+Syntax Representation,1
+Zero-shot Generalization,1
+Analogical Similarity,1
+Understanding Fables,1
+Sentence Ambiguity,1
+TriviaQA,1
+Analytic Entailment,1
+Epistemic Reasoning,1
+Logical Args,1
+Clinical Knowledge,1
+Fantasy Reasoning,1
+GRE Reading Comprehension,1
+Nonsense Words Grammar,1
+Bridging Anaphora Resolution,1
+Blackout Poetry Generation,1
+Multlingual Neural Machine Translation,1
+Font Style Transfer,1
+Physical Commonsense Reasoning,1
+Hurtful Sentence Completion,1
+Zero-Shot Intent Classification,1
+Zero-Shot Intent Classification and Slot Filling,1
+Time-Series Few-Shot Learning with Heterogeneous Channels,1
+Question to Declarative Sentence,1
+Skill Generalization,1
+Semi-supervised time series classification,1
+Jet Tagging,1
+Word Spotting In Handwritten Documents,1
+Translation fin-eng,1
+Translation nob-eng,1
+Translation nno-eng,1
+Translation ita-eng,1
+Translation mkd-eng,1
+Translation ast-por,1
+Translation ast-spa,1
+Translation glg-fra,1
+Translation ita-fra,1
+Translation oci-spa,1
+Translation ron-por,1
+Translation hrv-por,1
+Translation mkd-fra,1
+Translation mkd-por,1
+Translation slv-por,1
+Translation isl-fra,1
+Translation nob-por,1
+Translation nob-spa,1
+Translation mkd-deu,1
+Translation lim-eng,1
+Translation acm-deu,1
+Translation acm-eng,1
+Translation acm-fra,1
+Translation acm-por,1
+Translation acm-spa,1
+Translation amh-fra,1
+Translation apc-deu,1
+Translation apc-eng,1
+Translation apc-fra,1
+Translation apc-spa,1
+Translation arz-deu,1
+Translation arz-eng,1
+Translation arz-fra,1
+Translation arz-por,1
+Translation arz-spa,1
+Translation ast-deu,1
+Translation ast-eng,1
+Translation awa-fra,1
+Translation awa-spa,1
+Translation bho-eng,1
+Translation bho-fra,1
+Translation bho-por,1
+Translation cat-deu,1
+Translation ceb-spa,1
+Translation ces-por,1
+Translation ckb-eng,1
+Translation ckb-fra,1
+Translation crh-deu,1
+Translation crh-eng,1
+Translation crh-fra,1
+Translation crh-por,1
+Translation crh-spa,1
+Translation cym-deu,1
+Translation est-fra,1
+Translation est-spa,1
+Translation eus-eng,1
+Translation eus-fra,1
+Translation eus-por,1
+Translation fao-deu,1
+Translation fao-fra,1
+Translation fao-por,1
+Translation fao-spa,1
+Translation fij-eng,1
+Translation fur-fra,1
+Translation fur-por,1
+Translation fur-spa,1
+Translation gla-eng,1
+Translation gle-deu,1
+Translation gle-fra,1
+Translation gle-por,1
+Translation glg-deu,1
+Translation glg-eng,1
+Translation grn-eng,1
+Translation grn-fra,1
+Translation grn-por,1
+Translation guj-eng,1
+Translation guj-fra,1
+Translation guj-por,1
+Translation guj-spa,1
+Translation hat-deu,1
+Translation hat-eng,1
+Translation hat-fra,1
+Translation hat-por,1
+Translation hat-spa,1
+Translation hin-deu,1
+Translation hne-deu,1
+Translation hne-eng,1
+Translation hne-fra,1
+Translation hne-por,1
+Translation hne-spa,1
+Translation hye-fra,1
+Translation hye-por,1
+Translation hye-spa,1
+Translation ibo-eng,1
+Translation ilo-deu,1
+Translation ilo-fra,1
+Translation ilo-por,1
+Translation ilo-spa,1
+Translation jav-deu,1
+Translation jav-eng,1
+Translation jav-fra,1
+Translation jav-por,1
+Translation jav-spa,1
+Translation kat-fra,1
+Translation kat-por,1
+Translation kat-spa,1
+Translation kaz-deu,1
+Translation kaz-por,1
+Translation kaz-spa,1
+Translation kea-deu,1
+Translation kea-eng,1
+Translation kea-fra,1
+Translation kea-por,1
+Translation kea-spa,1
+Translation kon-eng,1
+Translation lij-eng,1
+Translation lij-fra,1
+Translation lij-por,1
+Translation lij-spa,1
+Translation lim-fra,1
+Translation lim-por,1
+Translation lim-spa,1
+Translation lin-eng,1
+Translation lin-por,1
+Translation lin-spa,1
+Translation mag-fra,1
+Translation mal-fra,1
+Translation mar-deu,1
+Translation mlt-deu,1
+Translation mlt-fra,1
+Translation mlt-por,1
+Translation mlt-spa,1
+Translation nno-fra,1
+Translation npi-deu,1
+Translation npi-eng,1
+Translation nso-eng,1
+Translation nya-eng,1
+Translation oci-deu,1
+Translation pag-fra,1
+Translation pag-por,1
+Translation pag-spa,1
+Translation pan-deu,1
+Translation pan-eng,1
+Translation pan-por,1
+Translation pan-spa,1
+Translation pap-deu,1
+Translation pap-eng,1
+Translation pap-fra,1
+Translation pap-por,1
+Translation pap-spa,1
+Translation pes-deu,1
+Translation pes-fra,1
+Translation pes-por,1
+Translation pes-spa,1
+Translation plt-eng,1
+Translation plt-fra,1
+Translation plt-por,1
+Translation plt-spa,1
+Translation prs-deu,1
+Translation run-por,1
+Translation run-spa,1
+text political leaning classification,1
+Zero-Shot Counting,1
+Question-Answer-Generation,1
+Transfer Reinforcement Learning,1
+Document Level Machine Translation,1
+Persona Dialogue in Story,1
+Enumerative Search,1
+Grounded language learning,1
+Stroke Classification,1
+Facial expression generation,1
+ArzEn Code-switched Translation to eng,1
+ArzEn Code-switched Translation to ara,1
+Speech Intent Classification,1
+Label shift of blended-target domain adaptation,1
+Zero-shot Sentiment Classification,1
+Steiner Tree Problem,1
+Early  Classification,1
+Vietnamese Natural Language Inference,1
+Profile Generation,1
+Generalized Referring Expression Comprehension,1
+Poll Generation,1
+Superclass classification,1
+Table Search,1
+Pretrained Multilingual Language Models,1
+Transferability,1
+Translation ara-por,1
+Translation fas-por,1
+Translation ind-por,1
+Translation hau-por,1
+Translation hau-spa,1
+Translation msa-fra,1
+Translation lug-eng,1
+Translation msa-por,1
+Translation pus-eng,1
+Translation pus-fra,1
+Translation pus-por,1
+Translation pus-spa,1
+Summarization Consistency Evaluation,1
+open-set classification,1
+Tumour Classification,1
+intent-classification,1
+Hint Generation,1
+Similarity Explanation,1
+OpenAPI code completion,1
+Edge Classification,1
+Person Identification (zero-shot),1
+Temporal Complex Logical Reasoning,1
+Knowledge-Aware Recommendation,1
+Artist classification,1
+Text-to-GQL,1
+text-classification,1
+Music Genre Transfer,1
+Text2Sparql,1
+Raw vs Ripe (Generic),1
+Query-focused Summarization,1
+Description-guided molecule generation,1
+FS-MEVQA,1
+Chart Understanding,1
+Patent Figure Description Generation,1
+Time Series Generation,1
+Text-Variation,1
+Cross-Language Text Summarization,1
+Multimodal Large Language Model,1
+Small-Footprint Keyword Spotting,1
+Cancer Classification,1
+Asthmatic Lung Sound Classification,1
+Lung Disease Classification,1
+Poker Hand Classification,1
+Conversational Recommendation,1
+Unconditional Crystal Generation,1
+Perceptual Distance,1
+TinyQA Benchmark++,1
+Reranking,1
+AMR Graph Similarity,1

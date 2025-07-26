@@ -1,0 +1,767 @@
+Parent Task,Child Tasks Count,Child Tasks,Task Depth,Categories
+Object Detection,39,3D Object Detection; Real-Time Object Detection; RGB Salient Object Detection; Few-Shot Object Detection; Open Vocabulary Object Detection; Object Detection In Aerial Images; Video Object Detection; RGB-D Salient Object Detection; Small Object Detection; Weakly Supervised Object Detection...,2,Computer Vision
+3D,38,Object Detection; Pose Estimation; Depth Estimation; 3D Reconstruction; Neural Rendering; Text to 3D; 3D Face Reconstruction; 3D Scene Reconstruction; 3D Shape Reconstruction; Video Inpainting...,6,Methodology; Time Series; Music; Miscellaneous; Playing Games; Knowledge Base; Computer Vision
+Video,34,Video Generation; Video Understanding; Temporal Action Localization; Video Object Segmentation; Video Retrieval; Action Classification; Video Prediction; Video Classification; Video Recognition; Video Super-Resolution...,5,Computer Vision
+Image Classification,33,Out of Distribution (OOD) Detection; Few-Shot Image Classification; Fine-Grained Image Classification; Learning with noisy labels; Hyperspectral Image Classification; Semi-Supervised Image Classification; Self-Supervised Image Classification; Multi-Label Image Classification; Small Data Image Classification; Genre classification...,4,Adversarial; Computer Vision
+Medical Image Segmentation,31,Lesion Segmentation; Brain Tumor Segmentation; Cell Segmentation; Semi-supervised Medical Image Segmentation; Skin Lesion Segmentation; MRI segmentation; Brain Segmentation; Retinal Vessel Segmentation; Cardiac Segmentation; 3D Medical Imaging Segmentation...,2,Medical; Computer Vision
+Semantic Segmentation,29,Tumor Segmentation; Panoptic Segmentation; 3D Semantic Segmentation; Weakly-Supervised Semantic Segmentation; Scene Segmentation; Semi-Supervised Semantic Segmentation; Real-Time Semantic Segmentation; 3D Part Segmentation; Unsupervised Semantic Segmentation; Road Segmentation...,2,Medical; Robots; Computer Code; Computer Vision
+Anomaly Detection,28,Unsupervised Anomaly Detection; One-Class Classification; Supervised Anomaly Detection; Graph Anomaly Detection; Anomaly Detection In Surveillance Videos; Image Manipulation Detection; Anomaly Classification; Multi-class Anomaly Detection; 3D Anomaly Detection; Weakly-supervised Anomaly Detection...,3,Methodology; Graphs; Miscellaneous; Computer Vision
+2D Classification,27,Object Detection; Articles; Style Transfer; Deblurring; Backdoor Attack; Neural Rendering; Voice Conversion; Neural Network Compression; Music Source Separation; Cell Detection...,3,Methodology; Audio; Graphs; Computer Code; Music; Adversarial; Playing Games; Medical; Computer Vision
+Facial Recognition and Modelling,26,Face Recognition; Face Swapping; Facial Expression Recognition (FER); Face Detection; Face Generation; Face Verification; Face Alignment; Age Estimation; Face Reconstruction; Face Anti-Spoofing...,3,Music; Miscellaneous; Computer Vision
+Text Generation,25,Dialogue Generation; Multi-Document Summarization; Data-to-Text Generation; Story Generation; Text Style Transfer; Paraphrase Generation; Spelling Correction; Table-to-Text Generation; Headline Generation; Conditional Text Generation...,3,Adversarial; Speech; Natural Language Processing; Computer Code
+Classification,24,Text Classification; Graph Classification; Multi-class Classification; Audio Classification; Medical Image Classification; Plant Phenotyping; Classifier calibration; Morphology classification; Multi-modal Classification; IoT Device Identification...,3,Methodology; Audio; Graphs; Computer Code; Time Series; Reasoning; Natural Language Processing; Adversarial; Miscellaneous; Medical; Computer Vision
+,24,Text-to-Image Generation; Deblurring; Conformal Prediction; Image Deblurring; Face Detection; Text Simplification; Self-Supervised Image Classification; Cloud Computing; Music Source Separation; Decision Making Under Uncertainty...,5,Methodology; Audio; Computer Code; Reasoning; Speech; Music; Natural Language Processing; Adversarial; Miscellaneous; Medical; Computer Vision
+Image Generation,23,Image-to-Image Translation; Text-to-Image Generation; Image Inpainting; Image Manipulation; Conditional Image Generation; Face Generation; 3D Generation; Pose Transfer; Image Harmonization; 3D-Aware Image Synthesis...,3,Medical; Natural Language Processing; Miscellaneous; Computer Vision
+Logical Reasoning,22,Navigate; Temporal Sequences; Novel Concepts; StrategyQA; Physical Intuition; Date Understanding; Epistemic Reasoning; Logic Grid Puzzle; Logical Fallacy Detection; Logical Sequence...,2,Methodology; Miscellaneous; Reasoning
+Dialogue,21,Dialogue Generation; Dialogue State Tracking; Task-Oriented Dialogue Systems; Visual Dialog; Dialogue Understanding; Empathetic Response Generation; Dialogue Management; Goal-Oriented Dialog; Dialogue Act Classification; Goal-Oriented Dialogue Systems...,3,Speech; Natural Language Processing
+10-shot image generation,21,Semantic Segmentation; Decoder; Object; Image Restoration; Text-to-Image Generation; Deblurring; Text to Speech; Face Swapping; Motion Estimation; Image Deblurring...,3,Audio; Graphs; Computer Code; Time Series; Music; Adversarial; Robots; Miscellaneous; Playing Games; Knowledge Base; Medical; Computer Vision
+Reading Comprehension,20,Machine Reading Comprehension; Intent Recognition; Implicit Relations; Question Selection; LAMBADA; Multi-Hop Reading Comprehension; Implicatures; Belebele; Logical Reasoning Reading Comprehension; Formal Fallacies Syllogisms Negation...,2,Natural Language Processing
+Question Answering,19,Open-Domain Question Answering; Open-Ended Question Answering; Zero-Shot Video Question Answer; Knowledge Base Question Answering; Conversational Question Answering; Answer Selection; Community Question Answering; Multiple Choice Question Answering (MCQA); Long Form Question Answering; Science Question Answering...,2,Natural Language Processing; Miscellaneous; Reasoning
+Common Sense Reasoning,17,HellaSwag; Winogrande; Physical Commonsense Reasoning; Riddle Sense; Causal Judgment; Winowhy; Anachronisms; Disambiguation QA; Discourse Marker Prediction; Empirical Judgments...,1,Natural Language Processing; Reasoning
+Medical Image Analysis,17,Deformable Medical Image Registration; Medical Image Retrieval; Nuclei Classification; Organ Detection; Multi-Focus Microscopical Images Fusion; Whole Mammogram Classification; Mass Segmentation From Mammograms; Breast Mass Segmentation In Whole Mammograms; Cervical Nucleus Detection; Automated Pulmonary Nodule Detection And Classification...,2,Medical
+Pose Estimation,17,3D Human Pose Estimation; Keypoint Detection; 3D Pose Estimation; 6D Pose Estimation; Hand Pose Estimation; 6D Pose Estimation using RGB; Multi-Person Pose Estimation; Head Pose Estimation; Human Pose Forecasting; Animal Pose Estimation...,5,Computer Vision
+Instance Segmentation,17,Referring Expression Segmentation; 3D Instance Segmentation; Unsupervised Object Segmentation; Real-time Instance Segmentation; Amodal Instance Segmentation; Box-supervised Instance Segmentation; Human Instance Segmentation; Image-level Supervised Instance Segmentation; Open-World Instance Segmentation; Unseen Object Instance Segmentation...,3,Computer Vision
+2D Semantic Segmentation,17,Image Segmentation; Text Style Transfer; Scene Parsing; Reflection Removal; Foreground Segmentation; Continual Semantic Segmentation; Building Damage Assessment; Human Part Segmentation; Overlapped 15-1; Disjoint 15-1...,4,Audio; Adversarial; Natural Language Processing; Computer Vision
+Information Extraction,16,Event Extraction; Extractive Summarization; Joint Entity and Relation Extraction; Temporal Information Extraction; Document-level Event Extraction; Attribute Value Extraction; Low Resource Named Entity Recognition; Drug–drug Interaction Extraction; Definition Extraction; Event Relation Extraction...,2,Medical; Natural Language Processing
+Text Classification,16,Document Classification; Topic Models; Emotion Classification; Sentence Classification; Multi-Label Text Classification; Few-Shot Text Classification; Text Categorization; Semi-Supervised Text Classification; Coherence Evaluation; Toxic Comment Classification...,2,Natural Language Processing
+Autonomous Vehicles,15,Autonomous Driving; Autonomous Navigation; Self-Driving Cars; Simultaneous Localization and Mapping; Pedestrian Detection; Lane Detection; Traffic Signal Control; Traffic Sign Recognition; Pedestrian Attribute Recognition; Loop Closure Detection...,3,Robots; Computer Code; Computer Vision
+Relation Extraction,15,Relation Classification; Document-level Relation Extraction; Joint Entity and Relation Extraction; Temporal Relation Extraction; Dialog Relation Extraction; Relationship Extraction (Distant Supervised); Continual Relation Extraction; Binary Relation Extraction; Zero-shot Relation Triplet Extraction; 4-ary Relation Extraction...,2,Natural Language Processing
+Action Recognition,15,Action Recognition In Videos; 3D Action Recognition; Self-Supervised Action Recognition; Few Shot Action Recognition; Fine-grained Action Recognition; Action Triplet Recognition; Self-Supervised Human Action Recognition; Open Set Action Recognition; Micro-Action Recognition; Weakly-Supervised Action Recognition...,3,Time Series; Computer Vision
+Speech Synthesis,15,Expressive Speech Synthesis; Emotional Speech Synthesis; Speech Synthesis - Gujarati; text-to-speech translation; Speech Synthesis - Tamil; Speech Synthesis - Kannada; Speech Synthesis - Malayalam; Speech Synthesis - Telugu; Speech Synthesis - Assamese; Speech Synthesis - Bengali...,1,Audio; Speech
+2D Object Detection,15,Object Detection; Edge Detection; Thermal Image Segmentation; Semi-Supervised Object Detection; Novel Object Detection; Long-tailed Object Detection; Hand Detection; medical image detection; Vessel Detection; Drivable Area Detection...,3,Methodology; Computer Vision
+Representation Learning,14,Disentanglement; Graph Representation Learning; Sentence Embeddings; Network Embedding; Knowledge Graph Embeddings; Document Embedding; Learning Word Embeddings; Feature Upsampling; Learning Semantic Representations; Multilingual Word Embeddings...,3,Methodology; Natural Language Processing; Computer Vision
+Domain Adaptation,13,Unsupervised Domain Adaptation; Domain Generalization; Test-time Adaptation; Source-Free Domain Adaptation; Universal Domain Adaptation; Partial Domain Adaptation; Online Domain Adaptation; Continuously Indexed Domain Adaptation; Prompt-driven Zero-shot Domain Adaptation; Blended-target Domain Adaptation...,3,Methodology; Computer Vision
+Person Re-Identification,13,Unsupervised Person Re-Identification; Video-Based Person Re-Identification; Generalizable Person Re-identification; Occluded Person Re-Identification; Cloth-Changing Person Re-Identification; Clothes Changing Person Re-Identification; Large-Scale Person Re-Identification; Cross-Modal  Person Re-Identification; Self-Supervised Person Re-Identification; Image-To-Video Person Re-Identification...,1,Computer Vision
+Named Entity Recognition (NER),13,NER; Nested Named Entity Recognition; Few-shot NER; Chinese Named Entity Recognition; Multilingual Named Entity Recognition; Medical Named Entity Recognition; Cross-Domain Named Entity Recognition; Zero-shot Named Entity Recognition (NER); Multi-modal Named Entity Recognition; Named Entity Recognition In Vietnamese...,1,Natural Language Processing
+Electrocardiography (ECG),13,Mortality Prediction; ECG Classification; Arrhythmia Detection; Heart Rate Variability; Heartbeat Classification; ECG Denoising; Myocardial infarction detection; QRS Complex Detection; ECG Wave Delineation; Ventricular fibrillation detection...,4,Methodology; Medical
+Image Restoration,13,Demosaicking; Blind Super-Resolution; Spectral Reconstruction; Underwater Image Restoration; Flare Removal; JPEG Artifact Removal; JPEG Artifact Correction; Unified Image Restoration; highlight removal; Single Image Desnowing...,2,Computer Vision
+Few-Shot Learning,12,One-Shot Learning; Few-Shot Semantic Segmentation; Cross-Domain Few-Shot; Unsupervised Few-Shot Learning; Few-Shot Relation Classification; Few-Shot Imitation Learning; Few-Shot Audio Classification; Few-Shot Camera-Adaptive Color Constancy; Few-shot HTC; Few-Shot Video Object Detection...,2,Methodology; Audio; Natural Language Processing; Computer Vision
+Emotion Recognition,12,Speech Emotion Recognition; Emotion Recognition in Conversation; Multimodal Emotion Recognition; Facial Emotion Recognition; Emotion-Cause Pair Extraction; EEG Emotion Recognition; Emotion Cause Extraction; Video Emotion Recognition; Emotion Recognition in Context; A-VB High...,2,Audio; Speech; Natural Language Processing; Miscellaneous; Computer Vision
+Sentiment Analysis,12,Aspect-Based Sentiment Analysis (ABSA); Multimodal Sentiment Analysis; Aspect Sentiment Triplet Extraction; Twitter Sentiment Analysis; Aspect Term Extraction and Sentiment Classification; Arabic Sentiment Analysis; Persian Sentiment Analysis; target-oriented opinion words extraction; Fine-Grained Opinion Analysis; Vietnamese Aspect-Based Sentiment Analysis...,3,Natural Language Processing; Computer Vision
+Text Summarization,12,Abstractive Text Summarization; Document Summarization; Multi-Document Summarization; Opinion Summarization; Extractive Text Summarization; Sentence Compression; Sentence Summarization; Scientific Document Summarization; Unsupervised Opinion Summarization; Long-Form Narrative Summarization...,2,Knowledge Base; Natural Language Processing
+Time Series Analysis,12,Time Series Forecasting; Time Series Prediction; Model Optimization; Data Compression; Time Series Anomaly Detection; Time Series Clustering; Time Series Regression; Time Series Alignment; Semi-supervised time series classification; Time Series Averaging...,3,Time Series
+Class-Incremental Semantic Segmentation,12,Overlapped 10-1; Overlapped 15-5; Overlapped 15-1; Disjoint 15-1; Disjoint 15-5; Overlapped 100-5; Disjoint 10-1; Overlapped 100-50; Overlapped 50-50; Overlapped 100-10...,1,Computer Vision
+"1 Image, 2*2 Stitchi",12,Pose Estimation; Style Transfer; Text-to-Image Generation; Music Generation; Voice Conversion; Image Deblurring; Virtual Try-on; Talking Face Generation; Image to Video Generation; Pneumonia Detection...,6,Audio; Time Series; Reasoning; Music; Speech; Natural Language Processing; Medical; Robots; Knowledge Base; Computer Vision
+Image-to-Image Translation,11,Unsupervised Image-To-Image Translation; Synthetic-to-Real Translation; Multimodal Unsupervised Image-To-Image Translation; Image-to-Image Regression; Cross-View Image-to-Image Translation; Fundus to Angiography Generation; Facial Makeup Transfer; Virtual Try-Off; Real-to-Cartoon translation; Photo-To-Caricature Translation...,2,Computer Vision
+Speech Recognition,11,Automatic Speech Recognition (ASR); Visual Speech Recognition; Robust Speech Recognition; Target Speaker Extraction; Distant Speech Recognition; Automatic Lyrics Transcription; Sequence-To-Sequence Speech Recognition; Accented Speech Recognition; Noisy Speech Recognition; Speech Language Identification...,3,Audio; Speech
+Activity Recognition,11,Action Recognition; Human Activity Recognition; Group Activity Recognition; Egocentric Activity Recognition; Multimodal Activity Recognition; Human action generation; Cross-Domain Activity Recognition; Recognizing And Localizing Human Actions; Stay Region Extraction; Concurrent Activity Recognition...,4,Robots; Time Series; Computer Vision
+Recommendation Systems,11,Graph Neural Network; Sequential Recommendation; Session-Based Recommendations; Multimodal Recommendation; Multi-modal Recommendation; Multimedia recommendation; Interactive Recommendation; Knowledge-Aware Recommendation; Multibehavior Recommendation; Multi-Media Recommendation...,1,Knowledge Base; Graphs; Miscellaneous
+Optical Character Recognition (OCR),10,Active Learning; Handwritten Text Recognition; Handwriting Recognition; Handwritten Digit Recognition; Irregular Text Recognition; Handwritten Chinese Text Recognition; Offline Handwritten Chinese Character Recognition; Word Spotting In Handwritten Documents; Handwritten Digit Image Synthesis; Grapheme Detection,2,Methodology; Natural Language Processing; Computer Vision
+Depth Estimation,10,Monocular Depth Estimation; Stereo Depth Estimation; Depth And Camera Motion; 3D Depth Estimation; Depth Map Super-Resolution; Stereo-LiDAR Fusion; Indoor Monocular Depth Estimation; Depth Aleatoric Uncertainty Estimation; Depth Image Upsampling; Bathymetry prediction,2,Computer Vision
+Cancer,10,Breast Cancer Detection; Lung Cancer Diagnosis; Skin Cancer Classification; Breast Cancer Histology Image Classification; Classification Of Breast Cancer Histology Images; Respiratory motion forecasting; Prediction Of Cancer Cell Line Sensitivity; Oral Cancer Classification; Discovery Of Integrative Cancer Subtypes; Colon Cancer Detection In Confocal Laser Microscopy Images,2,Medical; Knowledge Base; Computer Vision
+Image Enhancement,10,Low-Light Image Enhancement; UIE; Image Relighting; De-aliasing; Document Enhancement; Color Manipulation; Local Color Enhancement; wavelet structure similarity loss; Film Simulation; Vignetting Removal,1,Computer Vision
+Machine Translation,10,Transliteration; Multimodal Machine Translation; Bilingual Lexicon Induction; Unsupervised Machine Translation; Low-Resource Neural Machine Translation; Automatic Post-Editing; Low Resource Neural Machine Translation; Low Resource NMT; Clinical Language Translation; Legal Document Translation,2,Natural Language Processing
+Object Tracking,10,Multi-Object Tracking; Visual Object Tracking; Multiple Object Tracking; Video Object Tracking; Cell Tracking; Online Multi-Object Tracking; Thermal Infrared Object Tracking; Sports Ball Detection and Tracking; Pupil Tracking; Amodal Tracking,3,Computer Vision
+Image Retrieval,10,Sketch-Based Image Retrieval; Content-Based Image Retrieval; Medical Image Retrieval; Composed Image Retrieval (CoIR); Multi-Label Image Retrieval; Face Image Retrieval; Video-to-Shop; Image Instance Retrieval; Semi-Supervised Sketch Based Image Retrieval; Chat-based Image Retrieval,2,Computer Vision
+3D Human Pose Estimation,9,Pose Prediction; Monocular 3D Human Pose Estimation; 3D Multi-Person Pose Estimation; 3D human pose and shape estimation; Weakly-supervised 3D Human Pose Estimation; Multi-Hypotheses 3D Human Pose Estimation; Egocentric Pose Estimation; 3D Absolute Human Pose Estimation; Global 3D Human Pose Estimation,4,Computer Vision
+Visual Question Answering (VQA),9,Visual Question Answering; Machine Reading Comprehension; Chart Understanding; Chart Question Answering; 3D Question Answering (3D-QA); Embodied Question Answering; Generative Visual Question Answering; Factual Visual Question Answering; Multimodal Colonoscopy,3,Natural Language Processing; Computer Vision
+Scene Parsing,9,Scene Understanding; Scene Graph Generation; Scene Text Recognition; Scene Recognition; Face Parsing; Indoor Scene Synthesis; Indoor Scene Reconstruction; Scene Labeling; Street Scene Parsing,3,Computer Vision
+Temporal Action Localization,8,Weakly-supervised Temporal Action Localization; 3D Action Recognition; Weakly Supervised Action Localization; Temporal Action Proposal Generation; Activity Recognition In Videos; Action Recognition In Still Images; Open-vocab Temporal Action Detection; Temporal Group Activity Localization,4,Computer Vision
+Sleep Quality,8,Sleep Stage Detection; Spindle Detection; Sleep apnea detection; Multimodal Sleep Stage Detection; Sleep Micro-event detection; Sleep Arousal Detection; K-complex detection; Sleep Quality Prediction,3,Medical
+Remote Sensing,8,Remote Sensing Image Classification; Change detection for remote sensing images; Building change detection for remote sensing images; Segmentation Of Remote Sensing Imagery; The Semantic Segmentation Of Remote Sensing Imagery; Extracting Buildings In Remote Sensing Images; Lake Detection; Denoising Of Radar Micro-Doppler Signatures,2,Methodology; Miscellaneous; Computer Vision
+Action Detection,8,Skeleton Based Action Recognition; Human Activity Recognition; Online Action Detection; Audio-Visual Active Speaker Detection; Fine-Grained Action Detection; Action Triplet Detection; Few Shot Temporal Action Localization; Multiple Action Detection,2,Time Series; Computer Vision
+Image Captioning,8,3D dense captioning; controllable image captioning; Relational Captioning; Semi Supervised Learning for Image Captioning; Aesthetic Image Captioning; Vietnamese Image Captioning; Patent Figure Description Generation; Hindi Image Captioning,2,Natural Language Processing; Computer Vision
+Aspect-Based Sentiment Analysis (ABSA),8,Aspect Extraction; Aspect Category Sentiment Analysis; Extract Aspect; Aspect-oriented  Opinion Extraction; Aspect-Category-Opinion-Sentiment Quadruple Extraction; Extract aspect-polarity tuple; Aspect-Sentiment-Opinion Triplet Extraction; Aspect Category Sentiment Classification,2,Natural Language Processing
+Super-Resolution,7,Image Super-Resolution; Video Super-Resolution; Reference-based Super-Resolution; Depth Map Super-Resolution; Image Rescaling; Reference-based Video Super-Resolution; 3D Object Super-Resolution,3,Graphs; Computer Vision
+Electroencephalogram (EEG),7,EEG; Eeg Decoding; EEG Denoising; Attention Score Prediction; Noise Level Prediction; Semanticity prediction; LWR Classification,2,Methodology; Medical; Time Series
+X-Ray,7,Low-Dose X-Ray Ct Reconstruction; Bone Suppression From Dual Energy Chest X-Rays; Medical X-Ray Image Segmentation; Joint Vertebrae Identification And Localization In Spinal Ct Images; Finding Pulmonary Nodules In Large-Scale Ct Images; Mapping Of Lung Nodules In Low-Dose Ct Images; Cbct Artifact Reduction,1,Medical
+Video Understanding,7,Video Quality Assessment; Anomaly Detection In Surveillance Videos; Video Alignment; Temporal Sentence Grounding; Streaming video understanding; Causal Discovery in Video Reasoning; Long-video Activity Recognition,1,Computer Vision
+Data Mining,7,Argument Mining; Opinion Mining; cognitive diagnosis; Subgroup Discovery; Sequential Pattern Mining; Parallel Corpus Mining; CSV dialect detection,2,Methodology; Natural Language Processing; Computer Code
+Image Quality Assessment,7,No-Reference Image Quality Assessment; Full reference image quality assessment; Full-Reference Image Quality Assessment; Aesthetics Quality Assessment; Stereoscopic image quality assessment; Image Quality Estimation; Document Image Quality Assessment,2,Computer Vision
+3D Reconstruction,7,Point cloud reconstruction; 3D Semantic Scene Completion; Garment Reconstruction; 3D Room Layouts From A Single RGB Panorama; Unsupervised 3D Human Pose Estimation; 3D Shape Reconstruction from Videos; 3D Wireframe Reconstruction,3,Methodology; Computer Vision
+Zero-Shot Learning,7,Temporal Action Localization; Generalized Zero-Shot Learning; Compositional Zero-Shot Learning; Multi-label zero-shot learning; GZSL Video Classification; Transductive Zero-Shot Classification; Zero-shot gesture recognition,5,Methodology; Computer Vision
+Semantic Parsing,7,Text-To-SQL; AMR Parsing; Semantic Dependency Parsing; DRS Parsing; UCCA Parsing; text-to-Cypher; Unsupervised semantic parsing,2,Natural Language Processing
+Video Object Segmentation,7,Semi-Supervised Video Object Segmentation; Unsupervised Video Object Segmentation; Referring Video Object Segmentation; Video Salient Object Detection; Interactive Video Object Segmentation; Video Shadow Detection; Long-tail Video Object Segmentation,2,Computer Vision
+Text-to-Image Generation,7,text-guided-image-editing; Text-based Image Editing; Concept Alignment; Zero-Shot Text-to-Image Generation; Conditional Text-to-Image Synthesis; Consistent Character Generation; DreamBooth Personalized Generation,1,Natural Language Processing; Computer Vision
+Graph Property Prediction,7,SAXS regression; XRD regression; X-ray PDF regression; SANS regression; ND regression; Neutron PDF regression; Neutron PDF,1,Graphs
+Mathematical Reasoning,7,Math Word Problem Solving; Formal Logic; Geometry Problem Solving; Abstract Algebra; Mathematical Induction; High School Mathematics; Professional Accounting,1,Knowledge Base; Natural Language Processing; Reasoning
+General Knowledge,7,Natural Questions; TriviaQA; Miscellaneous; Movie Recommendation; Sports Understanding; Similarities Abstraction; Global Facts,1,Miscellaneous
+Link Prediction,6,Inductive Link Prediction; Dynamic Link Prediction; Hyperedge Prediction; Calibration for Link Prediction; Anchor link prediction; Link prediction on DH-KGs,1,Graphs; Natural Language Processing
+Style Transfer,6,Image Stylization; Style Generalization; Font Style Transfer; Face Transfer; Reverse Style Transfer; Serial Style Transfer,2,Computer Vision
+Multi-Object Tracking,6,3D Multi-Object Tracking; Real-Time Multi-Object Tracking; Referring Multi-Object Tracking; Multi-Animal Tracking with identification; Grounded Multiple Object Tracking; Trajectory Long-tail Distribution for Muti-object Tracking,2,Computer Vision
+Time Series Forecasting,6,Multivariate Time Series Forecasting; Probabilistic Time Series Forecasting; Univariate Time Series Forecasting; New Product Sales Forecasting; Correlated Time Series Forecasting; COVID-19 Tracking,2,Time Series
+Language Modelling,6,XLM-R; Long-range modeling; Protein Language Model; Sentence Pair Modeling; Cross-Document Language Modeling; Controllable Language Modelling,3,Medical; Natural Language Processing; Miscellaneous
+Hand,6,Hand Pose Estimation; Hand Gesture Recognition; Hand-Gesture Recognition; Hand Segmentation; Gesture-to-Gesture Translation; Hand Keypoint Localization,4,Computer Vision
+Video Captioning,6,Dense Video Captioning; Boundary Captioning; Live Video Captioning; Visual Text Correction; Audio-Visual Video Captioning; Video Boundary Captioning,2,Computer Vision
+Denoising,6,Image Denoising; Color Image Denoising; Sar Image Despeckling; Grayscale Image Denoising; Salt-And-Pepper Noise Removal; 3D Mesh Denoising,2,Computer Vision
+3D Action Recognition,6,Skeleton Based Action Recognition; Model Editing; Image Manipulation Detection; motion retargeting; Zero Shot Skeletal Action Recognition; Generalized Zero Shot skeletal action recognition,2,Natural Language Processing; Computer Vision
+Video Games,6,Atari Games; Starcraft II; Real-Time Strategy Games; Dota 2; FPS Games; SNES Games,2,Playing Games
+Face Recognition,6,Face Image Quality Assessment; Lightweight Face Recognition; Synthetic Face Recognition; Age-Invariant Face Recognition; Face Quality Assessement; Unsupervised face recognition,2,Methodology; Computer Vision
+Autonomous Driving,6,Motion Forecasting; Bench2Drive; NavSim; CARLA MAP Leaderboard; 3D Pedestrian Tracking; Dead-Reckoning Prediction,2,Robots; Miscellaneous; Computer Vision
+Information Retrieval,6,Passage Retrieval; TAR; Cross-Lingual Information Retrieval; Table Search; Scientific Results Extraction; Zero Shot on BEIR (Inference Free Model),1,Natural Language Processing
+Scene Understanding,6,Video Semantic Segmentation; Visual Relationship Detection; Lighting Estimation; 3D Room Layouts From A Single RGB Panorama; road scene understanding; Outdoor Light Source Estimation,2,Computer Vision
+Program Repair,6,Fault localization; Variable misuse; Exception type; Function-docstring mismatch; Wrong binary operator; Swapped operands,1,Computer Code; Reasoning
+Table annotation,6,Column Type Annotation; Cell Entity Annotation; Columns Property Annotation; Table Type Detection; Row Annotation; Metric-Type Identification,1,Knowledge Base; Natural Language Processing
+Argument Mining,6,Key Point Matching; Component Classification; Argument Pair Extraction (APE); Claim Extraction with Stance Classification (CESC); Claim-Evidence Pair Extraction (CEPE); ValNov,1,Natural Language Processing
+2D Human Pose Estimation,6,Articles; Style Transfer; Community Question Answering; Action Anticipation; 3D Face Animation; Semi-Supervised Human Pose Estimation,3,Knowledge Base; Reasoning; Computer Vision
+Reinforcement Learning (RL),6,Off-policy evaluation; Multi-Objective Reinforcement Learning; 3D Point Cloud Reinforcement Learning; RoomEnv-v1; RoomEnv-v0; RoomEnv-v2,1,Methodology; Knowledge Base; Computer Code; Computer Vision
+Binary Classification,6,"LLM-generated Text Detection; Cancer-no cancer per image classification; Cancer-no cancer per breast classification; Suspicous (BIRADS 4,5)-no suspicous (BIRADS 1,2,3) per image classification; Stable MCI vs Progressive MCI; Cancer-no cancer per view classification",1,Natural Language Processing; Computer Vision
+16k,6,Object Detection; Image Super-Resolution; Image Deblurring; Scene Generation; Shadow Removal; Highlight Detection,3,Methodology; Miscellaneous; Playing Games; Medical; Computer Vision
+Code Generation,5,Code Translation; Code Documentation Generation; GitHub issue resolution; Class-level Code Generation; Library-Oriented Code Generation,2,Natural Language Processing; Computer Code; Reasoning
+Knowledge Graphs,5,Knowledge Graph Completion; Complex Query Answering; Open Knowledge Graph Canonicalization; Relational Pattern Learning; Person-Centric Knowledge Graphs,4,Knowledge Base; Graphs
+Chinese,5,Chinese Word Segmentation; Handwritten Chinese Text Recognition; Offline Handwritten Chinese Character Recognition; Chinese Zero Pronoun Resolution; Chinese Spelling Error Correction,1,Natural Language Processing
+Electromyography (EMG),5,EMG Gesture Recognition; ALS Detection; EMG Signal Prediction; Medial knee JRF Prediction; Muscle Force Prediction,1,Medical
+Medical Diagnosis,5,Alzheimer's Disease Detection; Retinal OCT Disease Classification; Thoracic Disease Classification; Blood Cell Count; CBC TEST,1,Medical; Computer Vision
+Object Localization,5,Weakly-Supervised Object Localization; Image-Based Localization; Unsupervised Object Localization; Monocular 3D Object Localization; Active Object Localization,1,Computer Vision
+Dependency Parsing,5,Transition-Based Dependency Parsing; Prepositional Phrase Attachment; Unsupervised Dependency Parsing; Dependency Grammar Induction; Cross-lingual zero-shot dependency parsing,1,Natural Language Processing
+Robot Navigation,5,Social Navigation; PointGoal Navigation; Sequential Place Learning; ObjectGoal Navigation; VNLA,2,Robots; Computer Vision
+Program Synthesis,5,Program Repair; Type prediction; Value prediction; Enumerative Search; SQL Synthesis,2,Computer Code; Reasoning
+Image Reconstruction,5,MRI Reconstruction; CT Reconstruction; Blind Super-Resolution; Film Removal; WiFi CSI-based Image Reconstruction,3,Medical; Miscellaneous; Computer Vision
+Graph Embedding,5,Knowledge Graph Embedding; Knowledge Graph Embeddings; Dynamic graph embedding; Structural Node Embedding; Role Embedding,2,Graphs
+Face Generation,5,Talking Head Generation; Talking Face Generation; Facial expression generation; Face Age Editing; Kinship face generation,2,Computer Vision
+Facial Expression Recognition (FER),5,Cross-corpus; Micro-Expression Recognition; Micro-Expression Spotting; 3D Facial Expression Recognition; Smile Recognition,1,Computer Vision
+DeepFake Detection,5,Audio Deepfake Detection; Synthetic Speech Detection; Human Detection of Deepfakes; Multimodal Forgery Detection; diffusion-generated faces detection,1,Audio; Speech; Miscellaneous; Computer Vision
+3D Semantic Segmentation,5,Robust 3D Semantic Segmentation; Real-Time 3D Semantic Segmentation; Unsupervised 3D Semantic Segmentation; furniture segmentation; 3D Point Cloud Part Segmentation,1,Computer Vision
+Image Super-Resolution,5,Multi-Frame Super-Resolution; Stereo Image Super-Resolution; Burst Image Super-Resolution; satellite image super-resolution; Multispectral Image Super-resolution,2,Computer Vision
+Node Classification,5,Graph structure learning; Node Classification on Non-Homophilic (Heterophilic) Graphs; Heterogeneous Node Classification; Dynamic Node Classification; Atomic number classification,1,Graphs
+Continual Learning,5,Class Incremental Learning; Continual Named Entity Recognition; unsupervised class-incremental learning; Continual Panoptic Segmentation; TiROD,3,Methodology; Natural Language Processing; Computer Vision
+3D Object Detection,5,Monocular 3D Object Detection; Robust 3D Object Detection; Multiview Detection; 3D Object Detection From Stereo Images; Robust BEV Detection,1,Computer Vision
+Federated Learning,5,Personalized Federated Learning; Vertical Federated Learning; Collaborative Fairness; Model Posioning; Contribution Assessment,1,Methodology; Adversarial
+Video Retrieval,5,Video-Text Retrieval; Video Grounding; Video-Adverb Retrieval; Replay Grounding; Composed Video Retrieval (CoVR),2,Computer Vision
+Unsupervised Anomaly Detection,5,Unsupervised Anomaly Detection with Specified Settings -- 30% anomaly; Root Cause Ranking; Unsupervised Contextual Anomaly Detection; Anomaly Detection at Various Anomaly Percentages; Anomaly Detection at 30% anomaly,1,Graphs; Miscellaneous; Computer Vision
+Fact Checking,5,Misconceptions; Known Unknowns; Sentence Ambiguity; FEVER (2-way); FEVER (3-way),1,Miscellaneous
+Image Editing,5,Rolling Shutter Correction; Shadow Removal; Multimodel-guided image editing; Multimodal fashion image editing; Joint Deblur and Frame Interpolation,2,Computer Vision
+Cross-Modal Retrieval,5,Image-text matching; Cross-modal retrieval with noisy correspondence; multilingual cross-modal retrieval; Zero-shot Composed Person Retrieval; Cross-Modal Retrieval on RSITMD,1,Natural Language Processing; Computer Vision
+Video-based Generative Performance Benchmarking,5,Video-based Generative Performance Benchmarking (Contextual Understanding); Video-based Generative Performance Benchmarking (Correctness of Information); Video-based Generative Performance Benchmarking (Detail Orientation)); Video-based Generative Performance Benchmarking (Temporal Understanding); Video-based Generative Performance Benchmarking (Consistency),1,Reasoning
+Visual Question Answering,5,Spatial Reasoning; Object Hallucination; Explanatory Visual Question Answering; Vietnamese Visual Question Answering; MM-Vet v2,2,Natural Language Processing; Computer Vision
+Reconstruction,4,3D Human Reconstruction; Single-View 3D Reconstruction; 4D reconstruction; Single-Image-Based Hdr Reconstruction,2,Computer Vision; Reasoning
+Sketch,4,Sketch Recognition; Face Sketch Synthesis; Photo-To-Caricature Translation; Drawing Pictures,4,Computer Vision
+Transfer Learning,4,Multi-Task Learning; Auxiliary Learning; Transfer Reinforcement Learning; Unsupervised Domain Expansion,2,Methodology; Miscellaneous
+Ecommerce,4,Product Recommendation; Product Categorization; Online Ranker Evaluation; Online Review Rating,2,Miscellaneous
+Malware Classification,4,Malware Detection; Android Malware Detection; Behavioral Malware Classification; Behavioral Malware Detection,1,Miscellaneous
+Saliency Detection,4,Saliency Prediction; Co-Salient Object Detection; Video Saliency Detection; Unsupervised Saliency Detection,3,Computer Vision
+Outlier Detection,4,One-class classifier; outlier ensembles; Graph Outlier Detection; Outlier Interpretation,1,Methodology; Graphs
+Stance Detection,4,Zero-Shot Stance Detection; Few-Shot Stance Detection; Stance Detection (US Election 2020 - Biden); Stance Detection (US Election 2020 - Trump),1,Natural Language Processing
+Adversarial Attack,4,Backdoor Attack; Adversarial Text; Adversarial Attack Detection; Real-World Adversarial Attack,1,Adversarial; Computer Vision
+Action Localization,4,Temporal Action Localization; Action Segmentation; Spatio-Temporal Action Localization; Unusual Activity Localization,5,Computer Vision
+Audio Classification,4,Environmental Sound Classification; Audio Multiple Target Classification; Semi-supervised Audio Classification; Parkinson Detection from Speech,2,Audio
+Visual Tracking,4,Point Tracking; Rgb-T Tracking; Real-Time Visual Tracking; RF-based Visual Tracking,1,Computer Vision
+Image Retrieval with Multi-Modal Query,4,Cross-Modal Retrieval; Zero-Shot Cross-Modal Retrieval; Cross-Modal Information Retrieval; Multi-Modal Person Identification,2,Miscellaneous
+Cross-Lingual,4,Cross-Lingual Transfer; Cross-Lingual Document Classification; Cross-Lingual Entity Linking; Cross-Language Text Summarization,2,Natural Language Processing
+Image Clustering,4,Online Clustering; Face Clustering; Multi-view Subspace Clustering; Multi-modal Subspace Clustering,1,Computer Vision
+Multi-Label Classification,4,Missing Labels; Extreme Multi-Label Classification; Hierarchical Multi-label Classification; Medical Code Prediction,1,Methodology; Medical; Computer Vision; Reasoning
+Image Compression,4,Feature Compression; Jpeg Compression Artifact Reduction; Lossy-Compression Artifact Reduction; Color Image Compression Artifact Reduction,1,Computer Vision
+Object Counting,4,Exemplar-Free Counting; Few-shot Object Counting and Detection; Open-vocabulary object counting; Training-free Object Counting,1,Computer Vision
+Hyperspectral,4,Hyperspectral Image Classification; Hyperspectral Unmixing; Hyperspectral Image Segmentation; Classification Of Hyperspectral Images,2,Computer Vision
+Sentence Embeddings,4,Sentence Embedding; Sentence Compression; Joint Multilingual Sentence Representations; Sentence Embeddings For Biomedical Texts,2,Natural Language Processing
+Word Embeddings,4,Learning Word Embeddings; Multilingual Word Embeddings; Embeddings Evaluation; Contextualised Word Representations,1,Methodology; Natural Language Processing
+Photoplethysmography (PPG),4,Heart rate estimation; Blood pressure estimation; Photoplethysmography (PPG) heart rate estimation; Photoplethysmography (PPG) beat detection,3,Medical
+Audio Generation,4,Voice Cloning; Room Impulse Response (RIR); Audio Super-Resolution; Video-to-Sound Generation,1,Audio; Speech; Music
+Image Matching,4,Semantic correspondence; Patch Matching; set matching; Matching Disparate Images,2,Computer Vision
+Spoof Detection,4,Face Presentation Attack Detection; Detecting Image Manipulation; Cross-Domain Iris Presentation Attack Detection; Finger Dorsal Image Spoof Detection,1,Computer Vision
+Card Games,4,Game of Poker; Game of Hanabi; Solitaire; Klondike,1,Playing Games
+Speech Enhancement,4,Speech Dereverberation; Bandwidth Extension; Packet Loss Concealment; Speech Intelligibility Evaluation,1,Audio; Speech
+Molecular Property Prediction,4,3D Geometry Prediction; NMR J-coupling; Odor Descriptor Prediction; mixture property prediction,1,Methodology; Medical; Graphs; Miscellaneous
+Knowledge Graph Completion,4,Large Language Model; Triple Classification; Inductive knowledge graph completion; Inductive Relation Prediction,3,Knowledge Base; Graphs; Natural Language Processing
+3D Object Reconstruction,4,3D Object Reconstruction From A Single Image; CAD Reconstruction; Simulated Gaussian Manipulation; Feature Splatting,1,Computer Vision
+3D Point Cloud Classification,4,3D Object Classification; Few-Shot 3D Point Cloud Classification; Supervised Only 3D Point Cloud Classification; Zero-Shot Transfer 3D Point Cloud Classification,2,Computer Vision
+3D Absolute Human Pose Estimation,4,Image to 3D; 3D Face Animation; 3D Human Shape Estimation; Text-to-Face Generation,3,Knowledge Base; Robots; Computer Vision
+Action Segmentation,4,Unsupervised Action Segmentation; Skeleton Based Action Segmentation; Weakly Supervised Action Segmentation (Transcript); Weakly Supervised Action Segmentation (Action Set)),1,Computer Vision
+Sleep Staging,4,EEG based sleep staging; ECG based Sleep Staging; W-R-L-D Sleep Staging; W-R-N Sleep Staging,1,Time Series
+Referring Image Matting,4,Referring Image Matting (Expression-based); Referring Image Matting (Keyword-based); Referring Image Matting (RefMatte-RW100); Referring Image Matting (Prompt-based),1,Computer Vision
+Ethics,4,Moral Scenarios; Moral Permissibility; Business Ethics; Moral Disputes,1,Miscellaneous
+Speech Emotion Recognition,4,Vocal Bursts Intensity Prediction; Vocal Bursts Valence Prediction; Vocal Bursts Type Prediction; Cultural Vocal Bursts Intensity Prediction,1,Speech
+Brain Computer Interface,4,Motor Imagery; ERP; channel selection; SSVEP,3,Medical; Time Series
+Trajectory Prediction,3,Trajectory Forecasting; Human motion prediction; Out-of-Sight Trajectory Prediction,2,Time Series; Computer Vision
+Stock Market Prediction,3,Stock Price Prediction; Stock Prediction; Stock Trend Prediction,2,Time Series
+Data Integration,3,Entity Alignment; Entity Resolution; Table annotation,2,Knowledge Base; Natural Language Processing
+Relation Classification,3,Few-Shot Relation Classification; Implicit Discourse Relation Classification; Cause-Effect Relation Classification,1,Natural Language Processing
+Text-To-Image,3,Story Visualization; VGSI; Complex Scene Breaking and Synthesis,1,Computer Vision
+Crowds,3,Crowd Counting; Visual Crowd Analysis; Group Detection In Crowds,1,Computer Vision
+Natural Language Inference,3,Answer Generation; Visual Entailment; Cross-Lingual Natural Language Inference,1,Natural Language Processing; Reasoning
+Speaker Verification,3,Audio Deepfake Detection; Text-Independent Speaker Verification; Text-Dependent Speaker Verification,1,Speech
+Drug Discovery,3,Drug Response Prediction; Text-based de novo Molecule Generation; Therapeutics Data Commons,2,Medical
+Mammogram,3,Whole Mammogram Classification; Mass Segmentation From Mammograms; Breast Mass Segmentation In Whole Mammograms,1,Medical
+Skin,3,Skin Lesion Segmentation; Skin Lesion Classification; Skin Lesion Identification,1,Medical
+Semantic Role Labeling,3,Predicate Detection; Semantic Role Labeling (predicted predicates); Textual Analogy Parsing,1,Natural Language Processing
+Hate Speech Detection,3,Hope Speech Detection; Hate Speech Normalization; Hate Speech Detection CrisisHateMM Benchmark,2,Natural Language Processing
+Continuous Control,3,Car Racing; Steering Control; Drone Controller,1,Robots; Playing Games; Computer Vision
+Text Clustering,3,Short Text Clustering; Open Intent Discovery; Hierarchical Text Clustering,1,Natural Language Processing
+Music Generation,3,Music Performance Rendering; Multimodal Music Generation; Music Texture Transfer,1,Audio; Music
+Community Detection,3,Local Community Detection; Network Community Partition; Online Community Detection,1,Graphs
+Gesture Recognition,3,Hand Gesture Recognition; Hand-Gesture Recognition; RF-based Gesture Recognition,1,Computer Vision
+Human Interaction Recognition,3,One-Shot 3D Action Recognition; Dense contact estimation; Mutual Gaze,1,Computer Vision
+Visual Place Recognition,3,geo-localization; Indoor Localization; 3D Place Recognition,2,Computer Vision
+Image Inpainting,3,Cloud Removal; Facial Inpainting; Fine-Grained Image Inpainting,1,Computer Vision
+Tomography,3,Electron Tomography; Quantum State Tomography; Tomographic Reconstructions,1,Medical
+Colorization,3,Line Art Colorization; Point-interactive Image Colorization; Color Mismatch Correction,1,Computer Vision
+Game of Football,3,Pass Classification; Injury Prediction; Football Action Valuation,1,Playing Games
+Abstractive Text Summarization,3,Timeline Summarization; Multimodal Abstractive Text Summarization; Reader-Aware Summarization,1,Natural Language Processing
+Facial Landmark Detection,3,Unsupervised Facial Landmark Detection; 3D Facial Landmark Localization; Speech to Facial Landmark,1,Computer Vision
+Causal Inference,3,Counterfactual Inference; Heterogeneous Treatment Effect Estimation; IHDP-CATE,1,Knowledge Base; Miscellaneous
+Data-to-Text Generation,3,Visual Storytelling; KG-to-Text Generation; Unsupervised KG-to-Text Generation,2,Natural Language Processing
+Image Recognition,3,Fine-Grained Image Recognition; License Plate Recognition; Material Recognition,1,Computer Vision
+AutoML,3,Neural Architecture Search; Hyperparameter Optimization; Automated Feature Engineering,2,Methodology
+Autonomous Navigation,3,Sequential Place Recognition; Autonomous Web Navigation; Autonomous Flight (Dense Forest),1,Computer Vision; Robots; Reasoning
+Board Games,3,Game of Go; Game of Chess; Game of Shogi,1,Playing Games
+Event-based vision,3,Event-based Optical Flow; Event-based Motion Estimation; Event-Based Video Reconstruction,1,Computer Vision
+3D Multi-Person Pose Estimation,3,3D Multi-Person Pose Estimation (absolute); 3D Multi-Person Mesh Recovery; 3D Multi-Person Pose Estimation (root-relative),1,Computer Vision
+Graph Classification,3,Isomorphism Testing; Space group classification; Crystal system classification,1,Graphs
+Object Recognition,3,3D Object Recognition; Continuous Object Recognition; Depiction Invariant Object Recognition,1,Computer Vision
+Meta-Learning,3,Few-Shot Learning; Sample Probing; universal meta-learning,3,Methodology; Computer Vision
+RGB Salient Object Detection,3,Dichotomous Image Segmentation; Co-Salient Object Detection; Video Salient Object Detection,1,Computer Vision
+Physical Simulations,3,Neural Network simulation; Optical Tweezers Simulations; Liquid Simulation,1,Computer Code; Miscellaneous
+Activity Prediction,3,motion prediction; Cyber Attack Detection; Sequential skip prediction,2,Methodology; Time Series; Computer Vision
+Document Text Classification,3,Learning with noisy labels; Multi-Label Classification Of Biomedical Texts; Political Salient Issue Orientation Detection,1,Medical; Natural Language Processing; Computer Vision
+Few-Shot Image Classification,3,Unsupervised Few-Shot Image Classification; Unsupervised Few-Shot Learning; Generalized Few-Shot Classification,3,Computer Vision
+Text Style Transfer,3,Formality Style Transfer; Word Attribute Transfer; Semi-Supervised Formality Style Transfer,1,Natural Language Processing
+Motion Synthesis,3,motion in-betweening; Motion Style Transfer; Temporal Human Motion Composition,1,Computer Code; Computer Vision
+Deep Clustering,3,Trajectory Clustering; NONPARAMETRIC DEEP CLUSTERING; Deep Nonparametric Clustering,1,Methodology; Natural Language Processing; Miscellaneous
+3D Hand Pose Estimation,3,Grasp Generation; hand-object pose; 3D Canonical Hand Pose Estimation,2,Computer Vision
+Object Segmentation,3,Camouflaged Object Segmentation; Landslide segmentation; Text-Line Extraction,2,Computer Vision
+Event Extraction,3,NER; Event Causality Identification; Zero-shot Event Extraction,1,Natural Language Processing
+Discourse Parsing,3,Discourse Segmentation; End-to-End RST Parsing; Connective Detection,1,Natural Language Processing
+Explainable artificial intelligence,3,Explainable Models; Explanation Fidelity Evaluation; FAD Curve Analysis,1,Methodology; Computer Vision
+Temporal Processing,3,Temporal Information Extraction; Timex normalization; Document Dating,2,Natural Language Processing
+Audio Source Separation,3,Target Sound Extraction; Directional Hearing; Single-Label Target Sound Extraction,2,Audio
+Pronunciation Assessment,3,Phone-level pronunciation scoring; Word-level pronunciation scoring; Utterance-level pronounciation scoring,1,Speech
+Hope Speech Detection,3,Hope Speech Detection for English; Hope Speech Detection for Tamil; Hope Speech Detection for Malayalam,1,Natural Language Processing
+Video Segmentation,3,Camera shot boundary detection; Open-Vocabulary Video Segmentation; Open-World Video Segmentation,1,Computer Vision
+Video Frame Interpolation,3,eXtreme-Video-Frame-Interpolation; Unsupervised Video Frame Interpolation; 3D Video Frame Interpolation,2,Computer Vision
+Retrieval,3,Text Retrieval; Deep Hashing; Table Retrieval,1,Methodology; Natural Language Processing; Computer Vision
+Visual Grounding,3,3D visual grounding; Person-centric Visual Grounding; Phrase Extraction and Grounding (PEG),1,Computer Vision
+Stock Prediction,3,Text-Based Stock Prediction; PAIR TRADING; Event-Driven Trading,1,Natural Language Processing; Time Series
+Audio Signal Processing,3,blind source separation; Audio Compression; Audio Effects Modeling,2,Audio
+Emotional Intelligence,3,SNARKS; Ruin Names; Dark Humor Detection,1,Natural Language Processing
+Robot Manipulation,3,Robot Manipulation Generalization; Deformable Object Manipulation; Contact-rich Manipulation,1,Robots
+Text2text Generation,3,Keyphrase Generation; Sketch-to-text Generation; Figurative Language Visualization,1,Natural Language Processing
+Class Incremental Learning,3,Few-Shot Class-Incremental Learning; Class-Incremental Semantic Segmentation; Non-exemplar-based Class Incremental Learning,2,Methodology; Computer Vision
+Domain Generalization,3,Single-Source Domain Generalization; Source-free Domain Generalization; Evolving Domain Generalization,2,Computer Vision
+Conditional Image Generation,3,Human-Object Interaction Generation; Image-Guided Composition; Noisy Semantic Image Synthesis,1,Computer Vision
+Large Language Model,3,Knowledge Graphs; RAG; AI Agent,4,Methodology; Knowledge Base; Natural Language Processing
+Atomistic Description,3,Molecular Property Prediction; Formation Energy; Atomic Forces,2,Medical; Graphs; Miscellaneous
+Point Clouds,3,Cross-modal place recognition; point cloud video understanding; Point Cloud Rrepresentation Learning,1,Computer Vision
+Within-Session Motor Imagery,3,Within-Session Motor Imagery (all classes); Within-Session Motor Imagery (left hand vs. right hand); Within-Session Motor Imagery (right hand vs. feet),1,Medical
+Deblurring,2,Blind Image Deblurring; Single-Image Blind Deblurring,2,Computer Vision
+Text-To-Speech Synthesis,2,Prosody Prediction; Zero-Shot Multi-Speaker TTS,1,Audio; Speech; Natural Language Processing
+Stochastic Optimization,2,Evolutionary Algorithms; Distributed Optimization,1,Methodology; Miscellaneous
+Keyword Spotting,2,Small-Footprint Keyword Spotting; Visual Keyword Spotting,1,Speech; Computer Vision
+Dehazing,2,Image Dehazing; Single Image Dehazing,1,Computer Vision
+Disease Prediction,2,Retinal OCT Disease Classification; Disease Trajectory Forecasting,1,Medical; Computer Vision
+Summarization,2,Unsupervised Extractive Summarization; Query-focused Summarization,1,Natural Language Processing
+Video Question Answering,2,Zero-Shot Video Question Answer; Few-shot Video Question Answering,1,Reasoning; Computer Vision
+Time Series Classification,2,Semi-supervised time series classification; Classification on Time Series with Missing Data,1,Time Series
+Visual Odometry,2,Face Anti-Spoofing; Monocular Visual Odometry,1,Robots; Computer Vision
+Spoken Language Understanding,2,Spoken language identification; Speech Tokenization,1,Speech
+Patient Outcomes,2,Predicting Patient Outcomes; Outcome Prediction In Multimodal Mri,1,Medical
+Atrial Fibrillation,2,Atrial Fibrillation Detection; Atrial Fibrillation Recurrence Estimation,1,Medical
+Adversarial Defense,2,Adversarial Purification; Provable Adversarial Defense,1,Adversarial
+Temporal Localization,2,Language-Based Temporal Localization; Temporal Defect Localization,2,Computer Vision
+Semantic Textual Similarity,2,Paraphrase Identification; Cross-Lingual Semantic Textual Similarity,1,Natural Language Processing
+Music Classification,2,Singer Identification; Vocal technique classification,1,Music
+Language Identification,2,Dialect Identification; Native Language Identification,1,Audio; Natural Language Processing
+Visual Relationship Detection,2,Video Visual Relation Detection; Human-Object Relationship Detection,1,Computer Vision
+Slot Filling,2,Zero-shot Slot Filling; Extracting COVID-19 Events from Twitter,1,Natural Language Processing
+Camera Localization,2,Camera Relocalization; Cross-View Geo-Localisation,2,Computer Vision
+Scene Text Detection,2,Curved Text Detection; Multi-Oriented Scene Text Detection,2,Computer Vision
+Image Registration,2,distortion correction; Unsupervised Image Registration,1,Computer Vision
+Bird Classification,2,Bird Audio Detection; Bird Species Classification With Audio-Visual Data,1,Audio
+Human-Object Interaction Detection,2,Affordance Recognition; Hand-Object Interaction Detection,1,Computer Vision
+2D Pose Estimation,2,Category-Agnostic Pose Estimation; Overlapping Pose Estimation,1,Computer Vision
+Coreference Resolution,2,coreference-resolution; Cross Document Coreference Resolution,1,Natural Language Processing
+Data Augmentation,2,Image Augmentation; Text Augmentation,1,Methodology; Natural Language Processing; Computer Vision
+Gait Recognition,2,Multiview Gait Recognition; Gait Recognition in the Wild,1,Computer Vision
+Clustering,2,Constrained Clustering; Categorical data clustering,2,Methodology
+Saliency Prediction,2,Few-Shot Transfer Learning for Saliency Prediction; Aerial Video Saliency Prediction,2,Computer Vision
+Video Summarization,2,Unsupervised Video Summarization; Supervised Video Summarization,1,Computer Vision
+Dimensionality Reduction,2,Supervised dimensionality reduction; Online nonnegative CP decomposition,1,Methodology; Computer Vision
+Animation,2,Image Animation; 3D Character Animation From A Single Photo,2,Computer Vision
+Topic Models,2,Topic coverage; Dynamic Topic Modeling,1,Natural Language Processing
+Continual Semantic Segmentation,2,Overlapped 5-3; Overlapped 25-25,1,Computer Vision
+Motion Forecasting,2,Multi-Person Pose forecasting; Multiple Object Forecasting,1,Computer Vision
+Medical Image Registration,2,Diffeomorphic Medical Image Registration; BIRL,1,Medical
+Video Prediction,2,Earth Surface Forecasting; Predict Future Video Frames,1,Time Series; Computer Vision
+Interpretable Machine Learning,2,Data Mining; Abstention Prediction,3,Methodology
+Real-Time Strategy Games,2,Starcraft; Starcraft II,1,Playing Games
+Fake Image Detection,2,GAN image forensics; Fake Image Attribution,1,Computer Vision
+Anaphora Resolution,2,Bridging Anaphora Resolution; Abstract Anaphora Resolution,1,Natural Language Processing
+Quantization,2,Data Free Quantization; UNET Quantization,1,Methodology; Computer Vision
+Privacy Preserving Deep Learning,2,Membership Inference Attack; Homomorphic Encryption for Deep Learning,1,Methodology; Miscellaneous; Computer Vision
+Seismic Interpretation,2,Facies Classification; Seismic Detection,1,Miscellaneous
+Non-Linear Elasticity,2,Cantilever Beam; Stress-Strain Relation,1,Miscellaneous
+3D Object Classification,2,Generative 3D Object Classification; Cube Engraving Classification,1,Computer Vision
+3D Face Modelling,2,Continuous Control; Facial Recognition and Modelling,4,Medical; Playing Games; Computer Vision
+Novel View Synthesis,2,Novel LiDAR View Synthesis; Gournd video synthesis from satellite image,1,Computer Vision
+Multimodal Machine Translation,2,Face to Face Translation; Multimodal Lexical Translation,1,Natural Language Processing; Computer Vision
+Content-Based Image Retrieval,2,Drone navigation; Drone-view target localization,1,Computer Vision
+Synthetic Data Generation,2,Synthetic Data Evaluation; Synthetic Outliers Evaluation,1,Medical; Miscellaneous; Time Series
+Remote Sensing Image Classification,2,Webcam (RGB) image classification; Sentinel-1 SAR processing,1,Computer Code
+Self-Supervised Learning,2,Point Cloud Pre-training; Unsupervised Video Clustering,1,Computer Vision
+Dialogue Understanding,2,Spoken Language Understanding; Dialogue Safety Prediction,2,Natural Language Processing
+General Reinforcement Learning,2,Offline RL; Model-based Reinforcement Learning,2,Methodology; Robots; Playing Games; Reasoning
+Cross-Lingual Transfer,2,Zero-Shot Cross-Lingual Transfer; Cross-Lingual NER,1,Natural Language Processing
+Point Cloud Classification,2,Jet Tagging; Few-Shot Point Cloud Classification,1,Graphs; Computer Vision
+Referring Expression Segmentation,2,Generalized Referring Expression Segmentation; Weakly Supervised Referring Expression Segmentation,1,Computer Vision
+6D Pose Estimation,2,hand-object pose; Robot Pose Estimation,1,Computer Vision
+Video Generation,2,Image to Video Generation; Unconditional Video Generation,2,Natural Language Processing; Computer Vision
+Propaganda detection,2,Propaganda span identification; Propaganda technique identification,1,Natural Language Processing
+Graph Learning,2,Graph Sampling; Task Graph Learning,1,Graphs
+Talking Face Generation,2,Constrained Lip-synchronization; Face  Dubbing,1,Computer Vision
+Distributed Computing,2,Collaborative Inference; Distributed Voting,1,
+Protein Structure Prediction,2,Protein Interface Prediction; Protein complex prediction,1,Medical; Miscellaneous
+Natural Language Understanding,2,Vietnamese Social Media Text Processing; Emotional Dialogue Acts,1,Natural Language Processing
+Edge-computing,2,Tiling & Deployment; Device-Cloud Collaboration,1,Computer Code; Time Series
+Taxonomy Learning,2,Taxonomy Expansion; Hypernym Discovery,1,Natural Language Processing
+Breast Cancer Histology Image Classification,2,Breast Cancer Detection; Breast Cancer Histology Image Classification (20% labels),1,Knowledge Base; Computer Vision
+Multi-Task Learning,2,Multi-task Language Understanding; Task Arithmetic,1,Methodology
+Salient Object Detection,2,Saliency Ranking; RGB-T Salient Object Detection,1,Computer Vision
+Audio captioning,2,Retrieval-augmented Few-shot In-context Audio Captioning; Zero-shot Audio Captioning,1,Audio
+Token Classification,2,Toxic Spans Detection; Blackout Poetry Generation,1,Natural Language Processing
+Biomedical Information Retrieval,2,PICO; SpO2 estimation,1,Medical; Natural Language Processing
+De-identification,2,Privacy Preserving Deep Learning; Full-body anonymization,2,Natural Language Processing; Computer Vision
+Image Denoising,2,lifetime image denoising; intensity image denoising,1,Medical; Computer Vision
+road scene understanding,2,Monocular Cross-View Road Scene Parsing(Road); Monocular Cross-View Road Scene Parsing(Vehicle),1,Computer Vision
+3D Classification,2,3D Object Classification; MRI classification,2,Medical; Computer Vision
+Knowledge Distillation,2,Data-free Knowledge Distillation; Self-Knowledge Distillation,2,Natural Language Processing; Computer Vision
+Multiple Object Tracking,2,Multiple Object Tracking with Transformer; Multiple Object Track and Segmentation,1,Computer Vision
+Simultaneous Localization and Mapping,2,Semantic SLAM; Object SLAM,1,Computer Vision
+MRI Reconstruction,2,Quantitative MRI; Magnetic Resonance Fingerprinting,2,Medical
+Semi-supervised Anomaly Detection,2,Physical Video Anomaly Detection; General Action Video Anomaly Detection,1,Computer Vision
+Term Extraction,2,Nested Term Extraction; Nested Term Recognition,2,Natural Language Processing
+Scene Graph Generation,2,Unbiased Scene Graph Generation; Panoptic Scene Graph Generation,1,Computer Vision
+Conditional Text Generation,2,Multimedia Generative Script Learning; Contextualized Literature-based Discovery,1,Natural Language Processing
+Audio Effects Modeling,2,Pitch control; Timbre Interpolation,1,Audio
+Aspect Extraction,2,Hidden Aspect Detection; Latent Aspect Detection,1,Natural Language Processing
+Spam detection,2,Traditional Spam Detection; Context-specific Spam Detection,1,Natural Language Processing
+Blood pressure estimation,2,ECG Classification; Hypertension detection,3,Medical
+Grasp Generation,2,Grasp rectangle generation; Controllable Grasp Generation,1,Robots; Computer Vision
+Medical waveform analysis,2,Electrocardiography (ECG); Electromyography (EMG),5,Methodology; Medical
+SMAC,2,SMAC+; SMAC Plus,1,Playing Games
+Image Fusion,2,Pansharpening; Multi Focus Image Fusion,1,Computer Vision
+Semi-Supervised Image Classification,2,Open-World Semi-Supervised Learning; Semi-Supervised Image Classification (Cold Start),1,Computer Vision
+Video Grounding,2,Video Narrative Grounding; Boundary Grounding,1,Computer Vision
+Multimodal Text and Image Classification,2,image-sentence alignment; Open-World Social Event Classification,1,Natural Language Processing
+Intelligent Communication,2,Semantic Communication; Beam Prediction,1,Miscellaneous; Time Series
+Semantic Similarity,2,Semantic Shift Detection; Similarity Explanation,1,Methodology; Natural Language Processing
+3D Anomaly Detection,2,Video Anomaly Detection; Artifact Detection,2,Computer Vision
+Handwritten Text Recognition,2,Handwritten Document Recognition; Unsupervised Text Recognition,1,Adversarial; Computer Vision
+Pcl Detection,2,SemEval-2022 Task 4-1 (Binary PCL Detection); SemEval-2022 Task 4-2 (Multi-label PCL Detection),1,Music; Natural Language Processing; Miscellaneous
+Surgical phase recognition,2,Online surgical phase recognition; Offline surgical phase recognition,1,Computer Vision
+Text-to-Video Generation,2,Text-to-Video Editing; Subject-driven Video Generation,2,Natural Language Processing; Computer Vision
+Handwriting Recognition,2,Handwritten Line Segmentation; Handwritten Word Segmentation,1,Computer Vision
+Transcription Factor Binding Site Prediction,2,Transcription Factor Binding Site Prediction (Human); Transcription Factor Binding Site Prediction (Mouse),1,Medical
+Node Property Prediction,2,Position regression; Research Performance Prediction,1,Graphs
+Facial Expression Recognition,2,Cross-Domain Facial Expression Recognition; Zero-Shot Facial Expression Recognition,1,Computer Vision
+Constrained Clustering,2,Only Connect Walls Dataset Task 1 (Grouping); Incremental Constrained Clustering,1,Methodology; Natural Language Processing
+Hearing Aid and device processing,2,Cadenza 1 - Task 1 - Headphone; Cadenza 1 - Task 2 - In Car,1,Audio
+Diffusion Personalization,2,Diffusion Personalization Tuning Free; Efficient Diffusion Personalization,1,Computer Vision
+regression,2,quantile regression; Travel Time Estimation,1,Methodology; Miscellaneous; Time Series; Computer Vision
+Panoptic Segmentation,2,Video Panoptic Segmentation; Uncertainty-Aware Panoptic Segmentation,1,Computer Vision
+Computer Vision Techniques Adopted in 3D Cryogenic Electron Microscopy,2,Single Particle Analysis; Cryogenic Electron Tomography,2,Computer Vision
+Video Classification,2,Student Engagement Level Detection (Four Class Video Classification); Multi Class Classification (Four-level Video Classification),1,Computer Vision
+No-Reference Image Quality Assessment,2,NR-IQA; Blind Image Quality Assessment,1,Computer Vision
+AI Agent,2,Agent-based model inverse problem; N-Queens Problem - All Possible Solutions,1,Methodology; Robots
+"1 Image, 2*2 Stitching",2,Image-to-Image Translation; Fake Image Detection,3,Miscellaneous; Computer Vision
+Source-Free Domain Adaptation,2,Source Free Object Detection; 3D Source-Free Domain Adaptation,1,Computer Vision
+Subject-driven Video Generation,2,Human Animation; Audio-Driven Body Animation,1,Computer Vision
+LMM real-life tasks,2,Short Question Answers; Long Question Answer,1,Computer Vision
+How To Refund A Wrong Transaction In Phonepe ,2,Community Question Answering; How to refund a wrong transaction in PhonePe,1,Methodology; Knowledge Base
+Navigate,2,Go to AnyThing; Universal Navigation,1,Robots
+Indoor Localization,2,"Indoor Localization (3-DoF Pose: X, Y, Yaw); Indoor Localization (6-DoF Pose)",1,Computer Vision
+Part-Of-Speech Tagging,1,Unsupervised Part-Of-Speech Tagging,1,Natural Language Processing
+Instance Search,1,Audio Fingerprint,1,Audio; Computer Vision
+Imputation,1,Multivariate Time Series Imputation,1,Time Series; Computer Vision
+Rain Removal,1,Single Image Deraining,1,Computer Vision
+Forgery,1,Localization In Video Forgery,1,Computer Vision
+Deception Detection,1,Deception Detection In Videos,1,Miscellaneous; Computer Vision
+Color Constancy,1,Few-Shot Camera-Adaptive Color Constancy,1,Computer Vision
+Length-of-Stay prediction,1,Remaining Length of Stay,1,Medical
+Decision Making,1,Imitation Learning,2,Methodology; Reasoning
+Visual Reasoning,1,Visual Commonsense Reasoning,1,Reasoning; Computer Vision
+Pulmorary Vessel Segmentation,1,Pulmonary Artery–Vein Classification,1,Computer Vision
+Speech Separation,1,Speech Extraction,1,Speech
+Word Sense Disambiguation,1,Word Sense Induction,1,Natural Language Processing
+Speaker Separation,1,Multi-Speaker Source Separation,1,Speech
+Advertising,1,Detecting Adverts,1,Miscellaneous
+Matrix Completion,1,Low-Rank Matrix Completion,1,Methodology
+Abuse Detection,1,Hate Speech Detection,3,Natural Language Processing
+Intrusion Detection,1,Network Intrusion Detection,1,Natural Language Processing; Miscellaneous
+Negation Detection,1,Negation Scope Resolution,1,Natural Language Processing
+Boundary Detection,1,Junction Detection,1,Computer Vision
+Robotic Grasping,1,Grasp Contact Prediction,1,Robots; Miscellaneous
+Automatic Machine Learning Model Selection,1,Smart Grid Prediction,1,Methodology; Miscellaneous
+Robot Task Planning,1,Task Planning,1,Robots; Reasoning
+Open Information Extraction,1,Event Extraction,2,Natural Language Processing
+Lexical Normalization,1,Pronunciation Dictionary Creation,1,Natural Language Processing
+Grammatical Error Correction,1,Grammatical Error Detection,1,Natural Language Processing
+Environmental Sound Classification,1,Self-Supervised Sound Classification,1,Audio
+Entity Alignment,1,Multi-modal Entity Alignment,1,Knowledge Base; Natural Language Processing
+ECG Classification,1,Photoplethysmography (PPG),3,Medical
+Intent Detection,1,Open Intent Detection,1,Natural Language Processing
+Shadow Detection,1,Shadow Detection And Removal,1,Computer Vision
+Point Cloud Registration,1,Image to Point Cloud Registration,1,Computer Vision
+Audio Signal Recognition,1,Gunshot Detection,1,Audio
+Audio-Visual Speech Recognition,1,Text to Speech,1,Speech
+Visual Navigation,1,ObjectGoal Navigation,2,Robots; Computer Vision
+Landmark Tracking,1,Muscle Tendon Junction Identification,1,Medical; Computer Vision
+Ad-Hoc Information Retrieval,1,Document Ranking,2,Natural Language Processing
+Lexical Analysis,1,Lexical Complexity Prediction,1,Natural Language Processing
+Point Cloud Generation,1,Point Cloud Completion,2,Computer Vision
+Multiobjective Optimization,1,Crashworthiness optimisation,1,Methodology
+Neural Architecture Search,1,Activation Function Synthesis,1,Methodology
+Human Dynamics,1,3D Human Dynamics,2,Computer Vision
+Iris Recognition,1,Pupil Dilation,1,Medical; Computer Vision
+Multi-Label Image Classification,1,Multi-label Image Recognition with Partial Labels,1,Computer Vision
+Multi-Label Learning,1,Missing Labels,1,Methodology; Reasoning
+Image/Document Clustering,1,Self-Organized Clustering,1,Miscellaneous; Computer Vision
+Image Categorization,1,Fine-Grained Visual Categorization,1,Computer Vision
+Entity Resolution,1,Blocking,1,Natural Language Processing
+Model Compression,1,Neural Network Compression,1,Methodology; Miscellaneous
+Optical Flow Estimation,1,Video Stabilization,1,Computer Vision
+Object Reconstruction,1,3D Object Reconstruction,2,Computer Vision
+Computational Phenotyping,1,Patient Phenotyping,1,Medical
+Eeg Decoding,1,EEG Signal Classification,1,Medical; Time Series
+Constituency Parsing,1,Constituency Grammar Induction,1,Natural Language Processing
+Graph Clustering,1,Clustering Ensemble,1,Graphs
+Source Code Summarization,1,Method name prediction,1,Natural Language Processing; Computer Code
+Brain Decoding,1,Brain Computer Interface,4,Medical; Miscellaneous
+Spatio-Temporal Forecasting,1,Human Behavior Forecasting,2,Time Series
+Lipreading,1,Landmark-based Lipreading,1,Computer Vision
+Atari Games,1,Montezuma's Revenge,1,Playing Games
+Imitation Learning,1,Behavioural cloning,1,Methodology
+Talking Head Generation,1,Unconstrained Lip-synchronization,1,Computer Vision
+Image Instance Retrieval,1,Amodal Instance Segmentation,1,Computer Vision
+Hand Pose Estimation,1,3D Hand Pose Estimation,3,Graphs; Computer Vision
+Spectral Estimation,1,Spectral Estimation From A Single Rgb Image,1,Computer Vision
+MULTI-VIEW LEARNING,1,Incomplete multi-view clustering,1,Computer Vision
+Phrase Grounding,1,Grounded Open Vocabulary Acquisition,1,Natural Language Processing
+Extractive Text Summarization,1,Reader-Aware Summarization,1,Natural Language Processing
+Language Modeling,1,Dream Generation,1,Natural Language Processing
+Gaussian Processes,1,GPR,1,Methodology; Miscellaneous
+Dynamic graph embedding,1,Knowledge Base Completion,1,Graphs
+Conversational Response Generation,1,Personalized and Emotional Conversation,1,Natural Language Processing
+Traffic Prediction,1,Traffic Data Imputation,1,Time Series
+Ultrasound,1,Brain Ventricle Localization And Segmentation In 3D Ultrasound Images,1,Medical
+Code Search,1,Annotated Code Search,1,Computer Code
+Face Detection,1,Occluded Face Detection,1,Computer Vision
+Face Verification,1,Disguised Face Verification,1,Computer Vision
+Computed Tomography (CT),1,Stroke Classification,1,Methodology
+Face Reconstruction,1,3D Face Reconstruction,5,Computer Vision
+hypergraph embedding,1,hyperedge classification,1,Graphs
+Active Learning,1,Active Object Detection,1,Methodology; Natural Language Processing; Computer Vision
+Visual Recognition,1,Fine-Grained Visual Recognition,1,Computer Vision
+Shape Representation Of 3D Point Clouds,1,3D Point Cloud Reconstruction,4,Computer Vision
+Video Semantic Segmentation,1,Camera shot segmentation,1,Computer Vision
+Intelligent Surveillance,1,Vehicle Re-Identification,1,Computer Vision
+Multi-agent Reinforcement Learning,1,SMAC,2,Methodology; Playing Games
+Natural Language Transduction,1,Lipreading,2,Natural Language Processing; Computer Vision
+FPS Games,1,Game of Doom,1,Playing Games
+Language Acquisition,1,Grounded language learning,1,Natural Language Processing
+Artificial Life,1,Developmental Learning,1,Robots; Miscellaneous
+Interest Point Detection,1,Homography Estimation,1,Computer Vision
+Lung Nodule Detection,1,Lung Nodule 3D Detection,1,Medical; Computer Vision
+Document Layout Analysis,1,MS-SSIM,1,Computer Vision
+Pose Tracking,1,3D Human Pose Tracking,3,Computer Vision
+Few-Shot Semantic Segmentation,1,Generalized Few-Shot Semantic Segmentation,1,Computer Vision
+Unsupervised Image-To-Image Translation,1,Sensor Modeling,1,Computer Vision
+Scene Flow Estimation,1,Self-supervised Scene Flow Estimation,1,Computer Vision
+Activity Recognition In Videos,1,Activity Prediction,3,Time Series; Computer Vision
+Bayesian Optimisation,1,Bayesian Optimization,2,Methodology
+Question Similarity,1,Medical question pair similarity computation,1,Natural Language Processing
+Image Matting,1,Semantic Image Matting,1,Computer Vision
+Density Estimation,1,Arbitrary Conditional Density Estimation,1,Methodology
+Document Ranking,1,Session Search,1,Natural Language Processing
+Lung Nodule Classification,1,Lung Nodule 3D Classification,2,Medical; Computer Vision
+Clustering Algorithms Evaluation,1,Novel Class Discovery,1,Methodology
+Fine-Grained Image Classification,1,Displaced People Recognition,1,Computer Vision
+Chatbot,1,Dialogue Generation,2,Methodology; Speech; Natural Language Processing
+Table-to-Text Generation,1,KB-to-Language Generation,1,Natural Language Processing
+3D Face Animation,1,Video Super-Resolution,2,Playing Games; Computer Vision
+Feature Engineering,1,Imputation,2,Methodology; Miscellaneous
+Observation Completion,1,Active Observation Completion,1,Computer Vision
+Mathematical Proofs,1,Automated Theorem Proving,1,Miscellaneous; Reasoning
+Bayesian Inference,1,Probabilistic Programming,1,Methodology
+Text-To-SQL,1,MMSQL performance,1,Natural Language Processing; Computer Code
+Decision Making Under Uncertainty,1,Uncertainty Visualization,1,Methodology; Reasoning; Computer Vision
+Multi-Armed Bandits,1,Thompson Sampling,1,Methodology; Miscellaneous
+Vision-Language Navigation,1,Vision-Language-Action,1,Robots; Computer Vision
+Human Parsing,1,Multi-Human Parsing,1,Computer Vision
+Medical Image Generation,1,Radiologist Binary Classification,1,Medical
+Mortality Prediction,1,ICU Mortality,1,Medical
+3D Shape Generation,1,Gesture Generation,1,Robots
+Sentence Compression,1,Unsupervised Sentence Compression,1,Natural Language Processing
+Entity Typing,1,Entity Typing on DH-KGs,1,Natural Language Processing
+Neural Network Security,1,Website Fingerprinting Defense,1,Adversarial; Miscellaneous
+Sentence Pair Modeling,1,Semantic Similarity,2,Natural Language Processing
+Speculation Detection,1,Speculation Scope Resolution,1,Natural Language Processing
+Weather Forecasting,1,Solar Irradiance Forecasting,1,Miscellaneous; Time Series
+Cross-Domain Few-Shot,1,cross-domain few-shot learning,1,Computer Vision
+Value prediction,1,Body Mass Index (BMI) Prediction,1,Computer Code; Computer Vision
+Reinforcement Learning,1,Deep Reinforcement Learning,1,Methodology; Natural Language Processing
+The Semantic Segmentation Of Remote Sensing Imagery,1,Lake Ice Monitoring,1,Computer Vision
+Bias Detection,1,Selection bias,1,Natural Language Processing
+Meme Classification,1,Hateful Meme Classification,1,Natural Language Processing; Computer Vision
+Document Classification,1,Page Stream Segmentation,1,Natural Language Processing
+Sentence Summarization,1,Unsupervised Sentence Summarization,1,Natural Language Processing
+Visual Speech Recognition,1,Lip to Speech Synthesis,2,Speech; Music; Computer Vision
+Lip to Speech Synthesis,1,Speaker-Specific Lip to Speech Synthesis,1,Computer Vision
+Physics-informed machine learning,1,Soil moisture estimation,1,Graphs; Computer Vision
+Transparent Object Detection,1,Transparent objects,1,Computer Vision
+3D Depth Estimation,1,Transparent Object Depth Estimation,1,Computer Vision
+Segmentation Of Remote Sensing Imagery,1,Lake Ice Monitoring,1,Computer Vision
+3D Shape Reconstruction From A Single 2D Image,1,Shape from Texture,1,Computer Vision
+3D Face Reconstruction,1,Facial Recognition and Modelling,4,Computer Vision
+NetHack,1,NetHack Score,1,Playing Games
+Hypergraph representations,1,Hypergraph Contrastive Learning,1,Graphs
+Offline RL,1,DQN Replay Dataset,1,Miscellaneous; Playing Games
+Human action generation,1,Action Generation,1,Computer Vision
+3D Shape Reconstruction,1,3D Shape Reconstruction From A Single 2D Image,2,Computer Vision
+Camouflaged Object Segmentation,1,Camouflaged Object Segmentation with a Single Task-generic Prompt,1,Computer Vision
+Small Object Detection,1,Rice Grain Disease Detection,1,Computer Vision
+Sketch-Based Image Retrieval,1,On-the-Fly Sketch Based Image Retrieval,1,Computer Vision
+Predictive Process Monitoring,1,Prognosis,1,Time Series
+Semi-Supervised Video Object Segmentation,1,One-shot visual object segmentation,1,Computer Vision
+Multimodal Deep Learning,1,Multimodal Text and Image Classification,2,Methodology; Natural Language Processing
+Few-Shot Transfer Learning for Saliency Prediction,1,Saliency Prediction,2,Computer Vision
+Industrial Robots,1,Trajectory Planning,2,Robots
+Data Visualization,1,Tree Map Layout,1,Methodology; Graphs; Miscellaneous
+Time Series Regression,1,COVID-19 Modelling,1,Time Series
+Traffic Accident Detection,1,Accident Anticipation,1,Computer Vision
+Fairness,1,Exposure Fairness,1,Adversarial; Miscellaneous; Computer Vision
+Cross-Lingual Document Classification,1,News Classification,1,Natural Language Processing
+Detection of Dependencies,1,Detection of Higher Order Dependencies,1,Methodology
+Generalized Few-Shot Classification,1,Long-tail Learning,2,Methodology
+Long-tail Learning,1,Long-tail learning with class descriptors,1,Methodology
+Generalized Few-Shot Learning,1,Long-tail Learning,2,Methodology
+Video Restoration,1,Analog Video Restoration,1,Computer Vision
+Triple Classification,1,Knowledge Graph Embeddings,1,Graphs
+severity prediction,1,Intubation Support Prediction,1,Computer Vision
+Question Generation,1,Poll Generation,1,Natural Language Processing
+Video Editing,1,Video Temporal Consistency,1,Graphs; Computer Vision
+Handwriting Verification,1,Bangla Spelling Error Correction,1,Natural Language Processing; Computer Vision
+Knowledge Graph Embedding,1,Open Knowledge Graph Embedding,1,Knowledge Base
+Graph Representation Learning,1,Knowledge Graph Embedding,2,Graphs
+Brain Visual Reconstruction,1,Brain Visual Reconstruction from fMRI,1,Computer Vision
+Fashion Understanding,1,Semi-Supervised Fashion Compatibility,1,Computer Vision
+3D Object Tracking,1,3D Single Object Tracking,1,Computer Vision
+Few-Shot Object Detection,1,Cross-Domain Few-Shot Object Detection,1,Computer Vision
+Open-Domain Dialog,1,Dialogue Evaluation,1,Natural Language Processing
+Music Transcription,1,Multi-instrument Music Transcription,1,Music
+Clinical Concept Extraction,1,Clinical Information Retreival,1,Medical; Natural Language Processing
+Recognizing Emotion Cause in Conversations,1,Causal Emotion Entailment,1,Natural Language Processing
+Document Summarization,1,Email Thread Summarization,1,Natural Language Processing
+Deep Learning,1,Polynomial Neural Networks,1,Methodology; Natural Language Processing; Computer Code; Computer Vision
+Neural Rendering,1,Neural Radiance Caching,1,Computer Vision
+3D Medical Imaging Segmentation,1,Pancreas Segmentation,1,Medical
+Code Documentation Generation,1,CodeSearchNet - Java,1,Computer Code
+Mathematical Question Answering,1,Math Word Problem Solving,1,Knowledge Base; Time Series; Reasoning
+Speech-to-Text Translation,1,Simultaneous Speech-to-Text Translation,1,Natural Language Processing
+Multi-Oriented Scene Text Detection,1,Natural Image Orientation Angle Detection,1,Computer Vision
+Persian Sentiment Analysis,1,Transition-Based Dependency Parsing,1,Natural Language Processing
+Lip Reading,1,Lip password classification,1,Time Series
+Shallow Syntax,1,Chunking,1,Natural Language Processing
+Automated Pulmonary Nodule Detection And Classification,1,Pulmonary Nodules Classification,1,Medical
+Weakly Supervised Classification,1,Weakly Supervised Data Denoising,1,Natural Language Processing
+Twitter Sentiment Analysis,1,Tweet-Reply Sentiment Analysis,1,Natural Language Processing
+OpenAI Gym,1,Acrobot,1,Playing Games
+3D Shape Representation,1,3D Dense Shape Correspondence,1,Computer Vision
+Abnormal Event Detection In Video,1,Semi-supervised Anomaly Detection,2,Computer Vision
+Meter Reading,1,Image-based Automatic Meter Reading,2,Computer Vision
+Image-based Automatic Meter Reading,1,Dial Meter Reading,1,Computer Vision
+Stock Trend Prediction,1,Stock Market Prediction,3,Time Series
+Single-Image-Based Hdr Reconstruction,1,Tone Mapping,1,Computer Vision
+Patch Matching,1,Multimodal Patch Matching,1,Computer Vision
+inverse tone mapping,1,Inverse-Tone-Mapping,2,Computer Vision
+Inverse-Tone-Mapping,1,inverse tone mapping,2,Computer Vision
+Unsupervised Domain Adaptation,1,Online unsupervised domain adaptation,1,
+Indoor Scene Reconstruction,1,Plan2Scene,1,Computer Vision
+Depth And Camera Motion,1,Face Anti-Spoofing,1,Computer Vision
+3D Character Animation From A Single Photo,1,Scene Recognition,1,Computer Vision
+Few-Shot Text Classification,1,Zero-Shot Out-of-Domain Detection,1,Natural Language Processing
+Temporal Information Extraction,1,Temporal Tagging,1,Natural Language Processing
+Table Extraction,1,Table Functional Analysis,1,Miscellaneous
+Language-Based Temporal Localization,1,Corpus Video Moment Retrieval,1,Computer Vision
+Protein-Ligand Affinity Prediction,1,MHC presentation prediction,1,Medical
+Dialogue Generation,1,Multi-modal Dialogue Generation,1,Natural Language Processing
+HDR Reconstruction,1,Multi-Exposure Image Fusion,1,Computer Vision
+Moment Retrieval,1,Zero-shot Moment Retrieval,1,Computer Vision
+Human Behavior Forecasting,1,Social Cue Forecasting,1,Time Series
+Instance Shadow Detection,1,Shadow Detection And Removal,1,Computer Vision
+Multi-Person Pose Estimation,1,Semi-Supervised Human Pose Estimation,1,Computer Vision
+3D Surface Generation,1,Visibility Estimation from Point Cloud,1,Computer Vision
+Product Recommendation,1,Context Aware Product Recommendation,1,Miscellaneous
+Pedestrian Detection,1,Thermal Infrared Pedestrian Detection,1,Computer Vision
+Literature Mining,1,Systematic Literature Review,1,Knowledge Base; Natural Language Processing
+Online Beat Tracking,1,Inference Optimization,1,Audio
+Spelling Correction,1,Bangla Spelling Error Correction,1,Natural Language Processing
+Sentence Classification,1,Unfairness Detection,1,
+Scene Segmentation,1,Thermal Image Segmentation,1,Computer Vision
+Landmark Recognition,1,Brain landmark detection,1,Computer Vision
+Sleep Stage Detection,1,Sleep Staging,2,Medical
+Vietnamese Aspect-Based Sentiment Analysis,1,Sentiment Dependency Learning,1,Natural Language Processing
+motion prediction,1,OPD: Single-view 3D Openable Part Detection,1,Computer Vision
+Change Detection,1,Semi-supervised Change Detection,1,Computer Vision
+Image Stylization,1,One-Shot Face Stylization,1,Computer Vision
+Multimodal Association,1,multimodal generation,1,Natural Language Processing; Time Series
+Lane Detection,1,3D Lane Detection,1,Computer Vision
+Document AI,1,document understanding,2,Natural Language Processing; Computer Vision
+Sentence Completion,1,Hurtful Sentence Completion,1,Natural Language Processing
+Conversational Question Answering,1,Question Rewriting,1,Natural Language Processing
+Task-Oriented Dialogue Systems,1,SSTOD,1,Natural Language Processing
+Mistake Detection,1,Online Mistake Detection,1,Computer Vision
+3D Semantic Scene Completion,1,3D Semantic Scene Completion from a single RGB image,1,Computer Vision
+3D Scene Reconstruction,1,3D Semantic Scene Completion from a single RGB image,1,Computer Vision
+Single-View 3D Reconstruction,1,3D Semantic Scene Completion from a single RGB image,1,Computer Vision
+Prompt Engineering,1,Visual Prompting,1,Natural Language Processing; Computer Vision
+Medical Image Classification,1,Semi-supervised Medical Image Classification,1,Medical
+Privacy Preserving,1,Graph Neural Network,1,Graphs
+Unsupervised Semantic Segmentation,1,Unsupervised Semantic Segmentation with Language-image Pre-training,1,Computer Vision
+Symbolic Regression,1,Equation Discovery,1,Knowledge Base; Natural Language Processing
+Management,1,Asset Management,1,Miscellaneous
+Medical Genetics,1,Genetic Risk Prediction,1,Medical; Miscellaneous
+Situation Recognition,1,Grounded Situation Recognition,1,Computer Vision
+Semi Supervised Learning for Image Captioning,1,Pseudo Label,1,Miscellaneous
+Temporal Relation Extraction,1,Temporal Relation Classification,1,Natural Language Processing
+Text to Video Retrieval,1,Partially Relevant Video Retrieval,1,Computer Vision
+Intent Recognition,1,Multimodal Intent Recognition,1,Miscellaneous
+energy management,1,energy trading,1,Time Series
+Cross-Lingual Entity Linking,1,Variable Disambiguation,1,Natural Language Processing
+Molecular Docking,1,Blind Docking,1,Medical
+backdoor defense,1,Backdoor Defense for Data-Free Distillation with Poisoned Teachers,1,Adversarial
+Continual Named Entity Recognition,1,FG-1-PG-1,1,Natural Language Processing
+MuJoCo Games,1,D4RL,1,Robots
+Scientific Document Summarization,1,Lay Summarization,1,Natural Language Processing
+Instruction Following,1,visual instruction following,1,Natural Language Processing; Computer Vision
+Semantic correspondence,1,Interspecies Facial Keypoint Transfer,1,Computer Vision
+Phonocardiogram Classification,1,Classify murmurs,1,Time Series
+Atomic action recognition,1,Composite action recognition,1,Computer Vision
+Target Sound Extraction,1,Streaming Target Sound Extraction,1,Audio
+Action Recognition In Videos,1,Action Anticipation,1,Computer Vision
+Video Super-Resolution,1,Key-Frame-based Video Super-Resolution (K = 15),1,Computer Vision
+Multi-modal Classification,1,Image-text Classification,2,Miscellaneous
+Image-text Classification,1,Multilingual Image-Text Classification,1,Miscellaneous
+Dense Captioning,1,Live Video Captioning,1,Computer Vision
+Directional Hearing,1,Real-time Directional Hearing,1,Audio
+Text to Image Generation,1,Text to 3D,1,Natural Language Processing; Computer Vision
+NMT,1,Direct NMT,1,Natural Language Processing; Computer Code
+Document-level Relation Extraction,1,Document-level RE with incomplete labeling,1,Natural Language Processing
+Human motion prediction,1,Stochastic Human Motion Prediction,1,Computer Vision
+Cross-Modal Information Retrieval,1,Cross-Modal Retrieval,2,Miscellaneous
+Data Valuation,1,Data Interaction,1,Methodology
+Calving Front Delineation In Synthetic Aperture Radar Imagery,1,Calving Front Delineation In Synthetic Aperture Radar Imagery With Fixed Training Amount,1,Computer Vision
+Open Vocabulary Object Detection,1,Open Vocabulary Attribute Detection,1,Computer Vision
+Face Quality Assessement,1,Face Image Quality,1,Computer Vision
+Dense Video Captioning,1,Zero-shot dense video captioning,1,Computer Vision
+Attribute Extraction,1,legal outcome extraction,1,Natural Language Processing
+3D Point Cloud Interpolation,1,Point Cloud Registration,2,Computer Vision
+Camera Relocalization,1,camera absolute pose regression,1,Computer Vision
+Aspect-Category-Opinion-Sentiment Quadruple Extraction,1,Conversational Sentiment Quadruple Extraction,1,Natural Language Processing
+Bayesian Optimization,1,Bayesian Optimisation,2,Methodology
+Trajectory Planning,1,Sokoban,1,Playing Games
+Key Information Extraction,1,Key-value Pair Extraction,1,Natural Language Processing; Computer Vision
+Muscle-Computer Interfaces (MCIs),1,Low-latency processing,1,Robots
+Goal-Oriented Dialog,1,User Simulation,1,Natural Language Processing
+Model Editing,1,knowledge editing,1,Natural Language Processing
+Multimodal Emotion Recognition,1,Video Emotion Detection,1,Computer Vision
+Protein Function Prediction,1,Antibody-antigen binding prediction,1,Medical
+ECG Patient Identification,1,ECG Patient Identification (gallery-probe),1,Medical
+Composed Image Retrieval (CoIR),1,Zero-Shot Composed Image Retrieval (ZS-CIR),1,Computer Vision
+Generative Visual Question Answering,1,Video-based Generative Performance Benchmarking,2,Reasoning
+Explainable Artificial Intelligence (XAI),1,Slice Discovery,1,Knowledge Base; Computer Vision
+Micro-expression Generation,1,Micro-expression Generation (MEGC2021),1,Computer Vision
+Shadow Removal,1,Document Shadow Removal,1,Computer Vision
+Computer Security,1,File Type Identification,1,Miscellaneous
+document understanding,1,Line Items Extraction,1,Natural Language Processing; Computer Vision
+Visual Storytelling,1,Image-guided Story Ending Generation,1,Natural Language Processing
+Story Generation,1,Visual Storytelling,2,Natural Language Processing
+Accented Speech Recognition,1,Speech Synthesis,2,Audio
+2D Semantic Segmentation task 3 (25 classes),1,Document Enhancement,1,Computer Vision
+Image Deblurring,1,Low-light Image Deblurring and Enhancement,1,Computer Vision
+trustable and focussed LLM generated content,1,Game Design,1,Natural Language Processing; Playing Games
+Open Vocabulary Semantic Segmentation,1,Zero-Guidance Segmentation,1,Computer Vision
+Video-Adverb Retrieval,1,Video-Adverb Retrieval (Unseen Compositions),1,Computer Vision
+Optical Charater Recogntion,1,Bangla Text Detection,1,Natural Language Processing
+3D Architecture,1,Denoising,3,Adversarial; Graphs
+Unsupervised Instance Segmentation,1,Unsupervised Zero-Shot Instance Segmentation,1,Computer Vision
+Unsupervised Panoptic Segmentation,1,Unsupervised Zero-Shot Panoptic Segmentation,1,Computer Vision
+Personality Generation,1,Personality Alignment,1,Natural Language Processing
+Age Estimation,1,Few-shot Age Estimation,1,Computer Vision
+Multimodal Reasoning,1,MME,1,Reasoning; Computer Vision
+3D Object Super-Resolution,1,Super-Resolution,4,Computer Vision
+Machine Unlearning,1,Continual Forgetting,1,Methodology; Computer Vision
+Chemical Process,1,Geochemistry,1,Miscellaneous; Time Series
+Event Segmentation,1,Generic Event Boundary Detection,1,Computer Vision
+Point Cloud Completion,1,Point Cloud Semantic Completion,1,Computer Vision
+Paraphrase Generation,1,Multilingual Paraphrase Generation,1,Natural Language Processing
+Signal Processing,1,Physiological Computing,1,Audio; Medical
+Single Particle Analysis,1,2D Particle Picking,1,Computer Vision
+Authorship Attribution,1,Source Code Authorship Attribution,1,Natural Language Processing
+Visual Object Tracking,1,Zero-Shot Single Object Tracking,1,Computer Vision
+Motor Imagery,1,Within-Session Motor Imagery,2,Medical
+ERP,1,Within-Session ERP,1,Medical
+SSVEP,1,Within-Session SSVEP,1,Medical
+Period Estimation,1,Art Period Estimation (544 Artists),1,Computer Vision
+Inductive knowledge graph completion,1,Large Language Model,5,Natural Language Processing
+Scene Text Recognition,1,Jersey Number Recognition,1,Computer Vision
+Sketch Recognition,1,Image to sketch recognition,1,Computer Vision
+Single-Source Domain Generalization,1,Photo to Rest Generalization,1,Computer Vision
+Therapeutics Data Commons,1,TDC ADMET Benchmarking Group,1,Medical
+Code Completion,1,OpenAPI code completion,1,Computer Code
+Camera Pose Estimation,1,Panorama Pose Estimation (N-view),1,Computer Vision
+Open-Vocabulary Semantic Segmentation,1,Open-Vocabulary Panoramic Semantic Segmentation,1,Computer Vision
+ENF (Electric Network Frequency) Extraction,1,ENF (Electric Network Frequency) Extraction from Video,1,Time Series; Computer Vision
+3D Point Cloud Reconstruction,1,3D Point Cloud Classification,3,Computer Vision
+Retinal Vessel Segmentation,1,Artery/Veins Retinal Vessel Segmentation,1,Medical; Computer Vision
+NLP based Person Retrival,1,Decoder,1,Natural Language Processing; Time Series
+Vietnamese Sentiment Analysis,1,Vietnamese Multimodal Sentiment Analysis,1,Natural Language Processing
+2D Tiny Object Detection,1,Insulator Defect Detection,1,Computer Vision
+Segmentation,1,Open-Vocabulary Semantic Segmentation,2,Computer Vision
+Binary text classification,1,Detection of potentially void clauses,1,Natural Language Processing
+Image Colorization,1,Sketch Colorization,1,Computer Vision
+Part-based Representation Learning,1,Unsupervised Part Discovery,1,Computer Vision
+Automatic Speech Recognition (ASR),1,Automatic Phoneme Recognition,1,Speech
+Stereo Disparity Estimation,1,Stereo Matching,1,Computer Vision
+Joint Multilingual Sentence Representations,1,Abstract Meaning Representation,1,Natural Language Processing
+Image Segmentation,1,Few-shot Instance Segmentation,1,Computer Vision
+One-Shot Segmentation,1,Patient-Specific Segmentation,1,Computer Vision
+Animal Action Recognition,1,cow identification,1,Computer Vision
+Data-free Knowledge Distillation,1,Benchmarking,1,Natural Language Processing
+Fine-Grained Vehicle Classification,1,Vehicle Color Recognition,1,Computer Vision
+3D Interacting Hand Pose Estimation,1,Superpixels,1,Graphs
+Natural Language Queries,1,Text-to-CQL,1,Natural Language Processing
+Road Segmentation,1,Lane Labeling,1,Computer Vision
+3D Shape Reconstruction from Videos,1,DeepFake Detection,2,Medical; Music; Robots; Computer Vision
+Text to Audio Retrieval,1,audio moment retrieval,1,Audio
+3D Video Frame Interpolation,1,Video Style Transfer,1,Playing Games; Time Series
+MRI segmentation,1,Brain Tumor Classification,1,Computer Vision
+entity_extraction,1,Pharmacovigilance,1,Medical
+Political evalutation,1,Alignement visualisation,1,Natural Language Processing
+Human Activity Recognition,1,Sports Activity Recognition,1,Time Series
+Zero-Shot Image Classification,1,Open Vocabulary Image Classification,1,Computer Vision
+4K 60Fps,1,Photo geolocation estimation,1,Graphs; Computer Vision
+Model Optimization,1,Equilibrium traffic assignment,1,Graphs
+Lung Nodule 3D Classification,1,Radiomics-based Classification,1,Medical
+Stereo Depth Estimation,1,Omnnidirectional Stereo Depth Estimation,1,Computer Vision
+Age And Gender Classification,1,Author Profiling,1,Natural Language Processing
+Drawing Pictures,1,Style Transfer,3,Computer Vision
+Blind Image Deblurring,1,Deblurring,2,Computer Code; Computer Vision
+Referring Multi-Object Tracking,1,Cross-view Referring Multi-Object Tracking,1,Computer Vision
+Hyperspectral Image Segmentation,1,Hyperspectral,2,Computer Vision
+Explanatory Visual Question Answering,1,FS-MEVQA,1,Computer Vision
+Multivariate Time Series Forecasting,1,GLinear,1,Time Series
+3D Instance Segmentation,1,Interactive 3D Instance Segmentation,2,Computer Vision
+Interactive 3D Instance Segmentation,1,Interactive 3D Instance Segmentation -Trained on Scannet40 - Evaluated on Scannet40,1,Computer Vision
+News Generation,1,Headline Generation,1,Natural Language Processing
+Human Instance Segmentation,1,Pose-Based Human Instance Segmentation,1,Computer Vision
+Binding Site Prediction,1,Antibody-antigen binding prediction,1,Medical
+Active Speaker Detection,1,Fraud Detection,1,Robots
+2-task Classification,1,Topological Data Analysis,1,Methodology
+Multi-class Classification,1,Patent classification,1,Computer Vision
+Video Anomaly Detection,1,Weakly-supervised Video Anomaly Detection,1,Computer Vision
+Unified Image Restoration,1,Blind All-in-One Image Restoration,1,Computer Vision
+Cell Segmentation,1,Nuclei Segmentation and Classfication,1,Computer Vision
+3D Human Pose Tracking,1,Motion Synthesis,2,Audio
+2D Panoptic Segmentation,1,Unsupervised Panoptic Segmentation,2,Computer Vision
+3D Human Dynamics,1,Portrait Animation,1,Audio
+Room Layout Estimation,1,Multi-view Floor Layout Reconstruction (N-view),1,Computer Vision
+Nested Term Recognition,1,Nested Term Recognition from Flat Supervision,1,Natural Language Processing
+Quantitative MRI,1,Diffusion  MRI,1,Medical
+3D Generation,1,Garment sewing pattern generation,1,Graphs
+satellite image super-resolution,1,vehicle detection,1,Computer Vision
+ObjectGoal Navigation,1,Heuristic Search,1,Computer Code
+Weakly-supervised Temporal Action Localization,1,Weakly Supervised Temporal Action Localization,1,Computer Vision
+PHMbench,1,PHM-Vibench,1,Time Series
+3D Mesh Denoising,1,3D Noise Generation,1,Computer Vision
+Audio-visual Question Answering,1,AUDIO-VISUAL QUESTION ANSWERING (MUSIC-AVQA-v2.0),1,Computer Vision
+Anomaly Classification,1,Anomaly Severity Classification (Anomaly vs. Defect),1,Computer Vision
+Image to Video Generation,1,Open-Domain Subject-to-Video,1,Computer Vision

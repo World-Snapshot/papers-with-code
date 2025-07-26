@@ -1,0 +1,745 @@
+Task Name,Dataset Count
+Person Re-Identification,65
+Data Augmentation,63
+Multi-Task Learning,59
+Self-Supervised Learning,47
+Time Series Forecasting,46
+Entity Linking,44
+Misinformation,44
+Decision Making,40
+Continual Learning,35
+Metric Learning,33
+regression,31
+Drug Discovery,26
+Time Series Analysis,25
+Fairness,23
+Multimodal Deep Learning,22
+Robotic Grasping,22
+Graph Regression,21
+Imitation Learning,21
+Age Estimation,20
+Reinforcement Learning (RL),20
+Graph Clustering,19
+Quantization,18
+Multivariate Time Series Forecasting,18
+Time Series,18
+Binarization,17
+Topic Models,17
+Meta-Learning,17
+SMAC+,17
+Long-tail Learning,16
+Prompt Engineering,16
+Contrastive Learning,16
+Learning with noisy labels,16
+Self-Driving Cars,16
+Weather Forecasting,16
+Node Clustering,15
+Physical Simulations,15
+Within-Session ERP,15
+Density Estimation,13
+Clustering Algorithms Evaluation,13
+Adversarial Robustness,13
+UIE,13
+Entity Disambiguation,13
+Open-Domain Dialog,13
+Disentanglement,13
+Graph Embedding,12
+Imputation,12
+Entity Typing,12
+COVID-19 Diagnosis,12
+Referring Expression Comprehension,12
+Entity Resolution,12
+Robot Manipulation,12
+Multiple-choice,12
+Stochastic Optimization,11
+Unsupervised Person Re-Identification,11
+Adversarial Attack,11
+Virtual Try-on,11
+Federated Learning,11
+Continuous Control,10
+Graph Learning,10
+Automatic Post-Editing,10
+Person Identification,10
+Benchmarking,10
+Table annotation,10
+Column Type Annotation,10
+Time Series Regression,10
+Homography Estimation,9
+Reinforcement Learning,9
+AutoML,9
+Shadow Removal,9
+Program Repair,9
+Learning-To-Rank,9
+Multi-agent Reinforcement Learning,9
+Representation Learning,9
+Code Repair,9
+Multi-Label Learning,8
+Lipreading,8
+Incremental Learning,8
+Multivariate Time Series Imputation,8
+Correlated Time Series Forecasting,8
+Disaster Response,8
+Automated Theorem Proving,8
+Starcraft,8
+Heart rate estimation,8
+Explainable artificial intelligence,8
+AI Agent,8
+GLinear,7
+Argument Mining,7
+Driver Attention Monitoring,7
+Point Processes,7
+Offline RL,7
+Rain Removal,7
+Unsupervised Pre-training,7
+Robot Task Planning,7
+Data Integration,7
+Within-Session SSVEP,7
+RAG,7
+Personalized Federated Learning,6
+Phrase Grounding,6
+Lip Reading,6
+Explanation Fidelity Evaluation,6
+Collaborative Filtering,6
+Graph Mining,6
+Band Gap,6
+Feature Importance,6
+Graph Representation Learning,6
+Univariate Time Series Forecasting,6
+Bandwidth Extension,6
+Atari Games,6
+Starcraft II,6
+Goal-Oriented Dialog,6
+Probabilistic Deep Learning,6
+16k,6
+Open Set Learning,6
+Explainable Artificial Intelligence (XAI),6
+Cross-Modal Person Re-Identification,6
+Protein Design,6
+Math,6
+Core set discovery,5
+Adversarial Defense,5
+Network Pruning,5
+Linguistic Acceptability,5
+Chunking,5
+Point Cloud Completion,5
+Region Proposal,5
+Clustering,5
+Complex Query Answering,5
+Arousal Estimation,5
+Valence Estimation,5
+Handwriting Verification,5
+Gaussian Processes,5
+Network Embedding,5
+Real-Time Strategy Games,5
+Color Constancy,5
+Feature Engineering,5
+Time Series Clustering,5
+Causal Discovery,5
+Physics-informed machine learning,5
+SSTOD,5
+Natural Questions,5
+College Mathematics,5
+Elementary Mathematics,5
+Uncertainty Quantification,5
+Intelligent Communication,5
+Occlusion Handling,5
+PDE Surrogate Modeling,5
+AI and Safety,5
+POS,4
+One-Shot Learning,4
+Fill Mask,4
+Dense Pixel Correspondence Estimation,4
+Interpretable Machine Learning,4
+Long-tail learning with class descriptors,4
+FG-1-PG-1,4
+Partial Label Learning,4
+Open-World Semi-Supervised Learning,4
+Learning with coarse labels,4
+Graph-to-Sequence,4
+SSIM,4
+Compressive Sensing,4
+Matrix Completion,4
+Room Layout Estimation,4
+Cloze (multi-choices) (One-Shot),4
+Disparity Estimation,4
+STS,4
+Meter Reading,4
+Decision Making Under Uncertainty,4
+Survival Analysis,4
+Remaining Useful Lifetime Estimation,4
+Long-range modeling,4
+Astronomy,4
+Memorization,4
+Columns Property Annotation,4
+Persuasion Strategies,4
+Human Behavior Forecasting,4
+Temporal Sequences,4
+Pansharpening,4
+Model Poisoning,3
+Sparse Learning and binarization,3
+Sparse Learning,3
+OpenAI Gym,3
+Unconstrained Lip-synchronization,3
+Blood pressure estimation,3
+Dataset Distillation - 1IPC,3
+Timex normalization,3
+Continual Pretraining,3
+Novel Class Discovery,3
+ECG Patient Identification,3
+ECG Patient Identification (gallery-probe),3
+parameter-efficient fine-tuning,3
+Skills Assessment,3
+Skills Evaluation,3
+Cloud Removal,3
+Cross-Modal  Person Re-Identification,3
+Combinatorial Optimization,3
+Graph Sampling,3
+One-class classifier,3
+Art Analysis,3
+Mathematical Proofs,3
+Efficient Exploration,3
+Relation Linking,3
+Large-Scale Person Re-Identification,3
+Human Mesh Recovery,3
+Hyperparameter Optimization,3
+Radar odometry,3
+Privacy Preserving Deep Learning,3
+Multi-target regression,3
+Ensemble Learning,3
+Heart Rate Variability,3
+Drum Transcription,3
+Diabetic Retinopathy Grading,3
+News Annotation,3
+Network Community Partition,3
+Parking Space Occupancy,3
+Blocking,3
+Riddle Sense,3
+High School Mathematics,3
+Professional Psychology,3
+Eeg Decoding,3
+Malware Clustering,3
+Malware Analysis,3
+Referring Expression,3
+Symbolic Regression,3
+Explainable Models,3
+Multi-Domain Recommender Systems,3
+Brain Decoding,3
+Website Fingerprinting Attacks,3
+Plant Phenotyping,3
+Feedback Vertex Set (FVS),3
+MuJoCo Games,3
+Snow Removal,3
+Game of Sudoku,3
+Hate Span Identification,3
+Hallucination Evaluation,3
+Theory of Mind Modeling,3
+Anomaly Forecasting,3
+LLM Jailbreak,3
+Deep Clustering,2
+Hard-label Attack,2
+Nature-Inspired Optimization Algorithm,2
+TAG,2
+Interpretability Techniques for Deep Learning,2
+QQP,2
+Feature Upsampling,2
+Missing Elements,2
+Horizon Line Estimation,2
+Dense Captioning,2
+Defocus Estimation,2
+FLUE,2
+Steering Control,2
+Boundary Captioning,2
+Boundary Grounding,2
+Domain-IL Continual Learning,2
+Provable Adversarial Defense,2
+Clean-label Backdoor Attack (0.05%),2
+Test Agnostic Long-Tailed Learning,2
+STS Benchmark,2
+Total Magnetization,2
+Unsupervised Continual Domain Shift Learning,2
+MuJoCo,2
+Incremental Constrained Clustering,2
+Q-Learning,2
+Test-time Adaptation,2
+Cross-Modality Person Re-identification,2
+Point Cloud Super Resolution,2
+Information Threading,2
+Deep Attention,2
+Authorship Verification,2
+Accident Anticipation,2
+Entity Embeddings,2
+Dominance Estimation,2
+Hierarchical Reinforcement Learning,2
+graph partitioning,2
+Policy Gradient Methods,2
+Meta Reinforcement Learning,2
+Board Games,2
+Self-Supervised Person Re-Identification,2
+Multi-Goal Reinforcement Learning,2
+Clustering Ensemble,2
+Point Clouds,2
+Dial Meter Reading,2
+No real Data Binarization,2
+Behavioural cloning,2
+Relational Pattern Learning,2
+Human Dynamics,2
+Author Attribution,2
+ICU Mortality,2
+Popularity Forecasting,2
+Cloze Test,2
+Moment Queries,2
+Unsupervised Reinforcement Learning,2
+Linear evaluation,2
+Story Completion,2
+Multi-Armed Bandits,2
+Molecule Captioning,2
+Aggression Identification,2
+Irony Identification,2
+Moral Scenarios,2
+Computer Security,2
+Security Studies,2
+Multi-Agent Path Finding,2
+Record linking,2
+Multi-agent Integration,2
+De-identification,2
+Unsupervised Domain Expansion,2
+Automated Essay Scoring,2
+Traffic Data Imputation,2
+Overall - Test,2
+Variable Disambiguation,2
+Embeddings Evaluation,2
+Multimodal Association,2
+Seeing Beyond the Visible,2
+Flare Removal,2
+Website Fingerprinting Defense,2
+ValNov,2
+Load Forecasting,2
+Spatio-Temporal Forecasting,2
+Protein Annotation,2
+slot-filling,2
+Ethics,2
+Dynamic Point Removal,2
+PAIR TRADING,2
+Irregular Time Series,2
+Age and Gender Estimation,2
+Mathematical Problem-Solving,2
+Sensor Fusion,2
+Negation,2
+Human Judgment Correlation,2
+Kinship Verification,2
+Position regression,2
+SAXS regression,2
+XRD regression,2
+SANS regression,2
+ND regression,2
+Neutron PDF regression,2
+NMT,2
+Sports Analytics,2
+RTE,2
+Lung Cancer Diagnosis,2
+Collision Avoidance,2
+Modality completion,2
+Hybrid Machine Learning,2
+Raindrop Removal,2
+backdoor defense,2
+User Simulation,2
+Fault Diagnosis,2
+Unsupervised MNIST,1
+Rotated MNIST,1
+Adversarial Defense against FGSM Attack,1
+Türkçe Görüntü Altyazılama,1
+HairColor/Unbiased,1
+HeavyMakeup/Unbiased,1
+Lexical Simplification,1
+Gait Identification,1
+Online Clustering,1
+Long-tail Learning on CIFAR-10-LT (ρ=100),1
+ROLSSL-Consistent,1
+ROLSSL-Reversed,1
+ROLSSL-Uniform,1
+Class Incremental Learning,1
+Non-exemplar-based Class Incremental Learning,1
+Data Free Quantization,1
+Classifier calibration,1
+class-incremental learning,1
+Overlapped 100-50,1
+Overlapped 50-50,1
+Overlapped 100-10,1
+Overlapped 100-5,1
+Overlapped 25-25,1
+NMR J-coupling,1
+Race/Unbiased,1
+Age/Unbiased,1
+Surgical Skills Evaluation,1
+Outdoor Light Source Estimation,1
+Materials Screening,1
+Cadenza 1 - Task 1 - Headphone,1
+Parallel Corpus Mining,1
+Story Continuation,1
+NetHack Score,1
+MS-SSIM,1
+Local Distortion,1
+SENTS,1
+MORPH,1
+UNLABELED_DEPENDENCIES,1
+LABELED_DEPENDENCIES,1
+LEMMA,1
+Informativeness,1
+COVID-19 Modelling,1
+Question Rewriting,1
+HTR,1
+GPR,1
+Montezuma's Revenge,1
+Cadenza 1 - Task 2 - In Car,1
+Overlapped 10-1,1
+Domain 11-5,1
+Domain 11-1,1
+Domain 1-1,1
+Overlapped 14-1,1
+CARLA MAP Leaderboard,1
+CARLA longest6,1
+CARLA Leaderboard 2.0,1
+Uncropping,1
+Distributed Computing,1
+Game of Doom,1
+Continuous Control (100k environment steps),1
+Continuous Control (500k environment steps),1
+SNES Games,1
+D4RL,1
+Gym halfcheetah-random,1
+Gym halfcheetah-medium,1
+Gym halfcheetah-expert,1
+Gym halfcheetah-medium-expert,1
+Gym halfcheetah-medium-replay,1
+Gym halfcheetah-full-replay,1
+Adroid pen-human,1
+Adroid hammer-human,1
+Adroid door-human,1
+Adroid relocate-human,1
+Adroid pen-cloned,1
+Adroid hammer-cloned,1
+Adroid door-cloned,1
+Adroid relocate-cloned,1
+Decipherment,1
+TGIF-Transition,1
+TGIF-Frame,1
+ListOps,1
+Diffusion Personalization Tuning Free,1
+Epidemiology,1
+Demosaicking,1
+Probabilistic Time Series Forecasting,1
+Metaheuristic Optimization,1
+Polyphone disambiguation,1
+Sensor Modeling,1
+Multivariate Time Series Forecastingm,1
+Game of Hanabi,1
+Two-sample testing,1
+Lexical Normalization,1
+Period Estimation,1
+OrangeSum,1
+Lake Ice Monitoring,1
+Clean-label Backdoor Attack (0.024%),1
+Micro-Expression Spotting,1
+Game of Football,1
+Replay Grounding,1
+Caricature,1
+Split and Rephrase,1
+Winogrande,1
+Geophysics,1
+Precipitation Forecasting,1
+Noun Phrase Canonicalization,1
+Hypernym Discovery,1
+Col BERTTriplet,1
+point of interests,1
+Populist attitude,1
+Phone-level pronunciation scoring,1
+Utterance-level pronounciation scoring,1
+Non-Intrusive Load Monitoring,1
+Time Series Averaging,1
+Quantum Machine Learning,1
+N-Queens Problem - All Possible Solutions,1
+Traveling Salesman Problem,1
+Multi-Choice MRC,1
+Graphon Estimation,1
+Clinical Note Phenotyping,1
+Computational Phenotyping,1
+Propaganda technique identification,1
+Synthetic Data Evaluation,1
+Mobile Security,1
+Stable MCI vs Progressive MCI,1
+Human Body Volume Estimation,1
+Causal Identification,1
+HumanEval,1
+MTEB Benchmark,1
+AllNLI Triplet,1
+Question-Answer categorization,1
+EditCompletion,1
+Node Regression,1
+Algorithmic Trading,1
+Patient Phenotyping,1
+Circulatory Failure,1
+Respiratory Failure,1
+Remaining Length of Stay,1
+Task 2,1
+Problem-Solving Deliberation,1
+Classify murmurs,1
+reinforcement-learning,1
+Capacity Estimation,1
+SMAC,1
+Moving Point Cloud Processing,1
+Fine-Grained Facial Editing,1
+VGSI,1
+Safe Reinforcement Learning,1
+GSM8K,1
+DrugProt,1
+Galaxy emergent property recreation,1
+BBBC021 NSC Accuracy,1
+CYCLoPs Accuracy,1
+Multimodal GIF Dialog,1
+Success Rate (5 task-horizon),1
+Avg. sequence length,1
+BIG-bench Machine Learning,1
+Identify Odd Metapor,1
+Odd One Out,1
+Crash Blossom,1
+Auto Debugging,1
+Crass AI,1
+Empirical Judgments,1
+Timedial,1
+Business Ethics,1
+Moral Disputes,1
+Moral Permissibility,1
+FEVER (2-way),1
+FEVER (3-way),1
+Misconceptions,1
+High School European History,1
+High School US History,1
+High School World History,1
+International Law,1
+Jurisprudence,1
+Management,1
+Marketing,1
+Philosophy,1
+Prehistory,1
+Professional Law,1
+World Religions,1
+Entailed Polarity,1
+Evaluating Information Essentiality,1
+Metaphor Boolean,1
+Physical Intuition,1
+Presuppositions As NLI,1
+Professional Accounting,1
+Anatomy,1
+College Medicine,1
+Human Aging,1
+Human Organs Senses Multiple Choice,1
+Nutrition,1
+Professional Medicine,1
+Virology,1
+English Proverbs,1
+Implicatures,1
+Implicit Relations,1
+LAMBADA,1
+Movie Dialog Same Or Different,1
+Phrase Relatedness,1
+RACE-h,1
+RACE-m,1
+College Biology,1
+College Chemistry,1
+College Computer Science,1
+College Physics,1
+Conceptual Physics,1
+High School Biology,1
+High School Chemistry,1
+High School Computer Science,1
+High School Physics,1
+High School Statistics,1
+Physics MC,1
+Econometrics,1
+High School Geography,1
+High School Government and Politics,1
+High School Macroeconomics,1
+High School Microeconomics,1
+High School Psychology,1
+Human Sexuality,1
+Public Relations,1
+Sociology,1
+US Foreign Policy,1
+Sleep Staging,1
+W-R-L-D Sleep Staging,1
+W-R-N Sleep Staging,1
+Atari Games 100k,1
+fr-en,1
+es-en,1
+de-en,1
+EEG 4 classes,1
+EEG Left/Right hand,1
+EM showers clusterization,1
+Topic coverage,1
+Single Choice Question,1
+Toponym Resolution,1
+RoomEnv-v0,1
+Surveillance-to-Single,1
+Surveillance-to-Booking,1
+Surveillance-to-Surveillance,1
+ECG Wave Delineation,1
+TDC ADMET Benchmarking Group,1
+SpO2 estimation,1
+Time Offset Calibration,1
+Mental Workload Estimation,1
+Industrial Robots,1
+Singer Identification,1
+Skill Mastery,1
+Binary Quantification,1
+Unsupervised Spatial Clustering,1
+Privacy Preserving,1
+Log Solubility,1
+Row Annotation,1
+Morpheme Segmentaiton,1
+Chemical Indexing,1
+Virtual Try-Off,1
+Playing the Game of 2048,1
+Lexical Analysis,1
+Negation Scope Resolution,1
+Speculation Scope Resolution,1
+Negation and Speculation Scope resolution,1
+Exemplar-Free Counting,1
+A-VB Two,1
+A-VB High,1
+A-VB Culture,1
+Open Relation Modeling,1
+Game of Go,1
+Holdout Set,1
+Humanitarian,1
+Descriptive,1
+Remove - PQ,1
+Remove - PO,1
+Replace - PQ,1
+Replace - PO,1
+Add - PQ,1
+Add - PO,1
+Specificity,1
+Partially Observable Reinforcement Learning,1
+Model-based Reinforcement Learning,1
+Definition Modelling,1
+Vocal ensemble separation,1
+Navigate,1
+RoomEnv-v1,1
+Card Games,1
+FocusNews (test),1
+SRF (test),1
+Protein Folding,1
+Driver Identification,1
+Graph Attention,1
+Film Simulation,1
+Acne Severity Grading,1
+Subgraph Counting - K4,1
+Subgraph Counting - Triangle,1
+Subgraph Counting - 3 Star,1
+Subgraph Counting - Chordal C4,1
+Subgraph Counting - 2 star,1
+Subgraph Counting - C4,1
+Subgraph Counting - Tailed Triangle,1
+Subgraph Counting - C5,1
+Subgraph Counting - C6,1
+Subgraph Counting,1
+Hurricane Forecasting,1
+All,1
+Diagnostic,1
+Sub-diagnostic,1
+Super-diagnostic,1
+Form,1
+VCGBench-Diverse,1
+Operator learning,1
+Solar Irradiance Forecasting,1
+Proper Noun,1
+XLM-R,1
+Bayesian Optimization,1
+Bug fixing,1
+Travel Time Estimation,1
+Automatic Lyrics Transcription,1
+Virtual Try-on (Shop2Street),1
+Virtual Try-on (Model2Street),1
+Virtual Try-on (Street2Street),1
+Vignetting Removal,1
+Model Editing,1
+SVBRDF Estimation,1
+TAR,1
+tabular-regression,1
+Mixed Reality,1
+Self-Learning,1
+Joint Radar-Communication,1
+EEG,1
+Multiclass Quantification,1
+Neural Network Security,1
+Long Term Anticipation,1
+point cloud upsampling,1
+Film Removal,1
+Citation worthiness,1
+Omniverse Isaac Gym,1
+Acrobot,1
+Low-latency processing,1
+Hypergraph Contrastive Learning,1
+Semi-Supervised Person Re-Identification,1
+Domain Adaptive Person Re-Identification,1
+MMLU,1
+Hallucination,1
+Person Identification (1-shot),1
+Fashion Compatibility Learning,1
+4k,1
+Dataset Size Recovery,1
+Sequential Pattern Mining,1
+Layout Design,1
+RoomEnv-v2,1
+Vietnamese Datasets,1
+Game of Poker,1
+MMR total,1
+GermEval2024 Shared Task 1 Subtask 1,1
+GermEval2024 Shared Task 1 Subtask 2,1
+Occlusion Estimation,1
+TiROD,1
+Flood extent forecasting,1
+News Authenticity Identification,1
+Li-ion State of Health Estimation,1
+Chemical Process,1
+software testing,1
+erson Re-Identification,1
+Demand Forecasting,1
+Neural Network simulation,1
+Liquid Simulation,1
+Equilibrium traffic assignment,1
+Authorship Attribution,1
+Author Profiling,1
+MMSQL performance,1
+Task Planning,1
+Quant Trading,1
+Raspberry Pi 3,1
+Raspberry Pi 4,1
+Raspberry Pi 5,1
+Crashworthiness Design,1
+ECG Digitization,1
+Sand,1
+Sequential Decision Making,1
+Credit score,1
+Load Virtual Sensing,1
+Load Virtual Sensing (Fx),1
+Load Virtual Sensing (Fy),1
+Red Teaming,1
+Real-World Adversarial Attack,1
+Atomic Forces,1
+Field Boundary Delineation,1
+LLM real-life tasks,1
+Fixed Few Shot Prompting Danger Assessment,1
+Zero Shot Prompting Danger Assessment,1
+Fixed Few Shot Prompting,1
+Building Damage Assessment,1
+automatic short answer grading,1
+Causal Judgment,1
+Deep Learning,1
+Procedure Learning,1
+Scheduling,1
+Game of Mafia,1
+Asynchronous Group Communication,1
+Building Flood Damage Assessment,1
+2k,1
+Reinforcement Learning (Atari Games),1

@@ -1,0 +1,1948 @@
+Task Name,Dataset Count
+Semantic Segmentation,348
+Object Detection,333
+Image Classification,283
+Visual Question Answering (VQA),145
+Named Entity Recognition (NER),130
+Pose Estimation,124
+Anomaly Detection,120
+Action Recognition,115
+Instance Segmentation,111
+Speech Recognition,96
+Information Retrieval,93
+2D Object Detection,93
+Image Retrieval,87
+2D Semantic Segmentation,83
+Relation Extraction,82
+Image Generation,79
+Image Captioning,79
+Depth Estimation,77
+Autonomous Driving,70
+Object Tracking,69
+Face Recognition,67
+3D Object Detection,67
+Link Prediction,67
+3D Reconstruction,58
+Video Understanding,56
+Optical Character Recognition (OCR),55
+Abstractive Text Summarization,53
+Medical Image Segmentation,52
+Emotion Recognition,52
+3D Human Pose Estimation,50
+Hate Speech Detection,47
+Novel View Synthesis,46
+Object Recognition,45
+Semantic Parsing,45
+Segmentation,45
+Image Clustering,44
+Visual Reasoning,44
+Image Super-Resolution,43
+Image Segmentation,43
+Video Question Answering,43
+Multi-Object Tracking,43
+Scene Understanding,43
+Temporal Action Localization,42
+Fine-Grained Image Classification,41
+3D Semantic Segmentation,41
+Face Detection,39
+Retrieval,38
+Video Captioning,38
+Panoptic Segmentation,37
+Text Retrieval,37
+3D Pose Estimation,36
+Optical Flow Estimation,35
+Video Retrieval,35
+Trajectory Prediction,35
+Stance Detection,35
+Action Detection,34
+Automatic Speech Recognition (ASR),34
+Monocular Depth Estimation,33
+Action Classification,33
+Visual Question Answering,32
+Image-to-Image Translation,32
+Skeleton Based Action Recognition,30
+Activity Recognition,30
+Fake News Detection,30
+Sign Language Recognition,30
+Visual Object Tracking,29
+Facial Expression Recognition (FER),29
+Scene Text Recognition,29
+Autonomous Vehicles,29
+Unsupervised Anomaly Detection,28
+Object Counting,28
+Visual Place Recognition,28
+Visual Tracking,28
+Neural Architecture Search,27
+2D Human Pose Estimation,27
+Emotion Classification,27
+Visual Localization,27
+Visual Odometry,26
+Intent Detection,26
+DeepFake Detection,26
+Music Information Retrieval,26
+Video Prediction,25
+Text-to-Image Generation,25
+Few-Shot Image Classification,24
+Face Verification,24
+Out-of-Distribution Detection,24
+Cross-Modal Retrieval,24
+Video Generation,24
+Speech Enhancement,24
+Crowd Counting,23
+Human-Object Interaction Detection,23
+Denoising,23
+Low-Light Image Enhancement,23
+6D Pose Estimation,23
+Hand Pose Estimation,23
+Scene Classification,23
+Automatic Speech Recognition,22
+Speech Emotion Recognition,22
+Video Classification,22
+Image Denoising,22
+Cell Segmentation,22
+Speech Synthesis,22
+Super-Resolution,22
+Handwriting Recognition,22
+Molecular Property Prediction,21
+Simultaneous Localization and Mapping,21
+Medical Diagnosis,21
+Sound Event Detection,20
+Traffic Prediction,20
+Aspect-Based Sentiment Analysis (ABSA),20
+Named Entity Recognition,20
+Change Detection,20
+Stereo Matching,20
+3D Hand Pose Estimation,20
+Image Manipulation Detection,20
+Semantic Textual Similarity,19
+Medical Image Classification,19
+Video Object Segmentation,19
+Visual Navigation,19
+Animal Pose Estimation,19
+Robot Navigation,19
+Motion Synthesis,19
+Transductive Zero-Shot Classification,18
+Object Localization,18
+Multiple Object Tracking,18
+Gaze Estimation,18
+Action Segmentation,18
+3D Instance Segmentation,18
+Text-To-Speech Synthesis,18
+Zero-Shot Video Question Answer,18
+Image Restoration,18
+Image Enhancement,18
+Semantic Similarity,17
+Face Alignment,17
+Image Inpainting,17
+Image Dehazing,17
+3D Object Tracking,17
+Action Recognition In Videos,17
+Scene Text Detection,17
+Video Anomaly Detection,17
+Lane Detection,17
+Face Anti-Spoofing,17
+Pedestrian Detection,17
+RGB Salient Object Detection,17
+Salient Object Detection,17
+Deblurring,17
+Lesion Segmentation,17
+Fact Verification,17
+Beat Tracking,17
+Motor Imagery Decoding (left-hand vs right-hand),17
+Image Quality Assessment,16
+Scene Recognition,16
+Facial Landmark Detection,16
+Grammatical Error Correction,16
+Video Summarization,16
+Active Learning,16
+Joint Entity and Relation Extraction,16
+Event Extraction,16
+3D Action Recognition,16
+Hand Gesture Recognition,16
+Trajectory Forecasting,16
+Video Super-Resolution,16
+Single-View 3D Reconstruction,15
+Video Frame Interpolation,15
+Human Activity Recognition,15
+Gesture Recognition,15
+2D Pose Estimation,15
+Computed Tomography (CT),15
+Saliency Detection,15
+Video Inpainting,15
+Sarcasm Detection,15
+License Plate Recognition,15
+Tumor Segmentation,15
+3D Human Reconstruction,15
+3D Classification,15
+Semi-Supervised Image Classification,14
+Weakly Supervised Object Detection,14
+Open Information Extraction,14
+Text-to-Video Generation,14
+Emotion Recognition in Conversation,14
+Boundary Detection,14
+Nested Named Entity Recognition,14
+Semantic Role Labeling,14
+Network Intrusion Detection,14
+motion prediction,14
+Handwritten Text Recognition,14
+Pose Tracking,14
+Human Detection,14
+Event Detection,14
+Indoor Localization,14
+Instruction Following,14
+Keypoint Detection,13
+Video Object Tracking,13
+Dialogue State Tracking,13
+Small Object Detection,13
+Video Object Detection,13
+Semi-Supervised Video Object Segmentation,13
+Semi-Supervised Semantic Segmentation,13
+Hyperspectral Image Classification,13
+Community Detection,13
+Downbeat Tracking,13
+Vision and Language Navigation,13
+Multiple Instance Learning,13
+Image Registration,13
+Image Reconstruction,12
+Image Compression,12
+Point Cloud Registration,12
+Real-Time Semantic Segmentation,12
+Fine-Grained Image Recognition,12
+Object Detection In Aerial Images,12
+Activity Detection,12
+Fraud Detection,12
+Video Segmentation,12
+Surface Normals Estimation,12
+Conversational Response Selection,12
+Motion Forecasting,12
+License Plate Detection,12
+Video Quality Assessment,12
+Time Series Prediction,12
+Fact Checking,12
+Key Information Extraction,12
+Zero-Shot Composed Image Retrieval (ZS-CIR),11
+Outlier Detection,11
+Scene Graph Generation,11
+Depth Completion,11
+Graph Matching,11
+Multimodal Emotion Recognition,11
+Head Pose Estimation,11
+Unsupervised Object Segmentation,11
+Referring Expression Segmentation,11
+3D Face Reconstruction,11
+Action Anticipation,11
+Bias Detection,11
+Medical Visual Question Answering,11
+Image Manipulation,11
+Dimensionality Reduction,11
+Event-based vision,11
+Material Recognition,11
+Visual Grounding,11
+Multi-Label Image Classification,10
+Human Part Segmentation,10
+Unsupervised Object Detection,10
+Table Detection,10
+Passage Retrieval,10
+Out of Distribution (OOD) Detection,10
+Video Grounding,10
+Video Recognition,10
+Online Multi-Object Tracking,10
+Scene Segmentation,10
+Face Swapping,10
+Facial Attribute Classification,10
+Answer Selection,10
+LIDAR Semantic Segmentation,10
+Visual Dialog,10
+Motion Estimation,10
+Acoustic Scene Classification,10
+Object Detection In Indoor Scenes,10
+Semantic SLAM,10
+10-shot image generation,10
+Multiview Detection,10
+Remote Sensing Image Classification,10
+3D Depth Estimation,10
+Font Recognition,10
+Time Series Anomaly Detection,10
+Within-Session Motor Imagery (left hand vs. right hand),10
+Color Image Denoising,9
+Video Description,9
+Unsupervised Semantic Segmentation,9
+Conditional Image Generation,9
+Interactive Segmentation,9
+Real-Time Object Detection,9
+Robust Object Detection,9
+Edge Detection,9
+Scene Generation,9
+Vehicle Re-Identification,9
+Small Data Image Classification,9
+Fine-Grained Visual Recognition,9
+Gait Recognition,9
+6D Pose Estimation using RGBD,9
+3D Shape Reconstruction,9
+Pedestrian Attribute Recognition,9
+Action Quality Assessment,9
+Video Reconstruction,9
+Trajectory Planning,9
+Defect Detection,9
+Vision-Language Navigation,9
+Dense Video Captioning,9
+Saliency Prediction,9
+Blind Super-Resolution,9
+Intrusion Detection,9
+Medical Report Generation,9
+Change Point Detection,9
+Surface Reconstruction,9
+Food Recognition,9
+Camera Localization,9
+object-detection,9
+Sound Event Localization and Detection,9
+3D Medical Imaging Segmentation,9
+Within-Session Motor Imagery (right hand vs. feet),9
+Zero-Shot Transfer Image Classification,8
+3D Object Reconstruction,8
+Image-to-Text Retrieval,8
+Few-Shot Object Detection,8
+Layout-to-Image Generation,8
+Scene Flow Estimation,8
+No-Reference Image Quality Assessment,8
+Video-Based Person Re-Identification,8
+Semantic correspondence,8
+Visual Commonsense Reasoning,8
+Seizure Detection,8
+Image/Document Clustering,8
+Anomaly Detection In Surveillance Videos,8
+Video Instance Segmentation,8
+Click-Through Rate Prediction,8
+Unsupervised Video Object Segmentation,8
+Video Semantic Segmentation,8
+Weakly-Supervised Semantic Segmentation,8
+3D Absolute Human Pose Estimation,8
+Human action generation,8
+Retinal Vessel Segmentation,8
+Dynamic Link Prediction,8
+Human Interaction Recognition,8
+Pose Prediction,8
+geo-localization,8
+Image Matting,8
+Colorectal Polyps Characterization,8
+Zero-shot Image Retrieval,8
+Surgical phase recognition,8
+Satellite Image Classification,8
+Single Image Dehazing,8
+3D Object Recognition,8
+Intrinsic Image Decomposition,8
+Keyphrase Extraction,8
+Monocular Visual Odometry,8
+Ad-hoc video search,8
+Medical Image Registration,8
+Skin Lesion Classification,8
+Brain Tumor Segmentation,8
+Entity Alignment,8
+Gender Prediction,8
+Image Forensics,8
+Colorization,8
+Image Manipulation Localization,8
+Product Recommendation,8
+Breast Cancer Detection,8
+Dialogue Act Classification,8
+Handwritten Digit Recognition,7
+Zero-shot Text-to-Image Retrieval,7
+Multi-Person Pose Estimation,7
+Unsupervised Semantic Segmentation with Language-image Pre-training,7
+Open Vocabulary Object Detection,7
+Audio-Visual Speech Recognition,7
+Monocular 3D Object Detection,7
+Stereo Disparity Estimation,7
+Medical Code Prediction,7
+Zero-Shot Video Retrieval,7
+Text to Video Retrieval,7
+6D Pose Estimation using RGB,7
+Human Pose Forecasting,7
+Face Identification,7
+Traffic Sign Recognition,7
+Motion Segmentation,7
+Facial Expression Recognition,7
+3D Shape Modeling,7
+Video Denoising,7
+Camouflaged Object Segmentation,7
+Electroencephalogram (EEG),7
+Keyword Extraction,7
+3D Object Classification,7
+Camera Relocalization,7
+Lesion Classification,7
+Text Segmentation,7
+Natural Language Visual Grounding,7
+Text Matching,7
+Traffic Sign Detection,7
+Gesture Generation,7
+Hyperspectral Image Segmentation,7
+Person Recognition,7
+3D Human Shape Estimation,7
+Generalizable Novel View Synthesis,7
+Neural Rendering,7
+Gender Bias Detection,7
+Table Recognition,7
+Fault Detection,7
+Vulnerability Detection,7
+Infrared And Visible Image Fusion,7
+Term Extraction,7
+MRI segmentation,7
+Video Restoration,7
+2D Cyclist Detection,7
+Text-based Image Editing,7
+Image to Video Generation,7
+Unsupervised Image Classification,6
+Structured Prediction,6
+Image Deblurring,6
+Lightweight Face Recognition,6
+3D Part Segmentation,6
+Real-time Instance Segmentation,6
+Zero-Shot Object Detection,6
+Open World Object Detection,6
+Talking Face Generation,6
+Stereo Depth Estimation,6
+Egocentric Pose Estimation,6
+Depth Prediction,6
+Zero-Shot Action Recognition,6
+Few Shot Action Recognition,6
+Scene Graph Detection,6
+Open Vocabulary Semantic Segmentation,6
+Face Sketch Synthesis,6
+Medical Named Entity Recognition,6
+Moment Retrieval,6
+Grammatical Error Detection,6
+Facial Emotion Recognition,6
+Multimodal Activity Recognition,6
+Aesthetics Quality Assessment,6
+Spatio-Temporal Action Localization,6
+3D Facial Landmark Localization,6
+Chinese Named Entity Recognition,6
+Weakly-Supervised Named Entity Recognition,6
+Body Detection,6
+Speaker Recognition,6
+Medical Image Generation,6
+3D Multi-Object Tracking,6
+Sleep Stage Detection,6
+Unified Image Restoration,6
+Image-Based Localization,6
+3D Point Cloud Classification,6
+Visual Speech Recognition,6
+Line Segment Detection,6
+3D Face Animation,6
+Dictionary Learning,6
+Robust Face Recognition,6
+Stereo Matching Hand,6
+Zero-Shot Image Classification,6
+Scene Change Detection,6
+Video Enhancement,6
+Gaze Prediction,6
+Emotion Recognition in Context,6
+Composed Image Retrieval (CoIR),6
+CAD Reconstruction,6
+Autonomous Navigation,6
+Single Image Deraining,6
+Abstractive Dialogue Summarization,6
+The Semantic Segmentation Of Remote Sensing Imagery,6
+Trajectory Modeling,6
+Video Panoptic Segmentation,6
+Video-Text Retrieval,6
+Multiple People Tracking,6
+Object SLAM,6
+Medical Object Detection,6
+Attribute Value Extraction,6
+Within-Session Motor Imagery (all classes),6
+Automatic Phoneme Recognition,6
+Unsupervised Anomaly Detection with Specified Settings -- 20% anomaly,5
+Unsupervised Anomaly Detection with Specified Settings -- 1% anomaly,5
+Unsupervised Anomaly Detection with Specified Settings -- 0.1% anomaly,5
+Unsupervised Anomaly Detection with Specified Settings -- 10% anomaly,5
+Blind Face Restoration,5
+3D Face Modelling,5
+Zero-Shot Cross-Modal Retrieval,5
+JPEG Artifact Correction,5
+Stereo Image Super-Resolution,5
+Unsupervised Panoptic Segmentation,5
+Unsupervised Monocular Depth Estimation,5
+Self-Supervised Action Recognition,5
+Visual Relationship Detection,5
+Sketch-to-Image Translation,5
+Pose Transfer,5
+Weakly Supervised Action Localization,5
+Oriented Object Detection,5
+Aspect Extraction,5
+Sports Ball Detection and Tracking,5
+Symmetry Detection,5
+Interactive Video Object Segmentation,5
+Monocular 3D Human Pose Estimation,5
+2D Panoptic Segmentation,5
+Zero-shot 3D Point Cloud Classification,5
+Facial Inpainting,5
+Optic Disc Segmentation,5
+Aspect Category Detection,5
+Grasp Contact Prediction,5
+Natural Language Moment Retrieval,5
+3D Multi-Person Pose Estimation,5
+Face Presentation Attack Detection,5
+Joint Demosaicing and Denoising,5
+Motion Planning,5
+3D Semantic Scene Completion,5
+Zeroshot Video Question Answer,5
+Depression Detection,5
+Fine-Grained Visual Categorization,5
+RGB-D Salient Object Detection,5
+Extractive Text Summarization,5
+Stock Market Prediction,5
+Cross-Domain Few-Shot Object Detection,5
+Surgical tool detection,5
+Hand-Gesture Recognition,5
+Surface Normal Estimation,5
+Face Parsing,5
+Face Model,5
+Content-Based Image Retrieval,5
+Medical Relation Extraction,5
+Text to Audio Retrieval,5
+Video Emotion Recognition,5
+3D Feature Matching,5
+Low Resource Named Entity Recognition,5
+Video Compression,5
+Program Synthesis,5
+Malware Detection,5
+Human motion prediction,5
+Face Generation,5
+whole slide images,5
+Logo Recognition,5
+3D Place Recognition,5
+Cell Detection,5
+Spatial Relation Recognition,5
+Image Relighting,5
+Trajectory Clustering,5
+Music Emotion Recognition,5
+Medical X-Ray Image Segmentation,5
+3D Assembly,5
+Brain Segmentation,5
+Medical Concept Normalization,5
+Road Segmentation,5
+Photoplethysmography (PPG),5
+3D Anomaly Detection,5
+Photoplethysmography (PPG) heart rate estimation,5
+3D Question Answering (3D-QA),5
+Text to 3D,5
+Video-Adverb Retrieval,5
+Image Forgery Detection,5
+Cross-modal retrieval with noisy correspondence,5
+3D Generation,5
+Handwritten Mathmatical Expression Recognition,5
+Image-text Retrieval,5
+Multiview Clustering,4
+Unsupervised Anomaly Detection with Specified Settings -- 30% anomaly,4
+Image Compressed Sensing,4
+Physical Attribute Prediction,4
+Multimodal Text and Image Classification,4
+Image Outpainting,4
+Vehicle Pose Estimation,4
+3D Object Detection From Stereo Images,4
+Prediction Of Occupancy Grid Maps,4
+Self-Supervised Action Recognition Linear,4
+Mortality Prediction,4
+Unsupervised Image Segmentation,4
+Patch Matching,4
+Facial Action Unit Detection,4
+Clinical Concept Extraction,4
+Temporal Localization,4
+Temporal Action Proposal Generation,4
+Weakly-supervised Temporal Action Localization,4
+Abnormal Event Detection In Video,4
+Egocentric Activity Recognition,4
+Semi-Supervised Instance Segmentation,4
+Multimodal Unsupervised Image-To-Image Translation,4
+Unsupervised Action Segmentation,4
+Supervised Video Summarization,4
+Video Salient Object Detection,4
+Image Classification with Label Noise,4
+Reconstruction,4
+Pose Retrieval,4
+Document Image Classification,4
+3D-Aware Image Synthesis,4
+Video Polyp Segmentation,4
+Unsupervised Extractive Summarization,4
+Nested Mention Recognition,4
+Event Argument Extraction,4
+Image Stitching,4
+3D Open-Vocabulary Instance Segmentation,4
+Cross-Domain Named Entity Recognition,4
+Cross-View Image-to-Image Translation,4
+Shadow Detection,4
+Weakly supervised Semantic Segmentation,4
+3D Semantic Scene Completion from a single RGB image,4
+Few-Shot Semantic Segmentation,4
+Artery/Veins Retinal Vessel Segmentation,4
+Drone-view target localization,4
+Weakly Supervised Defect Detection,4
+Nuclear Segmentation,4
+Action Localization,4
+Sketch-Based Image Retrieval,4
+Visual Storytelling,4
+Building change detection for remote sensing images,4
+Photo geolocation estimation,4
+Action Understanding,4
+Multiview Learning,4
+3D Human Pose Tracking,4
+MRI Reconstruction,4
+Stock Prediction,4
+Action Triplet Recognition,4
+Event Coreference Resolution,4
+Change detection for remote sensing images,4
+Face Reconstruction,4
+Multi-future Trajectory Prediction,4
+Distant Speech Recognition,4
+Video Alignment,4
+EEG Emotion Recognition,4
+Instrument Recognition,4
+Word Alignment,4
+Scientific Results Extraction,4
+Iris Recognition,4
+Supervised Anomaly Detection,4
+Scene Parsing,4
+3D Object Retrieval,4
+Temporal View Synthesis,4
+Camera shot boundary detection,4
+Indoor Monocular Depth Estimation,4
+Audio to Text Retrieval,4
+Multi-modal Entity Alignment,4
+Online Beat Tracking,4
+Online Downbeat Tracking,4
+Spelling Correction,4
+Zero-shot Named Entity Recognition (NER),4
+Image Cropping,4
+graph construction,4
+Document-level Relation Extraction,4
+3D Shape Representation,4
+Hand Segmentation,4
+Landmark Recognition,4
+Abuse Detection,4
+Multispectral Object Detection,4
+Medical Image Enhancement,4
+Action Parsing,4
+Humor Detection,4
+Thermal Image Segmentation,4
+Sketch Recognition,4
+Cross-View Geo-Localisation,4
+3D Scene Reconstruction,4
+Image-based Automatic Meter Reading,4
+Cross-Lingual Abstractive Summarization,4
+Extracting Buildings In Remote Sensing Images,4
+Heart Segmentation,4
+Action Generation,4
+Malware Family Detection,4
+Negation Detection,4
+hand-object pose,4
+Biomedical Information Retrieval,4
+Bird Audio Detection,4
+Entity Retrieval,4
+Rumour Detection,4
+Semantic Image-Text Similarity,4
+Stock Trend Prediction,4
+Crack Segmentation,4
+Hand Detection,4
+Blood Cell Detection,4
+Referring Video Object Segmentation,4
+Fake Image Detection,4
+Audio-Visual Synchronization,4
+audio-visual learning,4
+Real-Time Multi-Object Tracking,4
+Intent Recognition,4
+Temporal Forgery Localization,4
+Discourse Segmentation,4
+Temporal Relation Extraction,4
+UNET Segmentation,4
+3D Lane Detection,4
+Camera Calibration,4
+Robust Speech Recognition,4
+Optical Charater Recogntion,4
+Image Defocus Deblurring,4
+3D Facial Expression Recognition,4
+Cell Entity Annotation,4
+Person Retrieval,4
+Lesion Detection,4
+Dynamic Facial Expression Recognition,4
+Point Tracking,4
+Financial Relation Extraction,4
+Social Navigation,4
+Synthetic Speech Detection,4
+medical image detection,4
+Spectral Reconstruction,4
+Event-based Object Segmentation,4
+Deformable Object Manipulation,4
+2D Tiny Object Detection,4
+Hyperspectral image analysis,4
+Video Editing,4
+Sequential Image Classification,3
+Image Colorization,3
+Image Attribution,3
+Model Compression,3
+Weakly-Supervised Object Localization,3
+Self-Supervised Image Classification,3
+Synthetic Face Recognition,3
+Face Quality Assessement,3
+Face Anonymization,3
+Semi Supervised Learning for Image Captioning,3
+mage-to-Text Retrieval,3
+Single-object discovery,3
+Multi-object discovery,3
+Object Proposal Generation,3
+Visual Keyword Spotting,3
+Early Action Prediction,3
+Image Generation from Scene Graphs,3
+Scene Graph Classification,3
+Zero-Shot Semantic Segmentation,3
+Defocus Blur Detection,3
+Action Unit Detection,3
+Point-interactive Image Colorization,3
+Temporal Information Extraction,3
+Partially Relevant Video Retrieval,3
+Dense Object Detection,3
+Audio-Visual Active Speaker Detection,3
+Graph Anomaly Detection,3
+Multi-Object Tracking and Segmentation,3
+Semantic Object Interaction Classification,3
+Event Segmentation,3
+Unconditional Image Generation,3
+Unsupervised Facial Landmark Detection,3
+Unsupervised Video Summarization,3
+Multi-Hypotheses 3D Human Pose Estimation,3
+Unsupervised Human Pose Estimation,3
+3D Face Alignment,3
+Face Hallucination,3
+Colorectal Gland Segmentation:,3
+Lung Nodule Detection,3
+Molecular Property Prediction (1-shot)),3
+Graph Property Prediction,3
+Prediction,3
+Supervised Text Retrieval,3
+Human Instance Segmentation,3
+3D Room Layouts From A Single RGB Panorama,3
+Unsupervised Saliency Detection,3
+Image to sketch recognition,3
+Zero Shot Skeletal Action Recognition,3
+Generalized Zero Shot skeletal action recognition,3
+Unsupervised Skeleton Based Action Recognition,3
+Bird's-Eye View Semantic Segmentation,3
+Skin Cancer Segmentation,3
+4D Panoptic Segmentation,3
+Twitter Bot Detection,3
+Multi-Frame Super-Resolution,3
+Video Emotion Detection,3
+Continuous Affect Estimation,3
+Event data classification,3
+Open Vocabulary Action Detection,3
+Target Sound Extraction,3
+Traffic Accident Detection,3
+Recognizing And Localizing Human Actions,3
+Document-level Closed Information Extraction,3
+Multi-tissue Nucleus Segmentation,3
+Clique Prediction,3
+Polyp Segmentation,3
+Drone Pose Estimation,3
+Video Saliency Detection,3
+Video Saliency Prediction,3
+Multimodal Abstractive Text Summarization,3
+Text based Person Retrieval,3
+Text-based Person Retrieval with Noisy Correspondence,3
+Semantic Retrieval,3
+3D Point Cloud Data Augmentation,3
+Recognizing Emotion Cause in Conversations,3
+Text-Based Stock Prediction,3
+Audio Super-Resolution,3
+Multi Future Trajectory Prediction,3
+Grayscale Image Denoising,3
+Multi-class Anomaly Detection,3
+Loop Closure Detection,3
+Drug–drug Interaction Extraction,3
+Online Action Detection,3
+Chord Recognition,3
+Direction of Arrival Estimation,3
+Volumetric Medical Image Segmentation,3
+speech-recognition,3
+Predicate Detection,3
+Semantic Role Labeling (predicted predicates),3
+Sentence segmentation,3
+Binary Relation Extraction,3
+Repetitive Action Counting,3
+Gaze Target Estimation,3
+3D Point Cloud Matching,3
+Reflection Removal,3
+Definition Extraction,3
+Action Spotting,3
+Inverse Rendering,3
+3D Panoptic Segmentation,3
+Hyperspectral Semantic Segmentation,3
+Chinese Word Segmentation,3
+Spindle Detection,3
+Face Clustering,3
+Event-based Optical Flow,3
+lidar absolute pose regression,3
+Fovea Detection,3
+Optic Disc Detection,3
+Object Discovery,3
+Visual Entailment,3
+Spatio-Temporal Video Grounding,3
+3D Object Detection From Monocular Images,3
+Aspect Term Extraction and Sentiment Classification,3
+Road Damage Detection,3
+Texture Synthesis,3
+Breast Cancer Histology Image Classification,3
+Medical Image Retrieval,3
+Pedestrian Trajectory Prediction,3
+Face Morphing Attack Detection,3
+Voice Query Recognition,3
+Surgical Gesture Recognition,3
+Affordance Detection,3
+Human-Object-interaction motion tracking,3
+Cardiac Segmentation,3
+Weakly supervised segmentation,3
+Sign Language Production,3
+Texture Image Retrieval,3
+Supervised Defect Detection,3
+Argument Retrieval,3
+Personality Trait Recognition,3
+Semantic Image Similarity,3
+Histopathological Image Classification,3
+Radar Object Detection,3
+Activity Prediction,3
+Satire Detection,3
+Segmentation Of Remote Sensing Imagery,3
+3D Point Cloud Reconstruction,3
+Review Generation,3
+Photo Retouching,3
+Stock Price Prediction,3
+Semantic Frame Parsing,3
+Multilingual Named Entity Recognition,3
+Video Matting,3
+Camera Auto-Calibration,3
+Thermal Infrared Pedestrian Detection,3
+Reading Order Detection,3
+Scientific Concept Extraction,3
+3D Geometry Perception,3
+2D Semantic Segmentation task 3 (25 classes),3
+Aspect-Category-Opinion-Sentiment Quadruple Extraction,3
+Multiobjective Optimization,3
+3D Shape Retrieval,3
+Parameter Prediction,3
+Unfairness Detection,3
+Extractive Summarization,3
+Key Point Matching,3
+Portrait Segmentation,3
+Underwater Image Restoration,3
+Transparent Object Depth Estimation,3
+Atrial Fibrillation Detection,3
+Joint Event and Temporal Relation Extraction,3
+Aspect Category Polarity,3
+Speech Denoising,3
+Inductive Link Prediction,3
+Video Domain Adapation,3
+Line Detection,3
+Speech Extraction,3
+Animal Action Recognition,3
+Multi-Animal Tracking with identification,3
+Zero-shot Text Retrieval,3
+Point Cloud Segmentation,3
+Audio Emotion Recognition,3
+HDR Reconstruction,3
+Dialect Identification,3
+Blind Image Quality Assessment,3
+Photoplethysmography (PPG) beat detection,3
+3D Volumetric Reconstruction,3
+Multimodal Intent Recognition,3
+Extractive Question-Answering,3
+Crop Yield Prediction,3
+Low-Dose X-Ray Ct Reconstruction,3
+Organ Segmentation,3
+Robust 3D Semantic Segmentation,3
+Text Detection,3
+Zero Shot Segmentation,3
+Open Intent Detection,3
+LLM-generated Text Detection,3
+Video-Adverb Retrieval (Unseen Compositions),3
+Robot Pose Estimation,3
+Image to 3D,3
+Audio Deepfake Detection,3
+Camera Pose Estimation,3
+Attribute Mining,3
+Noisy Semantic Image Synthesis,3
+Key-value Pair Extraction,3
+Open-Domain Subject-to-Video,3
+"1 Image, 2*2 Stitchi",3
+Image to text,3
+Medical Image Analysis,3
+RGB-D Instance Segmentation,3
+Antibody-antigen binding prediction,3
+Sentence Retrieval,3
+Nested Term Extraction,3
+Nested Term Recognition from Flat Supervision,3
+Unsupervised Image-To-Image Translation,2
+Superpixel Image Classification,2
+Semantic Textual Similarity within Bi-Encoder,2
+Constituency Grammar Induction,2
+Unsupervised Object Localization,2
+One-Shot Object Detection,2
+One-Shot Instance Segmentation,2
+Few Shot Open Set Object Detection,2
+Lip to Speech Synthesis,2
+Landmark-based Lipreading,2
+Birds Eye View Object Detection,2
+Monocular Cross-View Road Scene Parsing(Road),2
+Monocular Cross-View Road Scene Parsing(Vehicle),2
+Image to Point Cloud Registration,2
+Self-supervised Video Retrieval,2
+Length-of-Stay prediction,2
+Multi-label Image Recognition with Partial Labels,2
+Unsupervised semantic parsing,2
+Bird Species Classification With Audio-Visual Data,2
+Zero-shot Relation Triplet Extraction,2
+Video Story QA,2
+Handwritten Chinese Text Recognition,2
+Distractor Generation,2
+Few Shot Temporal Action Localization,2
+Semi-Supervised Action Detection,2
+Zero-Shot Action Detection,2
+One-stage Anchor-free Oriented Object Detection,2
+Subjectivity Analysis,2
+Traffic Object Detection,2
+Zero-Shot Human-Object Interaction Detection,2
+Generic Event Boundary Detection,2
+Speaker-Specific Lip to Speech Synthesis,2
+Group Activity Recognition,2
+Fine-Grained Action Detection,2
+Image Rescaling,2
+3D Canonical Hand Pose Estimation,2
+3D Shape Reconstruction From A Single 2D Image,2
+3D Car Instance Understanding,2
+Highlight Detection,2
+Continual Semantic Segmentation,2
+Weakly-supervised 3D Human Pose Estimation,2
+Unsupervised 3D Human Pose Estimation,2
+Disguised Face Verification,2
+Age-Invariant Face Recognition,2
+Dichotomous Image Segmentation,2
+Lung Nodule Segmentation,2
+Graph structure learning,2
+Ancestor-descendant prediction,2
+Aspect-Based Sentiment Analysis,2
+Aspect-oriented  Opinion Extraction,2
+Curved Text Detection,2
+Brain Image Segmentation,2
+Link Sign Prediction,2
+Resynthesis,2
+One-Shot Segmentation,2
+Self-supervised Skeleton-based Action Recognition,2
+Zero-Shot Video-Audio Retrieval,2
+3D Multi-Person Pose Estimation (absolute),2
+Prosody Prediction,2
+Pneumonia Detection,2
+Table-based Fact Verification,2
+Cross-domain 3D Human Pose Estimation,2
+HD semantic map learning,2
+Motion Detection,2
+satellite image super-resolution,2
+Arrhythmia Detection,2
+Weakly Supervised Action Segmentation (Transcript),2
+Multiple Object Tracking with Transformer,2
+Image Retrieval with Multi-Modal Query,2
+Chinese Semantic Role Labeling,2
+Zero-shot dense video captioning,2
+Text-Line Extraction,2
+3D Object Reconstruction From A Single Image,2
+Scanpath prediction,2
+Document Enhancement,2
+Camouflaged Object Segmentation with a Single Task-generic Prompt,2
+Fine-Grained Urban Flow Inference,2
+Co-Salient Object Detection,2
+Single-object colocalization,2
+Action Assessment,2
+Dialog Relation Extraction,2
+Zero-Shot Transfer 3D Point Cloud Classification,2
+3D Point Cloud Linear Classification,2
+Training-free 3D Point Cloud Classification,2
+3D Parameter-Efficient Fine-Tuning for Classification,2
+Conditional Text-to-Image Synthesis,2
+Query-Based Extractive Summarization,2
+Inductive logic programming,2
+Single-Image Portrait Relighting,2
+Fact-based Text Editing,2
+Multi-domain Dialogue State Tracking,2
+Iris Segmentation,2
+Foggy Scene Segmentation,2
+Source Free Object Detection,2
+Unsupervised Few-Shot Image Classification,2
+zero-shot anomaly detection,2
+Scene Classification (unified classes),2
+Robust Semi-Supervised RGBD Semantic Segmentation,2
+Generative 3D Object Classification,2
+Single Image Haze Removal,2
+Depth Map Super-Resolution,2
+Prediction Intervals,2
+Zero-shot Text to Audio Retrieval,2
+Diffeomorphic Medical Image Registration,2
+Liver Segmentation,2
+Extractive Document Summarization,2
+Sequential sentence segmentation,2
+Sentence Compression,2
+Unseen Object Instance Segmentation,2
+Nonhomogeneous Image Dehazing,2
+Video Forensics,2
+Sleep spindles detection,2
+Product Categorization,2
+Handwritten Word Segmentation,2
+Atomic action recognition,2
+Semantic Composition,2
+Part-aware Panoptic Segmentation,2
+Single Image Desnowing,2
+Fish Detection,2
+Heterogeneous Face Recognition,2
+Diabetic Retinopathy Detection,2
+Paper generation (Title-to-abstract),2
+Paper generation (abstract-to-conclusion),2
+Multi-View 3D Reconstruction,2
+Face Age Editing,2
+Semantic entity labeling,2
+PointGoal Navigation,2
+3D Shape Recognition,2
+Image Harmonization,2
+Motion Captioning,2
+Active Speaker Detection,2
+Deception Detection,2
+K-complex detection,2
+Depth Aleatoric Uncertainty Estimation,2
+Head Detection,2
+Selection bias,2
+Thermal Infrared Object Tracking,2
+Optic Cup Segmentation,2
+Classify 3D Point Clouds,2
+Micro Expression Recognition,2
+3D dense captioning,2
+Protein Structure Prediction,2
+Vector Graphics,2
+self-supervised scene text recognition,2
+Counterfactual Inference,2
+Factual probe,2
+Semi-supervised Medical Image Segmentation,2
+Object Reconstruction,2
+Visual Social Relationship Recognition,2
+EMG Gesture Recognition,2
+Medical Procedure,2
+Open Vocabulary Action Recognition,2
+Electron Microscopy Image Segmentation,2
+Pulmorary Vessel Segmentation,2
+Semi-supervised Anomaly Detection,2
+Commonsense Knowledge Base Construction,2
+Text-to-video search,2
+Self-Supervised Anomaly Detection,2
+Hope Speech Detection,2
+Speech Synthesis - Gujarati,2
+Citation Prediction,2
+Tweet Retrieval,2
+News Retrieval,2
+severity prediction,2
+Anomaly Segmentation,2
+Zero-Shot Audio Retrieval,2
+drone-based object tracking,2
+Partial Point Cloud Matching,2
+Span-Extraction MRC,2
+Graph Reconstruction,2
+Dialog Act Classification,2
+Time-to-Event Prediction,2
+Joint Vertebrae Identification And Localization In Spinal Ct Images,2
+Model extraction,2
+Single-Image-Based Hdr Reconstruction,2
+Sentiment Analysis (Product + User),2
+Indoor Scene Synthesis,2
+Time Series Alignment,2
+Survival Prediction,2
+Emotional Speech Synthesis,2
+Image Similarity Detection,2
+Image Similarity Search,2
+3D Multi-Person Mesh Recovery,2
+Multimodal Text Prediction,2
+Active Speaker Localization,2
+Factual Visual Question Answering,2
+Image Matching,2
+Vehicle Speed Estimation,2
+Fine-Grained Vehicle Classification,2
+QRS Complex Detection,2
+Video Visual Relation Detection,2
+Video Visual Relation Tagging,2
+Video scene graph generation,2
+Activity Recognition In Videos,2
+Low-light Pedestrian Detection,2
+Point Cloud Quality Assessment,2
+Aspect Sentiment Triplet Extraction,2
+Document-level Event Extraction,2
+New Product Sales Forecasting,2
+"Classification of toxic, engaging, fact-claiming comments",2
+Zero-Shot Cross-Lingual Visual Reasoning,2
+Max-Shot Cross-Lingual Visual Reasoning,2
+Moving Object Detection,2
+2D Semantic Segmentation task 1 (8 classes),2
+3D Geometry Prediction,2
+Audio Effects Modeling,2
+3D Dense Shape Correspondence,2
+Acoustic echo cancellation,2
+Emotional Dialogue Acts,2
+Video Synchronization,2
+Medical Image Denoising,2
+Transparent Object Detection,2
+Seismic Detection,2
+Dark Humor Detection,2
+Similarities Abstraction,2
+Muscle Tendon Junction Identification,2
+3D human pose and shape estimation,2
+Infrared image super-resolution,2
+Rgb-T Tracking,2
+Type prediction,2
+Kinematic Based Workflow Recognition,2
+Tomographic Reconstructions,2
+COVID-19 Tracking,2
+Temporal Metadata Manipulation Detection,2
+3D Anomaly Detection and Segmentation,2
+Pancreas Segmentation,2
+Event-based Motion Estimation,2
+Claim Extraction with Stance Classification (CESC),2
+Multiview Contextual Commonsense Inference,2
+Hyperspectral Image Super-Resolution,2
+Mistake Detection,2
+AbbreviationDetection,2
+Object Categorization,2
+Retinal OCT Disease Classification,2
+Data Visualization,2
+Copy Detection,2
+Audio-visual Question Answering,2
+Weakly-supervised Video Anomaly Detection,2
+Burst Image Super-Resolution,2
+Multi-Oriented Scene Text Detection,2
+Transparent objects,2
+Dialogue Safety Prediction,2
+Amodal Instance Segmentation,2
+Variable Detection,2
+Spam detection,2
+Brain Tumor Classification,2
+Motion Generation,2
+Electrocardiography (ECG),2
+Burst Image Reconstruction,2
+Training-free Object Counting,2
+Skin Lesion Segmentation,2
+Ad-Hoc Information Retrieval,2
+Semantic Communication,2
+Drug Response Prediction,2
+Twitter Event Detection,2
+Punctuation Restoration,2
+Zero-shot 3D classification,2
+3D Object Captioning,2
+Emotional Intelligence,2
+Depth-aware Video Panoptic Segmentation,2
+Connectivity Estimation,2
+Audio Synthesis,2
+Semi-supervised Medical Image Classification,2
+Fake Image Attribution,2
+Group Anomaly Detection,2
+legal outcome extraction,2
+Hyperspectral Image Denoising,2
+Video-to-image Affordance Grounding,2
+Robust 3D Object Detection,2
+audio-visual event localization,2
+Table Retrieval,2
+Preference Mapping,2
+3D Point Cloud Interpolation,2
+Video to Text Retrieval,2
+Irregular Text Recognition,2
+Protein Function Prediction,2
+Occluded Face Detection,2
+Video-based Generative Performance Benchmarking,2
+Image Shadow Removal,2
+Image-guided Story Ending Generation,2
+Zero-shot Composed Person Retrieval,2
+visual instruction following,2
+Explanatory Visual Question Answering,2
+Music Performance Rendering,2
+Low-light Image Deblurring and Enhancement,2
+X-ray PDF regression,2
+named-entity-recognition,2
+Multispectral Image Super-resolution,2
+zero-shot long video question answering,2
+3D visual grounding,2
+Counterfactual Reasoning,2
+Flood Inundation Mapping,2
+Articulated Object modelling,2
+Action Classification (1-shot),2
+Fault localization,2
+Detecting Image Manipulation,2
+Garment Reconstruction,2
+Marine Animal Segmentation,2
+Mirror Detection,2
+Keypoint detection and image matching,2
+Causal Discovery in Video Reasoning,2
+Audio Denoising,2
+Video Deblurring,2
+Video deraining,2
+Music Genre Recognition,2
+Text-to-Video Editing,2
+Outdoor Localization,2
+Synthetic Image Detection,2
+Malaria Falciparum Detection,2
+Text within image generation,2
+Water3D_Long,2
+Sand3D_Long,2
+Plasticine3D,2
+3D geometry,2
+Eyeblink detection,2
+Audio-Video Question Answering (AVQA),2
+Damaged Building Detection,2
+Foreground Segmentation,2
+Image Editing,2
+"1 Image, 2*2 Stitching",2
+Malicious Detection,1
+Iloko Speech Recognition,1
+PD-L1 Tumor Proportion Score Prediction,1
+HairColor/Bias-conflicting,1
+HeavyMakeup/Bias-conflicting,1
+JPEG Decompression,1
+Image Classification with Differential Privacy,1
+Zero-Shot Transfer Image Classification (CN),1
+Unsupervised face recognition,1
+Training-free 3D Part Segmentation,1
+Weakly-supervised instance segmentation,1
+Image-level Supervised Instance Segmentation,1
+Point-Supervised Instance Segmentation,1
+Active Object Detection,1
+Box-supervised Instance Segmentation,1
+Activeness Detection,1
+Generalized Zero-Shot Object Detection,1
+3D Single Object Tracking,1
+Open Set Action Recognition,1
+Multi-Label Classification Of Biomedical Texts,1
+Bidirectional Relationship Classification,1
+Unbiased Scene Graph Generation,1
+Smile Recognition,1
+Unsupervised Keypoint Estimation,1
+Image Comprehension,1
+Clinical Assertion Status Detection,1
+GZSL Video Classification,1
+ZSL Video Classification,1
+Cross-Part Crowd Counting,1
+Zero-Shot Single Object Tracking,1
+Drivable Area Detection,1
+Multiple Object Track and Segmentation,1
+Amodal Panoptic Segmentation,1
+Affordance Recognition,1
+Human-Object Interaction Concept Discovery,1
+Phoneme Recognition,1
+Jpeg Compression Artifact Reduction,1
+Multiview Gait Recognition,1
+Occluded 3D Object Symmetry Detection,1
+Vehicle Key-Point and Orientation Estimation,1
+Car Pose Estimation,1
+Semi-Supervised Image Classification (Cold Start),1
+Neural Network Compression,1
+Image Classification with Human Noise,1
+Supervised Image Retrieval,1
+Open Vocabulary Panoptic Segmentation,1
+Speech Prompted Semantic Segmentation,1
+Sound Prompted Semantic Segmentation,1
+Open-Vocabulary Semantic Segmentation,1
+Root Joint Localization,1
+3D Human Pose Estimation in Limited Data,1
+3D Semantic Instance Segmentation,1
+Interactive 3D Instance Segmentation,1
+Unsupervised 3D Semantic Segmentation,1
+Interactive 3D Instance Segmentation -Trained on Scannet40 - Evaluated on Scannet40,1
+Semantic Contour Prediction,1
+Object Skeleton Detection,1
+Hyperspectral Image Inpainting,1
+Semantic Part Detection,1
+Age/Bias-conflicting,1
+Race/Bias-conflicting,1
+Participant Intervention Comparison Outcome Extraction,1
+Pose-Based Human Instance Segmentation,1
+Geometric Matching,1
+Class-agnostic Object Detection,1
+Relationship Detection,1
+Few-shot 3D Point Cloud Semantic Segmentation,1
+Photo to Rest Generalization,1
+Gene Interaction Prediction,1
+3D Multi-Person Pose Estimation (root-relative),1
+Unsupervised 3D Multi-Person Pose Estimation,1
+General Action Video Anomaly Detection,1
+One-Shot 3D Action Recognition,1
+Self-Supervised Human Action Recognition,1
+Few-Shot Skeleton-Based Action Recognition,1
+One-shot visual object segmentation,1
+Multi-view 3D Human Pose Estimation,1
+Online Vectorized HD Map Construction,1
+Sleep Arousal Detection,1
+Multimodal Sleep Stage Detection,1
+Myocardial infarction detection,1
+Lung Nodule 3D Classification,1
+Lung Nodule 3D Detection,1
+Multi-view Subspace Clustering,1
+Video-to-Video Synthesis,1
+Real-Time 3D Semantic Segmentation,1
+Lidar Scene Completion,1
+Text-to-3D-Human Generation,1
+Visual Question Answering (VQA) Split A,1
+Visual Question Answering (VQA) Split B,1
+Drone navigation,1
+Weakly Supervised Action Segmentation (Action Set)),1
+Long-video Activity Recognition,1
+Semi-Supervised Video Action Detection,1
+Long Video Retrieval (Background Removed),1
+3D Shape Classification,1
+Left Ventricle Segmentation,1
+Live Video Captioning,1
+Complimentary Image Retrieval,1
+Sentence Embeddings For Biomedical Texts,1
+Emotion Cause Extraction,1
+Semanticity prediction,1
+Attention Score Prediction,1
+Noise Level Prediction,1
+Method name prediction,1
+Fine-grained Action Recognition,1
+Vector Graphics Animation,1
+Unsupervised Vehicle Re-Identification,1
+Pedestrian Image Caption,1
+Video Corpus Moment Retrieval,1
+Zero-shot 3D Point Cloud Classificationclassification,1
+Supervised Only 3D Point Cloud Classification,1
+Diabetes Prediction,1
+Scene-Aware Dialogue,1
+Causal Emotion Entailment,1
+Online surgical phase recognition,1
+Offline surgical phase recognition,1
+Event Cross-Document Coreference Resolution,1
+Directional Hearing,1
+Real-time Directional Hearing,1
+Accented Speech Recognition,1
+Crime Prediction,1
+Research Performance Prediction,1
+Relationship Extraction (Distant Supervised),1
+Chat-based Image Retrieval,1
+Few-Shot Transfer Learning for Saliency Prediction,1
+Multi-Person Pose Estimation and Tracking,1
+Multi-object colocalization,1
+Plane Instance Segmentation,1
+Zero-shot Scene Classification (unified classes),1
+Viewpoint Estimation,1
+Panoptic Segmentation (PanopticNDT instances),1
+Few-Shot 3D Point Cloud Classification,1
+Time-interval Prediction,1
+Scene Labeling,1
+Instance Search,1
+Matching Disparate Images,1
+Hand Joint Reconstruction,1
+Semi-Supervised RGBD Semantic Segmentation,1
+Anomaly Detection in Edge Streams,1
+Offline Handwritten Chinese Character Recognition,1
+TGIF-Action,1
+Space-time Video Super-resolution,1
+Key-Frame-based Video Super-Resolution (K = 15),1
+Federated Learning (Video Super-Resolution),1
+4-ary Relation Extraction,1
+3D Shape Generation,1
+Electromyography (EMG),1
+Sequential skip prediction,1
+3D Interacting Hand Pose Estimation,1
+Melody Extraction,1
+Micro-Expression Recognition,1
+Program induction,1
+Word Sense Induction,1
+Semantic Text Matching,1
+Composite action recognition,1
+Future prediction,1
+Cervical Nucleus Detection,1
+Attribute,1
+Cross-Lingual Information Retrieval,1
+Foot keypoint detection,1
+multi-word expression sememe prediction,1
+Visual Crowd Analysis,1
+Stereotypical Bias Analysis,1
+Student Engagement Level Detection (Four Class Video Classification),1
+Clothes Landmark Detection,1
+Video Question Answering (Level 3),1
+Video Question Answering (Level 4),1
+Learning Semantic Representations,1
+Event-Based Video Reconstruction,1
+intensity image denoising,1
+B-Rep face segmentation,1
+Interest Point Detection,1
+Model Selection,1
+Cross-Lingual Semantic Textual Similarity,1
+Gesture Synchronization,1
+Long-tailed Object Detection,1
+Novel Object Detection,1
+Zero-Shot Instance Segmentation,1
+Entity Extraction using GAN,1
+Predict Future Video Frames,1
+Business Taxonomy Construction,1
+Node Property Prediction,1
+Link Property Prediction,1
+Abstract generation,1
+Webcam (RGB) image classification,1
+Optic Cup Detection,1
+Motion Compensation,1
+Rice Grain Disease Detection,1
+Instance Shadow Detection,1
+Camera shot segmentation,1
+"Indoor Localization (3-DoF Pose: X, Y, Yaw)",1
+Indoor Localization (6-DoF Pose),1
+Indoor Localization (6D),1
+2D Indoor Localization (Position + Orientation),1
+6D Indoor Localization,1
+Indoor Localization (6 DoF Pose),1
+Text Effects Transfer,1
+Counterfactual Detection,1
+Fashion Synthesis,1
+Video-to-Sound Generation,1
+Predicting Patient Outcomes,1
+Online Video Anomaly Detection,1
+Hardware Aware Neural Architecture Search,1
+Initial Structure to Relaxed Energy (IS2RE),1
+"Initial Structure to Relaxed Energy (IS2RE), Direct",1
+Image Paragraph Captioning,1
+Zero-Shot Image Paragraph Captioning,1
+Breast Cancer Histology Image Classification (20% labels),1
+Multi-Instance Retrieval,1
+Sparse Information Retrieval,1
+Video Deinterlacing,1
+Unsupervised nucleus segmentation,1
+Malware Type Detection,1
+Semi-Supervised Video Classification,1
+Workflow Discovery,1
+Speech-to-Gesture Translation,1
+Named Entity Recognition In Vietnamese,1
+Stance Detection (US Election 2020 - Biden),1
+Stance Detection (US Election 2020 - Trump),1
+MULTI-VIEW LEARNING,1
+Hope Speech Detection for English,1
+Hope Speech Detection for Tamil,1
+Hope Speech Detection for Malayalam,1
+Protein Fold Quality Estimation,1
+Duplicate-Question Retrieval,1
+Infinite Image Generation,1
+Perpetual View Generation,1
+Image Augmentation,1
+Human fMRI response prediction,1
+Organ Detection,1
+3D Scene Graph Alignment,1
+3d scene graph generation,1
+Text to Audio/Video Retrieval,1
+Audio/Video to Text Retrieval,1
+Retrieval-augmented Few-shot In-context Audio Captioning,1
+Evidence Selection,1
+Multi-Grained Named Entity Recognition,1
+Human-Object Interaction Anticipation,1
+Actionable Phrase Detection,1
+Earth Surface Forecasting,1
+Semantic Segmentation Of Orthoimagery,1
+Event-Driven Trading,1
+Cloud Detection,1
+Blood Cell Count,1
+eXtreme-Video-Frame-Interpolation,1
+Attractiveness Estimation,1
+Cold-Start Anomaly Detection,1
+Indoor Scene Reconstruction,1
+Plan2Scene,1
+Fingertip Detection,1
+Shape from Texture,1
+Chemical Reaction Prediction,1
+Single-step retrosynthesis,1
+Zero-shot Cross-lingual Fact-checking,1
+Safety Perception Recognition,1
+Alzheimer's Disease Detection,1
+Cubic splines Image Registration,1
+Epilepsy Prediction,1
+Face Recognition (Closed-Set),1
+Micro-gesture Recognition,1
+Crowdsourced Text Aggregation,1
+Counterfactual Explanation,1
+Key Detection,1
+Zero-shot Moment Retrieval,1
+Contour Detection,1
+Anxiety Detection,1
+Kidney Function,1
+Multimodal Forgery Detection,1
+Predict clinical outcome,1
+Person-centric Visual Grounding,1
+Home Activity Monitoring,1
+Action Triplet Detection,1
+Zero-Shot Out-of-Domain Detection,1
+Semi-Supervised Object Detection,1
+Clone Detection,1
+Role-filler Entity Extraction,1
+Attribute Extraction,1
+Video Harmonization,1
+Skin Cancer Classification,1
+3D Object Super-Resolution,1
+Flowchart Grounded Dialog Response Generation,1
+Zero-Shot Flowchart Grounded Dialog Response Generation,1
+2D Semantic Segmentation task 2 (17 classes),1
+Video-to-Shop,1
+Speech Synthesis - Tamil,1
+Speech Synthesis - Kannada,1
+Speech Synthesis - Malayalam,1
+Speech Synthesis - Telugu,1
+Speech Synthesis - Assamese,1
+Speech Synthesis - Bengali,1
+Speech Synthesis - Bodo,1
+Speech Synthesis - Hindi,1
+Speech Synthesis - Manipuri,1
+Speech Synthesis - Marathi,1
+Speech Synthesis - Rajasthani,1
+3D Building Mesh Labeling,1
+Object State Change Classification,1
+State Change Object Detection,1
+Short-term Object Interaction Anticipation,1
+Future Hand Prediction,1
+Long Term Action Anticipation,1
+Depth Image Estimation,1
+Table Functional Analysis,1
+Unsupervised Instance Segmentation,1
+Open-World Instance Segmentation,1
+Webpage Object Detection,1
+Natural Language Landmark Navigation Instructions Generation,1
+Event Expansion,1
+Face Transfer,1
+Colon Cancer Detection In Confocal Laser Microscopy Images,1
+Weakly Supervised Data Denoising,1
+Caustics Segmentation,1
+Discourse Marker Prediction,1
+Global Facts,1
+Miscellaneous,1
+Abstract Algebra,1
+Mathematical Induction,1
+Medical Genetics,1
+Figure Of Speech Detection,1
+Question Selection,1
+Electrical Engineering,1
+Ventricular fibrillation detection,1
+Localization In Video Forgery,1
+Physical Video Anomaly Detection,1
+Connective Detection,1
+text-to-3d-human,1
+Text-to-Face Generation,1
+Seizure prediction,1
+Zero-Shot Cross-Lingual Text-to-Image Retrieval,1
+Zero-Shot Cross-Lingual Image-to-Text Retrieval,1
+Zero-Shot Cross-Lingual Visual Natural Language Inference,1
+Zero-Shot Cross-Lingual Visual Question Answering,1
+Max-Shot Cross-Lingual Visual Natural Language Inference,1
+Max-Shot Cross-Lingual Visual Question Answering,1
+Max-Shot Cross-Lingual Text-to-Image Retrieval,1
+Max-Shot Cross-Lingual Image-to-Text Retrieval,1
+Cross-Domain Iris Presentation Attack Detection,1
+Image Categorization,1
+3D Human Dynamics,1
+Video Based Workflow Recognition,1
+Segmentation Based Workflow Recognition,1
+Video & Kinematic Base Workflow Recognition,1
+"Video, Kinematic & Segmentation Base Workflow Recognition",1
+Visual Abductive Reasoning,1
+Fact Selection,1
+Anchor link prediction,1
+Style change detection,1
+Panorama Pose Estimation (N-view),1
+Pose Contrastive Learning,1
+Motion Disentanglement,1
+Atom3D benchmark,1
+Ancient Text Restoration,1
+Depth Anomaly Detection and Segmentation,1
+RGB+3D Anomaly Detection and Segmentation,1
+Behavioral Malware Detection,1
+English Conversational Speech Recognition,1
+Math Information Retrieval,1
+Argument Pair Extraction (APE),1
+3D Source-Free Domain Adaptation,1
+3D Unsupervised Domain Adaptation,1
+Claim-Evidence Pair Extraction (CEPE),1
+Reference-based Video Super-Resolution,1
+Gait Recognition in the Wild,1
+ECG QRS Detection,1
+Question Quality Assessment,1
+Weakly Supervised 3D Detection,1
+Short-observation new product sales forecasting,1
+Gallbladder Cancer Detection,1
+Classification Of Breast Cancer Histology Images,1
+Object Segmentation,1
+Keypoint Estimation,1
+Contact Detection,1
+Rolling Shutter Correction,1
+LV Segmentation,1
+Respiratory motion forecasting,1
+Personality Recognition in Conversation,1
+Personalized and Emotional Conversation,1
+image smoothing,1
+Fast Vehicle Detection,1
+Referring Image Matting (Expression-based),1
+Referring Image Matting (Keyword-based),1
+Referring Image Matting (RefMatte-RW100),1
+Referring Image Matting (Prompt-based),1
+Aesthetic Image Captioning,1
+Context-specific Spam Detection,1
+Traditional Spam Detection,1
+feature selection,1
+Fire Detection,1
+Handwritten Line Segmentation,1
+Markerless Motion Capture,1
+Bangla Text Detection,1
+Table Type Detection,1
+Weakly Supervised 3D Point Cloud Segmentation,1
+Translation mri-eng,1
+Image-text Classification,1
+Inverse-Tone-Mapping,1
+Histopathological Segmentation,1
+image-sentence alignment,1
+Handwritten Digit Image Synthesis,1
+Morphological Inflection,1
+Panoptic Scene Graph Generation,1
+Air Pollution Prediction,1
+Unconditional Video Generation,1
+Face Reenactment,1
+Predictive Process Monitoring,1
+3D scene Editing,1
+3D Object Editing,1
+Extracting COVID-19 Events from Twitter,1
+Multi-Labeled Relation Extraction,1
+Information Cascade Popularity Prediction,1
+Grayscale Video Denoising,1
+Negation and Speculation Cue Detection,1
+Few-shot Object Counting and Detection,1
+Out-of-Sight Trajectory Prediction,1
+Local Color Enhancement,1
+Cultural Vocal Bursts Intensity Prediction,1
+Vocal Bursts Intensity Prediction,1
+Vocal Bursts Valence Prediction,1
+Vocal Bursts Type Prediction,1
+Emotion-Cause Pair Extraction,1
+Landmark Tracking,1
+Unsupervised Landmark Detection,1
+Weakly-supervised Anomaly Detection,1
+Uncertainty Visualization,1
+Subject Transfer,1
+Zero-Shot Facial Expression Recognition,1
+Gunshot Detection,1
+Shooter Localization,1
+Predicting Drug-Induced Laboratory Test Effects,1
+Laminar-Turbulent Flow Localisation,1
+EEG Artifact Removal,1
+Text to Image Generation,1
+Cancer-no cancer per image classification,1
+Bangla Spelling Error Correction,1
+Counterfactual Planning,1
+Streaming Target Sound Extraction,1
+Video Defect Classification,1
+Temporal Defect Localization,1
+Mobile Periocular Recognition,1
+Visual Text Correction,1
+Phishing Website Detection,1
+Arabic Speech Recognition,1
+Hyper-Relational Extraction,1
+Event-based N-ary Relaiton Extraction,1
+Role-based N-ary Relaiton Extraction,1
+Hypergraph-based N-ary Relaiton Extraction,1
+Open Vocabulary Attribute Detection,1
+Multilingual Image-Text Classification,1
+Acute Stroke Lesion Segmentation,1
+SemEval-2022 Task 4-1 (Binary PCL Detection),1
+SemEval-2022 Task 4-2 (Multi-label PCL Detection),1
+Binary Condescension Detection,1
+Multi-label Condescension Detection,1
+One-Shot Part Segmentation of Grasp Affordance - Inter Class,1
+One-Shot Part Segmentation of Cut Affordance - Inter Class,1
+One-Shot Part Segmentation of Scoop Affordance - Inter Class,1
+One-Shot Part Segmentation of Contain Affordance - Inter Class,1
+One-Shot Part Segmentation of Wrap-Grasp Affordance - Inter Class,1
+One-Shot Part Segmentation of Pound Affordance - Inter Class,1
+One-Shot Part Segmentation of Support Affordance - Inter Class,1
+One-Shot Part Segmentation of Grasp Affordance - Intra Class,1
+One-Shot Part Segmentation of Cut Affordance - Intra Class,1
+One-Shot Part Segmentation of Scoop Affordance - Intra Class,1
+One-Shot Part Segmentation of Contain Affordance - Intra Class,1
+One-Shot Part Segmentation of Wrap-Grasp Affordance - Intra Class,1
+One-Shot Part Segmentation of Pound Affordance - Intra Class,1
+One-Shot Part Segmentation of Support Affordance - Intra Class,1
+ArzEn Speech Recognition,1
+Partial Video Copy Detection,1
+Hyperspectral Image-Based Fruit Ripeness Prediction,1
+Grounded Situation Recognition,1
+Document Image Skew Estimation,1
+Multi-step retrosynthesis,1
+Sleep apnea detection,1
+Line Items Extraction,1
+Sign Language Retrieval,1
+Calving Front Delineation In Synthetic Aperture Radar Imagery,1
+Calving Front Delineation In Synthetic Aperture Radar Imagery With Fixed Training Amount,1
+Video Narrative Grounding,1
+Protein Secondary Structure Prediction,1
+Color Mismatch Correction,1
+Self-supervised Scene Flow Estimation,1
+Visual Commonsense Tests,1
+Social Media Popularity Prediction,1
+Heterogeneous Treatment Effect Estimation,1
+Robust Camera Only 3D Object Detection,1
+Automatic Cell Counting,1
+Face Image Quality Assessment,1
+Robust BEV Detection,1
+Robust BEV Map Segmentation,1
+Long-tail Video Object Segmentation,1
+Open-World Video Segmentation,1
+Multi-Person Pose forecasting,1
+Catalog Extraction,1
+Personalized Segmentation,1
+Generative Visual Question Answering,1
+Image Deconvolution,1
+Generalized Referring Expression Segmentation,1
+Open-set video tagging,1
+Multi-View 3D Shape Retrieval,1
+CT Reconstruction,1
+Visual Analogies,1
+3D Multi-Person Human Pose Estimation,1
+Promoter Detection,1
+Core Promoter Detection,1
+Splice Site Prediction,1
+Covid Variant Prediction,1
+Epigenetic Marks Prediction,1
+Transcription Factor Binding Site Prediction (Human),1
+Transcription Factor Binding Site Prediction (Mouse),1
+Printed Text Recognition,1
+Real-Time Visual Tracking,1
+Tone Mapping,1
+Structured Report Generation,1
+Retinal OCT Layer Segmentation,1
+Video-based Generative Performance Benchmarking (Correctness of Information),1
+Video-based Generative Performance Benchmarking (Detail Orientation)),1
+Video-based Generative Performance Benchmarking (Contextual Understanding),1
+Video-based Generative Performance Benchmarking (Temporal Understanding),1
+Video-based Generative Performance Benchmarking (Consistency),1
+Toxic Spans Detection,1
+Described Object Detection,1
+Nuclei Classification,1
+Ontology Matching,1
+Weakly-Supervised Object Segmentation,1
+Semi-supervised Change Detection,1
+Landslide segmentation,1
+Vessel Detection,1
+Few-Shot Camera-Adaptive Color Constancy,1
+Single-shot HDR Reconstruction,1
+Real-time instance measurement,1
+Semi-Supervised Human Pose Estimation,1
+Story Visualization,1
+Conversational Sentiment Quadruple Extraction,1
+Composed Video Retrieval (CoVR),1
+Global 3D Human Pose Estimation,1
+Unsupervised Image Decomposition,1
+Depth And Camera Motion,1
+Fracture detection,1
+Language-Based Temporal Localization,1
+Video Chaptering,1
+Outcome Prediction In Multimodal Mri,1
+Multi-Subject Fmri Data Alignment,1
+Motion Correction In Multishot Mri,1
+Brain Lesion Segmentation From Mri,1
+Android Malware Detection,1
+Image-text matching,1
+Propaganda detection,1
+Odor Descriptor Prediction,1
+Automatic Modulation Recognition,1
+"Suspicous (BIRADS 4,5)-no suspicous (BIRADS 1,2,3) per image classification",1
+Analog Video Restoration,1
+Scholarly Named Entity Recognition,1
+Audio-Visual Question Answering (AVQA),1
+Coronary Artery Segmentation,1
+Stenosis Segmentation,1
+Caller Detection,1
+Image-based Recommendation Explainability,1
+Pupil Tracking,1
+Pupil Detection,1
+Intraoperative Tracking,1
+Intracorporeal Tracking,1
+Visibility Tracking,1
+3D Point Cloud Reinforcement Learning,1
+video narration captioning,1
+Brain Visual Reconstruction,1
+Brain Visual Reconstruction from fMRI,1
+inverse tone mapping,1
+Specular Segmentation,1
+Geometrical View,1
+Clothing Attribute Recognition,1
+Historical Color Image Dating,1
+Crop Type Mapping,1
+Sowing Date Prediction,1
+Transplanting Date Prediction,1
+Harvesting Date Prediction,1
+MLLM Evaluation: Aesthetics,1
+Cell Tracking,1
+Factual Inconsistency Detection in Chart Captioning,1
+Amodal Tracking,1
+Only Connect Walls Dataset Task 1 (Grouping),1
+Hierarchical Text Segmentation,1
+Audio Quality Assessment,1
+Music Quality Assessment,1
+Conversational Web Navigation,1
+IUPAC Name Prediction,1
+Medical Image Deblurring,1
+AUDIO-VISUAL QUESTION ANSWERING (MUSIC-AVQA-v2.0),1
+Artifact Detection,1
+All-day Semantic Segmentation,1
+Aspect Category Sentiment Analysis,1
+Hidden Aspect Detection,1
+Latent Aspect Detection,1
+Chemical Entity Recognition,1
+Human Detection of Deepfakes,1
+Aerial Scene Classification,1
+Micro-Action Recognition,1
+Python Code Synthesis,1
+Game State Reconstruction,1
+Clinical Section Identification,1
+Stereo-LiDAR Fusion,1
+Novel LiDAR View Synthesis,1
+Visual Prompt Tuning,1
+Face Image Retrieval,1
+motion retargeting,1
+Retrosynthesis,1
+Mono3DVG,1
+Bathymetry prediction,1
+Procedure Step Recognition,1
+3D Object Detection (RoI),1
+Video Captioning on MSR-VTT,1
+Video Captioning on MS,1
+Linear Probing Object-Level 3D Awareness,1
+Anomaly Instance Segmentation,1
+Segmented Multimodal Named Entity Recognition,1
+Oriented Object Detctio,1
+Personalized Image Generation,1
+Action Classification (zero-shot),1
+Detection of potentially void clauses,1
+X-ray Visual Question Answering,1
+Video Style Transfer,1
+Video Temporal Consistency,1
+Hand-Object Interaction Detection,1
+Uncertainty-Aware Panoptic Segmentation,1
+Sequential Place Recognition,1
+Few-shot Instance Segmentation,1
+Multi-Objective Multi-Agent Reinforcement Learning,1
+Joint Entity and Relation Extraction on Scientific Data,1
+Vehicle Color Recognition,1
+Fake Song Detection,1
+Synthetic Song Detection,1
+Fine-Grained Image Inpainting,1
+Lifelike 3D Human Generation,1
+ENF (Electric Network Frequency) Extraction,1
+ENF (Electric Network Frequency) Detection,1
+ENF (Electric Network Frequency) Extraction from Video,1
+Information Extraction,1
+Singing Voice Synthesis,1
+Image Stylization,1
+Novelty Detection,1
+Models Alignment,1
+Political Salient Issue Orientation Detection,1
+Motion Interpolation,1
+Political Influence Detection,1
+Scientific Data Usage Detection,1
+Statistical Data Usage Detection,1
+Data Sources Detection,1
+Impacted Location Detection,1
+Detecting Climate/Environmental Topics,1
+News Target Detection,1
+Authority Involvement Detection,1
+Voice pathology detection,1
+Beam Prediction,1
+Optimize the trajectory of UAV which plays a BS in communication system,1
+Few-shot Video Question Answering,1
+Grounded Video Question Answering,1
+Violence and Weaponized Violence Detection,1
+3D Open-Vocabulary Object Detection,1
+Anomaly Localization,1
+De novo molecule generation from MS/MS spectrum,1
+Molecule retrieval from MS/MS spectrum,1
+MS/MS spectrum simulation,1
+De novo molecule generation from MS/MS spectrum (bonus chemical formulae),1
+MS/MS spectrum simulation (bonus chemical formulae),1
+Molecule retrieval from MS/MS spectrum (bonus chemical formulae),1
+CSV dialect detection,1
+Sports Activity Recognition,1
+Production Forecasting,1
+Product Relation Classification,1
+Product Relation Detection,1
+Open Vocabulary Image Classification,1
+Fruit-type + Maturity-state Prediction (Multi-label Classification),1
+Railway Track Image Classification,1
+ECG Denoising,1
+Synthetic Image Attribution,1
+Omnnidirectional Stereo Depth Estimation,1
+Video Synopsis,1
+Blood Detection,1
+Few-Shot Instance Classification,1
+Hyperspectral Unmixing,1
+Classification Of Hyperspectral Images,1
+Inductive knowledge graph completion,1
+Persuasive Writing Strategy Detection Level-1,1
+Persuasive Writing Strategy Detection Level-2,1
+Persuasive Writing Strategy Detection Level-3,1
+Persuasive Writing Strategy Detection Level-4,1
+Cross-view Referring Multi-Object Tracking,1
+Single-View 3D Reconstruction on ShapeNet,1
+Music Compression,1
+Human-Human Interaction Recognition,1
+Malaria Vivax Detection,1
+Malaria Malariae Detection,1
+Malaria Ovale Detection,1
+Handwritten Document Recognition,1
+ADP Prediction,1
+BEV Segmentation,1
+3D Semantic Occupancy Prediction,1
+Computer Vision Transduction,1
+Image-Variation,1
+Event Relation Extraction,1
+Relation Prediction,1
+answerability prediction,1
+Cross-modal place recognition,1
+Raw reconstruction,1
+Object Rearrangement,1
+WaterDrop2D,1
+Sand2D,1
+Goop2D,1
+Elasticity3D,1
+MultiMaterial2D,1
+Generating 3D Point Clouds,1
+Event Causality Identification,1
+Audio-Visual Video Captioning,1
+Video Boundary Captioning,1
+Surface Normals Estimation from Point Clouds,1
+3DGS,1
+Image-to-Image Regression,1
+Safety Alignment,1
+cross-modal alignment,1
+Thermal Image Denoising,1
+Aerial Video Semantic Segmentation,1
+Cyber Attack Detection,1
+Contact-rich Manipulation,1
+Text-based Person Retrieval,1
+Disease Prediction,1
+confidence interval for traffic prediction,1
+Silent Speech Recognition,1
+Hierarchical Text-Image Matching,1
+Dynamic Reconstruction,1
+Vision-Language-Action,1
+Dense contact estimation,1
+Bone Suppression From Dual Energy Chest X-Rays,1
+Anomaly Severity Classification (Anomaly vs. Defect),1
+Video Action Detection,1
+Human-Domain Subject-to-Video,1
+Single-Domain Subject-to-Video,1
+Temporal Action Segmentation,1
+Monocular 3D Object Localization,1
+GUI Element Detection,1
+WiFi CSI-based Image Reconstruction,1
+Human-Object Interaction Generation,1
+fake voice detection,1
+Emotion Interpretation,1
+Cross-Modal Information Retrieval,1
+3D Architecture,1
+MRI classification,1

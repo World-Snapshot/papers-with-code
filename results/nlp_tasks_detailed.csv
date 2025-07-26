@@ -1,0 +1,1094 @@
+Task Name,Dataset Count,Common Datasets (Top 10),Benchmarks,SOTA Metrics,Subtasks,Categories,Description (First 200 chars)
+Question Answering,416,NExT-QA (Open-ended VideoQA); CNN/Daily Mail; Molweni; PersianQA; OpenBookQA; Researchy Questions; ReviewQA; SchizzoSQUAD; PhysiCo; WikiHop,NExT-QA (Open-ended VideoQA); DROP Test; MuLD (NarrativeQA); MedQA; SIQA; MRQA; CODAH; Molweni; OpenBookQA; SchizzoSQUAD,Operations per network pass; 1-of-100 Accuracy; BLEU-1; Conditional (w/ conditions); Overall; Exact Match (EM); Mean Error Rate; Exact F1; HEQQ; Accuracy (trained on 1k),Question Quality Assessment; Logical Reasoning Question Answering; Open-Domain Question Answering; Knowledge Base Question Answering; Generative Question Answering,Reasoning; Miscellaneous; Natural Language Processing,Question answering can be segmented into domain-specific tasks like community question answering and knowledge-base question answering. Popular benchmark datasets for evaluation question answering sys...
+Classification,222,Urban Hyperspectral Image; Satellite; Open Radar Datasets; GRAZPEDWRI-DX; LLeQA; UK Biobank Brain MRI; GLUE; Two Coiling Spirals; Tasksource; Mudestreda,RTE; Radar Dataset (DIAT-μRadHAR: Radar micro-Doppler Signature dataset for Human Suspicious Activity Recognition); MixedWM38; N-ImageNet; Chest X-Ray Images (Pneumonia); MHIST; SGD; HOWS long; Coordinated Reply Attacks in Influence Operations: Characterization and Detection; CWRU Bearing Dataset,"Params (M); Robustness Score; macro f1 score (A(100), B(100), C(100) Avg.); MCC; 1-of-100 Accuracy; Macro F1; Detection AUROC (severity 5); Detection AUROC (severity 0); Overall accuracy after last sequence; 10 fold Cross validation",tercile classification; Classifier calibration; Clinical Section Identification; Underwater Acoustic Classification; quantum circuit classification (classical ML),Reasoning; Methodology; Computer Code; Time Series; Adversarial; Computer Vision; Audio; Miscellaneous; Medical; Graphs; Natural Language Processing,"**Classification** is the task of categorizing a set of data into predefined classes or groups. The aim of classification is to train a model to correctly predict the class or group of new, unseen dat..."
+Text Classification,167,HateXplain; MetaHate; Avicenna: Deductive Commonsense Reasoning; MNAD; Overruling; LLeQA; MuMiN-medium; Twitter Sentiment Analysis; GLUE; Persian NLP Hub,HateXplain; Overruling; Twitter Sentiment Analysis; GLUE; reuters21578; NICE-45; RCV1; OneStopEnglish (Readability Assessment); 20 Newsgroups; IMDb,Average F1; Macro F1; Micro F1; weighted-F1 score; F1 Macro; STOPS-2; AUC; nDCG@3; macro F1; Weighted F1,Document Classification; Unsupervised Text Classification; Sentence Classification; Toxic Comment Classification; Satire Detection,Natural Language Processing,**Text Classification** is the task of assigning a sentence or document an appropriate category. The categories depend on the chosen dataset and can range from topics.     Text Classification problems...
+Language Modelling,166,WMT 2018 News; SLNET; CLOTH; LRA; SIQA; RWC; Glot500-c; PolyNews; Libri-Light; SMC Text Corpus,Text8 dev; PhilPapers; 100 sleep nights of 8 caregivers; FewCLUE (BUSTM); BIG-bench-lite; CLUE (WSC1.1); FewCLUE (OCNLI-FC); OpenWebText; CLUE (DRCD); OpenWebtext2,PPL; 0..5sec; Bits per byte; parameters; Number of params; BPB; Gender Consistency; 10%; Sentiment Alignment; Room Consistency,Cross-Document Language Modeling; Sentence Pair Modeling; XLM-R; Controllable Language Modelling; Long-range modeling,Miscellaneous; Medical; Natural Language Processing,"A language model is a model of natural language. Language models are useful for a variety of tasks, including speech recognition, machine translation, natural language generation (generating more huma..."
+Text Generation,162,Avicenna: Deductive Commonsense Reasoning; CNN/Daily Mail; needadvice; Reglamento_Aeronautico_Colombiano_2024; AAVE/SAE Paired Dataset; PolyNews; GLUE; ReDial; TaoDescribe; UHGEvalDataset,CNN/Daily Mail; LDC2016E25; CrimeStats; ReDial; Winogrande TR; Unruly; OpenBookQA; ARC Challenge (25-Shot); Open-Mindedness (0-shot); OpenWebText,BLEU-5; NLLgen; BLEU-1; JS-4; BLEU-2; Distinct-4; NLL; eval_loss; CIDEr; BLEU-4,Concept-To-Text Generation; Paper generation; Paraphrase Generation; Data-to-Text Generation; News Generation,Speech; Adversarial; Computer Code; Natural Language Processing,"**Text Generation** is the task of generating text with the goal of appearing indistinguishable to human-written text. This task is more formally known as ""natural language generation"" in the literatu..."
+Sentiment Analysis,105,DSC (10 tasks); MultiSenti; ReDial; L3CubeMahaSent; ReviewQA; ASTD; SentNoB; Twitter US Airline Sentiment; NoReC; SentimentArcs: Sentiment Reference Corpus for Novels,ChnSentiCorp; IMDb Movie Reviews; FiQA; SLUE; IITP Movie Reviews Sentiment; 122 People - Passenger Behavior Recognition Data; TweetEval; RuSentiment; BanglaBook; Amazon Polarity,Yelp 2014 (Acc); Kitchen; Average F1; Training Time; Recall (%)	; Macro F1; IMDB (Acc); F1 Macro; 10 fold Cross validation; Average,Arabic Sentiment Analysis; Aspect Term Extraction and Sentiment Classification; target-oriented opinion words extraction; Pcl Detection; Aspect-Based Sentiment Analysis (ABSA),Computer Vision; Natural Language Processing,"**Sentiment Analysis** is the task of classifying the polarity of a given text. For instance, a text-based tweet can be categorized into either ""positive"", ""negative"", or ""neutral"". Given the text and..."
+Text Summarization,98,CNN/Daily Mail; AUTH at BioLaySumm 2024: Bringing Scientific Content to Kids; UKIL-DB-EN; Multi-News; PerKey; Proto Summ; BrWac2Wiki; pn-summary; TQBA++; BookSum,BBC XSum; WikiHow; GigaWord; MeQSum; DUC 2004 Task 1; OrangeSum; GigaWord-10k; CL-SciSumm; LCSTS; ACI-Bench,Meteor; Rouge-2; Spearman Correlation; ROUGE-1; BLEU; ROUGE-3; BertScoreF1; BertScore; Avg. Test Rouge1; Rouge-1,Opinion Summarization; Sentence Summarization; Document Summarization; Abstractive Text Summarization; Long-Form Narrative Summarization,Knowledge Base; Natural Language Processing,"**Text Summarization** is a natural language processing (NLP) task that involves condensing a lengthy text document into a shorter, more compact version while still retaining the most important inform..."
+Domain Adaptation,96,DAPlankton; Stanceosaurus; Five-Billion-Pixels; VisDA-2017; bladderbatch; VIDIT; KdConv; Adaptiope; Nikon RAW Low Light; Modern Office-31,HMDBfull-to-UCF; LeukemiaAttri; GTA-to-FoggyCityscapes; Sim10k; Noisy-SYND-to-MNIST; GTAV+Synscapes to Cityscapes; MoLane; GTAV to Cityscapes+Mapillary; UCF-to-Olympic; SYNTHIA-to-FoggyCityscapes,Accuracy (%);  mAP; mAP; mPQ; Average Accuracy; PSNR; Classification Accuracy; Lane Accuracy (LA); Extra Manual Annotation; Accuracy,Partial Domain Adaptation; Test-time Adaptation; Wildly Unsupervised Domain Adaptation; Open-Set Multi-Target Domain Adaptation; Unsupervised Domain Adaptation,Methodology; Computer Vision,**Domain Adaptation** is the task of adapting models across domains. This is motivated by the challenge where the test and training datasets fall from different data distributions due to some factor. ...
+Reading Comprehension,95,WikiReading Recycled; CLOTH; NEREL-BIO; MRQA; Molweni; NomBank; PersianQA; PolicyQA; QuAC; CMRC,ReCAM; RACE; MuSeRC; RadQA; AdversarialQA; ReClor; CrowdSource QA,Accuracy (High); Accuracy (Middle); D(RoBERTa): F1; Average F1; EM ; D(BERT): F1; MSE; Accuracy; Answer F1; Test,Belebele; RACE-h; Figure Of Speech Detection; GRE Reading Comprehension; RACE-m,Natural Language Processing,Most current question answering datasets frame the task as reading comprehension where the question is about a paragraph or document and the answer often is a span in the document.     Some specific t...
+Machine Translation,83,WMT 2018 News; Shifts; WMT 2018; MLQE-PE; BWB; MLQA; ContraCAT; Bilingual Corpus of Arabic-English Parallel Tweets; IWSLT2015; Hindi Visual Genome,Business Scene Dialogue EN-JA; IWSLT2015 English-Vietnamese; IWSLT2015 German-English; WMT 2018 English-Finnish; IWSLT2017 French-English; WMT 2022 English-Russian; WMT 2022 Czech-English; WMT2017 Finnish-English; WMT 2017 Latvian-English; WMT 2018 English-Estonian,ChrF++; Operations per network pass; 1-of-100 Accuracy; Hardware Burden; Number of Params; BLEU (Scn-En); Median Relative Edit Distance; SacreBLEU; BLEU (It-Scn); BLEURT,Transliteration; Bilingual Lexicon Induction; Automatic Post-Editing; Legal Document Translation; Multimodal Machine Translation,Natural Language Processing,**Machine translation** is the task of translating a sentence in a source language to a different target language.    Approaches for machine translation can range from rule-based to statistical to neu...
+Natural Language Inference,81,GLUE; Tasksource; ContractNLI; NLI4Wills Corpus; WinoGrande; PAWS; SelQA; HeadQA; Story Commonsense; Mindgames,AX; RTE; MultiNLI; ANLI test; fever-nli; MedNLI; MNLI + SNLI + ANLI + FEVER; QNLI; GLUE; MultiNLI Dev,Params (M); Average F1; Macro F1; % Test Accuracy; % Dev Accuracy; A3; Dev Matched; Matched; A2; BLEU,Visual Entailment; Cross-Lingual Natural Language Inference; Answer Generation,Reasoning; Natural Language Processing,"**Natural language inference (NLI)** is the task of determining whether a ""hypothesis"" is   true (entailment), false (contradiction), or undetermined (neutral) given a ""premise"".    Example:    | Prem..."
+Node Classification,76,Citeseer; Wisconsin (48%/32%/20% fixed splits); tolokers; MUTAG; MuMiN-medium; PASCAL VOC; Penn94; MuMiN-large; HeriGraph; USA Air-Traffic,MuMiN-medium; pokec; Coauthor CS; DBLP: 20 nodes per class; London; Telegram (Directed Graph label rate 60%); Wiki-Vote; Amazon Photo; Wisconsin; ogbn-products: 20 nodes per class,Macro F1; Micro F1; runtime (s); Training Split; Macro-F1@2%; Top-1 accuracy; Inference Time (ms); AUC; Average Top-1 Accuracy; macro F1,Graph structure learning; Heterogeneous Node Classification; Atomic number classification; Dynamic Node Classification; Node Classification on Non-Homophilic (Heterophilic) Graphs,Graphs,"**Node Classification** is a machine learning task in graph-based data analysis, where the goal is to assign labels to nodes in a graph based on the properties of nodes and the relationships between t..."
+Natural Language Understanding,72,Belebele; NLU Evaluation Corpora; MeDAL; WikiCREM; EPIE; IndirectRequests; ChatLog; Perspectrum; GLUE; SGD,DialoGLUE full; LexGLUE; GLUE; STREUSLE; PDP60; DialoGLUE fewshot,CLINC150 (Acc); UNFAIR-ToS; Tags (Full) Acc; Full F1 (Preps); LEDGAR; ECtHR Task B; Average; ECtHR Task A; CaseHOLD; Role F1 (Preps),Emotional Dialogue Acts; Vietnamese Social Media Text Processing,Natural Language Processing,"**Natural Language Understanding** is an important field of Natural Language Processing which contains various tasks such as text classification, natural language inference and story comprehension. Ap..."
+Code Generation,70,DSEval-Exercise; DSEval-Kaggle; Flat Real World Simulink Models; HumanEval-ET; TACO-BAAI; WebApp1K-React; BioCoder; BigCodeBench; TFix's Code Patches Data; CoNaLa-Ext,BigCodeBench-Instruct; HumanEval-ET; Multi-Source Python Code Corpus; TACO-BAAI; WebApp1K-React; CoNaLa-Ext; PECC; Android Repos; Django; MBPP-ET,Competition Pass@5; Test Set pass@5; Interview Pass@any; CorrSc; Java/BLEU; Competition Pass@any; Java/CodeBLEU; Introductory Pass@any; BLEU Score; Introductory Pass@1,Library-Oriented Code Generation; Class-level Code Generation; GitHub issue resolution; Code Translation; Code Documentation Generation,Reasoning; Computer Code; Natural Language Processing,"**Code Generation** is an important field to predict explicit code or program structure from multimodal data sources such as incomplete code, programs in another programming language, natural language..."
+Common Sense Reasoning,56,CREAK; RWSD; Housekeep; ACCORD CSQA 0-5; StepGame; ReCoRD; X-CSQA; CODAH; PARus; QuRe,RWSD; ReCoRD; CODAH; PARus; Russian Event2Mind; Visual Dialog v0.9; Event2Mind test; WinoGrande; ARC (Challenge); BIG-bench (Sports Understanding),EM; Recall@10; EM ; BLEU; Jaccard Index; Dev; Average F1; F1; MSE; 1 in 10 R@5,Discourse Marker Prediction; Crash Blossom; Riddle Sense; Disambiguation QA; Crass AI,Reasoning; Natural Language Processing,"Common sense reasoning tasks are intended to require the model to go beyond pattern  recognition. Instead, the model should use ""common sense"" or world knowledge to make inferences."
+Recommendation Systems,56,Spotify Podcast; Tripadvisor Restaurant Reviews; Gowalla; WyzeRule; Yelp2018; Wikidata-14M; CAL10K; Amazon Review; SweetRS; ReDial,Douban Monti; Gowalla; Amazon Games; MovieLens 10M; Yelp2018; Amazon-Movies; Amazon Books; ReDial; Flixster; Amazon Men,nDCG@10 (100 Neg. Samples); Recall@50; RMSE; HR@10 (full corpus); MAP@20; MAP@30; Hits@20; P@10; MAE; Hit@10,Session-Based Recommendations; Graph Neural Network; Multi-modal Recommendation; Multibehavior Recommendation; Knowledge-Aware Recommendation,Miscellaneous; Knowledge Base; Graphs,"### **Recommendation System in AI Research**      A **Recommendation System** is a specialized AI-driven model that analyzes user preferences and behaviors to suggest relevant content, products, or se..."
+Graph Classification,54,Citeseer; BA-2motifs; MUTAG; IMDB-BINARY; CSL; UK Biobank Brain MRI; SIDER; OASIS; Mutagenicity; SPOT-10,Citeseer; IPC-grounded; NC1; HIV-fMRI-77; IMDB-BINARY; MUTAG; MalNet-Tiny; MSRC-21 (per-class); UK Biobank Brain MRI; CSL,Accuracy (%); Accuracy(10-fold); Rand index; Accuracy (10-fold); AP; ROC-AUC; F1; Accuracy; Mean Accuracy; Test Accuracy,Space group classification; Isomorphism Testing; Crystal system classification,Graphs,**Graph Classification** is a task that involves classifying a graph-structured data into different classes or categories. Graphs are a powerful way to represent relationships and interactions between...
+Word Embeddings,53,WinoBias; United Nations Parallel Corpus; Interpretable STS; DICE: a Dataset of Italian Crime Event news; McQueen; RiskData; Twitter Death Hoaxes; SEND; pioNER; MUSE,N/A,N/A,Contextualised Word Representations; Multilingual Word Embeddings; Learning Word Embeddings; Embeddings Evaluation,Methodology; Natural Language Processing,Word embedding is the collective name for a set of language modeling and feature learning techniques in natural language processing (NLP) where words or phrases from the vocabulary are mapped to vecto...
+Knowledge Graphs,46,DBP15K; CompMix-IR; ForecastQA; FB1.5M; AISECKG; Event-QA; ReDial; ORKG-QA; Kinship; ENT-DESC,MARS (Multimodal Analogical Reasoning dataSet);  FB15k; JerichoWorld; WikiKG90M-LSC,Validation MRR; MRR; Set accuracy; Test MRR,Person-Centric Knowledge Graphs; Knowledge Graph Completion; Complex Query Answering; Relational Pattern Learning; Open Knowledge Graph Canonicalization,Knowledge Base; Graphs,A knowledge graph is a structured representation of information that organizes data into nodes (entities) and edges (relationships) to show how different pieces of knowledge are interconnected. It ena...
+Few-Shot Learning,45,CareCall; MedNLI; GLUE; CUB-200-2011; EuroSAT; MR; F-SIOL-310; FLEURS; SST-2; Bongard-OpenWorld,Mini-ImageNet - 20-Shot Learning; Mini-Imagenet 5-way (1-shot); MedNLI; OxfordPets; EuroSAT; MR; food101; UCF101; Mini-ImageNet - 1-Shot Learning; CaseHOLD,Macro Recall; 16-shot Accuracy; Micro Precision; Specificity; 12-shot Accuracy; F1-score; 5 way 1~2 shot; Macro F1; 4-shot Accuracy; AUC-ROC,Few-Shot Imitation Learning; Few-Shot Video Object Detection; few-shot-htc; Unsupervised Few-Shot Audio Classification; Few-Shot Audio Classification,Methodology; Computer Vision; Audio; Natural Language Processing,"**Few-Shot Learning** is an example of meta-learning, where a learner is trained on several related tasks, during the meta-training phase, so that it can generalize well to unseen (but related) tasks ..."
+Coreference Resolution,45,WinoBias; Quizbowl; MASC; WikiCREM; OntoNotes 5.0; MultiReQA; LitBank; A Game Of Sorts; CoNLL; WSC,STM-coref; Quizbowl; WikiCoref; GAP; CoNLL12; XWinograd EN; DocRED-IE; The ARRAU Corpus; CoNLL 2012; Winograd Schema Challenge,Masculine F1 (M); MUC; Bias (F/M); Average F1; CoNLL F1; Avg. F1; F1; Accuracy; Overall F1; Avg F1,coreference-resolution; Cross Document Coreference Resolution,Natural Language Processing,Coreference resolution is the task of clustering mentions in text that refer to the same underlying real world entities.  Example:  ```                +-----------+                |           | I vote...
+Audio Classification,43,Multimodal PISA; MediBeng; DiCOVA; Mudestreda; EPIC-KITCHENS-100; ReefSet; YouTube-100M; UrbanSound8K; DEEP-VOICE: DeepFake Voice Recognition; MeerKAT: Meerkat Kalahari Audio Transcripts,Multimodal PISA; DiCOVA; EPIC-KITCHENS-100; MeerKAT: Meerkat Kalahari Audio Transcripts; DEEP-VOICE: DeepFake Voice Recognition; EPIC-SOUNDS; ICBHI Respiratory Sound Database; GTZAN; Common Voice 16.1; MNIST,Test mAP; Accuracy (10-fold); Percentage correct; Mean AP; d-prime; Top-1 Noun; AUC; Top 1 Accuracy; MosquitoSound; ICBHI Score,Audio Multiple Target Classification; Parkinson Detection from Speech; Semi-supervised Audio Classification; Environmental Sound Classification,Audio,**Audio Classification** is a machine learning task that involves identifying and tagging audio signals into different classes or categories. The goal of audio classification is to enable machines to ...
+Zero-Shot Learning,43,How2QA; TVQA+; TVQA; COCO-MLT; AwA2; CUB-200-2011; VOC-MLT; EuroSAT; UCF101; ImageNet_CN,How2QA; TVQA; COCO-MLT; AwA2; CUB-200-2011; VOC-MLT; EuroSAT; ImageNet_CN; UCF101; Oxford-IIIT Pets,k=10 mIOU; A-acc; Top 1 Accuracy; Average mAP; average top-1 classification accuracy; Pearson correlation coefficient (PCC); Accuracy Unseen; Accuracy; Accuracy Seen; H,Compositional Zero-Shot Learning; Transductive Zero-Shot Classification; Generalized Zero-Shot Learning; Temporal Action Localization; GZSL Video Classification,Methodology; Computer Vision,**Zero-shot learning (ZSL)** is a model's ability to detect classes never seen during training. The condition is that the classes are not known during supervised learning.     Earlier work in zero-sho...
+Machine Reading Comprehension,43,Belebele; CMRC 2018; DREAM; MC-AFP; WikiReading Recycled; NEREL-BIO; MRQA; ViMMRC; Molweni; Who-did-What,N/A,N/A,N/A,N/A,N/A
+Unsupervised Domain Adaptation,34,nuScenes (Cross-City UDA); ImageNet-R; Market-1501; Sim10k; Oxford RobotCar Dataset; EPIC-KITCHENS-100; PACS; Five-Billion-Pixels; Sims4Action; MegaAge,Duke to Market; PreSIL to KITTI; ImageNet-R; GTAV-to-Cityscapes Labels; UCF-HMDB; VehicleID to VERI-Wild Medium; EPIC-KITCHENS-100; Veri-776 to VehicleID Medium; PACS; Duke to MSMT, mAP; mAP@0.5; R5; R-1; MIoU (16 classes); rank-5; AP@0.5; Market-1501->mAP; R10; mIoU (19 classes),Online unsupervised domain adaptation,N/A,**Unsupervised Domain Adaptation** is a learning framework to transfer knowledge learned from source domains with a large number of annotated training examples to target domains with unlabeled data on...
+Dialogue Generation,34,CareCall; Arabic-ToD; JDDC 2.0; LLMafia; CPsyCounE; diaforge-utc-r-0725; OpenDialKG; UDC; OpenViDial 2.0; SODA,Ubuntu Dialogue (Entity); Twitter Dialogue (Noun); FusedChat; Persona-Chat; CMU-DoG; Ubuntu Dialogue (Cmd); PG-19; Ubuntu Dialogue (Tense); Reddit (multi-ref); Amazon-5,PPL; Meteor; BLEU-1; Slot Accuracy; relevance (human); Joint SA; CIDr; Avg F1; Sensibleness; mauve,Multi-modal Dialogue Generation,Natural Language Processing,"Dialogue generation is the task of ""understanding"" natural language inputs - within natural language processing in order to produce output. The systems are usually intended for conversing with humans,..."
+Music Generation,33,abc_cc; JS Fake Chorales; POP909; MusicCaps; MidiCaps; YM2413-MDB; EMOPIA; MuseData; Guitar-TECHS; NES-VMDB,Song Describer Dataset,FAD VGG,Music Performance Rendering; Multimodal Music Generation; Music Texture Transfer,Music; Audio,Musique guitar
+Domain Generalization,31,ImageNet-R; NICO++; All-day CityScapes; PACS; Sims4Action; Cityscapes; ImageNet-Sketch; NICO; Stylized ImageNet; Wild-Time,"ImageNet-R; Stylized-ImageNet; NICO Vehicle; PACS; ImageNet-Sketch; ImageNet-A; NICO Animal; GTA-to-Avg(Cityscapes,BDD,Mapillary); VLCS; VizWiz-Classification",Accuracy - Corrupted Images; Average Accuracy; Top 1 Accuracy; Top-1 Error Rate; mean Corruption Error (mCE); Accuracy; Accuracy - All Images; Number of params; Mean IoU; Top-1 accuracy %,Single-Source Domain Generalization; Source-free Domain Generalization; Evolving Domain Generalization,Computer Vision,"The idea of **Domain Generalization** is to learn from one or multiple training domains, to extract a domain-agnostic model which can be applied to an unseen domain   <span class=""description-source"">..."
+Multi-Label Classification,30,MIMIC-CXR; EXTREME CLASSIFICATION; CheXpert; OpenImages-v6; NLP Taxonomy Classification Data; MRNet; ECHR; PASCAL VOC 2007; CAVES; BanglaLekha-Isolated,ChestX-ray14; MRNet; MIMIC-CXR; PASCAL VOC 2007; MLRSNet; MS-COCO; PASCAL VOC 2012; CheXpert; OpenImages-v6; NUS-WIDE,AUC on Meniscus Tear (MEN); mAP; AUC on Abnormality (ABN); Accuracy on ACL Tear (ACL); F1-score; Average Accuracy; Average AUC; AUC on ACL Tear (ACL); AVERAGE AUC ON 14 LABEL; Macro F1,Hierarchical Multi-label Classification; Extreme Multi-Label Classification; Medical Code Prediction; Missing Labels,Reasoning; Medical; Methodology; Computer Vision,"**Multi-Label Classification** is the supervised learning problem where an instance may be associated with multiple labels. This is an extension of single-label classification (i.e., multi-class, or b..."
+Slot Filling,28,Dialogue State Tracking Challenge; IndirectRequests; NoMusic; SGD; pioNER; xSID; MultiWOZ; diaforge-utc-r-0725; RiSAWOZ; CareerCoach 2022,Dialogue State Tracking Challenge; CAIS; KILT: Zero Shot RE; MASSIVE; MULTIWOZ 2.2; KILT: T-REx; MixATIS; MixSNIPS; ATIS; ATIS (vi),FITB; Recall@5; Slot F1 Score; KILT-AC; F1; KILT-F1; Slot F1; R-Prec; Micro F1; F1 (5-shot) avg,Extracting COVID-19 Events from Twitter; Zero-shot Slot Filling,Natural Language Processing,"The goal of **Slot Filling** is to identify from a running dialog different slots, which correspond to different parameters of the user’s query. For instance, when a user queries for nearby restaurant..."
+Document Summarization,28,WikiSum; FINDSum; CNN/Daily Mail; HowSumm; Multi-XScience; NEWSROOM; TalkSumm; AESLC; OpoSum; Multi-News,BBC XSum; CNN / Daily Mail; WikiLingua (tr->en); Arxiv HEP-TH citation graph; arXiv Summarization Dataset; HowSumm-Method; HowSumm-Step,PPL; ROUGE-1; ROUGE-2; Rouge-L; Rouge-2; ROUGE-L,Email Thread Summarization,Natural Language Processing,Automatic **Document Summarization** is the task of rewriting a document into its shorter form while still retaining its important content. The most popular two paradigms are extractive approaches and...
+NER,27,IECSIL FIRE-2018 Shared Task; InLegalNER; AISECKG; SIGARRA News Corpus; TLUnified-NER; FiNER-139; SourceData-NLP; BC4CHEMD; MSRA CN NER; Noise-SF,N/A,N/A,N/A,N/A,N/A
+Part-Of-Speech Tagging,26,CoNLL 2017 Shared Task - Automatically Annotated Raw Texts and Word Embeddings; MASC; Twitter PoS VCB; Szeged Corpus; Egyptian Arabic Segmentation Dataset; Ritter PoS; Morphosyntactic-analysis-dataset; CoNLL; Finer; LinCE,ANTILLES; UD2.5 test; Sequoia Treebank; Spoken Corpus; Penn Treebank; ARK; Morphosyntactic-analysis-dataset; DaNE; Tweebank; ParTUT,Accuracy (%); Avg. F1; BLEX; Avg accuracy; UPOS; Accuracy; Acc; Weighted Average F1-score; Macro-averaged F1,Unsupervised Part-Of-Speech Tagging,Natural Language Processing,Part-of-speech tagging (POS tagging) is the task of tagging a word in a text with its part of speech.  A part of speech is a category of words with similar grammatical properties. Common English  part...
+Open-Domain Question Answering,26,SQuAD; ARCD; WikiQAar; Natural Questions; InfoSeek; WikiMovies; LAMA; DuReader; ELI5; ScienceQA,KILT: ELI5; ELI5; KILT: TriviaQA; SQuAD1.1 dev; Quasar; Natural Questions (short); TQA; Natural Questions; SearchQA; WebQuestions,EM; Recall@5; F1; KILT-EM; KILT-F1; Exact Match; R-Prec; Rouge-L; N-gram F1; EM (Quasar-T),N/A,Natural Language Processing,Open-domain question answering is the task of question answering on open-domain datasets such as Wikipedia.
+Mathematical Reasoning,26,Lila; PGPS9K; DART-Math-Uniform; TheoremQA; IconQA; ConstructiveBench; MathMC; MATH-V; PrOntoQA; Conic10K,Lila (IID); PGPS9K; MATH500; FrontierMath; AMC23; Lila (OOD); GSM8K; UniGeo; GeoQA; UniGeo (PRV),Accuracy (%); Accuracy; Completion accuracy; Acc,High School Mathematics; Formal Logic; Math Word Problem Solving; Abstract Algebra; Geometry Problem Solving,Reasoning; Knowledge Base; Natural Language Processing,N/A
+Question Generation,25,SQuAD; 30MQA; Natural Questions; MMD; HybridQA; InfoLossQA; OK-VQA; diaforge-utc-r-0725; FreebaseQA; TextBox 2.0,GrailQA-IID; COCO Visual Question Answering (VQA) real images 1.0 open ended; GrailQA-Compositional; SQuAD; GrailQA-Zero-Shot; Natural Questions; FairytaleQA; Visual Question Generation; WeiboPolls; SQuAD1.1,BLEU-3; ROUGE-1; BLEU; R-QAE; QAE; BLEU-1; METEOR; bleu; FactSpotter; ROUGE-L,Poll Generation,Natural Language Processing,"The goal of **Question Generation** is to generate a valid and fluent question according to a given passage and the target answer. Question Generation can be used in many scenarios, such as automatic ..."
+Data-to-Text Generation,24,Wikipedia Person and Animal Dataset; XAlign; MLB Dataset; MultiWOZ; E2E; WikiOFGraph; TempWikiBio; KELM; Chart2Text; WikiTableT,WebNLG ru; SR11Deep; Wikipedia Person and Animal Dataset; XAlign; Czech Restaurant NLG; MLB Dataset (Content Ordering); MLB Dataset; E2E; WikiOFGraph; MLB Dataset (Content Selection),PARENT; Bleu; METEOR (Validation set); CIDER; count; DLD; CIDEr; BLEU-4; BLEU; Number of parameters (M),Visual Storytelling; KG-to-Text Generation; Unsupervised KG-to-Text Generation,Natural Language Processing,"A classic problem in natural-language generation (NLG) involves taking structured data, such as a table, as input, and producing text that adequately and fluently describes this data as output. Unlike..."
+Relation Classification,23,MultiTACRED; Translated TACRED; LabPics; MATRES; RELX; FewRel; FREDo; DRI Corpus; SupplyGraph; CrossRE,SemEval 2010 Task 8; Discovery; DRI Corpus; TACRED; CDCP; MATRES; AbstRCT - Neoplasm; FewRel,F1; F1 (10-way 1-shot); Macro F1; F1 (10-way 5-shot); F1 (5-way 5-shot; F1 (5-way 1-shot); 1:1 Accuracy,Few-Shot Relation Classification; Cause-Effect Relation Classification; Implicit Discourse Relation Classification,Natural Language Processing,"**Relation Classification** is the task of identifying the semantic relation holding between two nominal entities in text.   <span class=""description-source"">Source: [Structure Regularized Neural Netw..."
+Math Word Problem Solving,23,PGPS9K; DART-Math-Uniform; IconQA; GSM-Plus; MathQA; MathMC; MATH; Math23K; MGSM; MMOS,ALG514; MATH minival; MATH; ParaMAWPS; Math23K; SVAMP (1:N); SVAMP; DRAW-1K; MAWPS; PEN,Accuracy (%); Answer Accuracy; weakly-supervised; Execution Accuracy; Parameters (Billions); Accuracy; Accuracy (training-test); 1:1 Accuracy; Accuracy (5-fold),N/A,Reasoning,"A math word problem is a mathematical exercise (such as in a textbook, worksheet, or exam) where significant background information on the problem is presented in ordinary language rather than in math..."
+Task-Oriented Dialogue Systems,22,SGD; SSD_PLATE; BeNYfits; A Game Of Sorts; MultiWOZ; LLMafia; SSD; diaforge-utc-r-0725; SSD_ID; SSD_PHONE,Kvret; KVRET; MULTIWOZ 2.0; SGD,BLEU; METEOR; Score; Entity F1; BLEU-4,SSTOD,Natural Language Processing,Achieving a pre-defined task through a dialog.
+Text-To-SQL,21,TriageSQL; SEDE; HybridQA; SPLASH; Car_bi; KITTI; Spider-Realistic; SParC; ViText2SQL; BIRD (BIg Bench for LaRge-scale Database Grounded Text-to-SQL Evaluation),Text-To-SQL; spider; SQL-Eval; KaggleDBQA; SParC; 2D KITTI Cars Easy; Spider 2.0; SEDE; SPIDER; BIRD (BIg Bench for LaRge-scale Database Grounded Text-to-SQL Evaluation),0..5sec; Execution Accuracy % (Dev); Exact Match (EM); PCM-F1 (dev); Success Rate; Exact Match Accuracy (in Dev); Execution Accurarcy (Human); Execution Accuracy; question match accuracy; PCM-F1 (test),MMSQL performance,Computer Code; Natural Language Processing,**Text-to-SQL** is a task in natural language processing (NLP) where the goal is to automatically generate SQL queries from natural language text. The task involves converting the text input into a st...
+Text Simplification,20,Medical Wiki Paralell Corpus for Medical Text Simplification; DEplain-web-sent; OneStopEnglish; InfoLossQA; TextBox 2.0; SimpEvalASSET; DEplain-web-doc; WikiLarge; EurekaAlert; TurkCorpus,DEplain-web-doc; EurekaAlert; Wiki-Auto + Turk; WikiLargeFR; TurkCorpus; ASSET; PWKP / WikiSmall; DEplain-web-sent; DEplain-APA-doc; DEplain-APA-sent,"SARI; Rouge1; BLEU; SARI (EASSE>=0.2.1); ROUGE-2; FKGL; FRE (Flesch Reading Ease); METEOR; BertScore (Precision); QuestEval (Reference-less, BERTScore)",N/A,Natural Language Processing,"**Text Simplification** is the task of reducing the complexity of the vocabulary and sentence structure of text while retaining its original meaning, with the goal of improving readability and underst..."
+Style Transfer,20,DukeMTMC-reID; WikiArt; POP909; TextSeg; GYAFC; StyleGallery; iKala; Chinese Traditional Painting dataset; Touchdown Dataset; GTSinger,WikiArt; StyleBench; 01/01/1967' AND 2*3*8=6*8 AND 'AncJ'='AncJ; GYAFC; ^(#$!@#$)(()))******,0..5sec; Accuracy; ArtFID; SSIM; Harmonic mean; CLIP Score; BLEU-4,Style Generalization; Font Style Transfer; Serial Style Transfer; Reverse Style Transfer; Image Stylization,Computer Vision,**Style Transfer** is a technique in computer vision and graphics that involves generating a new image by combining the content of one image with the style of another image. The goal of style transfer...
+Language Identification,20,udhr-lid; VoxForge; CONAN; English-Pashto Language Dataset (EPLD); NLI-PT; TuGebic; Nordic Language Identification; OGTD; Dakshina; L3Cube-MahaCorpus,Nordic Language Identification; VoxForge; OpenSubtitles; GlotLID-C; VOXLINGUA107; Universal Dependencies,Accuracy; Macro F1; Error rate,Native Language Identification; Dialect Identification,Audio; Natural Language Processing,Language identification is the task of determining the language of a text.
+Time Series Classification,19,Consumer Spendings; EigenWorms; ECG5000; Yeast colony morphologies; SHAPES; PhysioNet Challenge 2012; BorealTC; ECG200; MJFF Levodopa Response Study; ATMs fault prediction,DigitShapes; ACSF1; Heartbeat; AATLD Gesture Recognition; LP5; ERing; ArabicDigits; UEA; EigenWorms; KickvsPunch,0..5sec; Absolute Time (ms); ACC; % Test Accuracy; AUC; NLL; AUC Stdev; mIoU; Accuracy(30-fold); F1 (Hidden Test Set),Classification on Time Series with Missing Data; Semi-supervised time series classification,Time Series,**Time Series Classification** is a general task that can be useful across many subject-matter domains and applications. The overall goal is to identify a time series as coming from one of possibly ma...
+Transfer Learning,18,M2QA; Digital twin-supported deep learning for fault diagnosis; MFRC; AppleScabFDs; ReefSet; BaitBuster-Bangla: A Comprehensive Dataset for Clickbait Detection in Bangla with Multi-Feature and Multi-Modal Analysis; CARLANE Benchmark; TFix's Code Patches Data; fluocells; BanglaLekha-Isolated,COCO70; 100 sleep nights of 8 caregivers; KITTI Object Tracking Evaluation 2012; Office-Home; BanglaLekha Isolated Dataset; Retinal Fundus MultiDisease Image Dataset (RFMiD),Accuracy; EER; AUROC; 10-20% Mask PSNR,Transfer Reinforcement Learning; Unsupervised Domain Expansion; Auxiliary Learning; Multi-Task Learning,Miscellaneous; Methodology,"**Transfer Learning** is a machine learning technique where a model trained on one task is re-purposed and fine-tuned for a related, but different task. The idea behind transfer learning is to leverag..."
+Paraphrase Identification,18,Autoencoder Paraphrase Dataset (AEPD); Quora Question Pairs; IMDb Movie Reviews; Machine Prarphrase Corpus (MPC); Translated SNLI Dataset in Marathi; SV-Ident; WikiHop; PAWS-X; TURL; Autoregressive Paraphrase Dataset (ARPD),Quora Question Pairs; Translated SNLI Dataset in Marathi; MSRP; WikiHop; TURL; 2017_test set; PIT; Quora Question Pairs Dev; IMDb; AP,AP; Dev F1; Val F1 Score; Direct Intrinsic Dimension; F1; Accuracy; MCC; Val Accuracy; 1:1 Accuracy; 10 fold Cross validation,N/A,Natural Language Processing,"The goal of **Paraphrase Identification** is to determine whether a pair of sentences have the same meaning.      <span class=""description-source"">Source: [Adversarial Examples with Difficult Common W..."
+Document Classification,18,WOS; LUN; RVL-CDIP_MP; Hyperpartisan News Detection; RVL-CDIP_N_MP; Cora; MeSHup; HOC; Reuters-21578; Wikipedia Title,Recipe; SciDocs (MAG); Yelp-14; SciDocs (MeSH); BBCSport; MPQA; AAPD; Cora; Reuters-21578; Reuters De-En,F1; Accuracy; F1 (micro); Micro F1,Page Stream Segmentation,Natural Language Processing,"**Document Classification** is a procedure of assigning one or more labels to a document from a predetermined set of labels.   <span class=""description-source"">Source: [Long-length Legal Document Clas..."
+Logical Reasoning,18,Inferential-Strategies; JustLogic; GSM-Plus; Winograd Automatic; BIG-bench; SMART-101; Oxford Ontology Library; TruthQuest; QuRe; MultiQ,BIG-bench (Formal Fallacies Syllogisms Negation); Winograd Automatic; BIG-bench (Reasoning About Colored Objects); BIG-bench (Temporal Sequences); BIG-bench (Penguins In A Table); RuWorldTree; BIG-bench (Logic Grid Puzzle); LingOly; BIG-bench (Logical Fallacy Detection); BIG-bench (StrategyQA),Delta_NoContext; Accuracy ; Accuracy; Exact Match Accuracy,Elementary Mathematics; Checkmate In One; Metaphor Boolean; Code Line Descriptions; Evaluating Information Essentiality,Reasoning; Miscellaneous; Methodology,N/A
+Paraphrase Generation,17,ParaBank; Quora Question Pairs; AP; ViSP; ChatGPT Paraphrases; OPUS; MSCOCO; StyleKQC; Duolingo STAPLE Shared Task; Autoregressive Paraphrase Dataset (ARPD),Quora Question Pairs; Paralex; MSCOCO,iBLEU; BLEU,Multilingual Paraphrase Generation,Natural Language Processing,"Paraphrase Generation involves transforming a natural language sentence to a new sentence, that has the same semantic meaning but a different syntactic or lexical surface form."
+Sign Language Translation,17,MSASL-1000; Content4All; RWTH-PHOENIX-Weather 2014 T; BosphorusSign22k; CSL-Daily; OpenASL; CSL-News; How2Sign; ASLG-PC12; DailyMoth-70h,RWTH-PHOENIX-Weather 2014 T; CSL-Daily; How2Sign; ASLG-PC12; LSA-T; Mediapi-RGB,ROUGE; BLEU; Word Error Rate (WER); BLEU-4,N/A,Computer Vision,"Given a video containing sign language, the task is to predict the translation into (written) spoken language.    Image credit: [How2Sign](https://how2sign.github.io/)"
+Binary Classification,17,Student's EEG Brain Signal; TURINGBENCH; InspiRe; TuPyE-Dataset; AutoRobust; Can you predict product backorder?; SMDG; fake; kickstarter; Amazon Multilingual Counterfactual Dataset (AMCD),dev; quora tr; Glyphnet Dataset; quora duplicates; wmt16; snli tr; msmarco tr; xnli tr; kickstarter; fake,AUROC; F1 score; F1-Score,"Cancer-no cancer per image classification; LLM-generated Text Detection; Cancer-no cancer per breast classification; Suspicous (BIRADS 4,5)-no suspicous (BIRADS 1,2,3) per image classification; Cancer-no cancer per view classification",Computer Vision; Natural Language Processing,N/A
+Translation,17,xP3; BWB; Demetr; sPBC; ACES; PETCI; FairTranslate_fr; Bornholmsk; CVSS; Duolingo STAPLE Shared Task,MuLD (OpenSubtitles); small content; Oxford Radar RobotCar Dataset; PhoMT,translation error [%]; BLEU; Rouge-L; BLEU-1; METEOR; BLEU-4,N/A,Natural Language Processing,N/A
+Zero-shot Text Search,16,Robust04; BioASQ; Signal-1M; BEIR; CFEVER; TREC-COVID; DBpedia; Natural Questions; SciFact; FEVER,N/A,N/A,N/A,N/A,N/A
+Knowledge Graph Completion,16,CoDEx Small; MovieLens; WN18; Aristo-v4; WN18RR; CoDEx Medium; DBP-5L (English); DBP-5L (Greek); DPB-5L (French); DBP-5L (Spanish),DBbook2014; WN18RR; DBP-5L (English); DBP-5L (Greek); DPB-5L (French); MovieLens 1M; FB15k-237,Mean Rank; Hits@10; Hits@1; MR; Hits@3; MRR,Triple Classification; Large Language Model; Inductive knowledge graph completion; Inductive Relation Prediction,Knowledge Base; Graphs; Natural Language Processing,"Knowledge graphs $G$ are represented as a collection of triples $\\{(h, r, t)\\}\subseteq E\times R\times E$, where $E$ and $R$ are the entity set and relation set. The task of **Knowledge Graph Compl..."
+Word Sense Disambiguation,16,Verse; WiC-TSV; Part Whole Relations; WiC; BIG-bench; Parallel Meaning Bank; FEWS; RUSSE; Word Sense Disambiguation: a Unified Evaluation Framework and Empirical Comparison; SBU-WSD-Corpus,BIG-bench (Anachronisms); WiC-TSV; SensEval 2 Lexical Sample; FEWS; SemEval 2007 Task 7; SemEval 2015 Task 13; Words in Context; TS50; RUSSE; SensEval 3 Task 1,F1 (Zero shot test); Task 3 Accuracy: all; Task 3 Accuracy: general purpose; Task 2 Accuracy: domain specific; Task 1 Accuracy: general purpose; SemEval 2007; Task 2 Accuracy: general purpose; F1 (Fewshot Test); Task 1 Accuracy: all; F1 (Zeroshot Dev),Word Sense Induction,Natural Language Processing,The task of Word Sense Disambiguation (WSD) consists of associating words in context with their most suitable entry in a pre-defined sense inventory. The de-facto sense inventory for English in WSD is...
+Token Classification,15,NERGRIT Corpus; SROIE; Russian Sentences POS tagged; XTREME; WikiANN; CoNLL; UD_Tagalog-NewsCrawl; CoNLL 2003; GeoEDdA; MIM-GOLD-NER,conll2002; peoples_daily_ner; x_glue; mim_gold_ner; grit-id/id_nergrit_corpus ner; nielsr/funsd-layoutlmv3; wikiann sk; ingredients_yes_no; MNIST; SROIE,N/A,Toxic Spans Detection; Blackout Poetry Generation,Natural Language Processing,N/A
+Dependency Parsing,15,KLUE; CoNLL-2009; GUM; CoNLL 2017 Shared Task - Automatically Annotated Raw Texts and Word Embeddings; Penn Treebank; Chinese Treebank; DaNE; Tweebank; English Web Treebank; CoNLL,UD2.5 test; CoNLL-2009; Spoken Corpus; Sequoia Treebank; Chinese Treebank; Penn Treebank; DaNE; GENIA - LAS; Universal Dependency Treebank; Tweebank,10°5 cm; Labelled Attachment Score; F1; POS; UAS; BLEX; Macro F1; LAS; Unlabeled Attachment Score; Macro-averaged F1,Unsupervised Dependency Parsing; Transition-Based Dependency Parsing; Prepositional Phrase Attachment; Cross-lingual zero-shot dependency parsing; Dependency Grammar Induction,Natural Language Processing,"Dependency parsing is the task of extracting a dependency parse of a sentence that represents its grammatical structure and defines the relationships between ""head"" words and words, which modify those..."
+Sentiment Classification,15,Yelp Review Polarity; Tweet Sentiment Extraction; ArSen-20; SST-3; Sentiment Merged; BanglaBook; LatamXIX; ArSen; AISIA-VN-Review-S; Perfume Co-Preference Network,N/A,N/A,N/A,N/A,N/A
+Knowledge Base Question Answering,15,LC-QuAD; SimpleQuestionsWikiData; SimpleQuestions; WebQuestionsSP; WebQSP; WebQuestions; ORKG-QA; ParaQA; GrailQA; ComplexWebQuestions,N/A,N/A,N/A,N/A,N/A
+Node Classification on Non-Homophilic (Heterophilic) Graphs,15,Wisconsin (48%/32%/20% fixed splits); Cornell (60%/20%/20% random splits); Texas (48%/32%/20% fixed splits); Cornell (48%/32%/20% fixed splits); genius; Deezer-Europe; Texas(60%/20%/20% random splits); twitch-gamers; Penn94; Squirrel (48%/32%/20% fixed splits),N/A,N/A,N/A,N/A,N/A
+Hierarchical Multi-label Classification,15,Seq Funcat; WOS; Cellcycle Funcat; SciHTC; EURLEX57K; New York Times Annotated Corpus; Gasch2 Funcat; Gasch1 Funcat; Derisi Funcat; Expr Funcat,N/A,N/A,N/A,N/A,N/A
+Multi-Document Summarization,15,OpoSum; WikiSum; Multi-News; DUC 2004; GameWikiSum; aquamuse; Multi-XScience; LSARS; Healthline; BrWac2Wiki,N/A,N/A,N/A,N/A,N/A
+Cross-Lingual Transfer,15,MLQA; XL-WiC; TyDiQA-GoldP; esXNLI; WikiANN; DaNE; PAWS-X; Tatoeba; CC100; JESC,XCOPA,Accuracy,Cross-Lingual NER; Zero-Shot Cross-Lingual Transfer,Natural Language Processing,"Cross-lingual transfer refers to transfer learning using data and models available for one language for which ample such resources are available (e.g., English) to solve tasks in another, commonly mor..."
+Sentence Classification,14,CHIP-CTC; ACL ARC; CSPubSum; PubMed RCT; Cards Against Humanity; E2E Refined; SciCite; CSAbstruct Dataset; Paper Field; DEFT Corpus,CHIP-CTC; ScienceCite; SciCite; PubMed 20k RCT; Paper Field; ACL-ARC,F1; Macro F1,Unfairness Detection,N/A,N/A
+Code Search,14,CodeSearchNet; Search4Code; CoSQA+; CoIR; StaQC; PyTorrent; washed_contract; XLCoST; CoNaLa; RES-Q,; CodeSearchNet; CodeXGLUE - WebQueryTest; CodeSearchNet - Ruby; CoIR; CodeXGLUE - AdvTest; CoDesc,PHP; Go; Java; Test MRR; F1; JS; nDCG@10; Python; Accuracy; Ruby,Annotated Code Search,Computer Code,"The goal of **Code Search** is to retrieve code fragments from a large code corpus that most closely match a developer’s intent, which is expressed in natural language.      <span class=""description-s..."
+Spoken Language Understanding,14,Dialogue State Tracking Challenge; Snips-SmartLights; CQR; Spoken-SQuAD; Snips-SmartSpeaker; Almawave-SLU; VlogQA; xSID; MEDIA; Timers and Such,Snips-SmartLights; Snips-SmartSpeaker; Spoken-SQuAD; Timers and Such; Fluent Speech Commands,Accuracy-EN (%); Accuracy (%); Accuracy-FR (%); F1 score,Speech Tokenization; Spoken language identification,Speech,N/A
+Intent Classification,14,KUAKE-QIC; ORCAS-I; Search4Code; MIPD; diaforge-utc-r-0725; arXivEdits; MASSIVE; ViMQ; xSID; CLINC150,KUAKE-QIC; ORCAS-I; SLURP; MASSIVE,Accuracy (%); Precision; F1-score; Accuracy; Recall; Intent Accuracy,N/A,Natural Language Processing,"**Intent Classification** is the task of correctly labeling a natural language utterance from a predetermined set of intents      <span class=""description-source"">Source: [Multi-Layer Ensembling Techn..."
+Multi-class Classification,14,TURINGBENCH; SF-MASK; CPCXR; DeepParliament; AutoRobust; SMM4H; TII-SSRC-23; CVE; SmokEng; Multimodal Emoji Prediction,COVID-19 CXR Dataset; Training and validation dataset of capsule vision 2024 challenge.;  Reuters-52; COVID chest X-ray; TII-SSRC-23,Accuracy (%); Macro F1; F1-Score; Mean AUC; F1 score,Patent classification,Computer Vision,"Multi-class classification is a type of supervised learning where the goal is to assign an input to one of three or more distinct classes. Unlike binary classification (which has only two classes), mu..."
+Multi-Label Text Classification,13,MIMIC-III; Slashdot; ContractNLI; SV-Ident; EURLEX57K; SciHTC; CC3M-TagMask; Reuters-21578; Antibody Watch; EXTREME CLASSIFICATION,MIMIC-III; USPTO-3M; Wiki-30K; EUR-Lex; MIMIC-III-50; RCV1; AAPD; Amazon-12K; CC3M-TagMask; Reuters-21578,Micro Precision; Average F1; Macro F1; Micro F1; RP@5; AUC; nDCG@3; Macro Recall; Weighted F1; F1 - macro,N/A,Methodology; Natural Language Processing,"According to Wikipedia ""In machine learning, multi-label classification and the strongly related problem of multi-output classification are variants of the classification problem where multiple labels..."
+Document Layout Analysis,13,ICDAR 2021; DocBank; VIS30K; RVL-CDIP; D4LA; UrduDoc; PubLayNet; U-DIADS-Bib; HJDataset; DIVA-HisDB,Document Layout Recognition Challenge mini-dev; RVL-CDIP; D4LA; Document Layout Recognition Challenge test; PubLayNet val; U-DIADS-Bib, mAP; Class Average IoU; Figure; WAR; Text; List; FAR; Model Parameters; Table; Title,MS-SSIM,Computer Vision,"""**Document Layout Analysis** is performed to determine physical structure of a document, that is, to determine document components. These document components can consist of single connected component..."
+Relational Reasoning,12,RAVEN-FAIR; AbstractReasoning; WikiDataSets; WebKB; PGM; Machine Number Sense; TexRel; SPARTQA -; RAVEN; PISC,CLUTRR (k=3),9 Hops; 4 Hops; 10 Hops; 5 Hops; 6 Hops; 8 Hops; 7 Hops,N/A,Natural Language Processing,"The goal of **Relational Reasoning** is to figure out the relationships among different entities, such as image pixels, words or sentences, human skeletons or interactive moving agents.   <span class=..."
+News Classification,12,Verifee; N15News; MasakhaNEWS; Reddit Ideological and Extreme Bias Dataset; BalitaNLP; HLGD; GVFC; MN-DS; Eduge; IndicGLUE,N/A,N/A,N/A,N/A,N/A
+Code Completion,12,MMCode; RTL-Repo; SLNET; Defects4J; PyTorrent; DotPrompts; OpenAPI completion refined; SAFIM; Verified Smart Contract Code Comments; Spectre-v1,Defects4J; CodeXGLUE - Github Java Corpus; Rambo Benchmark; SAFIM; CodeXGLUE - PY150; DotPrompts,Average; Pass@1; BLEU; Algorithmic; Edit Sim (line-level); API; EM (line-level); Compilation Rate; Control; Accuracy (token-level),OpenAPI code completion,Computer Code,N/A
+Generalizable Person Re-identification,11,ClonedPerson; RegDB-C; DukeMTMC-reID; MSMT17-C; SYSU-MM01-C; Market-1501; CUHK03; Market-1501-C; MSMT17; CUHK03-C,N/A,N/A,N/A,N/A,N/A
+Sequential Recommendation,11,tida-gcn-data; MovieLens; Gowalla; Amazon Beauty; X-Wines; KuaiRand; PixelRec; Amazon Review; Amazon-Sports; Amazon Men,N/A,N/A,N/A,N/A,N/A
+Audio Generation,11,SymphonyNet; NSynth; MediBeng; MovieNet; NES-MDB; AudioCaps; dMelodies; Audio-alpaca; Blizzard Challenge 2013; ADL Piano MIDI,"Symphony music; Classical music, 5 seconds at 12 kHz; AudioCaps",FD; FAD; CLAP_MS; FD_openl3; Bits per byte;  Human listening average results; CLAP_LAION; IS; KL_passt,Room Impulse Response (RIR); Audio Super-Resolution; Video-to-Sound Generation; Voice Cloning,Music; Speech; Audio,"Audio generation (synthesis) is the task of generating raw audio such as speech.    <span style=""color:grey; opacity: 0.6"">( Image credit: [MelNet](https://arxiv.org/pdf/1906.01083v1.pdf) )</span>"
+Synthetic Data Generation,11,UNSW-NB15; diaforge-utc-r-0725; SICKLE; UCI Machine Learning Repository; MediBeng; TF1-EN-3M; Synthetic COVID-19 CXR Dataset; CBTex; Creative Flow+ Dataset; Titanic,UNSW-NB15; UCI Epileptic Seizure Recognition,EMD; AUROC,Synthetic Data Evaluation; Synthetic Outliers Evaluation,Miscellaneous; Medical; Time Series,The generation of tabular data by any means possible.
+Opinion Mining,11,NoReC; UR-FUNNY; IMDb Movie Reviews; FinnSentiment; Conversational Stance Detection; MOS Dataset; XED; Youtubean; UIT-ViSFD; RuOpinionNE,N/A,N/A,N/A,N/A,N/A
+Sentence Embeddings,11,AuxAD; French CASS dataset; AuxAI; Discovery; WikiMatrix; PIT; SemEval-2014 Task-10; GloREPlus; COSTRA 1.0; GeoCoV19,N/A,N/A,Sentence Embeddings For Biomedical Texts; Sentence Embedding; Joint Multilingual Sentence Representations; Sentence Compression,Natural Language Processing,N/A
+Mathematical Question Answering,11,MathBench; Geometry3K; Eedi Dataset; SMART-101; DART-Math-Uniform; ParaMAWPS; GeoS; IconQA; Mathematics Dataset; GeoQA,Geometry3K; GeoS,Accuracy (%),Math Word Problem Solving,Reasoning; Time Series; Knowledge Base,Building systems that automatically answer mathematical questions.
+Chatbot,11,Taiga Corpus; Blended Skill Talk; MT-Bench-TH; ChatGPT-software-testing; AlpacaEval-TH; FinChat; AlpacaEval; Metaphorical Connections; PhotoBook; Customer Support on Twitter,AlpacaEval,Average win rate,Dialogue Generation,Speech; Methodology; Natural Language Processing,"**Chatbot** or conversational AI is a language model designed and implemented to have conversations with humans.       <span class=""description-source"">Source: [Open Data Chatbot ](https://arxiv.org/a..."
+Multimodal Reasoning,11,EMMA; GameQA; AlgoPuzzleVQA; MATH-V; M3GIA; R1-Onevision; VL-RewardBench; MeetingBank; taste-music-dataset; PolyMATH,AlgoPuzzleVQA; MATH-V; REBUS,Accuracy; Acc,MME,Reasoning; Computer Vision,Reasoning over multimodal inputs.
+Generalized Zero-Shot Learning,10,Oxford 102 Flower; OntoNotes 5.0; SUN Attribute; AwA2; ScanNet; CUB-200-2011; AwA; S3DIS; aPY; SemanticKITTI,N/A,N/A,N/A,N/A,N/A
+Conversational Question Answering,10,diaforge-utc-r-0725; QuAC; ConvFinQA; CoQA; CANARD; UIT-ViCoQA; Doc2Dial; MultiDoc2Dial; Alpaca Data Galician; DoQA,ConvFinQA,Program Accuracy; Execution Accuracy,Question Rewriting,Natural Language Processing,N/A
+Robust classification,10,MNIST-C; EuroSAT-C; N-ImageNet; ModelNet40-C; WHYSHIFT; Tiny ImageNet-R; CIFAR-10; MedMNIST-C; DeepWeeds; Tiny ImageNet-A,N/A,N/A,N/A,N/A,N/A
+Topic Classification,10,"KLUE; Taiga Corpus; How2Sign; 20Newsgroup (10 tasks); Mapping Topics in 100,000 Real-Life Moral Dilemmas; LLeQA; LatamXIX; Amazon Product Data; Spanish Corpus XIX; Yahoo! Answers",N/A,N/A,N/A,N/A,N/A
+Audio Tagging,10,MeerKAT: Meerkat Kalahari Audio Transcripts; VocalSound; FSDKaggle2019; Sound of Water 50; SSC; SONYC-UST-V2; SINGA:PURA; AudioSet; CHiME-Home; FSDKaggle2018,AudioSet,mean average precision,N/A,Audio,"Audio tagging is a task to predict the tags of audio clips. Audio tagging tasks include music tagging, acoustic scene classification, audio event classification, etc."
+Discourse Parsing,10,GUM; PCC; Molweni; RRT; Instructional-DT (Instr-DT); RST-DT; RRG; DISRPT2021; AMALGUM; SPOT,Instructional-DT (Instr-DT); RST-DT; Molweni; STAC,RST-Parseval (Relation); Standard Parseval (Relation); Link & Rel F1; Standard Parseval (Nuclearity); Standard Parseval (Full); RST-Parseval (Full); Standard Parseval (Span); RST-Parseval (Span); Link F1; RST-Parseval (Nuclearity),Discourse Segmentation; Connective Detection; End-to-End RST Parsing,Natural Language Processing,N/A
+Citation Recommendation,10,ACL ARC; OC; SemOpenAlex; Microsoft Academic Graph; arXiv-200; FullTextPeerRead; S2ORC; REFCAT; unarXive; RefSeer,N/A,N/A,N/A,N/A,N/A
+Music Classification,10,XMIDI; JS Fake Chorales; Lyra Dataset; Mid-level perceptual musical features; MagnaTagATune; MELON; ATEPP; PIAST; GiantMIDI-Piano; EMOPIA,N/A,N/A,Singer Identification; Vocal technique classification,Music,N/A
+Binary text classification,10,TURINGBENCH; MixSet; ECHR; This is not a Dataset; BFRD; Ghostbuster; OUTFOX; TweepFake; DACCORD; MAGE,"MixSet (Binary); MAGE (Arbitrary-domains & Arbitrary-models); Ghostbuster (All Domains); ECHR Non-Anonymized; TURINGBENCH (Turing Test, GPT-3); TweepFake; TURINGBENCH (Turing Test, FAIR_wmt20)",F1 score; Average Recall; Accuracy (%); Macro F1,Detection of potentially void clauses,Natural Language Processing,N/A
+Handwriting generation,10,Ricordi; Schwerin; BRUSH; Konzil; Patzig; Schiller; DigiLeTs; HKR; MatriVasha:; DeepWriting,N/A,N/A,N/A,Computer Vision,The inverse of handwriting recognition. From text generate and image of handwriting (offline) of trajectory of handwriting (online).
+Code Translation,10,CodeTransOcean; NLC2CMD; CRUST-bench; ObscuraX; SLTrans; PyTorrent; FixEval; xCodeEval; HumanEval-X; CodeXGLUE,N/A,N/A,N/A,N/A,N/A
+Text-to-Code Generation,10,CodeContests; PyTorrent; RES-Q; Verireason-RTL-Coder_7b_reasoning_tb_simple; SAFIM; CADBench; CodeXGLUE; MICRO25; BlendNet; Verireason-RTL-Coder_7b_reasoning_tb,CodeXGLUE - CONCODE,EM; CodeBLEU; BLEU,N/A,Computer Code,"**Text-to-Code Generation** is a task where we can generate code based on the natural language description.    Source: [Text-to-code Generation with TensorFlow, 🤗 & MBPP](https://www.kaggle.com/code/r..."
+Conversational Response Generation,10,"diaforge-utc-r-0725; MIBot - Motivational Interviewing for Smoking Cessation Dataset, based on MIBOT Version 6.3A; DuLeMon; ChatGPT Role-Play Dataset (CRD); CPED; BeNYfits; LLMafia; Arabic-ToD; Alpaca Data Galician; CAsT-snippets",N/A,N/A,Personalized and Emotional Conversation,Natural Language Processing,"Given an input conversation, generate a natural-looking text reply to the last conversation element.    Image credit: [DIALOGPT : Large-Scale Generative Pre-training for Conversational Response Genera..."
+Large Language Model,10,HiXSTest; diaforge-utc-r-0725; VMD; MedConceptsQA; IFEval; TriviaHG; GlotSparse; Human Simulacra; RPEval; SGXSTest,N/A,N/A,Knowledge Graphs; RAG; AI Agent,Methodology; Knowledge Base; Natural Language Processing,N/A
+Explanation Generation,9,ExPUNations; E-KAR; e-SNLI-VE; SuMe; E-ReDial; WHOOPS!; CLEVR-X; SpanEX; VCR,VQA-X; e-SNLI-VE; WHOOPS!; CLEVR-X; VCR,M; RL; C; B4; Accuracy; Human Explanation Rating; Acc; Human (%),N/A,Natural Language Processing,N/A
+Few-Shot Audio Classification,9,Common Voice; Watkins Marine Mammal Sounds; NSynth; CREMA-D; Speech Accent Archive; ESC-50; VoxCeleb1; BirdClef 2020  (Pruned); FSDKaggle2018,N/A,N/A,N/A,N/A,N/A
+KG-to-Text Generation,9,AGENDA; WikiGraphs; GenWiki; XAlign; EventNarrative; WebQuestions; PathQuestion; ENT-DESC; WebNLG,AGENDA; WikiGraphs; WebNLG (All); WebNLG (Unseen); EventNarrative; WebNLG 2.0 (Unconstrained); WebQuestions; WebNLG (Seen); PathQuestion; ENT-DESC,ChrF++; BLEU; rBLEU(w/title)(Test); rBLEU(w/title)(Valid); rBLEU (Valid); FactSpotter; rBLEU (Test); Test perplexity; chrF++; METEOR,N/A,Natural Language Processing,Knowledge-graph-to-text (KG-to-text) generation aims to generate high-quality texts which are consistent with input graphs.    Description from: [JointGT: Graph-Text Joint Representation Learning for ...
+Person Search,9,CUHK-QA; Market1501-Attributes; PRW; DukeMTMC-attribute; ICFG-PEDES; P-DESTRE; XKCDColors; MovieNet; CUHK-SYSU,CUHK-SYSU; PRW,mAP; MAP; Top-1,N/A,Computer Vision,"**Person Search** is a task which aims at matching a specific person among a great number of whole scene images.   <span class=""description-source"">Source: [Re-ID Driven Localization Refinement for Pe..."
+Anomaly Classification,9,VisA-AC; MVTec-AC; GoodsAD; ELPV; VisA; Lusitano Fabric Defect Detection Dataset; Hawk Annotation Dataset; MVTecAD; edeniss2020,VisA-AC; MVTec-AC; GoodsAD; VisA; MVTecAD,Detection AUROC; Accuracy(%); AUPR; Accuracy (% ); AUROC,Anomaly Severity Classification (Anomaly vs. Defect),Computer Vision,"Anomaly Classification is the task of identifying and categorizing different types of anomalies in visual data, rather than simply detecting whether an input is normal or anomalous. Unlike anomaly det..."
+Cross-Lingual NER,9,WikiANN; MSRA CN NER; MasakhaNER; WikiNEuRal; UNER v1; CoNLL 2003; Europeana Newspapers; CoNLL; XGLUE,N/A,N/A,N/A,N/A,N/A
+Chart Question Answering,9,ChartQA; MMVP; DVQA; RealCQA; LEAF-QA; Vega-Lite Chart Collection; SBS Figures; FigureQA; PlotQA,ChartQA; RealCQA; PlotQA,1:1 Accuracy,N/A,Computer Code,Question Answering task on charts images
+Abusive Language,9,PointDenoisingBenchmark; The ComMA Dataset v0.2; DKhate; Hate Speech; Cards Against Humanity; CoRAL dataset; TalkDown; Hate Speech and Offensive Language; Torque,N/A,N/A,N/A,Natural Language Processing,N/A
+Dialogue Understanding,9,WDC-Dialogue; Harry Potter Dialogue Dataset; MutualFriends; Molweni; Emotional Dialogue Acts; Doc2Dial; ProsocialDialog; DiaASQ; The Mafia Dataset,N/A,N/A,Dialogue Safety Prediction; Spoken Language Understanding,Natural Language Processing,N/A
+Arithmetic Reasoning,9,SMART-101; MathMC; Game of 24; TIME; MGSM; GSM8K; PolyMATH; GSM-Plus; MathToF,MathMC; MultiArith; Game of 24; GSM8K; MathToF,Accuracy; Parameters (Billion); Success,N/A,Reasoning,N/A
+Multiple Choice Question Answering (MCQA),9,M3KE; BIG-bench; MedMCQA; LMCQA; FrenchMedMCQA; SecQA; MML; IndicGLUE; SF20K,N/A,N/A,N/A,N/A,N/A
+General Classification,8,Adult; iris; Kvasir-Capsule; Fashion-MNIST; CVR; MNIST; Wine; Hyper-Kvasir Dataset,iris; XOR; Fashion-MNIST; Mice Protein; CVR; Shrutime; ISOLET; CVE to CWE mapping; MNIST; Wine,Test error; Accuracy; 5 fold cross validation,N/A,Methodology,Algorithms trying to solve the general task of classification.
+Few-Shot Learning - 4 shots,8,Food-101; FGVC-Aircraft; Oxford 102 Flower; Stanford Cars; SUN397; EuroSAT; UCF101; DTD,N/A,N/A,N/A,N/A,N/A
+Temporal Tagging,8,Catalan TimeBank 1.0; HengamCorpus; KRAUTS; TimeBankPT; Basque TimeBank; Spanish TimeBank 1.0; French Timebank; TempEval-3,N/A,N/A,N/A,N/A,N/A
+Formation Energy,8,MD17; OQMD v1.2; Matbench; QM9; Materials Project; WBM; JARVIS-DFT; OQM9HK,OQMD v1.2; Salicylic Acid; GeTe; QM9; Materials Project; LiPS20; JARVIS-DFT; Ethanol; OQM9HK; Aspirin,MAE,N/A,Miscellaneous,"On the QM9 dataset the numbers reported in the table are the mean absolute error in eV on the target variable U0 divided by U0's chemical accuracy, which is equal to 0.043."
+Gloss-free Sign Language Translation,8,CSL-News; RWTH-PHOENIX-Weather 2014 T; CSL-Daily; OpenASL; How2Sign; PHOENIX14T; DailyMoth-70h; Mediapi-RGB,N/A,N/A,N/A,N/A,N/A
+ECG Classification,8,PTB Diagnostic ECG Database; CODE-15%; UCR Time Series Classification Archive; PhysioNet Challenge 2021; MIMIC-IV-ECG; PhysioNet Challenge 2020; PTB-XL; ECG Heartbeat Categorization Dataset,UCR Time Series Classification Archive; PhysioNet Challenge 2021; PhysioNet Challenge 2020; PTB-XL; Electrocardiography (ECG) on Telehealth Network of Minas Gerais (TNMG),PhysioNet/CinC Challenge Score(stratified10-fold); F1 (RBBB); Accuracy (Test); PhysioNet Challenge score (test data); F1 (LBBB); F1 (AF); F1 (SB); PhysioNet Challenge score 2020 (validation data); F1(stratified10-fold); F1 (ST),Photoplethysmography (PPG),Medical,N/A
+Dialogue Evaluation,8,CPsyCounE; diaforge-utc-r-0725; Reddit; FaithDial; USR-TopicalChat; SaGA; Reddit Engagement Dataset; USR-PersonaChat,USR-TopicalChat; USR-PersonaChat,Spearman Correlation; Pearson Correlation,N/A,Natural Language Processing,N/A
+Chinese Reading Comprehension,8,Belebele; CMRC 2018; CJRC; DRCD; DMQA; CMRC; RoadTracer; ReCO,N/A,N/A,N/A,N/A,N/A
+Heterogeneous Node Classification,8,IMDB (Heterogeneous Node Classification); OAG-L1-Field; ACM (Heterogeneous Node Classification); SupplyGraph; Freebase (Heterogeneous Node Classification); DBLP (Heterogeneous Node Classification); DBLP; OAG-Venue,N/A,N/A,N/A,N/A,N/A
+Summarization,8,Multi-News; XSum; BillSum; CNN/Daily Mail; MLSUM; SAMSum; BigPatent; MuLD,ccdv/arxiv-summarization; scientific_papers; XSum; SAMSum; BillSum; big_patent; launch/gov_report; bazzhangz/sumdataset; kmfoda/booksum; SAMSum Corpus: A Human-annotated Dialogue Dataset for Abstractive Summarization,BLEU-1; METEOR; Rouge-L; BLEU-4,Query-focused Summarization; Unsupervised Extractive Summarization,Natural Language Processing,Summarization is the task of producing a shorter version of one or several documents that preserves most of the input's meaning.
+Translation deu-eng,8,WMT 2015; WMT 2014; Tatoeba; Multi30K; FLoRes-101; WMT 2018; FLoRes-200; WMT 2016,N/A,N/A,N/A,N/A,N/A
+Translation eng-deu,8,WMT 2015; WMT 2014; Tatoeba; Multi30K; FLoRes-101; WMT 2018; FLoRes-200; WMT 2016,N/A,N/A,N/A,N/A,N/A
+Keyword Spotting,8,EmoSpeech; FKD; VoxForge; Auto-KWS; Speech Commands; TAU Urban Acoustic Scenes 2019; Google Speech Commands - Musan; PodcastFillers,Google Speech Commands (v2); FKD; VoxForge; QUESST; TAU Urban Acoustic Scenes 2019; TensorFlow; Google Speech Commands V2 12; Google Speech Commands; hey Siri; Google Speech Commands V2 35,Accuracy (10-fold); TFMA; Cnxe; Google Speech Commands V2 35; % Test Accuracy; PMUi; SSF; Google Speech Command-Musan; Google Speech Commands V1 12; Google Speech Commands V1 2,Small-Footprint Keyword Spotting; Visual Keyword Spotting,Speech; Computer Vision,"In speech processing, keyword spotting deals with the identification of keywords in utterances.    <span style=""color:grey; opacity: 0.6"">( Image credit: [Simon Grest](https://github.com/simongrest/ka..."
+Sentence Embedding,8,UR-FUNNY; French CASS dataset; COSTRA 1.0; OPUS; Tatoeba; Video2GIF; Claim Matching Robustness; Opusparcus,N/A,N/A,N/A,N/A,N/A
+Causal Inference,8,ParaBank; ICLR Database; NAIST COVID; Jobs; ChatGPT Advice Responses; NTPairs; IHDP; ReCO,Jobs; IDHP; IHDP,Average Treatment Effect Error; Average Treatment Effect on the Treated Error,Counterfactual Inference; Heterogeneous Treatment Effect Estimation; IHDP-CATE,Miscellaneous; Knowledge Base,"Causal inference is the task of drawing a conclusion about a causal connection based on the conditions of the occurrence of an effect.    <span style=""color:grey; opacity: 0.6"">( Image credit: [Recove..."
+Stance Classification,8,DAST; HpVaxFrames; VaccineFrames; RuStance; VaccineLies; MMVax-Stance; CoVaxFrames; CoVaxLies v2,N/A,N/A,N/A,N/A,N/A
+Story Generation,8,WritingPrompts; MoviePlotEvents; TVRecap; HANNA; Scifi TV Shows; Creative Writing; Visual Writing Prompts; Votranh DREAM_LOG,WritingPrompts; TVMegaSite test; Fandom test; Fandom dev; TVMegaSite dev,ROUGE-1; BLEU; ROUGE-2; Distinct-4; BLEU-2; BLEU-1; ROUGE-L; Perplexity,Visual Storytelling,Natural Language Processing,"Story generation is the task of automatically generating a coherent narrative, often from a set of premises or a brief summary."
+Code Classification,8,TACO-BAAI; PyTorrent; FixEval; xCodeEval; CodeSCAN; Spectre-v1; ISAdetect dataset; A Software Maintainability Dataset,N/A,N/A,N/A,Computer Code,N/A
+Code Summarization,8,Java scripts; CoSQA+; notebookcdg; DeepCom-Java; PyTorrent; MCoNaLa; ParallelCorpus-Python; CodeXGLUE,N/A,N/A,N/A,N/A,N/A
+Multilingual NLP,8,Belebele; MAKED; M2QA; GLARE; Duolingo STAPLE Shared Task; English-Pashto Language Dataset (EPLD); HumSet; mBBC dataset,N/A,N/A,N/A,Natural Language Processing,N/A
+Response Generation,8,Comet; KETOD; ComFact; ArgSciChat; ProsocialDialog; SIMMC2.0; MMConv; LLMafia,MMConv; ArgSciChat; SIMMC2.0,BLEU; Mover; Message-F1; Inform; Comb.; BScore; Success,N/A,Natural Language Processing,A task where an agent should play the $DE$ role and generate a text to respond to a $P$ message.
+Multimodal Sentiment Analysis,7,MuSe-CaR; CH-SIMS; B-T4SA; Multimodal Opinionlevel Sentiment Intensity; CMU-MOSEI; CMU-MOSI; SemEval-2020 Task-8,N/A,N/A,N/A,N/A,N/A
+Text Style Transfer,7,StyleGallery; Touchdown Dataset; StylePTB; XFORMAL; TextSeg; TextBox 2.0; Yelp,Yelp Review Dataset (Large); Yelp Review Dataset (Small),"BLEU; G-Score (BLEU, Accuracy)",Semi-Supervised Formality Style Transfer; Word Attribute Transfer; Formality Style Transfer,Natural Language Processing,Text Style Transfer is the task of controlling certain attributes of generated text. The state-of-the-art methods can be categorized into two main types which are used on parallel and non-parallel dat...
+imbalanced classification,7,WikiChurches; Imbalanced-MiniKinetics200; Kinetics; Can you predict product backorder?; kaggle stroke Prediction competition; CI-MNIST; Industrial Benchmark Dataset for Customer Escalation Prediction,N/A,N/A,N/A,Miscellaneous,learning classifier from class-imbalanced data
+Bayesian Inference,7,WebKB; UCLA Aerial Event Dataset; CIFAR-100; Blackbird; Summaries of genetic variation; ExBAN; State Traversal Observation Tokens,cifar100,Expected Calibration Error; Accuracy,Probabilistic Programming,Methodology,Bayesian Inference is a methodology that employs Bayes Rule to estimate parameters (and their full posterior).
+Sequence-to-sequence Language Modeling,7,XSum; BillSum; CNN/Daily Mail; Reddit; Itihasa; ViHOS; WMT 2016,N/A,N/A,N/A,N/A,N/A
+News Recommendation,7,V-MIND; xMIND; Reddit; Reddit Ideological and Extreme Bias Dataset; MIND; Reddit Ideology Database; Ranking social media news feed,N/A,N/A,N/A,N/A,N/A
+Tabular Data Generation,7,Thyroid; Diabetes; SICK; Travel; California Housing Prices; HELOC; Adult Census Income,Diabetes; SICK; Travel; California Housing Prices; HELOC; Adult Census Income,Parameters(M); RF Mean Squared Error; DT Mean Squared Error; RF Accuracy; DT Accuracy; LR Mean Squared Error; LR Accuracy,N/A,Miscellaneous,Generation of the tabular data using generative models
+Source Code Summarization,7,Java scripts; CodeSearchNet; DeepCom-Java; StaQC; ParallelCorpus-Python; Summarizing Source Code using a Neural Attention Model; CoDesc,Java scripts; CodeSearchNet; Summarizing Source Code using a Neural Attention Model - C#; DeepCom-Java; CodeSearchNet - Python; ParallelCorpus-Python; Summarizing Source Code using a Neural Attention Model - SQL; Summarizing Source Code using a Neural Attention Model - Python; CoDesc,F1; METEOR; Smoothed BLEU-4; BLEU-4,Method name prediction,Computer Code; Natural Language Processing,"**Code Summarization** is a task that tries to comprehend code and automatically generate descriptions directly from the source code.      <span class=""description-source"">Source: [Improving Automatic..."
+Scientific Document Summarization,7,SemOpenAlex; ScisummNet; FacetSum; CL-SciSumm; TalkSumm; MS^2; unarXive,CL-SciSumm,ROUGE-2,Lay Summarization,Natural Language Processing,N/A
+Malware Classification,7,IoT-23; Malimg; BODMAS; AutoRobust; EMBER; MOTIF; Microsoft Malware Classification Challenge,Microsoft Malware Classification Challenge; Malimg Dataset; MaleVis,Accuracy (10-fold); F1 score (5-fold); Macro F1; Accuracy; Macro F1 (10-fold); LogLoss; Accuracy (5-fold),Behavioral Malware Detection; Malware Detection; Behavioral Malware Classification; Android Malware Detection,Miscellaneous,**Malware Classification** is the process of assigning a malware sample to a specific malware family. Malware within a family shares similar properties that can be used to create signatures for detect...
+Document Ranking,7,MSLR WEB30K; CLUE; MQ2008; DaReCzech; BASIR; Qulac; Istella LETOR,ClueWeb09-B; DaReCzech,ERR@20; P@10; nDCG@20,Session Search,Natural Language Processing,"Sort documents according to some criterion so that the ""best"" results appear early in the result list displayed to the user (Source: Wikipedia)."
+Extreme Summarization,7,XSum; TLDR9+; SummZoo; GEM; CiteSum; Elsevier OA CC-BY; SciTLDR,GEM-XSum; XSum; CiteSum; TLDR9+,ROUGE-1; RG-L(%); ROUGE-2; BLEU score; METEOR; Parameters; RG-2(%); RG-1(%); ROUGE-L,N/A,Natural Language Processing,Image credit: [TLDR: Extreme Summarization of Scientific Documents](https://arxiv.org/pdf/2004.15011v3.pdf)
+Language Acquisition,7,NLI-PT; Duolingo SLAM Shared Task; Duolingo Spaced Repetition Data; New Brown Corpus; Avalinguo Audio Dataset; BabySLM; BLiMP,SLAM 2018,AUC,Grounded language learning,Natural Language Processing,Language acquisition refers to tasks related to the learning of a second language.
+Systematic Generalization,7,PCFG SET; ZEST; GSCAN; S2B; Mathematics Dataset; SCAN; Cryptics,N/A,N/A,N/A,Reasoning,N/A
+General Reinforcement Learning,7,Avalon; ProcGen; POPGym; Obstacle Tower; WLD; bipedal-skills; PackIt,Obstacle Tower (Strong Gen) varied; Obstacle Tower (No Gen) varied; Obstacle Tower (No Gen) fixed; Obstacle Tower (Weak Gen) varied; Obstacle Tower (Weak Gen) fixed; Obstacle Tower (Strong Gen) fixed,Score,Model-based Reinforcement Learning; Offline RL,Reasoning; Robots; Methodology; Playing Games,N/A
+Twitter Sentiment Analysis,7,ArSen-20; #chinahate; SentimentArcs: Sentiment Reference Corpus for Novels; Crypto related tweets from 10.10.2020 to 3.3.2021; Twitter Sentiment Analysis; RETWEET; Multi-Class Depression Detection Dataset,N/A,N/A,Tweet-Reply Sentiment Analysis,Natural Language Processing,Twitter sentiment analysis is the task of performing sentiment analysis on tweets from Twitter.
+Toxic Comment Classification,7,UIT-ViCTSD; Jigsaw Toxic Comment Classification Dataset; K-MHaS: Korean Multi-label Hate Speech Dataset; WikiDetox; Civil Comments; FairPrism; CAD,N/A,N/A,N/A,N/A,N/A
+News Summarization,7,VNDS; DICE: a Dataset of Italian Crime Event news; Reddit Ideological and Extreme Bias Dataset; FIB; ECTSum; M3LS; Bengali Curated News Summary Dataset,N/A,N/A,N/A,N/A,N/A
+Masked Language Modeling,7,GENTER; DiFair; blbooks; GENTYPES; LatamXIX; GENEUTRAL; Spanish Corpus XIX,N/A,N/A,N/A,N/A,N/A
+Concept-based Classification,6,CelebA; AwA2; CUB-200-2011; AwA; CheXpert; aPY,CelebA; AwA2; CUB-200-2011; CheXpert; aPY,Concept Accuracy (%); Task Accuracy (%),N/A,Computer Vision,Image classification using human-interpretable concepts
+Knowledge Distillation,6,CIFAR-100; PASCAL VOC; ImageNet; COCO (Common Objects in Context); KITTI; Cityscapes,en pt br; en es; CIFAR-100; PASCAL VOC; big content; ImageNet; COCO 2017 val; COCO (Common Objects in Context); KITTI; Cityscapes,; mAP; AP@0.75; RMSE; model size;  box AP; Top-1 accuracy %; Top-1 Accuracy (%); AP@0.5; CRD training setting,Self-Knowledge Distillation; Data-free Knowledge Distillation,Computer Vision; Natural Language Processing,Knowledge distillation is the process of transferring knowledge from a large model to a smaller one. While large models (such as very deep neural networks or ensembles of many models) have higher know...
+Constituency Parsing,6,Taiga Corpus; PCC; Penn Treebank; MASC; Alexa Point of View; FLUE,CTB7; ATB; Penn Treebank; CTB5,F1; F1 score,Constituency Grammar Induction,Natural Language Processing,Constituency parsing aims to extract a constituency-based parse tree from a sentence that  represents its syntactic structure according to a [phrase structure grammar](https://en.wikipedia.org/wiki/Ph...
+Document Text Classification,6,Kompetencer; Tobacco-3482; CUB-200-2011; WOS Hierarchical Text Classification; MatriVasha:; Food-101,Tobacco-3482; CUB-200-2011; Food-101; Tobacco small-3482,Accuracy (%); Accuracy; Training time (min); Training time (hours),Learning with noisy labels; Political Salient Issue Orientation Detection; Multi-Label Classification Of Biomedical Texts,Medical; Computer Vision; Natural Language Processing,N/A
+Multi-Modal Document Classification,6,RVL-CDIP; Tobacco-3482; Reuters-21578; CUB-200-2011; HeriGraph; Food-101,N/A,N/A,N/A,N/A,N/A
+Cross-Domain Few-Shot,6,Earth on Canvas; Places205; mini-Imagenet; CUB-200-2011; Places; EuroSAT,CropDisease; miniImagenet; Plantae; CUB; ChestX; Places; EuroSAT; ISIC2018; cars,Accuracy (%); 5 shot,cross-domain few-shot learning,Computer Vision,N/A
+Few-Shot Relation Classification,6,FewRel 2.0; FREDo; TexRel; DocRED; SciERC; FewRel,N/A,N/A,N/A,N/A,N/A
+Generative Question Answering,6,Reddit; LLeQA; CoQA; FrenchMedMCQA; CICERO; Reddit Ideology Database,N/A,N/A,N/A,N/A,N/A
+Environmental Sound Classification,6,SONYC-UST-V2; ESC50; SINGA:PURA; ESC-50; FSD50K; UrbanSound8K,ESC-50; UrbanSound8K; FSD50K,Accuracy; mAP,Self-Supervised Sound Classification,Audio,Classification of Environmental Sounds. Most often sounds found in Urban environments. Task related to noise monitoring.
+Community Question Answering,6,Quora Question Pairs; PerCQA; ANTIQUE; AmazonQA; SE-PQA; CQASUMM,N/A,N/A,N/A,N/A,N/A
+Text Spotting,6,Total-Text; LSVTD; ICDAR 2015; SCUT-CTW1500; Textual Visual Semantic Dataset; UCLA Protest Image,Inverse-Text; SCUT-CTW1500; Total-Text; ICDAR 2015,F-measure (%) - Strong Lexicon; F-measure (%) - Generic Lexicon; F-Measure (%) - Full Lexicon; F-measure (%) - Full Lexicon; F-measure (%) - No Lexicon; F-measure (%) - Weak Lexicon,N/A,Computer Vision,Scene Text Spotting is the combination of Scene Text Detection and Scene Text Recognition in an end-to-end manner.  It is the ability to read natural text in the wild.
+Source-Free Domain Adaptation,6,SYNTHIA; VisDA-2017; GTA5; Dark Zurich; ACDC (Adverse Conditions Dataset with Correspondences); PACS,Cityscapes to Dark Zurich; SYNTHIA-to-Cityscapes; Cityscapes to ACDC; VisDA-2017; PACS; GTA5 to Cityscapes; 	VIPER-to-Cityscapes,Accuracy; Average Accuracy; mIoU,3D Source-Free Domain Adaptation; Source Free Object Detection,Computer Vision,"Source-Free Domain Adaptation (SFDA) is a domain adaptation method in machine learning and computer vision where the goal is to adapt a pre-trained model to a new, target domain without access to the ..."
+Table-to-Text Generation,6,RotoWire; Wikipedia Person and Animal Dataset; WikiBio; E2E; DART; WebNLG,RotoWire; Wikipedia Person and Animal Dataset; WebNLG (All); E2E; WikiBio; WebNLG (Unseen); WebNLG (Seen); DART, Content Selection (F1); BLEU; NIST; TER; BERT; Mover; PARENT; ROUGE;  Content Ordering; METEOR,KB-to-Language Generation,Natural Language Processing,**Here is the provided data converted into a table format for clarity:  COUNTRIES	1971-2010	2011	2012	2013	2014	2015	2016	2017	2018  									  Saudi Arabia	2742962	222247	358560	270502	312489	522750	...
+Multi-Source Unsupervised Domain Adaptation,6,ImageCLEF-DA; GTZAN; Tennessee Eastman Process; DomainNet; Office-Home; Office-31,N/A,N/A,N/A,N/A,N/A
+AMR Parsing,6,LDC2020T02; Groningen Meaning Bank; LDC2017T10; The Little Prince; New3; Bio,LDC2020T02; LDC2017T10; LDC2014T12; LDC2015E86; The Little Prince; New3; LDC2014T12:; Bio,Smatch; F1 Newswire; F1 Full,N/A,Natural Language Processing,"Each AMR is a single rooted, directed graph. AMRs include PropBank semantic roles, within-sentence coreference, named entities and types, modality, negation, questions, quantities, and so on. [See](ht..."
+News Generation,6,Reddit; Reddit Ideological and Extreme Bias Dataset; FakeNewsNet; BalitaNLP; Reddit Ideology Database; Ice Hockey News Dataset,N/A,N/A,Headline Generation,Natural Language Processing,Generation of larger segments of text with consistent topic and evolving story.
+Compositional Zero-Shot Learning,6,AO-CLEVr; UT Zappos50K; ReaSCAN; MIT-States; UT-Zappos50K; C-GQA,N/A,N/A,N/A,N/A,N/A
+Lexical Entailment,6,TERRa; EVALution; HyperLex; SherLIiC; Persian NLP Hub; IMPPRES,N/A,N/A,N/A,N/A,N/A
+Multimodal Recommendation,6,Amazon Beauty; Amazon Baby; Amazon Office Products; Amazon Review; Amazon Toys & Games; Amazon Digital Music,N/A,N/A,N/A,N/A,N/A
+Age And Gender Classification,6,BN-AuthProf; mebeblurf; Age and Gender; LAGENDA; IMDB-Clean; CI-MNIST,BN-AuthProf; Adience Age; Adience Gender,F1 score; Accuracy (5-fold),Author Profiling,Natural Language Processing,"Age and gender classification is a dual-task of identifying the age and gender of a person from an image or video.    <span style=""color:grey; opacity: 0.6"">( Image credit: [Multi-Expert Gender Classi..."
+Text Categorization,6,MNAD; DICE: a Dataset of Italian Crime Event news; Text_VPH; Multilingual Reuters; NatCat; DAWT,N/A,N/A,N/A,N/A,N/A
+Genre classification,6,PTVD; FMA; Book Cover Dataset; Trailers12k; MuMu; Moviescope,N/A,N/A,N/A,N/A,N/A
+Meme Classification,6,Tamil Memes; Harm-C; Hateful Memes; HarMeme; MMHS150k; MultiOFF,Hateful Memes; Tamil Memes; MultiOFF,F1; Accuracy; Micro-F1; ROC-AUC,Hateful Meme Classification,Computer Vision; Natural Language Processing,Meme classification refers to the task of classifying internet memes.
+multimodal generation,6,Multi-Modal CelebA-HQ; Alex-20; taste-music-dataset; MedTrinity-25M; REBUS; MMNeedle,N/A,N/A,N/A,N/A,N/A
+Meeting Summarization,6,ELITR Minuting Corpus; ICSI Meeting Corpus; AMI Meeting Corpus; QMSum; MeetingBank; public_meetings,ICSI Meeting Corpus; AMI Meeting Corpus,ROUGE-1 F1,N/A,Natural Language Processing,Generating a summary from meeting transcriptions.     A survey for this task: [Abstractive Meeting Summarization: A Survey](https://paperswithcode.com/paper/abstractive-meeting-summarization-a-survey)
+Text-to-Music Generation,6,AIME; Song Describer Dataset; MusicBench; JamendoMaxCaps; MusicCaps; PIAST,MusicCaps; MusicBench,FD; FAD; CLAP_MS; FD_openl3; CLAP_LAION; IS; KL_passt,N/A,Audio,N/A
+text annotation,6,"VMD; Text_VPH; OASST1; MATHWELL Human Annotation Dataset; MIBot - Motivational Interviewing for Smoking Cessation Dataset, based on MIBOT Version 6.3A; Reddit Posts Related To Eating Disorders and Dieting",N/A,N/A,N/A,Natural Language Processing,N/A
+Generalized Few-Shot Learning,5,SUN; AwA2; Geoclidean-Elements; CUB-200-2011; AwA,SUN; CUB; AwA2,Per-Class Accuracy (10-shots); Per-Class Accuracy (5-shots); Per-Class Accuracy (20-shots); Per-Class Accuracy  (2-shots); Per-Class Accuracy (2-shots); Per-Class Accuracy (1-shot),Long-tail Learning,Methodology,N/A
+Reading Comprehension (Zero-Shot),5,Belebele; CMRC 2018; DRCD; CMRC; DuReader,N/A,N/A,N/A,N/A,N/A
+Reading Comprehension (One-Shot),5,Belebele; CMRC 2018; DRCD; CMRC; DuReader,N/A,N/A,N/A,N/A,N/A
+Reading Comprehension (Few-Shot),5,Belebele; CMRC 2018; DRCD; CMRC; DuReader,N/A,N/A,N/A,N/A,N/A
+Open Intent Discovery,5,BANKING77; DBpedia; ATIS; CLINC150; SNIPS,BANKING77; DBpedia; Stackoverflow; ATIS; CLINC150; SNIPS,ARI; ACC; Clustering Accuracy; NMI,N/A,Natural Language Processing,Open intent discovery aims to leverage limited prior knowledge of known intents to find fine-grained known and open intent-wise clusters.
+Synthetic-to-Real Translation,5,SYNTHIA; Syn2Real; WinSyn; GTA5; Sims4Action,N/A,N/A,N/A,N/A,N/A
+Variational Inference,5,HASY; CIFAR-100; WikiAtomicEdits; Silhouettes; WI-LOCNESS,N/A,N/A,N/A,N/A,N/A
+Universal Domain Adaptation,5,VisDA-2017; All-day CityScapes; DomainNet; Office-Home; Office-31,Office-Home; Office-31; DomainNet; VisDA2017,VLM; Source-Free; H-Score; Source-free; H-score,N/A,Computer Vision,N/A
+Paper generation,5,"2017 Robotic Instrument Segmentation Challenge; ICLR Database; PubMed Paper Reading Dataset; ACL Title and Abstract Dataset; PubMed Term, Abstract, Conclusion, Title Dataset",N/A,N/A,N/A,N/A,N/A
+AMR-to-Text Generation,5,LDC2020T02; LDC2017T10; The Little Prince; New3; Bio,N/A,N/A,N/A,N/A,N/A
+Text Clustering,5,MTEB; DICE: a Dataset of Italian Crime Event news; COVID-19 Twitter Chatter Dataset; Urdu News Headlines Dataset; 20 Newsgroups,Urdu News Headlines Dataset; 20 Newsgroups; MTEB,Accuracy; Related Headlines; V-Measure,Hierarchical Text Clustering; Open Intent Discovery; Short Text Clustering,Natural Language Processing,Grouping a set of texts in such a way that objects in the same group (called a cluster) are more similar (in some sense) to each other than to those in other groups (clusters). (Source: Adapted from W...
+Code Documentation Generation,5,Java scripts; CodeSearchNet; notebookcdg; DeepCom-Java; PyTorrent,CodeSearchNet - JavaScript; CodeSearchNet; CodeSearchNet - Ruby; CodeSearchNet - Java; CodeSearchNet - Python; CodeSearchNet - Php; CodeSearchNet - Go,Smoothed BLEU-4,CodeSearchNet - Java,Computer Code,"Code Documentation Generation is a supervised task where a code function is the input to the model, and the model generates the documentation for this function.    Description from: [CodeTrans: Toward..."
+Multimodal Machine Translation,5,WMT 2016 Biomedical; WMT 2016 IT; Hindi Visual Genome; Multi30K; HaVG,Hindi Visual Genome (Challenge Set); Multi30K; Hindi Visual Genome (Test Set),BLEU (EN-HI); Meteor (EN-DE); BLUE (DE-EN); Meteor (EN-FR); BLEU (EN-DE),Multimodal Lexical Translation; Face to Face Translation,Computer Vision; Natural Language Processing,"Multimodal machine translation is the task of doing machine translation with multiple data sources - for example, translating ""a bird is flying over water"" + an image of a bird over water to German te..."
+Translation eng-fra,5,TICO-19; Tatoeba; Multi30K; FLoRes-101; FLoRes-200,N/A,N/A,N/A,N/A,N/A
+Morphological Analysis,5,Polyglot-NER; Wikipedia Title; CELEX; Egyptian Arabic Segmentation Dataset; TrMor2018,N/A,N/A,N/A,Natural Language Processing,**Morphological Analysis** is a central task in language processing that can take a word as input and detect the various morphological entities in the word and provide a morphological representation o...
+Low-Resource Neural Machine Translation,5,Leipzig Corpora; KurdishInterdialect; CVIT PIB; FLoRes; ASPEC,N/A,N/A,N/A,N/A,N/A
+Goal-Oriented Dialogue Systems,5,DSTC7 Task 1; MMD; MultiDoc2Dial; MetaLWOz; LLMafia,N/A,N/A,N/A,N/A,N/A
+Zero-shot Classification (unified classes),5,AID; SynthPAI; RESISC45; LLVIP; ImageNet_CN,N/A,N/A,N/A,N/A,N/A
+Hateful Meme Classification,5,PrideMM; Harm-C; Harm-P; Hateful Memes; HarMeme,N/A,N/A,N/A,N/A,N/A
+Long Form Question Answering,5,ELI5; QuALITY; LLeQA; DARai; MMInstruct-GPT4V,N/A,N/A,N/A,N/A,N/A
+Cross-Lingual Question Answering,5,MLQA; TyDiQA-GoldP; QALD-9-Plus; LitMind Dictionary; XQuAD,N/A,N/A,N/A,N/A,N/A
+Transliteration,5,ANETAC; Dakshina; TSAC; Bianet; ArzEn,N/A,N/A,N/A,N/A,N/A
+Multilabel Text Classification,5,NLP Taxonomy Classification Data; TuPyE-Dataset; EURLEX57K; arXiv Categories; HumSet,N/A,N/A,N/A,N/A,N/A
+Material Classification,5,MINC; LabPics; OpenSurfaces; SpectroVision; Touch and Go,N/A,N/A,N/A,Computer Vision,N/A
+Graph Generation,5,STREETS; WikiGraphs; TRN; PISC; Torque,Toulouse Road Network,StreetMover,N/A,Graphs,"**Graph Generation** is an important research area with significant applications in drug and material designs.   <span class=""description-source"">Source: [Graph Deconvolutional Generation ](https://ar..."
+Texture Classification,5,ISOD; ElBa; CBTex; Multidimensional Texture Perception; ITD,N/A,N/A,N/A,Computer Vision,"**Texture Classification** is a fundamental issue in computer vision and image processing, playing a significant role in many applications such as medical image analysis, remote sensing, object recogn..."
+Crop Classification,5,SemanticSugarBeets; SICKLE; CropAndWeed; EuroCrops; Sen4AgriNet,CropHarvest - Brazil; CropHarvest multicrop - Global; CropHarvest - Global; CropHarvest - Kenya; CropHarvest - Togo,Average Accuracy; Target Binary F1; AUC; F1 Macro,N/A,Miscellaneous; Computer Vision,N/A
+Knowledge Probing,5,TOFU; PopQA; BEAR-probe; Spectral Detection and Analysis Based Paper(SDAAP) dataset; BioLAMA,N/A,N/A,N/A,N/A,N/A
+Multi-task Language Understanding,5,BIG-bench; MGSM; Tasksource; BBH; MML,N/A,N/A,N/A,N/A,N/A
+Temporal Relation Classification,5,2012 i2b2 Temporal Relations; Catalan TimeBank 1.0; MATRES; French Timebank; SupplyGraph,N/A,N/A,N/A,N/A,N/A
+Speech-to-Speech Translation,5,LibriS2S; CVSS; Heroes Corpus; TAT; SpeechMatrix,TAT; CVSS; FLEURS X-eng,Parameters; ASR-BLEU (Test); ASR-BLEU (Dev); ASR-BLEU,N/A,Speech,"Speech-to-speech translation (S2ST) consists on translating speech from one language to speech in another language. This can be done with a cascade of automatic speech recognition (ASR), text-to-text ..."
+Protein Language Model,5,CATH 4.3; Protein-Instructions-OOD; DAVIS-DTA; ProteinGym; CATH 4.2,N/A,N/A,N/A,N/A,N/A
+Spatial Reasoning,5,MMVP; EmbSpatial-Bench; RealWorldQA; BlINK; RePAIR Dataset,N/A,N/A,N/A,N/A,N/A
+Gender Classification,5,IUST_PersonReID; PsyMo; IMDB-WIKI; BN-AuthProf; inaGVAD,N/A,N/A,N/A,N/A,N/A
+Long-Context Understanding,5,L-Eval; LongBench; TIME; NoLiMa; MMNeedle,Ada-LEval (TSort); Ada-LEval (BestAnswer); LongBench; L-Eval; MMNeedle,"10 Images, 8*8 Stitching, Exact Accuracy; 4k; 32k; 1k; 128k; 1 Image, 4*4 Stitching, Exact Accuracy; 10 Images, 1*1 Stitching, Exact Accuracy; 12k; 10 Images, 2*2 Stitching, Exact Accuracy; 1 Image, 2*2 Stitching, Exact Accuracy",N/A,Natural Language Processing,N/A
+Multi Label Text Classification,4,GoEmotions; MNIST; HateScore; CARER,N/A,N/A,N/A,N/A,N/A
+Multi-Human Parsing,4,LLMafia; MHP; CCIHP; PASCAL-Part,N/A,N/A,N/A,N/A,N/A
+Predicate Classification,4,ImageCLEF-DA; Visual Genome; Haystack; 3RScan,N/A,N/A,N/A,N/A,N/A
+Zero-shot Audio Classification,4,VGG-Sound; UrbanSound8K; ESC-50; AudioSet,N/A,N/A,N/A,N/A,N/A
+Intent Discovery,4,SNIPS; diaforge-utc-r-0725; ATIS; Persian-ATIS,SNIPS; ATIS; Persian-ATIS,ARI,N/A,Natural Language Processing,"Given a set of labelled and unlabelled utterances, the idea is to identify existing (known) intents and potential (new intents) intents. This method can be utilised in conversational system setting."
+Unsupervised Text Classification,4,AG News; Medical Abstracts; 20NewsGroups; Yahoo! Answers,N/A,N/A,N/A,N/A,N/A
+Zero-Shot Text Classification,4,AG News; HateXplain; Events classification - Biotech news; This is not a Dataset,N/A,N/A,N/A,N/A,N/A
+Few-Shot Text Classification,4,RAFT; SST-5; SST; Events classification - Biotech news,ODIC 10-way (10-shot); RAFT; SST-5; Average on NLP datasets; ODIC 5-way (5-shot); ODIC 5-way (10-shot); Amazon Counterfeit; ODIC 10-way (5-shot),NIS; TEH;  Over; TAI; TC; Avg; ToS; B77; ADE; SOT,Zero-Shot Out-of-Domain Detection,Natural Language Processing,Few-shot Text Classification predicts the semantic label of a given text with a handful of supporting instances [1](https://aclanthology.org/2022.emnlp-main.87)
+Citation Intent Classification,4,REFCAT; ACL ARC; unarXive; SciCite,N/A,N/A,N/A,N/A,N/A
+Partial Domain Adaptation,4,Office-Home; Office-31; VisDA-2017; DomainNet,N/A,N/A,N/A,N/A,N/A
+Multi-target Domain Adaptation,4,Office-Home; OBJ-MDA; Office-31; DomainNet,Office-Home; Office-31; DomainNet; OBJ-MDA,Accuracy; mAP@0.5,N/A,Computer Vision,The idea of Multi-target Domain Adaptation is to adapt a model from a single labelled source domain to multiple unlabelled target domains.
+Knowledge Graph Embedding,4,KG20C; KGRC-RDF-star; GEval for KGRC-RDF-star; FB15k,FB15k,MRR,Open Knowledge Graph Embedding,Knowledge Base,N/A
+Multi-modal Classification,4,Gaze-CIFAR-10; VGG-Sound; Mudestreda; AudioSet,VGG-Sound; AudioSet,Top-1 Accuracy; Top-5 Accuracy; Average mAP,Image-text Classification,Miscellaneous,N/A
+Breast Tumour Classification,4,BCNB; PCam; Breast Lesion Detection in Ultrasound Videos (CVA-Net); BreastClassifications4,PCam,Accuracy; AUC,N/A,Medical,N/A
+Logical Reasoning Question Answering,4,JustLogic; ReClor; SUTD-TrafficQA; RoomSpace,N/A,N/A,N/A,N/A,N/A
+Translation ces-eng,4,Multi30K; FLoRes-200; Tatoeba; FLoRes-101,N/A,N/A,N/A,N/A,N/A
+Translation deu-fra,4,Multi30K; FLoRes-200; Tatoeba; FLoRes-101,N/A,N/A,N/A,N/A,N/A
+Spoken language identification,4,VoxForge; FLEURS; IndicTTS; VOXLINGUA107,N/A,N/A,N/A,N/A,N/A
+Music Auto-Tagging,4,TimeTravel; MSD; MagnaTagATune; PIAST,TimeTravel; Million Song Dataset; MagnaTagATune; MagnaTagATune (clean),0..5sec; PR-AUC; ROC-AUC; ROC AUC,N/A,Music,N/A
+Music Tagging,4,PIAST; ATD-Dataset; MagnaTagATune; EMOPIA,N/A,N/A,N/A,N/A,N/A
+End-To-End Dialogue Modelling,4,Arabic-ToD; MultiWOZ; BiToD; LLMafia,N/A,N/A,N/A,N/A,N/A
+Unsupervised Machine Translation,4,CCMatrix; WMT 2014; WMT 2016 News; WMT 2016,N/A,N/A,N/A,N/A,N/A
+Triple Classification,4,YAGO; CoDEx Small; CoDEx Large; CoDEx Medium,YAGO39K,Accuracy; Recall; F1-Score; Precision,Knowledge Graph Embeddings,Graphs,"Triple classification aims to judge whether a given triple (h, r, t) is correct or not with respect to the knowledge graph."
+Speech-to-Text Translation,4,Kosp2e; MediBeng; MuST-C; CoVoST,MuST-C; FLEURS eng-X; MediBeng; CoVoST 2 eng-X; MuST-C EN->FR; libri-trans; CoVoST 2 X-eng; MuST-C EN->ES; MuST-C EN->DE; MuST-C EN->NL,BLEU; Case-sensitive sacreBLEU; SacreBLEU; Bleu; Case-insensitive sacreBLEU; Case-sensitive tokenized BLEU; Case-insensitive tokenized BLEU,Simultaneous Speech-to-Text Translation,Natural Language Processing,"Translate audio signals of speech in one language into text in a foreign language, either in an end-to-end or cascade manner."
+Cloze (multi-choices) (Zero-Shot),4,CMRC 2019; CMRC 2017; ChID; CMRC,N/A,N/A,N/A,N/A,N/A
+Cloze (multi-choices) (Few-Shot),4,CMRC 2019; CMRC 2017; ChID; CMRC,N/A,N/A,N/A,N/A,N/A
+Morphological Tagging,4,iLur News Texts; CoNLL 2017 Shared Task - Automatically Annotated Raw Texts and Word Embeddings; CoNLL; Szeged Corpus,N/A,N/A,N/A,Natural Language Processing,"Morphological tagging is the task of assigning labels to a sequence of tokens that describe them morphologically. As compared to Part-of-speech tagging, morphological tagging also considers morphologi..."
+Knowledge Graph Embeddings,4,OLPBENCH; KGRC-RDF-star; MutualFriends; GEval for KGRC-RDF-star,N/A,N/A,N/A,N/A,N/A
+Zero-Shot Cross-Lingual Transfer,4,IGLUE; xSID; MaRVL; XTREME,N/A,N/A,N/A,N/A,N/A
+Translation eng-spa,4,TICO-19; FLoRes-101; FLoRes-200; Tatoeba,N/A,N/A,N/A,N/A,N/A
+Translation ben-eng,4,TICO-19; FLoRes-101; FLoRes-200; Tatoeba,N/A,N/A,N/A,N/A,N/A
+Arabic Sentiment Analysis,4,LABR; ArSentD-LEV; ArSen; ArSen-20,!(()&&!|*|*|,0-shot MRR,N/A,Natural Language Processing,"Arabic sentiment analysis is the process of computationally identifying and categorizing opinions expressed in a piece of arabic text, especially in order to determine whether the writer's attitude to..."
+Grasp Generation,4,A Billion Ways to Grasp; GRAB; FFHNet; rc_49,N/A,N/A,Controllable Grasp Generation; Grasp rectangle generation,Robots; Computer Vision,N/A
+text-based games,4,TextWorld KG; Jericho; Cards Against Humanity; LLMafia,N/A,N/A,N/A,Playing Games,Text-based games to evaluate the Reinforcement Learning Agents
+Few-shot NER,4,Chem-FINESE; Few-NERD; WNUT 2017; XGLUE,N/A,N/A,N/A,N/A,N/A
+Weakly Supervised Classification,4,ShARe/CLEF 2014: Task 2 Disorders; BCNB; THYME-2016; UBI-Fights,ShARe/CLEF 2014: Task 2 Disorders; THYME-2016,F1,Weakly Supervised Data Denoising,Natural Language Processing,N/A
+Conditional Text Generation,4,Lipogram-e; WikiGraphs; VitaminC; BalitaNLP,Lipogram-e,Ignored Constraint Error Rate,Multimedia Generative Script Learning; Contextualized Literature-based Discovery,Natural Language Processing,The task of generating text according to some pre-specified conditioning (e.g. topic or sentiment or constraint)
+Multi-hop Question Answering,4,MuSiQue-Ans; ConcurrentQA Benchmark; MultiQ; SPARTQA -,MuSiQue-Ans; ConcurrentQA,An; Sp; Answer F1,N/A,Knowledge Base,N/A
+Answer Generation,4,CICERO; WeiboPolls; QAMPARI; LLMafia,N/A,N/A,N/A,N/A,N/A
+Temporal/Casual QA,4,TimeQA; NExT-QA; TIME; TimelineKGQA,N/A,N/A,N/A,N/A,N/A
+Math Word Problem SolvingΩ,4,ParaMAWPS; DART-Math-Uniform; MAWPS; DART-Math-Hard,N/A,N/A,N/A,N/A,N/A
+Science Question Answering,4,FrenchMedMCQA; BioFuelQR; SemOpenAlex; ScienceQA,N/A,N/A,N/A,N/A,N/A
+Music Recommendation,4,Music4All-Onion; YouTube8M-MusicTextClips; PIAST; MuseChat Dataset,N/A,N/A,N/A,N/A,N/A
+Text Reranking,4,Claim Matching Robustness; Cards Against Humanity; MTEB; Multi-EuP: The Multilingual European Parliament Dataset for Analysis of Bias in Information Retrieval,N/A,N/A,N/A,N/A,N/A
+Lay Summarization,4,PLOS; AUTH at BioLaySumm 2024 - Bringing Scientific Content to Kids; eLife; AUTH at BioLaySumm 2024: Bringing Scientific Content to Kids,N/A,N/A,N/A,N/A,N/A
+Sports Understanding,4,QASports; MultiSenseBadminton; DeepSportRadar-v1; Predictive Model for Assessing Knee Muscle Injury Risk in Athletes and Non-Athletes Using sEMG,N/A,N/A,N/A,N/A,N/A
+Out-of-Distribution Generalization,4,UrbanCars; ImageNet-W; shape bias; Object-Centric Stylized COCO,N/A,N/A,N/A,N/A,N/A
+Text2text Generation,4,Kaleidoscope; HarmfulQA; diaforge-utc-r-0725; MTTN,lmqg/qg_squad; lmqg/qg_jaquad; MTTN: Multi-Pair Text to Text Narratives for Prompt Generation,ROUGE-1,Keyphrase Generation; Sketch-to-text Generation; Figurative Language Visualization,Natural Language Processing,N/A
+Referring expression generation,4,ColonINST-v1; A Game Of Sorts; ColonINST-v1 (Seen); ColonINST-v1 (Unseen),ColonINST-v1 (Seen); ColonINST-v1 (Unseen),Accuray,N/A,Computer Vision,Generate referring expressions
+tabular-classification,4,TML1M; AjwaOrMedjool; TACM12K; TLF2K,N/A,N/A,N/A,N/A,N/A
+Classification with Binary Weight Network,3,CIFAR-10; MNIST; CIFAR-100,N/A,N/A,N/A,N/A,N/A
+Data-free Knowledge Distillation,3,SQuAD; QNLI; GLUE,SQuAD; QNLI,Accuracy; Exact Match,Benchmarking,Natural Language Processing,N/A
+Sentence-Embedding,3,McQueen; Cards Against Humanity; GLUE,N/A,N/A,N/A,N/A,N/A
+Classification with Binary Neural Network,3,CIFAR-10; ImageNet; CIFAR-100,N/A,N/A,N/A,N/A,N/A
+Human Parsing,3,MHP; 4D-DRESS; PASCAL Context,4D-DRESS; PASCAL Context,mIoU; mAcc,Multi-Human Parsing,Computer Vision,"Human parsing is the task of segmenting a human image into different fine-grained semantic parts such as head, torso, arms and legs.    <span style=""color:grey; opacity: 0.6"">( Image credit: [Multi-Hu..."
+Unsupervised KG-to-Text Generation,3,Visual Genome; GenWiki; WebNLG,N/A,N/A,N/A,N/A,N/A
+Few-Shot Class-Incremental Learning,3,CUB-200-2011; mini-Imagenet; CIFAR-100,N/A,N/A,N/A,N/A,N/A
+text2text-generation,3,ChatGPT Paraphrases; ChatHaruhi; SQuAD,N/A,N/A,N/A,N/A,N/A
+SQL Parsing,3,IMDb Movie Reviews; ATIS; Yelp,N/A,N/A,N/A,N/A,N/A
+Chinese Sentiment Analysis,3,STATE ToxiCN; SST; SST-2,N/A,N/A,N/A,N/A,N/A
+Unsupervised Text Style Transfer,3,Yelp2018; GYAFC; Yelp,N/A,N/A,N/A,N/A,N/A
+Unsupervised Opinion Summarization,3,SPACE (Opinion Summarization); AmaSum; Yelp,N/A,N/A,N/A,N/A,N/A
+Multibehavior Recommendation,3,Multi-behavior Taobao; MovieLens; Yelp,N/A,N/A,N/A,N/A,N/A
+Molecular Graph Generation,3,QM9; MOSES; ZINC,N/A,N/A,N/A,N/A,N/A
+Blended-target Domain Adaptation,3,Office-Home; Office-31; DomainNet,N/A,N/A,N/A,N/A,N/A
+Talking Head Generation,3,VoxCeleb1; AnimeCeleb; VoxCeleb2,VoxCeleb1 - 1-shot learning; 100 sleep nights of 8 caregivers; VoxCeleb2 - 32-shot learning; VoxCeleb1 - 8-shot learning; VoxCeleb2 - 1-shot learning; VoxCeleb1 - 32-shot learning; VoxCeleb2 - 8-shot learning,LPIPS; inference time (ms); 10%; FID; CSIM; SSIM; Normalized Pose Error,Unconstrained Lip-synchronization,Computer Vision,"Talking head generation is the task of generating a talking face from a set of images of a person.    <span style=""color:grey; opacity: 0.6"">( Image credit: [Few-Shot Adversarial Learning of Realistic..."
+Annotated Code Search,3,ISAdetect dataset; PACS; PyTorrent,N/A,N/A,N/A,N/A,N/A
+Automatic Sleep Stage Classification,3,Montreal Archive of Sleep Studies; Sleep-EDF; ISRUC-Sleep,Sleep-EDF; ISRUC-Sleep,Cohen’s Kappa score; Number of parameters (M); Accuracy; Kappa; AUROC,N/A,Medical,N/A
+Topological Data Analysis,3,Reddit; REDDIT-5K; REDDIT-12K,N/A,N/A,N/A,Graphs,N/A
+Sentence Fusion,3,DiscoFuse; PoC; WikiSplit,N/A,N/A,N/A,N/A,N/A
+Few-Shot Point Cloud Classification,3,ModelNet; ScanObjectNN; ModelNet40-C,N/A,N/A,N/A,N/A,N/A
+Recipe Generation,3,Recipe1M+; Food.com Recipes and Interactions; RecipeNLG,allrecipes.com; Food.com; Now You're Cooking!; Recipe1M; RecipeNLG,BLEU; GLEU; D-2; F1; BPE Perplexity; Rouge-L; BLEU-1; Mean IoU; Word Error Rate (WER); D-1,N/A,Miscellaneous; Natural Language Processing,"Food recipe generation from ingredients, title and/or food images."
+Translation ces-deu,3,Multi30K; FLoRes-200; Tatoeba,N/A,N/A,N/A,N/A,N/A
+Graph Similarity,3,Linux; IMDb Movie Reviews; IMDB-MULTI,IMDb,mse (10^-3),N/A,Graphs,N/A
+Spoken Dialogue Systems,3,Dialogue State Tracking Challenge; CQR; SD-Eval,N/A,N/A,N/A,Speech,N/A
+Multi-Hop Reading Comprehension,3,ConcurrentQA Benchmark; CodeQueries; MedHop,N/A,N/A,N/A,N/A,N/A
+Translation spa-eng,3,TICO-19; FLoRes-101; Tatoeba,N/A,N/A,N/A,N/A,N/A
+Translation afr-deu,3,FLoRes-101; FLoRes-200; Tatoeba,N/A,N/A,N/A,N/A,N/A
+Translation afr-eng,3,FLoRes-101; FLoRes-200; Tatoeba,N/A,N/A,N/A,N/A,N/A
+Translation cat-eng,3,FLoRes-101; FLoRes-200; Tatoeba,N/A,N/A,N/A,N/A,N/A
+Translation rus-por,3,TICO-19; FLoRes-200; Tatoeba,N/A,N/A,N/A,N/A,N/A
+Translation eng-por,3,FLoRes-101; FLoRes-200; Tatoeba,N/A,N/A,N/A,N/A,N/A
+Translation ara-eng,3,TICO-19; FLoRes-101; Tatoeba,N/A,N/A,N/A,N/A,N/A
+Translation cym-eng,3,FLoRes-101; FLoRes-200; Tatoeba,N/A,N/A,N/A,N/A,N/A
+Translation dan-eng,3,FLoRes-101; FLoRes-200; Tatoeba,N/A,N/A,N/A,N/A,N/A
+Translation heb-eng,3,FLoRes-101; FLoRes-200; Tatoeba,N/A,N/A,N/A,N/A,N/A
+Translation hun-eng,3,FLoRes-101; FLoRes-200; Tatoeba,N/A,N/A,N/A,N/A,N/A
+Translation cat-fra,3,FLoRes-101; FLoRes-200; Tatoeba,N/A,N/A,N/A,N/A,N/A
+Translation glg-spa,3,FLoRes-101; FLoRes-200; Tatoeba,N/A,N/A,N/A,N/A,N/A
+Translation por-fra,3,TICO-19; FLoRes-200; Tatoeba,N/A,N/A,N/A,N/A,N/A
+Translation por-spa,3,TICO-19; FLoRes-200; Tatoeba,N/A,N/A,N/A,N/A,N/A
+Translation dan-spa,3,FLoRes-101; FLoRes-200; Tatoeba,N/A,N/A,N/A,N/A,N/A
+Translation ara-fra,3,TICO-19; FLoRes-101; Tatoeba,N/A,N/A,N/A,N/A,N/A
+Translation heb-fra,3,FLoRes-101; FLoRes-200; Tatoeba,N/A,N/A,N/A,N/A,N/A
+Translation heb-por,3,FLoRes-101; FLoRes-200; Tatoeba,N/A,N/A,N/A,N/A,N/A
+Translation afr-spa,3,FLoRes-101; FLoRes-200; Tatoeba,N/A,N/A,N/A,N/A,N/A
+Translation ceb-eng,3,FLoRes-101; FLoRes-200; Tatoeba,N/A,N/A,N/A,N/A,N/A
+Translation ces-spa,3,FLoRes-101; FLoRes-200; Tatoeba,N/A,N/A,N/A,N/A,N/A
+Translation hin-eng,3,FLoRes-101; FLoRes-200; Tatoeba,N/A,N/A,N/A,N/A,N/A
+Translation hun-deu,3,FLoRes-101; FLoRes-200; Tatoeba,N/A,N/A,N/A,N/A,N/A
+Translation hun-fra,3,FLoRes-101; FLoRes-200; Tatoeba,N/A,N/A,N/A,N/A,N/A
+Translation hun-por,3,FLoRes-101; FLoRes-200; Tatoeba,N/A,N/A,N/A,N/A,N/A
+Translation ind-deu,3,FLoRes-101; FLoRes-200; Tatoeba,N/A,N/A,N/A,N/A,N/A
+Translation ind-eng,3,TICO-19; FLoRes-200; Tatoeba,N/A,N/A,N/A,N/A,N/A
+Translation ind-fra,3,TICO-19; FLoRes-200; Tatoeba,N/A,N/A,N/A,N/A,N/A
+Translation mar-eng,3,TICO-19; FLoRes-200; Tatoeba,N/A,N/A,N/A,N/A,N/A
+Arabic Text Diacritization,3,CATT; WikiNews Dataset; Arabic Text Diacritization,CATT; Tashkeela,Diacritic Error Rate; DER(%); Word Error Rate (WER); WER (%),N/A,Speech; Natural Language Processing,Addition of diacritics for undiacritized arabic texts for words disambiguation.
+Font Generation,3,Book Cover Dataset; Dafonts Free; CCSE,N/A,N/A,N/A,N/A,N/A
+automatic-speech-translation,3,FLEURS; MediBeng; CoVoST,N/A,N/A,N/A,N/A,N/A
+coreference-resolution,3,OntoNotes 5.0; DaNE; WinoPron,N/A,N/A,N/A,N/A,N/A
+Contextual Embedding for Source Code,3,Spectre-v1; ETH Py150 Open; PyTorrent,N/A,N/A,N/A,Computer Code,N/A
+Document Embedding,3,DAPFAM; unarXive; French CASS dataset,N/A,N/A,N/A,N/A,N/A
+Short-Text Conversation,3,LCCC; VMD; ThreatGram 101 - Extreme Telegram Data,N/A,N/A,N/A,N/A,N/A
+Food recommendation,3,Water Footprint Recommender System Data; Oktoberfest Food Dataset; Indian Food Image Dataset,Oktoberfest Food Dataset,10 fold Cross validation,N/A,Miscellaneous,N/A
+Knowledge Base Population,3,Perlex; FarsBase-KBP; LM-KBC 2023,LM-KBC 2023,F1,N/A,Knowledge Base; Natural Language Processing,Knowledge base population is the task of filling the incomplete elements of a given knowledge base by automatically processing a large corpus of text.
+Zero-shot Slot Filling,3,MASSIVE; T-REx; KAMEL,N/A,N/A,N/A,N/A,N/A
+Session-Based Recommendations,3,OTTO Recommender Systems Dataset; Gowalla; Retailrocket,N/A,N/A,N/A,N/A,N/A
+Cross Document Coreference Resolution,3,CoreSearch; WEC-Eng; SciCo,N/A,N/A,N/A,N/A,N/A
+Intent Classification and Slot Filling,3,diaforge-utc-r-0725; ATIS (vi); MASSIVE,N/A,N/A,N/A,N/A,N/A
+Facial Makeup Transfer,3,BeautyFace; CPM-Synt-2; CPM-Synt-1,N/A,N/A,N/A,N/A,N/A
+Text to Speech,3,Gun Detection Dataset; ArVoice; OpenSLR,N/A,N/A,N/A,N/A,N/A
+Document Translation,3,IWSLT2015; CodeXGLUE; WMT 2020,N/A,N/A,N/A,N/A,N/A
+Long-Form Narrative Summarization,3,BookSum; MENSA; SummScreen,N/A,N/A,N/A,N/A,N/A
+Translation hin-fra,3,TICO-19; FLoRes-101; FLoRes-200,N/A,N/A,N/A,N/A,N/A
+Music Style Transfer,3,Niko Chord Progression Dataset; JS Fake Chorales; EMOPIA,N/A,N/A,N/A,N/A,N/A
+Probing Language Models,3,BEAR-probe; BioLAMA; KAMEL,KAMEL,Average F1,N/A,Natural Language Processing,N/A
+Word Similarity,3,WS353; Bangla Word Analogy; AnlamVer,WS353,Spearman's Rho,N/A,Natural Language Processing,Calculate a numerical score for the semantic similarity between two words.
+ContextNER,3,SourceData-NLP; The EMBO SourceData-NLP dataset; EDGAR10-Q Dataset,N/A,N/A,N/A,N/A,N/A
+Multi-modal Dialogue Generation,3,MMChat; OpenViDial 2.0; MMDialog,N/A,N/A,N/A,N/A,N/A
+Natural Language Queries,3,YouwikiHow; ViLCo; Ego4D,Ego4D,R@1 Mean(0.3 and 0.5); R@1 IoU=0.5; R@1 IoU=0.3; R@5 IoU=0.3; R@5 IoU=0.5,Text-to-CQL,Natural Language Processing,N/A
+Land Cover Classification,3,SPADA Dataset; CEMS-W; DeepGlobe,N/A,N/A,N/A,N/A,N/A
+Text-based de novo Molecule Generation,3,ChEBI-20; L+M-24; TOMG-Bench,ChEBI-20,Text2Mol; Parameter Count; BLEU; MACCS FTS; Morgan FTS; Exact Match; Frechet ChemNet Distance (FCD); RDK FTS; Levenshtein; Validity,N/A,Medical,"Text-based de novo molecule generation involves utilizing natural language processing (NLP) techniques and chemical information to generate entirely new molecular structures. In this approach, molecul..."
+Formal Logic,3,Mindgames; BIG-bench; probability_words_nli,N/A,N/A,N/A,N/A,N/A
+text similarity,3,DICE: a Dataset of Italian Crime Event news; Phrase-in-Context; PubMed Cognitive Control Abstracts,N/A,N/A,N/A,N/A,N/A
+Lemmatization,3,AMALGUM; GUM; Szeged Corpus,N/A,N/A,N/A,Natural Language Processing,**Lemmatization** is a process of determining a base or dictionary form (lemma) for a given surface form. Especially for languages with rich morphology it is important to be able to normalize words in...
+Word Translation,3,satp-zsm-stage2; Soundscape Attributes Translation Project (SATP) Dataset; satp-zsm-stage1,N/A,N/A,N/A,Natural Language Processing,N/A
+Data Summarization,3,PJM(AEP); M3LS; MentSum,N/A,N/A,N/A,Miscellaneous,"**Data Summarization** is a central problem in the area of machine learning, where we want to compute a small summary of the data.   <span class=""description-source"">Source: [How to Solve Fair k-Cente..."
+Text Pair Classification,3,CRED; DACCORD; MTEB,N/A,N/A,N/A,N/A,N/A
+Document Shadow Removal,3,Kligler; Jung; SD7K,N/A,N/A,N/A,N/A,N/A
+Sentence-Pair Classification,3,GQNLI-FR; RTE3-FR; DACCORD,N/A,N/A,N/A,Natural Language Processing,N/A
+Music Question Answering,3,MuChoMusic; MusicQA; MMVP,MusicQA,ROUGE; METEOR; BLEU; BERT Score,N/A,Music,N/A
+Commonsense Causal Reasoning,3,CausalChaos!; COLD: Causal Reasoning in Closed Daily Activities; This is not a Dataset,N/A,N/A,N/A,Natural Language Processing,"""Commonsense Causal Reasoning is the process of capturing and understanding the causal dependencies amongst events and actions."" Luo, Zhiyi, et al. ""Commonsense causal reasoning between short texts."" ..."
+knowledge editing,3,HalluEditBench; WikiFactDiff; KnowEdit,N/A,N/A,N/A,N/A,N/A
+Multi-modal Recommendation,3,Amazon Baby; Amazon Sports; Amazon Clothing,N/A,N/A,N/A,N/A,N/A
+TruthfulQA,3,GenAIPABench-Dataset; News; Knowledge,N/A,N/A,N/A,Knowledge Base,N/A
+Informal-to-formal Style Transfer,3,ProofNetVerif; RLM25; ProofNet#,N/A,N/A,N/A,N/A,N/A
+Facial Expression Translation,2,MH-FED; CelebA,N/A,N/A,N/A,N/A,N/A
+Point Cloud Generation,2,ShapeNet; JetClass,ShapeNet Chair; ShapeNet; ShapeNet Car; ShapeNet Airplane,1-NNA-EMD; MMD-CD; 1-NNA-CD; EMD; CD,Point Cloud Completion,Computer Vision,N/A
+NR-IQA,2,LIVE; UHD-IQA,N/A,N/A,N/A,N/A,N/A
+Zero-shot Relation Classification,2,Wiki-ZSL; FewRel,N/A,N/A,N/A,N/A,N/A
+Passage Re-Ranking,2,MS MARCO; mMARCO,TREC-PM; MS MARCO,mAP; MRR,N/A,Natural Language Processing,Passage re-ranking is the task of scoring and re-ranking a collection of retrieved documents based on an input query.
+Chinese Sentence Pair Classification,2,XNLI; LCQMC,N/A,N/A,N/A,N/A,N/A
+Cross-Lingual Natural Language Inference,2,XNLI; XGLUE,N/A,N/A,N/A,N/A,N/A
+Linear-Probe Classification,2,SentEval; ADNI,N/A,N/A,N/A,N/A,N/A
+Environment Sound Classification,2,UrbanSound8K; ESC-50,N/A,N/A,N/A,N/A,N/A
+Short Text Clustering,2,AG News; MNAD,N/A,N/A,N/A,N/A,N/A
+Semi-Supervised Text Classification,2,AG News; HeriGraph,N/A,N/A,N/A,N/A,N/A
+One-shot Unsupervised Domain Adaptation,2,SYNTHIA; GTA5,N/A,N/A,N/A,N/A,N/A
+Explainable Recommendation,2,Tripadvisor Restaurant Reviews; MovieLens,N/A,N/A,N/A,N/A,N/A
+Movie Recommendation,2,MovieLens; Genre2Movies,N/A,N/A,N/A,N/A,N/A
+Multi-label zero-shot learning,2,Open Images V4; NUS-WIDE,N/A,N/A,N/A,N/A,N/A
+CCG Supertagging,2,CCGbank; aethel,CCGbank,Accuracy,N/A,Natural Language Processing,"Combinatory Categorical Grammar (CCG; [Steedman, 2000](http://www.citeulike.org/group/14833/article/8971002)) is a  highly lexicalized formalism. The standard parsing model of [Clark and Curran (2007)..."
+Unconditional Molecule Generation,2,QM9; GEOM-DRUGS,QM9; GEOM-DRUGS,PoseBusters Atoms Connected; PoseBusters Internal Energy; Validity; PoseBusters Validity,N/A,Miscellaneous,"This task evaluates the ability of generative models to sample valid and realistic molecular structures.    The training dataset can be:  - QM9 (Wu et al., 2018) - consists of 130,000 stable small org..."
+Extended Summarization,2,Arxiv HEP-TH citation graph; Pubmed,N/A,N/A,N/A,N/A,N/A
+Open-Set Multi-Target Domain Adaptation,2,Office-Home; Office-31,N/A,N/A,N/A,N/A,N/A
+Few-Shot NLI,2,QNLI; SherLIiC,N/A,N/A,N/A,N/A,N/A
+Cross-Lingual Document Classification,2,MLDoc; RCV1,MLDoc Zero-Shot English-to-Japanese; MLDoc Zero-Shot German-to-French; MLDoc Zero-Shot English-to-Russian; MLDoc Zero-Shot English-to-French; MLDoc Zero-Shot English-to-Italian; MLDoc Zero-Shot English-to-Spanish; Reuters RCV1/RCV2 German-to-English; Reuters RCV1/RCV2 English-to-German; MLDoc Zero-Shot English-to-German; MLDoc Zero-Shot English-to-Chinese,Accuracy,News Classification,Natural Language Processing,"Cross-lingual document classification refers to the task of using data and models available for one language for which ample such resources are available (e.g., English) to solve classification tasks ..."
+Sentence Completion,2,HellaSwag; xP3,HellaSwag,Accuracy,Hurtful Sentence Completion,Natural Language Processing,N/A
+Zero-Shot Learning + Domain Generalization,2,Pano3D; DomainNet,N/A,N/A,N/A,N/A,N/A
+Cross-Lingual POS Tagging,2,Universal Dependencies; XGLUE,N/A,N/A,N/A,N/A,N/A
+Reasoning Chain Explanations,2,JustLogic; eQASC,N/A,N/A,N/A,N/A,N/A
+End-to-End RST Parsing,2,RRT; RST-DT,N/A,N/A,N/A,N/A,N/A
+Empathetic Response Generation,2,StickerConv; EmpatheticDialogues,N/A,N/A,N/A,N/A,N/A
+Translation fra-eng,2,Multi30K; Tatoeba,N/A,N/A,N/A,N/A,N/A
+Translation ces-fra,2,Multi30K; FLoRes-200,N/A,N/A,N/A,N/A,N/A
+Dialogue Rewriting,2,CANARD; FollowUp,CANARD; Rewrite; Multi-Rewrite,Rewriting F1; ROUGE-1; BLEU; ROUGE-2; BLEU-2; Rewriting F3; BLEU-1; Rewriting F2; ROUGE-L,N/A,Natural Language Processing,N/A
+domain classification,2,Dialogue State Tracking Challenge; MultiWOZ,N/A,N/A,N/A,N/A,N/A
+Fine-Grained Opinion Analysis,2,MPQA Opinion Corpus; STATE ToxiCN,N/A,N/A,N/A,N/A,N/A
+Cross-Lingual Sentiment Classification,2,MLDoc; MultiBooked,N/A,N/A,N/A,N/A,N/A
+Phrase Ranking,2,KP20k; KPTimes,KP20k; KPTimes,P@5K; P@50K,N/A,Natural Language Processing,This task aims to evaluate the “global” rank list of phrases that a method finds from the input corpus.
+Phrase Tagging,2,KP20k; KPTimes,KP20k; KPTimes,F1; Recall; Precision,N/A,Natural Language Processing,A fine-grained task that aims to find all occurrences of phrases in sentences.
+Zero-shot Audio Captioning,2,Clotho; AudioCaps,N/A,N/A,N/A,N/A,N/A
+Music Genre Classification,2,GTZAN; PIAST,N/A,N/A,N/A,N/A,N/A
+Cross-Lingual Paraphrase Identification,2,SV-Ident; PAWS-X,N/A,N/A,N/A,N/A,N/A
+Re-Ranking,2,SciDocs; AskUbuntu,N/A,N/A,N/A,N/A,N/A
+Natural Language Inference (Few-Shot),2,OCNLI; FLEURS,N/A,N/A,N/A,N/A,N/A
+Veracity Classification,2,PANACEA; Twitter Death Hoaxes,N/A,N/A,N/A,N/A,N/A
+Translation tur-eng,2,FLoRes-101; Tatoeba,N/A,N/A,N/A,N/A,N/A
+Translation deu-afr,2,FLoRes-101; Tatoeba,N/A,N/A,N/A,N/A,N/A
+Translation eng-afr,2,FLoRes-101; Tatoeba,N/A,N/A,N/A,N/A,N/A
+Translation eng-nld,2,FLoRes-101; Tatoeba,N/A,N/A,N/A,N/A,N/A
+Translation nld-eng,2,FLoRes-101; Tatoeba,N/A,N/A,N/A,N/A,N/A
+Translation rus-eng,2,FLoRes-200; Tatoeba,N/A,N/A,N/A,N/A,N/A
+Translation rus-deu,2,FLoRes-200; Tatoeba,N/A,N/A,N/A,N/A,N/A
+Translation rus-spa,2,FLoRes-200; Tatoeba,N/A,N/A,N/A,N/A,N/A
+Translation bel-spa,2,FLoRes-200; Tatoeba,N/A,N/A,N/A,N/A,N/A
+Translation eng-cat,2,FLoRes-101; Tatoeba,N/A,N/A,N/A,N/A,N/A
+Translation eng-tur,2,FLoRes-101; Tatoeba,N/A,N/A,N/A,N/A,N/A
+Translation bul-eng,2,FLoRes-200; Tatoeba,N/A,N/A,N/A,N/A,N/A
+Translation gle-eng,2,FLoRes-200; Tatoeba,N/A,N/A,N/A,N/A,N/A
+Translation ell-eng,2,FLoRes-200; Tatoeba,N/A,N/A,N/A,N/A,N/A
+Translation est-eng,2,FLoRes-200; Tatoeba,N/A,N/A,N/A,N/A,N/A
+Translation isl-eng,2,FLoRes-200; Tatoeba,N/A,N/A,N/A,N/A,N/A
+Translation fao-eng,2,FLoRes-200; Tatoeba,N/A,N/A,N/A,N/A,N/A
+Translation hrv-eng,2,FLoRes-200; Tatoeba,N/A,N/A,N/A,N/A,N/A
+Translation pol-eng,2,FLoRes-200; Tatoeba,N/A,N/A,N/A,N/A,N/A
+Translation kor-eng,2,FLoRes-101; Tatoeba,N/A,N/A,N/A,N/A,N/A
+Translation cat-por,2,FLoRes-200; Tatoeba,N/A,N/A,N/A,N/A,N/A
+Translation cat-spa,2,FLoRes-200; Tatoeba,N/A,N/A,N/A,N/A,N/A
+Translation fra-por,2,TICO-19; Tatoeba,N/A,N/A,N/A,N/A,N/A
+Translation fra-spa,2,FLoRes-101; Tatoeba,N/A,N/A,N/A,N/A,N/A
+Translation glg-por,2,FLoRes-200; Tatoeba,N/A,N/A,N/A,N/A,N/A
+Translation ita-por,2,FLoRes-200; Tatoeba,N/A,N/A,N/A,N/A,N/A
+Translation ita-spa,2,FLoRes-200; Tatoeba,N/A,N/A,N/A,N/A,N/A
+Translation ron-fra,2,FLoRes-200; Tatoeba,N/A,N/A,N/A,N/A,N/A
+Translation ron-spa,2,FLoRes-200; Tatoeba,N/A,N/A,N/A,N/A,N/A
+Translation bul-spa,2,FLoRes-200; Tatoeba,N/A,N/A,N/A,N/A,N/A
+Translation hrv-fra,2,FLoRes-200; Tatoeba,N/A,N/A,N/A,N/A,N/A
+Translation hrv-spa,2,FLoRes-200; Tatoeba,N/A,N/A,N/A,N/A,N/A
+Translation mkd-spa,2,FLoRes-200; Tatoeba,N/A,N/A,N/A,N/A,N/A
+Translation dan-fra,2,FLoRes-200; Tatoeba,N/A,N/A,N/A,N/A,N/A
+Translation isl-spa,2,FLoRes-200; Tatoeba,N/A,N/A,N/A,N/A,N/A
+Translation ara-spa,2,TICO-19; Tatoeba,N/A,N/A,N/A,N/A,N/A
+Translation bul-deu,2,FLoRes-200; Tatoeba,N/A,N/A,N/A,N/A,N/A
+Translation hrv-deu,2,FLoRes-200; Tatoeba,N/A,N/A,N/A,N/A,N/A
+Translation deu-spa,2,FLoRes-200; Tatoeba,N/A,N/A,N/A,N/A,N/A
+Translation heb-spa,2,FLoRes-200; Tatoeba,N/A,N/A,N/A,N/A,N/A
+Translation fas-fra,2,FLoRes-101; Tatoeba,N/A,N/A,N/A,N/A,N/A
+Translation dan-deu,2,FLoRes-200; Tatoeba,N/A,N/A,N/A,N/A,N/A
+Translation deu-por,2,FLoRes-200; Tatoeba,N/A,N/A,N/A,N/A,N/A
+Translation ell-deu,2,FLoRes-200; Tatoeba,N/A,N/A,N/A,N/A,N/A
+Translation ell-fra,2,FLoRes-200; Tatoeba,N/A,N/A,N/A,N/A,N/A
+Translation ell-por,2,FLoRes-200; Tatoeba,N/A,N/A,N/A,N/A,N/A
+Translation ell-spa,2,FLoRes-200; Tatoeba,N/A,N/A,N/A,N/A,N/A
+Translation epo-deu,2,FLoRes-200; Tatoeba,N/A,N/A,N/A,N/A,N/A
+Translation epo-eng,2,FLoRes-200; Tatoeba,N/A,N/A,N/A,N/A,N/A
+Translation epo-por,2,FLoRes-200; Tatoeba,N/A,N/A,N/A,N/A,N/A
+Translation epo-spa,2,FLoRes-200; Tatoeba,N/A,N/A,N/A,N/A,N/A
+Translation est-deu,2,FLoRes-200; Tatoeba,N/A,N/A,N/A,N/A,N/A
+Translation eus-deu,2,FLoRes-200; Tatoeba,N/A,N/A,N/A,N/A,N/A
+Translation hun-spa,2,FLoRes-101; Tatoeba,N/A,N/A,N/A,N/A,N/A
+Translation hye-eng,2,FLoRes-200; Tatoeba,N/A,N/A,N/A,N/A,N/A
+Translation ilo-eng,2,FLoRes-200; Tatoeba,N/A,N/A,N/A,N/A,N/A
+Translation isl-deu,2,FLoRes-200; Tatoeba,N/A,N/A,N/A,N/A,N/A
+Translation ita-deu,2,FLoRes-200; Tatoeba,N/A,N/A,N/A,N/A,N/A
+Translation jpn-eng,2,FLoRes-200; Tatoeba,N/A,N/A,N/A,N/A,N/A
+Translation jpn-por,2,FLoRes-200; Tatoeba,N/A,N/A,N/A,N/A,N/A
+Translation jpn-spa,2,FLoRes-200; Tatoeba,N/A,N/A,N/A,N/A,N/A
+Translation kat-eng,2,FLoRes-200; Tatoeba,N/A,N/A,N/A,N/A,N/A
+Translation mal-eng,2,FLoRes-200; Tatoeba,N/A,N/A,N/A,N/A,N/A
+Translation mlt-eng,2,FLoRes-200; Tatoeba,N/A,N/A,N/A,N/A,N/A
+Translation pes-eng,2,FLoRes-200; Tatoeba,N/A,N/A,N/A,N/A,N/A
+Translation pol-deu,2,FLoRes-200; Tatoeba,N/A,N/A,N/A,N/A,N/A
+Translation pol-fra,2,FLoRes-200; Tatoeba,N/A,N/A,N/A,N/A,N/A
+Translation pol-por,2,FLoRes-200; Tatoeba,N/A,N/A,N/A,N/A,N/A
+Translation pol-spa,2,FLoRes-200; Tatoeba,N/A,N/A,N/A,N/A,N/A
+Translation por-deu,2,FLoRes-200; Tatoeba,N/A,N/A,N/A,N/A,N/A
+Translation ron-deu,2,FLoRes-200; Tatoeba,N/A,N/A,N/A,N/A,N/A
+Translation ron-eng,2,FLoRes-200; Tatoeba,N/A,N/A,N/A,N/A,N/A
+Translation run-eng,2,FLoRes-200; Tatoeba,N/A,N/A,N/A,N/A,N/A
+Translation run-fra,2,FLoRes-200; Tatoeba,N/A,N/A,N/A,N/A,N/A
+Common Sense Reasoning (Zero-Shot),2,C3; This is not a Dataset,N/A,N/A,N/A,N/A,N/A
+Dialogue Management,2,DialoGLUE; SCOUT: The Situated Corpus of Understanding Transaction,N/A,N/A,N/A,N/A,N/A
+Knowledge Tracing,2,EdNet; DBE-KT22,EdNet; Assistments,Acc; AUC,N/A,Miscellaneous,**Knowledge Tracing** is the task of modelling student knowledge over time so that we can accurately predict how students will perform on future interactions. Improvement on this task means that resou...
+Paper generation (Conclusion-to-title),2,"PubMed Term, Abstract, Conclusion, Title Dataset; Elsevier OA CC-BY",N/A,N/A,N/A,N/A,N/A
+Headline Generation,2,YTSeg; Elsevier OA CC-BY,N/A,N/A,N/A,N/A,N/A
+Age Classification,2,TML1M; EMOTIC,N/A,N/A,N/A,N/A,N/A
+Physiological Computing,2,eSports Sensors Dataset; V4V,N/A,N/A,N/A,Medical; Computer Vision,**Physiological computing** is an interdisciplinary field that focuses on the development of computational systems and technologies that interact with and respond to the physiological signals of the h...
+English-Ukrainian Translation,2,FLoRes; FLoRes-101,N/A,N/A,N/A,N/A,N/A
+Context Query Reformulation,2,FollowUp; MuDoCo_QueryRewrite,N/A,N/A,N/A,Natural Language Processing,N/A
+Zero-Shot Region Description,2,RefCOCO; Google Refexp,N/A,N/A,N/A,N/A,N/A
+Extreme Multi-Label Classification,2,LSHTC; EXTREME CLASSIFICATION,N/A,N/A,N/A,Methodology,Extreme Multi-Label Classification is a supervised learning problem where an instance may be associated with multiple labels. The two main problems are the unbalanced labels in the dataset and the amo...
+Inference Attack,2,Synthetic Keystroke; MinneApple,N/A,N/A,N/A,Adversarial,N/A
+Native Language Identification,2,italki NLI; NLI-PT,N/A,N/A,N/A,N/A,N/A
+Adversarial Text,2,Texygen Platform; HarmfulTasks,N/A,N/A,N/A,Adversarial,"Adversarial Text refers to a specialised text sequence that is designed specifically to influence the prediction of a language model. Generally, Adversarial Text attack are carried out on Large Langua..."
+Vietnamese Machine Reading Comprehension,2,Belebele; UIT-ViQuAD,N/A,N/A,N/A,N/A,N/A
+Multi-modal Knowledge Graph,2,MMKG; VirtualHome2KG,N/A,N/A,N/A,Knowledge Base,"[Link to A Survey for Multi-modal Knowledge Graphs.](https://github.com/zjukg/KG-MM-Survey)  Papers integrating Knowledge Graphs (KGs) and Multi-Modal Learning, focusing on research in two principal a..."
+Claim Verification,2,FM2; Mocheg,N/A,N/A,N/A,N/A,N/A
+Caption Generation,2,L+M-24; Concadia,N/A,N/A,N/A,N/A,N/A
+Cancer type classification,2,TCGA; LeukemiaAttri,N/A,N/A,N/A,N/A,N/A
+Robot Manipulation Generalization,2,The COLOSSEUM; RLBench,N/A,N/A,N/A,N/A,N/A
+Cross-Lingual Entity Linking,2,XL-BEL; LEMONADE,N/A,N/A,Variable Disambiguation,Natural Language Processing,"Cross-lingual entity linking is the task of using data and models available for one language for which ample such resources are available (e.g., English) to solve entity linking tasks (i.e., assigning..."
+Embodied Question Answering,2,OpenEQA; EQA,N/A,N/A,N/A,N/A,N/A
+Translation bel-por,2,FLoRes-101; FLoRes-200,N/A,N/A,N/A,N/A,N/A
+Translation afr-fra,2,FLoRes-101; FLoRes-200,N/A,N/A,N/A,N/A,N/A
+Translation afr-por,2,FLoRes-101; FLoRes-200,N/A,N/A,N/A,N/A,N/A
+Translation amh-eng,2,FLoRes-101; FLoRes-200,N/A,N/A,N/A,N/A,N/A
+Translation ben-deu,2,FLoRes-101; FLoRes-200,N/A,N/A,N/A,N/A,N/A
+Translation ceb-deu,2,FLoRes-101; FLoRes-200,N/A,N/A,N/A,N/A,N/A
+Translation ceb-fra,2,FLoRes-101; FLoRes-200,N/A,N/A,N/A,N/A,N/A
+Translation ceb-por,2,FLoRes-101; FLoRes-200,N/A,N/A,N/A,N/A,N/A
+Translation cym-por,2,FLoRes-101; FLoRes-200,N/A,N/A,N/A,N/A,N/A
+Translation cym-spa,2,FLoRes-101; FLoRes-200,N/A,N/A,N/A,N/A,N/A
+Translation est-por,2,FLoRes-101; FLoRes-200,N/A,N/A,N/A,N/A,N/A
+Translation gle-spa,2,FLoRes-101; FLoRes-200,N/A,N/A,N/A,N/A,N/A
+Translation hau-eng,2,FLoRes-101; FLoRes-200,N/A,N/A,N/A,N/A,N/A
+Translation hye-deu,2,FLoRes-101; FLoRes-200,N/A,N/A,N/A,N/A,N/A
+Core Psychological Reasoning,2,Machine_Mindset_MBTI_dataset; AGENT,N/A,N/A,N/A,N/A,N/A
+Logical Reasoning Reading Comprehension,2,JustLogic; RWSD,N/A,N/A,N/A,Natural Language Processing,"Logical reasoning reading comprehension is a task proposed by the paper ReClor (ICLR 2020),  which is to evaluate the logical reasoning ability of machine reading comprehension models. ReClor is the f..."
+NLP based Person Retrival,2,ICFG-PEDES; Customer Support on Twitter,N/A,N/A,Decoder,Time Series; Natural Language Processing,N/A
+Sentence ReWriting,2,PoliteRewrite; MuDoCo_QueryRewrite,N/A,N/A,N/A,N/A,N/A
+Multilingual text classification,2,MultiEURLEX; Belebele,N/A,N/A,N/A,Miscellaneous,N/A
+Knowledge Base Completion,2,ZeroKBC; Aristo-v4,N/A,N/A,N/A,N/A,N/A
+Code Comment Generation,2,notebookcdg; PyTorrent,DeepCom,Smoothed BLEU-4,N/A,Computer Code,N/A
+General Knowledge,2,BEAR-probe; BIG-bench,BIG-bench,Accuracy,Natural Questions; Similarities Abstraction; Movie Recommendation; Global Facts; Miscellaneous,Miscellaneous,This task aims to evaluate the ability of a model to answer general-knowledge questions.    Source: [BIG-bench](https://github.com/google/BIG-bench/tree/main/bigbench/benchmark_tasks/general_knowledge...
+Logical Fallacies,2,JustLogic; BIG-bench,BIG-bench,Accuracy ,N/A,Miscellaneous,N/A
+Implicit Discourse Relation Classification,2,Dissonance Twitter Dataset; DISRPT2021,N/A,N/A,N/A,N/A,N/A
+single catogory classification,2,Adult; CVR,N/A,N/A,N/A,N/A,N/A
+Behavioral Malware Classification,2,AutoRobust; BODMAS,N/A,N/A,N/A,N/A,N/A
+Job classification,2,Kompetencer; Twitter job title prediction,N/A,N/A,N/A,Natural Language Processing,N/A
+Vocal technique classification,2,VocalSet; GTSinger,N/A,N/A,N/A,N/A,N/A
+Sentence Ordering,2,EconLogicQA; OrdinalDataset,EconLogicQA,Accuracy,N/A,Natural Language Processing,Sentence ordering task deals with finding the correct order of sentences given a randomly ordered paragraph.
+Multilingual Machine Comprehension in English Hindi,2,Belebele; Visiting Card | ID Card Images | Hindi-English,Extended XQuAD,F1(QH-PE); EM(QE-PH); EM(QE-PE); EM(QH-PE); EM(QH-PH); F1 (QE-PH); F1 (QE-PE); F1(QH-PH),N/A,Natural Language Processing,"Multilingual Machine Comprehension (MMC) is a Question-Answering (QA) sub-task that involves quoting the answer for a question from a given snippet, where the question and the snippet can be in differ..."
+Point Cloud Classification,2,JetClass; PointCloud-C,ISPRS; PointCloud-C,mean Corruption Error (mCE); Average F1,Jet Tagging; Few-Shot Point Cloud Classification,Computer Vision; Graphs,Point Cloud Classification is a task involving the classification of unordered 3D point sets (point clouds).
+Text based Person Search,2,RSTPReid; TVPReid,N/A,N/A,N/A,N/A,N/A
+Translation rus-fra,2,TICO-19; FLoRes-200,N/A,N/A,N/A,N/A,N/A
+Translation ben-fra,2,TICO-19; FLoRes-200,N/A,N/A,N/A,N/A,N/A
+Translation ben-por,2,TICO-19; FLoRes-200,N/A,N/A,N/A,N/A,N/A
+Translation ben-spa,2,TICO-19; FLoRes-200,N/A,N/A,N/A,N/A,N/A
+Translation hau-fra,2,TICO-19; FLoRes-200,N/A,N/A,N/A,N/A,N/A
+Translation hin-por,2,TICO-19; FLoRes-200,N/A,N/A,N/A,N/A,N/A
+Translation hin-spa,2,TICO-19; FLoRes-200,N/A,N/A,N/A,N/A,N/A
+Translation ind-spa,2,TICO-19; FLoRes-200,N/A,N/A,N/A,N/A,N/A
+Translation mar-fra,2,TICO-19; FLoRes-200,N/A,N/A,N/A,N/A,N/A
+Translation mar-por,2,TICO-19; FLoRes-200,N/A,N/A,N/A,N/A,N/A
+Translation mar-spa,2,TICO-19; FLoRes-200,N/A,N/A,N/A,N/A,N/A
+Translation por-eng,2,TICO-19; FLoRes-200,N/A,N/A,N/A,N/A,N/A
+Translation prs-eng,2,TICO-19; FLoRes-200,N/A,N/A,N/A,N/A,N/A
+Translation prs-fra,2,TICO-19; FLoRes-200,N/A,N/A,N/A,N/A,N/A
+Translation prs-por,2,TICO-19; FLoRes-200,N/A,N/A,N/A,N/A,N/A
+Translation prs-spa,2,TICO-19; FLoRes-200,N/A,N/A,N/A,N/A,N/A
+Lung Sound Classification,2,Chest wall lung sound dataset; ICBHI Respiratory Sound Database,ICBHI Respiratory Sound Database,Accurcay ,N/A,Audio,ICBHI-2017 dataset based lung sound classification
+Cancer-no cancer per breast classification,2,InBreast; CBIS-DDSM,N/A,N/A,N/A,N/A,N/A
+Document-level RE with incomplete labeling,2,ChemDisGene; Re-DocRED,N/A,N/A,N/A,N/A,N/A
+Generalized Few-Shot Classification,2,Geoclidean-Constraints; FGSCM-52,N/A,N/A,Long-tail Learning,Methodology,N/A
+Zero-Shot Machine Translation,2,GATITOS; Multi Lingual Bug Reports,N/A,N/A,N/A,Natural Language Processing,Translate text or speech from one language to another without supervision.
+Conversational Search,2,BeNYfits; ICConv,N/A,N/A,N/A,Natural Language Processing,N/A
+Genome Understanding,2,GUE; GenoAdv,N/A,N/A,N/A,Medical,N/A
+Library-Oriented Code Generation,2,CodeGen4Libs Dataset; RES-Q,N/A,N/A,N/A,N/A,N/A
+document understanding,2,PDFVQA; U-DIADS-Bib,N/A,N/A,Line Items Extraction,Computer Vision; Natural Language Processing,"Document understanding involves document classification, layout analysis, information extraction, and DocQA."
+Sound Classification,2,InfantMarmosetsVox; Audio de mosquitos Aedes Aegypti,N/A,N/A,N/A,Audio,N/A
+Atomic number classification,2,CHILI-3K; CHILI-100K,CHILI-3K; CHILI-100K,F1-score (Weighted),N/A,Graphs,Predict the atomic number of a node in a molecular/material/nanomaterial graph
+Crystal system classification,2,CHILI-3K; CHILI-100K,N/A,N/A,N/A,N/A,N/A
+Space group classification,2,CHILI-3K; CHILI-100K,N/A,N/A,N/A,N/A,N/A
+Distance regression,2,CHILI-3K; CHILI-100K,CHILI-3K; CHILI-100K,MSE ,N/A,Graphs,Prediction of the distance between connected nodes in molecular/material/nanomaterial graphs.
+World Knowledge,2,BEAR-probe; MM-Eval,N/A,N/A,N/A,N/A,N/A
+Keyphrase Generation,2,Keyphrases CS&Math Russian; EUROPA,N/A,N/A,N/A,N/A,N/A
+Persian Sentiment Analysis,2,Persian NLP Hub; Perfume Co-Preference Network,N/A,N/A,Transition-Based Dependency Parsing,Natural Language Processing,Persian Sentiment analysis is the task of classifying the polarity of a given text.
+Open-Ended Question Answering,2,WorldCuisines; SF20K,N/A,N/A,N/A,N/A,N/A
+text-to-Cypher,2,CypherBench; SpCQL,N/A,N/A,N/A,N/A,N/A
+Zero-Shot Multi-Speaker TTS,2,Emilia Dataset; ArVoice,N/A,N/A,N/A,N/A,N/A
+POS Tagging,2,WSJ POS; Twitter POS,WSJ POS; Twitter POS,Accuracy,N/A,Natural Language Processing,Part of Speech Tagging
+Patent classification,2,DAPFAM; IMPACT Patent,N/A,N/A,N/A,N/A,N/A
+Drug ATC Classification,2,ATC-SMILES; ATC-GRAPH,ATC-SMILES; ATC-GRAPH,Aiming; Coverage; Accuracy; Absolute False; Absolute True,N/A,Medical,Identification of compounds into the anatomical therapeutic chemical (ATC) system is crucial for drug development and basic research. It has been researched for over a decade since its initial proposa...
+2-task Classification,2,[[full-refund]]How do I get a full refund from Expedia?; TeleSim,N/A,N/A,Topological Data Analysis,Methodology,N/A
+Continuously Indexed Domain Adaptation,1,MNIST,N/A,N/A,N/A,N/A,N/A
+candy animation generation,1,MNIST,N/A,N/A,N/A,N/A,N/A
+text-to-speech,1,MNIST,N/A,N/A,N/A,N/A,N/A
+Unsupervised Dependency Parsing,1,Penn Treebank,N/A,N/A,N/A,N/A,N/A
+SQL-to-Text,1,WikiSQL,WikiSQL,BLEU-4,N/A,Computer Code,"<span style=""color:grey; opacity: 0.6"">( Image credit: [SQL-to-Text Generation with Graph-to-Sequence Model](https://arxiv.org/pdf/1809.05255v2.pdf) )</span>"
+Sql Chatbots,1,WikiSQL,N/A,N/A,N/A,Computer Code,N/A
+Error Understanding,1,CUB-200-2011,CUB-200-2011; CUB-200-2011 (ResNet-101),Insertion AUC score; Insertion AUC score (EfficientNetV2-M); Insertion AUC score (ResNet-101); Average highest confidence (MobileNetV2); Insertion AUC score (MobileNetV2); Average highest confidence (EfficientNetV2-M); Average highest confidence (ResNet-101); Average highest confidence,N/A,Reasoning,Discover what causes the model’s prediction errors.
+TREC 2019 Passage Ranking,1,MS MARCO,N/A,N/A,N/A,N/A,N/A
+Passage Ranking,1,MS MARCO,MS MARCO,MRR@10,N/A,Natural Language Processing,N/A
+Temporal Sentence Grounding,1,Charades-STA,Ego4D-Goalstep; Charades-STA,"R@1,IoU=0.3; R@5,IoU=0.3; R1@0.5; R@1,IoU=0.5; R5@0.5; R1@0.7; R@5,IoU=0.5; R5@0.7",N/A,Computer Vision,"Temporal sentence grounding (TSG) aims to locate a specific moment from an untrimmed video with a given natural language query. For this task, different levels of supervision are used. 1) Weak supervi..."
+Self-Supervised Audio Classification,1,ESC-50,N/A,N/A,N/A,N/A,N/A
+Zero-Shot Environment Sound Classification,1,ESC-50,N/A,N/A,N/A,N/A,N/A
+Paraphrase Identification within Bi-Encoder,1,Quora Question Pairs,N/A,N/A,N/A,N/A,N/A
+Cross-Domain Document Classification,1,Yelp,N/A,N/A,N/A,N/A,N/A
+Multi-Media Recommendation,1,MovieLens,N/A,N/A,N/A,N/A,N/A
+Recommendation Systems (Item cold-start),1,MovieLens,N/A,N/A,N/A,N/A,N/A
+Sparse Representation-based Classification,1,SVHN,N/A,N/A,N/A,N/A,N/A
+Concept-To-Text Generation,1,COCO Captions,N/A,N/A,N/A,N/A,N/A
+Few-shot Age Estimation,1,MORPH,N/A,N/A,N/A,N/A,N/A
+Unsupervised Domain Adaptationn,1,Office-31,N/A,N/A,N/A,N/A,N/A
+cross-domain few-shot learning,1,Office-Home,N/A,N/A,N/A,N/A,N/A
+KB-to-Language Generation,1,Wikipedia Person and Animal Dataset,N/A,N/A,N/A,N/A,N/A
+Memex Question Answering,1,MemexQA,MemexQA,Accuracy,N/A,Natural Language Processing,"Question answering with real-world multi-modal personal collections, e.g., photo albums with visual, text, time and location information."
+Single-Source Domain Generalization,1,PACS,PACS; Digits-five,Accuracy,Photo to Rest Generalization,Computer Vision,In this task a model is trained in a single source domain and then it is tested in a number of target domains
+Thoracic Disease Classification,1,ChestX-ray14,N/A,N/A,N/A,N/A,N/A
+Pulmonary Artery–Vein Classification,1,SunYs,N/A,N/A,N/A,N/A,N/A
+Lung Nodule Classification,1,LIDC-IDRI,LIDC-IDRI,Accuracy(10-fold); Precision; F1 Score; Recall/ Sensitivity; Accuracy; Acc; AUC,Lung Nodule 3D Classification,Medical; Computer Vision,N/A
+Question Similarity,1,LCQMC,Q2Q Arabic Benchmark,F1 score,Medical question pair similarity computation,Natural Language Processing,"This is the problem of detecting duplicate questions in forums, which is an important step towards automating the process of answering new questions"
+Chinese Document Classification,1,THUCNews,N/A,N/A,N/A,N/A,N/A
+Formality Style Transfer,1,GYAFC,N/A,N/A,N/A,N/A,N/A
+Graph Ranking,1,ZINC,ogbg-molfreesolv; ogbg-mollipo; ZINC; ogbg-molesol,Kendall's Tau,N/A,Graphs,N/A
+Sentence Similarity,1,BIOSSES,N/A,N/A,N/A,N/A,N/A
+LWR Classification,1,PhyAAt,N/A,N/A,N/A,N/A,N/A
+Pill Classification (Both Sides),1,ePillID,N/A,N/A,N/A,N/A,N/A
+Cross-lingual zero-shot dependency parsing,1,Universal Dependencies,N/A,N/A,N/A,N/A,N/A
+Translation fra-deu,1,Multi30K,N/A,N/A,N/A,N/A,N/A
+Entity Cross-Document Coreference Resolution,1,ECB+,N/A,N/A,N/A,N/A,N/A
+Document Dating,1,New York Times Annotated Corpus,N/A,N/A,N/A,N/A,N/A
+Mitigating Contextual Bias,1,FGVC-Aircraft,N/A,N/A,N/A,N/A,N/A
+Semi-supervised Domain Adaptation,1,VisDA-2017,N/A,N/A,N/A,N/A,N/A
+Cross-Document Language Modeling,1,Multi-News,N/A,N/A,N/A,N/A,N/A
+Cross-Lingual Bitext Mining,1,BUCC,BUCC Russian-to-English; BUCC French-to-English; BUCC Chinese-to-English; BUCC German-to-English,F1 score,N/A,Natural Language Processing,Cross-lingual bitext mining is the task of mining sentence pairs that are translations of each other from large text corpora.
+Graph Question Answering,1,GQA,GQA,Accuracy,N/A,Graphs,N/A
+Pitch Classification,1,NSynth,N/A,N/A,N/A,N/A,N/A
+Cross-Lingual ASR,1,Common Voice,N/A,N/A,N/A,N/A,N/A
+Speech-to-Text,1,Common Voice,N/A,N/A,N/A,N/A,N/A
+UCCA Parsing,1,CoNLL,N/A,N/A,N/A,N/A,N/A
+Open Knowledge Graph Embedding,1,OLPBENCH,N/A,N/A,N/A,N/A,N/A
+Legal Document Summarization,1,BillSum,N/A,N/A,N/A,N/A,N/A
+Unsupervised Text Summarization,1,CORD-19,N/A,N/A,N/A,N/A,N/A
+Text Infilling,1,WIQA,N/A,N/A,N/A,N/A,N/A
+Procedural Text Understanding,1,ProPara,N/A,N/A,N/A,N/A,N/A
+Natural Language Inference (Zero-Shot),1,OCNLI,N/A,N/A,N/A,N/A,N/A
+Natural Language Inference (One-Shot),1,OCNLI,N/A,N/A,N/A,N/A,N/A
+Translation afr-nld,1,Tatoeba,N/A,N/A,N/A,N/A,N/A
+Translation deu-nld,1,Tatoeba,N/A,N/A,N/A,N/A,N/A
+Translation ltz-deu,1,Tatoeba,N/A,N/A,N/A,N/A,N/A
+Translation ltz-eng,1,Tatoeba,N/A,N/A,N/A,N/A,N/A
+Translation ltz-nld,1,Tatoeba,N/A,N/A,N/A,N/A,N/A
+Translation nld-afr,1,Tatoeba,N/A,N/A,N/A,N/A,N/A
+Translation nld-deu,1,Tatoeba,N/A,N/A,N/A,N/A,N/A
+Translation fry-eng,1,Tatoeba,N/A,N/A,N/A,N/A,N/A
+Translation fry-nld,1,Tatoeba,N/A,N/A,N/A,N/A,N/A
+Translation hrx-deu,1,Tatoeba,N/A,N/A,N/A,N/A,N/A
+Translation hrx-eng,1,Tatoeba,N/A,N/A,N/A,N/A,N/A
+Translation nds-deu,1,Tatoeba,N/A,N/A,N/A,N/A,N/A
+Translation nds-eng,1,Tatoeba,N/A,N/A,N/A,N/A,N/A
+Translation nds-nld,1,Tatoeba,N/A,N/A,N/A,N/A,N/A
+Translation nld-fry,1,Tatoeba,N/A,N/A,N/A,N/A,N/A
+Translation nld-nds,1,Tatoeba,N/A,N/A,N/A,N/A,N/A
+Translation gos-deu,1,Tatoeba,N/A,N/A,N/A,N/A,N/A
+Translation gos-eng,1,Tatoeba,N/A,N/A,N/A,N/A,N/A
+Translation bel-deu,1,Tatoeba,N/A,N/A,N/A,N/A,N/A
+Translation bel-fra,1,Tatoeba,N/A,N/A,N/A,N/A,N/A
+Translation bos_Latn-eng,1,Tatoeba,N/A,N/A,N/A,N/A,N/A
+Translation hbs-eng,1,Tatoeba,N/A,N/A,N/A,N/A,N/A
+Translation lav-eng,1,Tatoeba,N/A,N/A,N/A,N/A,N/A
+Translation slv-eng,1,Tatoeba,N/A,N/A,N/A,N/A,N/A
+Translation oci-fra,1,Tatoeba,N/A,N/A,N/A,N/A,N/A
+Translation bul-fra,1,Tatoeba,N/A,N/A,N/A,N/A,N/A
+Translation slv-fra,1,Tatoeba,N/A,N/A,N/A,N/A,N/A
+Translation hbs-fra,1,Tatoeba,N/A,N/A,N/A,N/A,N/A
+Translation hbs-spa,1,Tatoeba,N/A,N/A,N/A,N/A,N/A
+Translation slv-deu,1,Tatoeba,N/A,N/A,N/A,N/A,N/A
+Translation hbs-deu,1,Tatoeba,N/A,N/A,N/A,N/A,N/A
+Translation eus-spa,1,Tatoeba,N/A,N/A,N/A,N/A,N/A
+Translation deu-deu,1,Tatoeba,N/A,N/A,N/A,N/A,N/A
+Translation eng-eng,1,Tatoeba,N/A,N/A,N/A,N/A,N/A
+Translation awa-eng,1,Tatoeba,N/A,N/A,N/A,N/A,N/A
+Translation epo-fra,1,Tatoeba,N/A,N/A,N/A,N/A,N/A
+Translation jpn-fra,1,Tatoeba,N/A,N/A,N/A,N/A,N/A
+Translation kaz-eng,1,Tatoeba,N/A,N/A,N/A,N/A,N/A
+Translation fas-deu,1,Tatoeba,N/A,N/A,N/A,N/A,N/A
+Translation msa-deu,1,Tatoeba,N/A,N/A,N/A,N/A,N/A
+Translation msa-eng,1,Tatoeba,N/A,N/A,N/A,N/A,N/A
+Translation ara-deu,1,Tatoeba,N/A,N/A,N/A,N/A,N/A
+Translation cmn_Hans-eng,1,Tatoeba,N/A,N/A,N/A,N/A,N/A
+Translation cmn_Hans-fra,1,Tatoeba,N/A,N/A,N/A,N/A,N/A
+Translation cmn_Hans-por,1,Tatoeba,N/A,N/A,N/A,N/A,N/A
+Translation cmn_Hans-spa,1,Tatoeba,N/A,N/A,N/A,N/A,N/A
+Translation cmn_Hant-eng,1,Tatoeba,N/A,N/A,N/A,N/A,N/A
+Translation cmn_Hant-fra,1,Tatoeba,N/A,N/A,N/A,N/A,N/A
+Translation cmn_Hant-por,1,Tatoeba,N/A,N/A,N/A,N/A,N/A
+Translation cmn_Hant-spa,1,Tatoeba,N/A,N/A,N/A,N/A,N/A
+Translation dsb-deu,1,Tatoeba,N/A,N/A,N/A,N/A,N/A
+Translation hsb-deu,1,Tatoeba,N/A,N/A,N/A,N/A,N/A
+Translation ido_Latn-eng,1,Tatoeba,N/A,N/A,N/A,N/A,N/A
+Translation kaz_Cyrl-eng,1,Tatoeba,N/A,N/A,N/A,N/A,N/A
+Translation lfn_Latn-deu,1,Tatoeba,N/A,N/A,N/A,N/A,N/A
+Translation lfn_Latn-eng,1,Tatoeba,N/A,N/A,N/A,N/A,N/A
+Translation lfn_Latn-por,1,Tatoeba,N/A,N/A,N/A,N/A,N/A
+Translation nor-deu,1,Tatoeba,N/A,N/A,N/A,N/A,N/A
+Translation por-por,1,Tatoeba,N/A,N/A,N/A,N/A,N/A
+Micro-expression Generation,1,CASME II,N/A,N/A,Micro-expression Generation (MEGC2021),Computer Vision,N/A
+Wildly Unsupervised Domain Adaptation,1,Amazon Product Data,N/A,N/A,N/A,N/A,N/A
+Common Sense Reasoning (Few-Shot),1,C3,N/A,N/A,N/A,N/A,N/A
+Common Sense Reasoning (One-Shot),1,C3,N/A,N/A,N/A,N/A,N/A
+multi-word expression embedding,1,COS960,N/A,N/A,N/A,Natural Language Processing,Learn embeddings for multi-word expressions
+Multi Class Text Classification,1,CARER,N/A,N/A,N/A,N/A,N/A
+Coherence Evaluation,1,GCDC,N/A,N/A,N/A,N/A,N/A
+Controllable Grasp Generation,1,GRAB,N/A,N/A,N/A,N/A,N/A
+Conversation Disentanglement,1,irc-disentanglement,N/A,N/A,N/A,N/A,N/A
+Traffic Classification,1,LEAF Benchmark,N/A,N/A,N/A,Miscellaneous,"**Traffic Classification** is a task of categorizing traffic flows into application-aware classes such as chats, streaming, VoIP, etc. Classification can be used for several purposes including policy ..."
+Fashion Understanding,1,ModaNet,ModaNet Dev,AP (Detection),Semi-Supervised Fashion Compatibility,Computer Vision,N/A
+Complex Word Identification,1,MWE-CWI,N/A,N/A,N/A,Natural Language Processing,Identifying difficult words or expressions in a text.
+Audio Question Answering,1,RoadTracer,N/A,N/A,N/A,N/A,N/A
+Point cloud classification dataset,1,RobustPointSet,N/A,N/A,N/A,Computer Vision,N/A
+dialogue summary,1,SAMSum,N/A,N/A,N/A,N/A,N/A
+Chinese Landscape Painting Generation,1,Traditional Chinese Landscape Painting Dataset,N/A,N/A,N/A,N/A,N/A
+Text Complexity Assessment (GermEval 2022),1,TextComplexityDE,TextComplexityDE,RMSE,N/A,N/A,The tasks is to predict the complexity of pieces of text for a German learner in a range from 1 to 7.
+Lip password classification,1,MIRACL-VC1,N/A,N/A,N/A,N/A,N/A
+Open Knowledge Graph Canonicalization,1,ReVerb45K,N/A,N/A,N/A,N/A,N/A
+Component Classification,1,CDCP,N/A,N/A,N/A,N/A,N/A
+Poem meters classification,1,PCD,PCD,Accuracy,N/A,Natural Language Processing,N/A
+Multi-Domain Sentiment Classification,1,RETWEET,N/A,N/A,N/A,N/A,N/A
+Tweet-Reply Sentiment Analysis,1,RETWEET,N/A,N/A,N/A,N/A,N/A
+Word-level pronunciation scoring,1,speechocean762,N/A,N/A,N/A,N/A,N/A
+Zero Shot on BEIR (Inference Free Model),1,BEIR,N/A,N/A,N/A,N/A,N/A
+EEG Signal Classification,1,Gun Detection Dataset,N/A,N/A,N/A,N/A,N/A
+Keyword Spotting CSS,1,FKD,N/A,N/A,N/A,N/A,N/A
+Scale Generalisation,1,MNIST Large Scale dataset,N/A,N/A,N/A,N/A,N/A
+Morphological Disambiguation,1,NEMO-Corpus,N/A,N/A,N/A,Natural Language Processing,N/A
+Translation oci-eng,1,FLoRes-101,N/A,N/A,N/A,N/A,N/A
+Translation eng-oci,1,FLoRes-101,N/A,N/A,N/A,N/A,N/A
+Translation eng-ell,1,FLoRes-101,N/A,N/A,N/A,N/A,N/A
+Translation bul-por,1,FLoRes-101,N/A,N/A,N/A,N/A,N/A
+Translation dan-por,1,FLoRes-101,N/A,N/A,N/A,N/A,N/A
+Translation fas-spa,1,FLoRes-101,N/A,N/A,N/A,N/A,N/A
+Translation cym-fra,1,FLoRes-101,N/A,N/A,N/A,N/A,N/A
+Translation zho-eng,1,FLoRes-101,N/A,N/A,N/A,N/A,N/A
+IFC Entity Classification,1,IFCNet,IFCNetCore,F1 Score; Balanced Accuracy,N/A,Computer Vision,N/A
+Handwritten Word Generation,1,HKR,N/A,N/A,N/A,N/A,N/A
+Multimodal Lexical Translation,1,MultiSubs,N/A,N/A,N/A,N/A,N/A
+TFLM sequence generation,1,TLFM dataset,N/A,N/A,N/A,N/A,N/A
+Heartbeat Classification,1,MIT-BIH Arrhythmia Database,N/A,N/A,N/A,N/A,N/A
+Email Thread Summarization,1,EmailSum,N/A,N/A,N/A,N/A,N/A
+Document AI,1,EPHOIE,EPHOIE,Average F1,document understanding,Computer Vision; Natural Language Processing,N/A
+Compositional Generalization (AVG),1,ReaSCAN,N/A,N/A,N/A,N/A,N/A
+Czech Text Diacritization,1,Multilingual Dataset for Training and Evaluating Diacritics Restoration Systems,Multilingual Dataset for Training and Evaluating Diacritics Restoration Systems,Alpha-Word accuracy,N/A,Natural Language Processing,Addition of diacritics for undiacritized Czech Wikipedia texts.
+Vietnamese Text Diacritization,1,Multilingual Dataset for Training and Evaluating Diacritics Restoration Systems,Multilingual Dataset for Training and Evaluating Diacritics Restoration Systems,Alpha-Word accuracy,N/A,Natural Language Processing,Addition of diacritics for undiacritized Vietnamese Wikipedia texts.
+Romanian Text Diacritization,1,Multilingual Dataset for Training and Evaluating Diacritics Restoration Systems,Multilingual Dataset for Training and Evaluating Diacritics Restoration Systems,Alpha-Word accuracy,N/A,Natural Language Processing,Addition of diacritics for undiacritized Romanian Wikipedia texts.
+Slovak Text Diacritization,1,Multilingual Dataset for Training and Evaluating Diacritics Restoration Systems,Multilingual Dataset for Training and Evaluating Diacritics Restoration Systems,Alpha-Word accuracy,N/A,Natural Language Processing,Addition of diacritics for undiacritized Slovak Wikipedia texts.
+Latvian Text Diacritization,1,Multilingual Dataset for Training and Evaluating Diacritics Restoration Systems,Multilingual Dataset for Training and Evaluating Diacritics Restoration Systems,Alpha-Word accuracy,N/A,Natural Language Processing,Addition of diacritics for undiacritized Latvian Wikipedia texts.
+Polish Text Diacritization,1,Multilingual Dataset for Training and Evaluating Diacritics Restoration Systems,Multilingual Dataset for Training and Evaluating Diacritics Restoration Systems,Alpha-Word accuracy,N/A,N/A,Addition of diacritics for undiacritized Polish Wikipedia texts.
+Irish Text Diacritization,1,Multilingual Dataset for Training and Evaluating Diacritics Restoration Systems,Multilingual Dataset for Training and Evaluating Diacritics Restoration Systems,Alpha-Word accuracy,N/A,Natural Language Processing,Addition of diacritics for undiacritized Irish Wikipedia texts.
+Hungarian Text Diacritization,1,Multilingual Dataset for Training and Evaluating Diacritics Restoration Systems,Multilingual Dataset for Training and Evaluating Diacritics Restoration Systems,Alpha-Word accuracy,N/A,Natural Language Processing,Addition of diacritics for undiacritized Hungarian Wikipedia texts.
+French Text Diacritization,1,Multilingual Dataset for Training and Evaluating Diacritics Restoration Systems,Multilingual Dataset for Training and Evaluating Diacritics Restoration Systems,Alpha-Word accuracy,N/A,Natural Language Processing,Addition of diacritics for undiacritized French Wikipedia texts.
+Turkish Text Diacritization,1,Multilingual Dataset for Training and Evaluating Diacritics Restoration Systems,Multilingual Dataset for Training and Evaluating Diacritics Restoration Systems,Alpha-Word accuracy,N/A,Natural Language Processing,Addition of diacritics for undiacritized Turkish Wikipedia texts.
+Spanish Text Diacritization,1,Multilingual Dataset for Training and Evaluating Diacritics Restoration Systems,Multilingual Dataset for Training and Evaluating Diacritics Restoration Systems,Alpha-Word accuracy,N/A,Natural Language Processing,Addition of diacritics for undiacritized Spanish Wikipedia texts.
+Croatian Text Diacritization,1,Multilingual Dataset for Training and Evaluating Diacritics Restoration Systems,Multilingual Dataset for Training and Evaluating Diacritics Restoration Systems,Alpha-Word accuracy,N/A,Natural Language Processing,Addition of diacritics for undiacritized Croatian Wikipedia texts.
+CodeSearchNet - Java,1,PyTorrent,N/A,N/A,N/A,N/A,N/A
+Audio Multiple Target Classification,1,SINGA:PURA,N/A,N/A,N/A,N/A,N/A
+Syntax Representation,1,Orchard,N/A,N/A,N/A,Natural Language Processing,N/A
+Zero-shot Generalization,1,CALVIN,CALVIN,Avg. sequence length,N/A,Methodology,N/A
+Analogical Similarity,1,BIG-bench,BIG-bench,Accuracy,N/A,Reasoning,N/A
+Understanding Fables,1,BIG-bench,N/A,N/A,N/A,N/A,N/A
+Sentence Ambiguity,1,BIG-bench,N/A,N/A,N/A,N/A,N/A
+TriviaQA,1,BIG-bench,N/A,N/A,N/A,N/A,N/A
+Analytic Entailment,1,BIG-bench,N/A,N/A,N/A,N/A,N/A
+Epistemic Reasoning,1,BIG-bench,N/A,N/A,N/A,N/A,N/A
+Logical Args,1,BIG-bench,N/A,N/A,N/A,N/A,N/A
+Clinical Knowledge,1,BIG-bench,BIG-bench,Accuracy ,N/A,Miscellaneous,N/A
+Fantasy Reasoning,1,BIG-bench,N/A,N/A,N/A,N/A,N/A
+GRE Reading Comprehension,1,BIG-bench,N/A,N/A,N/A,N/A,N/A
+Nonsense Words Grammar,1,BIG-bench,N/A,N/A,N/A,N/A,N/A
+Bridging Anaphora Resolution,1,GUM,N/A,N/A,N/A,N/A,N/A
+Blackout Poetry Generation,1,BLP,N/A,N/A,N/A,N/A,N/A
+Multlingual Neural Machine Translation,1,CVIT PIB,N/A,N/A,N/A,Natural Language Processing,N/A
+Font Style Transfer,1,Dafonts Free,N/A,N/A,N/A,N/A,N/A
+Physical Commonsense Reasoning,1,Physical Audiovisual CommonSense,N/A,N/A,N/A,N/A,N/A
+Hurtful Sentence Completion,1,HONEST,N/A,N/A,N/A,N/A,N/A
+Zero-Shot Intent Classification,1,MASSIVE,N/A,N/A,N/A,N/A,N/A
+Zero-Shot Intent Classification and Slot Filling,1,MASSIVE,N/A,N/A,N/A,N/A,N/A
+Time-Series Few-Shot Learning with Heterogeneous Channels,1,TimeHetNet,N/A,N/A,N/A,N/A,N/A
+Question to Declarative Sentence,1,QA2D,N/A,N/A,N/A,Natural Language Processing,"Question Answer to Declarative Sentence (QA2D) is the task of generating declarative statements from question, answer pairs.    See:  Demszky, D., Guu, K., & Liang, P. (2018). Transforming Question An..."
+Skill Generalization,1,RGB-Stacking,RGB-Stacking,Group 1; Group 4; Group 3; Group 2; Average; Group 5,N/A,Robots,Image credit: [A Generalist Agent](https://storage.googleapis.com/deepmind-media/A%20Generalist%20Agent/Generalist%20Agent.pdf)
+Semi-supervised time series classification,1,Bosch CNC Machining Dataset,N/A,N/A,N/A,Time Series,N/A
+Jet Tagging,1,JetClass,N/A,N/A,N/A,N/A,N/A
+Word Spotting In Handwritten Documents,1,BN-HTRd,N/A,N/A,N/A,N/A,N/A
+Translation fin-eng,1,FLoRes-200,N/A,N/A,N/A,N/A,N/A
+Translation nob-eng,1,FLoRes-200,N/A,N/A,N/A,N/A,N/A
+Translation nno-eng,1,FLoRes-200,N/A,N/A,N/A,N/A,N/A
+Translation ita-eng,1,FLoRes-200,N/A,N/A,N/A,N/A,N/A
+Translation mkd-eng,1,FLoRes-200,N/A,N/A,N/A,N/A,N/A
+Translation ast-por,1,FLoRes-200,N/A,N/A,N/A,N/A,N/A
+Translation ast-spa,1,FLoRes-200,N/A,N/A,N/A,N/A,N/A
+Translation glg-fra,1,FLoRes-200,N/A,N/A,N/A,N/A,N/A
+Translation ita-fra,1,FLoRes-200,N/A,N/A,N/A,N/A,N/A
+Translation oci-spa,1,FLoRes-200,N/A,N/A,N/A,N/A,N/A
+Translation ron-por,1,FLoRes-200,N/A,N/A,N/A,N/A,N/A
+Translation hrv-por,1,FLoRes-200,N/A,N/A,N/A,N/A,N/A
+Translation mkd-fra,1,FLoRes-200,N/A,N/A,N/A,N/A,N/A
+Translation mkd-por,1,FLoRes-200,N/A,N/A,N/A,N/A,N/A
+Translation slv-por,1,FLoRes-200,N/A,N/A,N/A,N/A,N/A
+Translation isl-fra,1,FLoRes-200,N/A,N/A,N/A,N/A,N/A
+Translation nob-por,1,FLoRes-200,N/A,N/A,N/A,N/A,N/A
+Translation nob-spa,1,FLoRes-200,N/A,N/A,N/A,N/A,N/A
+Translation mkd-deu,1,FLoRes-200,N/A,N/A,N/A,N/A,N/A
+Translation lim-eng,1,FLoRes-200,N/A,N/A,N/A,N/A,N/A
+Translation acm-deu,1,FLoRes-200,N/A,N/A,N/A,N/A,N/A
+Translation acm-eng,1,FLoRes-200,N/A,N/A,N/A,N/A,N/A
+Translation acm-fra,1,FLoRes-200,N/A,N/A,N/A,N/A,N/A
+Translation acm-por,1,FLoRes-200,N/A,N/A,N/A,N/A,N/A
+Translation acm-spa,1,FLoRes-200,N/A,N/A,N/A,N/A,N/A
+Translation amh-fra,1,FLoRes-200,N/A,N/A,N/A,N/A,N/A
+Translation apc-deu,1,FLoRes-200,N/A,N/A,N/A,N/A,N/A
+Translation apc-eng,1,FLoRes-200,N/A,N/A,N/A,N/A,N/A
+Translation apc-fra,1,FLoRes-200,N/A,N/A,N/A,N/A,N/A
+Translation apc-spa,1,FLoRes-200,N/A,N/A,N/A,N/A,N/A
+Translation arz-deu,1,FLoRes-200,N/A,N/A,N/A,N/A,N/A
+Translation arz-eng,1,FLoRes-200,N/A,N/A,N/A,N/A,N/A
+Translation arz-fra,1,FLoRes-200,N/A,N/A,N/A,N/A,N/A
+Translation arz-por,1,FLoRes-200,N/A,N/A,N/A,N/A,N/A
+Translation arz-spa,1,FLoRes-200,N/A,N/A,N/A,N/A,N/A
+Translation ast-deu,1,FLoRes-200,N/A,N/A,N/A,N/A,N/A
+Translation ast-eng,1,FLoRes-200,N/A,N/A,N/A,N/A,N/A
+Translation awa-fra,1,FLoRes-200,N/A,N/A,N/A,N/A,N/A
+Translation awa-spa,1,FLoRes-200,N/A,N/A,N/A,N/A,N/A
+Translation bho-eng,1,FLoRes-200,N/A,N/A,N/A,N/A,N/A
+Translation bho-fra,1,FLoRes-200,N/A,N/A,N/A,N/A,N/A
+Translation bho-por,1,FLoRes-200,N/A,N/A,N/A,N/A,N/A
+Translation cat-deu,1,FLoRes-200,N/A,N/A,N/A,N/A,N/A
+Translation ceb-spa,1,FLoRes-200,N/A,N/A,N/A,N/A,N/A
+Translation ces-por,1,FLoRes-200,N/A,N/A,N/A,N/A,N/A
+Translation ckb-eng,1,FLoRes-200,N/A,N/A,N/A,N/A,N/A
+Translation ckb-fra,1,FLoRes-200,N/A,N/A,N/A,N/A,N/A
+Translation crh-deu,1,FLoRes-200,N/A,N/A,N/A,N/A,N/A
+Translation crh-eng,1,FLoRes-200,N/A,N/A,N/A,N/A,N/A
+Translation crh-fra,1,FLoRes-200,N/A,N/A,N/A,N/A,N/A
+Translation crh-por,1,FLoRes-200,N/A,N/A,N/A,N/A,N/A
+Translation crh-spa,1,FLoRes-200,N/A,N/A,N/A,N/A,N/A
+Translation cym-deu,1,FLoRes-200,N/A,N/A,N/A,N/A,N/A
+Translation est-fra,1,FLoRes-200,N/A,N/A,N/A,N/A,N/A
+Translation est-spa,1,FLoRes-200,N/A,N/A,N/A,N/A,N/A
+Translation eus-eng,1,FLoRes-200,N/A,N/A,N/A,N/A,N/A
+Translation eus-fra,1,FLoRes-200,N/A,N/A,N/A,N/A,N/A
+Translation eus-por,1,FLoRes-200,N/A,N/A,N/A,N/A,N/A
+Translation fao-deu,1,FLoRes-200,N/A,N/A,N/A,N/A,N/A
+Translation fao-fra,1,FLoRes-200,N/A,N/A,N/A,N/A,N/A
+Translation fao-por,1,FLoRes-200,N/A,N/A,N/A,N/A,N/A
+Translation fao-spa,1,FLoRes-200,N/A,N/A,N/A,N/A,N/A
+Translation fij-eng,1,FLoRes-200,N/A,N/A,N/A,N/A,N/A
+Translation fur-fra,1,FLoRes-200,N/A,N/A,N/A,N/A,N/A
+Translation fur-por,1,FLoRes-200,N/A,N/A,N/A,N/A,N/A
+Translation fur-spa,1,FLoRes-200,N/A,N/A,N/A,N/A,N/A
+Translation gla-eng,1,FLoRes-200,N/A,N/A,N/A,N/A,N/A
+Translation gle-deu,1,FLoRes-200,N/A,N/A,N/A,N/A,N/A
+Translation gle-fra,1,FLoRes-200,N/A,N/A,N/A,N/A,N/A
+Translation gle-por,1,FLoRes-200,N/A,N/A,N/A,N/A,N/A
+Translation glg-deu,1,FLoRes-200,N/A,N/A,N/A,N/A,N/A
+Translation glg-eng,1,FLoRes-200,N/A,N/A,N/A,N/A,N/A
+Translation grn-eng,1,FLoRes-200,N/A,N/A,N/A,N/A,N/A
+Translation grn-fra,1,FLoRes-200,N/A,N/A,N/A,N/A,N/A
+Translation grn-por,1,FLoRes-200,N/A,N/A,N/A,N/A,N/A
+Translation guj-eng,1,FLoRes-200,N/A,N/A,N/A,N/A,N/A
+Translation guj-fra,1,FLoRes-200,N/A,N/A,N/A,N/A,N/A
+Translation guj-por,1,FLoRes-200,N/A,N/A,N/A,N/A,N/A
+Translation guj-spa,1,FLoRes-200,N/A,N/A,N/A,N/A,N/A
+Translation hat-deu,1,FLoRes-200,N/A,N/A,N/A,N/A,N/A
+Translation hat-eng,1,FLoRes-200,N/A,N/A,N/A,N/A,N/A
+Translation hat-fra,1,FLoRes-200,N/A,N/A,N/A,N/A,N/A
+Translation hat-por,1,FLoRes-200,N/A,N/A,N/A,N/A,N/A
+Translation hat-spa,1,FLoRes-200,N/A,N/A,N/A,N/A,N/A
+Translation hin-deu,1,FLoRes-200,N/A,N/A,N/A,N/A,N/A
+Translation hne-deu,1,FLoRes-200,N/A,N/A,N/A,N/A,N/A
+Translation hne-eng,1,FLoRes-200,N/A,N/A,N/A,N/A,N/A
+Translation hne-fra,1,FLoRes-200,N/A,N/A,N/A,N/A,N/A
+Translation hne-por,1,FLoRes-200,N/A,N/A,N/A,N/A,N/A
+Translation hne-spa,1,FLoRes-200,N/A,N/A,N/A,N/A,N/A
+Translation hye-fra,1,FLoRes-200,N/A,N/A,N/A,N/A,N/A
+Translation hye-por,1,FLoRes-200,N/A,N/A,N/A,N/A,N/A
+Translation hye-spa,1,FLoRes-200,N/A,N/A,N/A,N/A,N/A
+Translation ibo-eng,1,FLoRes-200,N/A,N/A,N/A,N/A,N/A
+Translation ilo-deu,1,FLoRes-200,N/A,N/A,N/A,N/A,N/A
+Translation ilo-fra,1,FLoRes-200,N/A,N/A,N/A,N/A,N/A
+Translation ilo-por,1,FLoRes-200,N/A,N/A,N/A,N/A,N/A
+Translation ilo-spa,1,FLoRes-200,N/A,N/A,N/A,N/A,N/A
+Translation jav-deu,1,FLoRes-200,N/A,N/A,N/A,N/A,N/A
+Translation jav-eng,1,FLoRes-200,N/A,N/A,N/A,N/A,N/A
+Translation jav-fra,1,FLoRes-200,N/A,N/A,N/A,N/A,N/A
+Translation jav-por,1,FLoRes-200,N/A,N/A,N/A,N/A,N/A
+Translation jav-spa,1,FLoRes-200,N/A,N/A,N/A,N/A,N/A
+Translation kat-fra,1,FLoRes-200,N/A,N/A,N/A,N/A,N/A
+Translation kat-por,1,FLoRes-200,N/A,N/A,N/A,N/A,N/A
+Translation kat-spa,1,FLoRes-200,N/A,N/A,N/A,N/A,N/A
+Translation kaz-deu,1,FLoRes-200,N/A,N/A,N/A,N/A,N/A
+Translation kaz-por,1,FLoRes-200,N/A,N/A,N/A,N/A,N/A
+Translation kaz-spa,1,FLoRes-200,N/A,N/A,N/A,N/A,N/A
+Translation kea-deu,1,FLoRes-200,N/A,N/A,N/A,N/A,N/A
+Translation kea-eng,1,FLoRes-200,N/A,N/A,N/A,N/A,N/A
+Translation kea-fra,1,FLoRes-200,N/A,N/A,N/A,N/A,N/A
+Translation kea-por,1,FLoRes-200,N/A,N/A,N/A,N/A,N/A
+Translation kea-spa,1,FLoRes-200,N/A,N/A,N/A,N/A,N/A
+Translation kon-eng,1,FLoRes-200,N/A,N/A,N/A,N/A,N/A
+Translation lij-eng,1,FLoRes-200,N/A,N/A,N/A,N/A,N/A
+Translation lij-fra,1,FLoRes-200,N/A,N/A,N/A,N/A,N/A
+Translation lij-por,1,FLoRes-200,N/A,N/A,N/A,N/A,N/A
+Translation lij-spa,1,FLoRes-200,N/A,N/A,N/A,N/A,N/A
+Translation lim-fra,1,FLoRes-200,N/A,N/A,N/A,N/A,N/A
+Translation lim-por,1,FLoRes-200,N/A,N/A,N/A,N/A,N/A
+Translation lim-spa,1,FLoRes-200,N/A,N/A,N/A,N/A,N/A
+Translation lin-eng,1,FLoRes-200,N/A,N/A,N/A,N/A,N/A
+Translation lin-por,1,FLoRes-200,N/A,N/A,N/A,N/A,N/A
+Translation lin-spa,1,FLoRes-200,N/A,N/A,N/A,N/A,N/A
+Translation mag-fra,1,FLoRes-200,N/A,N/A,N/A,N/A,N/A
+Translation mal-fra,1,FLoRes-200,N/A,N/A,N/A,N/A,N/A
+Translation mar-deu,1,FLoRes-200,N/A,N/A,N/A,N/A,N/A
+Translation mlt-deu,1,FLoRes-200,N/A,N/A,N/A,N/A,N/A
+Translation mlt-fra,1,FLoRes-200,N/A,N/A,N/A,N/A,N/A
+Translation mlt-por,1,FLoRes-200,N/A,N/A,N/A,N/A,N/A
+Translation mlt-spa,1,FLoRes-200,N/A,N/A,N/A,N/A,N/A
+Translation nno-fra,1,FLoRes-200,N/A,N/A,N/A,N/A,N/A
+Translation npi-deu,1,FLoRes-200,N/A,N/A,N/A,N/A,N/A
+Translation npi-eng,1,FLoRes-200,N/A,N/A,N/A,N/A,N/A
+Translation nso-eng,1,FLoRes-200,N/A,N/A,N/A,N/A,N/A
+Translation nya-eng,1,FLoRes-200,N/A,N/A,N/A,N/A,N/A
+Translation oci-deu,1,FLoRes-200,N/A,N/A,N/A,N/A,N/A
+Translation pag-fra,1,FLoRes-200,N/A,N/A,N/A,N/A,N/A
+Translation pag-por,1,FLoRes-200,N/A,N/A,N/A,N/A,N/A
+Translation pag-spa,1,FLoRes-200,N/A,N/A,N/A,N/A,N/A
+Translation pan-deu,1,FLoRes-200,N/A,N/A,N/A,N/A,N/A
+Translation pan-eng,1,FLoRes-200,N/A,N/A,N/A,N/A,N/A
+Translation pan-por,1,FLoRes-200,N/A,N/A,N/A,N/A,N/A
+Translation pan-spa,1,FLoRes-200,N/A,N/A,N/A,N/A,N/A
+Translation pap-deu,1,FLoRes-200,N/A,N/A,N/A,N/A,N/A
+Translation pap-eng,1,FLoRes-200,N/A,N/A,N/A,N/A,N/A
+Translation pap-fra,1,FLoRes-200,N/A,N/A,N/A,N/A,N/A
+Translation pap-por,1,FLoRes-200,N/A,N/A,N/A,N/A,N/A
+Translation pap-spa,1,FLoRes-200,N/A,N/A,N/A,N/A,N/A
+Translation pes-deu,1,FLoRes-200,N/A,N/A,N/A,N/A,N/A
+Translation pes-fra,1,FLoRes-200,N/A,N/A,N/A,N/A,N/A
+Translation pes-por,1,FLoRes-200,N/A,N/A,N/A,N/A,N/A
+Translation pes-spa,1,FLoRes-200,N/A,N/A,N/A,N/A,N/A
+Translation plt-eng,1,FLoRes-200,N/A,N/A,N/A,N/A,N/A
+Translation plt-fra,1,FLoRes-200,N/A,N/A,N/A,N/A,N/A
+Translation plt-por,1,FLoRes-200,N/A,N/A,N/A,N/A,N/A
+Translation plt-spa,1,FLoRes-200,N/A,N/A,N/A,N/A,N/A
+Translation prs-deu,1,FLoRes-200,N/A,N/A,N/A,N/A,N/A
+Translation run-por,1,FLoRes-200,N/A,N/A,N/A,N/A,N/A
+Translation run-spa,1,FLoRes-200,N/A,N/A,N/A,N/A,N/A
+text political leaning classification,1,Article Bias Prediction,N/A,N/A,N/A,N/A,N/A
+Zero-Shot Counting,1,FSC147,N/A,N/A,N/A,N/A,N/A
+Question-Answer-Generation,1,FrenchMedMCQA,N/A,N/A,N/A,N/A,N/A
+Transfer Reinforcement Learning,1,bipedal-skills,N/A,N/A,N/A,Methodology,N/A
+Document Level Machine Translation,1,BWB,N/A,N/A,N/A,N/A,N/A
+Persona Dialogue in Story,1,Harry Potter Dialogue Dataset,N/A,N/A,N/A,N/A,N/A
+Enumerative Search,1,standard atomic contexts,N/A,N/A,N/A,N/A,N/A
+Grounded language learning,1,IGLU,N/A,N/A,N/A,N/A,N/A
+Stroke Classification,1,kaggle stroke Prediction competition,N/A,N/A,N/A,N/A,N/A
+Facial expression generation,1,MH-FED,N/A,N/A,N/A,N/A,N/A
+ArzEn Code-switched Translation to eng,1,ArzEn,N/A,N/A,N/A,N/A,N/A
+ArzEn Code-switched Translation to ara,1,ArzEn,N/A,N/A,N/A,N/A,N/A
+Speech Intent Classification,1,Skit-S2I,N/A,N/A,N/A,N/A,N/A
+Label shift of blended-target domain adaptation,1,Office-Home-LMT,N/A,N/A,N/A,N/A,N/A
+Zero-shot Sentiment Classification,1,AfriSenti,AfriSenti,weighted-F1 score,N/A,Natural Language Processing,N/A
+Steiner Tree Problem,1,PACE 2018 Steiner Tree,N/A,N/A,N/A,Graphs,The **Steiner tree problem** is a computational problem in computer science and graph theory that involves finding the minimum weight subgraph in an undirected graph that connects a given set of termi...
+Early  Classification,1,ECG200,ECG200,Accuracy,N/A,Time Series,N/A
+Vietnamese Natural Language Inference,1,ViNLI,ViNLI,4-class test accuracy; 3-class test accuracy,N/A,N/A,N/A
+Profile Generation,1,PGDataset,N/A,N/A,N/A,N/A,N/A
+Generalized Referring Expression Comprehension,1,gRefCOCO,gRefCOCO,"N-acc.; Precision@(F1=1, IoU≥0.5)",N/A,Computer Vision,"Generalized Referring Expression Comprehension (GREC) allows expressions indicating any number of target objects. GREC takes an image and a referring expression as input, and requires bounding box(es)..."
+Poll Generation,1,WeiboPolls,N/A,N/A,N/A,N/A,N/A
+Superclass classification,1,PTB-XL,N/A,N/A,N/A,N/A,N/A
+Table Search,1,Pylon Benchmark,N/A,N/A,N/A,N/A,N/A
+Pretrained Multilingual Language Models,1,Belebele,N/A,N/A,N/A,Natural Language Processing,N/A
+Transferability,1,classification benchmark,classification benchmark,Kendall's Tau,N/A,Time Series,N/A
+Translation ara-por,1,TICO-19,N/A,N/A,N/A,N/A,N/A
+Translation fas-por,1,TICO-19,N/A,N/A,N/A,N/A,N/A
+Translation ind-por,1,TICO-19,N/A,N/A,N/A,N/A,N/A
+Translation hau-por,1,TICO-19,N/A,N/A,N/A,N/A,N/A
+Translation hau-spa,1,TICO-19,N/A,N/A,N/A,N/A,N/A
+Translation msa-fra,1,TICO-19,N/A,N/A,N/A,N/A,N/A
+Translation lug-eng,1,TICO-19,N/A,N/A,N/A,N/A,N/A
+Translation msa-por,1,TICO-19,N/A,N/A,N/A,N/A,N/A
+Translation pus-eng,1,TICO-19,N/A,N/A,N/A,N/A,N/A
+Translation pus-fra,1,TICO-19,N/A,N/A,N/A,N/A,N/A
+Translation pus-por,1,TICO-19,N/A,N/A,N/A,N/A,N/A
+Translation pus-spa,1,TICO-19,N/A,N/A,N/A,N/A,N/A
+Summarization Consistency Evaluation,1,AggreFact,N/A,N/A,N/A,N/A,N/A
+open-set classification,1,UCCS,N/A,N/A,N/A,N/A,N/A
+Tumour Classification,1,Radio-Freqency Ultrasound volume dataset for pre-clinical liver tumors,N/A,N/A,N/A,Medical,N/A
+intent-classification,1,Intent-based user instruction for electric automation,N/A,N/A,N/A,N/A,N/A
+Hint Generation,1,TriviaHG,N/A,N/A,N/A,N/A,N/A
+Similarity Explanation,1,fruit-SALAD,N/A,N/A,N/A,N/A,N/A
+OpenAPI code completion,1,OpenAPI completion refined,OpenAPI completion refined,"Correctness, avg., %; Validness, max., %; Validness, avg., %; Correctness, max., %",N/A,Computer Code,Code Completion in the [OpenAPI](https://spec.openapis.org/oas/latest.html) format which is a widely used machine and human-readable format for describing RESTful APIs in YAML or JSON.    The benchmar...
+Edge Classification,1,DTGB,N/A,N/A,N/A,N/A,N/A
+Person Identification (zero-shot),1,WiGesture,N/A,N/A,N/A,N/A,N/A
+Temporal Complex Logical Reasoning,1,Temporal Logic Video (TLV) Dataset,N/A,N/A,N/A,Knowledge Base,Temporal Complex Logical Reasoning over Temporal Knowledge Graphs
+Knowledge-Aware Recommendation,1,SemOpenAlex,N/A,N/A,N/A,N/A,N/A
+Artist classification,1,TLF2K,N/A,N/A,N/A,N/A,N/A
+Text-to-GQL,1,NL2GQL Dataset,N/A,N/A,N/A,Natural Language Processing,Text-to-QGL is a task in natural language processing (NLP) where the goal is to generate Graph Query Language queries from natural language text automatically.
+text-classification,1,RadCases,N/A,N/A,N/A,N/A,N/A
+Music Genre Transfer,1,PIAST,N/A,N/A,N/A,N/A,N/A
+Text2Sparql,1,SIB bioinformatics SPARQL queries,N/A,N/A,N/A,Knowledge Base,Conversion from natural language questions to SPARQL queries
+Raw vs Ripe (Generic),1,RawRipe Dataset,N/A,N/A,N/A,N/A,N/A
+Query-focused Summarization,1,SumIPCC,N/A,N/A,N/A,N/A,N/A
+Description-guided molecule generation,1,TOMG-Bench,TOMG-Bench,wAcc,N/A,Natural Language Processing,The significance of description-based molecule generation lies in its potential to streamline the process of molecular design by enabling the production of molecules that directly meet the criteria ou...
+FS-MEVQA,1,SME,N/A,N/A,N/A,N/A,N/A
+Chart Understanding,1,SBS Figures,N/A,N/A,N/A,N/A,N/A
+Patent Figure Description Generation,1,PatentDesc-355K,N/A,N/A,N/A,N/A,N/A
+Time Series Generation,1,Monopedal Gaits,N/A,N/A,N/A,Time Series,N/A
+Text-Variation,1,Urdu Text Scene Images,N/A,N/A,N/A,Natural Language Processing,Generate variations of the input text
+Cross-Language Text Summarization,1,M3LS,N/A,N/A,N/A,N/A,N/A
+Multimodal Large Language Model,1,Offensive Memes in Singapore Context,N/A,N/A,N/A,Computer Vision,N/A
+Small-Footprint Keyword Spotting,1,Arabic Speech Commands Dataset,N/A,N/A,N/A,N/A,N/A
+Cancer Classification,1,"Multi-omics mRNA, miRNA, and DNA Methylation Dataset","Multi-omics mRNA, miRNA, and DNA Methylation Dataset",1:1 Accuracy,N/A,Computer Vision,N/A
+Asthmatic Lung Sound Classification,1,Chest wall lung sound dataset,Chest wall lung sound dataset,2-Class Accuracy,N/A,N/A,Lung sound asthma classification
+Lung Disease Classification,1,Chest wall lung sound dataset,N/A,N/A,N/A,Medical,N/A
+Poker Hand Classification,1,Playing Cards,N/A,N/A,N/A,N/A,N/A
+Conversational Recommendation,1,Usage-related Questions,N/A,N/A,N/A,N/A,N/A
+Unconditional Crystal Generation,1,MP20,MP20,"DFT Stable, Unique, Novel Rate; Validity",N/A,Miscellaneous,"This task evaluates the ability of generative models to sample valid and realistic crystal structures.    The training dataset, MP20 (Xie et al., 2022), contains 45,231 metastable crystal structures f..."
+Perceptual Distance,1,BERSt,N/A,N/A,N/A,N/A,N/A
+TinyQA Benchmark++,1,TQBA++,tinyqabenchmark_core-en,Exact Macth; Exact Match,N/A,Natural Language Processing,Ultra-lightweight evaluation suite and python package designed to expose critical failures in Large Language Model (LLM) systems within seconds
+Reranking,1,Claim Matching Robustness,N/A,N/A,N/A,N/A,N/A
+AMR Graph Similarity,1,Benchmark for AMR Metrics based on Overt Objectives,Benchmark for AMR Metrics based on Overt Objectives,Spearman Correlation; Pearson’s ρ (amean),N/A,Natural Language Processing,N/A
+Graph-To-Graph Translation,0,N/A,N/A,N/A,N/A,Graphs,N/A
+Dialogue,0,N/A,Persona-Chat,BLEU-1; Distinct-1; Distinct-2; BLEU-2,End-To-End Dialogue Modelling; Conversation Disentanglement; Dialogue Understanding; Short-Text Conversation; Dialogue Generation,Speech; Natural Language Processing,Dialogue is notoriously hard to evaluate. Past approaches have used human evaluation.
+Acoustic Question Answering,0,N/A,N/A,N/A,N/A,Speech,N/A
+Classification Of Variable Stars,0,N/A,N/A,N/A,N/A,Miscellaneous,N/A
+Bird Classification,0,N/A,N/A,N/A,Bird Species Classification With Audio-Visual Data; Bird Audio Detection,Audio,N/A
+Web Page Tagging,0,N/A,N/A,N/A,N/A,Natural Language Processing,Assigning appropriate tags to a web page.
+Collaborative Ranking,0,N/A,N/A,N/A,N/A,Graphs,N/A
+Age-Related Macular Degeneration Classification,0,N/A,N/A,N/A,N/A,Medical,N/A
+Cross-Lingual,0,N/A,N/A,N/A,Cross-Lingual Transfer; Cross-Lingual Entity Linking; Cross-Language Text Summarization; Cross-Lingual Document Classification,Natural Language Processing,"Cross-lingual natural language processing is the task of using data and models available for one language for which ample such resources are available (e.g., English) to solve tasks in another, common..."
+Language Modeling,0,N/A,N/A,N/A,Dream Generation,Natural Language Processing,N/A
+Joint NER and Classification,0,N/A,N/A,N/A,N/A,Natural Language Processing,Joint named entity recognition and classification refers to the combined task of identifying named entitites in a given text and text classification.
+Anaphora Resolution,0,N/A,N/A,N/A,Abstract Anaphora Resolution; Bridging Anaphora Resolution,Natural Language Processing,Resolving what expression a pronoun or a noun phrase refers to.
+Knowledge Graphs Data Curation,0,N/A,N/A,N/A,N/A,Knowledge Base,N/A
+Vowel Classification,0,N/A,N/A,N/A,N/A,Audio,N/A
+Generalized Zero-Shot Learning - Unseen,0,N/A,N/A,N/A,N/A,Computer Vision,"The average of the normalized top-1 prediction scores of unseen classes in the generalized zero-shot learning setting, where the label of a test sample is predicted among all (seen + unseen) classes."
+breast density classification,0,N/A,N/A,N/A,N/A,Medical,N/A
+Git Commit Message Generation,0,N/A,CommitGen,BLEU-4,N/A,Computer Code,N/A
+Sentence Pair Modeling,0,N/A,N/A,N/A,Semantic Similarity,Natural Language Processing,Comparing two sentences and their relationship based on their internal representation.
+Oceanic Eddy Classification,0,N/A,N/A,N/A,N/A,Miscellaneous,N/A
+Sperm Morphology Classification,0,N/A,N/A,N/A,N/A,Computer Vision,Multi-class classification of sperm head morphology.
+API Sequence Recommendation,0,N/A,DeepAPI,BLEU-4,N/A,Computer Code,N/A
+Sentence Summarization,0,N/A,N/A,N/A,Unsupervised Sentence Summarization,Natural Language Processing,Generating a summary of a given sentence.
+House Generation,0,N/A,N/A,N/A,N/A,Computer Vision,N/A
+Immune Repertoire Classification,0,N/A,N/A,N/A,N/A,Medical,N/A
+Leadership Inference,0,N/A,N/A,N/A,N/A,N/A,"Leadership is a process of individuals (leaders) who influence a group to achieve collective goals. In nature, leadership can be viewed as a process of initiation of coordinated activity. In the task ..."
+Commonsense Reasoning for RL,0,N/A,commonsense-rl,Avg #Steps,N/A,Reasoning; Natural Language Processing,Commonsense reasoning for Reinforcement Learning agents
+Next-basket recommendation,0,N/A,Instacart; TaFeng,Recall@10; nDCG@10,N/A,Miscellaneous,N/A
+band gap classification,0,N/A,N/A,N/A,N/A,N/A,N/A
+Ticket Search,0,N/A,N/A,N/A,N/A,Methodology,N/A
+Temporal Knowledge Graph Completion,0,N/A,N/A,N/A,N/A,Knowledge Base,N/A
+Log Parsing,0,N/A,N/A,N/A,N/A,Computer Code,**Log Parsing** is the task of transforming unstructured log data into a structured format that can be used to train machine learning algorithms. The structured log data is then used to identify patte...
+Animated GIF Generation,0,N/A,N/A,N/A,N/A,Computer Vision,N/A
+Shallow Syntax,0,N/A,N/A,N/A,Chunking,Natural Language Processing,N/A
+Generalization Bounds,0,N/A,N/A,N/A,N/A,Methodology,N/A
+Classification on Time Series with Missing Data,0,N/A,N/A,N/A,N/A,Time Series,N/A
+Sequential Bayesian Inference,0,N/A,N/A,N/A,N/A,Time Series,"Also known as Bayesian filtering or [recursive Bayesian estimation](https://en.wikipedia.org/wiki/Recursive_Bayesian_estimation), this task aims to perform inference on latent state-space models."
+Chinese Spell Checking,0,N/A,SIGHAN 2015,Correction F1; Detection F1,N/A,Natural Language Processing,Chinese Spell Checking (CSC) aims to detect and correct erroneous characters for user-generated text in Chinese language.
+Complaint Comment Classification,0,N/A,N/A,N/A,N/A,Natural Language Processing,N/A
+Vietnamese Parsing,0,N/A,N/A,N/A,N/A,Natural Language Processing,N/A
+Learning Language specific models,0,N/A,N/A,N/A,N/A,N/A,N/A
+Approximating Betweenness-Centrality ranking,0,N/A,N/A,N/A,N/A,Graphs,Betweenness-centrality is a popular measure in network analysis that aims to describe the importance of nodes in a graph. It accounts for the fraction of shortest paths passing through that node and i...
+Diachronic Word Embeddings,0,N/A,N/A,N/A,N/A,Natural Language Processing,N/A
+Subdomain adaptation,0,N/A,N/A,N/A,N/A,Methodology,N/A
+Text Anonymization,0,N/A,N/A,N/A,N/A,Natural Language Processing,N/A
+Cross-Lingual Word Embeddings,0,N/A,N/A,N/A,N/A,Natural Language Processing,N/A
+Geographic Question Answering,0,N/A,N/A,N/A,N/A,N/A,"Geographic Question Answering ( by way of IR, NLP, and/or Knowledge base apply)"
+Human Judgment Classification,0,N/A,Pascal-50S,Mean Accuracy,N/A,Reasoning,A task where an algorithm judges which sample is better in accordance with human judgment.
+Phenotype classification,0,N/A,"MIMIC-CXR, MIMIC-IV",AUROC,N/A,Medical,N/A
+Hindu Knowledge,0,N/A,N/A,N/A,N/A,Miscellaneous,N/A
+Edit script generation,0,N/A,N/A,N/A,N/A,Computer Code,"Generating edit scripts by comparing 2 different files or strings to convert one to another. this script will contain instruction like insert, delete and substitute."
+energy management,0,N/A,N/A,N/A,energy trading,Time Series,"energy management is to schedule energy units inside the systems, enabling an reliable, safe and cost-effective operation"
+Wireframe Parsing,0,N/A,N/A,N/A,N/A,Computer Vision,Detect Line Segments and their connecting Junctions in a single perspective image.
+Phonocardiogram Classification,0,N/A,N/A,N/A,Classify murmurs,Time Series,Classify labels/murmur/clinical outcome based on Phonocardiograms (PCGs)
+Community Search,0,N/A,N/A,N/A,N/A,Graphs,N/A
+Prompt-driven Zero-shot Domain Adaptation,0,N/A,N/A,N/A,N/A,Computer Vision,Domain adaptation using only a single source domain and a description of the target domain in natural language (No images from target domain are available)
+text-guided-generation,0,N/A,N/A,N/A,N/A,Computer Vision,N/A
+Readability optimization,0,N/A,N/A,N/A,N/A,Natural Language Processing,It consists of improving the readability of a text automatically and without significantly altering the form or meaning.
+Comment Generation,0,N/A,N/A,N/A,N/A,Natural Language Processing,"Article commenting poses new challenges for machines, as it involves multiple cognitive abilities: understanding the given article, formulating opinions and arguments, and organizing natu ral language..."
+Coding Problem Tagging,0,N/A,N/A,N/A,N/A,Natural Language Processing,Assigning data structures to coding problems
+Legal Reasoning,0,N/A,LegalBench (Issue-spotting); LegalBench (Rule-recall),Balanced Accuracy,N/A,Natural Language Processing,N/A
+Potrait Generation,0,N/A,N/A,N/A,N/A,Computer Vision,N/A
+Voice Similarity,0,N/A,N/A,N/A,N/A,Speech,N/A
+Change Data Generation,0,N/A,N/A,N/A,N/A,Computer Vision,N/A
+Semi-Supervised Domain Generalization,0,N/A,N/A,N/A,N/A,Computer Vision,N/A
+trustable and focussed LLM generated content,0,N/A,N/A,N/A,Game Design,Playing Games; Natural Language Processing,ensure that LLM step-by-step generation stays truthful and focussed to the user's goal
+Topological Risk Measure,0,N/A,N/A,N/A,N/A,Time Series,N/A
+Quantum Circuit Generation,0,N/A,N/A,N/A,N/A,Time Series,Generation of quantum circuits (classic ML) using generative models.
+Reference Expression Generation,0,N/A,N/A,N/A,N/A,Computer Vision,N/A
+Personality Generation,0,N/A,N/A,N/A,Personality Alignment,Natural Language Processing,"The Personality Generation Task involves using machine learning models to generate text or recommendations tailored to different personality types. It aims to create content, suggestions, or responses..."
+Ordinal Classification,0,N/A,OASIS+NACC+ICBM+ABIDE+IXI,Mean absolute error,N/A,Methodology,N/A
+In-Context Learning,0,N/A,N/A,N/A,N/A,Natural Language Processing,N/A
+Sentence,0,N/A,N/A,N/A,N/A,Playing Games,N/A
+Generative Temporal Nursing,0,N/A,N/A,N/A,N/A,Computer Vision,N/A
+Vietnamese Language Models,0,N/A,N/A,N/A,N/A,Natural Language Processing,N/A
+Vietnamese Natural Language Understanding,0,N/A,N/A,N/A,N/A,Natural Language Processing,N/A
+Simultaneous Speech-to-Speech Translation,0,N/A,N/A,N/A,N/A,Natural Language Processing,N/A
+Adversarial Natural Language Inference,0,N/A,N/A,N/A,N/A,N/A,N/A
+Vietnamese Sentiment Analysis,0,N/A,N/A,N/A,Vietnamese Multimodal Sentiment Analysis,Natural Language Processing,N/A
+Runtime ranking,0,N/A,TpuGraphs Layout mean,Kendall's Tau,N/A,Computer Code,"Ranking of computational graph configurations by their runtime. The task assumes a set of computational graphs, each having a set of node and/or edge configurations and corresponding scalar execution ..."
+Joint Multilingual Sentence Representations,0,N/A,N/A,N/A,Abstract Meaning Representation,Natural Language Processing,N/A
+GRAPH DOMAIN ADAPTATION,0,N/A,FRANKENSTEIN,Accuracy,N/A,Graphs,N/A
+Conversational Information Access,0,N/A,N/A,N/A,N/A,N/A,"Provide access to information via a conversation. It includes conversational search, conversational recommendation, and question-answering."
+Script Generation,0,N/A,N/A,N/A,N/A,Natural Language Processing,N/A
+Urban Itinerary Planning,0,N/A,N/A,N/A,N/A,N/A,N/A
+Semi-Supervised Text Regression,0,N/A,N/A,N/A,N/A,Natural Language Processing,N/A
+Multimodal Music Generation,0,N/A,N/A,N/A,N/A,Music,N/A
+Dataset Generation,0,N/A,N/A,N/A,N/A,Robots,The task involves enhancing the training of target application (e.g. autonomous driving systems) by generating datasets of diverse and critical elements (e.g. traffic scenarios). Traditional methods r...
+MUlTI-LABEL-ClASSIFICATION,0,N/A,N/A,N/A,N/A,Graphs,multilabel graph classification with highest result
+NeRF,0,N/A,N/A,N/A,N/A,N/A,N/A
+Layout Generation,0,N/A,N/A,N/A,N/A,Computer Vision,N/A
+Small Language Model,0,N/A,N/A,N/A,N/A,N/A,N/A
+Appearance Transfer,0,N/A,N/A,N/A,N/A,Computer Vision,Transfer of the appearance from one object to another.
+Language Model Evaluation,0,N/A,N/A,N/A,N/A,Computer Vision,The task of using LLMs as evaluators of large language and vision language models.
+Text Normalization,0,N/A,N/A,N/A,N/A,Natural Language Processing,N/A

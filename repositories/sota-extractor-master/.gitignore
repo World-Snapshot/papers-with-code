@@ -1,0 +1,20 @@
+.coverage
+.idea
+.envrc
+.nltk_data
+.pytest_cache/
+.ipynb_checkpoints
+*.py[cod]
+
+# Virtual environment
+.venv
+venv
+
+# Build artifacts
+sota_extractor.egg-info
+build/
+dist/
+
+
+# setup.py artifacts
+*.egg-info

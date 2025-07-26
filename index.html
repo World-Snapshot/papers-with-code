@@ -1,0 +1,1063 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Papers With Code</title>
+    <!-- 添加 markdown-it 用于解析 markdown -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/markdown-it/13.0.1/markdown-it.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/react/18.2.0/umd/react.production.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/react-dom/18.2.0/umd/react-dom.production.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/babel-standalone/7.23.5/babel.min.js"></script>
+    <!-- 添加mermaid支持 -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mermaid/10.6.1/mermaid.min.js"></script>
+    <!-- 添加锁定样式 -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <!-- 添加代码高亮支持 -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/styles/github.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/highlight.min.js"></script>
+    <!-- 添加网站图标 -->
+    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' fill='%23eef0f2'/%3E%3Ctext x='16' y='26' font-family='-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif' font-size='26' font-weight='500' text-anchor='middle' fill='%23202122'%3EW%3C/text%3E%3C/svg%3E">
+    <!-- 为 Safari 浏览器添加图标 -->
+    <link rel="apple-touch-icon" sizes="180x180" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' fill='%23eef0f2'/%3E%3Ctext x='16' y='26' font-family='-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif' font-size='26' font-weight='500' text-anchor='middle' fill='%23202122'%3EW%3C/text%3E%3C/svg%3E">
+
+    <script>
+        window.MathJax = {
+            tex: {
+                inlineMath: [['$', '$'], ['\\(', '\\)']],
+                displayMath: [['$$', '$$'], ['\\[', '\\]']],
+                processEscapes: true
+            },
+            options: {
+                skipHtmlTags: ['script', 'noscript', 'style', 'textarea', 'pre', 'code']
+            }
+        };
+    </script>
+    <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+    
+
+    <style>
+        /* 保持之前的所有样式 */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+            line-height: 1.6;
+            color: #202122;
+        }
+
+        .header {
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            height: 50px;
+            background: #fff;
+            border-bottom: 1px solid #a2a9b1;
+            display: flex;
+            align-items: center;
+            padding: 0;
+            z-index: 100;
+            justify-content: space-between; /* 添加这行来使标题和链接分开 */
+        }
+
+        .header-title {
+            font-size: 1.5em;
+            font-weight: 500;
+            margin-left: 20px;
+        }
+
+        .header-links {
+            display: flex;
+            gap: 20px; /* 链接之间的间距 */
+            align-items: center;
+            margin-right: 20px;
+        }
+
+        .header-link {
+            color: #3366cc;
+            text-decoration: none;
+            font-size: 14px;
+        }
+
+        .header-link:hover {
+            text-decoration: underline;
+        }
+
+        .container {
+            display: flex;
+            margin-top: 50px;
+            min-height: calc(100vh - 50px);
+        }
+
+        .sidebar {
+            width: 260px;
+            background: #f8f9fa;
+            border-right: 1px solid #a2a9b1;
+            padding: 20px;
+            position: fixed;
+            top: 50px;
+            bottom: 0;
+            overflow-y: auto;
+            /* 添加平滑滚动效果 */
+            scroll-behavior: smooth;
+        }
+
+        /* 默认隐藏滚动条 */
+        .sidebar::-webkit-scrollbar {
+            width: 8px;
+            background: transparent;
+        }
+
+        .sidebar::-webkit-scrollbar-thumb {
+            background-color: transparent;
+            border-radius: 4px;
+            transition: background-color 0.3s;
+        }
+
+        /* 鼠标悬停或滚动时显示滚动条 */
+        .sidebar:hover::-webkit-scrollbar-thumb,
+        .sidebar:active::-webkit-scrollbar-thumb {
+            background-color: rgba(0, 0, 0, 0.2);
+        }
+
+        /* 鼠标悬停在滚动条上时的样式 */
+        .sidebar::-webkit-scrollbar-thumb:hover {
+            background-color: rgba(0, 0, 0, 0.4);
+        }
+
+        .nav-section {
+            margin: 8px 0;
+        }
+
+        .nav-section-title {
+            display: flex;
+            align-items: center;
+            cursor: pointer;
+            color: #202122;
+            padding: 6px 0;
+            font-weight: 500;
+        }
+
+        .nav-section-title:hover {
+            background-color: #f0f0f0;
+            border-radius: 3px;
+        }
+
+        .nav-toggle {
+            width: 16px;
+            height: 16px;
+            margin-right: 8px;
+            position: relative;
+        }
+
+        .nav-toggle::before {
+            content: '';
+            position: absolute;
+            left: 50%;
+            top: 50%;
+            width: 6px;
+            height: 6px;
+            border-right: 2px solid #72777d;
+            border-bottom: 2px solid #72777d;
+            transform: translate(-75%, -50%) rotate(45deg);
+            transition: transform 0.2s;
+        }
+
+        .nav-section.collapsed .nav-toggle::before {
+            transform: translate(-75%, -75%) rotate(-45deg);
+        }
+
+        .nav-section.collapsed .nav-items {
+            display: none;
+        }
+
+        .nav-items {
+            margin-left: 24px;
+        }
+
+        .nav-link {
+            color: #3366cc;
+            text-decoration: none;
+            display: block;
+            padding: 4px 0;
+            font-size: 14px;
+        }
+
+        .nav-link:hover {
+            text-decoration: underline;
+        }
+
+        .main-content {
+            flex: 1;
+            margin-left: 260px;
+            padding: 40px;
+            max-width: 1000px;
+        }
+
+        /* Markdown 内容样式 */
+        .markdown-body h1 {
+            font-size: 1.8em;
+            margin-bottom: 0.8em;
+            padding-bottom: 0.3em;
+            border-bottom: 1px solid #a2a9b1;
+            color: #000;
+            font-family: 'Linux Libertine','Georgia','Times',serif;
+        }
+
+        .markdown-body h2 {
+            font-size: 1.5em;
+            margin: 1em 0;
+            padding-bottom: 0.2em;
+            border-bottom: 1px solid #c8ccd1;
+            color: #162441;
+            font-family: 'Linux Libertine','Georgia','Times',serif;
+        }
+
+        /* 标题锚点链接样式 */
+        .markdown-body h1,
+        .markdown-body h2,
+        .markdown-body h3,
+        .markdown-body h4,
+        .markdown-body h5,
+        .markdown-body h6 {
+            position: relative;
+            scroll-margin-top: 70px; /* 70px = 50px头部高度 + 20px额外间距 */
+        }
+
+        .markdown-body .header-link {
+            position: absolute;
+            left: -20px;
+            top: 50%;
+            transform: translateY(-50%);
+            opacity: 0;
+            transition: opacity 0.2s;
+            text-decoration: none;
+            color: #666;
+            font-weight: normal;
+        }
+
+        .markdown-body h1:hover .header-link,
+        .markdown-body h2:hover .header-link,
+        .markdown-body h3:hover .header-link,
+        .markdown-body h4:hover .header-link,
+        .markdown-body h5:hover .header-link,
+        .markdown-body h6:hover .header-link {
+            opacity: 1;
+        }
+
+        .markdown-body .header-link:hover {
+            color: #3366cc;
+            text-decoration: none;
+        }
+
+        .markdown-body p {
+            margin: 1em 0;
+            line-height: 1.6;
+        }
+
+        .markdown-body code {
+            padding: 0.2em 0.4em;
+            background-color: #f6f8fa;
+            border-radius: 3px;
+            font-family: SFMono-Regular, Consolas, Liberation Mono, Menlo, monospace;
+        }
+
+        .markdown-body pre {
+            margin: 1em 0;
+            padding: 16px;
+            overflow: auto;
+            background-color: #f6f8fa;
+            border-radius: 3px;
+            font-family: SFMono-Regular, Consolas, Liberation Mono, Menlo, monospace;
+        }
+
+        .markdown-body pre code {
+            padding: 0;
+            background-color: transparent;
+        }
+
+
+
+        /* Unordered lists style */
+        .markdown-section ul, .html-section ul {
+            padding-left: 40px; /* Consistent with main content padding */
+            margin: 1em 0;      /* Same margin as paragraphs */
+        }
+
+        /* Ordered lists style */
+        .markdown-section ol, .html-section ol {
+            padding-left: 40px; /* Consistent with main content padding */
+            margin: 1em 0;      /* Same margin as paragraphs */
+        }
+
+    </style>
+
+<!--以下是右侧目录栏的style-->
+
+<style>
+    /* 右侧边栏样式 */
+    .right-sidebar {
+        width: 260px;
+        background: #f8f9fa;
+        border-left: 1px solid #a2a9b1;
+        padding: 20px;
+        position: fixed;
+        top: 50px;
+        right: -260px;
+        bottom: 0;
+        overflow-y: auto;
+        transition: right 0.3s ease;
+        scroll-behavior: smooth;
+    }
+
+    .right-sidebar.active {
+        right: 0;
+    }
+
+    /* 切换按钮样式 */
+    .sidebar-toggle {
+        position: absolute;
+        top: 10px;
+        right: 10px;
+        background: none;
+        border: none;
+        cursor: pointer;
+        color: #666;
+        font-size: 16px;
+        padding: 5px;
+        z-index: 100;
+    }
+
+    .sidebar-toggle:hover {
+        color: #333;
+    }
+
+    .sidebar-toggle svg {
+        width: 16px;
+        height: 16px;
+    }
+
+    /* 内容区域调整 */
+    .main-content.shifted {
+        margin-right: 260px;
+    }
+</style>
+
+<!--右侧目录栏的消失功能-->
+<style>
+    /* Update right sidebar styles */
+    .right-sidebar {
+        width: 260px;
+        background: #f8f9fa;
+        border-left: 1px solid #a2a9b1;
+        padding: 20px;
+        position: fixed;
+        top: 50px;
+        right: -260px; /* Start hidden */
+        bottom: 0;
+        overflow-y: auto;
+        transition: right 0.6s ease;
+        z-index: 99;
+    }
+
+    /* Add right sidebar trigger */
+    .right-sidebar-trigger {
+        position: fixed;
+        top: 50px;
+        right: 0;
+        width: 30px;
+        height: calc(100vh - 50px);
+        z-index: 98;
+    }
+
+    /* Show sidebar on hover */
+    .right-sidebar-trigger:hover + .right-sidebar:not(:empty),
+    .right-sidebar:not(:empty):hover,
+    .right-sidebar.active:not(:empty),
+    .right-sidebar.locked:not(:empty) {
+        right: 0;
+    }
+
+    /* Adjust main content when sidebar is locked */
+    .right-sidebar.locked ~ .main-content {
+        margin-right: 260px;
+    }
+
+    /* Lock button styles */
+    .right-lock-button {
+        position: absolute;
+        top: 10px;
+        right: 10px;
+        background: none;
+        border: none;
+        cursor: pointer;
+        color: #666;
+        font-size: 16px;
+        padding: 5px;
+        z-index: 100;
+    }
+
+    .right-lock-button:hover {
+        color: #333;
+    }
+</style>
+
+
+<!--这是表格样式-->
+<style>
+    .markdown-body table {
+        border-collapse: collapse;
+        width: 100%;
+        margin: 1em 0;
+    }
+
+    /* Add margin to unordered lists similar to paragraphs */
+    .markdown-body ul {
+        margin: 1em 0;  /* Same margin as paragraphs */
+        padding-left: 40px;
+    }
+
+    /* Ordered lists style */
+    .markdown-body ol {
+        padding-left: 0; /* Remove default padding */
+        margin: 1em 0 1em 16px; /* Keep vertical margins, add left margin to match paragraph indentation */
+        list-style-position: outside; /* Keep numbers outside of content flow */
+    }
+
+    .markdown-body th,
+    .markdown-body td {
+        border: 1px solid #d0d7de;
+        padding: 8px 12px;
+    }
+
+    .markdown-body th {
+        background-color: #f6f8fa;
+        font-weight: 600;
+    }
+
+    .markdown-body tr:nth-child(even) {
+        background-color: #f8f9fa;
+    }
+
+    .markdown-body tr:hover {
+        background-color: #f1f2f3;
+    }
+    </style>
+
+<!--head的可折叠功能-->
+<style>
+    .header-dropdown {
+        position: relative;
+        display: inline-block;
+    }
+    
+    .header-dropdown-content {
+        display: none;
+        position: absolute;
+        background-color: #fff;
+        min-width: 80px;  /* 增加最小宽度 */
+        box-shadow: 0 8px 16px rgba(0,0,0,0.1);
+        z-index: 1000;
+        border: 1px solid #a2a9b1;
+        border-radius: 3px;
+        top: 100%;
+        /* 修改定位方式，使下拉框居中 */
+        left: 50%;
+        transform: translateX(-50%);
+    }
+    
+    .header-dropdown:hover .header-dropdown-content {
+        display: block;
+    }
+    
+    .header-dropdown-btn {
+        color: #3366cc;
+        text-decoration: none;
+        font-size: 14px;
+        background: none;
+        border: none;
+        cursor: pointer;
+        padding: 0;
+        font-family: inherit;
+        display: inline;  /* 确保按钮和链接表现一致 */
+        /* 添加文本居中对齐 */
+        text-align: center;
+        width: 100%;
+    }
+    
+    .header-dropdown-content a {
+        color: #3366cc;
+        text-decoration: none;
+        padding: 4px 8px;
+        display: block;
+        font-size: 14px;
+        white-space: nowrap;
+        /* 添加文本居中对齐 */
+        text-align: center;
+    }
+    
+    .header-dropdown-content a:hover {
+        background-color: #f8f9fa;
+        text-decoration: underline;
+    }
+
+    .footnote {
+        color: #3366cc;
+        position: relative;
+        cursor: help;
+    }
+    .footnote:hover::after {
+        content: attr(data-note);
+        position: absolute;
+        bottom: 100%;
+        left: 0;
+        background: #333;
+        color: white;
+        padding: 8px 10px;
+        border-radius: 4px;
+        white-space: normal;
+        max-width: 300px;
+        min-width: 200px;
+        font-size: 0.9em;
+        line-height: 1.4;
+        box-shadow: 0 2px 8px rgba(0,0,0,0.3);
+        z-index: 1000;
+        word-wrap: break-word;
+    }
+    
+    /* 当脚注靠近右边缘时，让提示框向左显示 */
+    .footnote:hover::after {
+        left: 50%;
+        transform: translateX(-50%);
+    }
+    
+    /* 添加小三角形指向脚注 */
+    .footnote:hover::before {
+        content: '';
+        position: absolute;
+        top: -5px;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 0;
+        height: 0;
+        border-left: 5px solid transparent;
+        border-right: 5px solid transparent;
+        border-top: 5px solid #333;
+        z-index: 1001;
+    }
+
+</style>
+
+
+
+</head>
+<body>
+    <header class="header">
+        <h1 class="header-title">Papers With Code</h1>
+        <div class="header-links">
+            <a href="https://world-snapshot.github.io/" class="header-link">[State-of-The-Art]</a>
+            <div class="header-dropdown">
+                <a href="#" class="header-link" style="pointer-events: none">[Materials]</a>
+                <button class="header-dropdown-btn" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; opacity: 0">[Materials]</button>
+                <div class="header-dropdown-content">
+                    <a href="#" data-md="S6_materials/01_news.md">[All News]</a>
+                    <a href="#" data-md="S6_materials/02_guideline.md">[Guideline]</a>
+                    <a href="#" data-md="S6_materials/03_doc_print.md">[Doc Print]</a>
+                    <a href="#" data-md="S6_materials/04_questions.md">[Questions]</a>
+                </div>
+            </div>
+            <a href="https://github.com/world-snapshot/papers-with-code" class="header-link">[Github]</a>
+        </div>
+    </header>
+
+    <div class="container">
+        <nav class="sidebar">
+
+
+            <button class="sidebar-toggle" title="Move Blogs to right">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/>
+                    <line x1="12" y1="4" x2="12" y2="20"/>
+                </svg>
+            </button>
+
+
+            <div class="nav-section">
+                <div class="nav-items">
+                    <a href="#" class="nav-link" data-md="docs/home.md">Home</a>
+                </div>
+            </div>
+
+            <div class="nav-section">
+                <div class="nav-section-title">
+                    <span class="nav-toggle"></span>
+                    Tasks Overview
+                </div>
+                <div class="nav-items">
+                    <a href="#" class="nav-link" data-md="docs/tasks_overview.md">All Tasks</a>
+                    <a href="#" class="nav-link" data-md="docs/cv_tasks.md">Computer Vision</a>
+                    <a href="#" class="nav-link" data-md="docs/nlp_tasks.md">Natural Language Processing</a>
+                    <a href="#" class="nav-link" data-md="docs/audio_tasks.md">Audio Processing</a>
+                    <a href="#" class="nav-link" data-md="docs/other_tasks.md">Other Domains</a>
+                </div>
+            </div>
+
+            <div class="nav-section">
+                <div class="nav-section-title">
+                    <span class="nav-toggle"></span>
+                    Datasets & Benchmarks
+                </div>
+                <div class="nav-items">
+                    <a href="#" class="nav-link" data-md="docs/datasets_overview.md">Datasets Overview</a>
+                    <a href="#" class="nav-link" data-md="docs/benchmarks.md">Benchmarks</a>
+                    <a href="#" class="nav-link" data-md="docs/sota_results.md">SOTA Results</a>
+                    <a href="#" class="nav-link" data-md="docs/task_hierarchy.md">Task Hierarchy</a>
+                </div>
+            </div>
+
+            <div class="nav-section">
+                <div class="nav-section-title">
+                    <span class="nav-toggle"></span>
+                    Papers & Methods
+                </div>
+                <div class="nav-items">
+                    <a href="#" class="nav-link" data-md="docs/papers_overview.md">Papers Overview</a>
+                    <a href="#" class="nav-link" data-md="docs/methods.md">Methods & Algorithms</a>
+                    <a href="#" class="nav-link" data-md="docs/code_links.md">Code Repositories</a>
+                </div>
+            </div>
+
+            <div class="nav-section" id="blogs-section">
+                <div class="nav-section-title">
+                    <span class="nav-toggle"></span>
+                    Research Areas
+                </div>
+                <div class="nav-items">
+                    <a href="#" class="nav-link" data-md="docs/research_areas.md">Research Areas Overview</a>
+                    <a href="#" class="nav-link" data-md="docs/trending_tasks.md">Trending Tasks</a>
+                    <a href="#" class="nav-link" data-md="docs/statistics.md">Statistics & Insights</a>
+                </div>
+            </div>
+
+            <div class="nav-section">
+                <div class="nav-section-title">
+                    <span class="nav-toggle"></span>
+                    About
+                </div>
+                <div class="nav-items">
+                    <a href="#" class="nav-link" data-md="docs/about.md">About This Archive</a>
+                    <a href="#" class="nav-link" data-md="docs/data_sources.md">Data Sources</a>
+                    <a href="#" class="nav-link" data-md="docs/usage_guide.md">Usage Guide</a>
+                </div>
+            </div>
+
+        </nav>
+
+        <!-- Add this HTML before your right sidebar -->
+        <div class="right-sidebar-trigger"></div>
+
+        <nav class="right-sidebar">
+            <button class="right-lock-button">
+                <i class="fas fa-lock"></i>
+            </button>
+            <!-- 内容将由 JavaScript 动态添加 -->
+        </nav>
+
+        <main class="main-content">
+            <div class="markdown-body" id="content">
+                <!-- Markdown 内容将被渲染在这里 -->
+            </div>
+        </main>
+    </div>
+
+    <script>
+        // 初始化 markdown-it
+        const md = window.markdownit({
+            html: true,
+            linkify: true,
+            typographer: true,
+            tables: true,
+            highlight: function (str, lang) {
+                if (lang === 'mermaid') {
+                    return `<pre class="mermaid">${str}</pre>`;
+                }
+                if (lang && hljs.getLanguage(lang)) {
+                    try {
+                        return hljs.highlight(str, { language: lang }).value;
+                    } catch (__) {}
+                }
+                return '';
+            }
+        });
+
+        // 存储当前页面状态
+        let currentPage = '';
+
+        // 加载并渲染 Markdown 文件
+        async function loadMarkdown(filename) {
+            if (!filename) {
+                console.error('No filename provided');
+                document.getElementById('content').innerHTML = '<p>Error: Invalid page request</p>';
+                return;
+            }
+
+            try {
+                currentPage = filename;
+                const response = await fetch(filename);
+                if (!response.ok) {
+                    throw new Error(`HTTP error! status: ${response.status}`);
+                }
+                const text = await response.text();
+                
+                // 预处理数学公式 - 保存到占位符
+                const mathExpressions = [];
+                let counter = 0;
+                
+                // 替换块级公式
+                let processedText = text.replace(/\$\$([\s\S]*?)\$\$/g, function(match, formula) {
+                    const placeholder = `MATHBLOCK_${counter++}`;
+                    mathExpressions.push({
+                        placeholder: placeholder,
+                        original: match,
+                        formula: formula,
+                        isBlock: true
+                    });
+                    return placeholder;
+                });
+                
+                // 替换行内公式
+                processedText = processedText.replace(/\$([\s\S]*?)\$/g, function(match, formula) {
+                    const placeholder = `MATHINLINE_${counter++}`;
+                    mathExpressions.push({
+                        placeholder: placeholder,
+                        original: match,
+                        formula: formula,
+                        isBlock: false
+                    });
+                    return placeholder;
+                });
+                
+                // 渲染 Markdown
+                let htmlContent = md.render(processedText);
+                
+                // 恢复数学公式
+                mathExpressions.forEach(item => {
+                    if (item.isBlock) {
+                        htmlContent = htmlContent.replace(
+                            item.placeholder, 
+                            `$$${item.formula}$$`
+                        );
+                    } else {
+                        htmlContent = htmlContent.replace(
+                            item.placeholder, 
+                            `$${item.formula}$`
+                        );
+                    }
+                });
+                
+                // 更新DOM
+                document.getElementById('content').innerHTML = htmlContent;
+                // 为标题添加锚点链接
+                addHeaderLinks();
+
+                // 检查URL中的锚点并跳转
+                setTimeout(() => {
+                    if (window.location.hash) {
+                        const element = document.getElementById(window.location.hash.substring(1));
+                        if (element) {
+                            element.scrollIntoView({ behavior: 'smooth' });
+                        }
+                    }
+                }, 100); // 给一点时间确保DOM完全更新
+                
+                // 初始化 Mermaid
+                mermaid.init(undefined, document.querySelectorAll('.mermaid'));
+                
+                // 代码高亮
+                document.querySelectorAll('pre code').forEach((block) => {
+                    hljs.highlightBlock(block);
+                });
+                
+                // 触发 MathJax 渲染
+                if (window.MathJax && window.MathJax.typesetPromise) {
+                    try {
+                        await window.MathJax.typesetPromise();
+                    } catch (e) {
+                        console.error('MathJax rendering error:', e);
+                    }
+                }
+                
+                // 更新标题
+                const firstH1 = document.querySelector('.markdown-body h1');
+                if (firstH1) {
+                    document.title = firstH1.textContent;
+                }
+
+                // 保留当前的锚点
+                const currentHash = window.location.hash;
+                const newUrl = `${window.location.pathname}?page=${filename}${currentHash}`;
+                history.pushState({ page: filename }, '', newUrl);
+                
+            } catch (error) {
+                console.error('Error loading markdown file:', error);
+                document.getElementById('content').innerHTML = 
+                    `<p>Error loading content. Please make sure the file "${filename}" exists.</p>`;
+            }
+        }
+
+        // 为所有具有data-md属性的链接添加点击事件
+        document.addEventListener('DOMContentLoaded', () => {
+            // 选择所有带有data-md属性的链接，包括导航栏和下拉菜单中的链接
+            document.querySelectorAll('a[data-md]').forEach(link => {
+                link.addEventListener('click', (e) => {
+                    e.preventDefault();
+                    e.stopPropagation();
+                    const mdFile = e.currentTarget.getAttribute('data-md');
+                    if (mdFile) {
+                        loadMarkdown(mdFile);
+                    }
+                });
+            });
+        });
+
+        // 添加折叠功能
+        document.querySelectorAll('.nav-section-title').forEach(title => {
+            title.addEventListener('click', (e) => {
+                e.preventDefault();
+                e.stopPropagation();
+                const section = title.closest('.nav-section');
+                section.classList.toggle('collapsed');
+            });
+        });
+
+        // 初始化页面
+        document.addEventListener('DOMContentLoaded', () => {
+            const urlParams = new URLSearchParams(window.location.search);
+            const page = urlParams.get('page') || 'docs/home.md'; // 设置默认页面
+            loadMarkdown(page);
+        });
+
+        // 处理浏览器前进/后退
+        window.addEventListener('popstate', (e) => {
+            if (e.state && e.state.page) {
+                loadMarkdown(e.state.page);
+            } else {
+                const urlParams = new URLSearchParams(window.location.search);
+                const page = urlParams.get('page') || 'docs/home.md';
+                loadMarkdown(page);
+            }
+        });
+</script>
+
+<!--以下是右侧目录栏的script-->
+
+<script>
+    document.addEventListener('DOMContentLoaded', () => {
+        const toggleButton = document.querySelector('.sidebar-toggle');
+        const rightSidebar = document.querySelector('.right-sidebar');
+        const mainContent = document.querySelector('.main-content');
+        const blogsSection = document.querySelector('#blogs-section');
+        let isRightSidebarActive = false;
+
+        toggleButton.addEventListener('click', () => {
+            isRightSidebarActive = !isRightSidebarActive;
+            
+            if (isRightSidebarActive) {
+                // 完全清空右侧栏
+                rightSidebar.innerHTML = '';
+                
+                // 添加锁定按钮
+                const lockButton = document.createElement('button');
+                lockButton.className = 'right-lock-button';
+                lockButton.innerHTML = '<i class="fas fa-lock"></i>';
+                rightSidebar.appendChild(lockButton);
+
+                // 添加博客内容
+                const clonedBlogsSection = blogsSection.cloneNode(true);
+                rightSidebar.appendChild(clonedBlogsSection);
+                blogsSection.style.display = 'none';
+                rightSidebar.classList.add('active');
+                mainContent.classList.add('shifted');
+                
+                // 为克隆的元素重新绑定事件
+                clonedBlogsSection.querySelectorAll('.nav-link').forEach(link => {
+                    link.addEventListener('click', (e) => {
+                        e.preventDefault();
+                        e.stopPropagation();
+                        const mdFile = e.currentTarget.getAttribute('data-md');
+                        if (mdFile) {
+                            loadMarkdown(mdFile);
+                        }
+                    });
+                });
+
+                clonedBlogsSection.querySelectorAll('.nav-section-title').forEach(title => {
+                    title.addEventListener('click', (e) => {
+                        e.preventDefault();
+                        e.stopPropagation();
+                        const section = title.closest('.nav-section');
+                        section.classList.toggle('collapsed');
+                    });
+                });
+
+                // 重新绑定锁定按钮事件
+                lockButton.addEventListener('click', function() {
+                    const icon = this.querySelector('i');
+                    if (icon.classList.contains('fa-lock-open')) {
+                        icon.classList.remove('fa-lock-open');
+                        icon.classList.add('fa-lock');
+                        rightSidebar.classList.add('locked');
+                    } else {
+                        icon.classList.remove('fa-lock');
+                        icon.classList.add('fa-lock-open');
+                        rightSidebar.classList.remove('locked');
+                        rightSidebar.classList.remove('active');
+                    }
+                });
+            } else {
+                // 移动回左侧时完全清空右侧栏
+                rightSidebar.innerHTML = '';
+                blogsSection.style.display = 'block';
+                rightSidebar.classList.remove('active');
+                mainContent.classList.remove('shifted');
+            }
+        });
+    });
+</script>
+
+
+<!-- 右侧目录是消失、悬停和锁定 -->
+<script>
+    document.addEventListener('DOMContentLoaded', () => {
+        const rightSidebar = document.querySelector('.right-sidebar');
+        const rightLockButton = document.querySelector('.right-lock-button');
+        const rightSidebarTrigger = document.querySelector('.right-sidebar-trigger');
+        
+        // Function to check content and update visibility
+        const updateSidebarVisibility = () => {
+            const hasContent = rightSidebar.children.length > 1;
+            if (!hasContent) {
+                rightSidebarTrigger.style.display = 'none';
+                rightSidebar.style.display = 'none';
+                rightSidebar.classList.remove('locked', 'active');
+                const icon = rightLockButton.querySelector('i');
+                icon.classList.remove('fa-lock-open');
+                icon.classList.add('fa-lock');
+            } else {
+                rightSidebarTrigger.style.display = '';
+                rightSidebar.style.display = '';
+                // 确保初始状态为锁定
+                rightSidebar.classList.add('locked');
+                const icon = rightLockButton.querySelector('i');
+                icon.classList.remove('fa-lock-open');
+                icon.classList.add('fa-lock');
+            }
+        };
+        
+        // Add lock functionality
+        rightLockButton.addEventListener('click', function() {
+            if (rightSidebar.children.length <= 1) {
+                return; // Ignore lock clicks when there's no content
+            }
+            
+            const icon = this.querySelector('i');
+            if (icon.classList.contains('fa-lock-open')) {
+                icon.classList.remove('fa-lock-open');
+                icon.classList.add('fa-lock');
+                rightSidebar.classList.add('locked');
+            } else {
+                icon.classList.remove('fa-lock');
+                icon.classList.add('fa-lock-open');
+                rightSidebar.classList.remove('locked');
+                rightSidebar.classList.remove('active');
+            }
+        });
+
+        // Initial visibility check and set locked state
+        updateSidebarVisibility();
+
+        // Only show initial animation if sidebar has content
+        setTimeout(() => {
+            const hasContent = rightSidebar.children.length > 1;
+            if (hasContent) {
+                rightSidebar.classList.add('active');
+                // 确保初始动画后保持锁定状态
+                rightSidebar.classList.add('locked');
+            }
+        }, 100);
+
+        // Add observer to monitor content changes
+        const observer = new MutationObserver(updateSidebarVisibility);
+        observer.observe(rightSidebar, { childList: true });
+    });
+
+
+    // 为标题添加锚点链接的函数
+    function addHeaderLinks() {
+        // 生成slug的函数
+        function generateSlug(text) {
+            return text
+                .toLowerCase()
+                .replace(/[^\w\s-]/g, '') // 移除特殊字符
+                .replace(/\s+/g, '-')     // 空格替换为连字符
+                .replace(/-+/g, '-')      // 多个连字符合并为一个
+                .trim('-');               // 移除首尾连字符
+        }
+
+        // 为所有标题添加ID和链接
+        const headers = document.querySelectorAll('.markdown-body h1, .markdown-body h2, .markdown-body h3, .markdown-body h4, .markdown-body h5, .markdown-body h6');
+        
+        headers.forEach(header => {
+            const text = header.textContent;
+            const slug = generateSlug(text);
+            
+            // 设置ID
+            header.id = slug;
+            
+            // 创建链接元素
+            const link = document.createElement('a');
+            link.href = `#${slug}`;
+            link.className = 'header-link';
+            link.innerHTML = '#';
+            
+            // 将链接插入到标题中
+            header.appendChild(link);
+        });
+    }
+
+</script>
+
+
+<style>
+    footer {
+        font-size: small;
+        border-top: 1px solid #c0c0c0;
+        padding-top: 0.1em;
+        margin-top: 0.1em;
+        color: #c0c0c0;
+        margin-left: 230px; /* 与侧边栏宽度相同 */
+    }
+    
+    footer a {
+        color: #80a0b0;
+    }
+    
+    .footer-text {
+        padding-left: 40px; /* 与 main-content 的 padding 相同 */
+        padding-bottom: -10px;
+    }
+</style>
+    
+<footer>
+    <div class="footer-text">
+        © CC BY-SA 4.0: Feel free to use this template, but please keep the Powered by <a href="https://github.com/World-Snapshot/doc" target="_blank">World Snapshot Doc</a>.
+    </div>
+</footer>
+
+</body>
+</html>

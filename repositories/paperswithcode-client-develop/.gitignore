@@ -1,0 +1,28 @@
+# Run artifacts
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints
+
+# Notebooks
+*.ipynb
+
+# Build artifacts
+paperswithcode_client.egg-info
+build/
+dist/
+
+# Test artifacts
+.coverage
+
+# IDE Configuration
+.idea
+.vscode
+pyrightconfig.json
+
+# Virtualenv
+.venv
+venv
+.envrc
+
+# Documentation artefacts
+docs/_build/

@@ -1,0 +1,32 @@
+Task Name,Dataset Count
+Speech Separation,16
+Audio Source Separation,15
+Music Transcription,14
+Speaker Verification,12
+Speaker Diarization,11
+Music Source Separation,9
+Voice Conversion,8
+Music Modeling,6
+Speech Dereverberation,6
+Multi-instrument Music Transcription,6
+Voice Anti-spoofing,6
+Audio captioning,5
+Music Captioning,5
+Speaker Identification,4
+Speaker Separation,3
+Multi-task Audio Source Seperation,3
+Rhythm,2
+Piano Music Modeling,2
+Audio Signal Processing,2
+Voice Cloning,2
+Drum Transcription in Music (DTM),2
+Salt-And-Pepper Noise Removal,1
+Cross-environment ASR,1
+Cross-device ASR,1
+Noise Estimation,1
+Audio Fingerprint,1
+Soundscape evaluation,1
+"Speaker Attribution in German Parliamentary Debates (GermEval 2023, subtask 1)",1
+"Speaker Attribution in German Parliamentary Debates (GermEval 2023, subtask 2)",1
+Acoustic Modelling,1
+Speaker Profiling,1

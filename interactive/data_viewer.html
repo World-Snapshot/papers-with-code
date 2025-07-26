@@ -1,0 +1,454 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Papers With Code Data Viewer</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/PapaParse/5.4.1/papaparse.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Arial, sans-serif;
+            background: #f5f5f5;
+            color: #333;
+        }
+        
+        .header {
+            background: #fff;
+            border-bottom: 1px solid #ddd;
+            padding: 20px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+        
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        
+        .controls {
+            background: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            margin-bottom: 20px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+        
+        .search-box {
+            width: 100%;
+            padding: 10px;
+            font-size: 16px;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+            margin-bottom: 10px;
+        }
+        
+        .filters {
+            display: flex;
+            gap: 10px;
+            flex-wrap: wrap;
+        }
+        
+        .filter-btn {
+            padding: 8px 16px;
+            border: 1px solid #ddd;
+            background: #fff;
+            border-radius: 4px;
+            cursor: pointer;
+            transition: all 0.2s;
+        }
+        
+        .filter-btn:hover {
+            background: #f0f0f0;
+        }
+        
+        .filter-btn.active {
+            background: #3366cc;
+            color: white;
+            border-color: #3366cc;
+        }
+        
+        .stats {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 20px;
+            margin-bottom: 20px;
+        }
+        
+        .stat-card {
+            background: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            text-align: center;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+        
+        .stat-number {
+            font-size: 32px;
+            font-weight: bold;
+            color: #3366cc;
+        }
+        
+        .stat-label {
+            color: #666;
+            margin-top: 5px;
+        }
+        
+        .data-section {
+            background: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            margin-bottom: 20px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+        
+        .section-title {
+            font-size: 24px;
+            margin-bottom: 20px;
+            color: #333;
+        }
+        
+        .task-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+            gap: 15px;
+        }
+        
+        .task-card {
+            border: 1px solid #ddd;
+            padding: 15px;
+            border-radius: 6px;
+            transition: all 0.2s;
+            cursor: pointer;
+        }
+        
+        .task-card:hover {
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+            transform: translateY(-2px);
+        }
+        
+        .task-name {
+            font-weight: bold;
+            color: #3366cc;
+            margin-bottom: 5px;
+        }
+        
+        .task-info {
+            font-size: 14px;
+            color: #666;
+        }
+        
+        .chart-container {
+            max-width: 600px;
+            margin: 20px auto;
+        }
+        
+        .loading {
+            text-align: center;
+            padding: 40px;
+            color: #666;
+        }
+        
+        .modal {
+            display: none;
+            position: fixed;
+            z-index: 1000;
+            left: 0;
+            top: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(0,0,0,0.5);
+        }
+        
+        .modal-content {
+            background-color: #fff;
+            margin: 5% auto;
+            padding: 30px;
+            border-radius: 8px;
+            width: 80%;
+            max-width: 800px;
+            max-height: 80vh;
+            overflow-y: auto;
+        }
+        
+        .close {
+            color: #aaa;
+            float: right;
+            font-size: 28px;
+            font-weight: bold;
+            cursor: pointer;
+        }
+        
+        .close:hover {
+            color: #000;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <div class="container">
+            <h1>Papers With Code Data Viewer</h1>
+            <p>Interactive explorer for AI/ML tasks, datasets, and benchmarks</p>
+        </div>
+    </div>
+    
+    <div class="container">
+        <div class="stats" id="stats">
+            <div class="stat-card">
+                <div class="stat-number" id="totalTasks">-</div>
+                <div class="stat-label">Total Tasks</div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-number" id="totalDatasets">-</div>
+                <div class="stat-label">Datasets</div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-number" id="totalPapers">-</div>
+                <div class="stat-label">Papers</div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-number" id="totalCode">-</div>
+                <div class="stat-label">Code Links</div>
+            </div>
+        </div>
+        
+        <div class="controls">
+            <input type="text" class="search-box" id="searchBox" placeholder="Search tasks, datasets, or papers...">
+            <div class="filters">
+                <button class="filter-btn active" data-filter="all">All</button>
+                <button class="filter-btn" data-filter="cv">Computer Vision</button>
+                <button class="filter-btn" data-filter="nlp">NLP</button>
+                <button class="filter-btn" data-filter="audio">Audio</button>
+                <button class="filter-btn" data-filter="other">Other</button>
+            </div>
+        </div>
+        
+        <div class="data-section">
+            <h2 class="section-title">Task Distribution</h2>
+            <div class="chart-container">
+                <canvas id="taskChart"></canvas>
+            </div>
+        </div>
+        
+        <div class="data-section">
+            <h2 class="section-title">Top Tasks by Dataset Count</h2>
+            <div class="task-grid" id="taskGrid">
+                <div class="loading">Loading task data...</div>
+            </div>
+        </div>
+    </div>
+    
+    <div id="taskModal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <div id="modalContent"></div>
+        </div>
+    </div>
+    
+    <script>
+        // Global data storage
+        let allTasks = [];
+        let currentFilter = 'all';
+        
+        // Initialize the viewer
+        document.addEventListener('DOMContentLoaded', async () => {
+            // Update stats
+            document.getElementById('totalTasks').textContent = '4,451';
+            document.getElementById('totalDatasets').textContent = '15,008';
+            document.getElementById('totalPapers').textContent = '576,261';
+            document.getElementById('totalCode').textContent = '300,161';
+            
+            // Load and display task data
+            await loadTaskData();
+            
+            // Set up event listeners
+            setupEventListeners();
+            
+            // Create distribution chart
+            createDistributionChart();
+        });
+        
+        async function loadTaskData() {
+            try {
+                // Load CV tasks
+                const cvResponse = await fetch('../results/cv_tasks_detailed.csv');
+                const cvText = await cvResponse.text();
+                const cvData = Papa.parse(cvText, { header: true }).data;
+                
+                // Load NLP tasks
+                const nlpResponse = await fetch('../results/nlp_tasks_detailed.csv');
+                const nlpText = await nlpResponse.text();
+                const nlpData = Papa.parse(nlpText, { header: true }).data;
+                
+                // Load Audio tasks
+                const audioResponse = await fetch('../results/audio_tasks_detailed.csv');
+                const audioText = await audioResponse.text();
+                const audioData = Papa.parse(audioText, { header: true }).data;
+                
+                // Load Other tasks
+                const otherResponse = await fetch('../results/other_tasks_detailed.csv');
+                const otherText = await otherResponse.text();
+                const otherData = Papa.parse(otherText, { header: true }).data;
+                
+                // Combine all tasks
+                allTasks = [
+                    ...cvData.map(t => ({...t, category: 'cv'})),
+                    ...nlpData.map(t => ({...t, category: 'nlp'})),
+                    ...audioData.map(t => ({...t, category: 'audio'})),
+                    ...otherData.map(t => ({...t, category: 'other'}))
+                ];
+                
+                // Display tasks
+                displayTasks();
+                
+            } catch (error) {
+                console.error('Error loading task data:', error);
+                document.getElementById('taskGrid').innerHTML = '<div class="loading">Error loading data. Please check if CSV files are available.</div>';
+            }
+        }
+        
+        function displayTasks() {
+            const taskGrid = document.getElementById('taskGrid');
+            const searchTerm = document.getElementById('searchBox').value.toLowerCase();
+            
+            // Filter tasks
+            let filteredTasks = allTasks.filter(task => {
+                if (!task.Task) return false;
+                
+                // Category filter
+                if (currentFilter !== 'all' && task.category !== currentFilter) {
+                    return false;
+                }
+                
+                // Search filter
+                if (searchTerm && !task.Task.toLowerCase().includes(searchTerm)) {
+                    return false;
+                }
+                
+                return true;
+            });
+            
+            // Sort by dataset count
+            filteredTasks.sort((a, b) => {
+                const countA = parseInt(a['Dataset Count']) || 0;
+                const countB = parseInt(b['Dataset Count']) || 0;
+                return countB - countA;
+            });
+            
+            // Display top 50 tasks
+            const topTasks = filteredTasks.slice(0, 50);
+            
+            taskGrid.innerHTML = topTasks.map(task => `
+                <div class="task-card" onclick="showTaskDetails('${encodeURIComponent(JSON.stringify(task))}')">
+                    <div class="task-name">${task.Task}</div>
+                    <div class="task-info">
+                        <div>Datasets: ${task['Dataset Count'] || 0}</div>
+                        <div>Category: ${getCategoryName(task.category)}</div>
+                        ${task['Parent Task'] ? `<div>Parent: ${task['Parent Task']}</div>` : ''}
+                    </div>
+                </div>
+            `).join('');
+        }
+        
+        function getCategoryName(category) {
+            const names = {
+                'cv': 'Computer Vision',
+                'nlp': 'Natural Language Processing',
+                'audio': 'Audio Processing',
+                'other': 'Other'
+            };
+            return names[category] || category;
+        }
+        
+        function setupEventListeners() {
+            // Search box
+            document.getElementById('searchBox').addEventListener('input', displayTasks);
+            
+            // Filter buttons
+            document.querySelectorAll('.filter-btn').forEach(btn => {
+                btn.addEventListener('click', (e) => {
+                    document.querySelectorAll('.filter-btn').forEach(b => b.classList.remove('active'));
+                    e.target.classList.add('active');
+                    currentFilter = e.target.dataset.filter;
+                    displayTasks();
+                });
+            });
+            
+            // Modal close
+            document.querySelector('.close').addEventListener('click', () => {
+                document.getElementById('taskModal').style.display = 'none';
+            });
+            
+            window.addEventListener('click', (e) => {
+                const modal = document.getElementById('taskModal');
+                if (e.target === modal) {
+                    modal.style.display = 'none';
+                }
+            });
+        }
+        
+        function showTaskDetails(encodedTask) {
+            const task = JSON.parse(decodeURIComponent(encodedTask));
+            const modal = document.getElementById('taskModal');
+            const content = document.getElementById('modalContent');
+            
+            content.innerHTML = `
+                <h2>${task.Task}</h2>
+                <p><strong>Category:</strong> ${getCategoryName(task.category)}</p>
+                <p><strong>Dataset Count:</strong> ${task['Dataset Count'] || 0}</p>
+                ${task['Parent Task'] ? `<p><strong>Parent Task:</strong> ${task['Parent Task']}</p>` : ''}
+                ${task['Description'] ? `<p><strong>Description:</strong> ${task['Description']}</p>` : ''}
+                ${task['Benchmarks'] ? `<p><strong>Benchmarks:</strong> ${task['Benchmarks']}</p>` : ''}
+                ${task['Metrics'] ? `<p><strong>Metrics:</strong> ${task['Metrics']}</p>` : ''}
+            `;
+            
+            modal.style.display = 'block';
+        }
+        
+        function createDistributionChart() {
+            const ctx = document.getElementById('taskChart').getContext('2d');
+            new Chart(ctx, {
+                type: 'doughnut',
+                data: {
+                    labels: ['Computer Vision', 'NLP', 'Other', 'Audio'],
+                    datasets: [{
+                        data: [2275, 1093, 1043, 40],
+                        backgroundColor: [
+                            '#3366cc',
+                            '#dc3912',
+                            '#ff9900',
+                            '#109618'
+                        ]
+                    }]
+                },
+                options: {
+                    responsive: true,
+                    maintainAspectRatio: false,
+                    plugins: {
+                        legend: {
+                            position: 'bottom'
+                        },
+                        tooltip: {
+                            callbacks: {
+                                label: function(context) {
+                                    const label = context.label || '';
+                                    const value = context.parsed || 0;
+                                    const total = context.dataset.data.reduce((a, b) => a + b, 0);
+                                    const percentage = ((value / total) * 100).toFixed(1);
+                                    return `${label}: ${value} tasks (${percentage}%)`;
+                                }
+                            }
+                        }
+                    }
+                }
+            });
+        }
+    </script>
+</body>
+</html>

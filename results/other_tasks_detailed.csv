@@ -1,0 +1,1044 @@
+Task Name,Dataset Count,Common Datasets (Top 10),Benchmarks,SOTA Metrics,Subtasks,Categories,Description (First 200 chars)
+Person Re-Identification,65,eSports Sensors Dataset; DukeMTMC-reID; Dataset: Privacy-Preserving Gaze Data Streaming in Immersive Interactive Virtual Reality: Robustness and User Experience.; Market1501-Attributes; ICFG-PEDES; P-DukeMTMC-reID; Market-1501; BTS3.1; TVPReid; CityFlow,eSports Sensors Dataset; DukeMTMC-reID; Market-1501->DukeMTMC-reID; P-DukeMTMC-reID; Market-1501; AG-ReID; SYSU-MM01; Market-1501-C; MSMT17; PRID2011, mAP; Rank-1 (Indoor Search);  mAP (All Search); ROC AUC;  Rank-5; Rank-1 (All Search); mINP;  mAP (Indoor Search);  mINP (Indoor Search); mINP (All Search),Large-Scale Person Re-Identification; Direct Transfer Person Re-identification; Cloth-Changing Person Re-Identification; Cross-Modal  Person Re-Identification; Occluded Person Re-Identification,Computer Vision,**Person Re-Identification** is a computer vision task in which the goal is to match a person's identity across different cameras or locations in a video or image sequence. It involves detecting and t...
+Data Augmentation,63,CCPD; Evidence Inference; Clotho; MVTec D2S; LITIS Rouen; Incidents; Konzil; MeQSum; Synthetic COVID-19 CXR Dataset; Slakh2100,CIFAR-10; ImageNet; GA1457,Accuracy (%); Percentage error; Classification Accuracy,Image Augmentation; Text Augmentation,Methodology; Computer Vision; Natural Language Processing,"Data augmentation involves techniques used for increasing the amount of data, based on different modifications, to expand the amount of examples in the original dataset. Data augmentation not only hel..."
+Multi-Task Learning,59,Photographic Defect Severity; NYUv2; Clotho; CQR; Meta-World Benchmark; THCHS-30; CropAndWeed; UTKFace; FIW-MM; CS,NYUv2; CelebA; ChestX-ray14; Cityscapes test; QM9; UTKFace; OMNIGLOT; wireframe dataset,RMSE; Average Accuracy; sAP10; Error; sAP15; delta_m; FH; Mean IoU; mIoU; ∆m%,Multi-task Language Understanding; Task Arithmetic,Methodology,"Multi-task learning aims to learn multiple different tasks simultaneously while maximizing  performance on one or all of the tasks.    <span style=""color:grey; opacity: 0.6"">( Image credit: [Cross-sti..."
+Self-Supervised Learning,47,MAX-60K; 3DSeg-8; Argoverse 2 Lidar; Open Radar Datasets; DABS; YUD+; OrangeSum; AVA-ActiveSpeaker; COVID-CT; Wild-Time,TinyImageNet; STL-10; DABS; CREMA-D; cifar100; CIFAR-100; CIFAR-10; ImageNet-100 (TEMI Split); cifar10; Tiny ImageNet,Med. Imaging; Sensors; Text; Natural Images; average top-1 classification accuracy; Top-1 Accuracy; Speech; Images & Text; Accuracy,Unsupervised Video Clustering; Point Cloud Pre-training,Computer Vision,"**Self-Supervised Learning** is proposed for utilizing unlabeled data with the success of supervised learning. Producing a dataset with good labels is expensive, while unlabeled data is being generate..."
+Time Series Forecasting,46,METR-LA; UTSD; Consumer Spendings; Multivariate-Mobility-Paris; Amazon MTPP; PJM(AEP); Hotel; Weather; EarthNet2021; Exchange,ETTh2 (168) Multivariate; ETTh1 (720) Multivariate; Weather2K1786 (336); ETTh1 (48) Univariate; Weather (96); ETTh1 (336) Univariate; Solar (96); ETTh1 (336) Multivariate; Electricity (336); ETTh2 (24) Univariate,MSE ; MAPE; RMSE; MSE; 9 steps MAE; Accuracy; MAE,Correlated Time Series Forecasting; Probabilistic Time Series Forecasting; Multivariate Time Series Forecasting; New Product Sales Forecasting; COVID-19 Tracking,Time Series,"**Time Series Forecasting** is the task of fitting a model to historical, time-stamped data in order to predict future values. Traditional approaches include moving average, exponential smoothing, and..."
+Entity Linking,44,ShARe/CLEF 2014: Task 2 Disorders; DBLP-QuAD; BB; WebQuestionsSP; Twitter-MEL; BC7 NLM-Chem; MEIR; CoNLL; BioRED; WiC-TSV,BC7 NLM-Chem; WebQSP-WD; N3-Reuters-128; OKE-2015; WiC-TSV; TAC-KBP 2010; MSNBC; CoNLL-Aida; Rare Diseases Mentions in MIMIC-III (Text-to-UMLS); FUNSD,Task 3 Accuracy: all; Macro F1; Micro F1; Task 3 Accuracy: general purpose; Task 2 Accuracy: domain specific; Task 2 Accuracy: general purpose; Task 1 Accuracy: general purpose; Micro-F1 strong; F1-score (strict); Task 1 Accuracy: all,N/A,Natural Language Processing,"Assigning a unique identity to entities (such as famous individuals, locations, or companies) mentioned in text (Source: Wikipedia)."
+Misinformation,44,NELA-GT-2018; CHECKED; ArCOV-19; COVID-Q; NELA-GT-2020; Monant Medical Misinformation; HpVaxFrames; COVID-19 Twitter Chatter Dataset; NELA-GT-2021; Stanceosaurus,NLP4IF-2021--Fighting the COVID-19 Infodemic ,Average F1,N/A,Miscellaneous,N/A
+Decision Making,40,Evidence Inference; SentiCap; GazeFollow; Flickr Cropping Dataset; RoboNet; Negotiation Dialogues Dataset; DemCare; ROAD; BeNYfits; Industrial Benchmark Dataset for Customer Escalation Prediction,./01/01/1967; NASA C-MAPSS,0..5sec; Average Remaining Cycles,Imitation Learning,Reasoning; Methodology,N/A
+Continual Learning,35,"DSC (10 tasks); WikiArt; ASC (TIL, 19 tasks); ROAD; ConCon Dataset; SPOT-10; HASY; CRL-Person; HOWS; Wild-Time",DSC (10 tasks); Split MNIST (5 tasks); CUB-200-2011 (20 tasks) - 1 epoch; Tiny-ImageNet (10tasks); visual domain decathlon (10 tasks); Flowers (Fine-grained 6 Tasks); AIDS; MLT17; split CIFAR-100; 5-Datasets,Avg. Accuracy; Top 1 Accuracy %; Pretrained/Transfer Learning; Average Accuracy; decathlon discipline (Score); BWT; 1:3 Accuracy; Accuracy; F1 - macro; MLP Hidden Layers-width,TiROD; Class Incremental Learning; unsupervised class-incremental learning; Continual Panoptic Segmentation; Continual Named Entity Recognition,Methodology; Computer Vision; Natural Language Processing,"**Continual Learning** (also known as **Incremental Learning**, **Life-long Learning**) is a concept to learn a model for a large number of tasks sequentially without forgetting knowledge obtained fro..."
+Metric Learning,33,TopLogo-10; DyML-Vehicle; Luna-1; VIPeR; CUB-200-2011; In-Shop; Tsinghua Dogs; DyML-Product; CASIA-WebFace; WildDeepfake,DyML-Animal; DyML-Vehicle; CUB-200-2011; In-Shop; Stanford Online Products; CARS196; DyML-Product;  CUB-200-2011,Average-mAP; R@1,N/A,Methodology; Computer Vision,The goal of **Metric Learning** is to learn a representation function that maps objects into an embedded space. The distance in the embedded space should preserve the objects’ similarity — similar obj...
+regression,31,"MAX-60K; FLIP; INI-30; DRIFT; SciRepEval; FLIP -- AAV, Designed vs mutant; California Housing Prices; bcTCGA; MineralImage5k; Concrete Compressive Strength",Synthetic: y = x * sin x; ADORE; Medical Cost Personal Dataset; California Housing Prices; Car_Price_Prediction; Concrete Compressive Strength,chemical macro-average RMSE; R2 Score; lambda; R Squared; micro-averaged RMSE,Travel Time Estimation; quantile regression,Miscellaneous; Time Series; Methodology; Computer Vision,N/A
+Drug Discovery,26,CausalBench; ImDrug; SIDER; approved_drug_target; KIBA; DAVIS-DTA; Tox21; HIV (Human Immunodeficiency Virus); QED; FreeSolv (Free Solvation),SIDER; BindingDB IC50; ToxCast; DRD2; KIBA; DAVIS-DTA; BACE; PDBbind; Tox21; QED,Error ratio; CI; RMSE; MSE; Diversity; Success; AUC; Pearson Correlation,Text-based de novo Molecule Generation; Drug Response Prediction; Therapeutics Data Commons,Medical,"Drug discovery is the task of applying machine learning to discover new candidate drugs.    <span style=""color:grey; opacity: 0.6"">( Image credit: [A Turing Test for Molecular Generators](https://pubs..."
+Time Series Analysis,25,eSports Sensors Dataset; A Simulated 4-DOF Ship Motion Dataset for System Identification under Environmental Disturbances; Consumer Spendings; Hotel; Solar-Power; Paderbone University Bearing Fault Benckmark; MOSAD; EigenWorms; Extreme Events > Natural Disasters > Hurricane; PhysioNet Challenge 2012,PhysioNet Challenge 2012; Speech Commands; Ventilator Pressure Prediction,F1; % Test Accuracy (Raw Data); % Test Accuracy; MAE,Data Compression; Semi-supervised time series classification; Time Series Regression; Time Series Alignment; Time Series Denoising,Time Series,"**Time Series Analysis** is a statistical technique used to analyze and model time-based data. It is used in various fields such as finance, economics, and engineering to analyze patterns and trends i..."
+Fairness,23,WinoBias; BAF; SPEECH-COCO; ImDrug; RFW; UTKFace; ACS PUMS; DiveFace; DialogueFairness; HELP,DiveFace; BAF – Variant I; BAF – Base; BAF – Variant III; MORPH; BAF – Variant V; UTKFace; BAF – Variant II; BAF – Variant IV,Degree of Bias (DoB); Predictive Equality (age),Exposure Fairness,Miscellaneous; Adversarial; Computer Vision,N/A
+Multimodal Deep Learning,22,Multimodal PISA; CUB-200-2011; Uncorrelated Corrupted Dataset; WebLI; Mudestreda; Gaze-CIFAR-10; ScienceQA; MIMIC Meme Dataset; OLIVES Dataset; MVK,CUB-200-2011,Accuracy,Multimodal Text and Image Classification,Methodology; Natural Language Processing,"**Multimodal deep learning** is a type of deep learning that combines information from multiple modalities, such as text, image, audio, and video, to make more accurate and comprehensive predictions. ..."
+Robotic Grasping,22,GraspClutter6D; Grasp MultiObject; RoboNet; Multiview Manipulation Data; robosuite Benchmark; Calandra Dataset; Cornell; HouseCat6D; NBMOD; Dex-Net 2.0,NBMOD; GraspNet-1Billion;  Jacquard dataset; Cornell Grasp Dataset,Accuracy (%); AP_novel; mAP; 5 fold cross validation; AP_similar; AP_seen; Acc,Grasp Contact Prediction,Robots; Miscellaneous,This task is composed of using Deep Learning to identify how best to grasp objects using robotic arms in different scenarios. This is a very complex task as it might involve dynamic environments and o...
+Graph Regression,21,ZINC; MoleculeNet; PolyDensity; OCB; DrivAerNet; SupplyGraph; Tox21; hERG; PCQM4Mv2-LSC; GlassTemp,ZINC 10k; PGR ; PCQM4M-LSC; ZINC; F2; PARP1; ZINC-500k; ESOL; ZINC 100k; ZINC-full,Validation MAE; AUC@80%Train; RMSE; RMSE ; RMSE@80%Train; R2; MAE; Test MAE; Inference Time (ms),N/A,Graphs,The regression task is similar to graph classification but using different loss function and performance metric.
+Imitation Learning,21,CARLA; AI2-THOR; Reactive Diffusion Policy-Dataset; IL-Datasets; DeformPAM-Dataset; CHALET; ManiSkill2; MineRL; StarData; AirSim,N/A,N/A,Behavioural cloning,Methodology,"**Imitation Learning** is a framework for learning a behavior policy from demonstrations. Usually, demonstrations are presented in the form of state-action trajectories, with each pair indicating the ..."
+Age Estimation,20,USF; VGGFace2 HQ; Age and Gender; Bone Age; UTKFace; CACD; MegaAge; AADB; Facial  Skeletal angles; mebeblurf,ChaLearn 2015; AFAD; mebeblurf; AgeDB; LAGENDA; PhysioNet Challenge 2021; UTKFace; KANFace; FGNET; IMDB-Clean,Average mean absolute error; Mean Squared Error; Mean Squared Error (cross-val); e-error; Accuracy; CS; Mean absolute error; MAE; Mean Absolute Error (cross-val),Few-shot Age Estimation,Computer Vision,"Age Estimation is the task of estimating the age of a person from an image some other kind of data.    <span style=""color:grey; opacity: 0.6"">( Image credit: [BridgeNet](https://arxiv.org/pdf/1904.033..."
+Reinforcement Learning (RL),20,V-D4RL; FinRL-Meta; CivRealm; ManiSkill2; RoomEnv-v2; POPGym; QDax; lilGym; MIDGARD; MIKASA-Robo Dataset,.; ProcGen,0..5sec; Mean Normalized Performance,RoomEnv-v2; RoomEnv-v1; Off-policy evaluation; Multi-Objective Reinforcement Learning; 3D Point Cloud Reinforcement Learning,Methodology; Computer Vision; Knowledge Base; Computer Code,**Reinforcement Learning (RL)** involves training an agent to take actions in an environment to maximize a cumulative reward signal. The agent interacts with the environment and learns by receiving fe...
+Graph Clustering,19,Citeseer; SLNET; Orkut; Pollen et al; Goolam et al; 97 synthetic datasets; Deng et al; Cora; Treutlein et al; SNAP,Citeseer; Deng et al; Cora; Treutlein et al; Pollen et al; Bozec et al; Biase et al; Goolam et al; Yan et al; Pubmed,Adjusted Rand Index; NMI; Precision; F1; ARI; F score; ACC,Clustering Ensemble,Graphs,"**Graph Clustering** is the process of grouping the nodes of the graph into clusters, taking into account the edge structure of the graph in such a way that there are several edges within each cluster..."
+Quantization,18,REDDIT-12K; IJB-C; Bach Doodle; FAS100K; Kannada-MNIST; LFW; Groove; Reddit; Twitter100k; Wiki-40B,IJB-C; AgeDB-30; LFW; Wiki-40B; CFP-FP; CIFAR-10; ImageNet; Knowledge-based:; COCO (Common Objects in Context); IJB-B,Perplexity; TAR @ FAR=1e-4; Weight bits; Activation bits; Accuracy; All; Top-1 Accuracy (%); MAP,Data Free Quantization; UNET Quantization,Methodology; Computer Vision,"**Quantization** is a promising technique to reduce the computation cost of neural network training, which can replace high-cost floating-point numbers (e.g., float32) with low-cost fixed-point number..."
+Multivariate Time Series Forecasting,18,ETT; METR-LA; PeMSD8; MIMIC-III; Multivariate-Mobility-Paris; PhysioNet Challenge 2012; Weather; PeMSD7; PeMS04; PEMS-BAY,ETTh1 (48) Multivariate; ETTh1 (720) Multivariate; MIMIC-III; USHCN-Daily; ETTh2 (720) Multivariate; PhysioNet Challenge 2012; Weather; ETTh1 (96) Multivariate; Helpdesk; Traffic,"MSE stdev; Jitter; NegLL; MSE ; RMSE; normalized RMSE; MSE; mse (10^-3); Accuracy; MSE (10^-2, 50% missing)",GLinear,Time Series,N/A
+Time Series,18,ETT; Gaze-CIFAR-10; Sales; QM9; Weather; stocknet; MultiSenseBadminton; BorealTC; MSL; Monopedal Gaits,N/A,N/A,N/A,N/A,N/A
+Binarization,17,H-DIBCO 2010; DIBCO 2019; H-DIBCO 2012; H-DIBCO 2016; DIBCO 2011; DIBCO 2009; CIFAR-100; CIFAR-10; H-DIBCO 2018; ImageNet,N/A,N/A,N/A,N/A,N/A
+Topic Models,17,"AG News; OpoSum; RuWiki-Good; MIE Articles Dataset; Reddit; Mapping Topics in 100,000 Real-Life Moral Dilemmas; New York Times Annotated Corpus; MIE Articles Dataset (1996-2024); 20NewsGroups; COVID-19 Tweets with Motivation and Topics",AG News; AgNews; 20NewsGroups; Arxiv HEP-TH citation graph; 20 Newsgroups; NYT,NPMI; C_v; Topic coherence@5; Topic Coherence@50; Test perplexity; MACC,Topic coverage; Dynamic Topic Modeling,Natural Language Processing,"A topic model is a type of statistical model for discovering the abstract ""topics"" that occur in a collection of documents. Topic modeling is a frequently used text-mining tool for the discovery of hi..."
+Meta-Learning,17,Chinese Literature NER RE; Meta Omnium; Meta-World Benchmark; TyDiQA-GoldP; Meta-Dataset; Kuzushiji-49; ExtremeWeather; MEx; CODEBRIM; Prostate MRI Segmentation Dataset,"ML45; MT50; OMNIGLOT - 1-Shot, 20-way; ML10",Average Success Rate; Meta-test success rate; % Test Accuracy; Meta-train success rate; Meta-test success rate (zero-shot),Sample Probing; universal meta-learning; Few-Shot Learning,Methodology; Computer Vision,"Meta-learning is a methodology considered with ""learning to learn"" machine learning algorithms.    <span style=""color:grey; opacity: 0.6"">( Image credit: [Model-Agnostic Meta-Learning for Fast Adaptat..."
+SMAC+,17,Off_Hard_sequential; Def_Infantry_sequential; Def_Outnumbered_parallel; Off_Superhard_parallel; Off_Complicated_sequential; Def_Armored_parallel; Def_Outnumbered_sequential; Off_Hard_parallel; Def_Armored_sequential; Off_Distant_sequential,N/A,N/A,N/A,N/A,N/A
+Long-tail Learning,16,Imbalanced-MiniKinetics200; CelebA; EGTEA; NIH-CXR-LT; Kinetics; ImageNet-LT; mini-ImageNet-LT; CIFAR-100; COCO-MLT; Animal Kingdom,CIFAR-10-LT (ρ=200); ImageNet-LT; COCO-MLT; MIMIC-CXR-LT; Places-LT; VOC-MLT; iNaturalist 2018; CIFAR-100-LT (ρ=50); Lot-insts; CIFAR-10-LT (ρ=50),Top 1 Accuracy; Average Recall; Average mAP; Average Precision; Top-1 Accuracy; Accuracy;  Macro-F1; Error Rate; Balanced Accuracy,Long-tail learning with class descriptors,Methodology,"Long-tailed learning, one of the most challenging problems in visual recognition, aims to train well-performing models from a large number of images that follow a long-tailed class distribution."
+Prompt Engineering,16,Food-101; FGVC-Aircraft; ImageNet-R; Oxford-IIIT Pets; ImageNet-A; Oxford 102 Flower; Stanford Cars; Oxford-IIIT Pet Dataset; SUN397; OmniBenchmark,Food-101; FGVC-Aircraft; ImageNet-R; ImageNet V2; ImageNet-A; Oxford 102 Flower; Stanford Cars; Oxford-IIIT Pet Dataset; SUN397; ImageNet,Accuracy; Harmonic mean; Top-1 accuracy %,Visual Prompting,Computer Vision; Natural Language Processing,"**Prompt engineering** is the process of designing and refining the prompts used to generate text from language models, such as GPT-3 or similar models. The goal of prompt engineering is to improve th..."
+Contrastive Learning,16,"CommitBART; DAD; BankNote-Net; STL-10; INRIA Aerial Image Labeling; GuitarSet; 10,000 People - Human Pose Recognition Data; US-4; CIFAR-10; Extended Agriculture-Vision","imagenet-1k; STL-10; 10,000 People - Human Pose Recognition Data; CIFAR-10",0..5sec; Accuracy (Top-1); ImageNet Top-1 Accuracy,N/A,Methodology; Computer Vision,**Contrastive Learning** is a deep learning technique for unsupervised representation learning. The goal is to learn a representation of data such that similar instances are close together in the repr...
+Learning with noisy labels,16,Galaxy Zoo DECaLS; ANIMAL; Red MiniImageNet 20% label noise; Red MiniImageNet 80% label noise; CIFAR-10N; Chaoyang; CIFAR-100; VoxCeleb1; Clothing1M; CIFAR-10,N/A,N/A,N/A,N/A,N/A
+Self-Driving Cars,16,HPD; SOD; OC; TUT Sound Events 2018; Lost and Found; Argoverse 2 Motion Forecasting; GD; Shifts; Hyper Drive; BDD-X,N/A,N/A,N/A,N/A,N/A
+Weather Forecasting,16,Extreme Events > Natural Disasters > Hurricane; SEVIR; Weather2K; A2D2; NOAA Atmospheric Temperature Dataset; nuScenes; WeatherBench; Shifts; GFF; CloudCast,SEVIR; NOAA Atmospheric Temperature Dataset; Shifts; LA; SD,MSE (t+6); MSE; MAE (t+10); MSE (t+1); mCSI; R-AUC MSE; MAE (t+1),Solar Irradiance Forecasting,Miscellaneous; Time Series,"**Weather Forecasting** is the prediction of future weather conditions such as precipitation, temperature, pressure and wind.   <span class=""description-source"">Source: [MetNet: A Neural Weather Model..."
+Node Clustering,15,Citeseer; Wiki-CS; IMDb Movie Reviews; Cornell; WebKB; arXivCS; Cora; Wiki; Facebook Pages; HeriGraph,N/A,N/A,N/A,N/A,N/A
+Physical Simulations,15,CGNE-Snowflakes; PlasticineLab; Mechanical Metamaterial: Square Array of Circular Holes Under Deformation; A Simulated 4-DOF Ship Motion Dataset for System Identification under Environmental Disturbances; ClimART; Expressive Gaussian mixture models for high-dimensional statistical modelling: simulated data and neural network model files; 4D-DRESS; DrivAerNet; Dataset and Model Weights for Plasma Sheet Model Graph Network Simulator; 2D_NACA_RANS,Impact Plate; 4D-DRESS; Deformable Plate; Deforming Plate; Sphere Simple,Rollout RMSE-all [1e3] Stress; Chamfer (cm); Stretching Energy; Rollout RMSE-all [1e3] Position,Liquid Simulation; Optical Tweezers Simulations; Neural Network simulation,Miscellaneous; Computer Code,N/A
+Within-Session ERP,15,BNCI2014-009 MOABB; BrainInvaders2015b MOABB; BrainInvaders2013a MOABB; BrainInvaders2014a MOABB; BrainInvaders2014b MOABB; Sosulski2019 MOABB; BrainInvaders2012 MOABB; BNCI2014-008 MOABB; Cattan2019-VR MOABB; BrainInvaders2015a MOABB,N/A,N/A,N/A,N/A,N/A
+Density Estimation,13,COWC; BSD; UCI Machine Learning Repository; APRICOT; JHU-CROWD; JHU-CROWD++; CIFAR-10; Silhouettes; Caltech-101; MNIST,BSDS300; Freyfaces; UCI POWER; UCI MINIBOONE; CIFAR-10; ImageNet 64x64; CIFAR-10 (Conditional); UCI HEPMASS; OMNIGLOT; Caltech-101,Negative ELBO; MMD-L2; MMD-CD; NLL; Log-likelihood; COV-L2; EMD; Log-likelihood (nats); NLL (bits/dim); MMD-EMD,Arbitrary Conditional Density Estimation,Methodology,"The goal of **Density Estimation** is to give an accurate description of the underlying probabilistic density distribution of an observable data set with unknown density.   <span class=""description-so..."
+Clustering Algorithms Evaluation,13,pixraw10P; iris; Fashion-MNIST; JAFFE; ionosphere; Failure-Dataset-OpenStack; Olivetti face; seeds; Satimage; Online retail dataset,pixraw10P; iris; Fashion-MNIST; JAFFE; ionosphere; Olivetti face; seeds; pathbased; MNIST; 97 synthetic datasets,Purity; NMI; F1-score; ARI; HIT-THE-BEST; Rank difference,Novel Class Discovery,Methodology,N/A
+Adversarial Robustness,13,Stylized ImageNet; SHADR; ImageNet-A; ImageNet-Patch; ImageNet-C; AdvGLUE; CIFAR-100; Speech Robust Bench; CIFAR-10; ImageNet,Stylized ImageNet; ImageNet-A; AdvGLUE; ImageNet-C; CIFAR-100; CIFAR-10; ImageNet,Clean Accuracy; Robust Accuracy; mean Corruption Error (mCE); AutoAttacked Accuracy; Accuracy; Attack: AutoAttack,N/A,Adversarial,Adversarial Robustness evaluates the vulnerabilities of machine learning models under various types of adversarial attacks.
+UIE,13,WikiANN; New York Times Annotated Corpus; OntoNotes 5.0; BC2GM; ACE 2004; BC5CDR; FindVehicle; SciERC; CoNLL 2003; SUIM-E,N/A,N/A,N/A,N/A,N/A
+Entity Disambiguation,13,Mewsli-9; diaforge-utc-r-0725; AIDA CoNLL-YAGO; WikiSRS; Hansel; Wikidata-Disamb; ACE 2004; DocRED-IE; AQUAINT; ShadowLink,Mewsli-9; MSNBC; AIDA-CoNLL; ShadowLink-Top; WNED-WIKI; ACE2004; DocRED-IE; ShadowLink-Shadow; WNED-CWEB; AQUAINT,Micro-F1; Micro Precision; In-KB Accuracy; Avg F1,N/A,Natural Language Processing,"**Entity Disambiguation** is the task of linking mentions of ambiguous entities to their referent entities in a knowledge base such as Wikipedia.   <span class=""description-source"">Source: [Leveraging..."
+Open-Domain Dialog,13,CPsyCounE; CPsyCounD; Reddit; DuLeMon; MMChat; Reddit Conversation Corpus; CPED; MMDialog; MultiDoc2Dial; KILT,KILT: Wizard of Wikipedia,Recall@5; F1; KILT-F1; R-Prec; KILT-RL; ROUGE-L,Dialogue Evaluation,Natural Language Processing,N/A
+Disentanglement,13,MPI3D Disentanglement; Coil100-Augmented; 3D Cars; Natural Sprites; dSprites; Sprites; 3D Shapes Dataset; smallNORB; Causal3DIdent; XYSquares,N/A,N/A,N/A,N/A,N/A
+Graph Embedding,12,Financial Dynamic Knowledge Graph; OLPBENCH; IS-A; Synthetic Dynamic Networks; ChEMBL; KG20C; HeriGraph; AIDS Antiviral Screen; BioGRID; CARD-660,Barabasi-Albert,Entropy Difference,Dynamic graph embedding; Role Embedding; Knowledge Graph Embedding; Structural Node Embedding; Knowledge Graph Embeddings,Graphs,"Graph embeddings learn a mapping from a network to a vector space, while preserving relevant network properties.    <span style=""color:grey; opacity: 0.6"">( Image credit: [GAT](https://github.com/Peta..."
+Imputation,12,Adult; UTSD; MotionSense; FDF; WebKB; PhysioNet Challenge 2012; Sprites; PEMS-BAY Point Missing; AIDS Antiviral Screen; METR-LA Point Missing,Adult; HMNIST; PhysioNet Challenge 2012; Sprites,NLL; Test error; AUROC; MSE,Multivariate Time Series Imputation,Time Series; Computer Vision,Substituting missing data with values according to some criteria.
+Entity Typing,12,FIGER; GUM; AIDA CoNLL-YAGO; WikiSRS; OntoNotes 5.0; DocRED-IE; Open Entity; Figment; HTDM; Few-NERD,FIGER; Ontonotes v5 (English); Freebase FIGER; AIDA-CoNLL; DocRED-IE;  Open Entity; Open Entity; OntoNotes,Recall; Precision; F1; P@1; Macro F1; Micro F1; Accuracy; Avg F1; BEP; Micro-F1,Entity Typing on DH-KGs,Natural Language Processing,"**Entity Typing** is an important task in text analysis. Assigning types (e.g., person, location, organization) to mentions of entities in documents enables effective structured analysis of unstructur..."
+COVID-19 Diagnosis,12,COVIDGR; BrixIA; COVIDx; COVIDx CXR-3; CoIR; Large COVID-19 CT scan slice dataset; Synthetic COVID-19 CXR Dataset; COVID-19-CT-CXR; BIMCV COVID-19; Novel COVID-19 Chestxray Repository,COVID-19 CXR Dataset; ; COVIDx; COVIDx CXR-3; Large COVID-19 CT scan slice dataset; Novel COVID-19 Chestxray Repository; Covid-19 Cough Cambridge; COVIDGR,Macro Recall; Micro Precision; Specificity; ACCURACY; Average F1; Average Recall; Average Precision; Macro F1; 3-class test accuracy; AUC-ROC,N/A,Medical,Covid-19 Diagnosis is the task of diagnosing the presence of COVID-19 in an individual with machine learning.
+Referring Expression Comprehension,12,VQDv1; RefCOCO; GRIT; CLEVR-Ref+; ColonINST-v1 (Unseen); ColonINST-v1; ColonINST-v1 (Seen); Description Detection Dataset; Google Refexp; FineCops-Ref,N/A,N/A,N/A,N/A,N/A
+Entity Resolution,12,Amazon-Google; diaforge-utc-r-0725; DBLP Temporal; MovieGraphBenchmark; WDC LSPM; MusicBrainz20K; Abt-Buy; PIZZA; Binette's 2022 Inventors Benchmark; WDC Products,Amazon-Google; MusicBrainz20K; Abt-Buy; WDC Products; WDC Watches-xlarge; WDC Products-80%cc-seen-medium; WDC Computers-small; WDC Products-50%cc-unseen-medium; WDC Computers-xlarge; WDC Products-80%cc-seen-medium-multi,F1; F1 Micro; F1 (%),Blocking,Natural Language Processing,"**Entity resolution** (also known as entity matching, record linkage, or duplicate detection) is the task of finding records that refer to the same real-world entity across different data sources (e.g..."
+Robot Manipulation,12,MIKASA-Robo Dataset; MotIF-1K; SimplerEnv-Google Robot; CALVIN; ManipulateSound; pick_screw; SimplerEnv-Widow X; RLBench; YCB-Slide; robosuite Benchmark,SimplerEnv-Google Robot; CALVIN; RLBench; SimplerEnv-Widow X; MimicGen,"Inference Speed (fps); Variant Aggregation-Open/Close Drawer; Succ. Rate (10 tasks, 100 demos/task); Succ. Rate (12 tasks, 1000 demo/task); Put Spoon on Towel; Put Eggplant  in Yellow Basket; Variant Aggregation-Move Near; Put Carrot on Plate; Succ. Rate (74 tasks, 100 demos/task); Average",Contact-rich Manipulation; Robot Manipulation Generalization; Deformable Object Manipulation,Robots,N/A
+Multiple-choice,12,Belebele; Probability words NLI; Neptune; MATH-V; Mindgames; TUMTraffic-VideoQA; WorldCuisines; Tasksource; MMInstruct-GPT4V; OllaBench v.0.2,N/A,N/A,N/A,N/A,N/A
+Stochastic Optimization,11,AG News; Penn Treebank; MNIST-8M; MSRA Hand; CIFAR-100; GLUE; CIFAR-10; CoLA; OpeReid; MNIST,AG News; CIFAR-10 WRN-28-10 - 200 Epochs; CIFAR-10 ResNet-18 - 200 Epochs; ImageNet ResNet-50 - 60 Epochs; Penn Treebank (Character Level) 3x1000 LSTM - 500 Epochs; CIFAR-100; CoLA; CIFAR-10; CIFAR-100 WRN-28-10 - 200 Epochs; MNIST,Bit per Character (BPC); Top 5 Accuracy; Top 1 Accuracy; Accuracy (max); Accuracy (mean); NLL; Accuracy,Distributed Optimization; Evolutionary Algorithms,Miscellaneous; Methodology,**Stochastic Optimization** is the task of optimizing certain objective functional by generating and using stochastic random variables. Usually the Stochastic Optimization is an iterative process of g...
+Unsupervised Person Re-Identification,11,ClonedPerson; DukeMTMC-reID; Market-1501; DukeMTMC-VideoReID; MARS; PRCC; MSMT17; iLIDS-VID; PRID2011; VC-Clothes,N/A,N/A,N/A,N/A,N/A
+Adversarial Attack,11,NAS-Bench-1Shot1; comma 2k19; PointDenoisingBenchmark; CIFAR-100; REAP; CIFAR-10; TCAB; ImageNet-P; Cifar10Mnist; AdvSuffixes,CIFAR-10; WSJ0-2mix; CIFAR-100,Robust Accuracy; Attack: PGD20; SDR; Attack: AutoAttack; Attack: DeepFool,Real-World Adversarial Attack; Adversarial Text; Adversarial Attack Detection; Backdoor Attack,Adversarial; Computer Vision,An **Adversarial Attack** is a technique to find a perturbation that changes the prediction of a machine learning model. The perturbation can be very small and imperceptible to human eyes.   <span cla...
+Virtual Try-on,11,MoVi; MPV; DeepFashion; STRAT; StreetTryOn; VITON-HD; Dress Code; VITON; Deep Fashion3D; People Snapshot Dataset,MPV; Microsoft COCO dataset; StreetTryOn; Deep-Fashion; Dress Code; UBC Fashion Videos; VITON-HD; VITON; FashionIQ,SWD; LPIPS; PSNR; FID; FVD; KID; IS; SSIM; 10 fold Cross validation,N/A,Computer Vision,Virtual try-on of clothing or other items such as glasses and makeup. Most recent techniques use Generative Adversarial Networks.
+Federated Learning,11,UniMiB SHAR; FedTADBench; SAMSum; SMM4H; Street Dataset; Speech Commands; CC-19; adVFed; LEAF Benchmark; Customer Support on Twitter,"CIFAR-100 (alpha=0, 10 clients per round); Landmarks-User-160k; CIFAR-100 (alpha=1000, 10 clients per round); Cityscapes heterogeneous; CIFAR-100 (alpha=1000, 20 clients per round); CIFAR100 (alpha=0.3, 10 clients per round); CIFAR-100 (alpha=1000, 5 clients per round); CIFAR-100 (alpha=0, 20 clients per round); CIFAR-100 (alpha=0.5, 10 clients per round); CIFAR-100 (alpha=0.5, 5 clients per round)",Average Top-1 Accuracy; mIoU; ACC@1-100Clients; Acc@1-1262Clients,Personalized Federated Learning; Model Posioning; Contribution Assessment; Collaborative Fairness; Vertical Federated Learning,Methodology; Adversarial,**Federated Learning** is a machine learning approach that allows multiple devices or entities to collaboratively train a shared model without exchanging their data with each other. Instead of sending...
+Continuous Control,10,MoCapAct; MO-Gymnasium; OpenAI Gym; Lani; Omniverse Isaac Gym; D4RL; PyBullet; DeepMind Control Suite; RLU; RLLab Framework,"Simple Humanoid; Swimmer + Gathering; hopper.hop; walker.stand; Lunar Lander (OpenAI Gym); Ball in cup, catch (DMControl100k); quadruped.walk; Full Humanoid; Ant + Gathering; Cheetah, run (DMControl500k)",Score; Return,Steering Control; Drone Controller; Car Racing,Robots; Computer Vision; Playing Games,"Continuous control in the context of playing games, especially within artificial intelligence (AI) and machine learning (ML), refers to the ability to make a series of smooth, ongoing adjustments or a..."
+Graph Learning,10,OCB; MIMIC-SPARQL; NBA player performance prediction dataset; Lowest Common Ancestor Generations (LCAG) Phasespace Particle Decay Reconstruction Dataset; GVLQA; AsEP; Mindboggle; ETHZ-Shape; SAGC-A68; BotNet,CAMELS,absolute relative error; R^2,Graph Sampling; Task Graph Learning,Graphs,"Graph learning is a branch of machine learning that focuses on the analysis and interpretation of data represented in graph form. In this context, a graph is a collection of nodes (or vertices) and ed..."
+Automatic Post-Editing,10,WMT 2016 Biomedical; WMT 2016 IT; WMT 2018 News; WMT 2015 News; APE; eSCAPE; WMT 2016 News; DivEMT; SubEdits; MLQE-PE,N/A,N/A,N/A,Computer Vision,Automatic post-editing (APE) is used to correct errors in the translation made by the machine translation systems.
+Person Identification,10,11k Hands; MotionID: IMU all motions part2; EEG Motor Movement/Imagery Dataset; MotionID: IMU all motions part3; iQIYI-VID; MotionID: IMU all motions part1; WiGesture; NSVA; WiFall; MotionID: IMU specific motion,WiGesture; BioEye; EEG Motor Movement/Imagery Dataset,Accuracy; R1; Accuracy (% ),N/A,Computer Vision,N/A
+Benchmarking,10,SemanticSugarBeets; Europarl-ASR; Wiki-40B; CropAndWeed; GenoTEX; CSTS; FluidLab; COCO-N Medium; Apron Dataset; PsOCR,Wiki-40B; CloudEval-YAML,ACC; Perplexity,N/A,Robots; Miscellaneous,N/A
+Table annotation,10,Information Extraction from Tables; WikipediaGS; Tough Tables; T2Dv2; GitTables; WikiTables-TURL; WDC SOTAB V2; WDC SOTAB; VizNet-Sato; TNCR Dataset,N/A,N/A,Column Type Annotation; Columns Property Annotation; Row Annotation; Table Type Detection; Metric-Type Identification,Knowledge Base; Natural Language Processing,**Table annotation** is the task of annotating a table with terms/concepts from knowledge graph or database schema. Table annotation is typically broken down into the following five subtasks:     1. C...
+Column Type Annotation,10,WikipediaGS; Tough Tables; T2Dv2; GitTables; WikiTables-TURL; WDC SOTAB V2; GitTables-SemTab; WDC SOTAB; VizNet-Sato; BiodivTab,N/A,N/A,N/A,N/A,N/A
+Time Series Regression,10,MLO-Cn2; WildPPG; PPG  Dalia; HEMEW^S-3D; Energy Consumption Curves of 499 Customers from Spain; USNA-Cn2 (long-term); SKF-BLS Dataset; FinSen; USNA-Cn2 (short-duration); Appliances Energy,USNA-Cn2 (long-term); MLO-Cn2; FinSen; USNA-Cn2 (short-duration),RMSE; Mean MSE,COVID-19 Modelling,Time Series,Predicting one or more scalars for an entire time series example.
+Homography Estimation,9,YUD+; VidSet; CARWC; Boson-nighttime; NYU-VP; COCO (Common Objects in Context); S-COCO; POT-210; PDS-COCO,N/A,N/A,N/A,N/A,N/A
+Reinforcement Learning,9,TruthGen; iris; HAMMER; Basketball; Soccer; Omniverse Isaac Gym; Tennis; ATLANTIS; MuJoCo,Time Pilot; Venture; Boss Level; Frostbite; Ice Hockey; Stick Push; Unblock Pickup; ATLANTIS; Demon Attack; Tutankham,"10 Images, 4*4 Stitching, Exact Accuracy",Deep Reinforcement Learning,Methodology; Natural Language Processing,N/A
+AutoML,9,NAS-Bench-1Shot1; PMLB; Chalearn-AutoML-1; OrdinalDataset; NAS-Bench-101; GenoTEX; MedMNIST; Wine; CSS10,Wine; Breast Cancer Coimbra Data Set; OrdinalDataset; Chalearn-AutoML-1,Set1 (F1); Duration; Set3 (AUC); Set5 (BAC); Rank (AutoML5); Set4 (ABS); Set2 (PAC); Accuracy; accuracy; 1:1 Accuracy,Neural Architecture Search; Automated Feature Engineering; Hyperparameter Optimization,Methodology,"Automated Machine Learning (**AutoML**) is a general concept which covers diverse techniques for automated model learning including automatic data preprocessing, architecture search, and model selecti..."
+Shadow Removal,9,INS Dataset; Doc3DShade; Kligler; ISTD+; Jung; SRD; WSRD+; ISTD; SD7K,INS Dataset; ISTD+; SRD; WSRD+; ISTD; ^(#$!@#$)(()))******,LPIPS; RMSE; PSNR; Average PSNR (dB); MAE; SSIM; 0S,Document Shadow Removal,Computer Vision,Image Shadow Removal
+Program Repair,9,ETH Py150 Open; DeepFix; Defects4J; GitHub-Python; ManySStuBs4J; TFix's Code Patches Data; CodRep; xCodeEval; HumanEvalPack,GitHub-Python; TFix's Code Patches Data; HumanEvalPack; DeepFix,Average Success Rate; Accuracy (%); Error Removal; Pass@1; Exact Match,Fault localization; Wrong binary operator; Function-docstring mismatch; Variable misuse; Exception type,Reasoning; Computer Code,Task of teaching ML models to modify an existing program to fix a bug in a given code.
+Learning-To-Rank,9,ReQA; REFreSD; MQ2008; Flickr Cropping Dataset; MSLR-WEB10K; Learning to Rank Challenge; MQ2007; MultiFC; ART Dataset,N/A,N/A,N/A,Miscellaneous; Graphs,"Learning to rank is the application of machine learning to build ranking models. Some common use cases for ranking models are information retrieval (e.g., web search) and news feeds application (think..."
+Multi-agent Reinforcement Learning,9,ColosseumRL; SMAC-Exp; pursuitMW; CityFlow; OG-MARL; Hanabi Learning Environment; CivRealm; StarCraft II Learning Environment; RoomEnv-v0,SMAC-Exp; UAV Logistics; ParticleEnvs Cooperative Communication,Average Reward; Median Win Rate; final agent reward,SMAC,Methodology; Playing Games,"The target of **Multi-agent Reinforcement Learning** is to solve complex problems by integrating multiple agents that focus on different sub-tasks. In general, there are two types of multi-agent syste..."
+Representation Learning,9,Sports10; Animals-10; Causal Triplet; OmniBenchmark; TYC Dataset; EXTREME CLASSIFICATION; SYNTH-PEDES; SciDocs; xView3-SAR,CIFAR10; Sports10; Animals-10; SciDocs; Circle Data,Accuracy (%); Silhouette Score; Accuracy; 1:1 Accuracy; Avg.,Network Embedding; Document Embedding; Learning Representation Of Multi-View Data; Learning Semantic Representations; Disentanglement,Methodology; Computer Vision; Natural Language Processing,**Representation Learning**  is a process in machine learning where algorithms extract meaningful patterns from raw data to create representations that are easier to understand and process. These repr...
+Code Repair,9,DISL; migration-bench-java-full; migration-bench-java-selected; PyTorrent; FixEval; migration-bench-java-utg; CodeXGLUE; CriticBench; Performance Improving Code Edits (PIE),CodeXGLUE - Bugs2Fix,Accuracy (medium); BLEU (medium); CodeBLEU (medium); Accuracy (small); CodeBLEU (small); BLEU (small),N/A,Computer Code; Natural Language Processing,N/A
+Multi-Label Learning,8,Corn Seeds Dataset; BirdSong; Animal Kingdom; MIMIC Meme Dataset; EXTREME CLASSIFICATION; COCO (Common Objects in Context); Multi-Label Classification Dataset Repository; ExpW,COCO 2014,mAP; OP; CR; CP; OR; OF1; CF1,Missing Labels,Reasoning; Methodology,Multi-label learning (MLL) is a generalization of the binary and multi-category classification problems and deals with tagging a data instance with several possible class labels simultaneously [1]. Ea...
+Lipreading,8,LRS2; GLips; GRID Dataset; MIRACL-VC1; CAS-VSR-S101; LRW; CAS-VSR-W1k (LRW-1000); LRS3-TED,LRS2; GRID corpus (mixed-speech); CMLR; CAS-VSR-S101; Lip Reading in the Wild; LRW-1000; CAS-VSR-W1k (LRW-1000); LRS3-TED,Top-1 Accuracy; CER; Word Error Rate (WER),Landmark-based Lipreading,Computer Vision,Lipreading is a process of extracting speech by watching lip movements of a speaker in the absence of sound. Humans lipread all the time without even noticing. It is a big part in communication albeit...
+Incremental Learning,8,TopLogo-10; HOWS; Concept-1K; Permuted MNIST; Incremental Dialog Dataset; CIFAR-100; MLT17; CORe50,ImageNet-100 - 50 classes + 50 steps of 1 class; CIFAR100-B0(10steps of 10 classes); CIFAR-100 - 50 classes + 5 steps of 10 classes; ImageNet-100 - 50 classes + 25 steps of 2 classes; ImageNet - 500 classes + 25 steps of 20 classes; MLT17; CIFAR-100-B0(5steps of 20 classes); ImageNet - 10 steps; ImageNet - 500 classes + 5 steps of 100 classes; ImageNet-100 - 50 classes + 5 steps of 10 classes,Final Accuracy Top-5; # M Params; Final Accuracy; Average Incremental Accuracy Top-5; Average Incremental Accuracy; Acc,N/A,Methodology,Incremental learning aims to develop artificially intelligent systems that can continuously learn to address new tasks from new data while preserving knowledge learned from previously learned tasks.
+Multivariate Time Series Imputation,8,METR-LA; PhysioNet Challenge 2012; UCI Machine Learning Repository; PEMS-BAY Point Missing; METR-LA Point Missing; Electricity; Beijing Multi-Site Air-Quality Dataset; MuJoCo,N/A,N/A,N/A,N/A,N/A
+Correlated Time Series Forecasting,8,METR-LA; PeMSD8; PeMSD7; PeMS04; PEMS-BAY; Solar-Power; Electricity; PeMS07,N/A,N/A,N/A,N/A,N/A
+Disaster Response,8,xBD; fMoW; C2A: Human Detection in Disaster Scenarios; CrisisMMD; RoadTracer; xView; MEDIC; MSAW,N/A,N/A,N/A,N/A,N/A
+Automated Theorem Proving,8,Geometry3K; ProofNet; MiniF2F; MED; GamePad Environment; Kinship; HolStep; HOList,HolStep (Unconditional); miniF2F-valid; miniF2F-test; Metamath set.mm; CoqGym; HOList benchmark; miniF2F-curriculum; HolStep (Conditional); CompCert,pass@8192; Pass@8; Pass@1; Percentage correct; pass@1024; Pass@32; Pass@100; ITP; Pass@64; Classification Accuracy,N/A,Miscellaneous,"The goal of **Automated Theorem Proving** is to automatically generate a proof, given a conjecture (the target theorem) and a knowledge base of known facts, all expressed in a formal language. Automat..."
+Starcraft,8,SC2EGSet: StarCraft II Esport Game State Dataset; Lani; Mario AI; StarData; MSC; SC2ReSet: StarCraft II Esport Replaypack Set; StarCraft II Learning Environment; VizDoom,N/A,N/A,N/A,N/A,N/A
+Heart rate estimation,8,UBFC-rPPG; WildPPG; MMSE-HR; MTHS; V4V; VIPL-HR; BUAA-MIHR dataset; MMPD,N/A,N/A,N/A,N/A,N/A
+Explainable artificial intelligence,8,e-ViL; BDD-X; XAI-Bench; e-SNLI-VE; ExBAN; AnthroProtect; EUCA dataset; OpenXAI,N/A,N/A,Explanation Fidelity Evaluation; Explainable Models; FAD Curve Analysis,Methodology; Computer Vision,"XAI refers to methods and techniques in the application of artificial intelligence (AI) such that the results of the solution can be understood by humans. It contrasts with the concept of the ""black b..."
+AI Agent,8,Plancraft; diaforge-utc-r-0725; Spider2-V; CAGUI; MMTB; BeNYfits; DevAI; LLMafia,N/A,N/A,N-Queens Problem - All Possible Solutions; Agent-based model inverse problem,Robots; Methodology,"Fundamentação teórica    A educação contemporânea busca desenvolver habilidades e competências em diferentes áreas do conhecimento. Nesse contexto, os jogos interdisciplinares surgem como uma ferramen..."
+GLinear,7,ETT; Electricity Consuming Load; Weather; ETTh1 (96); Traffic; Electricity; ETTh1 (192),N/A,N/A,N/A,N/A,N/A
+Argument Mining,7,x-stance; FinArg; UKP; DebateSum; Demosthenes; ARCT; OpenDebateEvidence,TACO -- Twitter Arguments from COnversations,macro F1,Argument Pair Extraction (APE); ValNov; Component Classification; Claim-Evidence Pair Extraction (CEPE); Claim Extraction with Stance Classification (CESC),Natural Language Processing,"**Argument Mining** is a field of corpus-based discourse analysis that involves the automatic identification of argumentative structures in text.   <span class=""description-source"">Source: [AMPERSAND:..."
+Driver Attention Monitoring,7,HPD; BDD-A; DR(eye)VE; OC; MAAD; GD; SEED-VIG,N/A,N/A,N/A,N/A,N/A
+Point Processes,7,MemeTracker; BillSum; Amazon MTPP; Retweet MTPP; RETWEET; StackOverflow MTPP; AgeGroup Transactions MTPP,MIMIC-II; MemeTracker; Amazon MTPP; Stackoverflow; Retweet MTPP; RETWEET; StackOverflow MTPP; AgeGroup Transactions MTPP,Accuracy (%); OTD; RMSE; Accuracy; MAE; T-mAP,N/A,Methodology,N/A
+Offline RL,7,NeoRL; RL Unplugged; Visuomotor affordance learning (VAL) robot interaction dataset; RoboNet; NeoRL-2; D4RL; RLU,D4RL; Walker2d,Average Reward; D4RL Normalized Score,DQN Replay Dataset,Miscellaneous; Playing Games,N/A
+Rain Removal,7,VRDS; HRI; Real Rain Dataset; LasVR; Nightrain; Raindrop; RainDS,DID-MDN; Nightrain,PSNR,Single Image Deraining,Computer Vision,N/A
+Unsupervised Pre-training,7,OADAT; m2caiSeg; SECO; CARLANE Benchmark; TYC Dataset; GBUSV; Icon645,UCI measles; Measles,Sensitivity; Sensitivity (VEB); Accuracy (%),N/A,Methodology,Pre-training a neural network using unsupervised (self-supervised) auxiliary tasks on unlabeled data.
+Robot Task Planning,7,Synthetic Object Preference Adaptation Data; Taskography; HRI Simple Tasks; EMMOE-100; SheetCopilot; PackIt; Fields2Benchmark dataset,SheetCopilot; PackIt,Average Reward; Pass@1,Task Planning,Reasoning; Robots,N/A
+Data Integration,7,Amazon-Google; Abt-Buy; WikiTables-TURL; WDC Products; WDC SOTAB V2; WDC Block; WDC SOTAB,N/A,N/A,Entity Resolution; Table annotation; Entity Alignment,Knowledge Base; Natural Language Processing,**Data integration** (also called information integration) is the process of consolidating data from a set of heterogeneous data sources into a single uniform data set (materialized integration) or vi...
+Within-Session SSVEP,7,MAMEM2 MOABB; Lee2019-SSVEP MOABB; Kalunga2016 MOABB; MAMEM1 MOABB; Nakanishi2015 MOABB; MAMEM3 MOABB; Wang2016 MOABB,N/A,N/A,N/A,N/A,N/A
+RAG,7,CompMix-IR; PubMedQA corpus with metadata; PeerQA; Frames (part); RiskData; TIME; CRSB,N/A,N/A,N/A,N/A,N/A
+Personalized Federated Learning,6,CIFAR-100; FEMNIST; CIFAR-10; Customer Support on Twitter; Tiny ImageNet; MNIST,N/A,N/A,N/A,N/A,N/A
+Phrase Grounding,6,Flickr30k; Flickr30K Entities; MS-CXR; Visual Genome; G-VUE; VD-Ref,ReferIt; Flickr30k; Flickr30k Entities Dev; Flickr30k Entities Test; Visual Genome,Pointing Game Accuracy; R@1; R@5; R@10; Accuracy,Grounded Open Vocabulary Acquisition,Natural Language Processing,"Given an image and a corresponding caption, the **Phrase Grounding** task aims to ground each entity mentioned by a noun phrase in the caption to a region in the image.   <span class=""description-sour..."
+Lip Reading,6,GLips; GRID Dataset; TIMIT; CAS-VSR-S101; LRW; CAS-VSR-W1k (LRW-1000),GRID corpus (mixed-speech); TCD-TIMIT corpus (mixed-speech); LRW,WER,Lip password classification,Time Series,"**Lip Reading** is a task to infer the speech content in a video by using only the visual information, especially the lip movements. It has many crucial applications in practice, such as assisting aud..."
+Explanation Fidelity Evaluation,6,BA-2motifs; MUTAG; BBBP (Blood-Brain Barrier Penetration); SST-5; SST; SST-2,N/A,N/A,N/A,N/A,N/A
+Collaborative Filtering,6,MovieLens; Gowalla; Yelp2018; Amazon-Book; Genre2Movies; Yelp,Yelp2018; Gowalla; MovieLens 1M; Amazon-Book,NDCG@20; Recall@20,N/A,Miscellaneous,N/A
+Graph Mining,6,Yelp-Fraud; IMCPT-SparseGM-100; NBA player performance prediction dataset; Amazon-Fraud; Netzschleuder; Yelp,N/A,N/A,N/A,Graphs,N/A
+Band Gap,6,OQMD v1.2; Matbench; Materials Project; WBM; JARVIS-DFT; OQM9HK,N/A,N/A,N/A,N/A,N/A
+Feature Importance,6,Digits; iris; Diabetes; Hotel; simply-CLEVR; Wine,Breastcancer; Digits; iris; boston; Diabetes; Wine,Pearson Correlation,N/A,Methodology,N/A
+Graph Representation Learning,6,WikiGraphs; IMDB-BINARY; Reddit; COMA; Myket Android Application Install; REDDIT-BINARY,COMA,Error (mm),Knowledge Graph Embedding,Graphs,The goal of **Graph Representation Learning** is to construct a set of features (‘embeddings’) representing the structure of the graph and the data thereon. We can distinguish among Node-wise embeddin...
+Univariate Time Series Forecasting,6,ETT; Extreme Events > Natural Disasters > Hurricane; Multivariate-Mobility-Paris; Solar-Power; ExtMarker; Electricity,N/A,N/A,N/A,N/A,N/A
+Bandwidth Extension,6,VibraVox (throat microphone); VibraVox (temple vibration pickup); VibraVox (soft in-ear microphone); VibraVox (forehead accelerometer); VibraVox (rigid in-ear microphone); VCTK,N/A,N/A,N/A,N/A,N/A
+Atari Games,6,DQN Replay Dataset; Arcade Learning Environment; AtariARI; RLU; Atari-HEAD; Atari Grand Challenge,Atari 2600 Gopher; Atari 2600 Berzerk; Atari 2600 Pooyan; Atari 2600 Elevator Action; Atari 2600 Fishing Derby; Atari 2600 Defender; Atari 2600 Up and Down; Atari 2600 Seaquest; Atari 2600 Pitfall!; Atari 2600 Tennis,Medium Human-Normalized Score; Mean Human Normalized Score; Total Reward; Return; Score; Best Score; Human World Record Breakthrough,Montezuma's Revenge,Playing Games,"The Atari 2600 Games task (and dataset) involves training an agent to achieve high game scores.    <span style=""color:grey; opacity: 0.6"">( Image credit: [Playing Atari with Deep Reinforcement Learnin..."
+Starcraft II,6,SC2EGSet: StarCraft II Esport Game State Dataset; Lani; SMAC-Exp; MSC; SC2ReSet: StarCraft II Esport Replaypack Set; StarCraft II Learning Environment,N/A,N/A,N/A,N/A,N/A
+Goal-Oriented Dialog,6,MutualFriends; DSTC7 Task 1; HINT3; Doc2Dial; ClovaCall; Permuted bAbI dialog task,Kvret,Embedding Average; BLEU; Vector Extrema; Greedy Matching,User Simulation,Natural Language Processing,Achieving a pre-defined goal through a dialog.
+Probabilistic Deep Learning,6,Data Storage System Performance; Hotel; DENSE; VQA-HAT; CBC; ADVIO,N/A,N/A,N/A,Computer Vision; Knowledge Base,N/A
+16k,6,[[request~refund]]How do I request a refund from Expedia?; ####How do i ask a question at Expedia?; [FaQ's--Help]How do I speak to someone on Expedia?; ConceptNet; [QUESTioN~Agent~Calling]How do I complain to Expedia?; 21 Ways to Contact: How Can I Speak to Someone at Expedia,ConceptNet,"1'""",Image Deblurring; Highlight Detection; Object Detection; Shadow Removal; Scene Generation,Methodology; Computer Vision; Miscellaneous; Medical; Playing Games,N/A
+Open Set Learning,6,DAD; NINCO; ImageNet-1k vs NINCO; ToyADMOS; MIMII; UCCS,N/A,N/A,N/A,Miscellaneous,"Traditional supervised learning aims to train a classifier in the closed-set world, where training and test samples share the same label space. Open set learning (OSL) is a more challenging and realis..."
+Explainable Artificial Intelligence (XAI),6,InVar-100; 3U-VQA; XImageNet-12; B-XAIC; ADNI; SpanEX,ADNI,AD-Related Brain Areas Identified,Slice Discovery,Computer Vision; Knowledge Base,Explainable Artificial Intelligence
+Cross-Modal Person Re-Identification,6,RegDB-C; Correlated Corrupted Dataset; SYSU-MM01-C; RSTPReid; TVPReid; Uncorrelated Corrupted Dataset,N/A,N/A,N/A,N/A,N/A
+Protein Design,6,"CAMEO; CATH 4.3; FLIP; FLIP -- AAV, Designed vs mutant; Protein structures Ingraham; CATH 4.2",CATH 4.3; CATH 4.2,Sequence Recovery %(All); Perplexity,N/A,Medical,"Formally, given the design requirements of users, models are required to generate protein amino acid sequences that align with those requirements."
+Math,6,MathBench; ValiMath; DART-Math-Uniform; GSM-Plus; MM-Eval; DART-Math-Hard,N/A,N/A,N/A,N/A,N/A
+Core set discovery,5,UCI Machine Learning Repository; Abalone; Letter; Electricity; MNIST,Kr-vs-kp; Credit-g; Mozilla4; Amazon-employee-access; Abalone; Soybean; ISOLET; Letter; JM1; Electricity,F1(10-fold),N/A,Methodology,A core set in machine learning is defined as the minimal set of training samples that allows a supervised algorithm to deliver a result as good as the one obtained when the whole set is used.
+Adversarial Defense,5,Icons-50; CIFAR-100; CIFAR-10; ImageNet; MNIST,"ImageNet (non-targeted PGD, max perturbation=4); CAAD 2018; CIFAR-100; CIFAR-10; ImageNet; ImageNet (targeted PGD, max perturbation=16); miniImageNet; MNIST; TrojAI Round 1; TrojAI Round 0",Robust Accuracy; Detection Accuracy; autoattack; Accuracy ; Accuracy; Attack: AutoAttack; Inference speed,Adversarial Purification; Provable Adversarial Defense,Adversarial,Competitions with currently unpublished results:    - [TrojAI](https://pages.nist.gov/trojai/)
+Network Pruning,5,CIFAR-100; Netzschleuder; CIFAR-10; ImageNet; MNIST,CIFAR-100; ImageNet - ResNet 50 - 90% sparsity; CIFAR-10; ImageNet; MNIST,Avg #Steps; GFLOPs; Top-1 Accuracy; Accuracy; MParams; Inference Time (ms),N/A,Methodology,"**Network Pruning** is a popular approach to reduce a heavy network to obtain a light-weight form by removing redundancy in the heavy network. In this approach, a complex over-parameterized network is..."
+Linguistic Acceptability,5,DaLAJ; CoLA; GLUE; ItaCoLA; RuCoLA,DaLAJ; CoLA; CoLA Dev; ItaCoLA; RuCoLA,MCC; Accuracy,N/A,Natural Language Processing,Linguistic Acceptability is the task of determining whether a sentence is grammatical or ungrammatical.    Image Source: [Warstadt et al](https://arxiv.org/pdf/1901.03438v4.pdf)
+Chunking,5,Penn Treebank; CoNLL-2000; CoNLL 2003; CoNLL; HindEnCorp,Penn Treebank; CoNLL 2000; CoNLL 2003 (English); CoNLL 2003 (German); CoNLL 2003,Precision; F1; Accuracy; Exact Span F1; F1 score; Recall; AUC,N/A,Natural Language Processing,"Chunking, also known as shallow parsing, identifies continuous spans of tokens that form syntactic units such as noun phrases or verb phrases.    Example:    | Vinken | , | 61 | years | old |  | --- |..."
+Point Cloud Completion,5,ShapeNet-ViPC; ShapeNet; MVP; Completion3D; VBR,Completion3D; ShapeNet; ShapeNet-ViPC,Chamfer Distance L2; Earth Mover's Distance; F-Score@1%; Chamfer Distance; Frechet Point cloud Distance,Point Cloud Semantic Completion,Computer Vision,N/A
+Region Proposal,5,ISBDA; COCO (Common Objects in Context); MobilityAids; RefCOCO; ABC Dataset,N/A,N/A,N/A,N/A,N/A
+Clustering,5,TIMIT; MapReader Data; VocSim; Furit360; Daily and Sports Activities,N/A,N/A,Constrained Clustering; Categorical data clustering,Methodology,Clustering is the task of grouping unlabeled data point into disjoint subsets. Each data point is labeled with a single class. The number of classes is not known a priori. The grouping criteria is typ...
+Complex Query Answering,5,NELL-995; Genre2Movies; FB15k; FB15k-237; NELL,N/A,N/A,N/A,N/A,N/A
+Arousal Estimation,5,AVCAffe; MSP-IMPROV; EMOTIC; AffectNet; MEEG,N/A,N/A,N/A,N/A,N/A
+Valence Estimation,5,AVCAffe; MSP-IMPROV; EMOTIC; AffectNet; MEEG,N/A,N/A,N/A,N/A,N/A
+Handwriting Verification,5,BRUSH; AND Dataset; DigiLeTs; MatriVasha:; CEDAR Signature,AND Dataset; CEDAR Signature,FAR; Average F1,Bangla Spelling Error Correction,Computer Vision; Natural Language Processing,The goal of handwriting verification is to find a measure of confidence whether the given handwritten samples are written by the same or different writer.
+Gaussian Processes,5,Poser; Photoswitch; UCI Machine Learning Repository; MPI FAUST Dataset; WHOI-Plankton,UCI POWER,Root mean square error (RMSE),GPR,Miscellaneous; Methodology,"**Gaussian Processes** is a powerful framework for several machine learning tasks such as regression, classification and inference. Given a finite set of input output training data that is generated o..."
+Network Embedding,5,PART-OF; IS-A; arXiv Astro-Ph; Netzschleuder; BIRDeep,N/A,N/A,N/A,N/A,N/A
+Real-Time Strategy Games,5,eSports Sensors Dataset; StarData; MSC; Mario AI; LLMafia,N/A,N/A,Starcraft; Starcraft II,Playing Games,"Real-Time Strategy (RTS) tasks involve training an agent to play video games with continuous gameplay and high-level macro-strategic goals such as map control, economic superiority and more.    <span ..."
+Color Constancy,5,Rendered WB dataset; LSMI; VegFru; INTEL-TAU; Cube++,INTEL-TUT2,Best 25%,Few-Shot Camera-Adaptive Color Constancy,Computer Vision,**Color Constancy** is the ability of the human vision system to perceive the colors of the objects in the scene largely invariant to the color of the light source. The task of computational Color Con...
+Feature Engineering,5,KIT Motion-Language; NCBI Datasets; EMBER; OneStopEnglish; SMHD,2019_test set,14 gestures accuracy,Imputation,Miscellaneous; Methodology,"Feature engineering is the process of taking a dataset and constructing explanatory variables — features — that can be used to train a machine learning model for a prediction problem. Often, data is s..."
+Time Series Clustering,5,UCR Time Series Classification Archive; Drosophila Immunity Time-Course Data; CSTS; Bosch CNC Machining Dataset; edeniss2020,eICU Collaborative Research Database,NMI (physiology_24_hours); NMI (physiology_12_hours); NMI (physiology_6_hours),N/A,Time Series,**Time Series Clustering** is an unsupervised data mining technique for organizing data points into groups based on their similarity. The objective is to maximize data similarity within clusters and m...
+Causal Discovery,5,CausalChaos!; Ultra-processed Food Dataset; CausalBench; BCOPA-CE; TimeGraph,N/A,N/A,N/A,Knowledge Base,"<span style=""color:grey; opacity: 0.6"">( Image credit: [TCDF](https://github.com/M-Nauta/TCDF) )</span>"
+Physics-informed machine learning,5,Expressive Gaussian mixture models for high-dimensional statistical modelling: simulated data and neural network model files; DrivAerNet; BubbleML; PINO-darcy-pentagram; CAMELS Multifield Dataset,N/A,N/A,Soil moisture estimation,Computer Vision; Graphs,Machine learning used to represent physics-based and/or engineering models
+SSTOD,5,SSD; SSD_ID; SSD_PLATE; SSD_PHONE; SSD_NAME,N/A,N/A,N/A,N/A,N/A
+Natural Questions,5,QAMPARI; Belebele; BIG-bench; TheoremQA; QASports,N/A,N/A,N/A,N/A,N/A
+College Mathematics,5,MathBench; DART-Math-Uniform; BIG-bench; ASyMOB; DART-Math-Hard,N/A,N/A,N/A,N/A,N/A
+Elementary Mathematics,5,MathBench; DART-Math-Uniform; BIG-bench; NCTE Transcripts; DART-Math-Hard,N/A,N/A,N/A,N/A,N/A
+Uncertainty Quantification,5,LUMA; MUAD; Data Storage System Performance; JAMBO; Uncertainty Quantification for Underwater Object Segmentation,N/A,N/A,N/A,Miscellaneous,N/A
+Intelligent Communication,5,iV2V and iV2I+; MVX; Berlin V2X; dichasus-cf0x; SPAVE-28G,N/A,N/A,Semantic Communication; Beam Prediction,Miscellaneous; Time Series,Intelligently decide (i) the content of data  to be shared/communicated and (ii) the direction in which the chosen  data is transmitted.
+Occlusion Handling,5,Occluded COCO; Separated COCO; IITKGP_Fence Dataset; 3D-POP; OCFR-LFW,N/A,N/A,N/A,Computer Vision,N/A
+PDE Surrogate Modeling,5,Vibrating Plates; Representative PDE Benchmarks; HEMEW^S-3D; DrivAerNet; FSI,N/A,N/A,N/A,Miscellaneous,N/A
+AI and Safety,5,SALAD-Bench; HiXSTest; SUDO Dataset; SGXSTest; CLEAR-Bias,N/A,N/A,N/A,Natural Language Processing,N/A
+POS,4,Kannada Treebank; MNIST; Universal Dependencies; CoNLL 2003,N/A,N/A,N/A,N/A,N/A
+One-Shot Learning,4,MatSim; TopLogo-10; MNIST; TACO,MNIST,Accuracy,N/A,Methodology; Computer Vision,"One-shot learning is the task of learning information about object categories from a single training example.    <span style=""color:grey; opacity: 0.6"">( Image credit: [Siamese Neural Networks for One..."
+Fill Mask,4,LSMDC; MNIST; MAX-60K; HALvest,N/A,N/A,N/A,N/A,N/A
+Dense Pixel Correspondence Estimation,4,KITTI; TSS; HPatches; ETH3D,TSS; HPatches; KITTI 2015; ETH3D; KITTI 2012,Viewpoint V AEPE; AEPE (rate=3); AEPE (rate=5); Viewpoint I AEPE; Average End-Point Error; Viewpoint II AEPE; PCK-3px; Viewpoint III AEPE; Viewpoint IV AEPE; PCK-5px,N/A,Computer Vision,N/A
+Interpretable Machine Learning,4,Morph Call; SkinCon; CUB-200-2011; Controversial News Topic Datasets,CUB-200-2011,Top 1 Accuracy,Data Mining; Abstention Prediction,Methodology,The goal of **Interpretable Machine Learning** is to allow oversight and understanding of machine-learned decisions. Much of the work in Interpretable Machine Learning has come in the form of devising...
+Long-tail learning with class descriptors,4,SUN; CUB-200-2011; AwA; ImageNet-LT,N/A,N/A,N/A,N/A,N/A
+FG-1-PG-1,4,OntoNotes 5.0; CoNLL; CoNLL 2003; 2010 i2b2/VA,N/A,N/A,N/A,N/A,N/A
+Partial Label Learning,4,CIFAR-10; SD-198; ISIC 2019; M-VAD Names,CIFAR-100 (partial ratio 0.1); M-VAD Names; CIFAR-100 (partial ratio 0.01); CIFAR-10 (partial ratio 0.3); Caltech-UCSD Birds 200 (partial ratio 0.05); CIFAR-10 (partial ratio 0.5); ISIC 2019; CIFAR-10 (partial ratio 0.1); Autoimmune Dataset; CIFAR-100 (partial ratio 0.05),Balanced Multi-Class Accuracy; F1 score; Accuracy; F1-Score,N/A,Methodology,N/A
+Open-World Semi-Supervised Learning,4,CIFAR-10; ImageNet-100 (TEMI Split); CIFAR-100; BIOSCAN-5M,N/A,N/A,N/A,N/A,N/A
+Learning with coarse labels,4,ImageNet-32; Stanford Cars; CIFAR-100; Stanford Online Products,N/A,N/A,N/A,N/A,N/A
+Graph-to-Sequence,4,EventNarrative; ENT-DESC; WikiOFGraph; WebNLG,LDC2015E86:; WebNLG,BLEU,N/A,Natural Language Processing,Mapping an input graph to a sequence of vectors.
+SSIM,4,I-HAZE; VIDIT; DRealSR; DocUNet,DocUNet,SSIM,N/A,N/A,N/A
+Compressive Sensing,4,BSD; Urban100; Set5; Set11,BSD68 CS=50%; Urban100 - 2x upscaling; BSDS100 - 2x upscaling; Set5; Set11 cs=50%,PSNR; Average PSNR,N/A,Computer Vision,"**Compressive Sensing** is a new signal processing framework for efficiently acquiring and reconstructing a signal that have a sparse representation in a fixed linear basis.   <span class=""description..."
+Matrix Completion,4,SweetRS; Netflix Prize; SAVOIAS; CAL500,N/A,N/A,Low-Rank Matrix Completion,Methodology,**Matrix Completion** is a method for recovering lost information. It originates from machine learning and usually deals with highly sparse matrices. Missing or unknown data is estimated using the low...
+Room Layout Estimation,4,ZInd; SUN RGB-D; Structured3D; Rent3D,SUN RGB-D,Camera Roll; Camera Pitch; IoU,Multi-view Floor Layout Reconstruction (N-view),Computer Vision,N/A
+Cloze (multi-choices) (One-Shot),4,CMRC 2019; CMRC 2017; ChID; CMRC,N/A,N/A,N/A,N/A,N/A
+Disparity Estimation,4,Dynamic Replica; FlyingThings3D; IRS; Middlebury 2014,Sintel 4D LFV - ambushfight5; Sintel 4D LFV - bamboo3; Sintel 4D LFV - shaman2; Sintel 4D LFV - thebigfight2,BadPix(0.03); BadPix(0.07); BadPix(0.01); MSE*100; BadPix(0.05),N/A,Computer Vision,The Disparity Estimation is the task of finding the pixels in the multiscopic views that correspond to the same 3D point in the scene.
+STS,4,ASSIN2; ASSIN; Translated SNLI Dataset in Marathi; MTEB,N/A,N/A,N/A,N/A,N/A
+Meter Reading,4,UFPR-ADMR-v1; UFPR-ADMR-v2; UFPR-AMR; Copel-AMR,UFPR-AMR Dataset; UFPR-AMR; Copel-AMR; UFPR-ADMR-v1,Rank-1 Recognition Rate,Image-based Automatic Meter Reading,Computer Vision,N/A
+Decision Making Under Uncertainty,4,Risk-Aware Planning Dataset; LUMA; MUAD; xView3-SAR,N/A,N/A,Uncertainty Visualization,Reasoning; Methodology; Computer Vision,N/A
+Survival Analysis,4,Survival Analysis of Heart Failure Patients; Replication Data for: Investigating the concentration of High Yield Investment Programs in the United Kingdom; PBC; GBSG2,N/A,N/A,N/A,Miscellaneous,"**Survival Analysis** is a branch of statistics focused on the study of time-to-event data, usually called survival times. This type of data appears in a wide range of applications such as failure tim..."
+Remaining Useful Lifetime Estimation,4,NASA C-MAPSS-2; IMS Bearing Dataset; PRONOSTIA Bearing Dataset; NASA C-MAPSS,NASA C-MAPSS-2; NASA C-MAPSS,RMSE; Score,N/A,Time Series,Estimating the number of machine operation cycles until breakdown from the time series of previous cycles.
+Long-range modeling,4,SCROLLS; MuLD; Pathfinder-X2; LRA,N/A,N/A,N/A,N/A,N/A
+Astronomy,4,RGZ EMU: Semantic Taxonomy; MaNGA; BIG-bench; PLAsTiCC,BIG-bench,Accuracy,N/A,Miscellaneous,"Astronomy is the study of everything in the universe beyond Earth’s atmosphere. That includes objects we can see with our naked eyes, like the Sun, the Moon, the planets, and the stars. It also contai..."
+Memorization,4,PopQA; BIG-bench; LM Email Address Leakage; DS-1000,BIG-bench (Hindu Knowledge),Accuracy,N/A,Natural Language Processing,N/A
+Columns Property Annotation,4,WDC SOTAB; WikiTables-TURL; WDC SOTAB V2; T2Dv2,N/A,N/A,N/A,N/A,N/A
+Persuasion Strategies,4,Persuasion Strategies; MIPD; Werewolf Among Us; Among Them,N/A,N/A,N/A,Computer Vision,Prediction of Persuasion Strategy in Advertisements
+Human Behavior Forecasting,4,Large Car-following Dataset Based on Lyft level-5: Following Autonomous Vehicles vs. Human-driven Vehicles; FollowMe Vehicle Behaviour Prediction Dataset; SinD; DARai,N/A,N/A,Social Cue Forecasting,Time Series,N/A
+Temporal Sequences,4,POPGym; Panoramic Video Panoptic Segmentation Dataset; DBE-KT22; f5C Dataset,N/A,N/A,N/A,N/A,N/A
+Pansharpening,4,PanCollection; WorldView-3 PAirMax; GeoEye-1 PairMax; WorldView-2 PairMax,N/A,N/A,N/A,N/A,N/A
+Model Poisoning,3,CIFAR-10; MNIST; Fashion-MNIST,N/A,N/A,N/A,N/A,N/A
+Sparse Learning and binarization,3,CIFAR-10; MNIST; CIFAR-100,N/A,N/A,N/A,N/A,N/A
+Sparse Learning,3,CINIC-10; ImageNet; ImageNet-32,ImageNet; CINIC-10; ImageNet32,Top-1 Accuracy; Sparsity,N/A,Methodology,N/A
+OpenAI Gym,3,Industrial Benchmark; MO-Gymnasium; OpenAI Gym,HalfCheetah-v2; CartPole-v1; MountainCarContinuous-v0; Walker2d-v2; Ant-v4; Humanoid-v2; InvertedDoublePendulum-v2; InvertedPendulum-v2; Walker2d-v4; Hopper-v2,Average Decisions; Action Repetition; Mean Reward; Average Return,Acrobot,Playing Games,"An open-source toolkit from OpenAI that implements several Reinforcement Learning benchmarks including: classic control, Atari, Robotics and MuJoCo tasks.    (Description by [Evolutionary learning of ..."
+Unconstrained Lip-synchronization,3,LRS2; GLips; LRW,N/A,N/A,N/A,N/A,N/A
+Blood pressure estimation,3,MIMIC-III; HYPE; VitalDB,Multi-day Continuous BP Prediction; MIMIC-III; VitalDB,Mean Squared Error; RMSE; MAE for DBP [mmHg]; MAE; MAE for SBP [mmHg],Hypertension detection; ECG Classification,Medical,N/A
+Dataset Distillation - 1IPC,3,CIFAR-10; CUB-200-2011; CIFAR-100,N/A,N/A,N/A,N/A,N/A
+Timex normalization,3,GUM; TimeBank; PNT,N/A,N/A,N/A,N/A,N/A
+Continual Pretraining,3,AG News; ACL ARC; SciERC,AG News; ACL-ARC; SciERC,F1 (macro); F1 - macro,N/A,Methodology,N/A
+Novel Class Discovery,3,CIFAR-10; CIFAR-100; SVHN,cifar100; SVHN; cifar10,Clustering Accuracy,N/A,Methodology; Computer Vision,"The goal of Novel Class Discovery (NCD) is to identify new classes in unlabeled data, by exploiting prior knowledge from known classes. In this specific setup, the data is split in two sets. The first..."
+ECG Patient Identification,3,PTB-XL; PTB Diagnostic ECG Database; CODE-15%,N/A,N/A,ECG Patient Identification (gallery-probe),Medical,Identifying patients using their electrocardiograms.
+ECG Patient Identification (gallery-probe),3,PTB-XL; PTB Diagnostic ECG Database; CODE-15%,N/A,N/A,N/A,N/A,N/A
+parameter-efficient fine-tuning,3,HellaSwag; WinoGrande; BoolQ,HellaSwag; WinoGrande; BoolQ,Accuracy (% ),N/A,Methodology,Parameter-Efficient Fine-Tuning (PEFT) is a technique used to adapt pre-trained models to new tasks with minimal changes to the model's parameters. This approach is particularly useful in scenarios wh...
+Skills Assessment,3,AQA-7; Multimodal PISA; eSports Sensors Dataset,Multimodal PISA,Accuracy (%),N/A,Computer Vision,N/A
+Skills Evaluation,3,AQA-7; Multimodal PISA; eSports Sensors Dataset,eSports Sensors Dataset,Accuracy; LogLoss; ROC AUC,N/A,Computer Vision,N/A
+Cloud Removal,3,SEN12MS-CR; RICE; SEN12MS-CR-TS,N/A,N/A,N/A,N/A,N/A
+Cross-Modal  Person Re-Identification,3,RegDB; RegDB-C; SYSU-MM01,N/A,N/A,N/A,N/A,N/A
+Combinatorial Optimization,3,CVRPTW; MemeTracker; Distributional MIPLIB,N/A,N/A,N/A,Methodology,**Combinatorial Optimization** is a category of problems which requires optimizing a function over a combination of discrete objects and the solutions are constrained. Examples include finding shortes...
+Graph Sampling,3,ChEMBL; Friendster; LastFM Asia,N/A,N/A,N/A,N/A,N/A
+One-class classifier,3,Simulated micro-Doppler Signatures; COVID-19-CT-CXR; Riseholme-2021,N/A,N/A,N/A,Methodology,N/A
+Art Analysis,3,SemArt; ArtQuest; HappyDB,N/A,N/A,N/A,Computer Vision,N/A
+Mathematical Proofs,3,NaturalProofs; HolStep; ConstructiveBench,N/A,N/A,Automated Theorem Proving,Reasoning; Miscellaneous,N/A
+Efficient Exploration,3,House3D Environment; Replica; QDSD,N/A,N/A,N/A,Methodology,**Efficient Exploration** is one of the main obstacles in scaling up modern deep reinforcement learning algorithms. The main challenge in Efficient Exploration is the balance between exploiting curren...
+Relation Linking,3,LC-QuAD; DBLP-QuAD; XFUND,N/A,N/A,N/A,N/A,N/A
+Large-Scale Person Re-Identification,3,Occluded-DukeMTMC; LPW; ENTIRe-ID,N/A,N/A,N/A,N/A,N/A
+Human Mesh Recovery,3,MoVi; BEDLAM; FLAG3D,BEDLAM,PVE-All,N/A,Computer Vision,Estimate 3D body mesh from images
+Hyperparameter Optimization,3,PMLB; NAS-Bench-201; NAS-Bench-101,N/A,N/A,N/A,N/A,N/A
+Radar odometry,3,ORU Diverse radar dataset; K-Radar; Oxford Radar RobotCar Dataset,Oxford Radar RobotCar Dataset,translation error [%],N/A,Robots,"Radar odometry is the task of estimating the trajectory of the radar sensor, e.g. as presented in https://arxiv.org/abs/2105.01457.  A well established performance metric was presented by Geiger (2012..."
+Privacy Preserving Deep Learning,3,ConcurrentQA Benchmark; PA-HMDB51; MS-FIMU,N/A,N/A,Homomorphic Encryption for Deep Learning; Membership Inference Attack,Miscellaneous; Methodology; Computer Vision,"The goal of privacy-preserving (deep) learning is to train a model while preserving privacy of the training dataset. Typically, it is understood that the trained model should be privacy-preserving (e...."
+Multi-target regression,3,Replication Data for: Investigating the concentration of High Yield Investment Programs in the United Kingdom; SIZER; CAMELS Multifield Dataset,Google 5 qubit random Hamiltonian,Average mean absolute error,N/A,Miscellaneous,N/A
+Ensemble Learning,3,SMS Spam Collection Data Set; Replication Data for: Online Learning with Optimism and Delay; Wild-Time,SMS Spam Collection Data Set,Accuracy,N/A,Methodology; Computer Vision,N/A
+Heart Rate Variability,3,MMSE-HR; UBFC-rPPG; VIPL-HR,N/A,N/A,N/A,N/A,N/A
+Drum Transcription,3,E-GMD; YourMT3 Dataset; ENST Drums,N/A,N/A,N/A,Music,N/A
+Diabetic Retinopathy Grading,3,Retinal-Lesions; Kaggle EyePACS; DRTiD,Kaggle EyePACS,Sensitivity; Specificity; AUC,N/A,Medical,Grading the severity of diabetic retinopathy from (ophthalmic) fundus images
+News Annotation,3,Reddit Ideological and Extreme Bias Dataset; HLGD; GVFC,N/A,N/A,N/A,Natural Language Processing,Assigning the appropriate labels to a news text based on a set of pre-defined labels.
+Network Community Partition,3,A collection of LFR benchmark graphs; Netzschleuder; Perfume Co-Preference Network,N/A,N/A,N/A,N/A,N/A
+Parking Space Occupancy,3,Action-Camera Parking; SPKL; PKLot,ACMPS; Action-Camera Parking; CNRPark+EXT; SPKL; PKLot,F1-score; F1; Average-mAP,N/A,Computer Vision,Image credit: [https://github.com/martin-marek/parking-space-occupancy](https://github.com/martin-marek/parking-space-occupancy)
+Blocking,3,Amazon-Google; Abt-Buy; WDC Block,N/A,N/A,N/A,N/A,N/A
+Riddle Sense,3,RiddleSense; BIG-bench; Situation Puzzle,N/A,N/A,N/A,N/A,N/A
+High School Mathematics,3,MathBench; BIG-bench; DART-Math-Hard,N/A,N/A,N/A,N/A,N/A
+Professional Psychology,3,CPsyCounE; BIG-bench; CPsyCounD,BIG-bench,Accuracy ,N/A,Miscellaneous,N/A
+Eeg Decoding,3,NMED-T; Selective Visual Attention Decoding Dataset KU Leuven; CWL EEG/fMRI Dataset,CWL EEG/fMRI Dataset,Pearson Correlation,EEG Signal Classification,Medical; Time Series,**EEG Decoding** - extracting useful information directly from EEG data.
+Malware Clustering,3,Malimg; BODMAS; MOTIF,N/A,N/A,N/A,N/A,N/A
+Malware Analysis,3,AutoRobust; Malimg; BODMAS,N/A,N/A,N/A,N/A,N/A
+Referring Expression,3,A Game Of Sorts; SQA3D; GRIT,SQA3D,Acc@30°; Acc@15°; Acc@0.5m; Acc@1.0m,N/A,Computer Vision,Referring expressions places a bounding box around  the instance corresponding to the provided description and  image.
+Symbolic Regression,3,SRSD-Feynman (Easy set); SRSD-Feynman (Medium set); SRSD-Feynman (Hard set),N/A,N/A,Equation Discovery,Knowledge Base; Natural Language Processing,producing a mathematical expression (symbolic expression)  that fits a given tabular data.
+Explainable Models,3,B-XAIC; OpenXAI; ScienceQA,N/A,N/A,N/A,N/A,N/A
+Multi-Domain Recommender Systems,3,X-Wines; RL-ISN-dataset; LEA-GCN-dataset,N/A,N/A,N/A,N/A,N/A
+Brain Decoding,3,Stanford ECoG library: ECoG to Finger Movements; BCI Competition IV: ECoG to Finger Movements; GOD,Stanford ECoG library: ECoG to Finger Movements; BCI Competition IV: ECoG to Finger Movements,Pearson Correlation,Brain Computer Interface,Miscellaneous; Medical,**Motor Brain Decoding** is fundamental task for building motor brain computer interfaces (BCI).    Progress in predicting finger movements based on brain activity allows us to restore motor functions...
+Website Fingerprinting Attacks,3,Padding Ain't Enough: Assessing the Privacy Guarantees of Encrypted DNS – Web Scans; Padding Ain't Enough: Assessing the Privacy Guarantees of Encrypted DNS – Subpage-Agnostic Domain Classification Tor Browser; Padding Ain't Enough: Assessing the Privacy Guarantees of Encrypted DNS – Subpage-Agnostic Domain Classification Firefox,Website Traffic Data on Tor,Accuracy (%),N/A,Adversarial,N/A
+Plant Phenotyping,3,SICKLE; CropAndWeed; SemanticSugarBeets,N/A,N/A,N/A,N/A,N/A
+Feedback Vertex Set (FVS),3,PACE 2016 Feedback Vertex Set; PACE 2022 Heuristic; PACE 2022 Exact,N/A,N/A,N/A,Graphs,The **Feedback Vertex Set (FVS)** problem is a computational problem in computer science and graph theory that involves finding the smallest possible subset of vertices in an undirected graph such tha...
+MuJoCo Games,3,Omniverse Isaac Gym; IL-Datasets; MO-Gymnasium,InvertedPendulum; Walker2d-v3; HalfCheetah; Point Maze; Humanoid-v3; Humanoid-v2; Swimmer; Hopper; HalfCHeetah-v3; Ant,Average Reward; Return; Average Return; Mean,D4RL,Robots,N/A
+Snow Removal,3,RVSD; Snow100K; SRRS,N/A,N/A,N/A,N/A,N/A
+Game of Sudoku,3,many-solutions-sudoku; satnet-sudoku; rrn-sudoku,Sudoku 9x9,Accuracy,N/A,Playing Games,N/A
+Hate Span Identification,3,ViHOS; TUN-EL; TuPyE-Dataset,N/A,N/A,N/A,Natural Language Processing,N/A
+Hallucination Evaluation,3,UHGEvalDataset; HalluEditBench; PhD,N/A,N/A,N/A,Natural Language Processing,Evaluate the ability of LLM to generate non-hallucination text or assess the capability of LLM to recognize hallucinations.
+Theory of Mind Modeling,3,MMToM-QA; 2D-ATOMS; DynToM,N/A,N/A,N/A,Reasoning,N/A
+Anomaly Forecasting,3,SupplyGraph; Hawk Annotation Dataset; edeniss2020,N/A,N/A,N/A,Time Series,"Anomaly forecasting is a critical aspect of modern data analysis, where the goal is to predict unusual patterns or behaviors in data sets that deviate from the norm. This process is vital across vario..."
+LLM Jailbreak,3,SALAD-Bench; SUDO Dataset; CLEAR-Bias,N/A,N/A,N/A,Adversarial,N/A
+Deep Clustering,2,USPS; MNIST,USPS; Coil-20; Stackoverflow; MNIST; Searchsnippets,ARI; 1:1 Accuracy; NMI,NONPARAMETRIC DEEP CLUSTERING; Deep Nonparametric Clustering; Trajectory Clustering,Miscellaneous; Methodology; Natural Language Processing,N/A
+Hard-label Attack,2,CIFAR-10; MNIST,N/A,N/A,N/A,N/A,N/A
+Nature-Inspired Optimization Algorithm,2,CIFAR-10; MNIST,CIFAR-10; MNIST,training time (s),N/A,Computer Code,N/A
+TAG,2,MNIST; Universal Dependencies,N/A,N/A,N/A,N/A,N/A
+Interpretability Techniques for Deep Learning,2,CelebA; CausalGym,CelebA; CausalGym,Insertion AUC score; Log odds-ratio (pythia-6.9b),N/A,Miscellaneous,N/A
+QQP,2,Quora Question Pairs; GLUE,N/A,N/A,N/A,N/A,N/A
+Feature Upsampling,2,ImageNet; GenSC-6G,N/A,N/A,N/A,N/A,N/A
+Missing Elements,2,Numeric Fused-Head; Penn Treebank,N/A,N/A,N/A,N/A,N/A
+Horizon Line Estimation,2,KITTI; York Urban Line Segment Database,Horizon Lines in the Wild; York Urban Dataset; Eurasian Cities Dataset; KITTI Horizon,AUC (horizon error); MSE; ATV; AUC,N/A,Computer Vision,N/A
+Dense Captioning,2,VisArgs; Visual Genome,Visual Genome,mAP,Live Video Captioning,Computer Vision,N/A
+Defocus Estimation,2,CUHK03; Motion Blurred and Defocused Dataset,CUHK - Blur Detection Dataset,MAE; F-measure; Blur Segmentation Accuracy,N/A,Computer Vision,N/A
+FLUE,2,XNLI; PAWS-X,N/A,N/A,N/A,N/A,N/A
+Steering Control,2,BDD100K; Udacity,N/A,N/A,N/A,N/A,N/A
+Boundary Captioning,2,Kinetics; Kinetics-GEB+,N/A,N/A,N/A,N/A,N/A
+Boundary Grounding,2,Kinetics; Kinetics-GEB+,N/A,N/A,N/A,N/A,N/A
+Domain-IL Continual Learning,2,CIFAR-10; Permuted MNIST,N/A,N/A,N/A,N/A,N/A
+Provable Adversarial Defense,2,CIFAR-10; CIFAR-100,N/A,N/A,N/A,N/A,N/A
+Clean-label Backdoor Attack (0.05%),2,CIFAR-10; Tiny ImageNet,N/A,N/A,N/A,N/A,N/A
+Test Agnostic Long-Tailed Learning,2,iNaturalist; ImageNet-LT,N/A,N/A,N/A,N/A,N/A
+STS Benchmark,2,STS Benchmark; HumanEval,N/A,N/A,N/A,N/A,N/A
+Total Magnetization,2,OQMD v1.2; OQM9HK,N/A,N/A,N/A,N/A,N/A
+Unsupervised Continual Domain Shift Learning,2,PACS; DomainNet,N/A,N/A,N/A,N/A,N/A
+MuJoCo,2,NeoRL; MuJoCo,N/A,N/A,N/A,N/A,N/A
+Incremental Constrained Clustering,2,iris; Wine,N/A,N/A,N/A,N/A,N/A
+Q-Learning,2,Yeast; VizDoom,N/A,N/A,N/A,Methodology,"The goal of Q-learning is to learn a policy, which tells an agent what action to take under what circumstances.    <span style=""color:grey; opacity: 0.6"">( Image credit: [Playing Atari with Deep Reinf..."
+Test-time Adaptation,2,DADE; ImageNet-C,N/A,N/A,N/A,N/A,N/A
+Cross-Modality Person Re-identification,2,RegDB; SYSU-MM01,N/A,N/A,N/A,N/A,N/A
+Point Cloud Super Resolution,2,VBR; SHREC,PU-GAN; SHREC15,F-measure (%); Hausdorff Distance; Point-to-surface distance; Chamfer Distance,N/A,Computer Vision,Point cloud super-resolution is a fundamental problem  for 3D reconstruction and 3D data understanding. It takes  a low-resolution (LR) point cloud as input and generates  a high-resolution (HR) point...
+Information Threading,2,NewSHead; Multi-News,N/A,N/A,N/A,N/A,N/A
+Deep Attention,2,METU-VIREF Dataset; Google Refexp,N/A,N/A,N/A,Computer Vision; Natural Language Processing,N/A
+Authorship Verification,2,Blog Authorship Corpus; Enron Emails,N/A,N/A,N/A,Natural Language Processing,"Authorship verification (**AV**) is a research subject in the field of digital text forensics that concerns itself with the question, whether two documents have been written by the same person.     De..."
+Accident Anticipation,2,CCD; CAP-DATA,N/A,N/A,N/A,N/A,N/A
+Entity Embeddings,2,DAWT; MovieGraphBenchmark,N/A,N/A,N/A,Methodology,Entity Embeddings is a technique for applying deep learning to tabular data. It involves representing the categorical data of an information systems entity with multiple dimensions.
+Dominance Estimation,2,EMOTIC; MSP-IMPROV,N/A,N/A,N/A,N/A,N/A
+Hierarchical Reinforcement Learning,2,bipedal-skills; Gibson Environment,Ant + Maze,Return,N/A,Methodology; Playing Games,N/A
+graph partitioning,2,A collection of LFR benchmark graphs; HAM,custom,All,N/A,Graphs,Graph Partitioning is generally the first step of distributed graph computing tasks. The targets are load-balance and minimizing the communication volume.
+Policy Gradient Methods,2,Hanabi Learning Environment; RLLab Framework,N/A,N/A,N/A,Methodology,N/A
+Meta Reinforcement Learning,2,MIKASA-Robo Dataset; Meta-World Benchmark,N/A,N/A,N/A,N/A,N/A
+Board Games,2,Obstacle Tower; Cards Against Humanity,N/A,N/A,Game of Shogi; Game of Go; Game of Chess,Playing Games,N/A
+Self-Supervised Person Re-Identification,2,SYSU-30k; ENTIRe-ID,N/A,N/A,N/A,N/A,N/A
+Multi-Goal Reinforcement Learning,2,bipedal-skills; UniMiB SHAR,no extra data,Average Reward,N/A,Methodology,N/A
+Clustering Ensemble,2,pathbased; ionosphere,N/A,N/A,N/A,N/A,N/A
+Point Clouds,2,DTU; Tanks and Temples,DTU; Tanks and Temples,Mean F1 (Intermediate); Mean F1 (Advanced); Overall,Point Cloud Rrepresentation Learning; Cross-modal place recognition; point cloud video understanding,Computer Vision,N/A
+Dial Meter Reading,2,UFPR-ADMR-v1; UFPR-ADMR-v2,N/A,N/A,N/A,N/A,N/A
+No real Data Binarization,2,DIBCO 2019; DIBCO and H_DIBCO,N/A,N/A,N/A,N/A,N/A
+Behavioural cloning,2,CoWeSe; BDD-X,N/A,N/A,N/A,N/A,N/A
+Relational Pattern Learning,2,TexRel; Real world moire pattern classification,N/A,N/A,N/A,N/A,N/A
+Human Dynamics,2,TikTok Dataset; LLMafia,N/A,N/A,3D Human Dynamics,Computer Vision,N/A
+Author Attribution,2,BN-AuthProf; Taiga Corpus,N/A,N/A,N/A,Natural Language Processing,Authorship attribution is the task of determining the author of a text.
+ICU Mortality,2,eICU-CRD; HiRID,N/A,N/A,N/A,N/A,N/A
+Popularity Forecasting,2,SHIFT15M; VISUELLE2.0,N/A,N/A,N/A,N/A,N/A
+Cloze Test,2,CodeXGLUE; Completion norms for 3085 English sentence contexts,CodeXGLUE - CT-all; CodeXGLUE - CT-maxmin,PHP; Go; Java; JS; Python; Ruby,N/A,Natural Language Processing,The cloze task refers to infilling individual words.
+Moment Queries,2,ViLCo; Ego4D,N/A,N/A,N/A,N/A,N/A
+Unsupervised Reinforcement Learning,2,bipedal-skills; URLB,N/A,N/A,N/A,N/A,N/A
+Linear evaluation,2,Car_Price_Prediction; ESC50,N/A,N/A,N/A,N/A,N/A
+Story Completion,2,XStoryCloze; Scifi TV Shows,N/A,N/A,N/A,N/A,N/A
+Multi-Armed Bandits,2,Duolingo Bandit Notifications; KuaiRand,Mushroom,Cumulative regret,Thompson Sampling,Miscellaneous; Methodology,Multi-armed bandits refer to a task where a fixed amount of resources must be allocated between competing resources that maximizes expected gain. Typically these problems involve an exploration/exploi...
+Molecule Captioning,2,ChEBI-20; L+M-24,ChEBI-20; L+M-24,Text2Mol; ROUGE-1; ROUGE-2; BLEU-2; METEOR; ROUGE-L; BLEU-4,N/A,Medical,"Molecular description generation entails the creation of a detailed textual depiction illuminating the structure, properties, biological activity, and applications of a molecule based on its molecular..."
+Aggression Identification,2,The ComMA Dataset v0.2; WikiDetox,N/A,N/A,N/A,Natural Language Processing,"Develop a classifier that could make a 3-way classification in-between ‘Overtly Aggressive’, ‘Covertly Aggressive’ and ‘Non-aggressive’ text data. For this, TRAC-2 dataset of 5,000 aggression-annotate..."
+Irony Identification,2,ArSarcasm-v2; BIG-bench,N/A,N/A,N/A,N/A,N/A
+Moral Scenarios,2,OllaBench v.0.2; BIG-bench,N/A,N/A,N/A,N/A,N/A
+Computer Security,2,OllaBench v.0.2; BIG-bench,BIG-bench,Accuracy ,File Type Identification,Miscellaneous,N/A
+Security Studies,2,VNAT; BIG-bench,BIG-bench,Accuracy ,N/A,Miscellaneous,N/A
+Multi-Agent Path Finding,2,CPP simulated evaluation; pursuitMW,N/A,N/A,N/A,Playing Games,N/A
+Record linking,2,Binette's 2022 Inventors Benchmark; Weibo-Douban,N/A,N/A,N/A,Natural Language Processing,The task of finding records in a data set that refer to the same entity across different data sources.     Record linking is also called *entity resolution* or *entity matching*. Further material abou...
+Multi-agent Integration,2,BBAI Dataset; LLMafia,BBAI Dataset,P@1,N/A,Natural Language Processing,N/A
+De-identification,2,Dataset: Privacy-Preserving Gaze Data Streaming in Immersive Interactive Virtual Reality: Robustness and User Experience.; i2b2 De-identification Dataset,N/A,N/A,Full-body anonymization; Privacy Preserving Deep Learning,Computer Vision; Natural Language Processing,"De-identification is the task of detecting privacy-related entities in text, such as person names, emails and contact data."
+Unsupervised Domain Expansion,2,UDE-DomainNet; UDE-Office-Home,N/A,N/A,N/A,N/A,N/A
+Automated Essay Scoring,2,ASAP-AES; The Write & Improve Corpus 2024,ASAP-AES,Quadratic Weighted Kappa,N/A,Natural Language Processing,"Essay scoring: **Automated Essay Scoring** is the task of assigning a score to an essay, usually in the context of assessing the language ability of a language learner. The quality of an essay is affe..."
+Traffic Data Imputation,2,PEMS-BAY Point Missing; METR-LA Point Missing,N/A,N/A,N/A,N/A,N/A
+Overall - Test,2,FeedbackQA; JEEBench,N/A,N/A,N/A,N/A,N/A
+Variable Disambiguation,2,SV-Ident; SILD,N/A,N/A,N/A,N/A,N/A
+Embeddings Evaluation,2,CANNOT; Names pairs dataset,N/A,N/A,N/A,N/A,N/A
+Multimodal Association,2,Vi-Fi Multi-modal Dataset; taste-music-dataset,N/A,N/A,multimodal generation,Time Series; Natural Language Processing,"**Multimodal association** refers to the process of associating multiple modalities or types of data in time series analysis. In time series analysis, multiple modalities or types of data can be colle..."
+Seeing Beyond the Visible,2,KITTI360-EX; HYPERVIEW,KITTI360-EX; HYPERVIEW,Average PSNR; normalized MSE,N/A,Computer Vision,"The objective of this challenge is to automate the process of estimating the soil parameters, specifically, potassium (KKK), phosphorus pentoxide (P2O5P_2O_5P2​O5​), magnesium (MgMgMg) and pHpHpH, thr..."
+Flare Removal,2,Flare7K; FlareReal600,N/A,N/A,N/A,N/A,N/A
+Website Fingerprinting Defense,2,Padding Ain't Enough: Assessing the Privacy Guarantees of Encrypted DNS – Web Scans; Padding Ain't Enough: Assessing the Privacy Guarantees of Encrypted DNS – Subpage-Agnostic Domain Classification Tor Browser,Website Traffic Data on Tor,Accuracy (%),N/A,Adversarial,N/A
+ValNov,2,ValNov Subtask A; ValNov Subtask B,ValNov Subtask A; ValNov Subtask B,VAL-F1; JOINT-F1; NOV-F1,N/A,Natural Language Processing,"Given a textual premise and conclusion candidate, the Argument-Validity-and-Novelty-Prediction-Shared-Task ValNov consists in predicting two aspects of a conclusion: its validity and novelty.    Valid..."
+Load Forecasting,2,PJM(AEP); ASHRAE energy prediction III,N/A,N/A,N/A,Miscellaneous; Computer Code,N/A
+Spatio-Temporal Forecasting,2,Weather2K; Beijing Traffic,N/A,N/A,Human Behavior Forecasting,Time Series,N/A
+Protein Annotation,2,Protein-Instructions-OOD; PS4,N/A,N/A,N/A,N/A,N/A
+slot-filling,2,Noise-SF; Persian-ATIS,N/A,N/A,N/A,N/A,N/A
+Ethics,2,SHADR; Ethics (per ethics),Ethics; Ethics (per ethics),Accuracy,Moral Scenarios; Business Ethics; Moral Disputes; Moral Permissibility,Miscellaneous,N/A
+Dynamic Point Removal,2,semi-indoor; Argoverse 2,semi-indoor; Argoverse 2,associated accuracy; static accuracy; dynamic accuracy,N/A,Robots,"In the field of robotics, the point cloud has become an essential map representation. From the perspective of downstream tasks like localization and global path planning, points corresponding to dynam..."
+PAIR TRADING,2,CSI 300 Pair Trading; S&P 500 Pair Trading,N/A,N/A,N/A,N/A,N/A
+Irregular Time Series,2,Extreme Events > Natural Disasters > Hurricane; Santa Clara Reservoir Levels,N/A,N/A,N/A,Time Series,Irregular Time Series
+Age and Gender Estimation,2,BN-AuthProf; LAGENDA,LAGENDA gender; LAGENDA age,MAE; Accuracy; CS@5,N/A,Computer Vision,Age and gender estimation is a dual-task of identifying the age via regression analysis and classification of gender of a person.
+Mathematical Problem-Solving,2,ASyMOB; TheoremQA,N/A,N/A,N/A,N/A,N/A
+Sensor Fusion,2,SICKLE; VIDIMU: Multimodal video and IMU kinematic dataset on daily life activities using affordable devices,N/A,N/A,N/A,Computer Vision,Sensor fusion is the process of combining sensor data or data derived from disparate sources such that the resulting information has less uncertainty than would be possible when these sources were use...
+Negation,2,Thunder-NUBench; OVDEval,N/A,N/A,N/A,N/A,N/A
+Human Judgment Correlation,2,AlpacaEval; MT-Bench,Flickr8k-Expert; Flickr8k-CF,Kendall's Tau-b; Kendall's Tau-c,N/A,Reasoning,A task where an algorithm should generate the judgment scores correlating with human judgments.
+Kinship Verification,2,KinFaceW-I; KinFaceW-II,KinFaceW-I; KinFaceW-II,Mean Accuracy,N/A,Computer Vision,Kinship verification aims to find out whether there is a  kin relation for a given pair of facial images.
+Position regression,2,CHILI-3K; CHILI-100K,N/A,N/A,N/A,N/A,N/A
+SAXS regression,2,CHILI-3K; CHILI-100K,N/A,N/A,N/A,N/A,N/A
+XRD regression,2,CHILI-3K; CHILI-100K,N/A,N/A,N/A,N/A,N/A
+SANS regression,2,CHILI-3K; CHILI-100K,N/A,N/A,N/A,N/A,N/A
+ND regression,2,CHILI-3K; CHILI-100K,N/A,N/A,N/A,N/A,N/A
+Neutron PDF regression,2,CHILI-3K; CHILI-100K,N/A,N/A,N/A,N/A,N/A
+NMT,2,PolyNewsParallel; Leipzig Corpora,N/A,N/A,Direct NMT,Computer Code; Natural Language Processing,"Neural machine translation is an approach to machine translation that uses an artificial neural network to predict the likelihood of a sequence of words, typically modeling entire sentences in a singl..."
+Sports Analytics,2,MultiSenseBadminton; Predictive Model for Assessing Knee Muscle Injury Risk in Athletes and Non-Athletes Using sEMG,N/A,N/A,N/A,Computer Vision,N/A
+RTE,2,RTE3-FR; GQNLI-FR,N/A,N/A,N/A,N/A,N/A
+Lung Cancer Diagnosis,2,National Lung Screening Trial (NLST); Duke Lung Nodule Dataset 2024,N/A,N/A,N/A,N/A,N/A
+Collision Avoidance,2,HARPER; A Ball Collision Dataset (ABCD),A Ball Collision Dataset (ABCD),Accuracy (L:R) - T1,N/A,Robots,N/A
+Modality completion,2,Amazon Baby; Amazon Sports,N/A,N/A,N/A,N/A,N/A
+Hybrid Machine Learning,2,GLARE; High-Quality Invoice Images for OCR,N/A,N/A,N/A,N/A,N/A
+Raindrop Removal,2,Video Waterdrop Removal Dataset; VRDS,N/A,N/A,N/A,N/A,N/A
+backdoor defense,2,Trojans Against Trojans (TAT); ULP Dataset,N/A,N/A,Backdoor Defense for Data-Free Distillation with Poisoned Teachers,Adversarial,N/A
+User Simulation,2,LMSYS-USP; VMD,N/A,N/A,N/A,N/A,N/A
+Fault Diagnosis,2,Digital twin-supported deep learning for fault diagnosis; Discrete-Time Modeling of Interturn Short Circuits in Interior PMSMs - Data and Models,Digital twin-supported deep learning for fault diagnosis,Accuray,N/A,Time Series,N/A
+Unsupervised MNIST,1,MNIST,N/A,N/A,N/A,N/A,N/A
+Rotated MNIST,1,MNIST,Rotated MNIST,Test error,N/A,Computer Vision,N/A
+Adversarial Defense against FGSM Attack,1,MNIST,N/A,N/A,N/A,N/A,N/A
+Türkçe Görüntü Altyazılama,1,MNIST,N/A,N/A,N/A,N/A,N/A
+HairColor/Unbiased,1,CelebA,N/A,N/A,N/A,N/A,N/A
+HeavyMakeup/Unbiased,1,CelebA,N/A,N/A,N/A,N/A,N/A
+Lexical Simplification,1,WikiLarge,N/A,N/A,N/A,Natural Language Processing,"The goal of **Lexical Simplification** is to replace complex words (typically words that are used less often in language and are therefore less familiar to readers) with their simpler synonyms, withou..."
+Gait Identification,1,CASIA-B,N/A,N/A,N/A,Computer Vision,N/A
+Online Clustering,1,CIFAR-10,N/A,N/A,N/A,N/A,N/A
+Long-tail Learning on CIFAR-10-LT (ρ=100),1,CIFAR-10,N/A,N/A,N/A,N/A,N/A
+ROLSSL-Consistent,1,CIFAR-10,N/A,N/A,N/A,N/A,N/A
+ROLSSL-Reversed,1,CIFAR-10,N/A,N/A,N/A,N/A,N/A
+ROLSSL-Uniform,1,CIFAR-10,N/A,N/A,N/A,N/A,N/A
+Class Incremental Learning,1,CIFAR-100,Cifar100-B0(10 tasks)-no-exemplars; CIFAR100-B0(50 tasks)-no-exemplars; cifar100; CIFAR-100 - 50 classes + 10 steps of 5 classes; Cifar100-B0(20 tasks)-no-exemplars; CIFAR-100 - 50 classes + 5 steps of 10 classes,Final Accuracy; 10-stage average accuracy; Average Incremental Accuracy,Few-Shot Class-Incremental Learning; Class-Incremental Semantic Segmentation; Non-exemplar-based Class Incremental Learning,Methodology; Computer Vision,Incremental learning of a sequence of tasks when the task-ID is not available at test time.
+Non-exemplar-based Class Incremental Learning,1,CIFAR-100,N/A,N/A,N/A,N/A,N/A
+Data Free Quantization,1,CIFAR-100,N/A,N/A,N/A,N/A,N/A
+Classifier calibration,1,CIFAR-100,N/A,N/A,N/A,N/A,N/A
+class-incremental learning,1,CIFAR-100,cifar100,10-stage average accuracy,N/A,N/A,N/A
+Overlapped 100-50,1,ADE20K,N/A,N/A,N/A,N/A,N/A
+Overlapped 50-50,1,ADE20K,N/A,N/A,N/A,N/A,N/A
+Overlapped 100-10,1,ADE20K,N/A,N/A,N/A,N/A,N/A
+Overlapped 100-5,1,ADE20K,N/A,N/A,N/A,N/A,N/A
+Overlapped 25-25,1,ADE20K,N/A,N/A,N/A,N/A,N/A
+NMR J-coupling,1,QM9,N/A,N/A,N/A,N/A,N/A
+Race/Unbiased,1,UTKFace,N/A,N/A,N/A,N/A,N/A
+Age/Unbiased,1,UTKFace,N/A,N/A,N/A,N/A,N/A
+Surgical Skills Evaluation,1,JIGSAWS,JIGSAWS; MISTIC-SIL,Edit Distance; Accuracy,N/A,Medical,The task is to classify surgical skills using data that is recorded during the surgical intervention.
+Outdoor Light Source Estimation,1,SUN360,N/A,N/A,N/A,N/A,N/A
+Materials Screening,1,OQMD v1.2,N/A,N/A,N/A,N/A,N/A
+Cadenza 1 - Task 1 - Headphone,1,MUSDB18,N/A,N/A,N/A,N/A,N/A
+Parallel Corpus Mining,1,ASLG-PC12,N/A,N/A,N/A,N/A,N/A
+Story Continuation,1,VIST,PororoSV; VIST; FlintstonesSV,Char-F1; F-Acc; FID,N/A,Computer Vision,"The task involves providing an initial scene that can be obtained in real world use cases. By including this scene, a model can then copy and adapt elements from it as it generates subsequent images. ..."
+NetHack Score,1,NetHack Learning Environment,N/A,N/A,N/A,N/A,N/A
+MS-SSIM,1,DocUNet,N/A,N/A,N/A,N/A,N/A
+Local Distortion,1,DocUNet,DocUNet,LD,N/A,N/A,N/A
+SENTS,1,Universal Dependencies,N/A,N/A,N/A,N/A,N/A
+MORPH,1,Universal Dependencies,N/A,N/A,N/A,N/A,N/A
+UNLABELED_DEPENDENCIES,1,Universal Dependencies,N/A,N/A,N/A,N/A,N/A
+LABELED_DEPENDENCIES,1,Universal Dependencies,N/A,N/A,N/A,N/A,N/A
+LEMMA,1,Universal Dependencies,N/A,N/A,N/A,N/A,N/A
+Informativeness,1,CrisisMMD,N/A,N/A,N/A,N/A,N/A
+COVID-19 Modelling,1,WHO-COVID19 Dataset,N/A,N/A,N/A,N/A,N/A
+Question Rewriting,1,CANARD,N/A,N/A,N/A,N/A,N/A
+HTR,1,IAM,N/A,N/A,N/A,N/A,N/A
+GPR,1,Poser,N/A,N/A,N/A,Computer Vision,Gaussian Process Regression
+Montezuma's Revenge,1,Arcade Learning Environment,N/A,N/A,N/A,N/A,N/A
+Cadenza 1 - Task 2 - In Car,1,FMA,N/A,N/A,N/A,N/A,N/A
+Overlapped 10-1,1,Cityscapes,N/A,N/A,N/A,N/A,N/A
+Domain 11-5,1,Cityscapes,N/A,N/A,N/A,N/A,N/A
+Domain 11-1,1,Cityscapes,N/A,N/A,N/A,N/A,N/A
+Domain 1-1,1,Cityscapes,N/A,N/A,N/A,N/A,N/A
+Overlapped 14-1,1,Cityscapes,N/A,N/A,N/A,N/A,N/A
+CARLA MAP Leaderboard,1,CARLA,N/A,N/A,N/A,N/A,N/A
+CARLA longest6,1,CARLA,CARLA,Infraction Score; Driving Score; Route Completion,N/A,Robots,"longest6 is an evaluation benchmark for sensorimotor autonomous driving methods using the CARLA 0.9.10.1 simulator.  It consists of 36 long routes in the publicly available Town 01-06 which, are popul..."
+CARLA Leaderboard 2.0,1,CARLA,N/A,N/A,N/A,N/A,N/A
+Uncropping,1,Places,Places2 val,Fool rate; PD; FID,N/A,Computer Vision,N/A
+Distributed Computing,1,MNIST-8M,N/A,N/A,Collaborative Inference; Distributed Voting,N/A,N/A
+Game of Doom,1,VizDoom,N/A,N/A,N/A,N/A,N/A
+Continuous Control (100k environment steps),1,DeepMind Control Suite,N/A,N/A,N/A,N/A,N/A
+Continuous Control (500k environment steps),1,DeepMind Control Suite,N/A,N/A,N/A,N/A,N/A
+SNES Games,1,Mario AI,N/A,N/A,N/A,N/A,N/A
+D4RL,1,D4RL,N/A,N/A,N/A,N/A,N/A
+Gym halfcheetah-random,1,D4RL,N/A,N/A,N/A,N/A,N/A
+Gym halfcheetah-medium,1,D4RL,N/A,N/A,N/A,N/A,N/A
+Gym halfcheetah-expert,1,D4RL,N/A,N/A,N/A,N/A,N/A
+Gym halfcheetah-medium-expert,1,D4RL,N/A,N/A,N/A,N/A,N/A
+Gym halfcheetah-medium-replay,1,D4RL,N/A,N/A,N/A,N/A,N/A
+Gym halfcheetah-full-replay,1,D4RL,N/A,N/A,N/A,N/A,N/A
+Adroid pen-human,1,D4RL,N/A,N/A,N/A,N/A,N/A
+Adroid hammer-human,1,D4RL,N/A,N/A,N/A,N/A,N/A
+Adroid door-human,1,D4RL,N/A,N/A,N/A,N/A,N/A
+Adroid relocate-human,1,D4RL,N/A,N/A,N/A,N/A,N/A
+Adroid pen-cloned,1,D4RL,N/A,N/A,N/A,N/A,N/A
+Adroid hammer-cloned,1,D4RL,N/A,N/A,N/A,N/A,N/A
+Adroid door-cloned,1,D4RL,N/A,N/A,N/A,N/A,N/A
+Adroid relocate-cloned,1,D4RL,N/A,N/A,N/A,N/A,N/A
+Decipherment,1,Chinese Gigaword,N/A,N/A,N/A,Natural Language Processing,N/A
+TGIF-Transition,1,TGIF-QA,N/A,N/A,N/A,N/A,N/A
+TGIF-Frame,1,TGIF-QA,N/A,N/A,N/A,N/A,N/A
+ListOps,1,ListOps,N/A,N/A,N/A,N/A,N/A
+Diffusion Personalization Tuning Free,1,AgeDB,N/A,N/A,N/A,N/A,N/A
+Epidemiology,1,PHM2017,N/A,N/A,N/A,Medical,"**Epidemiology** is a scientific discipline that provides reliable knowledge for clinical medicine focusing on prevention, diagnosis and treatment of diseases. Research in Epidemiology aims at charact..."
+Demosaicking,1,PixelShift200,N/A,N/A,N/A,N/A,N/A
+Probabilistic Time Series Forecasting,1,Lorenz Dataset,N/A,N/A,N/A,N/A,N/A
+Metaheuristic Optimization,1,OSTD,N/A,N/A,N/A,Methodology,"In computer science and mathematical optimization, a metaheuristic is a higher-level procedure or heuristic designed to find, generate, or select a heuristic (partial search algorithm) that may provid..."
+Polyphone disambiguation,1,CPP,CPP,Accuracy,N/A,Natural Language Processing,A part of the TTS-front end framework which serves to predict the correct pronunciation for the input polyphone characters.
+Sensor Modeling,1,eSports Sensors Dataset,N/A,N/A,N/A,N/A,N/A
+Multivariate Time Series Forecastingm,1,ETT,N/A,N/A,N/A,N/A,N/A
+Game of Hanabi,1,Hanabi Learning Environment,N/A,N/A,N/A,N/A,N/A
+Two-sample testing,1,HIGGS Data Set,"MNIST vs Fake MNIST; HDGM (d=10, N=4000); HIGGS Data Set; Blob (9 modes, 40 for each); CIFAR-10 vs CIFAR-10.1 (1000 samples)",Avg accuracy,N/A,Miscellaneous; Methodology,"In statistical hypothesis testing, a two-sample test is a test performed on the data of two random samples, each independently obtained from a different given population. The purpose of the test is to..."
+Lexical Normalization,1,MultiSenti,LexNorm,Accuracy,Pronunciation Dictionary Creation,Natural Language Processing,Lexical normalization is the task of translating/transforming a non standard text to a standard register.  Example:  ``` new pix comming tomoroe new pictures coming tomorrow ```  Datasets usually cons...
+Period Estimation,1,OmniArt,OmniArt,Mean absolute error,Art Period Estimation (544 Artists),Computer Vision,N/A
+OrangeSum,1,OrangeSum,N/A,N/A,N/A,N/A,N/A
+Lake Ice Monitoring,1,Photi-LakeIce,N/A,N/A,N/A,N/A,N/A
+Clean-label Backdoor Attack (0.024%),1,PubFig,N/A,N/A,N/A,N/A,N/A
+Micro-Expression Spotting,1,SAMM Long Videos,N/A,N/A,N/A,N/A,N/A
+Game of Football,1,SoccerData,N/A,N/A,Pass Classification; Injury Prediction; Football Action Valuation,Playing Games,N/A
+Replay Grounding,1,SoccerNet-v2,N/A,N/A,N/A,N/A,N/A
+Caricature,1,WebCaricature Dataset,N/A,N/A,N/A,Computer Vision,**Caricature** is a pictorial representation or description that deliberately exaggerates a person’s distinctive features or peculiarities to create an easily identifiable visual likeness with a comic...
+Split and Rephrase,1,WikiSplit,N/A,N/A,N/A,N/A,N/A
+Winogrande,1,WinoGrande,WinoGrande,N/A,N/A,Natural Language Processing,N/A
+Geophysics,1,xView,N/A,N/A,N/A,Miscellaneous,N/A
+Precipitation Forecasting,1,SEVIR,SEVIR,CSI-pool4; CSI-pool16,N/A,Computer Vision,N/A
+Noun Phrase Canonicalization,1,ReVerb45K,N/A,N/A,N/A,N/A,N/A
+Hypernym Discovery,1,SemEval-2018 Task-9,Music domain; Medical domain; General,P@5; MAP; MRR,N/A,Natural Language Processing,"Given a corpus and a target term (hyponym), the task of hypernym discovery consists of extracting a set of its most appropriate hypernyms from the corpus. For example, for the input word “dog”, some v..."
+Col BERTTriplet,1,CoNLL 2003,N/A,N/A,N/A,N/A,N/A
+point of interests,1,Gowalla,N/A,N/A,N/A,N/A,N/A
+Populist attitude,1,Us Vs. Them,N/A,N/A,N/A,N/A,N/A
+Phone-level pronunciation scoring,1,speechocean762,N/A,N/A,N/A,N/A,N/A
+Utterance-level pronounciation scoring,1,speechocean762,N/A,N/A,N/A,N/A,N/A
+Non-Intrusive Load Monitoring,1,SynD,N/A,N/A,N/A,Miscellaneous; Time Series; Knowledge Base,N/A
+Time Series Averaging,1,UCR Time Series Classification Archive,N/A,N/A,N/A,Time Series,N/A
+Quantum Machine Learning,1,iris,https://www.kaggle.com/datasets/saurabhshahane/classification-of-malwares; iris,F1 score; Average F1,N/A,Medical,N/A
+N-Queens Problem - All Possible Solutions,1,Gun Detection Dataset,N/A,N/A,N/A,N/A,N/A
+Traveling Salesman Problem,1,TSP/HCP Benchmark set,N/A,N/A,N/A,N/A,N/A
+Multi-Choice MRC,1,ExpMRC,N/A,N/A,N/A,N/A,N/A
+Graphon Estimation,1,Netzschleuder,N/A,N/A,N/A,Graphs,N/A
+Clinical Note Phenotyping,1,Rare Diseases Mentions in MIMIC-III,N/A,N/A,N/A,N/A,N/A
+Computational Phenotyping,1,Rare Diseases Mentions in MIMIC-III,N/A,N/A,Patient Phenotyping,Medical,"**Computational Phenotyping** is the process of transforming the noisy, massive Electronic Health Record (EHR) data into meaningful medical concepts that can be used to predict the risk of disease for..."
+Propaganda technique identification,1,Dataset of Propaganda Techniques of the State-Sponsored Information Operation of the People's Republic of China,N/A,N/A,N/A,N/A,N/A
+Synthetic Data Evaluation,1,Titanic,N/A,N/A,N/A,N/A,N/A
+Mobile Security,1,Dataset of Context information for Zero Interaction Security,N/A,N/A,N/A,Miscellaneous,N/A
+Stable MCI vs Progressive MCI,1,ADNI,N/A,N/A,N/A,N/A,N/A
+Human Body Volume Estimation,1,SURREALvols,N/A,N/A,N/A,N/A,N/A
+Causal Identification,1,BCOPA-CE,N/A,N/A,N/A,Reasoning,N/A
+HumanEval,1,HumanEval,N/A,N/A,N/A,N/A,N/A
+MTEB Benchmark,1,HumanEval,N/A,N/A,N/A,N/A,N/A
+AllNLI Triplet,1,HumanEval,N/A,N/A,N/A,N/A,N/A
+Question-Answer categorization,1,QC-Science,QC-Science,R@10; R@20; R@5; R@15,N/A,Natural Language Processing,N/A
+EditCompletion,1,C# EditCompletion,C# EditCompletion,Accuracy,N/A,Computer Code,"Given a code snippet that is partially edited, the goal is to predict a completion of the edit for the rest of the snippet."
+Node Regression,1,Wiki Squirrel,N/A,N/A,N/A,N/A,N/A
+Algorithmic Trading,1,S&P 500 Intraday Data,N/A,N/A,N/A,Time Series,An algorithmic trading system is a software that is used for trading in the stock market.
+Patient Phenotyping,1,HiRID,HiRID,Balanced Accuracy,N/A,N/A,N/A
+Circulatory Failure,1,HiRID,HiRID,Recall@50; AUPRC,N/A,Medical,"Continuous prediction of onset of circulatory failure in the next 12h, given the patient is not in failure now."
+Respiratory Failure,1,HiRID,HiRID,Recall@50; AUPRC,N/A,Medical,Continuous prediction of onset of respiratory failure in the next 12h given the patient is not in failure now.
+Remaining Length of Stay,1,HiRID,N/A,N/A,N/A,N/A,N/A
+Task 2,1,SROIE,N/A,N/A,N/A,N/A,N/A
+Problem-Solving Deliberation,1,DeliData,N/A,N/A,N/A,N/A,N/A
+Classify murmurs,1,CirCor DigiScope,N/A,N/A,N/A,N/A,N/A
+reinforcement-learning,1,NASA C-MAPSS,N/A,N/A,N/A,N/A,N/A
+Capacity Estimation,1,PEM Fuel Cell Dataset,N/A,N/A,N/A,N/A,N/A
+SMAC,1,SMAC,SMAC MMM2; SMAC 6h_vs_8z; SMAC MMM2_7m2M1M_vs_9m3M1M; SMAC 3s5z_vs_4s6z; SMAC 6h_vs_9z; SMAC MMM2_7m2M1M_vs_8m4M1M; SMAC 27m_vs_30m; SMAC 3s5z_vs_3s6z; SMAC corridor_2z_vs_24zg; SMAC 26m_vs_30m,Median Win Rate; Average Score,SMAC Plus; SMAC+,Playing Games,"The StarCraft Multi-Agent Challenge (SMAC) is a benchmark that provides elements of partial observability, challenging dynamics, and high-dimensional observation spaces. SMAC is built using the StarCr..."
+Moving Point Cloud Processing,1,LiDAR-MOS,N/A,N/A,N/A,Time Series,N/A
+Fine-Grained Facial Editing,1,CelebA-Dialog,N/A,N/A,N/A,N/A,N/A
+VGSI,1,wikiHow-image,N/A,N/A,N/A,N/A,N/A
+Safe Reinforcement Learning,1,safe-control-gym,N/A,N/A,N/A,N/A,N/A
+GSM8K,1,GSM8K,gsm8k (5-shots); GSM8K,Accuracy; 0-shot MRR,N/A,Natural Language Processing,N/A
+DrugProt,1,DrugProt,N/A,N/A,N/A,N/A,N/A
+Galaxy emergent property recreation,1,SDSS Galaxies,N/A,N/A,N/A,N/A,N/A
+BBBC021 NSC Accuracy,1,CytoImageNet,N/A,N/A,N/A,N/A,N/A
+CYCLoPs Accuracy,1,CytoImageNet,N/A,N/A,N/A,N/A,N/A
+Multimodal GIF Dialog,1,GIF Reply Dataset,N/A,N/A,N/A,N/A,N/A
+Success Rate (5 task-horizon),1,CALVIN,N/A,N/A,N/A,N/A,N/A
+Avg. sequence length,1,CALVIN,N/A,N/A,N/A,N/A,N/A
+BIG-bench Machine Learning,1,BIG-bench,38-Cloud; BIG-bench,Accuracy; account and password ,N/A,Methodology,This branch include most common machine learning fundamental algorithms.
+Identify Odd Metapor,1,BIG-bench,BIG-bench,Accuracy,N/A,Reasoning,N/A
+Odd One Out,1,BIG-bench,BIG-bench,Accuracy,N/A,Reasoning,This task tests to what extent a language model is able to identify the odd word.    Source: [BIG-bench](https://github.com/google/BIG-bench/tree/main/bigbench/benchmark_tasks/odd_one_out)
+Crash Blossom,1,BIG-bench,N/A,N/A,N/A,N/A,N/A
+Auto Debugging,1,BIG-bench,Big-bench Lite,Exact string match,N/A,Miscellaneous,N/A
+Crass AI,1,BIG-bench,N/A,N/A,N/A,N/A,N/A
+Empirical Judgments,1,BIG-bench,N/A,N/A,N/A,N/A,N/A
+Timedial,1,BIG-bench,N/A,N/A,N/A,N/A,N/A
+Business Ethics,1,BIG-bench,N/A,N/A,N/A,N/A,N/A
+Moral Disputes,1,BIG-bench,N/A,N/A,N/A,N/A,N/A
+Moral Permissibility,1,BIG-bench,N/A,N/A,N/A,N/A,N/A
+FEVER (2-way),1,BIG-bench,N/A,N/A,N/A,N/A,N/A
+FEVER (3-way),1,BIG-bench,N/A,N/A,N/A,N/A,N/A
+Misconceptions,1,BIG-bench,N/A,N/A,N/A,N/A,N/A
+High School European History,1,BIG-bench,BIG-bench,Accuracy,N/A,Miscellaneous,N/A
+High School US History,1,BIG-bench,BIG-bench,Accuracy,N/A,Miscellaneous,N/A
+High School World History,1,BIG-bench,BIG-bench,Accuracy,N/A,Miscellaneous,N/A
+International Law,1,BIG-bench,BIG-bench,Accuracy,N/A,Miscellaneous,N/A
+Jurisprudence,1,BIG-bench,BIG-bench,Accuracy ,N/A,Miscellaneous,N/A
+Management,1,BIG-bench,BIG-bench,Accuracy ,Asset Management,Miscellaneous,N/A
+Marketing,1,BIG-bench,BIG-bench,Accuracy,N/A,Miscellaneous,N/A
+Philosophy,1,BIG-bench,BIG-bench,Accuracy,N/A,Miscellaneous,N/A
+Prehistory,1,BIG-bench,BIG-bench,Accuracy,N/A,Miscellaneous,N/A
+Professional Law,1,BIG-bench,BIG-bench,Accuracy,N/A,Miscellaneous,N/A
+World Religions,1,BIG-bench,BIG-bench,Accuracy,N/A,Miscellaneous,N/A
+Entailed Polarity,1,BIG-bench,N/A,N/A,N/A,N/A,N/A
+Evaluating Information Essentiality,1,BIG-bench,N/A,N/A,N/A,N/A,N/A
+Metaphor Boolean,1,BIG-bench,N/A,N/A,N/A,N/A,N/A
+Physical Intuition,1,BIG-bench,N/A,N/A,N/A,N/A,N/A
+Presuppositions As NLI,1,BIG-bench,N/A,N/A,N/A,N/A,N/A
+Professional Accounting,1,BIG-bench,N/A,N/A,N/A,N/A,N/A
+Anatomy,1,BIG-bench,BIG-bench,Accuracy ,N/A,Miscellaneous,N/A
+College Medicine,1,BIG-bench,BIG-bench,Accuracy ,N/A,Miscellaneous,N/A
+Human Aging,1,BIG-bench,BIG-bench,Accuracy ,N/A,Miscellaneous,N/A
+Human Organs Senses Multiple Choice,1,BIG-bench,BIG-bench,Accuracy ,N/A,Miscellaneous,N/A
+Nutrition,1,BIG-bench,BIG-bench,Accuracy ,N/A,Miscellaneous,N/A
+Professional Medicine,1,BIG-bench,BIG-bench,Accuracy,N/A,Miscellaneous,N/A
+Virology,1,BIG-bench,BIG-bench,Accuracy,N/A,Miscellaneous,N/A
+English Proverbs,1,BIG-bench,N/A,N/A,N/A,N/A,N/A
+Implicatures,1,BIG-bench,N/A,N/A,N/A,N/A,N/A
+Implicit Relations,1,BIG-bench,N/A,N/A,N/A,N/A,N/A
+LAMBADA,1,BIG-bench,N/A,N/A,N/A,N/A,N/A
+Movie Dialog Same Or Different,1,BIG-bench,N/A,N/A,N/A,N/A,N/A
+Phrase Relatedness,1,BIG-bench,N/A,N/A,N/A,N/A,N/A
+RACE-h,1,BIG-bench,N/A,N/A,N/A,N/A,N/A
+RACE-m,1,BIG-bench,N/A,N/A,N/A,N/A,N/A
+College Biology,1,BIG-bench,N/A,N/A,N/A,N/A,N/A
+College Chemistry,1,BIG-bench,N/A,N/A,N/A,N/A,N/A
+College Computer Science,1,BIG-bench,N/A,N/A,N/A,N/A,N/A
+College Physics,1,BIG-bench,N/A,N/A,N/A,N/A,N/A
+Conceptual Physics,1,BIG-bench,N/A,N/A,N/A,N/A,N/A
+High School Biology,1,BIG-bench,N/A,N/A,N/A,N/A,N/A
+High School Chemistry,1,BIG-bench,N/A,N/A,N/A,N/A,N/A
+High School Computer Science,1,BIG-bench,N/A,N/A,N/A,N/A,N/A
+High School Physics,1,BIG-bench,N/A,N/A,N/A,N/A,N/A
+High School Statistics,1,BIG-bench,N/A,N/A,N/A,N/A,N/A
+Physics MC,1,BIG-bench,N/A,N/A,N/A,N/A,N/A
+Econometrics,1,BIG-bench,BIG-bench,Accuracy,N/A,Miscellaneous,N/A
+High School Geography,1,BIG-bench,BIG-bench,Accuracy ,N/A,Miscellaneous,N/A
+High School Government and Politics,1,BIG-bench,BIG-bench,Accuracy ,N/A,Miscellaneous,N/A
+High School Macroeconomics,1,BIG-bench,BIG-bench,Accuracy ,N/A,Miscellaneous,N/A
+High School Microeconomics,1,BIG-bench,BIG-bench,Accuracy,N/A,Miscellaneous,N/A
+High School Psychology,1,BIG-bench,BIG-bench,Accuracy ,N/A,Miscellaneous,N/A
+Human Sexuality,1,BIG-bench,BIG-bench,Accuracy,N/A,Miscellaneous,N/A
+Public Relations,1,BIG-bench,BIG-bench,Accuracy ,N/A,Miscellaneous,N/A
+Sociology,1,BIG-bench,BIG-bench,Accuracy ,N/A,Miscellaneous,N/A
+US Foreign Policy,1,BIG-bench,BIG-bench,Accuracy ,N/A,Miscellaneous,N/A
+Sleep Staging,1,Montreal Archive of Sleep Studies,N/A,N/A,W-R-N Sleep Staging; EEG based sleep staging; W-R-L-D Sleep Staging; ECG based Sleep Staging,Time Series,Human Sleep Staging into W-R-N or W-R-L-D classes from multiple or single polysomnography signals
+W-R-L-D Sleep Staging,1,Montreal Archive of Sleep Studies,N/A,N/A,N/A,N/A,N/A
+W-R-N Sleep Staging,1,Montreal Archive of Sleep Studies,N/A,N/A,N/A,N/A,N/A
+Atari Games 100k,1,Atari 100k,N/A,N/A,N/A,N/A,N/A
+fr-en,1,CVSS,N/A,N/A,N/A,N/A,N/A
+es-en,1,CVSS,N/A,N/A,N/A,N/A,N/A
+de-en,1,CVSS,N/A,N/A,N/A,N/A,N/A
+EEG 4 classes,1,EEG Motor Movement/Imagery Dataset,N/A,N/A,N/A,N/A,N/A
+EEG Left/Right hand,1,EEG Motor Movement/Imagery Dataset,N/A,N/A,N/A,N/A,N/A
+EM showers clusterization,1,Simulated EM showers data,N/A,N/A,N/A,N/A,N/A
+Topic coverage,1,Topic modeling topic coverage dataset,N/A,N/A,N/A,N/A,N/A
+Single Choice Question,1,MML,N/A,N/A,N/A,N/A,N/A
+Toponym Resolution,1,TR-News,N/A,N/A,N/A,Natural Language Processing,The goal is to find a mapping from a toponym (a location mention) in the text to a spatial footprint.
+RoomEnv-v0,1,RoomEnv-v0,N/A,N/A,N/A,N/A,N/A
+Surveillance-to-Single,1,IJB-S,N/A,N/A,N/A,N/A,N/A
+Surveillance-to-Booking,1,IJB-S,N/A,N/A,N/A,N/A,N/A
+Surveillance-to-Surveillance,1,IJB-S,N/A,N/A,N/A,N/A,N/A
+ECG Wave Delineation,1,LUDB,N/A,N/A,N/A,N/A,N/A
+TDC ADMET Benchmarking Group,1,tdcommons,N/A,N/A,N/A,N/A,N/A
+SpO2 estimation,1,MTHS,N/A,N/A,N/A,N/A,N/A
+Time Offset Calibration,1,MTic,N/A,N/A,N/A,Miscellaneous,N/A
+Mental Workload Estimation,1,STEW,N/A,N/A,N/A,Computer Vision,N/A
+Industrial Robots,1,Synthetic Object Preference Adaptation Data,N/A,N/A,Trajectory Planning,Robots,"An industrial robot is a robot system used for manufacturing. Industrial robots are automated, programmable and capable of movement on three or more axes."
+Singer Identification,1,VocalSet,N/A,N/A,N/A,N/A,N/A
+Skill Mastery,1,RGB-Stacking,RGB-Stacking,Group 1; Group 4; Group 3; Group 2; Average; Group 5,N/A,Robots,N/A
+Binary Quantification,1,genius,N/A,N/A,N/A,N/A,"Prediction of class prevalence in test samples that may exhibit prior probability shift from training data, in a binary setting."
+Unsupervised Spatial Clustering,1,Replication Data for: Singapore Soundscape Site Selection Survey (S5),N/A,N/A,N/A,Time Series,N/A
+Privacy Preserving,1,ConcurrentQA Benchmark,N/A,N/A,Graph Neural Network,Graphs,N/A
+Log Solubility,1,ESOL (Estimated SOLubility),ESOL,RMSE,N/A,Miscellaneous,N/A
+Row Annotation,1,T2Dv2,N/A,N/A,N/A,N/A,N/A
+Morpheme Segmentaiton,1,UniMorph 4.0,UniMorph 4.0,lev dist (subtask 2); macro avg (subtask 1); f1 macro avg (subtask 2),N/A,Natural Language Processing,Succesful systems segment a given word or sentence into a sequence of morphemes.
+Chemical Indexing,1,BC7 NLM-Chem,BC7 NLM-Chem,F1-score (strict),N/A,Natural Language Processing,Predict which chemicals should be indexed.
+Virtual Try-Off,1,VITON-HD,N/A,N/A,N/A,N/A,N/A
+Playing the Game of 2048,1,The Game of 2048,The Game of 2048,Average Score,N/A,Playing Games,N/A
+Lexical Analysis,1,UzWordnet,N/A,N/A,Lexical Complexity Prediction,Natural Language Processing,Lexical analysis is the process of converting a sequence of characters into a sequence of tokens (strings with an assigned and thus identified meaning). (Source: Adapted from Wikipedia)
+Negation Scope Resolution,1,The BioScope Corpus,N/A,N/A,N/A,N/A,N/A
+Speculation Scope Resolution,1,The BioScope Corpus,N/A,N/A,N/A,N/A,N/A
+Negation and Speculation Scope resolution,1,The BioScope Corpus,N/A,N/A,N/A,Natural Language Processing,N/A
+Exemplar-Free Counting,1,FSC147,N/A,N/A,N/A,N/A,N/A
+A-VB Two,1,HUME-VB,N/A,N/A,N/A,N/A,N/A
+A-VB High,1,HUME-VB,N/A,N/A,N/A,N/A,N/A
+A-VB Culture,1,HUME-VB,N/A,N/A,N/A,N/A,N/A
+Open Relation Modeling,1,Open Relation Modeling,N/A,N/A,N/A,Natural Language Processing,N/A
+Game of Go,1,PAGE,ELO Ratings,ELO Rating,N/A,Playing Games,"Go is an abstract strategy board game for two players, in which the aim is to surround more territory than the opponent. The task is to train an agent to play the game and be superior to other players..."
+Holdout Set,1,xView3-SAR,xView3-SAR,Aggregate xView3 Score,N/A,Computer Vision,N/A
+Humanitarian,1,HumSet,N/A,N/A,N/A,N/A,N/A
+Descriptive,1,CRIPP-VQA,N/A,N/A,N/A,N/A,N/A
+Remove - PQ,1,CRIPP-VQA,N/A,N/A,N/A,N/A,N/A
+Remove - PO,1,CRIPP-VQA,N/A,N/A,N/A,N/A,N/A
+Replace - PQ,1,CRIPP-VQA,N/A,N/A,N/A,N/A,N/A
+Replace - PO,1,CRIPP-VQA,N/A,N/A,N/A,N/A,N/A
+Add - PQ,1,CRIPP-VQA,N/A,N/A,N/A,N/A,N/A
+Add - PO,1,CRIPP-VQA,N/A,N/A,N/A,N/A,N/A
+Specificity,1,MACSum,N/A,N/A,N/A,Natural Language Processing,N/A
+Partially Observable Reinforcement Learning,1,POPGym,N/A,N/A,N/A,N/A,N/A
+Model-based Reinforcement Learning,1,POPGym,N/A,N/A,N/A,N/A,N/A
+Definition Modelling,1,UJ-CS/Math/Phy,N/A,N/A,N/A,Natural Language Processing,N/A
+Vocal ensemble separation,1,jaCappella,N/A,N/A,N/A,N/A,N/A
+Navigate,1,G-VUE,N/A,N/A,Go to AnyThing; Universal Navigation,Robots,N/A
+RoomEnv-v1,1,RoomEnv-v1,N/A,N/A,N/A,N/A,N/A
+Card Games,1,Cards Against Humanity,N/A,N/A,Game of Poker; Klondike; Solitaire; Game of Hanabi,Playing Games,Card games involve playing cards: the task is to train an agent to play the game with specified rules and beat other players.
+FocusNews (test),1,WMT-SLT,N/A,N/A,N/A,N/A,N/A
+SRF (test),1,WMT-SLT,N/A,N/A,N/A,N/A,N/A
+Protein Folding,1,PS4,N/A,N/A,N/A,Natural Language Processing,N/A
+Driver Identification,1,Overall-Driving-Behavior-Recognition-By-Smartphone,N/A,N/A,N/A,N/A,N/A
+Graph Attention,1,NBA player performance prediction dataset,N/A,N/A,N/A,Graphs,N/A
+Film Simulation,1,FilmSet,N/A,N/A,N/A,N/A,N/A
+Acne Severity Grading,1,ACNE04,ACNE04,Accuracy,N/A,Medical,N/A
+Subgraph Counting - K4,1,Synthetic Graph,N/A,N/A,N/A,N/A,N/A
+Subgraph Counting - Triangle,1,Synthetic Graph,N/A,N/A,N/A,N/A,N/A
+Subgraph Counting - 3 Star,1,Synthetic Graph,N/A,N/A,N/A,N/A,N/A
+Subgraph Counting - Chordal C4,1,Synthetic Graph,N/A,N/A,N/A,N/A,N/A
+Subgraph Counting - 2 star,1,Synthetic Graph,N/A,N/A,N/A,N/A,N/A
+Subgraph Counting - C4,1,Synthetic Graph,N/A,N/A,N/A,N/A,N/A
+Subgraph Counting - Tailed Triangle,1,Synthetic Graph,N/A,N/A,N/A,N/A,N/A
+Subgraph Counting - C5,1,Synthetic Graph,N/A,N/A,N/A,N/A,N/A
+Subgraph Counting - C6,1,Synthetic Graph,N/A,N/A,N/A,N/A,N/A
+Subgraph Counting,1,Synthetic Graph,N/A,N/A,N/A,Graphs,N/A
+Hurricane Forecasting,1,Extreme Events > Natural Disasters > Hurricane,N/A,N/A,N/A,Computer Vision,"Tropical Cyclone Forecasting using Computer Vision, Deep Learning, and Time-Series methods"
+All,1,PTB-XL,N/A,N/A,N/A,N/A,N/A
+Diagnostic,1,PTB-XL,N/A,N/A,N/A,N/A,N/A
+Sub-diagnostic,1,PTB-XL,N/A,N/A,N/A,N/A,N/A
+Super-diagnostic,1,PTB-XL,N/A,N/A,N/A,N/A,N/A
+Form,1,PTB-XL,N/A,N/A,N/A,N/A,N/A
+VCGBench-Diverse,1,VideoInstruct,VideoInstruct,Reasoning; Temporal Understanding; Dense Captioning; Correctness of Information; Consistency; Spatial Understanding; mean; Contextual Understanding; Detail Orientation,N/A,Computer Vision,"Recognizing the limited diversity in existing video conversation benchmarks, we introduce VCGBench-Diverse to comprehensively evaluate the generalization ability of video LMMs. While VCG-Bench provide..."
+Operator learning,1,BubbleML,N/A,N/A,N/A,Miscellaneous,Learn an operator between infinite dimensional Hilbert spaces or Banach spaces
+Solar Irradiance Forecasting,1,ASOS Data,ASOS Data,Variance; MSE; Accuracy; R^2; MAE,N/A,Time Series,N/A
+Proper Noun,1,OVDEval,N/A,N/A,N/A,N/A,N/A
+XLM-R,1,Belebele,N/A,N/A,N/A,N/A,N/A
+Bayesian Optimization,1,OCB,N/A,N/A,Bayesian Optimisation,Methodology,N/A
+Bug fixing,1,SWE-bench-lite,N/A,N/A,N/A,N/A,N/A
+Travel Time Estimation,1,TTE-A&O,N/A,N/A,N/A,N/A,N/A
+Automatic Lyrics Transcription,1,Jam-ALT,N/A,N/A,N/A,N/A,N/A
+Virtual Try-on (Shop2Street),1,StreetTryOn,N/A,N/A,N/A,N/A,N/A
+Virtual Try-on (Model2Street),1,StreetTryOn,N/A,N/A,N/A,N/A,N/A
+Virtual Try-on (Street2Street),1,StreetTryOn,N/A,N/A,N/A,N/A,N/A
+Vignetting Removal,1,VigSet,N/A,N/A,N/A,N/A,N/A
+Model Editing,1,KnowEdit,N/A,N/A,knowledge editing,Natural Language Processing,N/A
+SVBRDF Estimation,1,MatSynth,N/A,N/A,N/A,Computer Vision,SVBRDF Estimation
+TAR,1,CLEF-TAR,N/A,N/A,N/A,N/A,N/A
+tabular-regression,1,SupplyGraph,N/A,N/A,N/A,N/A,N/A
+Mixed Reality,1,DREAMING Inpainting Dataset,N/A,N/A,N/A,Computer Vision,N/A
+Self-Learning,1,LEARNING STYLE IDENTIFICATION,N/A,N/A,N/A,Natural Language Processing,N/A
+Joint Radar-Communication,1,dichasus-cf0x,N/A,N/A,N/A,Robots,Intelligently decide how to simultaneously conduct radar and communication over a shared radio channel.
+EEG,1,SPaRCNet,N/A,N/A,N/A,Medical; Time Series,Electroencephalography epilepsy
+Multiclass Quantification,1,THAR Dataset,N/A,N/A,N/A,N/A,"Prediction of class prevalence in test samples that may exhibit prior probability shift from training data, in a multiclass setting."
+Neural Network Security,1,SafeEdit,N/A,N/A,Website Fingerprinting Defense,Miscellaneous; Adversarial,N/A
+Long Term Anticipation,1,EgoExoLearn,N/A,N/A,N/A,N/A,N/A
+point cloud upsampling,1,PU1K,N/A,N/A,N/A,N/A,N/A
+Film Removal,1,Polarized Film Removal Dataset,N/A,N/A,N/A,Computer Vision,"Film Removal (FR) aims to remove the transparent film and reveal the hidden information, benefiting the robustness of the industrial downstream models."
+Citation worthiness,1,PMOA-CITE,N/A,N/A,N/A,N/A,N/A
+Omniverse Isaac Gym,1,Omniverse Isaac Gym,N/A,N/A,N/A,N/A,N/A
+Acrobot,1,Omniverse Isaac Gym,N/A,N/A,N/A,N/A,N/A
+Low-latency processing,1,5GAD-2022,N/A,N/A,N/A,N/A,N/A
+Hypergraph Contrastive Learning,1,Twitter-HyDrug-UR,N/A,N/A,N/A,N/A,N/A
+Semi-Supervised Person Re-Identification,1,ENTIRe-ID,N/A,N/A,N/A,N/A,N/A
+Domain Adaptive Person Re-Identification,1,ENTIRe-ID,N/A,N/A,N/A,N/A,N/A
+MMLU,1,MMLU-Pro,mmlu (5-shots); MMLU-Pro; mmlu (chat CoT),0-shot MRR,N/A,Knowledge Base,N/A
+Hallucination,1,MMNeedle,MMNeedle,N/A,N/A,N/A,N/A
+Person Identification (1-shot),1,WiGesture,N/A,N/A,N/A,N/A,N/A
+Fashion Compatibility Learning,1,iFashion Alibaba,N/A,N/A,N/A,Computer Vision,N/A
+4k,1,UHD-IQA,N/A,N/A,N/A,N/A,N/A
+Dataset Size Recovery,1,LoRA-WiSE,N/A,N/A,N/A,Adversarial,"The task dataset size recovery aims to determine the number of samples used to train a model, directly from its weights."
+Sequential Pattern Mining,1,10 Synthetic Genomics Datasets,N/A,N/A,N/A,N/A,N/A
+Layout Design,1,Modified Swiss Dwellings,N/A,N/A,N/A,Computer Vision,N/A
+RoomEnv-v2,1,RoomEnv-v2,N/A,N/A,N/A,N/A,N/A
+Vietnamese Datasets,1,BKEE,N/A,N/A,N/A,Natural Language Processing,N/A
+Game of Poker,1,Poker Hand Histories,N/A,N/A,N/A,Playing Games,N/A
+MMR total,1,MRR-Benchmark,MRR-Benchmark,Total Column Score,N/A,Computer Vision,"Sum of all scores of the 11 distinct tasks involving texts, fonts, visual elements, bounding boxes, spatial relations, and grounding in the Multi-Modal Reading (MMR) Benchmark."
+GermEval2024 Shared Task 1 Subtask 1,1,GerMS-AT,GerMS-AT,Macro F1,N/A,Natural Language Processing,GermEval 2024 Shared Task 1 Subtask 1 involves predicting sexism labels for online comments based on human annotations that assess the strength of sexism or misogyny. Different strategies are used to ...
+GermEval2024 Shared Task 1 Subtask 2,1,GerMS-AT,GerMS-AT,Jensen-Shannon distance,N/A,Natural Language Processing,"GermEval 2024 Shared Task 1 Subtask 2 focuses on predicting the distribution of sexism labels for each user comment, based on the original label distribution assigned by human annotators. One must pre..."
+Occlusion Estimation,1,IITKGP_Fence Dataset,N/A,N/A,N/A,Computer Vision,N/A
+TiROD,1,TiROD,N/A,N/A,N/A,N/A,N/A
+Flood extent forecasting,1,GFF,N/A,N/A,N/A,N/A,N/A
+News Authenticity Identification,1,Dhoroni,N/A,N/A,N/A,N/A,N/A
+Li-ion State of Health Estimation,1,NASA Li-ion Dataset,NASA Li-ion Dataset,mean absolute error,N/A,Time Series,Prediction of a Li-ion's state of health
+Chemical Process,1,MAX-60K,N/A,N/A,Geochemistry,Miscellaneous; Time Series,N/A
+software testing,1,SoliDiffy Differencing Contract Pairs and Edit Scripts,N/A,N/A,N/A,N/A,N/A
+erson Re-Identification,1,BuckTales,N/A,N/A,N/A,N/A,N/A
+Demand Forecasting,1,SCG,N/A,N/A,N/A,N/A,N/A
+Neural Network simulation,1,3D Flow Shapes,N/A,N/A,N/A,N/A,N/A
+Liquid Simulation,1,3D Flow Shapes,N/A,N/A,N/A,N/A,N/A
+Equilibrium traffic assignment,1,Equilibrium-Traffic-Networks,N/A,N/A,N/A,N/A,N/A
+Authorship Attribution,1,BN-AuthProf,N/A,N/A,Source Code Authorship Attribution,Natural Language Processing,"Authorship attribution, also known as authorship identification, aims to attribute a previously unseen text of unknown authorship to one of a set of known authors."
+Author Profiling,1,BN-AuthProf,N/A,N/A,N/A,N/A,N/A
+MMSQL performance,1,MMSQL,N/A,N/A,N/A,N/A,N/A
+Task Planning,1,Plancraft,N/A,N/A,N/A,N/A,N/A
+Quant Trading,1,Gap Pattern Detection,N/A,N/A,N/A,N/A,N/A
+Raspberry Pi 3,1,CPU,N/A,N/A,N/A,N/A,N/A
+Raspberry Pi 4,1,CPU,N/A,N/A,N/A,N/A,N/A
+Raspberry Pi 5,1,CPU,N/A,N/A,N/A,N/A,N/A
+Crashworthiness Design,1,Database of axial impact simulations of the crash box,N/A,N/A,N/A,N/A,N/A
+ECG Digitization,1,ECG-Image-Database,ECG-Image-Database,SNR,N/A,Computer Vision,Digitize print-outs of ECGs.
+Sand,1,MPM-Verse,N/A,N/A,N/A,N/A,N/A
+Sequential Decision Making,1,BeNYfits,N/A,N/A,N/A,Methodology,N/A
+Credit score,1,GMSC,N/A,N/A,N/A,N/A,N/A
+Load Virtual Sensing,1,SKF-BLS Dataset,N/A,N/A,N/A,N/A,N/A
+Load Virtual Sensing (Fx),1,SKF-BLS Dataset,N/A,N/A,N/A,N/A,N/A
+Load Virtual Sensing (Fy),1,SKF-BLS Dataset,N/A,N/A,N/A,N/A,N/A
+Red Teaming,1,SUDO Dataset,SUDO Dataset,Attack Success Rate,N/A,Adversarial,N/A
+Real-World Adversarial Attack,1,SUDO Dataset,N/A,N/A,N/A,N/A,N/A
+Atomic Forces,1,MD22,N/A,N/A,N/A,N/A,N/A
+Field Boundary Delineation,1,FBIS-22M,N/A,N/A,N/A,N/A,N/A
+LLM real-life tasks,1,High-Quality Invoice Images for OCR,N/A,N/A,N/A,N/A,N/A
+Fixed Few Shot Prompting Danger Assessment,1,ViDAS,N/A,N/A,N/A,N/A,N/A
+Zero Shot Prompting Danger Assessment,1,ViDAS,N/A,N/A,N/A,N/A,N/A
+Fixed Few Shot Prompting,1,ViDAS,N/A,N/A,N/A,N/A,N/A
+Building Damage Assessment,1,BRIGHT,N/A,N/A,N/A,N/A,N/A
+automatic short answer grading,1,SAS-Bench,N/A,N/A,N/A,N/A,N/A
+Causal Judgment,1,AC-Bench,N/A,N/A,N/A,N/A,N/A
+Deep Learning,1,CornHub,N/A,N/A,Polynomial Neural Networks,Methodology; Computer Vision; Computer Code; Natural Language Processing,forecast
+Procedure Learning,1,LCStep,N/A,N/A,N/A,Computer Vision,"Given a set of videos of the same task, the goal is to identify the key-steps required to perform the task."
+Scheduling,1,LLMafia,N/A,N/A,N/A,N/A,Project or Job Scheduling
+Game of Mafia,1,LLMafia,N/A,N/A,N/A,Playing Games,N/A
+Asynchronous Group Communication,1,LLMafia,N/A,N/A,N/A,Natural Language Processing,N/A
+Building Flood Damage Assessment,1,HarveyPDE,N/A,N/A,N/A,N/A,N/A
+2k,1,((Easy resolve issue~guide))How do I resolve a dispute with Expedia?,N/A,N/A,N/A,N/A,N/A
+Reinforcement Learning (Atari Games),1,Seaquest - OpenAI Gym,Seaquest - OpenAI Gym,Average Return,N/A,Playing Games,Reinforcement Learning (Atari Games) - Application of Deep Learning and Reinforcement Learning i.e. Deep Reinforcement Learning.
+Foveation,0,N/A,N/A,N/A,N/A,Computer Vision,N/A
+Cancer,0,N/A,N/A,N/A,Colon Cancer Detection In Confocal Laser Microscopy Images; Prediction Of Cancer Cell Line Sensitivity; Respiratory motion forecasting; Lung Cancer Diagnosis; Skin Cancer Classification,Medical; Computer Vision; Knowledge Base,N/A
+Data Mining,0,N/A,N/A,N/A,Sequential Pattern Mining; cognitive diagnosis; Opinion Mining; CSV dialect detection; Parallel Corpus Mining,Methodology; Computer Code; Natural Language Processing,N/A
+Dehazing,0,N/A,N/A,N/A,Single Image Dehazing; Image Dehazing,Computer Vision,N/A
+Forgery,0,N/A,N/A,N/A,Localization In Video Forgery,Computer Vision,N/A
+Write Computer Programs From Specifications,0,N/A,N/A,N/A,N/A,Computer Code,N/A
+Clustering Multivariate Time Series,0,N/A,N/A,N/A,N/A,Time Series,N/A
+Chinese,0,N/A,N/A,N/A,Handwritten Chinese Text Recognition; Chinese Word Segmentation; Offline Handwritten Chinese Character Recognition; Chinese Spelling Error Correction; Chinese Zero Pronoun Resolution,Natural Language Processing,Chinese language processing is the task of applying natural language processing to the Chinese language.
+Ecommerce,0,N/A,N/A,N/A,Online Review Rating; Product Recommendation; Product Categorization; Online Ranker Evaluation,Miscellaneous,N/A
+Sequential Diagnosis,0,N/A,N/A,N/A,N/A,Medical,N/A
+Patient Outcomes,0,N/A,N/A,N/A,Predicting Patient Outcomes; Outcome Prediction In Multimodal Mri,Medical,N/A
+Mammogram,0,N/A,N/A,N/A,Breast Mass Segmentation In Whole Mammograms; Whole Mammogram Classification; Mass Segmentation From Mammograms,Medical,N/A
+Ecg Risk Stratification,0,N/A,ngm,520,N/A,Medical,N/A
+Atrial Fibrillation,0,N/A,N/A,N/A,Atrial Fibrillation Detection; Atrial Fibrillation Recurrence Estimation,Medical,N/A
+Advertising,0,N/A,N/A,N/A,Detecting Adverts,Miscellaneous,N/A
+Hand,0,N/A,N/A,N/A,Hand Pose Estimation; Hand Gesture Recognition; Hand Keypoint Localization; Gesture-to-Gesture Translation; Hand Segmentation,Computer Vision,N/A
+Remote Sensing,0,N/A,N/A,N/A,Lake Detection; Change detection for remote sensing images; Extracting Buildings In Remote Sensing Images; Denoising Of Radar Micro-Doppler Signatures; The Semantic Segmentation Of Remote Sensing Imagery,Miscellaneous; Methodology; Computer Vision,N/A
+Molecule Interpretation,0,N/A,N/A,N/A,N/A,Medical,N/A
+Tomography,0,N/A,N/A,N/A,Tomographic Reconstructions; Quantum State Tomography; Electron Tomography,Medical,N/A
+Magnetic Resonance Fingerprinting,0,N/A,N/A,N/A,N/A,Medical,N/A
+Animation,0,N/A,N/A,N/A,Image Animation; 3D Character Animation From A Single Photo,Computer Vision,N/A
+Bilevel Optimization,0,N/A,Equilibrium-Traffic-Networks/Anaheim;  Equilibrium-Traffic-Networks/Eastern Massachusetts; 	Equilibrium-Traffic-Networks/Sioux Falls,Optimality Gap,N/A,Methodology,"**Bilevel Optimization** is a branch of optimization, which contains a nested optimization problem within the constraints of the outer optimization problem. The outer optimization task is usually refe..."
+Dynamic graph embedding,0,N/A,N/A,N/A,Knowledge Base Completion,Graphs,N/A
+Tensor Networks,0,N/A,N/A,N/A,N/A,Methodology,N/A
+Portfolio Optimization,0,N/A,Yahoo ,Portfolio,N/A,Time Series,"Portfolio management is the task of obtaining higher excess returns through the flexible allocation of asset weights. In reality, common examples are stock selection and the Enhanced Index Fund (EIF)...."
+hypergraph embedding,0,N/A,N/A,N/A,hyperedge classification,Graphs,Compute useful representations of hyperedges and vertices
+Intelligent Surveillance,0,N/A,N/A,N/A,Vehicle Re-Identification,Computer Vision,N/A
+Pain Intensity Regression,0,N/A,UNBC-McMaster ShoulderPain dataset,MAE; Pearson Correlation Coefficient ; MAE (VAS),N/A,Medical,N/A
+Safe Exploration,0,N/A,N/A,N/A,N/A,Robots,"**Safe Exploration** is an approach to collect ground truth data by safely interacting with the environment.   <span class=""description-source"">Source: [Chance-Constrained Trajectory Optimization for ..."
+Game of Chess,0,N/A,N/A,N/A,N/A,Playing Games,"Chess is a two-player strategy board game played on a chessboard, a checkered gameboard with 64 squares arranged in an 8×8 grid. The idea of making a machine that could beat a Grandmaster human player..."
+Game of Shogi,0,N/A,ELO Ratings,ELO Rating,N/A,Playing Games,N/A
+FPS Games,0,N/A,N/A,N/A,Game of Doom,Playing Games,"First-person shooter (FPS) games Involve like call of duty so enjoy    <span style=""color:grey; opacity: 0.6"">( Image credit: [Procedural Urban Environments for FPS Games](https://arxiv.org/pdf/1604.0..."
+Network Congestion Control,0,N/A,N/A,N/A,N/A,Miscellaneous,N/A
+Artificial Life,0,N/A,N/A,N/A,Developmental Learning,Robots; Miscellaneous,N/A
+Skull Stripping,0,N/A,N/A,N/A,N/A,Medical,N/A
+Distributional Reinforcement Learning,0,N/A,N/A,N/A,N/A,Methodology,Value distribution is the distribution of the random return received by a reinforcement learning agent.  it been used for a specific purpose such as implementing risk-aware behaviour.     We have rand...
+Cryptanalysis,0,N/A,N/A,N/A,N/A,Miscellaneous,N/A
+Learning to Execute,0,N/A,N/A,N/A,N/A,Computer Code,N/A
+Outdoor Positioning,0,N/A,N/A,N/A,N/A,Miscellaneous,Outdoor Positioning (e.g. GPS)
+Materials Imaging,0,N/A,N/A,N/A,N/A,Computer Vision,N/A
+Query Wellformedness,0,N/A,Query Wellformedness,Accuracy,N/A,Natural Language Processing,"Assessing whether a query is grammatically correct, contains no spelling mistakes, and asks an explicit question.    Image Source: [Identifying Well-formed Natural Language Questions](https://arxiv.or..."
+Automatic Writing,0,N/A,N/A,N/A,N/A,Natural Language Processing,Generating text based on internal machine representations.
+Bayesian Optimisation,0,N/A,N/A,N/A,Bayesian Optimization,Methodology,"Expensive black-box functions are a common problem in many disciplines, including tuning the parameters of machine learning algorithms, robotics, and other engineering design problems. **Bayesian Opti..."
+Radio Interferometry,0,N/A,N/A,N/A,N/A,Miscellaneous,N/A
+Seismic Interpretation,0,N/A,N/A,N/A,Facies Classification; Seismic Detection,Miscellaneous,N/A
+Steganographics,0,N/A,N/A,N/A,N/A,Computer Vision,N/A
+Problem Decomposition,0,N/A,N/A,N/A,N/A,Miscellaneous,N/A
+Non-Linear Elasticity,0,N/A,N/A,N/A,Cantilever Beam; Stress-Strain Relation,Miscellaneous,N/A
+Metamerism,0,N/A,N/A,N/A,N/A,Computer Vision,N/A
+Web Credibility,0,N/A,N/A,N/A,N/A,Methodology,Define the level of credibility of web sources
+Observation Completion,0,N/A,N/A,N/A,Active Observation Completion,Computer Vision,N/A
+Graph Neural Network,0,N/A,..,0S,N/A,Graphs,N/A
+hypergraph partitioning,0,N/A,N/A,N/A,N/A,Graphs,N/A
+Game of Cricket,0,N/A,N/A,N/A,N/A,Playing Games,N/A
+Transparency Separation,0,N/A,N/A,N/A,N/A,Computer Vision,N/A
+Molecular Dynamics,0,N/A,N/A,N/A,N/A,Medical,N/A
+Data Poisoning,0,N/A,N/A,N/A,N/A,Adversarial,**Data Poisoning** is an adversarial attack that tries to manipulate the training dataset in order to control the prediction behavior of a trained model such that the model will label malicious exampl...
+RDF Dataset Discovery,0,N/A,N/A,N/A,N/A,Knowledge Base,Given a URI find the RDF datasets containing this URI.
+Lightfield,0,N/A,N/A,N/A,N/A,Computer Vision,Tasks related to the light-field imagery
+L2 Regularization,0,N/A,N/A,N/A,N/A,Methodology,"See [Weight Decay](https://paperswithcode.com/method/weight-decay).    **$L_{2}$ Regularization** or **Weight Decay**, is a regularization technique applied to the weights of a neural network. We mini..."
+Automated Writing Evaluation,0,N/A,N/A,N/A,N/A,Natural Language Processing,"Automated writing evaluation refers to the task of analysing and measuring written text based on features, such as syntax, text complexity and vocabulary range."
+Landmine,0,N/A,N/A,N/A,N/A,Computer Vision,N/A
+Meme Captioning,0,N/A,N/A,N/A,N/A,Natural Language Processing,Automatic generation of natural language descriptions of the content of an input meme.
+Amodal Layout Estimation,0,N/A,N/A,N/A,N/A,Computer Vision,"Amodal scene layout estimation involves estimating the static and dynamic portion of an urban driving scene in bird's-eye view, given a single image. The concept of ""amodal"" estimation refers to the f..."
+Cover song identification,0,N/A,Da-TACOS; YouTube350; Covers80; SHS100K-TEST,mAP; MAP,N/A,Music,"**Cover Song Identification** is the task of identifying an alternative version of a previous musical piece, even though it may differ substantially in timbre, tempo, structure, and even fundamental a..."
+One-shot model fusion,0,N/A,N/A,N/A,N/A,N/A,Fusing different neural networks into a single network in one-shot
+Information Plane,0,N/A,N/A,N/A,N/A,Methodology,"To obtain the Information Plane (IP) of deep neural networks, which shows the trajectories of the hidden layers during training in a 2D plane using as coordinate axes the mutual information between th..."
+Mutual Information Estimation,0,N/A,N/A,N/A,N/A,Methodology,"To estimate mutual information from samples, specially for high-dimensional variables."
+Misogynistic Aggression Identification,0,N/A,N/A,N/A,N/A,Natural Language Processing,"Develop a binary classifier for classifying the text as ‘gendered’ or ‘non-gendered’. For this, the TRAC-2 dataset of 5,000 annotated data from social media each in Bangla (in both Roman and Bangla sc..."
+NetHack,0,N/A,N/A,N/A,NetHack Score,Playing Games,Mean in-game score over 1000 episodes with random seeds not seen during training. See https://arxiv.org/abs/2006.13760 (Section 2.4 Evaluation Protocol) for details.
+Blink estimation,0,N/A,Researcher's Night; Eyeblink8; RT-BENE,F1,N/A,Computer Vision,N/A
+Spatial Interpolation,0,N/A,N/A,N/A,N/A,N/A,N/A
+Hypergraph representations,0,N/A,N/A,N/A,Hypergraph Contrastive Learning,Graphs,N/A
+quantum gate design,0,N/A,N/A,N/A,N/A,N/A,N/A
+Sequential Quantile Estimation,0,N/A,N/A,N/A,N/A,Miscellaneous,N/A
+Re-basin,0,N/A,N/A,N/A,N/A,Knowledge Base,N/A
+Quantum Circuit Equivalence Checking,0,N/A,N/A,N/A,N/A,Methodology,Equivalence Checking of Quantum Circuits
+JSONiq Query Execution,0,N/A,N/A,N/A,N/A,Miscellaneous; Computer Code,"Execute JSONiq query, typically on semi-structured JSON data"
+Cyber Attack Investigation,0,N/A,N/A,N/A,N/A,Miscellaneous,N/A
+Population Assignment,0,N/A,N/A,N/A,N/A,Medical,N/A
+Survey Sampling,0,N/A,N/A,N/A,N/A,N/A,N/A
+Influence Approximation,0,N/A,N/A,N/A,N/A,Methodology,Estimating the influence of training triples on the behavior of a machine learning model.
+Robust Design,0,N/A,N/A,N/A,N/A,Miscellaneous,N/A
+Ensemble Pruning,0,N/A,N/A,N/A,N/A,N/A,N/A
+statistical independence testing,0,N/A,N/A,N/A,N/A,Methodology,N/A
+band gap regression,0,N/A,N/A,N/A,N/A,N/A,N/A
+Sequential Correlation Estimation,0,N/A,N/A,N/A,N/A,Miscellaneous,N/A
+Making Hiring Decisions,0,N/A,SIOP 2020/2021,Final_score,N/A,Miscellaneous,N/A
+Survey,0,N/A,N/A,N/A,N/A,Computer Vision,N/A
+Domain Labelling,0,N/A,BabelDomains,F1-Score,N/A,Natural Language Processing,N/A
+Cervical cancer biopsy identification,0,N/A,Cervical Cancer (Risk Factors) Data Set,Mean Accuracy,N/A,Medical,N/A
+Breast Tissue Identification,0,N/A,Breast Tissue Data Set,Mean Accuracy,N/A,Medical,N/A
+Sparse subspace-based clustering,0,N/A,N/A,N/A,N/A,Computer Code,N/A
+Turning Point Identification,0,N/A,N/A,N/A,N/A,Natural Language Processing,"Identification of key events in a narrative (such as movie or TV episode). The task is supported by screenwriting theory, according to which there are 5 different types of key events in a movie. These..."
+Edge-computing,0,N/A,N/A,N/A,Device-Cloud Collaboration; Tiling & Deployment,Time Series; Computer Code,Deep Learning on EDGE devices
+Neural Stylization,0,N/A,Meshes,Mean Opinion Score (Q2: Content); Mean Opinion Score (Q3: Style); Mean Opinion Score (Q1:Overall),N/A,Computer Vision,N/A
+Temporal Processing,0,N/A,N/A,N/A,Timex normalization; Temporal Information Extraction; Document Dating,Natural Language Processing,N/A
+Taxonomy Learning,0,N/A,N/A,N/A,Taxonomy Expansion; Hypernym Discovery,Natural Language Processing,Taxonomy learning is the task of hierarchically classifying concepts in an automatic manner from text corpora. The process of building taxonomies is usually divided into two main steps: (1) extracting...
+Pulse wave simulation,0,N/A,N/A,N/A,N/A,Medical,Simulating arterial pulse waves
+Formalize foundations of universal algebra in dependent type theory,0,N/A,N/A,N/A,N/A,Computer Code,N/A
+Data Ablation,0,N/A,N/A,N/A,N/A,Computer Vision,"Data Ablation is the study of change in data, and its effects in the performance of Neural Networks."
+Numerical Integration,0,N/A,N/A,N/A,N/A,Miscellaneous,Numerical integration is the task to calculate the numerical value of a definite integral or the numerical solution of differential equations.
+Tensor Decomposition,0,N/A,N/A,N/A,N/A,N/A,N/A
+Pronunciation Assessment,0,N/A,N/A,N/A,Utterance-level pronounciation scoring; Phone-level pronunciation scoring; Word-level pronunciation scoring,Speech,N/A
+Dynamic Time Warping,0,N/A,N/A,N/A,N/A,Time Series,N/A
+Exponential degradation,0,N/A,N/A,N/A,N/A,Time Series,Exponential degradation  used to solve problems where systems exposed to an exponential loss in performances such as reparable industrial systems.
+Im2Spec,0,N/A,N/A,N/A,N/A,Computer Vision,Predicting spectra from images (and vice versa)
+BRDF estimation,0,N/A,N/A,N/A,N/A,Computer Vision,N/A
+Stochastic Block Model,0,N/A,N/A,N/A,N/A,Graphs,N/A
+Emergent communications on relations,0,N/A,N/A,N/A,N/A,Natural Language Processing,Emergent communications in the context of relations.
+Reliable Intelligence Identification,0,N/A,N/A,N/A,N/A,Natural Language Processing,N/A
+Unity,0,N/A,N/A,N/A,N/A,Computer Vision,N/A
+Service Composition,0,N/A,N/A,N/A,N/A,Miscellaneous,"Let T be the task that the service composition needs to accomplish. The task T can be granulated to T 1 , T 2 , T 3 , T 4 , … , T n . i.e. T =  {T 1 , T 2 , T 3 , T 4 , … , T n } . For each task T i ,..."
+Learning Theory,0,N/A,N/A,N/A,N/A,Miscellaneous,Learning theory
+Riemannian optimization,0,N/A,N/A,N/A,N/A,N/A,Optimization methods on Riemannian manifolds.
+Model Discovery,0,N/A,N/A,N/A,N/A,Miscellaneous,discovering PDEs from spatiotemporal data
+Spike Sorting,0,N/A,N/A,N/A,N/A,N/A,Spike sorting is a class of techniques used in the analysis of electrophysiological data. Spike sorting algorithms use the shape(s) of waveforms collected with one or more electrodes in the brain to d...
+Additive models,0,N/A,N/A,N/A,N/A,Methodology,N/A
+Density Ratio Estimation,0,N/A,N/A,N/A,N/A,Methodology,Estimating the ratio of one density function to the other.
+Experimental Design,0,N/A,N/A,N/A,N/A,Methodology,N/A
+FAD,0,N/A,N/A,N/A,N/A,N/A,N/A
+Hard Attention,0,N/A,N/A,N/A,N/A,Methodology,N/A
+Literature Mining,0,N/A,N/A,N/A,Systematic Literature Review,Knowledge Base; Natural Language Processing,The task where the publication texts are used to mine knowledge using NLP
+Superpixels,0,N/A,N/A,N/A,N/A,Computer Vision,"Superpixel techniques segment an image into regions based on similarity measures that utilize perceptual features, effectively grouping pixels that appear similar. The motivation behind this approach ..."
+Anachronisms,0,N/A,N/A,N/A,N/A,Reasoning,N/A
+DNN Testing,0,N/A,N/A,N/A,N/A,Adversarial,Testing the reliability of DNNs.
+Side Channel Analysis,0,N/A,N/A,N/A,N/A,N/A,N/A
+Variational Monte Carlo,0,N/A,N/A,N/A,N/A,Miscellaneous,Variational methods for quantum physics
+Graph Nonvolutional Network,0,N/A,N/A,N/A,N/A,Graphs,N/A
+Majority Voting Classifier,0,N/A,N/A,N/A,N/A,N/A,N/A
+Neural Radiance Caching,0,N/A,N/A,N/A,N/A,Computer Vision,Involves the task of predicting photorealistic pixel colors from feature buffers.    Image source: [Instant Neural Graphics Primitives with a Multiresolution Hash Encoding](https://arxiv.org/pdf/2201....
+Facial Editing,0,N/A,N/A,N/A,N/A,Computer Vision,Image source: [Stitch it in Time: GAN-Based Facial Editing of Real Videos](https://arxiv.org/pdf/2201.08361v2.pdf)
+Tropical Cyclone Track Forecasting,0,N/A,N/A,N/A,N/A,Time Series,N/A
+Tropical Cyclone Intensity Forecasting,0,N/A,N/A,N/A,N/A,Time Series,N/A
+Procgen Hard (100M),0,N/A,N/A,N/A,N/A,Playing Games,N/A
+SMC会议,0,N/A,N/A,N/A,N/A,N/A,N/A
+ARQMath2,0,N/A,N/A,N/A,N/A,Natural Language Processing,Answer Retrieval for Questions about Math v2 (2021)
+Nonparametric Clustering,0,N/A,N/A,N/A,N/A,N/A,Clustering when the number of clusters is unknwon
+Seismic Inversion,0,N/A,N/A,N/A,N/A,Miscellaneous,N/A
+Seismic Imaging,0,N/A,N/A,N/A,N/A,Miscellaneous,N/A
+Suggestion mining,0,N/A,N/A,N/A,N/A,Natural Language Processing,"Suggestion mining can be defined as the extraction of suggestions from unstructured text,"
+Geometry-aware processing,0,N/A,N/A,N/A,N/A,N/A,Harness manifolds and manifold-aware optimization to process data (e.g. SPD manifold representations using covariance matrix).
+Second-order methods,0,N/A,N/A,N/A,N/A,N/A,Use second-order statistics to process data.
+PSO-ConvNets Dynamics 1,0,N/A,N/A,N/A,N/A,Computer Vision,Incorporating distilled Cucker-Smale elements into PSO algorithm using KNN and intertwine training with SGD
+PSO-ConvNets Dynamics 2,0,N/A,N/A,N/A,N/A,Computer Vision,Incorporating distilled Cucker-Smale elements into PSO algorithm using KNN and intertwine training with SGD (Pull back method)
+PAC learning,0,N/A,N/A,N/A,N/A,N/A,Probably Approximately Correct (PAC) learning analyzes machine learning mathematically using probability bounds.
+Maximum Separation,0,N/A,N/A,N/A,N/A,N/A,N/A
+Radar waveform design,0,N/A,N/A,N/A,N/A,N/A,N/A
+Dataset Condensation,0,N/A,N/A,N/A,N/A,N/A,Condense the full dataset into a tiny set of synthetic data.
+Weight Space Learning,0,N/A,N/A,N/A,N/A,N/A,"Learning from populations of neural network models (model zoo), where each model is given by a set of model parameters."
+Network Interpretation,0,N/A,N/A,N/A,N/A,Computer Vision,N/A
+File difference,0,N/A,N/A,N/A,N/A,Computer Code,"Generate edit script comparing 2 strings or files, which contains instruction of insert, delete and substitute to convert first string to the second."
+Respiratory Rate Estimation,0,N/A,N/A,N/A,N/A,Medical,N/A
+Molecular Docking,0,N/A,N/A,N/A,Blind Docking,Medical,"Predicting the binding structure of a small molecule ligand to a protein, which is critical to drug design.    Description from: [DiffDock: Diffusion Steps, Twists, and Turns for Molecular Docking](ht..."
+Penn Machine Learning Benchmark (Real-World),0,N/A,N/A,N/A,N/A,Miscellaneous,Real-World Datasets in Penn Machine Learning Benchmark
+Deep Feature Inversion,0,N/A,N/A,N/A,N/A,Computer Vision,N/A
+Computational fabrication,0,N/A,N/A,N/A,N/A,N/A,N/A
+Stability-aware design,0,N/A,N/A,N/A,N/A,N/A,N/A
+Brain Morphometry,0,N/A,N/A,N/A,N/A,Medical,Measurement of brain structures from neuroimaging (MRI).
+Rubik's Cube,0,N/A,N/A,N/A,N/A,Graphs,Solving the Rubik's Cube is a pathfinding task on a massive implicit graph.
+Thompson Sampling,0,N/A,N/A,N/A,N/A,Methodology,"Thompson sampling, named after William R. Thompson, is a heuristic for choosing actions that addresses the exploration-exploitation dilemma in the multi-armed bandit problem. It consists of choosing t..."
+Federated Unsupervised Learning,0,N/A,N/A,N/A,N/A,Methodology,Federated unsupervised learning trains models from decentralized data that have no labels.
+Humanoid Control,0,N/A,N/A,N/A,N/A,Robots,"Control of a high-dimensional humanoid. This can include skill learning by tracking motion capture clips, learning goal-directed tasks like going towards a moving target, and generating motion within ..."
+Spatial Token Mixer,0,N/A,N/A,N/A,N/A,Computer Vision,Spatial Token Mixer (STM) is a module for vision transformers that aims to improve the efficiency of token mixing. STM is a type of depthwise convolution that operates on the spatial dimension of the ...
+Steganalysis,0,N/A,N/A,N/A,N/A,Computer Vision,Detect the usage of Steganography
+highlight removal,0,N/A,N/A,N/A,N/A,Computer Vision,Highlight removal refers to the process of eliminating or reducing the presence of specular highlights in an image. Specular highlights are bright spots or reflections that occur when light reflects o...
+Job Shop Scheduling,0,N/A,N/A,N/A,N/A,N/A,Scheduling Task
+Li-ion battery degradation modes diagnosis,0,N/A,N/A,N/A,N/A,N/A,N/A
+Battery diagnosis,0,N/A,N/A,N/A,N/A,N/A,N/A
+Penn Machine Learning Benchmark,0,N/A,Real-world Datasets,R2 Score,N/A,Miscellaneous,Penn Machine Learning Benchmarks (PMLB) is a large collection of curated benchmark datasets for evaluating and comparing supervised machine learning algorithms.
+Compiler Optimization,0,N/A,N/A,N/A,N/A,Computer Code,Machine learning guided compiler optimization
+Data Valuation,0,N/A,N/A,N/A,Data Interaction,Methodology,"Data valuation in machine learning tries to determine the worth of data, or data sets, for downstream tasks. Some methods are task-agnostic and consider datasets as a whole, mostly for decision making..."
+Efficient Neural Network,0,N/A,N/A,N/A,N/A,N/A,N/A
+Eikonal Tomography,0,N/A,N/A,N/A,N/A,N/A,N/A
+Tree Decomposition,0,N/A,N/A,N/A,N/A,Graphs,"**Tree Decomposition** is a technique in graph theory and computer science for representing a graph as a tree, where each node in the tree represents a set of vertices in the original graph. The goal ..."
+Weakly-supervised Learning,0,N/A,N/A,N/A,N/A,N/A,N/A
+Result aggregation,0,N/A,N/A,N/A,N/A,Methodology,N/A
+quantum gate calibration,0,N/A,N/A,N/A,N/A,N/A,N/A
+Ontology Subsumption Inferece,0,N/A,N/A,N/A,N/A,Knowledge Base,N/A
+Ontology Embedding,0,N/A,N/A,N/A,N/A,Knowledge Base,N/A
+Model free quantum gate design,0,N/A,N/A,N/A,N/A,N/A,N/A
+Multi-Modal Learning,0,N/A,N/A,N/A,N/A,Miscellaneous,N/A
+Joint Deblur and Frame Interpolation,0,N/A,N/A,N/A,N/A,N/A,N/A
+Joint Deblur and Unrolling,0,N/A,N/A,N/A,N/A,N/A,N/A
+Sensitivity,0,N/A,N/A,N/A,N/A,N/A,N/A
+Unsupervised Long Term Person Re-Identification,0,N/A,N/A,N/A,N/A,Computer Vision,"Long-term Person Re-Identification(Clothes-Changing Person Re-ID) is a computer vision task in which the goal is to match a person's identity across different cameras, clothes, and locations in a vide..."
+Collaborative Plan Acquisition,0,N/A,N/A,N/A,N/A,Natural Language Processing,N/A
+DNA analysis,0,N/A,N/A,N/A,N/A,Medical,N/A
+Relation Network,0,N/A,N/A,N/A,N/A,Computer Vision,N/A
+MonkeyPox Diagnosis,0,N/A,N/A,N/A,N/A,Medical,N/A
+Cloud Computing,0,N/A,N/A,N/A,N/A,Computer Code,to study
+molecular representation,0,N/A,N/A,N/A,N/A,Natural Language Processing,N/A
+Self Adaptive System,0,N/A,N/A,N/A,N/A,Miscellaneous,Self Adaptive Machine Learning System
+Constrained Clustering,0,N/A,N/A,N/A,Only Connect Walls Dataset Task 1 (Grouping); Incremental Constrained Clustering,Methodology; Natural Language Processing,"Split data into groups, taking into account knowledge in the form of constraints on points, groups of points, or clusters."
+Linguistic steganography,0,N/A,N/A,N/A,N/A,Natural Language Processing,N/A
+Hearing Aid and device processing,0,N/A,N/A,N/A,Cadenza 1 - Task 1 - Headphone; Cadenza 1 - Task 2 - In Car,Audio,N/A
+NWP Post-processing,0,N/A,N/A,N/A,N/A,Computer Vision,"Use the sequence of NWP predictions as input, aiming to predict a refined output, where the rainfall observations serve as ground truth to train the model."
+Persuasiveness,0,N/A,N/A,N/A,N/A,N/A,N/A
+Diffusion Personalization,0,N/A,N/A,N/A,Efficient Diffusion Personalization; Diffusion Personalization Tuning Free,Computer Vision,The goal of this task is to customize a generative diffusion model to user-specific datasets so that it can generate more user-specific dataset
+Geometry Problem Solving,0,N/A,N/A,N/A,N/A,Reasoning,Geometry problem solving with geometry diagrams and (formal) problem descriptions.
+Artificial Global Workspace,0,N/A,N/A,N/A,N/A,Methodology,N/A
+Atomistic Description,0,N/A,N/A,N/A,Formation Energy; Molecular Property Prediction; Atomic Forces,Miscellaneous; Medical; Graphs,N/A
+de novo peptide sequencing,0,N/A,N/A,N/A,N/A,Medical,De novo peptide sequencing refers to the process of determining the amino acid sequence of a peptide without prior knowledge of the DNA or protein it comes from. This technique is used in proteomics t...
+WNLI,0,N/A,N/A,N/A,N/A,Natural Language Processing,N/A
+GPS Embeddings,0,N/A,Geo-Tagged NUS-WIDE (GPS + Visual); Geo-Tagged NUS-WIDE (GPS Only), mAP; mAP,N/A,Miscellaneous,GPS Embeddings is the collective name for a set of feature-learning techniques where GPS coordinates are mapped to vectors of real numbers.
+Partially Labeled Datasets,0,N/A,N/A,N/A,N/A,N/A,N/A
+Pseudo Label Filtering,0,N/A,N/A,N/A,N/A,N/A,N/A
+Non-Adversarial Robustness,0,N/A,N/A,N/A,N/A,Time Series,N/A
+C++ code,0,N/A,N/A,N/A,N/A,Computer Code,N/A
+Discrete Choice Models,0,N/A,N/A,N/A,N/A,Reasoning,N/A
+Machine Unlearning,0,N/A,N/A,N/A,Continual Forgetting,Methodology; Computer Vision,N/A
+Pre-Fine-Tuning Weight Recovery,0,N/A,N/A,N/A,N/A,N/A,"The goal is to recover the Pre-Fine-Tuning weights of a given model, i.e., the weights of the original, pre-trained model from a fine-tuned version of the model."
+nlg evaluation,0,N/A,N/A,N/A,N/A,Natural Language Processing,"Evaluate the generated text by NLG (Natural Language Generation) systems, like large language models"
+Computational Efficiency,0,N/A,Plant village,Hamming Loss,N/A,Miscellaneous; Time Series; Methodology,"Methods and optimizations to reduce the computational resources (e.g., time, memory, or power) needed for training and inference in models. This involves techniques that streamline processing, optimiz..."
+6D Vision,0,N/A,N/A,N/A,N/A,Computer Vision,N/A
+Satellite Orbit Determination,0,N/A,N/A,N/A,N/A,Computer Vision,"Orbit determination is the estimation of orbits of objects such as moons, planets, and spacecraft. One major application is to allow tracking newly observed asteroids and verify that they have not bee..."
+Signal Processing,0,N/A,N/A,N/A,Physiological Computing,Medical; Audio,N/A
+Feature Correlation,0,N/A,N/A,N/A,N/A,N/A,N/A
+Single Particle Analysis,0,N/A,N/A,N/A,2D Particle Picking,Computer Vision,Single Particle Analysis
+Earth Observation,0,N/A,N/A,N/A,N/A,Computer Vision,"Earth Observation (EO) refers to the use of remote sensing technologies to monitor land, marine (seas, rivers, lakes) and atmosphere. Satellite-based EO relies on the use of satellite-mounted payloads..."
+ERP,0,N/A,N/A,N/A,Within-Session ERP,Medical,"Classification of examples recorded under the Event-Related Potential (ERP) paradigm, as part of Brain-Computer Interfaces (BCI).    A number of ERP datasets can be downloaded using the MOABB library:..."
+SSVEP,0,N/A,N/A,N/A,Within-Session SSVEP,Medical,"Classification of examples recorded under the Steady-State Visually Evoked Potential (SSVEP) paradigm, as part of Brain-Computer Interfaces (BCI).    A number of SSVEP datasets can be downloaded using..."
+Financial Analysis,0,N/A,N/A,N/A,N/A,N/A,N/A
+Portrait Animation,0,N/A,N/A,N/A,N/A,Computer Vision,"The person is looking directly at the camera to express his feelings, showcasing his emotions and sense of humor while speaking."
+Diversity,0,N/A,N/A,N/A,N/A,Miscellaneous,"Diversity in data sampling is crucial across various use cases, including search, recommendation systems, and more. Ensuring diverse samples means capturing a wide range of variations and perspectives..."
+Therapeutics Data Commons,0,N/A,N/A,N/A,TDC ADMET Benchmarking Group,Medical,Therapeutics Data Commons is a coordinated initiative to access and evaluate artificial intelligence capability across therapeutic modalities and stages of discovery.
+Dataset Distillation,0,N/A,N/A,N/A,N/A,Computer Vision,Dataset distillation is the task of synthesizing a small dataset such that models trained on it achieve high performance on the original large dataset. A dataset distillation algorithm takes as input ...
+Network Identification,0,N/A,N/A,N/A,N/A,Methodology,Identification of parameters composing a neural network. Also referred as model stealing attack or parameter reverse engineering.
+Wrong PDF attached,0,N/A,N/A,N/A,N/A,Miscellaneous,The system automatically attached the old version of the PDF. The new version from 2024 is available here:    https://arxiv.org/abs/1912.00518
+Vietnamese Multimodal Learning,0,N/A,N/A,N/A,N/A,Computer Vision,N/A
+Ingenuity,0,N/A,N/A,N/A,N/A,Robots,Locomotion environment inspired by NASA’s Ingenuity helicopter.
+Deep imbalanced regression,0,N/A,N/A,N/A,N/A,Methodology,N/A
+Local intrinsic dimension estimation,0,N/A,N/A,N/A,N/A,Miscellaneous,Task of estimating the local dimensionality of the data manifold.
+Surrogate Hydrodynamic Modeling,0,N/A,N/A,N/A,N/A,Miscellaneous,N/A
+Part-based Representation Learning,0,N/A,N/A,N/A,Unsupervised Part Discovery,Computer Vision,N/A
+Assortment Optimization,0,N/A,N/A,N/A,N/A,Reasoning,Assortment optimization is all about presenting the right mix of products in the right channels at the right time.
+Test Case Creation,0,N/A,N/A,N/A,N/A,N/A,N/A
+Disjoint 19-1,0,N/A,PASCAL VOC 2012,mIoU,N/A,Computer Vision,N/A
+Pupil Diameter Estimation,0,N/A,N/A,N/A,N/A,Computer Vision,N/A
+Mammographic Breast Positioning Assessment,0,N/A,N/A,N/A,N/A,Medical,N/A
+ARC,0,N/A,N/A,N/A,N/A,Reasoning,N/A
+HellaSwag,0,N/A,N/A,N/A,N/A,Natural Language Processing,N/A
+Student dropout,0,N/A,N/A,N/A,N/A,N/A,N/A
+Crash injury severity,0,N/A,N/A,N/A,N/A,N/A,N/A
+Kolmogorov-Arnold Networks,0,N/A,N/A,N/A,N/A,Methodology,Papers presenting models which utilize Kolmogorov-Arnold networks as their underlying architecture.
+test driven development,0,N/A,N/A,N/A,N/A,N/A,N/A
+Molecular geometry optimization,0,N/A,N/A,N/A,N/A,Medical,N/A
+Computational chemistry,0,N/A,N/A,N/A,N/A,Medical,N/A
+rllib,0,N/A,N/A,N/A,N/A,Methodology,N/A
+scientific discovery,0,N/A,N/A,N/A,N/A,Miscellaneous,N/A
+Missing Values,0,N/A,N/A,N/A,N/A,N/A,N/A
+Vietnamese Lexical Normalization,0,N/A,N/A,N/A,N/A,Natural Language Processing,N/A
+Traffic Signal Control,0,N/A,N/A,N/A,N/A,Miscellaneous; Computer Code,"Control traffic lights/signals to optimize traffic.    <span style=""color:grey; opacity: 0.6"">( Image credit: [Flaticon](https://www.flaticon.com/free-icon/traffic-light_2760947) )</span>"
+(deleted task 2),0,N/A,N/A,N/A,N/A,Miscellaneous,9kboss customer care number 9626321456**call
+DFT Z isomer pi-pi* wavelength,0,N/A,N/A,N/A,N/A,Miscellaneous,N/A
+Mamba,0,N/A,N/A,N/A,N/A,Medical; Natural Language Processing,N/A
+State Space Models,0,N/A,N/A,N/A,N/A,N/A,N/A
+Political evalutation,0,N/A,N/A,N/A,Alignement visualisation,Natural Language Processing,Evaluate the political bias in a Large Language model
+User Identification,0,N/A,N/A,N/A,N/A,Knowledge Base,N/A
+scoring rule,0,N/A,N/A,N/A,N/A,Computer Code,N/A
+Minecraft,0,N/A,N/A,N/A,N/A,Robots,N/A
+4K 60Fps,0,N/A,N/A,N/A,Photo geolocation estimation,Computer Vision; Graphs,N/A
+Model Optimization,0,N/A,N/A,N/A,Equilibrium traffic assignment,Graphs,To Optimize already existing models in Training/Inferencing tasks.
+LMM real-life tasks,0,N/A,Leaderboard,ELO Rating; Win rate,Short Question Answers; Long Question Answer,Computer Vision,N/A
+Drug Design,0,N/A,N/A,N/A,N/A,Natural Language Processing,N/A
+dambreak,0,N/A,N/A,N/A,N/A,N/A,N/A
+ArabicMMLU,0,N/A,N/A,N/A,N/A,Natural Language Processing,N/A
+Autonomous Racing,0,N/A,N/A,N/A,N/A,Robots,N/A
+Geometry-based operator learning,0,N/A,N/A,N/A,N/A,Miscellaneous,Deep Operator Networks for multi-geometry problems
+Dynamic neural networks,0,N/A,N/A,N/A,N/A,Methodology,Dynamic neural networks are adaptable models that can change their structure or parameters during training or inference based on input complexity or computational constraints. They offer benefits like...
+model,0,N/A,N/A,N/A,N/A,N/A,algorithme utiliser
+iFun,0,N/A,N/A,N/A,N/A,N/A,"Inductively forecasting unobserved locations. Different from classic prediction tasks in spatio-temporal data, these unobserved locations have no historical data available for model training."
+global-optimization,0,N/A,N/A,N/A,N/A,N/A,N/A
+Data Driven Optimal Control,0,N/A,N/A,N/A,N/A,Robots,N/A
+spatio-temporal extrapolation,0,N/A,N/A,N/A,N/A,N/A,N/A
+陕西、四川、重庆地区2017-2022年末人口数（如图1-7所示）中，陕西省人口数较稳 定，维持在3940万人，四川和重庆均呈上升趋势。,0,N/A,N/A,N/A,N/A,N/A,N/A
+ICU Admission,0,N/A,N/A,N/A,N/A,Medical,N/A
+input filtering,0,N/A,N/A,N/A,N/A,Methodology,"Input filtering aims to filter out input data that is not necessary for executing model inference, thus reducing data transmission and computing overhead."
+Human Fitting,0,N/A,N/A,N/A,N/A,Computer Vision,N/A
+Self-Evolving AI,0,N/A,N/A,N/A,N/A,Natural Language Processing,"Self-Evolving AI refers to autonomous systems that modify their own code, memory, and behavior through internal logic, randomness, and interaction feedback. Votranh V8 is a pioneering example, integra..."
+Integrated sensing and communication,0,N/A,N/A,N/A,N/A,N/A,N/A
+ISAC,0,N/A,N/A,N/A,N/A,N/A,N/A
+parameter estimation,0,N/A,N/A,N/A,N/A,N/A,N/A
+tensor algebra,0,N/A,N/A,N/A,N/A,N/A,N/A
+compressed sensing,0,N/A,N/A,N/A,N/A,N/A,N/A
+subspace methods,0,N/A,N/A,N/A,N/A,N/A,N/A
+Lifelong learning,0,N/A,N/A,N/A,N/A,N/A,N/A
+Exemplar-Free,0,N/A,N/A,N/A,N/A,N/A,N/A
+Prompt Learning,0,N/A,N/A,N/A,N/A,N/A,N/A
+Mixture-of-Experts,0,N/A,N/A,N/A,N/A,N/A,N/A
+OpenAI Vision,0,N/A,N/A,N/A,N/A,Computer Vision,N/A
+Lightweight Deployment,0,N/A,N/A,N/A,N/A,Reasoning,N/A
+BraTS2021,0,N/A,N/A,N/A,N/A,Medical,2nd place solution for BraTS 2021 challenge
+Weather Editing,0,N/A,N/A,N/A,N/A,Computer Vision,N/A
+State Estimation,0,N/A,N/A,N/A,N/A,N/A,N/A
+PHMbench,0,N/A,N/A,N/A,PHM-Vibench,Time Series,N/A
+Terrain Estimation,0,N/A,N/A,N/A,N/A,Robots,N/A
+Human Agent Collaboration,0,N/A,N/A,N/A,N/A,Natural Language Processing,N/A
+Diverse Top-k Subgroup List Discovery,0,N/A,N/A,N/A,N/A,N/A,N/A
