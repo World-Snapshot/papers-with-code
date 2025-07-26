@@ -1,0 +1,3039 @@
+Task Name,Parent Task,Level,Dataset Count,Description,Benchmarks,Metrics,Children Count
+Image Classification,,0,283,,"Kuzushiji-MNIST; CIFAR-100, 40% Symmetric Noise; ImageNet-Hard; KITTI-Dist; Fracture/Normal Shoulder Bone X-ray Images on MURA; ColonINST-v1 (Unseen); ObjectNet (ImageNet classes); finetuned-websites; Flowers (Tensorflow); CUB-200-2011",,10
+Visual Question Answering (VQA),,0,145,,TextVQA test-standard; VQA-CE; GQA test-std; A-OKVQA; GRIT; VQA-CP; QLEVR; WebSRC; TDIUC; VQA v2 val,,9
+Named Entity Recognition (NER),,0,130,,LINNAEUS; IECSIL FIRE-2018 Shared Task; WetLab; i2b2 De-identification Dataset; SLUE; NCBI-disease; CoNLL 2000; OntoNotes 5.0; BC7 NLM-Chem; UNER v1 - PUD (Swedish),,0
+Anomaly Detection,,0,120,,KSDD2; Numenta Anomaly Benchmark; Anomaly Detection on Unlabeled ImageNet-30 vs CUB-200; Lost and Found; Unlabeled CIFAR-10 vs CIFAR-100; PAD Dataset; One-class CIFAR-10; Fishyscapes L&F; NB15-Backdoor; UBnormal,,10
+Instance Segmentation,,0,111,,coco minval; NYUDv2-IS; nuScenes; KINS; COCO test-dev; COCO; UAVBillboards; COCO-N Medium; UFBA-425; BDD100K val,,10
+Speech Recognition,,0,96,,Podlodka.io; Common Voice Chuvash; swb_hub_500 WER fullSWBCH; Common Voice 7.0 Odia; Libri-Light test-other; Common Voice 8.0 Central Kurdish; Common Voice Latvian; projecte-aina/parlament_parla ca; Common Voice 7.0 Portuguese; Common Voice 8.0 German,,0
+2D Object Detection,,0,93,,; RADIATE; BDD100K val; FishEye8K; UAV-PDD2023; TXL-PBC: a freely accessible labeled peripheral blood cell dataset; DUO; SCoralDet Dataset; RF100; ExDark,,10
+Information Retrieval,,0,93,,TREC-PM; dim 64; GermanQuAD; Unknown; Evaluate; News Headlines; dim 512; CQADupStack; dim 768; NanoMSMARCO,,0
+Image Retrieval,,0,87,,CREPE (Compositional REPresentation Evaluation); ICFG-PEDES; DeepPatent; PhotoChat; WIT; MUGE Retrieval; In-Shop; CUB-200-2011; Par106k; LaSCo,,10
+2D Semantic Segmentation,,0,83,,xBD; Extended heartSeg; RELLIS-3D; WorldFloods; WildScenes; Deep Indices; CamVid; Time Series Prediction Benchmarks; GF-PA66 3D XCT; Cityscapes val,,10
+Relation Extraction,,0,82,,CoNLL04; 2010 i2b2/VA; GAD; ADE Corpus; Google RE; NYT-single; LPSC-hasproperty; JNLPBA; SciERC; LPSC-contains,,0
+Image Captioning,,0,79,,nocaps in-domain; ChEBI-20; Peir Gross; nocaps-val-near-domain; nocaps-XD out-of-domain; VizWiz 2020 test; nocaps-XD in-domain; nocaps-val-out-domain; Flickr30k Captions test; WHOOPS!,,8
+Image Generation,,0,79,,LSUN Horse 256 x 256; Landscapes 256 x 256; KMNIST; WISE; ARKitScenes; CIFAR-10 (10% data); Pokemon 256x256; Fashion-MNIST; LSUN Car 512 x 384; FFHQ 64x64,,10
+Object Tracking,,0,69,,QuadTrack; SeaDronesSee; 1; MMPTRACK; BIRDSAI - ICVGIP 2020; FE108; Perception Test; KITTI; VisEvent; COESOT,,10
+Link Prediction,,0,67,,MIT; OpenBG500; Cora (biased evaluation); OpenBioLink; ICEWS05-15; KG20C; FB-AUTO; Wiki-Vote; IMDb; Alibaba-S,,0
+Optical Character Recognition (OCR),,0,55,,"I2L-140K; VideoDB's OCR Benchmark Public Collection; SUT; Benchmarking Chinese Text Recognition: Datasets, Baselines, and an Empirical Study; FSNS - Test; im2latex-100k",,10
+Abstractive Text Summarization,,0,53,,WITS; CNN / Daily Mail; CNN/Daily Mail; mlsum-es; WikiHow; Abstractive Text Summarization from Fanpage; SAMSum Corpus: A Human-annotated Dialogue Dataset for Abstractive Summarization; MLSum-it; AESLC; PLOS,,0
+Emotion Recognition,,0,52,,MaSaC_ERC; MPED; SEED; MAFW; RAVDESS; คลิปคุณพ่อให้ลูกสาวยืมโทรศัพท์และความสนุกสนาน; EMOTIC; MSP-Podcast; Emomusic; FER2013,,10
+Medical Image Segmentation,,0,52,,EM; MICCAI 2015 Head and Neck Challenge; MoNuSeg 2018; Autoimmune Dataset; 2015 MICCAI Polyp Detection; CVC-ClinicDB; Endotect Polyp Segmentation Challenge Dataset; Medical Segmentation Decathlon; KvasirCapsule-SEG; AMOS,,10
+Hate Speech Detection,,0,47,,"bajer_danish_misogyny; Automatic Misogynistic Identification; HateXplain; DKhate; Waseem et al., 2018; Ethos MultiLabel; OLID; HateMM; SHAJ; HatEval",,0
+Novel View Synthesis,,0,46,,PhotoShape; Tanks and Temples; LLFF; iFF; Dosovitskiy Chairs; ShapeNet Chair; BLEFF; RealEstate10K; ScanNet++; ACID,,2
+Object Recognition,,0,45,,"DVS128 Gesture; ObjectNet (ImageNet classes); MECCANO; ObjectNet (ImageNet classes, trained on ImageNet); N-Caltech 101; ObjectNet (All classes); CIFAR10-DVS; N-CARS; shape bias",,3
+Segmentation,,0,45,,SimGas; !(()&&!|*|*|; MFSD; MMFlood; SA-1B,,1
+Semantic Parsing,,0,45,,"SQA; Geo; DRG (german, MRP 2020); spider; WebQuestionsSP; PTG (czech, MRP 2020); DRG (english, MRP 2020); SParC; ATIS; UCCA (german, MRP 2020)",,0
+Image Clustering,,0,44,,MNIST-full; PCam; CUB-200-2011; HAR; EuroSAT; UCF101; imagenet-1k; ARL Polarimetric Thermal Face Dataset; Tiny-ImageNet; Oxford-IIIT Pets,,4
+Visual Reasoning,,0,44,,VSR; NLVR2 Test; NLVR; WinoGAViL; Winoground; PHYRE-1B-Within; NLVR2 Dev; CLEVRER; IRFL: Image Recognition of Figurative Language; Bongard-OpenWorld,,1
+Video Question Answering,,0,43,,How2QA; MSRVTT-MC; TVQA; SUTD-TrafficQA; NExT-QA (Efficient); MVBench; WildQA; MSR-VTT; STAR Benchmark; AGQA 2.0 balanced,,2
+Retrieval,,0,38,,OK-VQA; Quora Question Pairs; PubMedQA corpus with metadata; HotpotQA; คลิปไวรัล!! ไอซ์ ปรีชญา ลืมปิดไลฟ์สดตอนอาบน้ำ ถูกแชร์กระหึ่มเน็ต; PubMedQA; Natural Questions; InfoSeek; ToolLens; Polyvore,,3
+Video Captioning,,0,38,,Hindi MSR-VTT; ChinaOpen-1k; VATEX; MSVD-CTN; TVC; VidChapters-7M; Shot2Story20K; MSVD-Indonesian; ActivityNet Captions; MSRVTT-CTN,,6
+Optical Flow Estimation,,0,35,,KITTI 2015 unsupervised; Sintel Clean unsupervised; KITTI 2012 unsupervised; KITTI 2015; Spring; Sintel Final unsupervised; Sintel-final; KITTI 2015 (train) ; KITTI 2012; Sintel-clean,,1
+Trajectory Prediction,,0,35,,HEV-I; SDD; nuScenes; UCY; YJMob100K@D; JAAD; ApolloScape; TrajAir: A General Aviation Trajectory Dataset; Lyft Level 5; STATS SportVu NBA [ATK],,3
+Stance Detection,,0,35,,MGTAB; emergent; RumourEval; Perspectrum; P-Stance; SemEval 2019; poldeb; VAST; argmin; mtsd,,0
+Action Detection,,0,34,,TTStroke-21 ME22; THUMOS' 14; Charades; UCF101-24; MultiSports; Multi-THUMOS; MultiTHUMOS; UCF Sports; TSU; J-HMDB,,8
+Automatic Speech Recognition (ASR),,0,34,,LRS2; RealMAN; VoxPopuli; Sagalee; HUI speech corpus; The Spoken Wikipedia Corpora; M-AILabs speech dataset; Voxforge German; LRS3-TED,,0
+Activity Recognition,,0,30,,First-Person Hand Action Benchmark; RWF-2000; Self-Stimulatory Behavior Dataset; Stanford40,,10
+Fake News Detection,,0,30,,COVID-19 Fake News Dataset; Weibo NER; Grover-Mega; Hostility Detection Dataset in Hindi; FNC-1; Social media; MediaEval2016; RAWFC; LIAR; PolitiFact,,0
+Sign Language Recognition,,0,30,,CSL-Daily; WLASL; Znaki; Slovo: Russian Sign Language Dataset; MSASL-1000; FDMSE-ISL; RWTH-PHOENIX-Weather 2014 T; RWTH-PHOENIX-Weather 2014; Bukva; LSA64,,0
+Autonomous Vehicles,,0,29,,ApolloCar3D,,10
+Object Counting,,0,28,,TallyQA-Complex; HowMany-QA; PASCAL VOC; FSC147; Pascal VOC 2007 count-test; COCO count-test; CARPK; TRANCOS; TallyQA-Simple; Omnicount-191,,4
+Visual Place Recognition,,0,28,,SF-XL Occlusion; Tokyo247; KITTI360pose; Nardo-Air; St Lucia; Oxford RobotCar Dataset; SVOX-Overcast; Mapillary test; Laurel Caverns; Pittsburgh-250k-test,,3
+Visual Tracking,,0,28,,DAVIS; Kubric; Second dialogue state tracking challenge; RGB-Stacking; LaSOT; Kinetics; OTB-2013; OTB-100; TNL2K; TrackingNet,,4
+2D Human Pose Estimation,,0,27,,Alibaba Cluster Trace; ExLPose-LL-E; OCHuman; ExLPose-LL-H; Human-Art; ExLPose-OCN-A7M3; COCO-WholeBody; ExLPose-OCN-RICOH3; ExLPose-LL-N; JHMDB (2D poses only),,6
+Neural Architecture Search,,0,27,,"NAS-Bench-201; NAS-Bench-201, CIFAR-100; NATS-Bench Size, ImageNet16-120; NATS-Bench Topology, CIFAR-100; STL-10; CINIC-10; NAS-Bench-301; NATS-Bench Size, CIFAR-10; Oxford-IIIT Pet Dataset; ImageNet",,0
+Emotion Classification,,0,27,,ShortPersianEmo; CAER-Dynamic; CMU-MOSEI; RAVDESS; ROCStories; ArmanEmo; EWALK; SemEval 2018 Task 1E-c; MFA,,0
+Visual Localization,,0,27,,Oxford RobotCar Full; RobotCar Seasons v2; Extended CMU Seasons; Oxford Radar RobotCar (Full-6); Aachen Day-Night v1.1 Benchmark,,0
+Visual Odometry,,0,26,,EuRoC MAV,,2
+Intent Detection,,0,26,,Dialogue State Tracking Challenge; HWU64 10-shot; ASOS.com user intent; CLINC150 5-shot; HWU64; HWU64 5-shot; MULTIWOZ 2.2; ATIS; ATIS (vi); CLINC150 10-shot,,0
+Music Information Retrieval,,0,26,,,,0
+Cross-Modal Retrieval,,0,24,,Recipe1M+; RSITMD; ChEBI-20; COCO 2014; MS-COCO-2014; Flickr30k; RSICD; MSCOCO; MSCOCO-1k; Recipe1M,,5
+Out-of-Distribution Detection,,0,24,,CIFAR-100 vs SVHN; SVHN vs Uniform; ImageNet-1K vs SSB-hard; CIFAR-10 vs Gaussian; CIFAR-10 vs iSUN; CIFAR-10 vs ImageNet (C); cifar10; ImageNet-1k vs Textures; CIFAR-100 vs LSUN (R); ImageNet-1K vs ImageNet-C,,0
+Speech Enhancement,,0,24,,DEMAND; GRID corpus (mixed-speech); RealMAN; LibriSpeechDuplicate; DNS-4; CHiME-3; VoiceBank+DEMAND; spatialized DNS challenge; TCD-TIMIT corpus (mixed-speech); VB-DemandEx,,0
+Denoising,,0,23,,iris; CBSD68 sigm75; DND; DIV2K; Darmstadt Noise Dataset; AAPM,,6
+Human-Object Interaction Detection,,0,23,,MECCANO; HICO-DET; HICO; VidHOI; Ambiguious-HOI; V-COCO,,2
+Scene Classification,,0,23,,UC Merced Land Use Dataset; Places365-Standard,,0
+Automatic Speech Recognition,,0,22,,,,0
+Speech Synthesis,,0,22,,LibriTTS; LJSpeech; Mandarin Chinese; Blizzard Challenge 2013; North American English,,0
+Medical Diagnosis,,0,21,,Clinical Admission Notes from MIMIC-III; BreastDICOM4,,5
+Molecular Property Prediction,,0,21,,Lipophilicity; ToxCast; QM7; MUV; QM8; ESOL; FreeSolv; QM9; SIDER; Clearance,,0
+Change Detection,,0,20,,DSIFN-CD; OSCD - 13ch; WHU Building Dataset; PCD; SYSU-CD; S2Looking; OSCD - 3ch; GoogleGZ-CD; EGY-BCD; SECOND,,1
+Sound Event Detection,,0,20,,Mivia Audio Events; WildDESED; DESED; L3DAS21; Mivia Road Events,,0
+Traffic Prediction,,0,20,,"METR-LA; PeMSD8 (10 days' training data, 30min); HZME(outflow); Q-Traffic; PeMSD4 (10 days' training data, 60min); BJTaxi; PeMSD7(M); NYCTaxi; PeMSD4; PeMSD8",,0
+Named Entity Recognition,,0,20,,,,0
+Motion Synthesis,,0,19,,HumanML3D; Motion-X; KIT Motion-Language; AIST++; FineDance; TMD; BRACE; InterHuman; Trinity Speech-Gesture Dataset; Inter-X,,3
+Robot Navigation,,0,19,,Habitat 2020 Object Nav test-std; Habitat 2020 Point Nav test-std; Habitat 2020 Point Nav minival; Habitat 2020 Object Nav minival,,5
+Visual Navigation,,0,19,,"Cooperative Vision-and-Dialogue Navigation; SOON Test; R2R; Help, Anna! (HANNA); Dmlab-30; AI2-THOR",,1
+Semantic Textual Similarity,,0,19,,MRPC; STS13; MTEB; SICK-R; SICK; CxC; STS14; MRPC Dev; STS Benchmark; STS16,,0
+Image Enhancement,,0,18,,SICE-Mix; PSNR; MIT-Adobe 5k; MIT-Adobe FiveK; SICE-Grad; TIP 2018; Exposure-Errors,,10
+Object Localization,,0,18,,GRIT; IllusionVQA; Plant; KITTI Cars Moderate; KITTI Cars Hard; KITTI Pedestrian Easy; PASCAL VOC 2007; KITTI Cyclists Moderate; Pupil; KITTI Cars Easy,,5
+Gaze Estimation,,0,18,,MPSGaze; RT-GENE; Gaze360; EYEDIAP; EYEDIAP (screen target); ETH-XGaze; EYEDIAP (floating target); MPII Gaze; GazeCapture; MPIIGaze,,0
+Text-To-Speech Synthesis,,0,18,,Thorsten voice 21.02 neutral; 20000 utterances; HUI speech corpus; CMUDict 0.7b; LJSpeech; Trinity Speech-Gesture Dataset,,0
+3D Object Tracking,,0,17,,Argoverse CVPR 2020; RTB,,1
+Salient Object Detection,,0,17,,SOD; HKU-IS; ECSSD; DUT-OMRON; PASCAL-S; DUTS-TE,,2
+Scene Text Detection,,0,17,,Total-Text; IC19-Art; ICDAR 2013; ICDAR 2015; SCUT-CTW1500; ICDAR 2017 MLT; IC19-ReCTs; MSRA-TD500; COCO-Text,,2
+Semantic Similarity,,0,17,,sts dev; sts dev 512; Unknown; stsb multi mt en; test t; CHIP-STS; sts17 ua ua; sts17 es en test; MedSTS; JSTS,,0
+Fact Verification,,0,17,,FEVER; DanFEVER; KILT: FEVER,,0
+Beat Tracking,,0,17,,Groove; GuitarSet; Ballroom; JAAH; Beatles; SMC; SIMAC; TapCorrect; GTZAN; HJDB,,0
+Motor Imagery Decoding (left-hand vs right-hand),,0,17,,,,0
+Facial Landmark Detection,,0,16,,AFLW-Full; COFW; CatFLW; COCO-WholeBody; AFLW-Front; AFLW2000-3D; 300W; 300W (Full); 300-VW (C); WFLW,,3
+Image Quality Assessment,,0,16,,KADID10K; KADID-10k; KonIQ-10k; SPAQ; MSU FR VQA Database; MSU NR VQA Database,,7
+Video Summarization,,0,16,,SumMe; TvSum; Shot2Story20K; Mr. HiSum; videoxum; Query-Focused Video Summarization Dataset,,2
+Grammatical Error Correction,,0,16,,Falko-MERLIN; CoNLL-2014 Shared Task; Restricted; UA-GEC; CoNLL-2014 Shared Task (10 annotations); Unrestricted; EstGEC-L2; JFLEG; _Restricted_; WI-LOCNESS,,0
+Joint Entity and Relation Extraction,,0,16,,,,0
+Event Extraction,,0,16,,GENIA 2013; Cancer Genetics 2013 (CG); ACE2005; Multi-Level Event Extraction (MLEE); Epigenetics and Post-translational Modifications 2011 (EPI); Infectious Diseases 2011 (ID); ^(#$!@#$)(()))******; Pathway Curation 2013 (PC); GENIA,,0
+2D Pose Estimation,,0,15,,Vinegar Fly; MP-100; iRodent; Human3.6M; Desert Locust; MacaquePose; HARPER; Animal Kingdom; 300W,,2
+3D Classification,,0,15,,U-10: United-10 COVID19 CT Dataset,,2
+Gesture Recognition,,0,15,,MSRC-12; SHREC 2017 track on 3D Hand Gesture Recognition; DVS128 Gesture; CapgMyo DB-c; ChaLearn 2013; Chalearn 2014; GesturePod; Ninapro DB-1 8 gestures; Montalbano; ChaLearn 2016,,3
+Saliency Detection,,0,15,,HKU-IS; CAT2000; DUTS-test; DUT-OMRON; ECSSD; PASCAL-S; PASCAL Context,,4
+Video Frame Interpolation,,0,15,,Nvidia Dynamic Scene; Xiph-4k; Xiph-2K; Xiph 4k; UCF101; DAVIS; GoPro; Xiph-4K (Crop); SNU-FILM (easy); SNU-FILM (hard),,3
+Computed Tomography (CT),,0,15,,,,0
+Sarcasm Detection,,0,15,,WITS; SARC (all-bal); MUStARD++; FigLang 2020 Twitter Dataset; BIG-bench (SNARKS); SARC (pol-bal); FigLang 2020 Reddit Dataset; iSarcasm; SARC (pol-unbal),,0
+Boundary Detection,,0,14,,TriBERT (in-domain); RoFT; CoAuthor; RoFT-chatgpt; Kinetics-400; UruDendro; PASCAL Context; NYU-Depth V2,,1
+Instruction Following,,0,14,,IFEval,,1
+Pose Tracking,,0,14,,Multi-Person PoseTrack; PoseTrack2017; PoseTrack2018,,1
+Text-to-Video Generation,,0,14,,Something-Something V2; Kinetics; EvalCrafter Text-to-Video (ECTV) Dataset; WebVid; MSR-VTT; UCF-101,,2
+Open Information Extraction,,0,14,,LSOIE; CaRB; Penn Treebank; Web; CaRB OIE benchmark (Greek Use-case); DocOIE-healthcare; OIE2016; WiRe57; OpenIE; BenchIE,,0
+Nested Named Entity Recognition,,0,14,,,,0
+Semantic Role Labeling,,0,14,,CoNLL-2009; CoNLL12; CoNLL 2005; CoNLL05 WSJ; CoNLL 2012; OntoNotes; CoNLL05 Brown,,0
+Network Intrusion Detection,,0,14,,,,0
+Human Detection,,0,14,,,,0
+Event Detection,,0,14,,,,0
+Image Registration,,0,13,, Osteoarthritis Initiative; FIRE; Unpaired-lung-CT; Unpaired-abdomen-CT; DIR-LAB COPDgene,,2
+Dialogue State Tracking,,0,13,,,,0
+Community Detection,,0,13,,Citeseer; Facebook Politicians; Cora; Facebook Government; Facebook Artists; Facebook TV Show; Facebook Celebrities; Facebook Athletes; Twitter-HyDrug; Facebook Media,,0
+Downbeat Tracking,,0,13,,Groove; GuitarSet; Ballroom; JAAH; Beatles; TapCorrect; GTZAN; HJDB; Hainsworth; Candombe,,0
+Vision and Language Navigation,,0,13,,Touchdown Dataset; map2seq; robo-vln; RxR; VLN Challenge,,0
+Multiple Instance Learning,,0,13,,Musk v1; Elephant; CAMELYON16; Musk v2; TCGA,,0
+Image Compression,,0,12,,Food-101; Cars-196; PCam; STL-10; Oxford-IIIT Pet Dataset; CIFAR-10; ImageNet32; Caltech101; BSDS500; kodak,,4
+Image Reconstruction,,0,12,,Ultra-High Resolution Image Reconstruction Benchmark; Spike-X4K; Audio Set; Edge-to-Clothes; Edge-to-Handbags; ImageNet; Edge-to-Shoes; ImageNet 256x256,,5
+Key Information Extraction,,0,12,,SROIE; ETD500; Kleister NDA; SIMARA; CORD; EPHOIE,,1
+Video Segmentation,,0,12,,SegTrack v2,,3
+Activity Detection,,0,12,,AVA-Speech,,0
+Fraud Detection,,0,12,,Yelp-Fraud; BAF – Variant I; Elliptic Dataset; BAF – Base; BAF – Variant V; BAF – Variant III; Amazon-Fraud; BAF – Variant II; Kaggle-Credit Card Fraud Dataset; BAF – Variant IV,,0
+Surface Normals Estimation,,0,12,,PCPNet; IBims-1; Taskonomy; Stanford-ORB; NYU-Depth V2 Surface Normals; ScanNetV2; PASCAL Context; NYU Depth v2,,0
+Conversational Response Selection,,0,12,,"Advising Corpus; E-commerce; RRS; Ubuntu Dialogue (v1, Ranking); Douban Conversation Corpus; personachat; PolyAI Reddit; PolyAI AmazonQA; Ubuntu IRC; Douban",,0
+License Plate Detection,,0,12,,Common Voice Estonian,,0
+Time Series Prediction,,0,12,,Data Collected with Package Delivery Quadcopter Drone; Sunspot,,0
+Fact Checking,,0,12,,CLIMATE-FEVER (BEIR); CDCD; AVeriTeC; ^(#$!@#$)(()))******; SciFact (BEIR); LIAR2; FEVER (BEIR),,0
+Dimensionality Reduction,,0,11,,MCA; EMNIST,,2
+Event-based vision,,0,11,,1 Megapixel Automotive Detection Dataset,,3
+Visual Grounding,,0,11,,RefCOCO+ test B; RefCOCO+ val; RefCOCO+ testA; RefCOCO testA,,3
+Outlier Detection,,0,11,,ECG5000; SKAB; Breast cancer Wisconsin_class 4; Fashion-MNIST; Hepatitis; Balance scale_class 1; Internet Ad; Heart-C; Ionosphere_class b; Glass identification,,0
+Depth Completion,,0,11,,Matterport3D; PLAD; KITTI Depth Completion 500 points; VOID; VOID-150; NYU-Depth V2; KITTI; KITTI Depth Completion Eigen Split; KITTI Depth Completion,,0
+Graph Matching,,0,11,,IMCPT-SparseGM-100; RARE; CUB; Willow Object Class; PASCAL VOC; SPair-71k; IMCPT-SparseGM-50,,0
+Bias Detection,,0,11,,rt-inod-bias; ICAT LLM bias; StereoSet; Wiki Neutrality Corpus; PlantVillage_8px,,0
+Medical Visual Question Answering,,0,11,,,,0
+10-shot image generation,,0,10,,.; FlyingThings3D; Music21; FQL-Driving; Babies; MEAD,,10
+Unsupervised Object Detection,,0,10,,,,0
+Table Detection,,0,10,,STDW; ICDAR2013; ICDAR 2019,,0
+Passage Retrieval,,0,10,,,,0
+Facial Attribute Classification,,0,10,,,,0
+Answer Selection,,0,10,,,,0
+LIDAR Semantic Segmentation,,0,10,,ULS labeled data; S.MID; SemanticSTF; nuScenes; Paris-Lille-3D; SemanticKITTI,,0
+Visual Dialog,,0,10,,BlendedSkillTalk; Image-Chat; Wizard of Wikipedia; VisDial v0.9 val; EmpatheticDialogues; Visual Dialog v1.0 test-std; ConvAI2; VisDial v1.0 test-std,,0
+Acoustic Scene Classification,,0,10,,DCASE 2019 Mobile; TUT Urban Acoustic Scenes 2018; TAU Urban Acoustic Scenes 2019; TUT Acoustic Scenes 2017; CochlScene,,0
+Object Detection In Indoor Scenes,,0,10,,,,0
+Font Recognition,,0,10,,AdobeVFR syn; VFR-447; AdobeVFR real; VFR-Wild; VFR-2420; Persian Font Recognition (PFR); Explor_all; Persian Text Image Segmentation (PTI SEG),,0
+Time Series Anomaly Detection,,0,10,,SMAP; KPI; UCR Anomaly Archive; MSL; SMD; SWaT; WADI; Yahoo A1,,0
+Within-Session Motor Imagery (left hand vs. right hand),,0,10,,,,0
+Camera Localization,,0,9,,Oxford RobotCar Full; Aachen Day-Night benchmark,,2
+Gait Recognition,,0,9,,OUMVLP; Gait3D,,2
+Vision-Language Navigation,,0,9,,Room2Room,,1
+Video Description,,0,9,,,,0
+Interactive Segmentation,,0,9,,COCO minival; DAVIS; Rooftop; Berkeley; ssTEM; PASCAL VOC; PascalVOC; DAVIS-585; DRIONS-DB; Cityscapes val,,0
+Robust Object Detection,,0,9,,,,0
+6D Pose Estimation using RGBD,,0,9,,,,0
+Action Quality Assessment,,0,9,,FineDiving; EgoExoLearn; JIGSAWS; AQA-7; Rhythmic Gymnastic; MTL-AQA; UI-PRMD; KIMORE,,0
+Video Reconstruction,,0,9,,Tai-Chi-HD (256); Tai-Chi-HD; UVG; MGif; Tai-Chi-HD (512); Event-Camera Dataset; MVSEC; TED-talks; VoxCeleb,,0
+Trajectory Planning,,0,9,,nuScenes; ToolBench,,0
+Defect Detection,,0,9,,,,0
+Intrusion Detection,,0,9,,UNSW-NB15; CICIDS2017; 20NewsGroups; ^(#$!@#$)(()))******; CIC-DDoS; CIC-DoS,,0
+Medical Report Generation,,0,9,,HistGen WSI-Report Dataset; IU X-Ray; MIMIC-CXR,,0
+Change Point Detection,,0,9,,TEP; TSSB; SKAB,,0
+Surface Reconstruction,,0,9,,,,0
+Food Recognition,,0,9,,,,0
+object-detection,,0,9,,,,0
+Sound Event Localization and Detection,,0,9,,TAU-NIGENS Spatial Sound Events 2021; RWCP Sound Scene Database; L3DAS21; PodcastFillers; STARSS22,,0
+Within-Session Motor Imagery (right hand vs. feet),,0,9,,,,0
+Colorization,,0,8,,ImageNet val; ImageNet ctest10k,,3
+Human Interaction Recognition,,0,8,,NTU RGB+D; EPIC-SOUNDS; UT-Interaction; NTU RGB+D 120; UT; BIT; SBU; SBU / SBU-Refine,,3
+Image Matting,,0,8,,Distinctions-646; Composition-1K; AM-2K; AMD; AIM-500; P3M-10k; PPM-100; Adobe Matting,,1
+Image/Document Clustering,,0,8,,pixraw10P; iris; pendigits; JAFFE; australian; BA; Wine; warpPIE10P,,1
+Scene Flow Estimation,,0,8,,Scene Flow; KITTI 2015 Scene Flow Training; Argoverse 2; Spring; KITTI 2015 Scene Flow Test,,1
+Surgical phase recognition,,0,8,,Cholec80; GraSP; MISAW; HeiChole Benchmark,,2
+Zero-Shot Transfer Image Classification,,0,8,,SUN; ImageNet-R; ImageNet V2; ImageNet-A; CN-ImageNet V2; CN-ImageNet-A; ImageNet ReaL; ObjectNet; ImageNet-S; CN-ImageNet-Sketch,,0
+Image-to-Text Retrieval,,0,8,,Flickr30k; RSICD; AIC-ICC; RUC-CAS-WenLan; COCO; FETA Car-Manuals; WHOOPS!; COCO (Common Objects in Context),,0
+Layout-to-Image Generation,,0,8,,,,0
+Seizure Detection,,0,8,,TUH EEG Seizure Corpus; CHB-MIT,,0
+Video Instance Segmentation,,0,8,,YouTube-VIS validation; HQ-YTVIS; YouTube-VIS; Youtube-VIS 2022 Validation; OVIS validation; Youtube-VIS (trained with no video masks); YouTube-VIS 2021; BDD100K val,,0
+Click-Through Rate Prediction,,0,8,,Avito; Company*; Book-Crossing; Amazon Dataset; MovieLens; Dianping; Bing News; iPinYou; Last.FM; KKBox,,0
+Dynamic Link Prediction,,0,8,,,,0
+Colorectal Polyps Characterization,,0,8,,,,0
+Zero-shot Image Retrieval,,0,8,,,,0
+Satellite Image Classification,,0,8,,,,0
+Intrinsic Image Decomposition,,0,8,,,,0
+Keyphrase Extraction,,0,8,,SemEval-2017 Task-10; Inspec; NUS; KPTimes; KP20k; Krapivin,,0
+Ad-hoc video search,,0,8,,TRECVID-AVS16 (IACC.3); TRECVID-AVS18 (IACC.3); TRECVID-AVS17 (IACC.3); TRECVID-AVS20 (V3C1); TRECVID-AVS19 (V3C1),,0
+Medical Image Registration,,0,8,,OASIS+ADIBE+ADHD200+MCIC+PPMI+HABS+HarvardGSP; IXI; SR-Reg; OASIS,,0
+Skin Lesion Classification,,0,8,,,,0
+Entity Alignment,,0,8,,FBDB15k; dbp15k fr-en; DBP2.0 zh-en; DBP1M FR-EN; dbp15k ja-en; FBYG15k; DBP15k zh-en; DICEWS-1K; YAGO-WIKI50K; DBP1M DE-EN,,0
+Gender Prediction,,0,8,,,,0
+Image Forensics,,0,8,,,,0
+Image Manipulation Localization,,0,8,,Columbia(Protocol-CAT); COVERAGE(Protocol-CAT); Casia V1+; CocoGlide; COVERAGE; NIST16(Protocol-CAT); CASIAv1(Protoclo-CAT); Columbia; DSO-1,,0
+Product Recommendation,,0,8,,Coveo Data Challenge Dataset,,0
+Dialogue Act Classification,,0,8,,,,0
+Facial Expression Recognition,,0,7,,FER2013; RAF-DB; Aff-Wild2; MELD; CMU-MOSEI; FER+; AffectNet,,2
+Stereo Disparity Estimation,,0,7,,KITTI 2015; Scene Flow; Middlebury 2014,,1
+Text to Video Retrieval,,0,7,,MSVD-Indonesian; MSR-VTT; Kinetics-GEB+,,1
+Video Restoration,,0,7,,UVG; SEPE 8K,,1
+Zero-shot Text-to-Image Retrieval,,0,7,,,,0
+Audio-Visual Speech Recognition,,0,7,,LRS3-TED; LRS2; LRW; CAS-VSR-S101,,0
+Zero-Shot Video Retrieval,,0,7,,ActivityNet; LSMDC; VATEX; MSR-VTT-full; DiDeMo; MSR-VTT; MSVD; YouCook2,,0
+Face Identification,,0,7,,,,0
+Motion Segmentation,,0,7,,Hopkins155; MTPV62; KT3DMoSeg; ApolloScape,,0
+3D Shape Modeling,,0,7,,Pix3D S1; Pix3D S2,,0
+Video Denoising,,0,7,,,,0
+Electroencephalogram (EEG),,0,7,,　SEED; SEED-IV; HS-SSVEP,,0
+Keyword Extraction,,0,7,,SemEval-2017 Task-10; SemEval 2010 Task 8; Inspec,,0
+Lesion Classification,,0,7,,,,0
+Text Segmentation,,0,7,,,,0
+Natural Language Visual Grounding,,0,7,,ScreenSpot,,0
+Text Matching,,0,7,,,,0
+Traffic Sign Detection,,0,7,,CCTSDB2021; CCTSDB-AUG; GTSDB; TT100K,,0
+Gesture Generation,,0,7,,,,0
+Person Recognition,,0,7,,,,0
+Generalizable Novel View Synthesis,,0,7,,,,0
+Gender Bias Detection,,0,7,,,,0
+Table Recognition,,0,7,,Table Recognition Challenge test; ICDAR2013 table structure recognition; PubTabNet; WTW; Table Recognition Challenge mini-test,,0
+Fault Detection,,0,7,,,,0
+Vulnerability Detection,,0,7,,Vulnerability Java Dataset; VulScribeR,,0
+Infrared And Visible Image Fusion,,0,7,,,,0
+Term Extraction,,0,7,,SemEval 2014 Task 4 Laptop; AWARE,,0
+2D Cyclist Detection,,0,7,,,,0
+Moment Retrieval,,0,6,,QVHighlights; Charades-STA,,1
+Open Vocabulary Semantic Segmentation,,0,6,,ISPRS Potsdam; 	ADE20K-150; Cityscape-171; iSAID; ADE20K-847; SIOR; PASCAL Context-459; ADE20K-150; SOTA; PASCAL Context-59,,1
+Visual Speech Recognition,,0,6,,LRS2; LRS3-TED,,1
+Zero-Shot Image Classification,,0,6,,ICinW; ODinW; Country211,,1
+Unsupervised Image Classification,,0,6,,,,0
+Structured Prediction,,0,6,,MNIST,,0
+Zero-Shot Object Detection,,0,6,,,,0
+Open World Object Detection,,0,6,,,,0
+Depth Prediction,,0,6,,,,0
+Zero-Shot Action Recognition,,0,6,,ActivityNet; THUMOS' 14; Charades; Kinetics; HMDB51; UCF101; Olympics,,0
+Scene Graph Detection,,0,6,,,,0
+Medical Named Entity Recognition,,0,6,,,,0
+Grammatical Error Detection,,0,6,,,,0
+Chinese Named Entity Recognition,,0,6,,,,0
+Weakly-Supervised Named Entity Recognition,,0,6,,,,0
+Body Detection,,0,6,,,,0
+Speaker Recognition,,0,6,,VoxCeleb1,,0
+Medical Image Generation,,0,6,,ChestX-ray14; Chest X-Ray Images (Pneumonia); SLIVER07; ACDC; ChestXray14 1024x1024,,0
+Sleep Stage Detection,,0,6,,MASS SS2; SHHS (single-channel); Sleep-EDFx (single-channel); Sleep-EDF (single-channel); Montreal Archive of Sleep Studies; MASS (single-channel); PhysioNet Challenge 2018; MASS SS3; SHHS; DODH,,0
+Line Segment Detection,,0,6,,York Urban Dataset; wireframe dataset,,0
+Dictionary Learning,,0,6,,,,0
+Robust Face Recognition,,0,6,,,,0
+Stereo Matching Hand,,0,6,,,,0
+Scene Change Detection,,0,6,,PCD; VL-CMU-CD; ChangeVPR; Semantic Scene Understanding Challenge (passive actuation & ground-truth localisation); ChangeSim; Unaligned-VL-CMU-CD (neighbor distance 2),,0
+Video Enhancement,,0,6,,MFQE v2,,0
+Gaze Prediction,,0,6,,,,0
+Abstractive Dialogue Summarization,,0,6,,,,0
+Trajectory Modeling,,0,6,,NBA SportVU,,0
+Multiple People Tracking,,0,6,,,,0
+Medical Object Detection,,0,6,,,,0
+Attribute Value Extraction,,0,6,,AE-110k; WDC-PAVE; MAVE; OA-Mine - annotations,,0
+Within-Session Motor Imagery (all classes),,0,6,,,,0
+Automatic Phoneme Recognition,,0,6,,,,0
+2D Panoptic Segmentation,,0,5,,MM-OR; 4D-OR; ScanNetV2,,1
+3D Face Modelling,,0,5,,LFW; Voxceleb-3D,,2
+Unsupervised Anomaly Detection with Specified Settings -- 20% anomaly,,0,5,,STL-10; Fashion-MNIST; Cats and Dogs; cifar10; MNIST,,0
+Unsupervised Anomaly Detection with Specified Settings -- 1% anomaly,,0,5,,STL-10; Fashion-MNIST; CIFAR-10; Cats and Dogs; MNIST,,0
+Unsupervised Anomaly Detection with Specified Settings -- 0.1% anomaly,,0,5,,STL-10; Fashion-MNIST; CIFAR-10; Cats and Dogs; MNIST,,0
+Unsupervised Anomaly Detection with Specified Settings -- 10% anomaly,,0,5,,STL-10; Fashion-MNIST; CIFAR-10; Cats and Dogs; MNIST,,0
+Blind Face Restoration,,0,5,,CelebA-Test; WIDER; LFW; CelebA-HQ,,0
+Zero-Shot Cross-Modal Retrieval,,0,5,,,,0
+Unsupervised Monocular Depth Estimation,,0,5,,,,0
+Sketch-to-Image Translation,,0,5,,COCO-Stuff; Scribble; SketchyCOCO,,0
+Oriented Object Detection,,0,5,,,,0
+Aspect Extraction,,0,5,,SemEval 2016 Task 5 Sub Task 1 Slot 2; SemEval 2015 Task 12; YASO - YELP;  SemEval 2015 Task 12; SemEval 2014 Task 4 Sub Task 1; SemEval-2014 Task-4,,0
+Symmetry Detection,,0,5,,YCB-Video,,0
+Zero-shot 3D Point Cloud Classification,,0,5,,,,0
+Optic Disc Segmentation,,0,5,,,,0
+Aspect Category Detection,,0,5,,AWARE; SemEval 2014 Task 4 Subtask 3; Citysearch; SemEval-2014 Task-4,,0
+Grasp Contact Prediction,,0,5,,,,0
+Natural Language Moment Retrieval,,0,5,,,,0
+Joint Demosaicing and Denoising,,0,5,,,,0
+Motion Planning,,0,5,,nuScenes,,0
+Zeroshot Video Question Answer,,0,5,,,,0
+Depression Detection,,0,5,,,,0
+Extractive Text Summarization,,0,5,,CNN / Daily Mail; DUC 2004; GovReport; DebateSum; DUC 2004 Task 1,,0
+Stock Market Prediction,,0,5,,stocknet; Astock; S&P 500,,0
+Surgical tool detection,,0,5,,,,0
+Surface Normal Estimation,,0,5,,,,0
+Face Model,,0,5,,,,0
+Medical Relation Extraction,,0,5,,DDI extraction 2013 corpus; CMeIE,,0
+Text to Audio Retrieval,,0,5,,SoundDescs; Clotho; Localized Narratives; AudioCaps,,0
+3D Feature Matching,,0,5,,,,0
+Low Resource Named Entity Recognition,,0,5,,,,0
+Video Compression,,0,5,,,,0
+Program Synthesis,,0,5,,SPoC TestP; AlgoLisp; SPoC TestW,,0
+Malware Detection,,0,5,,,,0
+whole slide images,,0,5,,,,0
+Logo Recognition,,0,5,,,,0
+Spatial Relation Recognition,,0,5,,Rel3D,,0
+Trajectory Clustering,,0,5,,,,0
+Music Emotion Recognition,,0,5,,,,0
+Medical X-Ray Image Segmentation,,0,5,,,,0
+3D Assembly,,0,5,,DeepCAD,,0
+Medical Concept Normalization,,0,5,,,,0
+Photoplethysmography (PPG),,0,5,,,,0
+Photoplethysmography (PPG) heart rate estimation,,0,5,,,,0
+Image Forgery Detection,,0,5,,,,0
+Handwritten Mathmatical Expression Recognition,,0,5,,HME100K; CROHME 2014; CROHME 2019; CROHME 2016,,0
+Image-text Retrieval,,0,5,,,,0
+2D Tiny Object Detection,,0,4,,,,1
+3D Shape Representation,,0,4,,,,1
+Abnormal Event Detection In Video,,0,4,,UCSD Ped2; UBI-Fights,,1
+Action Localization,,0,4,,,,4
+Iris Recognition,,0,4,,,,1
+Landmark Recognition,,0,4,,"Google Landmarks Dataset v2 (recognition, testing); Google Landmarks Dataset v2 (recognition, validation)",,1
+Reconstruction,,0,4,,ADE20K; CelebAMask-HQ; PPMI; iDesigner; HCP,,4
+Shadow Detection,,0,4,,SBU / SBU-Refine; CUHK-Shadow,,1
+Temporal Localization,,0,4,,,,2
+Video Editing,,0,4,,,,1
+Multiview Clustering,,0,4,,,,0
+Image Compressed Sensing,,0,4,,,,0
+Physical Attribute Prediction,,0,4,,Sound of Water 50,,0
+Multimodal Text and Image Classification,,0,4,,CUB-200-2011; Food-101; CD18,,0
+Image Outpainting,,0,4,,LHQC; MSCOCO; Places365-Standard,,0
+Vehicle Pose Estimation,,0,4,,,,0
+Prediction Of Occupancy Grid Maps,,0,4,,Occ3D-nuScenes; nuScenes,,0
+Self-Supervised Action Recognition Linear,,0,4,,,,0
+Mortality Prediction,,0,4,,Clinical Admission Notes from MIMIC-III; MIMIC-III,,0
+Unsupervised Image Segmentation,,0,4,,,,0
+Facial Action Unit Detection,,0,4,,,,0
+Clinical Concept Extraction,,0,4,,2010 i2b2/VA,,0
+Semi-Supervised Instance Segmentation,,0,4,,COCO 10% labeled data; ADE20K; COCO 5% labeled data; COCO 1% labeled data; Cityscapes; COCO 2% labeled data,,0
+Image Classification with Label Noise,,0,4,,,,0
+Pose Retrieval,,0,4,,Human3.6M; MPI-INF-3DHP,,0
+Document Image Classification,,0,4,,RVL-CDIP; Tobacco-3482; Noisy Bangla Numeral; SUT; Noisy Bangla Characters; AIP; Noisy MNIST; n-MNIST,,0
+Video Polyp Segmentation,,0,4,,,,0
+Unsupervised Extractive Summarization,,0,4,,,,0
+Nested Mention Recognition,,0,4,,ACE 2004; ACE 2005,,0
+Event Argument Extraction,,0,4,,,,0
+Image Stitching,,0,4,,HPatches,,0
+3D Open-Vocabulary Instance Segmentation,,0,4,,S3DIS; ScanNet200; Replica; STPLS3D,,0
+Cross-Domain Named Entity Recognition,,0,4,,,,0
+Weakly supervised Semantic Segmentation,,0,4,,,,0
+Weakly Supervised Defect Detection,,0,4,,,,0
+Nuclear Segmentation,,0,4,,,,0
+Visual Storytelling,,0,4,,VIST,,0
+Action Understanding,,0,4,,Win-Fail Action Understanding,,0
+Multiview Learning,,0,4,,,,0
+Stock Prediction,,0,4,,,,0
+Event Coreference Resolution,,0,4,,,,0
+Multi-future Trajectory Prediction,,0,4,,,,0
+Distant Speech Recognition,,0,4,,,,0
+Instrument Recognition,,0,4,,IRMAS; OpenMIC-2018; NSynth,,0
+Word Alignment,,0,4,,fr-en; es-en; MUSE en-pt; MUSE en-de; en-es; en-it; en-fr,,0
+Scientific Results Extraction,,0,4,,,,0
+3D Object Retrieval,,0,4,,,,0
+Temporal View Synthesis,,0,4,,,,0
+Audio to Text Retrieval,,0,4,,,,0
+Multi-modal Entity Alignment,,0,4,,UMVM-oea-d-w-v2; UMVM-dbp-fr-en; UMVM-oea-en-fr; UMVM-dbp-zh-en; UMVM-oea-d-w-v1; UMVM-dbp-ja-en; MMKG; UMVM-oea-en-de,,0
+Online Beat Tracking,,0,4,,Ballroom; GTZAN; Rock Corpus,,0
+Online Downbeat Tracking,,0,4,,,,0
+Spelling Correction,,0,4,,,,0
+Zero-shot Named Entity Recognition (NER),,0,4,,,,0
+Image Cropping,,0,4,,FLMS,,0
+graph construction,,0,4,,,,0
+Document-level Relation Extraction,,0,4,,DocRED-IE; Bc8; Re-DocRED; DWIE,,0
+Abuse Detection,,0,4,,,,0
+Multispectral Object Detection,,0,4,,LLVIP; KAIST Multispectral Pedestrian Detection Benchmark; NII-CU MAPD; FLIR,,0
+Medical Image Enhancement,,0,4,,Brain Tumor MRI Dataset; LoDoPaB-CT; Human Protein Atlas Image,,0
+Action Parsing,,0,4,,JerichoWorld,,0
+Humor Detection,,0,4,,200k Short Texts for Humor Detection,,0
+Cross-Lingual Abstractive Summarization,,0,4,,,,0
+Heart Segmentation,,0,4,,,,0
+Malware Family Detection,,0,4,,,,0
+Negation Detection,,0,4,,,,0
+Biomedical Information Retrieval,,0,4,,NFCorpus (BEIR); TREC-COVID (BEIR); BioASQ (BEIR),,0
+Bird Audio Detection,,0,4,,,,0
+Entity Retrieval,,0,4,,,,0
+Rumour Detection,,0,4,,Sepehr_RumTel01; 1,,0
+Semantic Image-Text Similarity,,0,4,,,,0
+Stock Trend Prediction,,0,4,,FI-2010,,0
+Crack Segmentation,,0,4,,,,0
+Blood Cell Detection,,0,4,,,,0
+Audio-Visual Synchronization,,0,4,,,,0
+audio-visual learning,,0,4,,,,0
+Intent Recognition,,0,4,,BIG-bench,,0
+Temporal Forgery Localization,,0,4,,,,0
+Discourse Segmentation,,0,4,,,,0
+Temporal Relation Extraction,,0,4,,Vinoground,,0
+UNET Segmentation,,0,4,,,,0
+Camera Calibration,,0,4,,,,0
+Robust Speech Recognition,,0,4,,,,0
+Optical Charater Recogntion,,0,4,,,,0
+Image Defocus Deblurring,,0,4,,,,0
+Cell Entity Annotation,,0,4,,,,0
+Person Retrieval,,0,4,,SoftBioSearch,,0
+Lesion Detection,,0,4,,,,0
+Dynamic Facial Expression Recognition,,0,4,,,,0
+Financial Relation Extraction,,0,4,,,,0
+Event-based Object Segmentation,,0,4,,DDD17-SEG; RGBE-SEG; DSEC-SEG; MVSEC-SEG,,0
+Deformable Object Manipulation,,0,4,,,,0
+Hyperspectral image analysis,,0,4,,complex refractive index through reflection,,0
+"1 Image, 2*2 Stitchi",,0,3,,FQL-Driving,,10
+2D Semantic Segmentation task 3 (25 classes),,0,3,,CaDIS,,1
+Animal Action Recognition,,0,3,,,,1
+Camera Pose Estimation,,0,3,,KITTI Odometry Benchmark,,1
+Event Segmentation,,0,3,,Kinetics-400,,1
+HDR Reconstruction,,0,3,,,,1
+Image Colorization,,0,3,,NIR2RGB VCIP Challange Dataset; ImageNet; CelebA,,1
+Lung Nodule Detection,,0,3,,LUNA2016 FPRED; LIDC-IDRI,,1
+Traffic Accident Detection,,0,3,,A3D; custom; SA,,1
+Sequential Image Classification,,0,3,,,,0
+Image Attribution,,0,3,,CUB-200-2011; VGGFace2; CelebA,,0
+Model Compression,,0,3,,ImageNet; QNLI,,0
+Face Anonymization,,0,3,,2019_test set; LFW,,0
+mage-to-Text Retrieval,,0,3,,,,0
+Single-object discovery,,0,3,,COCO_20k; Object Discovery; VOC12; VOC_all; VOC_6x2,,0
+Multi-object discovery,,0,3,,COCO_20k; VOC_all; VOC12,,0
+Object Proposal Generation,,0,3,,,,0
+Early Action Prediction,,0,3,,,,0
+Image Generation from Scene Graphs,,0,3,,,,0
+Scene Graph Classification,,0,3,,,,0
+Zero-Shot Semantic Segmentation,,0,3,,COCO-Stuff; ADE20K-847; PASCAL VOC; MESS,,0
+Defocus Blur Detection,,0,3,,SZU blur detection; EBD; CTCUG; DUT ; CUHK,,0
+Action Unit Detection,,0,3,,,,0
+Temporal Information Extraction,,0,3,,TimeBank; TempEval-3,,0
+Dense Object Detection,,0,3,,,,0
+Multi-Object Tracking and Segmentation,,0,3,,BDD100K val; KITTI MOTS,,0
+Semantic Object Interaction Classification,,0,3,,,,0
+Unconditional Image Generation,,0,3,,,,0
+Unsupervised Human Pose Estimation,,0,3,,,,0
+3D Face Alignment,,0,3,,,,0
+Face Hallucination,,0,3,,,,0
+Colorectal Gland Segmentation:,,0,3,,CRAG; STARE,,0
+Molecular Property Prediction (1-shot)),,0,3,,,,0
+Graph Property Prediction,,0,3,,ogbg-molpcba; ogbg-ppa; QM9; ogbg-molhiv; ogbg-code2,,0
+Prediction,,0,3,,QM9; Synthetic,,0
+Supervised Text Retrieval,,0,3,,,,0
+Unsupervised Skeleton Based Action Recognition,,0,3,,,,0
+Bird's-Eye View Semantic Segmentation,,0,3,,SimBEV; nuScenes; Lyft Level 5,,0
+Skin Cancer Segmentation,,0,3,,,,0
+4D Panoptic Segmentation,,0,3,,SemanticKITTI,,0
+Twitter Bot Detection,,0,3,,MGTAB; MIB Dataset,,0
+Continuous Affect Estimation,,0,3,,AffectNet; AMIGOS; 	AffectNet,,0
+Event data classification,,0,3,,N-Caltech 101; CIFAR10-DVS; DVS128 Gesture,,0
+Open Vocabulary Action Detection,,0,3,,UCF101-24; MultiSports; JHMDB,,0
+Target Sound Extraction,,0,3,,AudioCaps; FSDSoundScapes; AudioSet,,0
+Document-level Closed Information Extraction,,0,3,,,,0
+Multi-tissue Nucleus Segmentation,,0,3,,Kumar; CoNSeP; PanNuke,,0
+Clique Prediction,,0,3,,,,0
+Polyp Segmentation,,0,3,,,,0
+Drone Pose Estimation,,0,3,,,,0
+Video Saliency Prediction,,0,3,,,,0
+Multimodal Abstractive Text Summarization,,0,3,,,,0
+Text based Person Retrieval,,0,3,,ICFG-PEDES; CUHK-PEDES; RSTPReid,,0
+Text-based Person Retrieval with Noisy Correspondence,,0,3,,ICFG-PEDES; CUHK-PEDES; RSTPReid,,0
+Semantic Retrieval,,0,3,,Contract Discovery,,0
+3D Point Cloud Data Augmentation,,0,3,,,,0
+Recognizing Emotion Cause in Conversations,,0,3,,EmoCause; RECCON,,0
+Text-Based Stock Prediction,,0,3,,,,0
+Audio Super-Resolution,,0,3,,DSD100; VCTK Multi-Speaker; Piano; Voice Bank corpus (VCTK),,0
+Multi Future Trajectory Prediction,,0,3,,,,0
+Drug–drug Interaction Extraction,,0,3,,,,0
+Chord Recognition,,0,3,,,,0
+Direction of Arrival Estimation,,0,3,,SOFA,,0
+Volumetric Medical Image Segmentation,,0,3,,,,0
+speech-recognition,,0,3,,,,0
+Predicate Detection,,0,3,,,,0
+Semantic Role Labeling (predicted predicates),,0,3,,,,0
+Sentence segmentation,,0,3,,,,0
+Binary Relation Extraction,,0,3,,,,0
+Repetitive Action Counting,,0,3,,Countix; UCFRep; RepCount,,0
+Gaze Target Estimation,,0,3,,GazeFollow; VideoAttentionTarget,,0
+3D Point Cloud Matching,,0,3,,,,0
+Definition Extraction,,0,3,,,,0
+Action Spotting,,0,3,,,,0
+Inverse Rendering,,0,3,,Stanford-ORB,,0
+3D Panoptic Segmentation,,0,3,,,,0
+Hyperspectral Semantic Segmentation,,0,3,,,,0
+Chinese Word Segmentation,,0,3,,,,0
+Spindle Detection,,0,3,,,,0
+lidar absolute pose regression,,0,3,,vReLoc (Seq-06); Oxford Radar RobotCar (Full-8); vReLoc (Seq-07); vReLoc (Seq-14); Oxford Radar RobotCar (Full-6); vReLoc (Seq-05); Oxford Radar RobotCar (Full-9); Oxford Radar RobotCar (Full-7),,0
+Fovea Detection,,0,3,,REFUGE Challenge; IDRiD; REFUGE; ADAM,,0
+Optic Disc Detection,,0,3,,REFUGE Challenge; IDRiD,,0
+Object Discovery,,0,3,,,,0
+Visual Entailment,,0,3,,,,0
+Spatio-Temporal Video Grounding,,0,3,,HC-STVG1; VidSTG; HC-STVG2,,0
+3D Object Detection From Monocular Images,,0,3,,,,0
+Road Damage Detection,,0,3,,NPO,,0
+Texture Synthesis,,0,3,,,,0
+Pedestrian Trajectory Prediction,,0,3,,,,0
+Face Morphing Attack Detection,,0,3,,,,0
+Voice Query Recognition,,0,3,,Banglish,,0
+Surgical Gesture Recognition,,0,3,,,,0
+Affordance Detection,,0,3,,3D AffordanceNet Partial View; 3D AffordanceNet Rotate SO(3); 3D AffordanceNet Rotate z; 3D AffordanceNet,,0
+Human-Object-interaction motion tracking,,0,3,,,,0
+Weakly supervised segmentation,,0,3,,,,0
+Sign Language Production,,0,3,,,,0
+Texture Image Retrieval,,0,3,,,,0
+Supervised Defect Detection,,0,3,,,,0
+Argument Retrieval,,0,3,,,,0
+Personality Trait Recognition,,0,3,,SynthPAI; Essays,,0
+Semantic Image Similarity,,0,3,,,,0
+Histopathological Image Classification,,0,3,,,,0
+Radar Object Detection,,0,3,,,,0
+Satire Detection,,0,3,,,,0
+Review Generation,,0,3,,,,0
+Photo Retouching,,0,3,,MIT-Adobe 5k; MIT-Adobe 5k (1080p); MIT-Adobe 5k (480p),,0
+Stock Price Prediction,,0,3,,,,0
+Semantic Frame Parsing,,0,3,,,,0
+Multilingual Named Entity Recognition,,0,3,,,,0
+Video Matting,,0,3,,,,0
+Camera Auto-Calibration,,0,3,,,,0
+Reading Order Detection,,0,3,,ROOR; ReadingBank,,0
+Scientific Concept Extraction,,0,3,,,,0
+3D Geometry Perception,,0,3,,,,0
+Aspect-Category-Opinion-Sentiment Quadruple Extraction,,0,3,,Restaurant-ACOS; Laptop-ACOS,,0
+Multiobjective Optimization,,0,3,,,,0
+3D Shape Retrieval,,0,3,,,,0
+Parameter Prediction,,0,3,,CIFAR10,,0
+Unfairness Detection,,0,3,,,,0
+Extractive Summarization,,0,3,,,,0
+Key Point Matching,,0,3,,,,0
+Portrait Segmentation,,0,3,,,,0
+Atrial Fibrillation Detection,,0,3,,,,0
+Joint Event and Temporal Relation Extraction,,0,3,,TB-Dense,,0
+Aspect Category Polarity,,0,3,,AWARE,,0
+Speech Denoising,,0,3,,LRS2+VGGSound; LRS3+VGGSound,,0
+Inductive Link Prediction,,0,3,,,,0
+Video Domain Adapation,,0,3,,,,0
+Line Detection,,0,3,,NKL; SEL,,0
+Speech Extraction,,0,3,,,,0
+Zero-shot Text Retrieval,,0,3,,,,0
+Point Cloud Segmentation,,0,3,,PointCloud-C,,0
+Audio Emotion Recognition,,0,3,,,,0
+Dialect Identification,,0,3,,,,0
+Photoplethysmography (PPG) beat detection,,0,3,,,,0
+3D Volumetric Reconstruction,,0,3,,,,0
+Multimodal Intent Recognition,,0,3,,,,0
+Extractive Question-Answering,,0,3,,,,0
+Crop Yield Prediction,,0,3,,SICKLE; 2018 Syngenta (2016 val),,0
+Low-Dose X-Ray Ct Reconstruction,,0,3,,,,0
+Organ Segmentation,,0,3,,,,0
+Text Detection,,0,3,,UrduDoc,,0
+Zero Shot Segmentation,,0,3,,Segmentation in the Wild; ADE20K training-free zero-shot segmentation,,0
+Open Intent Detection,,0,3,,,,0
+Attribute Mining,,0,3,,AE-110k; MAVE; OA-Mine - annotations,,0
+Image to text,,0,3,,,,0
+Medical Image Analysis,,0,3,,,,0
+RGB-D Instance Segmentation,,0,3,,,,0
+Antibody-antigen binding prediction,,0,3,,,,0
+Sentence Retrieval,,0,3,,,,0
+Nested Term Extraction,,0,3,,,,0
+Nested Term Recognition from Flat Supervision,,0,3,,,,0
+"1 Image, 2*2 Stitching",,0,2,,,,2
+3D Point Cloud Interpolation,,0,2,,NL-Drive; DHB Dataset,,1
+Atomic action recognition,,0,2,,CATER,,1
+Audio-visual Question Answering,,0,2,,MUSIC-AVQA,,1
+Deception Detection,,0,2,,,,1
+Fine-Grained Vehicle Classification,,0,2,,,,1
+Image Editing,,0,2,,ImgEdit-Data; GEdit-Bench-EN,,5
+Image Matching,,0,2,,IMC PhotoTourism; ZEB,,4
+Mistake Detection,,0,2,,,,1
+Object Reconstruction,,0,2,,,,1
+One-Shot Segmentation,,0,2,,Cluttered Omniglot,,1
+Pulmorary Vessel Segmentation,,0,2,,,,1
+Transparent Object Detection,,0,2,,,,1
+severity prediction,,0,2,,Burned Area Delineation from Satellite Imagery,,1
+Superpixel Image Classification,,0,2,,,,0
+Semantic Textual Similarity within Bi-Encoder,,0,2,,,,0
+Constituency Grammar Induction,,0,2,,,,0
+One-Shot Object Detection,,0,2,,,,0
+One-Shot Instance Segmentation,,0,2,,,,0
+Few Shot Open Set Object Detection,,0,2,,MSCOCO,,0
+Birds Eye View Object Detection,,0,2,,KITTI Cars Hard val; KITTI Pedestrian; KITTI Cars Moderate; KITTI Cyclists Moderate; KITTI Cyclist Hard val; KITTI Cars Moderate val; KITTI Cars Easy val; KITTI Pedestrian Hard; KITTI Pedestrians Easy; KITTI Pedestrian Hard val,,0
+Self-supervised Video Retrieval,,0,2,,,,0
+Length-of-Stay prediction,,0,2,,Clinical Admission Notes from MIMIC-III; MIMIC-III,,0
+Unsupervised semantic parsing,,0,2,,,,0
+Bird Species Classification With Audio-Visual Data,,0,2,,,,0
+Zero-shot Relation Triplet Extraction,,0,2,,,,0
+Video Story QA,,0,2,,,,0
+Distractor Generation,,0,2,,,,0
+Semi-Supervised Action Detection,,0,2,,,,0
+Zero-Shot Action Detection,,0,2,,,,0
+One-stage Anchor-free Oriented Object Detection,,0,2,,,,0
+Subjectivity Analysis,,0,2,,SUBJ; Czech Subjectivity Dataset,,0
+Traffic Object Detection,,0,2,,,,0
+Zero-Shot Human-Object Interaction Detection,,0,2,,,,0
+3D Car Instance Understanding,,0,2,,,,0
+Lung Nodule Segmentation,,0,2,,,,0
+Graph structure learning,,0,2,,,,0
+Ancestor-descendant prediction,,0,2,,WN18RR,,0
+Aspect-Based Sentiment Analysis,,0,2,,,,0
+Aspect-oriented  Opinion Extraction,,0,2,,,,0
+Brain Image Segmentation,,0,2,,,,0
+Link Sign Prediction,,0,2,,Epinions; Bitcoin-Alpha; Slashdot,,0
+Resynthesis,,0,2,,,,0
+Self-supervised Skeleton-based Action Recognition,,0,2,,,,0
+Zero-Shot Video-Audio Retrieval,,0,2,,,,0
+Prosody Prediction,,0,2,,,,0
+Table-based Fact Verification,,0,2,,TabFact,,0
+Cross-domain 3D Human Pose Estimation,,0,2,,,,0
+HD semantic map learning,,0,2,,Argoverse2; nuScenes,,0
+Motion Detection,,0,2,,nuScenes,,0
+Arrhythmia Detection,,0,2,,,,0
+Image Retrieval with Multi-Modal Query,,0,2,,MIT-States; FashionIQ; Fashion200k,,0
+Chinese Semantic Role Labeling,,0,2,,,,0
+Scanpath prediction,,0,2,,FixaTons; CapMIT1003; Coutrot Dataset 1,,0
+Fine-Grained Urban Flow Inference,,0,2,,TaxiBJ-P2; TaxiBJ-P4; TaxiBJ-P1; TaxiBJ-P3,,0
+Single-object colocalization,,0,2,,,,0
+Action Assessment,,0,2,,UI-PRMD; EHE; KIMORE,,0
+Dialog Relation Extraction,,0,2,,,,0
+3D Point Cloud Linear Classification,,0,2,,ModelNet40; ScanObjectNN,,0
+Training-free 3D Point Cloud Classification,,0,2,,ModelNet40; ScanObjectNN,,0
+3D Parameter-Efficient Fine-Tuning for Classification,,0,2,,,,0
+Query-Based Extractive Summarization,,0,2,,,,0
+Inductive logic programming,,0,2,,RuDaS,,0
+Single-Image Portrait Relighting,,0,2,,Multi-PIE,,0
+Fact-based Text Editing,,0,2,,,,0
+Multi-domain Dialogue State Tracking,,0,2,,,,0
+Iris Segmentation,,0,2,,,,0
+Foggy Scene Segmentation,,0,2,,foggy zurich; ACDC (Adverse Conditions Dataset with Correspondences); Cityscapes-to-FoggyDriving; Foggy Cityscapes,,0
+zero-shot anomaly detection,,0,2,,,,0
+Scene Classification (unified classes),,0,2,,,,0
+Robust Semi-Supervised RGBD Semantic Segmentation,,0,2,,,,0
+Single Image Haze Removal,,0,2,,,,0
+Prediction Intervals,,0,2,,,,0
+Zero-shot Text to Audio Retrieval,,0,2,,,,0
+Diffeomorphic Medical Image Registration,,0,2,,,,0
+Liver Segmentation,,0,2,,,,0
+Extractive Document Summarization,,0,2,,,,0
+Sequential sentence segmentation,,0,2,,,,0
+Sentence Compression,,0,2,,Google Dataset,,0
+Nonhomogeneous Image Dehazing,,0,2,,,,0
+Video Forensics,,0,2,,,,0
+Sleep spindles detection,,0,2,,DREAMS sleep spindles,,0
+Product Categorization,,0,2,,,,0
+Semantic Composition,,0,2,,,,0
+Part-aware Panoptic Segmentation,,0,2,,Cityscapes Panoptic Parts; Pascal Panoptic Parts,,0
+Fish Detection,,0,2,,,,0
+Heterogeneous Face Recognition,,0,2,,,,0
+Diabetic Retinopathy Detection,,0,2,,Diabetic Retinopathy Debrecen Data Set,,0
+Paper generation (Title-to-abstract),,0,2,,,,0
+Paper generation (abstract-to-conclusion),,0,2,,,,0
+Multi-View 3D Reconstruction,,0,2,,ETH3D,,0
+Semantic entity labeling,,0,2,,FUNSD; EC-FUNSD,,0
+3D Shape Recognition,,0,2,,,,0
+Motion Captioning,,0,2,,KIT Motion-Language; HumanML3D,,0
+Active Speaker Detection,,0,2,,LRS3-TED,,0
+K-complex detection,,0,2,,,,0
+Head Detection,,0,2,,,,0
+Selection bias,,0,2,,,,0
+Optic Cup Segmentation,,0,2,,REFUGE Challenge,,0
+Classify 3D Point Clouds,,0,2,,,,0
+Micro Expression Recognition,,0,2,,,,0
+Protein Structure Prediction,,0,2,,UniProtSeq; CASPSeq; CASPSimSeq; PaenSeq,,0
+Vector Graphics,,0,2,,,,0
+self-supervised scene text recognition,,0,2,,TextSeg; TextZoom; Scene Text Recognition Benchmarks,,0
+Counterfactual Inference,,0,2,,,,0
+Factual probe,,0,2,,,,0
+Visual Social Relationship Recognition,,0,2,,PIPA; PISC,,0
+EMG Gesture Recognition,,0,2,,,,0
+Medical Procedure,,0,2,,Clinical Admission Notes from MIMIC-III,,0
+Open Vocabulary Action Recognition,,0,2,,,,0
+Electron Microscopy Image Segmentation,,0,2,,,,0
+Commonsense Knowledge Base Construction,,0,2,,,,0
+Text-to-video search,,0,2,,,,0
+Self-Supervised Anomaly Detection,,0,2,,,,0
+Hope Speech Detection,,0,2,,HopeEDI; KanHope,,0
+Speech Synthesis - Gujarati,,0,2,,,,0
+Citation Prediction,,0,2,,,,0
+Tweet Retrieval,,0,2,,,,0
+News Retrieval,,0,2,,,,0
+Anomaly Segmentation,,0,2,,,,0
+Zero-Shot Audio Retrieval,,0,2,,,,0
+drone-based object tracking,,0,2,,,,0
+Partial Point Cloud Matching,,0,2,,4DMatch,,0
+Span-Extraction MRC,,0,2,,,,0
+Graph Reconstruction,,0,2,,,,0
+Dialog Act Classification,,0,2,,Switchboard dialogue act corpus,,0
+Time-to-Event Prediction,,0,2,,,,0
+Joint Vertebrae Identification And Localization In Spinal Ct Images,,0,2,,,,0
+Model extraction,,0,2,,UML Classes With Specs,,0
+Sentiment Analysis (Product + User),,0,2,,,,0
+Time Series Alignment,,0,2,,,,0
+Survival Prediction,,0,2,,,,0
+Emotional Speech Synthesis,,0,2,,,,0
+Image Similarity Detection,,0,2,,DISC21 dev,,0
+Image Similarity Search,,0,2,,,,0
+Multimodal Text Prediction,,0,2,,MultiSubs,,0
+Active Speaker Localization,,0,2,,EasyCom,,0
+Vehicle Speed Estimation,,0,2,,BrnoCompSpeed,,0
+QRS Complex Detection,,0,2,,,,0
+Video Visual Relation Tagging,,0,2,,,,0
+Video scene graph generation,,0,2,,ImageNet-VidVRD,,0
+Low-light Pedestrian Detection,,0,2,,,,0
+Point Cloud Quality Assessment,,0,2,,SJTU-PCQA; M-PCCD; WPC,,0
+Document-level Event Extraction,,0,2,,,,0
+New Product Sales Forecasting,,0,2,,,,0
+"Classification of toxic, engaging, fact-claiming comments",,0,2,,,,0
+Zero-Shot Cross-Lingual Visual Reasoning,,0,2,,,,0
+Max-Shot Cross-Lingual Visual Reasoning,,0,2,,,,0
+Moving Object Detection,,0,2,,,,0
+2D Semantic Segmentation task 1 (8 classes),,0,2,,,,0
+3D Geometry Prediction,,0,2,,,,0
+Audio Effects Modeling,,0,2,,,,0
+Acoustic echo cancellation,,0,2,,,,0
+Emotional Dialogue Acts,,0,2,,,,0
+Video Synchronization,,0,2,,,,0
+Medical Image Denoising,,0,2,,FMD Confocal Fish; FMD Confocal Mice; FMD Two-Photon Mice; Dermatologist level dermoscopy skin cancer classification using different deep learning convolutional neural networks algorithms; Human Protein Atlas Image; LGG Segmentation Dataset,,0
+Seismic Detection,,0,2,,,,0
+Dark Humor Detection,,0,2,,,,0
+Similarities Abstraction,,0,2,,,,0
+Infrared image super-resolution,,0,2,,results-C; results-A,,0
+Type prediction,,0,2,,DeepTyper; ManyTypes4TypeScript; Py150,,0
+Kinematic Based Workflow Recognition,,0,2,,PETRAW,,0
+Tomographic Reconstructions,,0,2,,,,0
+COVID-19 Tracking,,0,2,,,,0
+Temporal Metadata Manipulation Detection,,0,2,,,,0
+3D Anomaly Detection and Segmentation,,0,2,,,,0
+Pancreas Segmentation,,0,2,,,,0
+Claim Extraction with Stance Classification (CESC),,0,2,,,,0
+Multiview Contextual Commonsense Inference,,0,2,,,,0
+Hyperspectral Image Super-Resolution,,0,2,,,,0
+AbbreviationDetection,,0,2,,,,0
+Object Categorization,,0,2,,GRIT,,0
+Data Visualization,,0,2,,,,0
+Copy Detection,,0,2,,,,0
+Dialogue Safety Prediction,,0,2,,,,0
+Variable Detection,,0,2,,,,0
+Spam detection,,0,2,,Traditional and Context-specific Spam Twitter,,0
+Motion Generation,,0,2,,,,0
+Electrocardiography (ECG),,0,2,,,,0
+Burst Image Reconstruction,,0,2,,,,0
+Ad-Hoc Information Retrieval,,0,2,,TREC Robust04,,0
+Semantic Communication,,0,2,,Europarl,,0
+Drug Response Prediction,,0,2,,,,0
+Twitter Event Detection,,0,2,,Events2012 - Oct 11 to Oct 17,,0
+Punctuation Restoration,,0,2,,,,0
+Zero-shot 3D classification,,0,2,,,,0
+3D Object Captioning,,0,2,,Objaverse,,0
+Emotional Intelligence,,0,2,,EQ-Bench,,0
+Depth-aware Video Panoptic Segmentation,,0,2,,,,0
+Connectivity Estimation,,0,2,,,,0
+Audio Synthesis,,0,2,,,,0
+Semi-supervised Medical Image Classification,,0,2,,,,0
+Group Anomaly Detection,,0,2,,,,0
+legal outcome extraction,,0,2,,,,0
+Hyperspectral Image Denoising,,0,2,,,,0
+Video-to-image Affordance Grounding,,0,2,,OPRA (28x28); EPIC-Hotspot; OPRA,,0
+audio-visual event localization,,0,2,,UnAV-100,,0
+Preference Mapping,,0,2,,,,0
+Video to Text Retrieval,,0,2,,,,0
+Protein Function Prediction,,0,2,,UniProtSeq; CASPSimSeq; PaenSeq,,0
+Video-based Generative Performance Benchmarking,,0,2,,VideoInstruct,,0
+Image Shadow Removal,,0,2,,INS Dataset,,0
+Image-guided Story Ending Generation,,0,2,,,,0
+Music Performance Rendering,,0,2,,,,0
+X-ray PDF regression,,0,2,,,,0
+named-entity-recognition,,0,2,,,,0
+zero-shot long video question answering,,0,2,,,,0
+Counterfactual Reasoning,,0,2,,,,0
+Flood Inundation Mapping,,0,2,,Coastal Inundation Maps with Floodwater Depth Values,,0
+Articulated Object modelling,,0,2,,,,0
+Action Classification (1-shot),,0,2,,,,0
+Fault localization,,0,2,,,,0
+Marine Animal Segmentation,,0,2,,,,0
+Mirror Detection,,0,2,,,,0
+Keypoint detection and image matching,,0,2,,,,0
+Audio Denoising,,0,2,,AV-Bench - Wooden Horse; AV-Bench - Guitar Solo; AV-Bench - Violin Yanni,,0
+Video Deblurring,,0,2,,,,0
+Video deraining,,0,2,,Video Waterdrop Removal Dataset; VRDS,,0
+Music Genre Recognition,,0,2,,chords; 1B Words,,0
+Outdoor Localization,,0,2,,,,0
+Synthetic Image Detection,,0,2,,,,0
+Malaria Falciparum Detection,,0,2,,,,0
+Text within image generation,,0,2,,,,0
+Water3D_Long,,0,2,,,,0
+Sand3D_Long,,0,2,,,,0
+Plasticine3D,,0,2,,,,0
+3D geometry,,0,2,,,,0
+Eyeblink detection,,0,2,,MPEblink; HUST-LEBW,,0
+Audio-Video Question Answering (AVQA),,0,2,,,,0
+Damaged Building Detection,,0,2,,,,0
+Brain Visual Reconstruction,,0,1,,,,1
+Calving Front Delineation In Synthetic Aperture Radar Imagery,,0,1,,CaFFe,,1
+Disease Prediction,,0,1,,,,2
+ENF (Electric Network Frequency) Extraction,,0,1,,,,1
+Image Categorization,,0,1,,,,1
+Instance Search,,0,1,,,,1
+Instance Shadow Detection,,0,1,,SOBA,,1
+Interest Point Detection,,0,1,,,,1
+Landmark Tracking,,0,1,,,,1
+MULTI-VIEW LEARNING,,0,1,,,,1
+Object Segmentation,,0,1,,GRIT,,3
+Text to Image Generation,,0,1,,DiffusionDB,,1
+Unsupervised Instance Segmentation,,0,1,,UVO; COCO val2017,,1
+Malicious Detection,,0,1,,,,0
+Iloko Speech Recognition,,0,1,,,,0
+PD-L1 Tumor Proportion Score Prediction,,0,1,,,,0
+HairColor/Bias-conflicting,,0,1,,,,0
+HeavyMakeup/Bias-conflicting,,0,1,,,,0
+JPEG Decompression,,0,1,,ImageNet,,0
+Image Classification with Differential Privacy,,0,1,,,,0
+Zero-Shot Transfer Image Classification (CN),,0,1,,,,0
+Training-free 3D Part Segmentation,,0,1,,ShapeNet-Part,,0
+Weakly-supervised instance segmentation,,0,1,,COCO test-dev; PASCAL VOC 2012 val; COCO 2017 val,,0
+Point-Supervised Instance Segmentation,,0,1,,,,0
+Activeness Detection,,0,1,,,,0
+Generalized Zero-Shot Object Detection,,0,1,,,,0
+Bidirectional Relationship Classification,,0,1,,,,0
+Unsupervised Keypoint Estimation,,0,1,,,,0
+Image Comprehension,,0,1,,,,0
+Clinical Assertion Status Detection,,0,1,,2010 i2b2/VA,,0
+ZSL Video Classification,,0,1,,,,0
+Cross-Part Crowd Counting,,0,1,,,,0
+Amodal Panoptic Segmentation,,0,1,,,,0
+Human-Object Interaction Concept Discovery,,0,1,,HICO-DET,,0
+Phoneme Recognition,,0,1,,,,0
+Occluded 3D Object Symmetry Detection,,0,1,,YCB-Video,,0
+Vehicle Key-Point and Orientation Estimation,,0,1,,ApolloCar3D,,0
+Car Pose Estimation,,0,1,,,,0
+Image Classification with Human Noise,,0,1,,,,0
+Supervised Image Retrieval,,0,1,,CIFAR-10,,0
+Open Vocabulary Panoptic Segmentation,,0,1,,ADE20K,,0
+Speech Prompted Semantic Segmentation,,0,1,,,,0
+Sound Prompted Semantic Segmentation,,0,1,,,,0
+Root Joint Localization,,0,1,,,,0
+3D Human Pose Estimation in Limited Data,,0,1,,,,0
+3D Semantic Instance Segmentation,,0,1,,,,0
+Semantic Contour Prediction,,0,1,,,,0
+Object Skeleton Detection,,0,1,,,,0
+Hyperspectral Image Inpainting,,0,1,,,,0
+Semantic Part Detection,,0,1,,,,0
+Age/Bias-conflicting,,0,1,,,,0
+Race/Bias-conflicting,,0,1,,,,0
+Participant Intervention Comparison Outcome Extraction,,0,1,,EBM-NLP,,0
+Geometric Matching,,0,1,,HPatches,,0
+Class-agnostic Object Detection,,0,1,,,,0
+Relationship Detection,,0,1,,,,0
+Few-shot 3D Point Cloud Semantic Segmentation,,0,1,,,,0
+Gene Interaction Prediction,,0,1,,BioGRID (human); BioGRID(yeast),,0
+Unsupervised 3D Multi-Person Pose Estimation,,0,1,,,,0
+Few-Shot Skeleton-Based Action Recognition,,0,1,,,,0
+Multi-view 3D Human Pose Estimation,,0,1,,,,0
+Online Vectorized HD Map Construction,,0,1,,nuScenes Camera Only,,0
+Sleep Arousal Detection,,0,1,,,,0
+Multimodal Sleep Stage Detection,,0,1,,,,0
+Myocardial infarction detection,,0,1,,,,0
+Video-to-Video Synthesis,,0,1,,,,0
+Lidar Scene Completion,,0,1,,SemanticKITTI,,0
+Text-to-3D-Human Generation,,0,1,,SHHQ; DeepFashion,,0
+Visual Question Answering (VQA) Split A,,0,1,,,,0
+Visual Question Answering (VQA) Split B,,0,1,,,,0
+Semi-Supervised Video Action Detection,,0,1,,,,0
+Long Video Retrieval (Background Removed),,0,1,,YouCook2,,0
+3D Shape Classification,,0,1,,,,0
+Left Ventricle Segmentation,,0,1,,,,0
+Complimentary Image Retrieval,,0,1,,,,0
+Sentence Embeddings For Biomedical Texts,,0,1,,,,0
+Semanticity prediction,,0,1,,,,0
+Attention Score Prediction,,0,1,,,,0
+Noise Level Prediction,,0,1,,,,0
+Method name prediction,,0,1,,,,0
+Vector Graphics Animation,,0,1,,,,0
+Unsupervised Vehicle Re-Identification,,0,1,,,,0
+Pedestrian Image Caption,,0,1,,,,0
+Video Corpus Moment Retrieval,,0,1,,,,0
+Zero-shot 3D Point Cloud Classificationclassification,,0,1,,,,0
+Diabetes Prediction,,0,1,,Diabetes,,0
+Scene-Aware Dialogue,,0,1,,AVSD,,0
+Causal Emotion Entailment,,0,1,,,,0
+Event Cross-Document Coreference Resolution,,0,1,,,,0
+Directional Hearing,,0,1,,VCTK,,0
+Real-time Directional Hearing,,0,1,,,,0
+Accented Speech Recognition,,0,1,,VoxForge Indian; VoxForge European; VoxForge American-Canadian; VoxForge Commonwealth,,0
+Crime Prediction,,0,1,,,,0
+Research Performance Prediction,,0,1,,,,0
+Relationship Extraction (Distant Supervised),,0,1,,NYT; New York Times Corpus,,0
+Multi-Person Pose Estimation and Tracking,,0,1,,PoseTrack2018,,0
+Multi-object colocalization,,0,1,,VOC_all; VOC12,,0
+Plane Instance Segmentation,,0,1,,,,0
+Zero-shot Scene Classification (unified classes),,0,1,,,,0
+Viewpoint Estimation,,0,1,,,,0
+Panoptic Segmentation (PanopticNDT instances),,0,1,,,,0
+Time-interval Prediction,,0,1,,,,0
+Hand Joint Reconstruction,,0,1,,,,0
+Semi-Supervised RGBD Semantic Segmentation,,0,1,,,,0
+Anomaly Detection in Edge Streams,,0,1,,,,0
+TGIF-Action,,0,1,,,,0
+Space-time Video Super-resolution,,0,1,,Vimeo90K-Fast; Vimeo90K-Medium,,0
+Federated Learning (Video Super-Resolution),,0,1,,,,0
+4-ary Relation Extraction,,0,1,,,,0
+3D Shape Generation,,0,1,,,,0
+Electromyography (EMG),,0,1,,,,0
+3D Interacting Hand Pose Estimation,,0,1,,InterHand2.6M,,0
+Melody Extraction,,0,1,,,,0
+Program induction,,0,1,,,,0
+Word Sense Induction,,0,1,,SemEval 2010 WSI,,0
+Semantic Text Matching,,0,1,,,,0
+Future prediction,,0,1,,,,0
+Cervical Nucleus Detection,,0,1,,,,0
+Attribute,,0,1,,,,0
+Cross-Lingual Information Retrieval,,0,1,,,,0
+Foot keypoint detection,,0,1,,,,0
+multi-word expression sememe prediction,,0,1,,,,0
+Stereotypical Bias Analysis,,0,1,,CrowS-Pairs,,0
+Clothes Landmark Detection,,0,1,,,,0
+Video Question Answering (Level 3),,0,1,,,,0
+Video Question Answering (Level 4),,0,1,,,,0
+B-Rep face segmentation,,0,1,,,,0
+Model Selection,,0,1,,,,0
+Cross-Lingual Semantic Textual Similarity,,0,1,,,,0
+Gesture Synchronization,,0,1,,,,0
+Zero-Shot Instance Segmentation,,0,1,,,,0
+Entity Extraction using GAN,,0,1,,,,0
+Business Taxonomy Construction,,0,1,,,,0
+Node Property Prediction,,0,1,,ogbn-products; ogbn-mag; ogbn-proteins; ogbn-arxiv; ogbn-papers100M,,0
+Link Property Prediction,,0,1,,ogbl-citation2; ogbl-ddi; ogbl-wikikg2; ogbl-biokg; ogbl-collab; ogbl-ppa,,0
+Abstract generation,,0,1,,,,0
+Webcam (RGB) image classification,,0,1,,,,0
+Optic Cup Detection,,0,1,,REFUGE Challenge,,0
+Motion Compensation,,0,1,,,,0
+Indoor Localization (6D),,0,1,,,,0
+2D Indoor Localization (Position + Orientation),,0,1,,,,0
+6D Indoor Localization,,0,1,,,,0
+Indoor Localization (6 DoF Pose),,0,1,,,,0
+Text Effects Transfer,,0,1,,,,0
+Counterfactual Detection,,0,1,,,,0
+Fashion Synthesis,,0,1,,,,0
+Video-to-Sound Generation,,0,1,,,,0
+Predicting Patient Outcomes,,0,1,,,,0
+Online Video Anomaly Detection,,0,1,,,,0
+Hardware Aware Neural Architecture Search,,0,1,,,,0
+Initial Structure to Relaxed Energy (IS2RE),,0,1,,OC20,,0
+"Initial Structure to Relaxed Energy (IS2RE), Direct",,0,1,,,,0
+Image Paragraph Captioning,,0,1,,Image Paragraph Captioning,,0
+Zero-Shot Image Paragraph Captioning,,0,1,,,,0
+Multi-Instance Retrieval,,0,1,,,,0
+Sparse Information Retrieval,,0,1,,,,0
+Video Deinterlacing,,0,1,,,,0
+Unsupervised nucleus segmentation,,0,1,,,,0
+Malware Type Detection,,0,1,,,,0
+Semi-Supervised Video Classification,,0,1,,,,0
+Workflow Discovery,,0,1,,ABCD,,0
+Speech-to-Gesture Translation,,0,1,,,,0
+Named Entity Recognition In Vietnamese,,0,1,,,,0
+Stance Detection (US Election 2020 - Biden),,0,1,,,,0
+Stance Detection (US Election 2020 - Trump),,0,1,,,,0
+Hope Speech Detection for English,,0,1,,,,0
+Hope Speech Detection for Tamil,,0,1,,,,0
+Hope Speech Detection for Malayalam,,0,1,,,,0
+Protein Fold Quality Estimation,,0,1,,,,0
+Duplicate-Question Retrieval,,0,1,,,,0
+Infinite Image Generation,,0,1,,,,0
+Perpetual View Generation,,0,1,,LHQ,,0
+Human fMRI response prediction,,0,1,,,,0
+Organ Detection,,0,1,,,,0
+3D Scene Graph Alignment,,0,1,,3DSSG,,0
+3d scene graph generation,,0,1,,,,0
+Text to Audio/Video Retrieval,,0,1,,,,0
+Audio/Video to Text Retrieval,,0,1,,,,0
+Retrieval-augmented Few-shot In-context Audio Captioning,,0,1,,,,0
+Evidence Selection,,0,1,,,,0
+Multi-Grained Named Entity Recognition,,0,1,,,,0
+Human-Object Interaction Anticipation,,0,1,,VidHOI,,0
+Actionable Phrase Detection,,0,1,,,,0
+Semantic Segmentation Of Orthoimagery,,0,1,,,,0
+Event-Driven Trading,,0,1,,,,0
+Cloud Detection,,0,1,,,,0
+Attractiveness Estimation,,0,1,,,,0
+Cold-Start Anomaly Detection,,0,1,,,,0
+Fingertip Detection,,0,1,,,,0
+Chemical Reaction Prediction,,0,1,,Mol-Instruction,,0
+Single-step retrosynthesis,,0,1,,USPTO-50k,,0
+Zero-shot Cross-lingual Fact-checking,,0,1,,,,0
+Safety Perception Recognition,,0,1,,Place Pulse 2.0; Google Street Images,,0
+Cubic splines Image Registration,,0,1,,,,0
+Epilepsy Prediction,,0,1,,Epilepsy seizure prediction,,0
+Face Recognition (Closed-Set),,0,1,,,,0
+Micro-gesture Recognition,,0,1,,iMiGUE,,0
+Crowdsourced Text Aggregation,,0,1,,CrowdSpeech test-clean; CrowdSpeech test-other,,0
+Counterfactual Explanation,,0,1,,,,0
+Key Detection,,0,1,,,,0
+Contour Detection,,0,1,,,,0
+Anxiety Detection,,0,1,,Well-being Dataset,,0
+Kidney Function,,0,1,,HiRID,,0
+Predict clinical outcome,,0,1,,CirCor DigiScope,,0
+Home Activity Monitoring,,0,1,,,,0
+Zero-Shot Out-of-Domain Detection,,0,1,,,,0
+Clone Detection,,0,1,,,,0
+Role-filler Entity Extraction,,0,1,,MUC-4,,0
+Attribute Extraction,,0,1,,SWDE,,0
+Video Harmonization,,0,1,,,,0
+Flowchart Grounded Dialog Response Generation,,0,1,,,,0
+Zero-Shot Flowchart Grounded Dialog Response Generation,,0,1,,,,0
+2D Semantic Segmentation task 2 (17 classes),,0,1,,,,0
+Speech Synthesis - Tamil,,0,1,,,,0
+Speech Synthesis - Kannada,,0,1,,,,0
+Speech Synthesis - Malayalam,,0,1,,,,0
+Speech Synthesis - Telugu,,0,1,,,,0
+Speech Synthesis - Assamese,,0,1,,,,0
+Speech Synthesis - Bengali,,0,1,,,,0
+Speech Synthesis - Bodo,,0,1,,,,0
+Speech Synthesis - Hindi,,0,1,,,,0
+Speech Synthesis - Manipuri,,0,1,,,,0
+Speech Synthesis - Marathi,,0,1,,,,0
+Speech Synthesis - Rajasthani,,0,1,,,,0
+3D Building Mesh Labeling,,0,1,,,,0
+Object State Change Classification,,0,1,,,,0
+State Change Object Detection,,0,1,,Ego4D,,0
+Short-term Object Interaction Anticipation,,0,1,,Ego4D,,0
+Future Hand Prediction,,0,1,,Ego4D,,0
+Long Term Action Anticipation,,0,1,,,,0
+Depth Image Estimation,,0,1,,,,0
+Table Functional Analysis,,0,1,,,,0
+Webpage Object Detection,,0,1,,,,0
+Natural Language Landmark Navigation Instructions Generation,,0,1,,,,0
+Event Expansion,,0,1,,,,0
+Weakly Supervised Data Denoising,,0,1,,,,0
+Caustics Segmentation,,0,1,,,,0
+Discourse Marker Prediction,,0,1,,,,0
+Global Facts,,0,1,,,,0
+Miscellaneous,,0,1,,,,0
+Abstract Algebra,,0,1,,,,0
+Mathematical Induction,,0,1,,,,0
+Medical Genetics,,0,1,,BIG-bench,,0
+Figure Of Speech Detection,,0,1,,,,0
+Question Selection,,0,1,,,,0
+Electrical Engineering,,0,1,,,,0
+Ventricular fibrillation detection,,0,1,,,,0
+Connective Detection,,0,1,,,,0
+text-to-3d-human,,0,1,,,,0
+Seizure prediction,,0,1,,Melbourne University Seizure Prediction,,0
+Zero-Shot Cross-Lingual Text-to-Image Retrieval,,0,1,,,,0
+Zero-Shot Cross-Lingual Image-to-Text Retrieval,,0,1,,,,0
+Zero-Shot Cross-Lingual Visual Natural Language Inference,,0,1,,,,0
+Zero-Shot Cross-Lingual Visual Question Answering,,0,1,,,,0
+Max-Shot Cross-Lingual Visual Natural Language Inference,,0,1,,,,0
+Max-Shot Cross-Lingual Visual Question Answering,,0,1,,,,0
+Max-Shot Cross-Lingual Text-to-Image Retrieval,,0,1,,,,0
+Max-Shot Cross-Lingual Image-to-Text Retrieval,,0,1,,,,0
+Video Based Workflow Recognition,,0,1,,PETRAW,,0
+Segmentation Based Workflow Recognition,,0,1,,PETRAW,,0
+Video & Kinematic Base Workflow Recognition,,0,1,,PETRAW,,0
+"Video, Kinematic & Segmentation Base Workflow Recognition",,0,1,,PETRAW,,0
+Visual Abductive Reasoning,,0,1,,,,0
+Fact Selection,,0,1,,ArgSciChat,,0
+Anchor link prediction,,0,1,,,,0
+Style change detection,,0,1,,,,0
+Pose Contrastive Learning,,0,1,,,,0
+Motion Disentanglement,,0,1,,,,0
+Atom3D benchmark,,0,1,,,,0
+Ancient Text Restoration,,0,1,,I.PHI,,0
+Depth Anomaly Detection and Segmentation,,0,1,,,,0
+RGB+3D Anomaly Detection and Segmentation,,0,1,,,,0
+Behavioral Malware Detection,,0,1,,,,0
+English Conversational Speech Recognition,,0,1,,,,0
+Math Information Retrieval,,0,1,,ARQMath,,0
+Argument Pair Extraction (APE),,0,1,,,,0
+3D Unsupervised Domain Adaptation,,0,1,,,,0
+Claim-Evidence Pair Extraction (CEPE),,0,1,,,,0
+ECG QRS Detection,,0,1,,,,0
+Question Quality Assessment,,0,1,,,,0
+Weakly Supervised 3D Detection,,0,1,,,,0
+Short-observation new product sales forecasting,,0,1,,VISUELLE2.0,,0
+Gallbladder Cancer Detection,,0,1,,,,0
+Keypoint Estimation,,0,1,,,,0
+Contact Detection,,0,1,,BEHAVE,,0
+LV Segmentation,,0,1,,,,0
+Personality Recognition in Conversation,,0,1,,CPED,,0
+Personalized and Emotional Conversation,,0,1,,,,0
+image smoothing,,0,1,,,,0
+Fast Vehicle Detection,,0,1,,,,0
+Context-specific Spam Detection,,0,1,,,,0
+Traditional Spam Detection,,0,1,,,,0
+feature selection,,0,1,,,,0
+Fire Detection,,0,1,,NIST Report of Test FR 4016,,0
+Markerless Motion Capture,,0,1,,,,0
+Bangla Text Detection,,0,1,,,,0
+Table Type Detection,,0,1,,,,0
+Weakly Supervised 3D Point Cloud Segmentation,,0,1,,,,0
+Translation mri-eng,,0,1,,,,0
+Image-text Classification,,0,1,,,,0
+Histopathological Segmentation,,0,1,,,,0
+image-sentence alignment,,0,1,,,,0
+Morphological Inflection,,0,1,,,,0
+Air Pollution Prediction,,0,1,,,,0
+Face Reenactment,,0,1,,,,0
+Predictive Process Monitoring,,0,1,,,,0
+3D scene Editing,,0,1,,LLFF,,0
+3D Object Editing,,0,1,,,,0
+Extracting COVID-19 Events from Twitter,,0,1,,,,0
+Multi-Labeled Relation Extraction,,0,1,,,,0
+Information Cascade Popularity Prediction,,0,1,,,,0
+Grayscale Video Denoising,,0,1,,,,0
+Negation and Speculation Cue Detection,,0,1,,BioScope : Abstracts; *sem 2012 Shared Task: Sherlock Dataset,,0
+Cultural Vocal Bursts Intensity Prediction,,0,1,,HUME-VB,,0
+Vocal Bursts Intensity Prediction,,0,1,,,,0
+Vocal Bursts Valence Prediction,,0,1,,,,0
+Vocal Bursts Type Prediction,,0,1,,,,0
+Unsupervised Landmark Detection,,0,1,,MAFL Unaligned,,0
+Subject Transfer,,0,1,,,,0
+Gunshot Detection,,0,1,,,,0
+Shooter Localization,,0,1,,,,0
+Predicting Drug-Induced Laboratory Test Effects,,0,1,,,,0
+Laminar-Turbulent Flow Localisation,,0,1,,Wind Tunnel and Flight Test Experiments,,0
+EEG Artifact Removal,,0,1,,,,0
+Counterfactual Planning,,0,1,,,,0
+Streaming Target Sound Extraction,,0,1,,,,0
+Video Defect Classification,,0,1,,,,0
+Mobile Periocular Recognition,,0,1,,,,0
+Phishing Website Detection,,0,1,,,,0
+Arabic Speech Recognition,,0,1,,,,0
+Hyper-Relational Extraction,,0,1,,,,0
+Event-based N-ary Relaiton Extraction,,0,1,,,,0
+Role-based N-ary Relaiton Extraction,,0,1,,,,0
+Hypergraph-based N-ary Relaiton Extraction,,0,1,,,,0
+Multilingual Image-Text Classification,,0,1,,,,0
+Acute Stroke Lesion Segmentation,,0,1,,,,0
+SemEval-2022 Task 4-1 (Binary PCL Detection),,0,1,,DPM,,0
+SemEval-2022 Task 4-2 (Multi-label PCL Detection),,0,1,,,,0
+Binary Condescension Detection,,0,1,,DPM,,0
+Multi-label Condescension Detection,,0,1,,DPM,,0
+One-Shot Part Segmentation of Grasp Affordance - Inter Class,,0,1,,,,0
+One-Shot Part Segmentation of Cut Affordance - Inter Class,,0,1,,,,0
+One-Shot Part Segmentation of Scoop Affordance - Inter Class,,0,1,,,,0
+One-Shot Part Segmentation of Contain Affordance - Inter Class,,0,1,,,,0
+One-Shot Part Segmentation of Wrap-Grasp Affordance - Inter Class,,0,1,,,,0
+One-Shot Part Segmentation of Pound Affordance - Inter Class,,0,1,,,,0
+One-Shot Part Segmentation of Support Affordance - Inter Class,,0,1,,,,0
+One-Shot Part Segmentation of Grasp Affordance - Intra Class,,0,1,,,,0
+One-Shot Part Segmentation of Cut Affordance - Intra Class,,0,1,,,,0
+One-Shot Part Segmentation of Scoop Affordance - Intra Class,,0,1,,,,0
+One-Shot Part Segmentation of Contain Affordance - Intra Class,,0,1,,,,0
+One-Shot Part Segmentation of Wrap-Grasp Affordance - Intra Class,,0,1,,,,0
+One-Shot Part Segmentation of Pound Affordance - Intra Class,,0,1,,,,0
+One-Shot Part Segmentation of Support Affordance - Intra Class,,0,1,,,,0
+ArzEn Speech Recognition,,0,1,,,,0
+Partial Video Copy Detection,,0,1,,STVD-PVCD,,0
+Hyperspectral Image-Based Fruit Ripeness Prediction,,0,1,,,,0
+Document Image Skew Estimation,,0,1,,DISE 2021 Dataset,,0
+Multi-step retrosynthesis,,0,1,,USPTO-190,,0
+Sleep apnea detection,,0,1,,,,0
+Sign Language Retrieval,,0,1,,,,0
+Protein Secondary Structure Prediction,,0,1,,PS4; TS115; Jpred4 blind set; CullPDB; CB513; 2019_test set; CASP12; 2017_test set,,0
+Visual Commonsense Tests,,0,1,,,,0
+Social Media Popularity Prediction,,0,1,,SMP Test Split,,0
+Heterogeneous Treatment Effect Estimation,,0,1,,,,0
+Robust Camera Only 3D Object Detection,,0,1,,,,0
+Automatic Cell Counting,,0,1,,,,0
+Robust BEV Map Segmentation,,0,1,,,,0
+Catalog Extraction,,0,1,,,,0
+Personalized Segmentation,,0,1,,PerSeg,,0
+Image Deconvolution,,0,1,,,,0
+Open-set video tagging,,0,1,,,,0
+Multi-View 3D Shape Retrieval,,0,1,,,,0
+Visual Analogies,,0,1,,,,0
+3D Multi-Person Human Pose Estimation,,0,1,,,,0
+Promoter Detection,,0,1,,GUE,,0
+Core Promoter Detection,,0,1,,GUE,,0
+Splice Site Prediction,,0,1,,GUE,,0
+Covid Variant Prediction,,0,1,,GUE,,0
+Epigenetic Marks Prediction,,0,1,,GUE,,0
+Transcription Factor Binding Site Prediction (Human),,0,1,,,,0
+Transcription Factor Binding Site Prediction (Mouse),,0,1,,,,0
+Printed Text Recognition,,0,1,,,,0
+Structured Report Generation,,0,1,,,,0
+Retinal OCT Layer Segmentation,,0,1,,,,0
+Video-based Generative Performance Benchmarking (Correctness of Information),,0,1,,VideoInstruct,,0
+Video-based Generative Performance Benchmarking (Detail Orientation)),,0,1,,,,0
+Video-based Generative Performance Benchmarking (Contextual Understanding),,0,1,,,,0
+Video-based Generative Performance Benchmarking (Temporal Understanding),,0,1,,,,0
+Video-based Generative Performance Benchmarking (Consistency),,0,1,,,,0
+Toxic Spans Detection,,0,1,,,,0
+Described Object Detection,,0,1,,,,0
+Nuclei Classification,,0,1,,,,0
+Ontology Matching,,0,1,,,,0
+Weakly-Supervised Object Segmentation,,0,1,,,,0
+Single-shot HDR Reconstruction,,0,1,,,,0
+Real-time instance measurement,,0,1,,,,0
+Conversational Sentiment Quadruple Extraction,,0,1,,,,0
+Unsupervised Image Decomposition,,0,1,,,,0
+Fracture detection,,0,1,,,,0
+Video Chaptering,,0,1,,VidChapters-7M,,0
+Outcome Prediction In Multimodal Mri,,0,1,,,,0
+Multi-Subject Fmri Data Alignment,,0,1,,,,0
+Motion Correction In Multishot Mri,,0,1,,,,0
+Brain Lesion Segmentation From Mri,,0,1,,,,0
+Android Malware Detection,,0,1,,,,0
+Propaganda detection,,0,1,,,,0
+Odor Descriptor Prediction,,0,1,,,,0
+Automatic Modulation Recognition,,0,1,,,,0
+Scholarly Named Entity Recognition,,0,1,,,,0
+Audio-Visual Question Answering (AVQA),,0,1,,,,0
+Coronary Artery Segmentation,,0,1,,,,0
+Stenosis Segmentation,,0,1,,,,0
+Caller Detection,,0,1,,,,0
+Image-based Recommendation Explainability,,0,1,,,,0
+Pupil Detection,,0,1,,,,0
+Intraoperative Tracking,,0,1,,,,0
+Intracorporeal Tracking,,0,1,,,,0
+Visibility Tracking,,0,1,,,,0
+video narration captioning,,0,1,,Shot2Story20K,,0
+Specular Segmentation,,0,1,,,,0
+Geometrical View,,0,1,,,,0
+Clothing Attribute Recognition,,0,1,,Clothing Attributes Dataset,,0
+Historical Color Image Dating,,0,1,,HCI,,0
+Crop Type Mapping,,0,1,,,,0
+Sowing Date Prediction,,0,1,,,,0
+Transplanting Date Prediction,,0,1,,,,0
+Harvesting Date Prediction,,0,1,,,,0
+MLLM Evaluation: Aesthetics,,0,1,,,,0
+Factual Inconsistency Detection in Chart Captioning,,0,1,,CHOCOLATE-LLM; CHOCOLATE-LVLM; CHOCOLATE-FT; CHOCOLATE,,0
+Only Connect Walls Dataset Task 1 (Grouping),,0,1,,,,0
+Hierarchical Text Segmentation,,0,1,,HierText,,0
+Audio Quality Assessment,,0,1,,ODAQ: Open Dataset of Audio Quality,,0
+Music Quality Assessment,,0,1,,,,0
+Conversational Web Navigation,,0,1,,WebLINX,,0
+IUPAC Name Prediction,,0,1,,,,0
+Medical Image Deblurring,,0,1,,ChexPert ; COVID-19 CT Scan; Human Protein Atlas Image; Brain MRI segmentation,,0
+All-day Semantic Segmentation,,0,1,,,,0
+Aspect Category Sentiment Analysis,,0,1,,,,0
+Hidden Aspect Detection,,0,1,,,,0
+Latent Aspect Detection,,0,1,,,,0
+Chemical Entity Recognition,,0,1,,,,0
+Aerial Scene Classification,,0,1,,,,0
+Python Code Synthesis,,0,1,,,,0
+Game State Reconstruction,,0,1,,,,0
+Clinical Section Identification,,0,1,,,,0
+Visual Prompt Tuning,,0,1,,VTAB-1k(Natural<7>); VTAB-1k(Structured<8>); FGVC; VTAB-1k(Specialized<4>),,0
+Retrosynthesis,,0,1,,Mol-Instruction,,0
+Mono3DVG,,0,1,,,,0
+Procedure Step Recognition,,0,1,,IndustReal,,0
+3D Object Detection (RoI),,0,1,,,,0
+Video Captioning on MSR-VTT,,0,1,,,,0
+Video Captioning on MS,,0,1,,,,0
+Linear Probing Object-Level 3D Awareness,,0,1,,,,0
+Anomaly Instance Segmentation,,0,1,,,,0
+Segmented Multimodal Named Entity Recognition,,0,1,,Twitter-SMNER,,0
+Oriented Object Detctio,,0,1,,,,0
+Personalized Image Generation,,0,1,,DreamBooth,,0
+Action Classification (zero-shot),,0,1,,,,0
+Detection of potentially void clauses,,0,1,,,,0
+X-ray Visual Question Answering,,0,1,,"MIMIC-CXR, MIMIC-IV",,0
+Video Style Transfer,,0,1,,,,0
+Multi-Objective Multi-Agent Reinforcement Learning,,0,1,,,,0
+Joint Entity and Relation Extraction on Scientific Data,,0,1,,,,0
+Fake Song Detection,,0,1,,,,0
+Synthetic Song Detection,,0,1,,,,0
+Lifelike 3D Human Generation,,0,1,,THuman2.0 Dataset,,0
+ENF (Electric Network Frequency) Detection,,0,1,,,,0
+Information Extraction,,0,1,,SemTabNet,,0
+Singing Voice Synthesis,,0,1,,,,0
+Novelty Detection,,0,1,,,,0
+Models Alignment,,0,1,,,,0
+Motion Interpolation,,0,1,,,,0
+Political Influence Detection,,0,1,,,,0
+Scientific Data Usage Detection,,0,1,,,,0
+Statistical Data Usage Detection,,0,1,,,,0
+Data Sources Detection,,0,1,,,,0
+Impacted Location Detection,,0,1,,,,0
+Detecting Climate/Environmental Topics,,0,1,,,,0
+News Target Detection,,0,1,,,,0
+Authority Involvement Detection,,0,1,,,,0
+Voice pathology detection,,0,1,,Saarbruecken Voice Database (females); Saarbruecken Voice Database (males),,0
+Beam Prediction,,0,1,,,,0
+Optimize the trajectory of UAV which plays a BS in communication system,,0,1,,,,0
+Grounded Video Question Answering,,0,1,,,,0
+Violence and Weaponized Violence Detection,,0,1,,,,0
+3D Open-Vocabulary Object Detection,,0,1,,,,0
+Anomaly Localization,,0,1,,,,0
+De novo molecule generation from MS/MS spectrum,,0,1,,MassSpecGym,,0
+Molecule retrieval from MS/MS spectrum,,0,1,,MassSpecGym,,0
+MS/MS spectrum simulation,,0,1,,MassSpecGym,,0
+De novo molecule generation from MS/MS spectrum (bonus chemical formulae),,0,1,,MassSpecGym,,0
+MS/MS spectrum simulation (bonus chemical formulae),,0,1,,MassSpecGym,,0
+Molecule retrieval from MS/MS spectrum (bonus chemical formulae),,0,1,,MassSpecGym,,0
+CSV dialect detection,,0,1,,,,0
+Sports Activity Recognition,,0,1,,,,0
+Production Forecasting,,0,1,,,,0
+Product Relation Classification,,0,1,,,,0
+Product Relation Detection,,0,1,,,,0
+Fruit-type + Maturity-state Prediction (Multi-label Classification),,0,1,,,,0
+Railway Track Image Classification,,0,1,,,,0
+ECG Denoising,,0,1,,,,0
+Synthetic Image Attribution,,0,1,,,,0
+Video Synopsis,,0,1,,,,0
+Blood Detection,,0,1,,,,0
+Few-Shot Instance Classification,,0,1,,,,0
+Inductive knowledge graph completion,,0,1,,FB15k-237-ind; Wikidata5m-ind; WN18RR-ind,,0
+Persuasive Writing Strategy Detection Level-1,,0,1,,,,0
+Persuasive Writing Strategy Detection Level-2,,0,1,,,,0
+Persuasive Writing Strategy Detection Level-3,,0,1,,,,0
+Persuasive Writing Strategy Detection Level-4,,0,1,,,,0
+Single-View 3D Reconstruction on ShapeNet,,0,1,,,,0
+Music Compression,,0,1,,,,0
+Human-Human Interaction Recognition,,0,1,,,,0
+Malaria Vivax Detection,,0,1,,,,0
+Malaria Malariae Detection,,0,1,,,,0
+Malaria Ovale Detection,,0,1,,,,0
+ADP Prediction,,0,1,,,,0
+BEV Segmentation,,0,1,,SimBEV,,0
+3D Semantic Occupancy Prediction,,0,1,,,,0
+Computer Vision Transduction,,0,1,,,,0
+Image-Variation,,0,1,,,,0
+Event Relation Extraction,,0,1,,,,0
+Relation Prediction,,0,1,,,,0
+answerability prediction,,0,1,,PeerQA,,0
+Raw reconstruction,,0,1,,,,0
+Object Rearrangement,,0,1,,Open6DOR V2,,0
+WaterDrop2D,,0,1,,,,0
+Sand2D,,0,1,,,,0
+Goop2D,,0,1,,,,0
+Elasticity3D,,0,1,,,,0
+MultiMaterial2D,,0,1,,,,0
+Generating 3D Point Clouds,,0,1,,,,0
+Event Causality Identification,,0,1,,,,0
+Surface Normals Estimation from Point Clouds,,0,1,,,,0
+3DGS,,0,1,,,,0
+Safety Alignment,,0,1,,,,0
+cross-modal alignment,,0,1,,,,0
+Thermal Image Denoising,,0,1,,,,0
+Aerial Video Semantic Segmentation,,0,1,,,,0
+Contact-rich Manipulation,,0,1,,,,0
+Text-based Person Retrieval,,0,1,,,,0
+confidence interval for traffic prediction,,0,1,,,,0
+Silent Speech Recognition,,0,1,,,,0
+Hierarchical Text-Image Matching,,0,1,,,,0
+Dynamic Reconstruction,,0,1,,iPhone (Monocular Dynamic View Synthesis),,0
+Bone Suppression From Dual Energy Chest X-Rays,,0,1,,,,0
+Video Action Detection,,0,1,,,,0
+Human-Domain Subject-to-Video,,0,1,,,,0
+Single-Domain Subject-to-Video,,0,1,,,,0
+Temporal Action Segmentation,,0,1,,,,0
+GUI Element Detection,,0,1,,,,0
+fake voice detection,,0,1,,ASVspoof 2019 - LA,,0
+Emotion Interpretation,,0,1,,EIBench; EIBench (complex),,0
+Cross-Modal Information Retrieval,,0,1,,,,0
+3D Architecture,,0,1,,,,0
+16k,,0,0,,,,6
+2D Classification,,0,0,,,,10
+3D,,0,0,,,,10
+3D Surface Generation,,0,0,,,,1
+4K 60Fps,,0,0,,,,1
+Adversarial Attack,,0,0,,,,4
+Animation,,0,0,,,,2
+Binary Classification,,0,0,,,,6
+Cancer,,0,0,,,,10
+Classification,,0,0,,,,10
+Color Constancy,,0,0,,,,1
+Computer Vision Techniques Adopted in 3D Cryogenic Electron Microscopy,,0,0,,,,2
+Continual Learning,,0,0,,,,5
+Crowds,,0,0,,,,3
+Data Augmentation,,0,0,,,,2
+De-identification,,0,0,,,,2
+Decision Making Under Uncertainty,,0,0,,,,1
+Deep Learning,,0,0,,,,1
+Dehazing,,0,0,,,,2
+Dense Captioning,,0,0,,,,1
+Diffusion Personalization,,0,0,,,,2
+Document AI,,0,0,,,,1
+Document Layout Analysis,,0,0,,,,1
+Document Text Classification,,0,0,,,,3
+Domain Adaptation,,0,0,,,,10
+Explainable Artificial Intelligence (XAI),,0,0,,,,1
+Explainable artificial intelligence,,0,0,,,,3
+Fairness,,0,0,,,,1
+Fashion Understanding,,0,0,,,,1
+Forgery,,0,0,,,,1
+Hand,,0,0,,,,6
+Handwriting Verification,,0,0,,,,1
+Human Dynamics,,0,0,,,,1
+Human Parsing,,0,0,,,,1
+Image Fusion,,0,0,,,,2
+Image Recognition,,0,0,,,,3
+Imputation,,0,0,,,,1
+Intelligent Surveillance,,0,0,,,,1
+Keyword Spotting,,0,0,,,,2
+Knowledge Distillation,,0,0,,,,2
+LMM real-life tasks,,0,0,,,,2
+Lung Nodule Classification,,0,0,,,,1
+Machine Unlearning,,0,0,,,,1
+Meme Classification,,0,0,,,,1
+Meta-Learning,,0,0,,,,3
+Meter Reading,,0,0,,,,1
+Micro-expression Generation,,0,0,,,,1
+Multi-Label Classification,,0,0,,,,4
+Multimodal Machine Translation,,0,0,,,,2
+Multimodal Reasoning,,0,0,,,,1
+Natural Language Transduction,,0,0,,,,1
+Observation Completion,,0,0,,,,1
+Part-based Representation Learning,,0,0,,,,1
+Period Estimation,,0,0,,,,1
+Person Re-Identification,,0,0,,,,10
+Physics-informed machine learning,,0,0,,,,1
+Point Cloud Classification,,0,0,,,,2
+Point Cloud Generation,,0,0,,,,1
+Point Clouds,,0,0,,,,3
+Prompt Engineering,,0,0,,,,1
+Quantization,,0,0,,,,2
+Rain Removal,,0,0,,,,1
+Referring Image Matting,,0,0,,,,4
+Reinforcement Learning (RL),,0,0,,,,6
+Remote Sensing,,0,0,,,,8
+Representation Learning,,0,0,,,,10
+Room Layout Estimation,,0,0,,,,1
+Self-Supervised Learning,,0,0,,,,2
+Sentiment Analysis,,0,0,,,,10
+Shape Representation Of 3D Point Clouds,,0,0,,,,1
+Situation Recognition,,0,0,,imSitu,,1
+Sketch,,0,0,,,,4
+Spectral Estimation,,0,0,,,,1
+Spoof Detection,,0,0,,ASVspoof 2019 - LA; ASVspoof 2019 - PA,,4
+Text-To-Image,,0,0,,,,3
+Value prediction,,0,0,,Py150,,1
+Video,,0,0,,,,10
+Visual Recognition,,0,0,,,,1
+Zero-Shot Learning,,0,0,,,,7
+regression,,0,0,,,,2
+Malaria Risk Exposure Prediction,,0,0,,,,0
+Single-cell modeling,,0,0,,,,0
+X-Ray,,0,0,,,,0
+Link Quality Estimation,,0,0,,,,0
+Image and Video Forgery Detection,,0,0,,,,0
+Image Text Removal,,0,0,,,,0
+Document To Image Conversion,,0,0,,,,0
+Transform A Video Into A Comics,,0,0,,,,0
+Detection Of Instrumentals Musical Tracks,,0,0,,,,0
+Pornography Detection,,0,0,,,,0
+Typeface Completion,,0,0,,,,0
+Visual Sentiment Prediction,,0,0,,,,0
+Sleep Quality,,0,0,,100 sleep nights of 8 caregivers,,0
+Text-Independent Speaker Recognition,,0,0,,,,0
+Skin,,0,0,,,,0
+Clickbait Detection,,0,0,,,,0
+Frame Duplication Detection,,0,0,,,,0
+Automatic Machine Learning Model Selection,,0,0,,,,0
+Flooded Building Segmentation,,0,0,,,,0
+Manner Of Articulation Detection,,0,0,,,,0
+Detecting Shadows,,0,0,,,,0
+Motion Detection In Non-Stationary Scenes,,0,0,,,,0
+Multi-modal image segmentation,,0,0,,,,0
+Constrained Diffeomorphic Image Registration,,0,0,,,,0
+Audio Signal Recognition,,0,0,,,,0
+Marine Robot Navigation,,0,0,,,,0
+Trademark Retrieval,,0,0,,,,0
+Speaking Style Synthesis,,0,0,,,,0
+Yield Mapping In Apple Orchards,,0,0,,,,0
+Population Mapping,,0,0,,,,0
+Air Quality Inference,,0,0,,,,0
+Modeling Local Geometric Structure,,0,0,,,,0
+Muscular Movement Recognition,,0,0,,,,0
+Dynamic Texture Recognition,,0,0,,,,0
+Overlapping Mention Recognition,,0,0,,,,0
+Image Declipping,,0,0,,,,0
+Image Steganography,,0,0,,,,0
+Multiple Sequence Alignment,,0,0,,SABMark v1.65; BAliBASE v3; OXBench,,0
+White Matter Fiber Tractography,,0,0,,,,0
+Abstract Argumentation,,0,0,,,,0
+Optimal Motion Planning,,0,0,,,,0
+Photometric Redshift Estimation,,0,0,,,,0
+Vector Quantization (k-means problem),,0,0,,,,0
+Spectral Graph Clustering,,0,0,,,,0
+Spectrum Cartography,,0,0,,,,0
+Hypergraph Matching,,0,0,,,,0
+Video Games,,0,0,,,,0
+Metal Artifact Reduction,,0,0,,,,0
+Counterspeech Detection,,0,0,,Youtube counterspeech dataset,,0
+Video Correspondence Flow,,0,0,,,,0
+Ultrasound,,0,0,,Brain Anatomy US,,0
+Kiss Detection,,0,0,,,,0
+Time Series Denoising,,0,0,,,,0
+Smart Grid Prediction,,0,0,,,,0
+Crowd Flows Prediction,,0,0,,,,0
+Medical Super-Resolution,,0,0,,,,0
+Cancer Metastasis Detection,,0,0,,,,0
+Mitosis Detection,,0,0,,,,0
+Pulsar Prediction,,0,0,,,,0
+Weakly-supervised panoptic segmentation,,0,0,,,,0
+Unbalanced Segmentation,,0,0,,,,0
+Vision-based navigation with language-based assistance,,0,0,,,,0
+Phrase Vector Embedding,,0,0,,,,0
+Image Imputation,,0,0,,,,0
+Normalising Flows,,0,0,,,,0
+Knee Osteoarthritis Prediction,,0,0,,,,0
+Readmission Prediction,,0,0,,,,0
+Gravitational Wave Detection,,0,0,,,,0
+4D Spatio Temporal Semantic Segmentation,,0,0,,,,0
+incongruity detection,,0,0,,,,0
+Text Attribute Transfer,,0,0,,,,0
+Relation Mention Extraction,,0,0,,,,0
+Image-To-Gps Verification,,0,0,,,,0
+X-Ray Diffraction (XRD),,0,0,,,,0
+Pulmonary Embolism Detection,,0,0,,PE-CAD FPRED,,0
+Speculation Detection,,0,0,,,,0
+Acoustic Novelty Detection,,0,0,,A3Lab PASCAL CHiME,,0
+Image Morphing,,0,0,,,,0
+Triad Prediction,,0,0,,,,0
+Thai Word Segmentation,,0,0,,BEST-2010; WS160,,0
+Unsupervised Speech Recognition,,0,0,,,,0
+Diabetic Foot Ulcer Detection,,0,0,,,,0
+Camouflage Segmentation,,0,0,,,,0
+Manufacturing Quality Control,,0,0,,,,0
+Sequential Distribution Function Estimation,,0,0,,,,0
+Multi Diseases Detection,,0,0,,,,0
+Image popularity prediction,,0,0,,,,0
+Low-rank compression,,0,0,,,,0
+Pre-election ratings estimation,,0,0,,,,0
+Quantum Circuit Mapping,,0,0,,,,0
+Prototype Selection,,0,0,,,,0
+Matrix Factorization / Decomposition,,0,0,,,,0
+Template Matching,,0,0,,,,0
+Detection of Dependencies,,0,0,,,,0
+Text Compression,,0,0,,,,0
+Extractive Tags Summarization,,0,0,,,,0
+Face Selection,,0,0,,,,0
+Variable Selection,,0,0,,,,0
+3D Rotation Estimation,,0,0,,,,0
+Seismic source localization,,0,0,,,,0
+Structual Feature Correlation,,0,0,,,,0
+Automated Pulmonary Nodule Detection And Classification,,0,0,,,,0
+Photoplethysmogram simulation,,0,0,,,,0
+Chinese Spelling Error Correction,,0,0,,,,0
+Vietnamese Word Segmentation,,0,0,,,,0
+Partially View-aligned Multi-view Learning,,0,0,,Caltech101; Reuters En-Fr; Scene-15; n-MNIST,,0
+Prostate Zones Segmentation,,0,0,,,,0
+Cognate Prediction,,0,0,,,,0
+Bladder Segmentation,,0,0,,,,0
+Bokeh Effect Rendering,,0,0,,,,0
+Design Synthesis,,0,0,,,,0
+Touch detection,,0,0,,,,0
+Job Prediction,,0,0,,,,0
+Control with Prametrised Actions,,0,0,,Half Field Offence; Platform; Robot Soccer Goal,,0
+Image Deblocking,,0,0,,,,0
+Action Analysis,,0,0,,,,0
+Table Extraction,,0,0,,,,0
+Protein-Ligand Affinity Prediction,,0,0,,CSAR-HiQ; PDBbind,,0
+Dynamic Community Detection,,0,0,,,,0
+Code Reuse Detection,,0,0,,,,0
+3D Bin Packing,,0,0,,,,0
+Programming Error Detection,,0,0,,,,0
+SET TO GRAPH PREDICTION,,0,0,,,,0
+Set-to-Graph Prediction,,0,0,,,,0
+Hyperedge Prediction,,0,0,,,,0
+Obfuscation Detection,,0,0,,,,0
+Audio inpainting,,0,0,,,,0
+Linear Mode Connectivity,,0,0,,,,0
+Open Set Video Captioning,,0,0,,,,0
+Manufacturing simulation,,0,0,,,,0
+3D Prostate Segmentation,,0,0,,,,0
+Video Propagation,,0,0,,,,0
+Computer Architecture and Systems,,0,0,,,,0
+Video Individual Counting,,0,0,,,,0
+Earthquake prediction,,0,0,,,,0
+"Deep-Sea Treasure, Image version",,0,0,,,,0
+Spoken Command Recognition,,0,0,,Speech Command v2,,0
+Graph Outlier Detection,,0,0,,,,0
+3D Canonicalization,,0,0,,,,0
+Unsupervised 3D Point Cloud Linear Evaluation,,0,0,,,,0
+Hate Intensity Prediction,,0,0,,,,0
+Inductive Bias,,0,0,,,,0
+Medical waveform analysis,,0,0,,,,0
+Reverse Dictionary,,0,0,,,,0
+Image Retouching,,0,0,,,,0
+speed predict,,0,0,,,,0
+Image Retargeting,,0,0,,,,0
+RGB-D Reconstruction,,0,0,,,,0
+Monocular Reconstruction,,0,0,,,,0
+Transductive Learning,,0,0,,,,0
+Concave shapes,,0,0,,,,0
+Friction,,0,0,,,,0
+Contact mechanics,,0,0,,,,0
+HYPERVIEW Challenge,,0,0,,,,0
+Aggregate xView3 Metric,,0,0,,,,0
+Image Deep Networks,,0,0,,,,0
+Solar Flare Prediction,,0,0,,,,0
+Detect Ground Reflections,,0,0,,,,0
+3D Inpainting,,0,0,,,,0
+Conformal Prediction,,0,0,,,,0
+Pcl Detection,,0,0,,,,0
+Spectral Efficiency Analysis of Uplink-Downlink Decoupled Access in C-V2X Networks,,0,0,,,,0
+Finger Vein Recognition,,0,0,,,,0
+Metadata quality,,0,0,,,,0
+single-image-generation,,0,0,,,,0
+human-scene contact detection,,0,0,,,,0
+Symmetric face inpainting,,0,0,,,,0
+Generative Semantic Nursing,,0,0,,,,0
+Calving Front Delineation From Synthetic Aperture Radar Imagery,,0,0,,,,0
+Twinwidth Contraction Sequence,,0,0,,,,0
+Instrument Playing Technique Detection,,0,0,,,,0
+Zero-shot Text-to-Video Generation,,0,0,,,,0
+Robust Traffic Prediction,,0,0,,,,0
+Motion Magnification,,0,0,,,,0
+Video Relationship,,0,0,,,,0
+Spatio-temporal Scene Graphs,,0,0,,,,0
+continual anomaly detection,,0,0,,,,0
+Muscle-Computer Interfaces (MCIs),,0,0,,,,0
+Emotion Detection and Trigger Summarization,,0,0,,,,0
+3D Molecule Generation,,0,0,,,,0
+Multilingual Text-to-Image Generation,,0,0,,,,0
+Crosslingual Text-to-Image Generation,,0,0,,,,0
+Multi-lingual Text-to-Image Generation,,0,0,,,,0
+Cross-lingual Text-to-Image Generation,,0,0,,,,0
+Dielectric Constant,,0,0,,,,0
+Wearable Activity Recognition,,0,0,,,,0
+Forward reaction prediction,,0,0,,Mol-Instruction,,0
+Reagent Prediction,,0,0,,Mol-Instruction,,0
+Property Prediction,,0,0,,,,0
+Catalytic activity prediction,,0,0,,,,0
+Domain/Motif Prediction,,0,0,,,,0
+Functional Description Generation,,0,0,,,,0
+Chemical-Disease Interaction Extraction,,0,0,,,,0
+Chemical-Protein Interaction Extraction,,0,0,,,,0
+Transcription Factor Binding Site Prediction,,0,0,,690 ChIP-seq,,0
+Visually Guided Sound Source Separation,,0,0,,,,0
+Computing Characateristic Functions,,0,0,,,,0
+Label Error Detection,,0,0,,TREC-6,,0
+Point- of-no-return (PNR) temporal localization,,0,0,,,,0
+Motion Expressions Guided Video Segmentation,,0,0,,,,0
+Reconstruction Attack,,0,0,,,,0
+Zero-Shot Visual Question Answring,,0,0,,,,0
+Adversarial Attack on Video Classification,,0,0,,,,0
+Train Ego-Path Detection,,0,0,,,,0
+RNA 3D STRUCTURE PREDICTION,,0,0,,,,0
+Japanese Word Segmentation,,0,0,,BCCWJ,,0
+Task and Motion Planning,,0,0,,,,0
+gaze redirection,,0,0,,,,0
+Image Operation Chain Detection,,0,0,,,,0
+Specular Reflection Mitigation,,0,0,,,,0
+Model Predictive Control,,0,0,,,,0
+Personality Trait Recognition by Face,,0,0,,First Impressions v2,,0
+Only Connect Walls Dataset Task 2 (Connections),,0,0,,,,0
+Micro-video recommendations,,0,0,,,,0
+MLLM Aesthetic Evaluation,,0,0,,,,0
+Derendering,,0,0,,,,0
+Climate Projection,,0,0,,,,0
+Mutational/Variant Effect Prediction,,0,0,,,,0
+Scene Text Editing,,0,0,,,,0
+Brain Computer Interface,,0,0,,,,0
+Motor Imagery,,0,0,,,,0
+Within-Session Motor Imagery,,0,0,,,,0
+Social Media Mental Health Detection,,0,0,,,,0
+Vietnamese Fact Checking,,0,0,,,,0
+ENF (Electric Network Frequency) Classification,,0,0,,,,0
+Vietnamese Scene Text,,0,0,,,,0
+Grounded Multimodal Named Entity Recognition,,0,0,,Twitter-GMNER,,0
+spatial-aware image editing,,0,0,,,,0
+Semantic Compression,,0,0,,,,0
+Anatomical Landmark Detection,,0,0,,,,0
+Speech Interruption Detection,,0,0,,,,0
+Red Wine Quality Prediction,,0,0,,,,0
+Skeleton Rig Prediction,,0,0,,,,0
+Sound Source Localization,,0,0,,^(#$!@#$)(()))******,,0
+Vietnamese Hate Speech Detection,,0,0,,,,0
+Onset Detection,,0,0,,,,0
+Video/Text-to-Audio Generation,,0,0,,,,0
+Structural Health Monitoring,,0,0,,,,0
+Exposure Correction,,0,0,,,,0
+Equilibrium Reaction Energy (ev/atom),,0,0,,,,0
+Vietnamese Speech Recognition,,0,0,,,,0
+Multi-Dialect Vietnamese,,0,0,,,,0
+entity_extraction,,0,0,,,,0
+Image Editing Dection,,0,0,,,,0
+Numerical Weather Prediction,,0,0,,,,0
+Multi-Loss Function Penalizing,,0,0,,,,0
+Semi-Supervised Image Regression,,0,0,,,,0
+Action Quality Assessment Report Generation,,0,0,,,,0
+Active 3D Reconstruction,,0,0,,,,0
+Structured Output Generation,,0,0,,,,0
+Battery cycle life prediction,,0,0,,,,0
+Emotion Detection and Classification,,0,0,,,,0
+Knowledge Base Construction,,0,0,,,,0
+Relevance Detection,,0,0,,,,0
+Temperature Prediction Using Specklegrams,,0,0,,FSS Dataset,,0
+Zero-shot skeleton-based action recognition,,0,0,,,,0
+Reasoning Segmentation,,0,0,,,,0
+Reasoning Video Object Segmentation,,0,0,,,,0
+High-Level Synthesis,,0,0,,,,0
+Inductive Learning,,0,0,,,,0
+How To Refund A Wrong Transaction In Phonepe ,,0,0,,,,0
+Citation Visualization,,0,0,,,,0
+multimodal interaction,,0,0,,,,0
+Single Image Deblurring,,0,0,,,,0
+Binding Site Prediction,,0,0,,,,0
+Continued fraction,,0,0,,,,0
+Writer Retrieval,,0,0,,,,0
+Video Forecasting,,0,0,,,,0
+Philosophical Reflection,,0,0,,,,0
+multidimensional harmonic retrieval,,0,0,,,,0
+Zero-day intrusion detection,,0,0,,,,0
+Drift Detection,,0,0,,,,0
+Nested Term Recognition,,0,0,,,,0
+Quantitative MRI,,0,0,,,,0
+Protein Stability Prediction,,0,0,,,,0
+Retrieval-augmented Generation,,0,0,,,,0
+Forgery Image Detection,,0,0,,,,0
+ECG signal quality,,0,0,,,,0
+Query focused video summarization,,0,0,,,,0
+Referring Audio-Visual Segmentation,,0,0,,,,0
+Pointwise large-scale scene completion,,0,0,,,,0
+Spatio-temporal Action Recognition,,0,0,,,,0
+Video Focal Modulation,,0,0,,,,0
+Semantic Segmentation,10-shot image generation,1,348,,Matterport3D; UrbanLF; SYN-UDTIRI; dacl10k v1 testfinal; UAVid; FoodSeg103; CEMS-W; ATLANTIS; DeLiVER test; BDD100K val,,10
+Object Detection,16k,1,333,,; GRAZPEDWRI-DX; VisDrone-DET2019; COCO test-dev; SIXray; BDD100K val; PASCAL Part 2010 - Animals; EventPed; VisDrone- 1% labeled data; A Dataset of Multispectral Potato Plants Images,,10
+Object Detection,2D Classification,1,333,,; GRAZPEDWRI-DX; VisDrone-DET2019; COCO test-dev; SIXray; BDD100K val; PASCAL Part 2010 - Animals; EventPed; VisDrone- 1% labeled data; A Dataset of Multispectral Potato Plants Images,,10
+Object Detection,2D Object Detection,1,333,,; GRAZPEDWRI-DX; VisDrone-DET2019; COCO test-dev; SIXray; BDD100K val; PASCAL Part 2010 - Animals; EventPed; VisDrone- 1% labeled data; A Dataset of Multispectral Potato Plants Images,,10
+Object Detection,3D,1,333,,; GRAZPEDWRI-DX; VisDrone-DET2019; COCO test-dev; SIXray; BDD100K val; PASCAL Part 2010 - Animals; EventPed; VisDrone- 1% labeled data; A Dataset of Multispectral Potato Plants Images,,10
+Pose Estimation,"1 Image, 2*2 Stitchi",1,124,, ITOP front-view; MERL-RAV; COCO test-dev; MPII; 300W (Full); 3DPW; ITOP top-view; MPII Single Person; MS-COCO; DensePose-COCO,,10
+Pose Estimation,3D,1,124,, ITOP front-view; MERL-RAV; COCO test-dev; MPII; 300W (Full); 3DPW; ITOP top-view; MPII Single Person; MS-COCO; DensePose-COCO,,10
+Action Recognition,Activity Recognition,1,115,,HAA500; AVA v2.1; MECCANO; RareAct; NTU RGB+D 120; BAR; THUMOS’14; VIRAT Ground 2.0; H2O  (2 Hands and Objects); EPIC-KITCHENS-100,,10
+Depth Estimation,3D,1,77,,Matterport3D; DIODE; KITTI Eigen split; KITTI 2015; Taskonomy; Cityscapes test; DCM; ScanNet; eBDtheque; ScanNetV2,,10
+Autonomous Driving,Autonomous Vehicles,1,70,,Town05 Short; Town05 Long; CARLA Leaderboard; ApolloCar3D,,6
+3D Reconstruction,3D,1,58,,Aria Synthetic Environments; DTU; ShapeNet; Data3D−R2N2; ScanNet; Scan2CAD; Aria Digital Twin Dataset; ApolloCar3D; 300W; 3DPeople,,7
+Video Understanding,Video,1,56,,,,7
+Image Super-Resolution,16k,1,43,,Set5 - 2x upscaling; FFHQ 256 x 256 - 4x upscaling; Set14 - 3x upscaling; BSD100 - 16x upscaling; BSD100 - 4x upscaling; BSD100 - 2x upscaling; Sun80 - 4x upscaling; Manga109 - 8x upscaling; VggFace2 - 8x upscaling; Set5 - 8x upscaling,,5
+Image Segmentation,2D Semantic Segmentation,1,43,,MSD (Mirror Segmentation Dataset); EVD4UAV; Pascal Panoptic Parts; PMD; MAS3K; PASCAL VOC; RMAS; ImageNet; OxfordPets; COCO val2017,,1
+Multi-Object Tracking,Object Tracking,1,43,,UAVDT; PersonPath22; 2024 AI City Challenge; VisDrone2019; HiEve; JRDB; 2DMOT15; BDD100K; MOT16; Synthehicle,,6
+Temporal Action Localization,Action Localization,1,42,,Ego4D MQ val; THUMOS'14; FineAction; MEXaction2; THUMOS14; MUSES; ActivityNet-1.2; MultiTHUMOS; THUMOS’14; CrossTask,,8
+Temporal Action Localization,Video,1,42,,Ego4D MQ val; THUMOS'14; FineAction; MEXaction2; THUMOS14; MUSES; ActivityNet-1.2; MultiTHUMOS; THUMOS’14; CrossTask,,8
+Temporal Action Localization,Zero-Shot Learning,1,42,,Ego4D MQ val; THUMOS'14; FineAction; MEXaction2; THUMOS14; MUSES; ActivityNet-1.2; MultiTHUMOS; THUMOS’14; CrossTask,,8
+Fine-Grained Image Classification,Image Classification,1,41,,Herbarium 2021 Half–Earth; Kuzushiji-MNIST; CUB-200-2011; Herbarium 2022; Con-Text; SOP; Oxford-IIIT Pets; Bird-225; STL-10; EMNIST-Digits,,1
+Text Retrieval,Retrieval,1,37,,,,0
+Video Retrieval,Video,1,35,,TVR; MSR-VTT-1kA; DiDeMo; MSR-VTT; SSv2-template retrieval; VATEX; MSVD-Indonesian; MSVD; EgoExoLearn; FIVR-200K,,5
+Action Classification,Video,1,33,,,,0
+Image-to-Image Translation,"1 Image, 2*2 Stitching",1,32,,anime-to-selfie; GTAV-to-Cityscapes Labels; Cityscapes-to-Foggy Cityscapes; IXI; selfie2anime; Cityscapes Photo-to-Labels; BRATS; cat2dog; AFHQ; COCO-Stuff Labels-to-Photos,,10
+Image-to-Image Translation,Image Generation,1,32,,anime-to-selfie; GTAV-to-Cityscapes Labels; Cityscapes-to-Foggy Cityscapes; IXI; selfie2anime; Cityscapes Photo-to-Labels; BRATS; cat2dog; AFHQ; COCO-Stuff Labels-to-Photos,,10
+Visual Question Answering,Visual Question Answering (VQA),1,32,,TextVQA test-standard; GRIT; MMHal-Bench; MapEval-Visual; VQA v2 val; MMBench; MM-Vet (w/o External Tools); CLEVR; MM-Vet; GQA,,5
+Skeleton Based Action Recognition,Action Detection,1,30,,,,0
+Visual Object Tracking,Object Tracking,1,29,,VOT2017; YouTube-VOS 2018; LaSOT-ext; LaSOT; OTB-2013; DiDi; TempleColor128; VOT2022; VOT2019; AVisT,,1
+Unsupervised Anomaly Detection,Anomaly Detection,1,28,,ECG5000; KolektorSDD2; SMAP; STL-10; AeBAD-S; Fashion-MNIST; Reuters-21578; 20NEWS; DAGM2007; Vehicle Claims,,5
+Text-to-Image Generation,"1 Image, 2*2 Stitchi",1,25,,DPG; Multi-Modal-CelebA-HQ; Conceptual Captions; CUB; DrawBench; Colors; GenEval; MS-COCO; Oxford 102 Flowers; COCO,,7
+Text-to-Image Generation,10-shot image generation,1,25,,DPG; Multi-Modal-CelebA-HQ; Conceptual Captions; CUB; DrawBench; Colors; GenEval; MS-COCO; Oxford 102 Flowers; COCO,,7
+Text-to-Image Generation,Image Generation,1,25,,DPG; Multi-Modal-CelebA-HQ; Conceptual Captions; CUB; DrawBench; Colors; GenEval; MS-COCO; Oxford 102 Flowers; COCO,,7
+Video Prediction,Video,1,25,,"Kinetics-600 12 frames, 64x64; Cityscapes; YouTube-8M; KTH 64x64 cond10 pred30; Something-Something V2; Human3.6M; BAIR Robot Pushing; SynpickVP; DAVIS 2017; CMU Mocap-1",,2
+Few-Shot Image Classification,Image Classification,1,24,,"CIFAR-FS - 5-Shot Learning; Flowers-102 - 0-Shot; ORBIT Clean Video Evaluation; SUN - 0-Shot; Mini-Imagenet 20-way (5-shot); CUB-200-2011 - 0-Shot; Mini-Imagenet 5-way (5-shot); Dirichlet Mini-Imagenet (5-way, 5-shot); ImageNet-FS (5-shot, novel); Mini-ImageNet - 1-Shot Learning",,3
+Video Generation,Video,1,24,,"Kinetics-600 48 frames, 64x64; YouTube Driving; UCF-101 16 frames, Unconditional, Single GPU; How2Sign; Sky Time-lapse; BAIR Robot Pushing; Kinetics-600 12 frames, 128x128; Kinetics-600 12 frames, 64x64; TrailerFaces; LAION-400M",,2
+Crowd Counting,Crowds,1,23,,,,0
+Hand Pose Estimation,Hand,1,23,,NYU Hands; MSRA Hands; ICVL; HANDS 2017; ICVL Hands; Custom FINNgers; COCO-WholeBody; 3DPW; K2HPD; HANDS 2019,,1
+Low-Light Image Enhancement,Image Enhancement,1,23,,,,0
+Image Denoising,Denoising,1,22,,FFHQ 64x64 - 4x upscaling; SID SonyA7S2 x250; SIDD; ELD SonyA7S2 x200; DND; BSD68 sigma30; FMD; SID SonyA7S2 x300; FFHQ; Image Denoising on SID x300,,2
+Speech Emotion Recognition,Emotion Recognition,1,22,,EmoDB Dataset; EMODB; MSP-IMPROV; RESD; LSSED; Quechua-SER; CREMA-D; RAVDESS; MSP-Podcast (Valence); Dusha Crowd,,0
+Cell Segmentation,Medical Image Segmentation,1,22,,MoNuSeg; Fluo-C3DL-MDA231; CoNSeP; Fluo-N2DH-SIM+; EVICAN; Fluo-N2DH-GOWT1; DIC-C2DH-HeLa; STARE; Fluo-N2DL-HeLa; LIVECell,,1
+Handwriting Recognition,Optical Character Recognition (OCR),1,22,,KOHTD; An extensive dataset of handwritten central Kurdish isolated characters; BanglaLekha Isolated Dataset,,2
+Video Classification,Video,1,22,,YouTube-8M; SRI-APPROVE Fine-Grained Video Classification; Multimodal PISA; Something-Something V1; Something-Something V2; Charades; MoB; Kinetics; Home Action Genome; COIN,,2
+Simultaneous Localization and Mapping,Autonomous Vehicles,1,21,,,,2
+Image Manipulation Detection,Anomaly Detection,1,20,,Casia V1+; DSO (OSN-transmitted - Facebook); Columbia (OSN-transmitted - Weibo); CASIA (OSN-transmitted - Facebook); NIST (OSN-transmitted - Wechat); Columbia (OSN-transmitted - Facebook); CASIA (OSN-transmitted - Wechat); CASIA (OSN-transmitted - Weibo); DSO-1; DSO (OSN-transmitted - Wechat),,0
+Aspect-Based Sentiment Analysis (ABSA),Sentiment Analysis,1,20,,SemEval 2014 Task 4 Subtask 4; ASQP; ASTE; SemEval 2015 Task 12; Rest15; TASD; ACOS; FABSA; Sentihood;  SemEval 2015 Task 12,,0
+Stereo Matching,Stereo Disparity Estimation,1,20,,,,0
+Medical Image Classification,Classification,1,19,,IDRiD; PCOS Classification; Malaria Dataset; OASIS 3; Galaxy10 DECals; ISIC 2020 Challenge Dataset; ImageNet; ISIC 2017; NCT-CRC-HE-100K; CheXphoto,,0
+Video Object Segmentation,Video,1,19,,DAVIS 2017 (val); YouTube-VOS 2019; MOSE; DAVIS 2017 (test-dev); FBMS; M$^3$-VOS; YouTube; YouTube-VOS 2018; DAVIS 2016; DAVIS 2017,,7
+Image Restoration,10-shot image generation,1,18,,^(#$!@#$)(()))******; CDD-11; UHDM,,10
+Action Segmentation,Action Localization,1,18,,COIN; JIGSAWS; Youtube INRIA Instructional; 50 Salads; 50Salads; Assembly101; MPII Cooking 2 Dataset; GTEA; Breakfast,,4
+3D Instance Segmentation,Instance Segmentation,1,18,,ScanNet200; ScanNet(v2); SceneNN; ScanNet++; PartNet; MitoEM; ScanNet; S3DIS; STPLS3D,,1
+Multiple Object Tracking,Object Tracking,1,18,,BDD100K test; RADIATE; YouTube-Hands; SportsMOT; CroHD; KITTI Test (Offline Methods); Waymo Open Dataset; GMOT-40; KITTI Test (Online Methods); BDD100K val,,2
+Zero-Shot Video Question Answer,Video Question Answering,1,18,,,,0
+Transductive Zero-Shot Classification,Zero-Shot Learning,1,18,,,,0
+Deblurring,10-shot image generation,1,17,,RealBlur-J (trained on GoPro); .; HIDE; RealBlur-R (trained on GoPro); Beam-Splitter Deblurring (BSD); Second dialogue state tracking challenge; RealBlur-J; MSU BASED; HIDE (trained on GOPRO); GoPro,,2
+Deblurring,2D Classification,1,17,,RealBlur-J (trained on GoPro); .; HIDE; RealBlur-R (trained on GoPro); Beam-Splitter Deblurring (BSD); Second dialogue state tracking challenge; RealBlur-J; MSU BASED; HIDE (trained on GOPRO); GoPro,,2
+Pedestrian Detection,Autonomous Vehicles,1,17,,MMPD-Dataset; Caltech; CVC14; TJU-Ped-traffic; Caltech Pedestrian Dataset; CityPersons; LLVIP; DVTOD; TJU-Ped-campus,,1
+Lane Detection,Autonomous Vehicles,1,17,,K-Lane; tvtLane; Caltech Lanes Washington; nuScenes; CULane; OpenLane-V2 val; OpenLane; CurveLanes; DET; LLAMAS,,1
+Image Dehazing,Dehazing,1,17,,RESIDE; SOTS Outdoor; HD-NH-HAZE; NH-HAZE; RS-Haze; RESIDE-6K; NH-HAZE2; O-Haze; I-Haze; RB-Dust,,0
+Image Inpainting,Image Generation,1,17,,Apolloscape Inpainting; FFHQ 1024 x 1024; Places2; CelebA; Paris StreetView; Places2 val; ImageNet; FFHQ 512 x 512; ApolloScape; Places365,,3
+Lesion Segmentation,Medical Image Segmentation,1,17,,,,0
+Face Anti-Spoofing,Visual Odometry,1,17,,,,0
+Hand Gesture Recognition,Gesture Recognition,1,16,,,,0
+Hand Gesture Recognition,Hand,1,16,,,,0
+Active Learning,Optical Character Recognition (OCR),1,16,,"CIFAR10 (10,000)",,1
+Trajectory Forecasting,Trajectory Prediction,1,16,,,,0
+Video Super-Resolution,Video,1,16,,Vimeo-90K; Xiph HD - 4x upscaling; Vid4 - 4x upscaling - BD degradation; SPMCS - 4x upscaling; TbD-3D; UDM10 - 4x upscaling; TbD; MSU Video Upscalers: Quality Enhancement; MSU Super-Resolution for Video Compression; MSU Video Super Resolution Benchmark: Detail Restoration,,1
+Video Inpainting,3D,1,15,,DAVIS; HQVI (2K); How2Sign; HQVI (240p); YouTube-VOS 2018; HQVI (480p); YouTube-VOS,,0
+Human Activity Recognition,Action Detection,1,15,,Radar Dataset (DIAT-μRadHAR: Radar micro-Doppler Signature dataset for Human Suspicious Activity Recognition); RHM; MM-Fit; OAD dataset; PAMAP2; UCF 101; HAR; HMDB51,,0
+Human Activity Recognition,Activity Recognition,1,15,,Radar Dataset (DIAT-μRadHAR: Radar micro-Doppler Signature dataset for Human Suspicious Activity Recognition); RHM; MM-Fit; OAD dataset; PAMAP2; UCF 101; HAR; HMDB51,,0
+License Plate Recognition,Image Recognition,1,15,,,,0
+3D Human Reconstruction,Reconstruction,1,15,,,,0
+Single-View 3D Reconstruction,Reconstruction,1,15,,Market-HQ; Common Objects in 3D; SynthEVox3D-Tiny; ShapeNet; ATR; CUB-200-2011; GSO; TransProteus; ShapeNetCore,,1
+Emotion Recognition in Conversation,Emotion Recognition,1,14,,,,0
+Semi-Supervised Image Classification,Image Classification,1,14,,"Salinas; CIFAR-100, 5000Labels; Caltech-101, 202 Labels; ImageNet - 10% labeled data; SVHN (250 Labels, ImageNet-100 Unlabeled); cifar-100, 10000 Labels; SVHN, 1000 labels; SVHN, 2000 Labels; EuroSAT, 20 Labels; CIFAR-100, 200 Labels",,2
+Handwritten Text Recognition,Optical Character Recognition (OCR),1,14,,READ 2016; IAM; LAM(line-level); IAM(line-level); Digital Peter; IAM-D; Bentham; Saint Gall; SIMARA; Belfort,,2
+Indoor Localization,Visual Place Recognition,1,14,,"Structured3D (perspective, furnished); Structured3D (perspective, emtpy); Structured3D (perspective, empty)",,2
+Hyperspectral Image Classification,Image Classification,1,13,,,,0
+Video Object Tracking,Object Tracking,1,13,,,,0
+Point Cloud Registration,3D Point Cloud Interpolation,1,12,,3DLoMatch (10-30% overlap); FP-T-M; FP-R-E; ETH (trained on 3DMatch); nuScenes (Distant PCR); FP-R-M; FP-O-M; 3DMatch (at least 30% overlapped - FCGF setting); FP-R-H; FP-T-E,,1
+Fine-Grained Image Recognition,Image Recognition,1,12,,,,0
+Action Anticipation,2D Human Pose Estimation,1,11,,EGTEA; EPIC-KITCHENS-55 (Unseen test set (S2); 50-Salads; EPIC-KITCHENS-100 (test); EPIC-KITCHENS-55 (Seen test set (S1)); EPIC-KITCHENS-100; Assembly101; EgoExoLearn,,0
+3D Face Reconstruction,3D,1,11,,!(()&&!|*|*|; Stirling-HQ (FG2018 3D face reconstruction challenge); REALY; 13.8; NoW Benchmark; AFLW2000-3D; Stirling-LQ (FG2018 3D face reconstruction challenge); REALY (side-view); Florence,,1
+Multimodal Emotion Recognition,Emotion Recognition,1,11,,CMU-MOSEI-Sentiment-3; CMU-MOSEI-Sentiment; Expressive hands and faces dataset (EHF).; MELD-Sentiment; MELD; IEMOCAP; IEMOCAP-4,,1
+Image Manipulation,Image Generation,1,11,,LRS2,,0
+Material Recognition,Image Recognition,1,11,,,,0
+Referring Expression Segmentation,Instance Segmentation,1,11,,RefCOCO testB; PhraseCut; A2D Sentences; RefCoCo val; G-Ref test A; ReferIt; RefCOCOg-test; Referring Expressions for DAVIS 2016 & 2017; A2Dre test; RefCOCO+ test B,,2
+Unsupervised Object Segmentation,Instance Segmentation,1,11,,DUTS; ObjectsRoom; Shelf&Tote Training Dataset; ECSSD; DAVIS 2016; ShapeStacks; FBMS-59; SegTrack-v2; ClevrTex,,0
+Face Swapping,10-shot image generation,1,10,,,,0
+Motion Estimation,10-shot image generation,1,10,,,,0
+Human Part Segmentation,2D Semantic Segmentation,1,10,,Human3.6M; CIHP; ATR; PASCAL-Part; PASCAL-Person-Part; MHP v2.0,,0
+Out of Distribution (OOD) Detection,Image Classification,1,10,,,,0
+Multi-Label Image Classification,Image Classification,1,10,,BigEarthNet (official test set); BigEarthNet; VOC2007; MSCOCO; BigEarthNet-10%; BigEarthNet-S1 (official test set); VizWiz-Classification,,1
+Online Multi-Object Tracking,Object Tracking,1,10,,,,0
+Remote Sensing Image Classification,Remote Sensing,1,10,,FireRisk,,0
+Video Recognition,Video,1,10,,,,0
+Scene Generation,16k,1,9,,Replica; AVD; KITTI; GoogleEarth; VizDoom; OSM,,0
+Edge Detection,2D Object Detection,1,9,,BRIND; CID; Cityscapes test; UDED; MDBD; BIPED; BSDS500; SBD,,0
+3D Shape Reconstruction,3D,1,9,,ApolloCar3D; Pix3D,,1
+Pedestrian Attribute Recognition,Autonomous Vehicles,1,9,,UPAR; Market1501-Attributes; DukeMTMC-attribute; RAPv2; RAP; PA-100K; PETA; UAV-Human,,0
+Color Image Denoising,Denoising,1,9,,,,0
+Small Data Image Classification,Image Classification,1,9,,,,0
+Conditional Image Generation,Image Generation,1,9,,CelebAMask-HQ; ImageNet-LT; CIFAR-10 LT; CIFAR-100; ArtBench-10 (32x32); CIFAR-10; ImageNet 64x64; COCO-Animals; ImageNet 128x128; Tiny ImageNet,,3
+Blind Super-Resolution,Image Reconstruction,1,9,,,,0
+Vehicle Re-Identification,Intelligent Surveillance,1,9,,VeRi-Wild Small; VehicleID Medium; VehicleID Small; VeRi; VeRi-776; VeRi-Wild Large; VeRi-Wild Medium; CityFlow; VehicleID Large; VehicleID,,0
+3D Medical Imaging Segmentation,Medical Image Segmentation,1,9,,TCIA Pancreas-CT,,0
+Saliency Prediction,Saliency Detection,1,9,,MIT300; SALICON; CAT2000; SALECI,,2
+Dense Video Captioning,Video Captioning,1,9,,ViTT; ActivityNet Captions; YouCook2; VidChapters-7M,,1
+Fine-Grained Visual Recognition,Visual Recognition,1,9,,,,0
+Human action generation,Activity Recognition,1,8,,NTU RGB+D; Human3.6M; NTU RGB+D 120; UESTC RGB-D; NTU RGB+D 2D; HumanAct12; CMU Mocap,,1
+Anomaly Detection In Surveillance Videos,Anomaly Detection,1,8,,,,0
+Breast Cancer Detection,Cancer,1,8,,,,0
+Single Image Dehazing,Dehazing,1,8,,,,0
+Semantic correspondence,Image Matching,1,8,,AP-10K; PF-WILLOW; SPair-71k; CUB-200-2011; Caltech-101; PF-PASCAL,,1
+No-Reference Image Quality Assessment,Image Quality Assessment,1,8,,CSIQ; LIVE; 200k Short Texts for Humor Detection; KADID-10k; KonIQ-10k; SPAQ; UHD-IQA; TID2013,,2
+Brain Tumor Segmentation,Medical Image Segmentation,1,8,,,,0
+Retinal Vessel Segmentation,Medical Image Segmentation,1,8,,ROSE-1 SVC; ROSE-1 DVC; ROSE-2; DRIVE; INSPIRE-AVR (LUNet subset); UZLF; CHASE_DB1; STARE; HRF; ROSE-1 SVC-DVC,,1
+3D Object Recognition,Object Recognition,1,8,,,,0
+3D Object Reconstruction,Object Reconstruction,1,8,,Data3D−R2N2; BEHAVE; ShapeNet; RenderPeople,,4
+Video-Based Person Re-Identification,Person Re-Identification,1,8,,,,0
+Monocular Visual Odometry,Visual Odometry,1,8,,,,0
+geo-localization,Visual Place Recognition,1,8,,,,0
+Visual Commonsense Reasoning,Visual Reasoning,1,8,,,,0
+Image to Video Generation,"1 Image, 2*2 Stitchi",1,7,,,,1
+Neural Rendering,2D Classification,1,7,,,,1
+Neural Rendering,3D,1,7,,,,1
+3D Object Classification,3D Classification,1,7,,ModelNet40; 3R-Scan; ModelNet10; Remote Flash LiDAR Vehicles Dataset,,2
+Traffic Sign Recognition,Autonomous Vehicles,1,7,,,,0
+Camera Relocalization,Camera Localization,1,7,,,,1
+MRI segmentation,Medical Image Segmentation,1,7,,,,1
+Medical Code Prediction,Multi-Label Classification,1,7,,MIMIC-III; MIMIC-IV ICD-10; MIMIC-IV-ICD9-top50; MIMIC-IV-ICD10-top50; MIMIC-IV-ICD-10-full; MIMIC-IV-ICD9-full; MIMIC-IV ICD-9,,0
+Camouflaged Object Segmentation,Object Segmentation,1,7,,MoCA-Mask; CHAMELEON; CAMO; Camouflaged Animal Dataset; PCOD_1200; COD; NC4K,,1
+Handwritten Digit Recognition,Optical Character Recognition (OCR),1,7,,,,0
+Image Deblurring,"1 Image, 2*2 Stitchi",1,6,,HIDE; CelebA; RealBlur-J; HIDE (trained on GOPRO); GoPro; ImageNet; RealBlur-R(trained on GoPro); RealBlur-R; Real-world Dataset,,1
+Talking Face Generation,"1 Image, 2*2 Stitchi",1,6,,CREMA-D; LRW,,2
+Image Deblurring,10-shot image generation,1,6,,HIDE; CelebA; RealBlur-J; HIDE (trained on GOPRO); GoPro; ImageNet; RealBlur-R(trained on GoPro); RealBlur-R; Real-world Dataset,,1
+Image Deblurring,16k,1,6,,HIDE; CelebA; RealBlur-J; HIDE (trained on GOPRO); GoPro; ImageNet; RealBlur-R(trained on GoPro); RealBlur-R; Real-world Dataset,,1
+3D Face Animation,2D Human Pose Estimation,1,6,,VOCASET; Biwi 3D Audiovisual Corpus of Affective Communication - B3D(AC)^2; BEAT2,,1
+Spatio-Temporal Action Localization,Action Localization,1,6,,,,0
+Multimodal Activity Recognition,Activity Recognition,1,6,,,,0
+Autonomous Navigation,Autonomous Vehicles,1,6,,,,3
+Facial Emotion Recognition,Emotion Recognition,1,6,,,,0
+Emotion Recognition in Context,Emotion Recognition,1,6,,,,0
+3D Facial Landmark Localization,Facial Landmark Detection,1,6,,,,0
+Aesthetics Quality Assessment,Image Quality Assessment,1,6,,,,0
+Composed Image Retrieval (CoIR),Image Retrieval,1,6,,Fashion IQ; CIRR,,1
+Real-time Instance Segmentation,Instance Segmentation,1,6,,,,0
+Image-Based Localization,Object Localization,1,6,,,,0
+Single Image Deraining,Rain Removal,1,6,,,,0
+The Semantic Segmentation Of Remote Sensing Imagery,Remote Sensing,1,6,,UV6K; MSAW,,1
+Face Sketch Synthesis,Sketch,1,6,,,,0
+Cell Detection,2D Classification,1,5,,,,0
+Unsupervised Panoptic Segmentation,2D Panoptic Segmentation,1,5,,MUSES: MUlti-SEnsor Semantic perception dataset; Waymo Open Dataset; COCO val2017; KITTI; BDD100K val; Cityscapes,,1
+Text to 3D,3D,1,5,,T$^3$Bench,,0
+3D Anomaly Detection,Anomaly Detection,1,5,,Real 3D-AD; Anomaly-ShapeNet10; Anomaly-ShapeNet,,2
+Cross-modal retrieval with noisy correspondence,Cross-Modal Retrieval,1,5,,,,0
+Video Emotion Recognition,Emotion Recognition,1,5,,,,0
+Hand-Gesture Recognition,Gesture Recognition,1,5,,,,0
+Hand-Gesture Recognition,Hand,1,5,,,,0
+Fine-Grained Visual Categorization,Image Categorization,1,5,,,,0
+Image Relighting,Image Enhancement,1,5,,,,0
+Face Generation,Image Generation,1,5,,,,5
+3D Generation,Image Generation,1,5,,E.T. the Exceptional Trajectories,,0
+Pose Transfer,Image Generation,1,5,,,,0
+Content-Based Image Retrieval,Image Retrieval,1,5,,INRIA Holidays Dataset,,2
+Brain Segmentation,Medical Image Segmentation,1,5,,,,0
+Sports Ball Detection and Tracking,Object Tracking,1,5,,,,0
+Face Presentation Attack Detection,Spoof Detection,1,5,,,,0
+Text to 3D,Text to Image Generation,1,5,,T$^3$Bench,,0
+Human motion prediction,Trajectory Prediction,1,5,,,,1
+3D Place Recognition,Visual Place Recognition,1,5,,,,0
+3D Question Answering (3D-QA),Visual Question Answering (VQA),1,5,,,,0
+Fake Image Detection,"1 Image, 2*2 Stitching",1,4,,,,2
+Thermal Image Segmentation,2D Object Detection,1,4,,,,0
+Hand Detection,2D Object Detection,1,4,,,,0
+medical image detection,2D Object Detection,1,4,,,,0
+Scene Parsing,2D Semantic Segmentation,1,4,,Cityscapes test; PGDP5K,,9
+3D Scene Reconstruction,3D,1,4,,,,1
+Photo geolocation estimation,4K 60Fps,1,4,,,,0
+Egocentric Activity Recognition,Activity Recognition,1,4,,,,0
+Supervised Anomaly Detection,Anomaly Detection,1,4,,,,0
+Cross-View Geo-Localisation,Camera Localization,1,4,,,,0
+EEG Emotion Recognition,Emotion Recognition,1,4,,,,0
+Hand Segmentation,Hand,1,4,,,,0
+3D-Aware Image Synthesis,Image Generation,1,4,,,,0
+Patch Matching,Image Matching,1,4,,Brown Dataset; HPatches,,1
+MRI Reconstruction,Image Reconstruction,1,4,,fastMRI Knee 4x; fastMRI Brain 8x; fastMRI Knee Val 8x ; IXI; fastMRI Knee 8x; fastMRI Brain 4x,,0
+Sketch-Based Image Retrieval,Image Retrieval,1,4,,Shoes; Handbags; Chairs,,1
+Image-based Automatic Meter Reading,Meter Reading,1,4,,,,1
+3D Human Pose Tracking,Pose Tracking,1,4,,Panoptic,,0
+Change detection for remote sensing images,Remote Sensing,1,4,,,,0
+Building change detection for remote sensing images,Remote Sensing,1,4,,,,0
+Extracting Buildings In Remote Sensing Images,Remote Sensing,1,4,,,,0
+Social Navigation,Robot Navigation,1,4,,,,0
+Sketch Recognition,Sketch,1,4,,,,1
+Camera shot boundary detection,Video Segmentation,1,4,,,,0
+Supervised Video Summarization,Video Summarization,1,4,,,,0
+Point Tracking,Visual Tracking,1,4,,TAP-Vid-RGB-Stacking; TAP-Vid-Kinetics; TAP-Vid; Perception Test; TAP-Vid-DAVIS; TAP-Vid-Kinetics-First; PointOdyssey; TAP-Vid-DAVIS-First,,0
+Reflection Removal,2D Semantic Segmentation,1,3,,Real20; SIR^2(Postcard); SIR^2(Objects); Nature; SIR^2(Wild),,0
+Online Action Detection,Action Detection,1,3,,,,0
+Audio-Visual Active Speaker Detection,Action Detection,1,3,,,,0
+Recognizing And Localizing Human Actions,Activity Recognition,1,3,,,,0
+Graph Anomaly Detection,Anomaly Detection,1,3,,,,0
+Multi-class Anomaly Detection,Anomaly Detection,1,3,,,,0
+Loop Closure Detection,Autonomous Vehicles,1,3,,,,0
+LLM-generated Text Detection,Binary Classification,1,3,,,,0
+Breast Cancer Histology Image Classification,Cancer,1,3,,ICIAR 2018 Grand Challenge on Breast Cancer Histology Images; BreakHis,,2
+Point-interactive Image Colorization,Colorization,1,3,,,,0
+Grayscale Image Denoising,Denoising,1,3,,,,0
+Event-based Optical Flow,Event-based vision,1,3,,,,0
+Unsupervised Facial Landmark Detection,Facial Landmark Detection,1,3,,,,0
+Semi Supervised Learning for Image Captioning,Image Captioning,1,3,,COCO (Common Objects in Context); FlickrStyle10K; Flickr30k,,0
+Self-Supervised Image Classification,Image Classification,1,3,,,,0
+Face Clustering,Image Clustering,1,3,,,,0
+Medical Image Retrieval,Image Retrieval,1,3,,,,0
+Human Instance Segmentation,Instance Segmentation,1,3,,OCHuman,,1
+Key-value Pair Extraction,Key Information Extraction,1,3,,,,0
+Visual Keyword Spotting,Keyword Spotting,1,3,,,,0
+Cardiac Segmentation,Medical Image Segmentation,1,3,,,,0
+Weakly-Supervised Object Localization,Object Localization,1,3,,,,0
+Segmentation Of Remote Sensing Imagery,Remote Sensing,1,3,,,,1
+Video Saliency Detection,Saliency Detection,1,3,,,,0
+Unsupervised Saliency Detection,Saliency Detection,1,3,,,,0
+Aspect Term Extraction and Sentiment Classification,Sentiment Analysis,1,3,,,,0
+3D Point Cloud Reconstruction,Shape Representation Of 3D Point Clouds,1,3,,,,1
+Partially Relevant Video Retrieval,Text to Video Retrieval,1,3,,,,0
+Unsupervised Video Summarization,Video Summarization,1,3,,,,0
+Pneumonia Detection,"1 Image, 2*2 Stitchi",1,2,,COVID-19 CXR Dataset; Chest X-ray images; ChestX-ray14,,0
+Highlight Detection,16k,1,2,,QVHighlights; YouTube Highlights; TvSum; arabiska,,0
+Foreground Segmentation,2D Semantic Segmentation,1,2,,,,0
+Continual Semantic Segmentation,2D Semantic Segmentation,1,2,,ScanNet; ADE20K; PASCAL VOC 2012,,2
+Document Enhancement,2D Semantic Segmentation task 3 (25 classes),1,2,,,,0
+3D Dense Shape Correspondence,3D Shape Representation,1,2,,,,0
+Semi-supervised Anomaly Detection,Abnormal Event Detection In Video,1,2,,UBI-Fights,,2
+Fine-Grained Action Detection,Action Detection,1,2,,,,0
+Few Shot Temporal Action Localization,Action Detection,1,2,,,,0
+Group Activity Recognition,Activity Recognition,1,2,,,,0
+Zero-shot Composed Person Retrieval,Cross-Modal Retrieval,1,2,,,,0
+Retinal OCT Disease Classification,Disease Prediction,1,2,,,,0
+Generic Event Boundary Detection,Event Segmentation,1,2,,,,0
+Event-based Motion Estimation,Event-based vision,1,2,,,,0
+3D dense captioning,Image Captioning,1,2,,,,0
+Document Enhancement,Image Enhancement,1,2,,,,0
+Image Harmonization,Image Generation,1,2,,,,0
+Amodal Instance Segmentation,Instance Segmentation,1,2,,,,0
+Unseen Object Instance Segmentation,Instance Segmentation,1,2,,,,0
+visual instruction following,Instruction Following,1,2,,,,0
+Muscle Tendon Junction Identification,Landmark Tracking,1,2,,,,0
+Retinal OCT Disease Classification,Medical Diagnosis,1,2,,,,0
+Semi-supervised Medical Image Segmentation,Medical Image Segmentation,1,2,,,,0
+Skin Lesion Segmentation,Medical Image Segmentation,1,2,,,,0
+Training-free Object Counting,Object Counting,1,2,,,,0
+Unsupervised Object Localization,Object Localization,1,2,,,,0
+Text-Line Extraction,Object Segmentation,1,2,,,,0
+Thermal Infrared Object Tracking,Object Tracking,1,2,,,,0
+Irregular Text Recognition,Optical Character Recognition (OCR),1,2,,,,0
+Handwritten Chinese Text Recognition,Optical Character Recognition (OCR),1,2,,,,0
+Single-Image-Based Hdr Reconstruction,Reconstruction,1,2,,City Scene Dataset,,1
+Table Retrieval,Retrieval,1,2,,,,0
+PointGoal Navigation,Robot Navigation,1,2,,,,0
+Co-Salient Object Detection,Saliency Detection,1,2,,,,0
+Curved Text Detection,Scene Text Detection,1,2,,,,0
+Multi-Oriented Scene Text Detection,Scene Text Detection,1,2,,ICDAR2015,,1
+Aspect Sentiment Triplet Extraction,Sentiment Analysis,1,2,,,,0
+Detecting Image Manipulation,Spoof Detection,1,2,,,,0
+Text-to-Video Editing,Text-to-Video Generation,1,2,,,,0
+Transparent objects,Transparent Object Detection,1,2,,,,0
+3D visual grounding,Visual Grounding,1,2,,,,0
+Factual Visual Question Answering,Visual Question Answering (VQA),1,2,,,,0
+Lip to Speech Synthesis,Visual Speech Recognition,1,2,,LRW,,1
+Rgb-T Tracking,Visual Tracking,1,2,,,,0
+Neural Network Compression,2D Classification,1,1,,,,0
+Semi-Supervised Human Pose Estimation,2D Human Pose Estimation,1,1,,,,0
+Semi-Supervised Object Detection,2D Object Detection,1,1,,COCO 10% labeled data; COCO 100% labeled data; COCO 5% labeled data; COCO 1% labeled data; COCO 0.5% labeled data; COCO; COCO 2% labeled data,,0
+Novel Object Detection,2D Object Detection,1,1,,,,0
+Long-tailed Object Detection,2D Object Detection,1,1,,,,0
+Vessel Detection,2D Object Detection,1,1,,,,0
+Drivable Area Detection,2D Object Detection,1,1,,BDD100K val,,0
+MRI classification,3D Classification,1,1,,,,0
+3D Single Object Tracking,3D Object Tracking,1,1,,,,0
+Action Triplet Detection,Action Detection,1,1,,,,0
+Weakly-supervised Anomaly Detection,Anomaly Detection,1,1,,,,0
+Composite action recognition,Atomic action recognition,1,1,,,,0
+AUDIO-VISUAL QUESTION ANSWERING (MUSIC-AVQA-v2.0),Audio-visual Question Answering,1,1,,,,0
+Cancer-no cancer per image classification,Binary Classification,1,1,,,,0
+"Suspicous (BIRADS 4,5)-no suspicous (BIRADS 1,2,3) per image classification",Binary Classification,1,1,,,,0
+Brain Visual Reconstruction from fMRI,Brain Visual Reconstruction,1,1,,,,0
+Calving Front Delineation In Synthetic Aperture Radar Imagery With Fixed Training Amount,Calving Front Delineation In Synthetic Aperture Radar Imagery,1,1,,,,0
+Panorama Pose Estimation (N-view),Camera Pose Estimation,1,1,,,,0
+Skin Cancer Classification,Cancer,1,1,,,,0
+Classification Of Breast Cancer Histology Images,Cancer,1,1,,,,0
+Respiratory motion forecasting,Cancer,1,1,,,,0
+Colon Cancer Detection In Confocal Laser Microscopy Images,Cancer,1,1,,,,0
+Semi-supervised Change Detection,Change Detection,1,1,,,,0
+Few-Shot Camera-Adaptive Color Constancy,Color Constancy,1,1,,,,0
+Color Mismatch Correction,Colorization,1,1,,,,0
+Image-text matching,Cross-Modal Retrieval,1,1,,,,0
+Visual Crowd Analysis,Crowds,1,1,,,,0
+Image Augmentation,Data Augmentation,1,1,,Intel Image Classification,,0
+Uncertainty Visualization,Decision Making Under Uncertainty,1,1,,,,0
+Live Video Captioning,Dense Captioning,1,1,,,,0
+Multi-Label Classification Of Biomedical Texts,Document Text Classification,1,1,,MIMIC-III; MIMIC-III ,,0
+Political Salient Issue Orientation Detection,Document Text Classification,1,1,,,,0
+ENF (Electric Network Frequency) Extraction from Video,ENF (Electric Network Frequency) Extraction,1,1,,,,0
+Emotion-Cause Pair Extraction,Emotion Recognition,1,1,,,,0
+Emotion Cause Extraction,Emotion Recognition,1,1,,,,0
+Event-Based Video Reconstruction,Event-based vision,1,1,,,,0
+Zero-Shot Facial Expression Recognition,Facial Expression Recognition,1,1,,,,0
+Vehicle Color Recognition,Fine-Grained Vehicle Classification,1,1,,,,0
+Localization In Video Forgery,Forgery,1,1,,,,0
+Multiview Gait Recognition,Gait Recognition,1,1,,,,0
+Gait Recognition in the Wild,Gait Recognition,1,1,,,,0
+Bangla Spelling Error Correction,Handwriting Verification,1,1,,,,0
+3D Human Dynamics,Human Dynamics,1,1,,,,0
+One-Shot 3D Action Recognition,Human Interaction Recognition,1,1,,,,0
+Dense contact estimation,Human Interaction Recognition,1,1,,,,0
+Affordance Recognition,Human-Object Interaction Detection,1,1,,HICO-DET; HICO-DET(Unknown Concepts),,0
+Hand-Object Interaction Detection,Human-Object Interaction Detection,1,1,,,,0
+Aesthetic Image Captioning,Image Captioning,1,1,,,,0
+Multi-view Subspace Clustering,Image Clustering,1,1,,,,0
+Jpeg Compression Artifact Reduction,Image Compression,1,1,,,,0
+Rolling Shutter Correction,Image Editing,1,1,,BS-RSC,,0
+Local Color Enhancement,Image Enhancement,1,1,,,,0
+Matching Disparate Images,Image Matching,1,1,,,,0
+CT Reconstruction,Image Reconstruction,1,1,,,,0
+WiFi CSI-based Image Reconstruction,Image Reconstruction,1,1,,,,0
+Face Image Retrieval,Image Retrieval,1,1,,,,0
+Video-to-Shop,Image Retrieval,1,1,,,,0
+Chat-based Image Retrieval,Image Retrieval,1,1,,,,0
+Box-supervised Instance Segmentation,Instance Segmentation,1,1,,,,0
+Image-level Supervised Instance Segmentation,Instance Segmentation,1,1,,,,0
+Open-World Instance Segmentation,Instance Segmentation,1,1,,,,0
+Lung Nodule 3D Classification,Lung Nodule Classification,1,1,,LIDC-IDRI,,0
+Lung Nodule 3D Detection,Lung Nodule Detection,1,1,,,,0
+Alzheimer's Disease Detection,Medical Diagnosis,1,1,,,,0
+Blood Cell Count,Medical Diagnosis,1,1,,,,0
+Zero-shot Moment Retrieval,Moment Retrieval,1,1,,,,0
+Novel LiDAR View Synthesis,Novel View Synthesis,1,1,,,,0
+Few-shot Object Counting and Detection,Object Counting,1,1,,,,0
+Monocular 3D Object Localization,Object Localization,1,1,,,,0
+Landslide segmentation,Object Segmentation,1,1,,,,0
+Cell Tracking,Object Tracking,1,1,,,,0
+Pupil Tracking,Object Tracking,1,1,,,,0
+Amodal Tracking,Object Tracking,1,1,,,,0
+Offline Handwritten Chinese Character Recognition,Optical Character Recognition (OCR),1,1,,,,0
+Handwritten Digit Image Synthesis,Optical Character Recognition (OCR),1,1,,,,0
+Cross-modal place recognition,Point Clouds,1,1,,,,0
+Referring Image Matting (Expression-based),Referring Image Matting,1,1,,,,0
+Referring Image Matting (Keyword-based),Referring Image Matting,1,1,,,,0
+Referring Image Matting (RefMatte-RW100),Referring Image Matting,1,1,,,,0
+Referring Image Matting (Prompt-based),Referring Image Matting,1,1,,,,0
+3D Point Cloud Reinforcement Learning,Reinforcement Learning (RL),1,1,,,,0
+Learning Semantic Representations,Representation Learning,1,1,,,,0
+Self-supervised Scene Flow Estimation,Scene Flow Estimation,1,1,,,,0
+Open-Vocabulary Semantic Segmentation,Segmentation,1,1,,ADE20K-150,,1
+Grounded Situation Recognition,Situation Recognition,1,1,,SWiG,,0
+Cross-Domain Iris Presentation Attack Detection,Spoof Detection,1,1,,,,0
+Online surgical phase recognition,Surgical phase recognition,1,1,,,,0
+Offline surgical phase recognition,Surgical phase recognition,1,1,,,,0
+Language-Based Temporal Localization,Temporal Localization,1,1,,VidChapters-7M,,1
+Temporal Defect Localization,Temporal Localization,1,1,,,,0
+Story Visualization,Text-To-Image,1,1,,,,0
+Out-of-Sight Trajectory Prediction,Trajectory Prediction,1,1,,,,0
+Live Video Captioning,Video Captioning,1,1,,,,0
+Visual Text Correction,Video Captioning,1,1,,,,0
+Audio-Visual Video Captioning,Video Captioning,1,1,,,,0
+Video Boundary Captioning,Video Captioning,1,1,,,,0
+Video Temporal Consistency,Video Editing,1,1,,,,0
+eXtreme-Video-Frame-Interpolation,Video Frame Interpolation,1,1,,,,0
+Few-shot Video Question Answering,Video Question Answering,1,1,,,,0
+Analog Video Restoration,Video Restoration,1,1,,,,0
+Open-World Video Segmentation,Video Segmentation,1,1,,,,0
+Vision-Language-Action,Vision-Language Navigation,1,1,,,,0
+Person-centric Visual Grounding,Visual Grounding,1,1,,,,0
+Generative Visual Question Answering,Visual Question Answering (VQA),1,1,,PMC-VQA,,0
+Real-Time Visual Tracking,Visual Tracking,1,1,,,,0
+Open Vocabulary Image Classification,Zero-Shot Image Classification,1,1,,,,0
+GZSL Video Classification,Zero-Shot Learning,1,1,,,,0
+Style Transfer,"1 Image, 2*2 Stitchi",1,0,,,,6
+Music Generation,"1 Image, 2*2 Stitchi",1,0,,,,0
+Voice Conversion,"1 Image, 2*2 Stitchi",1,0,,,,0
+Virtual Try-on,"1 Image, 2*2 Stitchi",1,0,,,,0
+Decoder,10-shot image generation,1,0,,,,0
+Object,10-shot image generation,1,0,,,,0
+Text to Speech,10-shot image generation,1,0,,,,0
+Shadow Removal,16k,1,0,,,,1
+Articles,2D Classification,1,0,,,,0
+Style Transfer,2D Classification,1,0,,,,6
+Backdoor Attack,2D Classification,1,0,,,,0
+Voice Conversion,2D Classification,1,0,,,,0
+Music Source Separation,2D Classification,1,0,,,,0
+Articles,2D Human Pose Estimation,1,0,,,,0
+Style Transfer,2D Human Pose Estimation,1,0,,,,6
+Community Question Answering,2D Human Pose Estimation,1,0,,,,0
+Category-Agnostic Pose Estimation,2D Pose Estimation,1,0,,,,0
+Overlapping Pose Estimation,2D Pose Estimation,1,0,,,,0
+Text Style Transfer,2D Semantic Segmentation,1,0,,,,0
+Building Damage Assessment,2D Semantic Segmentation,1,0,,,,0
+Overlapped 15-1,2D Semantic Segmentation,1,0,,,,0
+Disjoint 15-1,2D Semantic Segmentation,1,0,,,,0
+Insulator Defect Detection,2D Tiny Object Detection,1,0,,,,0
+Continuous Control,3D Face Modelling,1,0,,,,3
+Facial Recognition and Modelling,3D Face Modelling,1,0,,,,10
+Visibility Estimation from Point Cloud,3D Surface Generation,1,0,,,,0
+Multiple Action Detection,Action Detection,1,0,,,,0
+Unusual Activity Localization,Action Localization,1,0,,,,0
+Cross-Domain Activity Recognition,Activity Recognition,1,0,,,,0
+Stay Region Extraction,Activity Recognition,1,0,,,,0
+Concurrent Activity Recognition,Activity Recognition,1,0,,,,0
+Backdoor Attack,Adversarial Attack,1,0,,,,0
+Adversarial Text,Adversarial Attack,1,0,,,,0
+Adversarial Attack Detection,Adversarial Attack,1,0,,,,0
+Real-World Adversarial Attack,Adversarial Attack,1,0,,,,0
+cow identification,Animal Action Recognition,1,0,,,,0
+Image Animation,Animation,1,0,,,,0
+3D Character Animation From A Single Photo,Animation,1,0,,,,1
+One-Class Classification,Anomaly Detection,1,0,,,,0
+Anomaly Classification,Anomaly Detection,1,0,,,,1
+Self-Driving Cars,Autonomous Vehicles,1,0,,,,0
+Traffic Signal Control,Autonomous Vehicles,1,0,,,,0
+Cancer-no cancer per breast classification,Binary Classification,1,0,,,,0
+Stable MCI vs Progressive MCI,Binary Classification,1,0,,,,0
+Cancer-no cancer per view classification,Binary Classification,1,0,,,,0
+Junction Detection,Boundary Detection,1,0,,,,0
+Lung Cancer Diagnosis,Cancer,1,0,,,,0
+Prediction Of Cancer Cell Line Sensitivity,Cancer,1,0,,,,0
+Oral Cancer Classification,Cancer,1,0,,,,0
+Discovery Of Integrative Cancer Subtypes,Cancer,1,0,,,,0
+Text Classification,Classification,1,0,,,,0
+Graph Classification,Classification,1,0,,,,0
+Multi-class Classification,Classification,1,0,,,,1
+Audio Classification,Classification,1,0,,,,0
+Plant Phenotyping,Classification,1,0,,,,0
+Classifier calibration,Classification,1,0,,,,0
+Morphology classification,Classification,1,0,,,,0
+Multi-modal Classification,Classification,1,0,,,,0
+IoT Device Identification,Classification,1,0,,,,0
+Line Art Colorization,Colorization,1,0,,,,0
+Single Particle Analysis,Computer Vision Techniques Adopted in 3D Cryogenic Electron Microscopy,1,0,,,,1
+Cryogenic Electron Tomography,Computer Vision Techniques Adopted in 3D Cryogenic Electron Microscopy,1,0,,,,0
+Class Incremental Learning,Continual Learning,1,0,,,,3
+Continual Named Entity Recognition,Continual Learning,1,0,,,,0
+unsupervised class-incremental learning,Continual Learning,1,0,,,,0
+Continual Panoptic Segmentation,Continual Learning,1,0,,,,0
+TiROD,Continual Learning,1,0,,,,0
+multilingual cross-modal retrieval,Cross-Modal Retrieval,1,0,,,,0
+Cross-Modal Retrieval on RSITMD,Cross-Modal Retrieval,1,0,,,,0
+Group Detection In Crowds,Crowds,1,0,,,,0
+Text Augmentation,Data Augmentation,1,0,,,,0
+Privacy Preserving Deep Learning,De-identification,1,0,,,,2
+Full-body anonymization,De-identification,1,0,,,,0
+Deception Detection In Videos,Deception Detection,1,0,,,,0
+Polynomial Neural Networks,Deep Learning,1,0,,,,0
+Sar Image Despeckling,Denoising,1,0,,,,0
+Salt-And-Pepper Noise Removal,Denoising,1,0,,,,0
+3D Mesh Denoising,Denoising,1,0,,,,1
+Diffusion Personalization Tuning Free,Diffusion Personalization,1,0,,,,0
+Efficient Diffusion Personalization,Diffusion Personalization,1,0,,,,0
+Supervised dimensionality reduction,Dimensionality Reduction,1,0,,,,0
+Online nonnegative CP decomposition,Dimensionality Reduction,1,0,,,,0
+Disease Trajectory Forecasting,Disease Prediction,1,0,,,,0
+document understanding,Document AI,1,0,,,,1
+MS-SSIM,Document Layout Analysis,1,0,,,,0
+Learning with noisy labels,Document Text Classification,1,0,,,,0
+Unsupervised Domain Adaptation,Domain Adaptation,1,0,,,,0
+Domain Generalization,Domain Adaptation,1,0,,,,3
+Test-time Adaptation,Domain Adaptation,1,0,,,,0
+Source-Free Domain Adaptation,Domain Adaptation,1,0,,,,2
+Universal Domain Adaptation,Domain Adaptation,1,0,,,,0
+Partial Domain Adaptation,Domain Adaptation,1,0,,,,0
+Online Domain Adaptation,Domain Adaptation,1,0,,,,0
+Continuously Indexed Domain Adaptation,Domain Adaptation,1,0,,,,0
+Prompt-driven Zero-shot Domain Adaptation,Domain Adaptation,1,0,,,,0
+Blended-target Domain Adaptation,Domain Adaptation,1,0,,,,0
+A-VB High,Emotion Recognition,1,0,,,,0
+Slice Discovery,Explainable Artificial Intelligence (XAI),1,0,,,,0
+Explainable Models,Explainable artificial intelligence,1,0,,,,0
+Explanation Fidelity Evaluation,Explainable artificial intelligence,1,0,,,,0
+FAD Curve Analysis,Explainable artificial intelligence,1,0,,,,0
+Cross-Domain Facial Expression Recognition,Facial Expression Recognition,1,0,,,,0
+Speech to Facial Landmark,Facial Landmark Detection,1,0,,,,0
+Exposure Fairness,Fairness,1,0,,,,0
+Semi-Supervised Fashion Compatibility,Fashion Understanding,1,0,,,,0
+RF-based Gesture Recognition,Gesture Recognition,1,0,,,,0
+Multi-Exposure Image Fusion,HDR Reconstruction,1,0,,,,0
+Gesture-to-Gesture Translation,Hand,1,0,,,,0
+Hand Keypoint Localization,Hand,1,0,,,,0
+Mutual Gaze,Human Interaction Recognition,1,0,,,,0
+Multi-Human Parsing,Human Parsing,1,0,,,,0
+controllable image captioning,Image Captioning,1,0,,,,0
+Relational Captioning,Image Captioning,1,0,,,,0
+Vietnamese Image Captioning,Image Captioning,1,0,,,,0
+Patent Figure Description Generation,Image Captioning,1,0,,,,0
+Hindi Image Captioning,Image Captioning,1,0,,,,0
+Learning with noisy labels,Image Classification,1,0,,,,0
+Genre classification,Image Classification,1,0,,,,0
+Online Clustering,Image Clustering,1,0,,,,0
+Multi-modal Subspace Clustering,Image Clustering,1,0,,,,0
+Sketch Colorization,Image Colorization,1,0,,,,0
+Feature Compression,Image Compression,1,0,,,,0
+Lossy-Compression Artifact Reduction,Image Compression,1,0,,,,0
+Color Image Compression Artifact Reduction,Image Compression,1,0,,,,0
+Shadow Removal,Image Editing,1,0,,,,1
+Multimodel-guided image editing,Image Editing,1,0,,,,0
+Multimodal fashion image editing,Image Editing,1,0,,,,0
+Joint Deblur and Frame Interpolation,Image Editing,1,0,,,,0
+UIE,Image Enhancement,1,0,,,,0
+De-aliasing,Image Enhancement,1,0,,,,0
+Color Manipulation,Image Enhancement,1,0,,,,0
+wavelet structure similarity loss,Image Enhancement,1,0,,,,0
+Film Simulation,Image Enhancement,1,0,,,,0
+Vignetting Removal,Image Enhancement,1,0,,,,0
+Pansharpening,Image Fusion,1,0,,,,0
+Multi Focus Image Fusion,Image Fusion,1,0,,,,0
+set matching,Image Matching,1,0,,,,0
+Semantic Image Matting,Image Matting,1,0,,,,0
+Full reference image quality assessment,Image Quality Assessment,1,0,,KADID10K; DRIQ; TID2008; ESPL,,0
+Full-Reference Image Quality Assessment,Image Quality Assessment,1,0,,,,0
+Stereoscopic image quality assessment,Image Quality Assessment,1,0,,,,0
+Image Quality Estimation,Image Quality Assessment,1,0,,,,0
+Document Image Quality Assessment,Image Quality Assessment,1,0,,,,0
+Film Removal,Image Reconstruction,1,0,,,,0
+distortion correction,Image Registration,1,0,,,,0
+Unsupervised Image Registration,Image Registration,1,0,,,,0
+Multi-Label Image Retrieval,Image Retrieval,1,0,,,,0
+Image Instance Retrieval,Image Retrieval,1,0,,,,1
+Semi-Supervised Sketch Based Image Retrieval,Image Retrieval,1,0,,,,0
+Self-Organized Clustering,Image/Document Clustering,1,0,,,,0
+Multivariate Time Series Imputation,Imputation,1,0,,,,0
+Audio Fingerprint,Instance Search,1,0,,,,0
+Shadow Detection And Removal,Instance Shadow Detection,1,0,,,,0
+Homography Estimation,Interest Point Detection,1,0,,,,0
+Pupil Dilation,Iris Recognition,1,0,,,,0
+Small-Footprint Keyword Spotting,Keyword Spotting,1,0,,,,0
+Data-free Knowledge Distillation,Knowledge Distillation,1,0,,,,0
+Self-Knowledge Distillation,Knowledge Distillation,1,0,,,,0
+Short Question Answers,LMM real-life tasks,1,0,,,,0
+Long Question Answer,LMM real-life tasks,1,0,,,,0
+Brain landmark detection,Landmark Recognition,1,0,,,,0
+Incomplete multi-view clustering,MULTI-VIEW LEARNING,1,0,,,,0
+Continual Forgetting,Machine Unlearning,1,0,,,,0
+Thoracic Disease Classification,Medical Diagnosis,1,0,,,,0
+CBC TEST,Medical Diagnosis,1,0,,,,0
+Hateful Meme Classification,Meme Classification,1,0,,,,0
+Few-Shot Learning,Meta-Learning,1,0,,,,10
+Sample Probing,Meta-Learning,1,0,,,,0
+universal meta-learning,Meta-Learning,1,0,,,,0
+Micro-expression Generation (MEGC2021),Micro-expression Generation,1,0,,,,0
+Online Mistake Detection,Mistake Detection,1,0,,,,0
+motion in-betweening,Motion Synthesis,1,0,,,,0
+Motion Style Transfer,Motion Synthesis,1,0,,,,0
+Temporal Human Motion Composition,Motion Synthesis,1,0,,,,0
+Missing Labels,Multi-Label Classification,1,0,,,,0
+Extreme Multi-Label Classification,Multi-Label Classification,1,0,,,,0
+Hierarchical Multi-label Classification,Multi-Label Classification,1,0,,,,0
+Face to Face Translation,Multimodal Machine Translation,1,0,,,,0
+Multimodal Lexical Translation,Multimodal Machine Translation,1,0,,,,0
+MME,Multimodal Reasoning,1,0,,,,0
+Lipreading,Natural Language Transduction,1,0,,,,1
+Gournd video synthesis from satellite image,Novel View Synthesis,1,0,,,,0
+Exemplar-Free Counting,Object Counting,1,0,,,,0
+Open-vocabulary object counting,Object Counting,1,0,,,,0
+Active Object Localization,Object Localization,1,0,,,,0
+Continuous Object Recognition,Object Recognition,1,0,,,,0
+Depiction Invariant Object Recognition,Object Recognition,1,0,,,,0
+Active Observation Completion,Observation Completion,1,0,,,,0
+Patient-Specific Segmentation,One-Shot Segmentation,1,0,,,,0
+Zero-Guidance Segmentation,Open Vocabulary Semantic Segmentation,1,0,,,,0
+Word Spotting In Handwritten Documents,Optical Character Recognition (OCR),1,0,,,,0
+Grapheme Detection,Optical Character Recognition (OCR),1,0,,,,0
+Video Stabilization,Optical Flow Estimation,1,0,,,,0
+Unsupervised Part Discovery,Part-based Representation Learning,1,0,,,,0
+Art Period Estimation (544 Artists),Period Estimation,1,0,,,,0
+Unsupervised Person Re-Identification,Person Re-Identification,1,0,,,,0
+Generalizable Person Re-identification,Person Re-Identification,1,0,,,,0
+Occluded Person Re-Identification,Person Re-Identification,1,0,,,,0
+Cloth-Changing Person Re-Identification,Person Re-Identification,1,0,,,,0
+Clothes Changing Person Re-Identification,Person Re-Identification,1,0,,,,0
+Large-Scale Person Re-Identification,Person Re-Identification,1,0,,,,0
+Cross-Modal  Person Re-Identification,Person Re-Identification,1,0,,,,0
+Self-Supervised Person Re-Identification,Person Re-Identification,1,0,,,,0
+Image-To-Video Person Re-Identification,Person Re-Identification,1,0,,,,0
+Soil moisture estimation,Physics-informed machine learning,1,0,,,,0
+Jet Tagging,Point Cloud Classification,1,0,,,,0
+Few-Shot Point Cloud Classification,Point Cloud Classification,1,0,,,,0
+Point Cloud Completion,Point Cloud Generation,1,0,,,,1
+point cloud video understanding,Point Clouds,1,0,,,,0
+Point Cloud Rrepresentation Learning,Point Clouds,1,0,,,,0
+Visual Prompting,Prompt Engineering,1,0,,,,0
+Pulmonary Artery–Vein Classification,Pulmorary Vessel Segmentation,1,0,,,,0
+Data Free Quantization,Quantization,1,0,,,,0
+UNET Quantization,Quantization,1,0,,,,0
+4D reconstruction,Reconstruction,1,0,,,,0
+Off-policy evaluation,Reinforcement Learning (RL),1,0,,,,0
+Multi-Objective Reinforcement Learning,Reinforcement Learning (RL),1,0,,,,0
+RoomEnv-v1,Reinforcement Learning (RL),1,0,,,,0
+RoomEnv-v0,Reinforcement Learning (RL),1,0,,,,0
+RoomEnv-v2,Reinforcement Learning (RL),1,0,,,,0
+Lake Detection,Remote Sensing,1,0,,,,0
+Denoising Of Radar Micro-Doppler Signatures,Remote Sensing,1,0,,,,0
+Disentanglement,Representation Learning,1,0,,,,0
+Graph Representation Learning,Representation Learning,1,0,,,,0
+Sentence Embeddings,Representation Learning,1,0,,,,0
+Network Embedding,Representation Learning,1,0,,,,0
+Knowledge Graph Embeddings,Representation Learning,1,0,,,,0
+Document Embedding,Representation Learning,1,0,,,,0
+Learning Word Embeddings,Representation Learning,1,0,,,,0
+Feature Upsampling,Representation Learning,1,0,,,,0
+Multilingual Word Embeddings,Representation Learning,1,0,,,,0
+Deep Hashing,Retrieval,1,0,,,,0
+Sequential Place Learning,Robot Navigation,1,0,,,,0
+ObjectGoal Navigation,Robot Navigation,1,0,,,,0
+VNLA,Robot Navigation,1,0,,,,0
+Multi-view Floor Layout Reconstruction (N-view),Room Layout Estimation,1,0,,,,0
+Saliency Ranking,Salient Object Detection,1,0,,,,0
+RGB-T Salient Object Detection,Salient Object Detection,1,0,,,,0
+Point Cloud Pre-training,Self-Supervised Learning,1,0,,,,0
+Unsupervised Video Clustering,Self-Supervised Learning,1,0,,,,0
+Multimodal Sentiment Analysis,Sentiment Analysis,1,0,,,,0
+Twitter Sentiment Analysis,Sentiment Analysis,1,0,,,,0
+Arabic Sentiment Analysis,Sentiment Analysis,1,0,,,,0
+Persian Sentiment Analysis,Sentiment Analysis,1,0,,,,0
+target-oriented opinion words extraction,Sentiment Analysis,1,0,,,,0
+Fine-Grained Opinion Analysis,Sentiment Analysis,1,0,,,,0
+Vietnamese Aspect-Based Sentiment Analysis,Sentiment Analysis,1,0,,,,0
+Shadow Detection And Removal,Shadow Detection,1,0,,,,0
+Photo-To-Caricature Translation,Sketch,1,0,,,,0
+Drawing Pictures,Sketch,1,0,,,,1
+Spectral Estimation From A Single Rgb Image,Spectral Estimation,1,0,,,,0
+Finger Dorsal Image Spoof Detection,Spoof Detection,1,0,,,,0
+VGSI,Text-To-Image,1,0,,,,0
+Complex Scene Breaking and Synthesis,Text-To-Image,1,0,,,,0
+Subject-driven Video Generation,Text-to-Video Generation,1,0,,,,2
+Accident Anticipation,Traffic Accident Detection,1,0,,,,0
+Unsupervised Zero-Shot Instance Segmentation,Unsupervised Instance Segmentation,1,0,,,,0
+Body Mass Index (BMI) Prediction,Value prediction,1,0,,,,0
+Boundary Captioning,Video Captioning,1,0,,,,0
+Unsupervised Video Frame Interpolation,Video Frame Interpolation,1,0,,,,0
+3D Video Frame Interpolation,Video Frame Interpolation,1,0,,,,0
+Open-Vocabulary Video Segmentation,Video Segmentation,1,0,,,,0
+Phrase Extraction and Grounding (PEG),Visual Grounding,1,0,,,,0
+ObjectGoal Navigation,Visual Navigation,1,0,,,,0
+Machine Reading Comprehension,Visual Question Answering (VQA),1,0,,,,0
+Chart Understanding,Visual Question Answering (VQA),1,0,,,,0
+Chart Question Answering,Visual Question Answering (VQA),1,0,,,,0
+Embodied Question Answering,Visual Question Answering (VQA),1,0,,,,0
+Multimodal Colonoscopy,Visual Question Answering (VQA),1,0,,,,0
+RF-based Visual Tracking,Visual Tracking,1,0,,,,0
+Generalized Zero-Shot Learning,Zero-Shot Learning,1,0,,,,0
+Compositional Zero-Shot Learning,Zero-Shot Learning,1,0,,,,0
+Multi-label zero-shot learning,Zero-Shot Learning,1,0,,,,0
+Zero-shot gesture recognition,Zero-Shot Learning,1,0,,,,0
+quantile regression,regression,1,0,,,,0
+Travel Time Estimation,regression,1,0,,,,0
+Intubation Support Prediction,severity prediction,1,0,,,,0
+3D Object Detection,Object Detection,2,67,,KITTI Cars Hard val; Light Snowfall; View-of-Delft (val); Dense Fog; nuScenes LiDAR only; KITTI Pedestrian; nuScenes; V2XSet; SUN-RGBD val; nuScenes Camera Only,,5
+3D Object Detection,Object Detection,2,67,,KITTI Cars Hard val; Light Snowfall; View-of-Delft (val); Dense Fog; nuScenes LiDAR only; KITTI Pedestrian; nuScenes; V2XSet; SUN-RGBD val; nuScenes Camera Only,,5
+3D Object Detection,Object Detection,2,67,,KITTI Cars Hard val; Light Snowfall; View-of-Delft (val); Dense Fog; nuScenes LiDAR only; KITTI Pedestrian; nuScenes; V2XSet; SUN-RGBD val; nuScenes Camera Only,,5
+3D Object Detection,Object Detection,2,67,,KITTI Cars Hard val; Light Snowfall; View-of-Delft (val); Dense Fog; nuScenes LiDAR only; KITTI Pedestrian; nuScenes; V2XSet; SUN-RGBD val; nuScenes Camera Only,,5
+Face Recognition,Facial Recognition and Modelling,2,67,,CASIA-WebFace+masks; MLFW; BTS3.1; Color FERET (Online Open Set); XQLFW; MFR; MFW+ (M-M); AgeDB-30; mebeblurf; CelebA+masks,,6
+3D Human Pose Estimation,Pose Estimation,2,50,,SkiPose; HSPACE; Geometric Pose Affordance ; 3D Poses in the Wild Challenge; H3WB; 3DPW; AIST++; Panoptic; 3DOH50K; ITOP front-view,,9
+3D Human Pose Estimation,Pose Estimation,2,50,,SkiPose; HSPACE; Geometric Pose Affordance ; 3D Poses in the Wild Challenge; H3WB; 3DPW; AIST++; Panoptic; 3DOH50K; ITOP front-view,,9
+Scene Understanding,Scene Parsing,2,43,,ADE20K val; Semantic Scene Understanding Challenge (passive actuation & ground-truth localisation); Semantic Scene Understanding Challenge (active actuation & ground-truth localisation),,6
+3D Semantic Segmentation,Semantic Segmentation,2,41,,ScanNet200; WildScenes; RELLIS-3D Dataset; nuScenes; DALES; 3D Platelet EM; STPLS3D; Hypersim; ScanNet++; SensatUrban,,5
+Face Detection,Facial Recognition and Modelling,2,39,,ADE20K; WIDER Face (Hard); WIDER Face (Medium); PASCAL Face; Manga109; DCM; COCO-WholeBody; Annotated Faces in the Wild; FDDB; WIDER FACE,,1
+Panoptic Segmentation,Semantic Segmentation,2,37,,ADE20K; Indian Driving Dataset; COCO panoptic; COCO test-dev; LaRS; MUSES: MUlti-SEnsor Semantic perception dataset; ScanNetV2; DALES; KITTI Panoptic Segmentation; NYU Depth v2,,2
+3D Pose Estimation,Pose Estimation,2,36,,CarFusion; Human3.6M; HARPER; Google-AR; ApolloCar3D; Google-Yoga; K2HPD,,0
+3D Pose Estimation,Pose Estimation,2,36,,CarFusion; Human3.6M; HARPER; Google-AR; ApolloCar3D; Google-Yoga; K2HPD,,0
+Monocular Depth Estimation,Depth Estimation,2,33,,,,0
+Scene Text Recognition,Scene Parsing,2,29,,ICDAR 2003; SVTP; IC19-Art; ICDAR2013; Uber-Text; CUTE80; SVT; MSDA; IC13; ICDAR2015,,1
+Facial Expression Recognition (FER),Facial Recognition and Modelling,2,29,,MMI; FERG; BP4D; SAVEE; Cohn-Kanade; AffectNet; Oulu-CASIA; RAF-DB; CAER; Real-World Affective Faces,,5
+Face Verification,Facial Recognition and Modelling,2,24,,BTS3.1; CASIA NIR-VIS 2.0; CPLFW; Oulu-CASIA NIR-VIS; AgeDB-30; QMUL-SurvFace; Oulu-CASIA; CFP-FP; BUAA-VisNir; Labeled Faces in the Wild,,1
+6D Pose Estimation,Pose Estimation,2,23,,OPT; LineMOD; 3D-BSLS-6D; DTTD-Mobile; ApolloCar3D; YCB-Video,,2
+Hand Pose Estimation,Pose Estimation,2,23,,NYU Hands; MSRA Hands; ICVL; HANDS 2017; ICVL Hands; Custom FINNgers; COCO-WholeBody; 3DPW; K2HPD; HANDS 2019,,1
+6D Pose Estimation,Pose Estimation,2,23,,OPT; LineMOD; 3D-BSLS-6D; DTTD-Mobile; ApolloCar3D; YCB-Video,,2
+Hand Pose Estimation,Pose Estimation,2,23,,NYU Hands; MSRA Hands; ICVL; HANDS 2017; ICVL Hands; Custom FINNgers; COCO-WholeBody; 3DPW; K2HPD; HANDS 2019,,1
+3D Hand Pose Estimation,Hand Pose Estimation,2,20,,HO-3D v2; FreiHAND; HO-3D v3; HInt: Hand Interactions in the wild; InterHand2.6M; DexYCB; H3WB,,3
+Animal Pose Estimation,Pose Estimation,2,19,,AP-10K; Animal-Pose Dataset; Fish-100; Animal3D; StanfordExtra; TriMouse-161; Horse-10; Marmoset-8K,,0
+Animal Pose Estimation,Pose Estimation,2,19,,AP-10K; Animal-Pose Dataset; Fish-100; Animal3D; StanfordExtra; TriMouse-161; Horse-10; Marmoset-8K,,0
+RGB Salient Object Detection,Object Detection,2,17,,SOD; UCF; HKU-IS; DAVIS-S; HRSOD; UHRSD; PASCAL-S; ECSSD; DUT-OMRON; ISTD,,3
+RGB Salient Object Detection,Object Detection,2,17,,SOD; UCF; HKU-IS; DAVIS-S; HRSOD; UHRSD; PASCAL-S; ECSSD; DUT-OMRON; ISTD,,3
+RGB Salient Object Detection,Object Detection,2,17,,SOD; UCF; HKU-IS; DAVIS-S; HRSOD; UHRSD; PASCAL-S; ECSSD; DUT-OMRON; ISTD,,3
+RGB Salient Object Detection,Object Detection,2,17,,SOD; UCF; HKU-IS; DAVIS-S; HRSOD; UHRSD; PASCAL-S; ECSSD; DUT-OMRON; ISTD,,3
+Face Alignment,Facial Recognition and Modelling,2,17,,,,0
+Face Anti-Spoofing,Facial Recognition and Modelling,2,17,,,,0
+Action Recognition In Videos,Action Recognition,2,17,,miniSports; Something-Something V1; NTU RGB+D; Something-Something V2; ActivityNet; PKU-MMD; AVA v2.1; FS-Something-Something V2-Full; Sports-1M; AVA v2.2,,1
+Video Anomaly Detection,3D Anomaly Detection,2,17,,HR-ShanghaiTech; CUHK Avenue; UCSD Ped2; HR-UBnormal; CHUK Avenue; XD-Violence; ShanghaiTech; Street Scene; UBnormal; IITB Corridor,,1
+Video Super-Resolution,3D Face Animation,2,16,,Vimeo-90K; Xiph HD - 4x upscaling; Vid4 - 4x upscaling - BD degradation; SPMCS - 4x upscaling; TbD-3D; UDM10 - 4x upscaling; TbD; MSU Video Upscalers: Quality Enhancement; MSU Super-Resolution for Video Compression; MSU Video Super Resolution Benchmark: Detail Restoration,,1
+Scene Recognition,Scene Parsing,2,16,,,,0
+3D Action Recognition,Temporal Action Localization,2,16,,Assembly101; 100 sleep nights of 8 caregivers; NTU RGB+D,,6
+3D Action Recognition,Action Recognition,2,16,,Assembly101; 100 sleep nights of 8 caregivers; NTU RGB+D,,6
+Scene Recognition,3D Character Animation From A Single Photo,2,16,,,,0
+3D Action Recognition,Temporal Action Localization,2,16,,Assembly101; 100 sleep nights of 8 caregivers; NTU RGB+D,,6
+3D Action Recognition,Temporal Action Localization,2,16,,Assembly101; 100 sleep nights of 8 caregivers; NTU RGB+D,,6
+Tumor Segmentation,Semantic Segmentation,2,15,,,,0
+Weakly Supervised Object Detection,Object Detection,2,14,,,,0
+Weakly Supervised Object Detection,Object Detection,2,14,,,,0
+Weakly Supervised Object Detection,Object Detection,2,14,,,,0
+Weakly Supervised Object Detection,Object Detection,2,14,,,,0
+Keypoint Detection,Pose Estimation,2,13,,,,0
+Semi-Supervised Semantic Segmentation,Semantic Segmentation,2,13,,,,0
+Video Object Detection,Object Detection,2,13,,,,0
+Small Object Detection,Object Detection,2,13,,Bee4Exp Honeybee Detection; SOD4SB Public Test; SOD4SB Private Test; SODA-D,,1
+Video Object Detection,Object Detection,2,13,,,,0
+Small Object Detection,Object Detection,2,13,,Bee4Exp Honeybee Detection; SOD4SB Public Test; SOD4SB Private Test; SODA-D,,1
+Video Object Detection,Object Detection,2,13,,,,0
+Small Object Detection,Object Detection,2,13,,Bee4Exp Honeybee Detection; SOD4SB Public Test; SOD4SB Private Test; SODA-D,,1
+Video Object Detection,Object Detection,2,13,,,,0
+Small Object Detection,Object Detection,2,13,,Bee4Exp Honeybee Detection; SOD4SB Public Test; SOD4SB Private Test; SODA-D,,1
+Keypoint Detection,Pose Estimation,2,13,,,,0
+Semi-Supervised Video Object Segmentation,Video Object Segmentation,2,13,,DAVIS 2017 (val); Long Video Dataset; YouTube-VOS 2019; MOSE; BURST-test; DAVIS 2017 (test-dev); Long Video Dataset (3X); DAVIS-2016; DAVIS-2017; BURST-val,,1
+Real-Time Semantic Segmentation,Semantic Segmentation,2,12,,,,0
+Object Detection In Aerial Images,Object Detection,2,12,,,,0
+Object Detection In Aerial Images,Object Detection,2,12,,,,0
+Object Detection In Aerial Images,Object Detection,2,12,,,,0
+Object Detection In Aerial Images,Object Detection,2,12,,,,0
+Motion Forecasting,Autonomous Driving,2,12,,Argoverse CVPR 2020,,2
+Video Quality Assessment,Video Understanding,2,12,,LIVE Livestream; YouTube-UGC; MSU FR VQA Database; LIVE-FB LSVQ; MSU NR VQA Database; LIVE-VQC; MSU SR-QA Dataset; KoNViD-1k; LIVE-ETRI; LIVE-YT-HFR,,0
+Head Pose Estimation,Pose Estimation,2,11,,,,0
+Scene Graph Generation,Scene Parsing,2,11,,VRD; MM-OR; 3R-Scan; MS-COCO; 4D-OR; Visual Genome; GQA,,2
+Head Pose Estimation,Pose Estimation,2,11,,,,0
+Zero-Shot Composed Image Retrieval (ZS-CIR),Composed Image Retrieval (CoIR),2,11,,,,0
+Scene Segmentation,Semantic Segmentation,2,10,,SUN-RGBD; UAVid; MovieNet; ScanNet; StreetHazards; NYU Depth v2,,1
+3D Depth Estimation,Depth Estimation,2,10,,Relative Human,,1
+Face Swapping,Facial Recognition and Modelling,2,10,,,,0
+Semantic SLAM,Simultaneous Localization and Mapping,2,10,,,,0
+Video Grounding,Video Retrieval,2,10,,QVHighlights; MAD,,2
+Unsupervised Semantic Segmentation,Semantic Segmentation,2,9,,COCO-Stuff-15; Cityscapes test; ImageNet-S-300; Nighttime Driving; COCO-All; Dark Zurich; COCO-Persons; COCO-Stuff-27; ACDC (Adverse Conditions Dataset with Correspondences); COCO-Stuff-3,,1
+Blind Super-Resolution,Image Restoration,2,9,,,,0
+Real-Time Object Detection,Object Detection,2,9,,,,0
+Real-Time Object Detection,Object Detection,2,9,,,,0
+Real-Time Object Detection,Object Detection,2,9,,,,0
+Real-Time Object Detection,Object Detection,2,9,,,,0
+Weakly-Supervised Semantic Segmentation,Semantic Segmentation,2,8,,,,0
+Few-Shot Object Detection,Object Detection,2,8,,ODinW-13; ODinW-35; COCO 2017; CAMO-FS; MS-COCO (5-shot); MS-COCO (10-shot); LVIS v1.0 val; LVIS v1.0 test-dev; MS-COCO (30-shot); MS-COCO (1-shot),,1
+Few-Shot Object Detection,Object Detection,2,8,,ODinW-13; ODinW-35; COCO 2017; CAMO-FS; MS-COCO (5-shot); MS-COCO (10-shot); LVIS v1.0 val; LVIS v1.0 test-dev; MS-COCO (30-shot); MS-COCO (1-shot),,1
+Few-Shot Object Detection,Object Detection,2,8,,ODinW-13; ODinW-35; COCO 2017; CAMO-FS; MS-COCO (5-shot); MS-COCO (10-shot); LVIS v1.0 val; LVIS v1.0 test-dev; MS-COCO (30-shot); MS-COCO (1-shot),,1
+Few-Shot Object Detection,Object Detection,2,8,,ODinW-13; ODinW-35; COCO 2017; CAMO-FS; MS-COCO (5-shot); MS-COCO (10-shot); LVIS v1.0 val; LVIS v1.0 test-dev; MS-COCO (30-shot); MS-COCO (1-shot),,1
+Breast Cancer Detection,Breast Cancer Histology Image Classification,2,8,,,,0
+Anomaly Detection In Surveillance Videos,Video Understanding,2,8,,,,0
+Unsupervised Video Object Segmentation,Video Object Segmentation,2,8,,,,0
+6D Pose Estimation using RGB,Pose Estimation,2,7,,,,0
+Multi-Person Pose Estimation,Pose Estimation,2,7,,MPII Multi-Person; COCO minival; PoseTrack2017; PoseTrack21; OCHuman; PoseTrack2018; COCO-WholeBody; COCO test-dev; Multi-Person PoseTrack; COCO,,1
+Human Pose Forecasting,Pose Estimation,2,7,,,,0
+Text-based Image Editing,Text-to-Image Generation,2,7,,,,0
+Text-based Image Editing,Text-to-Image Generation,2,7,,,,0
+Open Vocabulary Object Detection,Object Detection,2,7,,Objects365; LVIS v1.0; MSCOCO; OpenImages-v4,,1
+Open Vocabulary Object Detection,Object Detection,2,7,,Objects365; LVIS v1.0; MSCOCO; OpenImages-v4,,1
+Open Vocabulary Object Detection,Object Detection,2,7,,Objects365; LVIS v1.0; MSCOCO; OpenImages-v4,,1
+Open Vocabulary Object Detection,Object Detection,2,7,,Objects365; LVIS v1.0; MSCOCO; OpenImages-v4,,1
+6D Pose Estimation using RGB,Pose Estimation,2,7,,,,0
+Multi-Person Pose Estimation,Pose Estimation,2,7,,MPII Multi-Person; COCO minival; PoseTrack2017; PoseTrack21; OCHuman; PoseTrack2018; COCO-WholeBody; COCO test-dev; Multi-Person PoseTrack; COCO,,1
+Human Pose Forecasting,Pose Estimation,2,7,,,,0
+Text-based Image Editing,Text-to-Image Generation,2,7,,,,0
+Image to Video Generation,Video Generation,2,7,,,,1
+3D Part Segmentation,Semantic Segmentation,2,6,,,,0
+Unified Image Restoration,Image Restoration,2,6,,RESIDE; LOL; GoPro; BSD68 sigma25; Rain100L,,1
+Stereo Depth Estimation,Depth Estimation,2,6,,KITTI 2015; KITTI2015; sceneflow; Spring; KITTI2012,,1
+Few Shot Action Recognition,Action Recognition,2,6,,,,0
+Object SLAM,Simultaneous Localization and Mapping,2,6,,,,0
+Talking Face Generation,Face Generation,2,6,,CREMA-D; LRW,,2
+CAD Reconstruction,3D Object Reconstruction,2,6,,,,0
+3D Multi-Object Tracking,Multi-Object Tracking,2,6,,nuscenes Camera-Radar; nuScenes LiDAR only; nuScenes; nuScenes Camera Only; Waymo Open Dataset; Waymo Open Dataset: Vehicle (Online Methods),,0
+3D Point Cloud Classification,3D Point Cloud Reconstruction,2,6,,ModelNet40; Sydney Urban Objects; ModelNet40-C; IntrA; ScanObjectNN,,4
+Video-Text Retrieval,Video Retrieval,2,6,,,,0
+Road Segmentation,Semantic Segmentation,2,5,,ChesapeakeRSC; Massachusetts Roads Dataset; DeepGlobe,,1
+JPEG Artifact Correction,Image Restoration,2,5,,,,0
+RGB-D Salient Object Detection,Object Detection,2,5,,,,0
+Stereo Image Super-Resolution,Image Super-Resolution,2,5,,,,0
+RGB-D Salient Object Detection,Object Detection,2,5,,,,0
+RGB-D Salient Object Detection,Object Detection,2,5,,,,0
+Face Parsing,Scene Parsing,2,5,,,,0
+RGB-D Salient Object Detection,Object Detection,2,5,,,,0
+3D Semantic Scene Completion,3D Reconstruction,2,5,,KITTI-360; NYUv2; SemanticKITTI; PRO-teXt,,1
+Face Generation,Facial Recognition and Modelling,2,5,,,,5
+Weakly Supervised Action Localization,Temporal Action Localization,2,5,,GTEA; FineAction; THUMOS14; THUMOS' 14; THUMOS 2014; ActivityNet-1.2; THUMOS’14; ActivityNet-1.3; BEOID,,0
+Self-Supervised Action Recognition,Action Recognition,2,5,,,,0
+Facial Inpainting,Image Inpainting,2,5,,,,0
+Weakly Supervised Action Localization,Temporal Action Localization,2,5,,GTEA; FineAction; THUMOS14; THUMOS' 14; THUMOS 2014; ActivityNet-1.2; THUMOS’14; ActivityNet-1.3; BEOID,,0
+Interactive Video Object Segmentation,Video Object Segmentation,2,5,,,,0
+Video-Adverb Retrieval,Video Retrieval,2,5,,ActivityNet Adverbs; MSR-VTT Adverbs; VATEX Adverbs; HowTo100M Adverbs; AIR,,1
+Weakly Supervised Action Localization,Temporal Action Localization,2,5,,GTEA; FineAction; THUMOS14; THUMOS' 14; THUMOS 2014; ActivityNet-1.2; THUMOS’14; ActivityNet-1.3; BEOID,,0
+Multimodal Unsupervised Image-To-Image Translation,Image-to-Image Translation,2,4,,,,0
+Cross-View Image-to-Image Translation,Image-to-Image Translation,2,4,,,,0
+Spectral Reconstruction,Image Restoration,2,4,,,,0
+Indoor Monocular Depth Estimation,Depth Estimation,2,4,,,,0
+3D Semantic Scene Completion from a single RGB image,3D Scene Reconstruction,2,4,,,,0
+Face Reconstruction,Facial Recognition and Modelling,2,4,,,,1
+Weakly-supervised Temporal Action Localization,Temporal Action Localization,2,4,,UCF101-24; ActivityNet-1.3; THUMOS’14,,1
+Temporal Action Proposal Generation,Temporal Action Localization,2,4,,,,0
+Unsupervised Action Segmentation,Action Segmentation,2,4,,,,0
+Action Triplet Recognition,Action Recognition,2,4,,,,0
+Action Generation,Human action generation,2,4,,,,0
+Unsupervised Anomaly Detection with Specified Settings -- 30% anomaly,Unsupervised Anomaly Detection,2,4,,ASSIRA Cat Vs Dog; STL-10; Fashion-MNIST; CIFAR-10; MNIST,,0
+3D Lane Detection,Lane Detection,2,4,,,,0
+Multimodal Unsupervised Image-To-Image Translation,Image-to-Image Translation,2,4,,,,0
+Cross-View Image-to-Image Translation,Image-to-Image Translation,2,4,,,,0
+Drone-view target localization,Content-Based Image Retrieval,2,4,,,,0
+Artery/Veins Retinal Vessel Segmentation,Retinal Vessel Segmentation,2,4,,,,0
+Few-Shot Semantic Segmentation,Few-Shot Learning,2,4,,COCO-20i (10-shot); COCO-20i -> Pascal VOC (1-shot); COCO-20i (5-shot); FSS-1000; COCO-20i -> Pascal VOC (5-shot); FSS-1000 (1-shot); COCO-20i (1-shot); FSS-1000 (5-shot); Pascal5i; PASCAL-5i (5-Shot),,1
+Real-Time Multi-Object Tracking,Multi-Object Tracking,2,4,,,,0
+3D Semantic Scene Completion from a single RGB image,Single-View 3D Reconstruction,2,4,,,,0
+Video Alignment,Video Understanding,2,4,,,,0
+Weakly-supervised Temporal Action Localization,Temporal Action Localization,2,4,,UCF101-24; ActivityNet-1.3; THUMOS’14,,1
+Temporal Action Proposal Generation,Temporal Action Localization,2,4,,,,0
+Referring Video Object Segmentation,Video Object Segmentation,2,4,,,,0
+Video Salient Object Detection,Video Object Segmentation,2,4,,,,0
+Weakly-supervised Temporal Action Localization,Temporal Action Localization,2,4,,UCF101-24; ActivityNet-1.3; THUMOS’14,,1
+Temporal Action Proposal Generation,Temporal Action Localization,2,4,,,,0
+Open-Domain Subject-to-Video,Image to Video Generation,2,3,,,,0
+Underwater Image Restoration,Image Restoration,2,3,,,,0
+Multi-Frame Super-Resolution,Image Super-Resolution,2,3,,,,0
+3D Room Layouts From A Single RGB Panorama,3D Reconstruction,2,3,,,,0
+Thermal Infrared Pedestrian Detection,Pedestrian Detection,2,3,,,,0
+Video Emotion Detection,Multimodal Emotion Recognition,2,3,,,,0
+Noisy Semantic Image Synthesis,Conditional Image Generation,2,3,,,,0
+Blind Image Quality Assessment,No-Reference Image Quality Assessment,2,3,,,,0
+Multi-Animal Tracking with identification,Multi-Object Tracking,2,3,,,,0
+Image to sketch recognition,Sketch Recognition,2,3,,,,0
+Conditional Text-to-Image Synthesis,Text-to-Image Generation,2,2,,,,0
+Low-light Image Deblurring and Enhancement,Image Deblurring,2,2,,,,0
+Unsupervised Image-To-Image Translation,Image-to-Image Translation,2,2,,Freiburg Forest Dataset; SVNH-to-MNIST,,1
+Fake Image Attribution,Fake Image Detection,2,2,,,,0
+Single Image Desnowing,Image Restoration,2,2,,,,0
+Conditional Text-to-Image Synthesis,Text-to-Image Generation,2,2,,,,0
+Low-light Image Deblurring and Enhancement,Image Deblurring,2,2,,,,0
+Burst Image Super-Resolution,Image Super-Resolution,2,2,,,,0
+satellite image super-resolution,Image Super-Resolution,2,2,,,,1
+Multispectral Image Super-resolution,Image Super-Resolution,2,2,,,,0
+Low-light Image Deblurring and Enhancement,Image Deblurring,2,2,,,,0
+Indoor Scene Synthesis,Scene Parsing,2,2,,,,0
+Depth Map Super-Resolution,Depth Estimation,2,2,,,,0
+Depth Aleatoric Uncertainty Estimation,Depth Estimation,2,2,,,,0
+Garment Reconstruction,3D Reconstruction,2,2,,,,0
+Unsupervised 3D Human Pose Estimation,3D Reconstruction,2,2,,,,0
+3D Shape Reconstruction From A Single 2D Image,3D Shape Reconstruction,2,2,,LLFF; ApolloCar3D,,1
+Generative 3D Object Classification,3D Object Classification,2,2,,ModelNet40; Objaverse,,0
+Image to Point Cloud Registration,Point Cloud Registration,2,2,,,,0
+Activity Recognition In Videos,Temporal Action Localization,2,2,,DogCentric,,1
+Weakly Supervised Action Segmentation (Transcript),Action Segmentation,2,2,,,,0
+Source Free Object Detection,Source-Free Domain Adaptation,2,2,,,,0
+Unsupervised Few-Shot Image Classification,Few-Shot Image Classification,2,2,,,,0
+Multi-label Image Recognition with Partial Labels,Multi-Label Image Classification,2,2,,,,0
+Unsupervised Image-To-Image Translation,Image-to-Image Translation,2,2,,Freiburg Forest Dataset; SVNH-to-MNIST,,1
+Conditional Text-to-Image Synthesis,Text-to-Image Generation,2,2,,,,0
+Face Age Editing,Face Generation,2,2,,,,0
+Amodal Instance Segmentation,Image Instance Retrieval,2,2,,,,0
+Brain Tumor Classification,MRI segmentation,2,2,,,,0
+Landmark-based Lipreading,Lipreading,2,2,,,,0
+3D Object Reconstruction From A Single Image,3D Object Reconstruction,2,2,,,,0
+Camouflaged Object Segmentation with a Single Task-generic Prompt,Camouflaged Object Segmentation,2,2,,,,0
+Multiple Object Tracking with Transformer,Multiple Object Tracking,2,2,,,,0
+Handwritten Word Segmentation,Handwriting Recognition,2,2,,,,0
+Causal Discovery in Video Reasoning,Video Understanding,2,2,,,,0
+Activity Recognition In Videos,Temporal Action Localization,2,2,,DogCentric,,1
+Zero-shot dense video captioning,Dense Video Captioning,2,2,,,,0
+Explanatory Visual Question Answering,Visual Question Answering,2,2,,GQA-REX,,1
+Speaker-Specific Lip to Speech Synthesis,Lip to Speech Synthesis,2,2,,,,0
+Activity Recognition In Videos,Temporal Action Localization,2,2,,DogCentric,,1
+Image Stylization,Style Transfer,2,1,,,,1
+Face Transfer,Style Transfer,2,1,,,,0
+Image-to-Image Regression,Image-to-Image Translation,2,1,,,,0
+Image Stylization,Style Transfer,2,1,,,,1
+Face Transfer,Style Transfer,2,1,,,,0
+Image Stylization,Style Transfer,2,1,,,,1
+Face Transfer,Style Transfer,2,1,,,,0
+Few-shot Instance Segmentation,Image Segmentation,2,1,,,,0
+Indoor Scene Reconstruction,Scene Parsing,2,1,,,,1
+Scene Labeling,Scene Parsing,2,1,,,,0
+Depth And Camera Motion,Depth Estimation,2,1,,,,1
+Stereo-LiDAR Fusion,Depth Estimation,2,1,,,,0
+Bathymetry prediction,Depth Estimation,2,1,,,,0
+Physical Video Anomaly Detection,Semi-supervised Anomaly Detection,2,1,,,,0
+General Action Video Anomaly Detection,Semi-supervised Anomaly Detection,2,1,,,,0
+Weakly Supervised Action Segmentation (Action Set)),Action Segmentation,2,1,,,,0
+Fine-grained Action Recognition,Action Recognition,2,1,,,,0
+Self-Supervised Human Action Recognition,Action Recognition,2,1,,,,0
+Open Set Action Recognition,Action Recognition,2,1,,,,0
+Micro-Action Recognition,Action Recognition,2,1,,,,0
+Anomaly Severity Classification (Anomaly vs. Defect),Anomaly Classification,2,1,,,,0
+Artifact Detection,3D Anomaly Detection,2,1,,,,0
+Sequential Place Recognition,Autonomous Navigation,2,1,,,,0
+Breast Cancer Histology Image Classification (20% labels),Breast Cancer Histology Image Classification,2,1,,,,0
+intensity image denoising,Image Denoising,2,1,,,,0
+Line Items Extraction,document understanding,2,1,,,,0
+3D Source-Free Domain Adaptation,Source-Free Domain Adaptation,2,1,,,,0
+Semi-Supervised Image Classification (Cold Start),Semi-Supervised Image Classification,2,1,,,,0
+Image-to-Image Regression,Image-to-Image Translation,2,1,,,,0
+Fine-Grained Image Inpainting,Image Inpainting,2,1,,,,0
+Human-Object Interaction Generation,Conditional Image Generation,2,1,,,,0
+Drone navigation,Content-Based Image Retrieval,2,1,,,,0
+Generalized Referring Expression Segmentation,Referring Expression Segmentation,2,1,,,,0
+Interactive 3D Instance Segmentation,3D Instance Segmentation,2,1,,ScanNetV2,,1
+Pose-Based Human Instance Segmentation,Human Instance Segmentation,2,1,,,,0
+Few-Shot Camera-Adaptive Color Constancy,Few-Shot Learning,2,1,,,,0
+Zero-Shot Single Object Tracking,Visual Object Tracking,2,1,,,,0
+Multiple Object Track and Segmentation,Multiple Object Tracking,2,1,,,,0
+Active Object Detection,Active Learning,2,1,,,,0
+Handwritten Document Recognition,Handwritten Text Recognition,2,1,,,,0
+Handwritten Line Segmentation,Handwriting Recognition,2,1,,,,0
+Tone Mapping,Single-Image-Based Hdr Reconstruction,2,1,,,,0
+Few-Shot Transfer Learning for Saliency Prediction,Saliency Prediction,2,1,,SALICON->WebpageSaliency - 5-shot ; SALICON->WebpageSaliency - 10-shot ; SALICON->WebpageSaliency - EUB; SALICON->WebpageSaliency - 1-shot,,0
+Unconditional Video Generation,Video Generation,2,1,,,,0
+Long-video Activity Recognition,Video Understanding,2,1,,,,0
+Long-tail Video Object Segmentation,Video Object Segmentation,2,1,,,,0
+Composed Video Retrieval (CoVR),Video Retrieval,2,1,,,,0
+Earth Surface Forecasting,Video Prediction,2,1,,,,0
+Predict Future Video Frames,Video Prediction,2,1,,,,0
+Student Engagement Level Detection (Four Class Video Classification),Video Classification,2,1,,,,0
+Key-Frame-based Video Super-Resolution (K = 15),Video Super-Resolution,2,1,,,,0
+"Indoor Localization (3-DoF Pose: X, Y, Yaw)",Indoor Localization,2,1,,,,0
+Indoor Localization (6-DoF Pose),Indoor Localization,2,1,,,,0
+Style Generalization,Style Transfer,2,0,,,,0
+Font Style Transfer,Style Transfer,2,0,,,,0
+Reverse Style Transfer,Style Transfer,2,0,,,,0
+Serial Style Transfer,Style Transfer,2,0,,,,0
+text-guided-image-editing,Text-to-Image Generation,2,0,,,,0
+Concept Alignment,Text-to-Image Generation,2,0,,,,0
+Zero-Shot Text-to-Image Generation,Text-to-Image Generation,2,0,,,,0
+Consistent Character Generation,Text-to-Image Generation,2,0,,,,0
+DreamBooth Personalized Generation,Text-to-Image Generation,2,0,,,,0
+Constrained Lip-synchronization,Talking Face Generation,2,0,,,,0
+Face  Dubbing,Talking Face Generation,2,0,,,,0
+Synthetic-to-Real Translation,Image-to-Image Translation,2,0,,,,0
+Fundus to Angiography Generation,Image-to-Image Translation,2,0,,,,0
+Facial Makeup Transfer,Image-to-Image Translation,2,0,,,,0
+Virtual Try-Off,Image-to-Image Translation,2,0,,,,0
+Real-to-Cartoon translation,Image-to-Image Translation,2,0,,,,0
+Photo-To-Caricature Translation,Image-to-Image Translation,2,0,,,,0
+GAN image forensics,Fake Image Detection,2,0,,,,0
+Demosaicking,Image Restoration,2,0,,,,0
+Flare Removal,Image Restoration,2,0,,,,0
+JPEG Artifact Removal,Image Restoration,2,0,,,,0
+highlight removal,Image Restoration,2,0,,,,0
+text-guided-image-editing,Text-to-Image Generation,2,0,,,,0
+Concept Alignment,Text-to-Image Generation,2,0,,,,0
+Zero-Shot Text-to-Image Generation,Text-to-Image Generation,2,0,,,,0
+Consistent Character Generation,Text-to-Image Generation,2,0,,,,0
+DreamBooth Personalized Generation,Text-to-Image Generation,2,0,,,,0
+Blind Image Deblurring,Deblurring,2,0,,,,0
+Single-Image Blind Deblurring,Deblurring,2,0,,,,0
+Document Shadow Removal,Shadow Removal,2,0,,,,0
+Style Generalization,Style Transfer,2,0,,,,0
+Font Style Transfer,Style Transfer,2,0,,,,0
+Reverse Style Transfer,Style Transfer,2,0,,,,0
+Serial Style Transfer,Style Transfer,2,0,,,,0
+Blind Image Deblurring,Deblurring,2,0,,,,0
+Single-Image Blind Deblurring,Deblurring,2,0,,,,0
+Neural Radiance Caching,Neural Rendering,2,0,,,,0
+Style Generalization,Style Transfer,2,0,,,,0
+Font Style Transfer,Style Transfer,2,0,,,,0
+Reverse Style Transfer,Style Transfer,2,0,,,,0
+Serial Style Transfer,Style Transfer,2,0,,,,0
+Unsupervised Zero-Shot Panoptic Segmentation,Unsupervised Panoptic Segmentation,2,0,,COCO val2017,,0
+Street Scene Parsing,Scene Parsing,2,0,,,,0
+Overlapped 5-3,Continual Semantic Segmentation,2,0,,,,0
+Overlapped 25-25,Continual Semantic Segmentation,2,0,,,,0
+Depth Image Upsampling,Depth Estimation,2,0,,,,0
+Point cloud reconstruction,3D Reconstruction,2,0,,,,0
+3D Shape Reconstruction from Videos,3D Reconstruction,2,0,,,,1
+3D Wireframe Reconstruction,3D Reconstruction,2,0,,,,0
+Neural Radiance Caching,Neural Rendering,2,0,,,,0
+Facial Recognition and Modelling,3D Face Reconstruction,2,0,,,,10
+Cube Engraving Classification,3D Object Classification,2,0,,,,0
+Car Racing,Continuous Control,2,0,,,,0
+Steering Control,Continuous Control,2,0,,,,0
+Drone Controller,Continuous Control,2,0,,,,0
+Age Estimation,Facial Recognition and Modelling,2,0,,,,1
+Action Recognition In Still Images,Temporal Action Localization,2,0,,,,0
+Open-vocab Temporal Action Detection,Temporal Action Localization,2,0,,,,0
+Temporal Group Activity Localization,Temporal Action Localization,2,0,,,,0
+Skeleton Based Action Segmentation,Action Segmentation,2,0,,,,0
+Weakly-Supervised Action Recognition,Action Recognition,2,0,,,,0
+Root Cause Ranking,Unsupervised Anomaly Detection,2,0,,,,0
+Unsupervised Contextual Anomaly Detection,Unsupervised Anomaly Detection,2,0,,,,0
+Anomaly Detection at Various Anomaly Percentages,Unsupervised Anomaly Detection,2,0,,,,0
+Anomaly Detection at 30% anomaly,Unsupervised Anomaly Detection,2,0,,,,0
+Bench2Drive,Autonomous Driving,2,0,,,,0
+NavSim,Autonomous Driving,2,0,,,,0
+CARLA MAP Leaderboard,Autonomous Driving,2,0,,,,0
+3D Pedestrian Tracking,Autonomous Driving,2,0,,,,0
+Dead-Reckoning Prediction,Autonomous Driving,2,0,,,,0
+Autonomous Web Navigation,Autonomous Navigation,2,0,,,,0
+Autonomous Flight (Dense Forest),Autonomous Navigation,2,0,,,,0
+camera absolute pose regression,Camera Relocalization,2,0,,,,0
+Patent classification,Multi-class Classification,2,0,,,,0
+2D Particle Picking,Single Particle Analysis,2,0,,,,0
+Few-Shot Class-Incremental Learning,Class Incremental Learning,2,0,,,,0
+Class-Incremental Semantic Segmentation,Class Incremental Learning,2,0,,,,10
+Non-exemplar-based Class Incremental Learning,Class Incremental Learning,2,0,,,,0
+Membership Inference Attack,Privacy Preserving Deep Learning,2,0,,,,0
+Homomorphic Encryption for Deep Learning,Privacy Preserving Deep Learning,2,0,,,,0
+lifetime image denoising,Image Denoising,2,0,,,,0
+3D Noise Generation,3D Mesh Denoising,2,0,,,,0
+Single-Source Domain Generalization,Domain Generalization,2,0,,,,1
+Source-free Domain Generalization,Domain Generalization,2,0,,,,0
+Evolving Domain Generalization,Domain Generalization,2,0,,,,0
+Unsupervised Few-Shot Learning,Few-Shot Image Classification,2,0,,,,0
+Generalized Few-Shot Classification,Few-Shot Image Classification,2,0,,,,0
+Displaced People Recognition,Fine-Grained Image Classification,2,0,,,,0
+Open-World Semi-Supervised Learning,Semi-Supervised Image Classification,2,0,,,,0
+Document Shadow Removal,Shadow Removal,2,0,,,,0
+Synthetic-to-Real Translation,Image-to-Image Translation,2,0,,,,0
+Fundus to Angiography Generation,Image-to-Image Translation,2,0,,,,0
+Facial Makeup Transfer,Image-to-Image Translation,2,0,,,,0
+Virtual Try-Off,Image-to-Image Translation,2,0,,,,0
+Real-to-Cartoon translation,Image-to-Image Translation,2,0,,,,0
+Photo-To-Caricature Translation,Image-to-Image Translation,2,0,,,,0
+text-guided-image-editing,Text-to-Image Generation,2,0,,,,0
+Concept Alignment,Text-to-Image Generation,2,0,,,,0
+Zero-Shot Text-to-Image Generation,Text-to-Image Generation,2,0,,,,0
+Consistent Character Generation,Text-to-Image Generation,2,0,,,,0
+DreamBooth Personalized Generation,Text-to-Image Generation,2,0,,,,0
+Cloud Removal,Image Inpainting,2,0,,,,0
+Image-Guided Composition,Conditional Image Generation,2,0,,,,0
+Talking Head Generation,Face Generation,2,0,,,,1
+Facial expression generation,Face Generation,2,0,,,,0
+Kinship face generation,Face Generation,2,0,,,,0
+Interspecies Facial Keypoint Transfer,Semantic correspondence,2,0,,,,0
+Multimodal Patch Matching,Patch Matching,2,0,,,,0
+NR-IQA,No-Reference Image Quality Assessment,2,0,,,,0
+On-the-Fly Sketch Based Image Retrieval,Sketch-Based Image Retrieval,2,0,,,,0
+Weakly Supervised Referring Expression Segmentation,Referring Expression Segmentation,2,0,,,,0
+Nuclei Segmentation and Classfication,Cell Segmentation,2,0,,,,0
+One-Shot Learning,Few-Shot Learning,2,0,,,,0
+Cross-Domain Few-Shot,Few-Shot Learning,2,0,,,,1
+Unsupervised Few-Shot Learning,Few-Shot Learning,2,0,,,,0
+Few-Shot Relation Classification,Few-Shot Learning,2,0,,,,0
+Few-Shot Imitation Learning,Few-Shot Learning,2,0,,,,0
+Few-Shot Audio Classification,Few-Shot Learning,2,0,,,,0
+Few-shot HTC,Few-Shot Learning,2,0,,,,0
+Few-Shot Video Object Detection,Few-Shot Learning,2,0,,,,0
+Dial Meter Reading,Image-based Automatic Meter Reading,2,0,,,,0
+Simulated Gaussian Manipulation,3D Object Reconstruction,2,0,,,,0
+Feature Splatting,3D Object Reconstruction,2,0,,,,0
+Referring Multi-Object Tracking,Multi-Object Tracking,2,0,,,,1
+Grounded Multiple Object Tracking,Multi-Object Tracking,2,0,,,,0
+Trajectory Long-tail Distribution for Muti-object Tracking,Multi-Object Tracking,2,0,,,,0
+Unsupervised Text Recognition,Handwritten Text Recognition,2,0,,,,0
+Point Cloud Semantic Completion,Point Cloud Completion,2,0,,,,0
+Lake Ice Monitoring,Segmentation Of Remote Sensing Imagery,2,0,,,,0
+Lake Ice Monitoring,The Semantic Segmentation Of Remote Sensing Imagery,2,0,,,,0
+Aerial Video Saliency Prediction,Saliency Prediction,2,0,,,,0
+Natural Image Orientation Angle Detection,Multi-Oriented Scene Text Detection,2,0,,,,0
+Open-Vocabulary Panoramic Semantic Segmentation,Open-Vocabulary Semantic Segmentation,2,0,,,,0
+Style Transfer,Drawing Pictures,2,0,,,,6
+Corpus Video Moment Retrieval,Language-Based Temporal Localization,2,0,,,,0
+Human Animation,Subject-driven Video Generation,2,0,,,,0
+Audio-Driven Body Animation,Subject-driven Video Generation,2,0,,,,0
+Stochastic Human Motion Prediction,Human motion prediction,2,0,,,,0
+Temporal Sentence Grounding,Video Understanding,2,0,,,,0
+Streaming video understanding,Video Understanding,2,0,,,,0
+Action Recognition In Still Images,Temporal Action Localization,2,0,,,,0
+Open-vocab Temporal Action Detection,Temporal Action Localization,2,0,,,,0
+Temporal Group Activity Localization,Temporal Action Localization,2,0,,,,0
+Video Shadow Detection,Video Object Segmentation,2,0,,,,0
+Replay Grounding,Video Retrieval,2,0,,,,0
+Multi Class Classification (Four-level Video Classification),Video Classification,2,0,,,,0
+Spatial Reasoning,Visual Question Answering,2,0,,,,0
+Object Hallucination,Visual Question Answering,2,0,,,,0
+Vietnamese Visual Question Answering,Visual Question Answering,2,0,,,,0
+MM-Vet v2,Visual Question Answering,2,0,,,,0
+Action Recognition In Still Images,Temporal Action Localization,2,0,,,,0
+Open-vocab Temporal Action Detection,Temporal Action Localization,2,0,,,,0
+Temporal Group Activity Localization,Temporal Action Localization,2,0,,,,0
+Face Recognition,Facial Recognition and Modelling,3,67,,CASIA-WebFace+masks; MLFW; BTS3.1; Color FERET (Online Open Set); XQLFW; MFR; MFW+ (M-M); AgeDB-30; mebeblurf; CelebA+masks,,6
+Face Detection,Facial Recognition and Modelling,3,39,,ADE20K; WIDER Face (Hard); WIDER Face (Medium); PASCAL Face; Manga109; DCM; COCO-WholeBody; Annotated Faces in the Wild; FDDB; WIDER FACE,,1
+Skeleton Based Action Recognition,3D Action Recognition,3,30,,,,0
+Skeleton Based Action Recognition,3D Action Recognition,3,30,,,,0
+Skeleton Based Action Recognition,3D Action Recognition,3,30,,,,0
+Skeleton Based Action Recognition,3D Action Recognition,3,30,,,,0
+Facial Expression Recognition (FER),Facial Recognition and Modelling,3,29,,MMI; FERG; BP4D; SAVEE; Cohn-Kanade; AffectNet; Oulu-CASIA; RAF-DB; CAER; Real-World Affective Faces,,5
+DeepFake Detection,3D Shape Reconstruction from Videos,3,26,,DFFD; COCOFake; วีเค..!! ชมคลิป ‘ไอซ์ ปรีชญา’ ลืมปิดถ่ายทอดสดขณะอาบน้ำ โด; FaceForensics++; FakeAVCeleb; LAV-DF; CIFAKE: Real and AI-Generated Synthetic Images; 1; DFDC; ^(#$!@#$)(()))******,,5
+Face Verification,Facial Recognition and Modelling,3,24,,BTS3.1; CASIA NIR-VIS 2.0; CPLFW; Oulu-CASIA NIR-VIS; AgeDB-30; QMUL-SurvFace; Oulu-CASIA; CFP-FP; BUAA-VisNir; Labeled Faces in the Wild,,1
+3D Hand Pose Estimation,Hand Pose Estimation,3,20,,HO-3D v2; FreiHAND; HO-3D v3; HInt: Hand Interactions in the wild; InterHand2.6M; DexYCB; H3WB,,3
+3D Hand Pose Estimation,Hand Pose Estimation,3,20,,HO-3D v2; FreiHAND; HO-3D v3; HInt: Hand Interactions in the wild; InterHand2.6M; DexYCB; H3WB,,3
+Image Manipulation Detection,3D Action Recognition,3,20,,Casia V1+; DSO (OSN-transmitted - Facebook); Columbia (OSN-transmitted - Weibo); CASIA (OSN-transmitted - Facebook); NIST (OSN-transmitted - Wechat); Columbia (OSN-transmitted - Facebook); CASIA (OSN-transmitted - Wechat); CASIA (OSN-transmitted - Weibo); DSO-1; DSO (OSN-transmitted - Wechat),,0
+Image Manipulation Detection,3D Action Recognition,3,20,,Casia V1+; DSO (OSN-transmitted - Facebook); Columbia (OSN-transmitted - Weibo); CASIA (OSN-transmitted - Facebook); NIST (OSN-transmitted - Wechat); Columbia (OSN-transmitted - Facebook); CASIA (OSN-transmitted - Wechat); CASIA (OSN-transmitted - Weibo); DSO-1; DSO (OSN-transmitted - Wechat),,0
+Image Manipulation Detection,3D Action Recognition,3,20,,Casia V1+; DSO (OSN-transmitted - Facebook); Columbia (OSN-transmitted - Weibo); CASIA (OSN-transmitted - Facebook); NIST (OSN-transmitted - Wechat); Columbia (OSN-transmitted - Facebook); CASIA (OSN-transmitted - Wechat); CASIA (OSN-transmitted - Weibo); DSO-1; DSO (OSN-transmitted - Wechat),,0
+Image Manipulation Detection,3D Action Recognition,3,20,,Casia V1+; DSO (OSN-transmitted - Facebook); Columbia (OSN-transmitted - Weibo); CASIA (OSN-transmitted - Facebook); NIST (OSN-transmitted - Wechat); Columbia (OSN-transmitted - Facebook); CASIA (OSN-transmitted - Wechat); CASIA (OSN-transmitted - Weibo); DSO-1; DSO (OSN-transmitted - Wechat),,0
+Face Anti-Spoofing,Depth And Camera Motion,3,17,,,,0
+Face Alignment,Facial Recognition and Modelling,3,17,,,,0
+Face Anti-Spoofing,Facial Recognition and Modelling,3,17,,,,0
+3D Face Reconstruction,Face Reconstruction,3,11,,!(()&&!|*|*|; Stirling-HQ (FG2018 3D face reconstruction challenge); REALY; 13.8; NoW Benchmark; AFLW2000-3D; Stirling-LQ (FG2018 3D face reconstruction challenge); REALY (side-view); Florence,,0
+Action Anticipation,Action Recognition In Videos,3,11,,EGTEA; EPIC-KITCHENS-55 (Unseen test set (S2); 50-Salads; EPIC-KITCHENS-100 (test); EPIC-KITCHENS-55 (Seen test set (S1)); EPIC-KITCHENS-100; Assembly101; EgoExoLearn,,0
+Multiview Detection,3D Object Detection,3,10,,,,0
+Multiview Detection,3D Object Detection,3,10,,,,0
+Multiview Detection,3D Object Detection,3,10,,,,0
+Multiview Detection,3D Object Detection,3,10,,,,0
+Face Swapping,Facial Recognition and Modelling,3,10,,,,0
+Pose Prediction,3D Human Pose Estimation,3,8,,,,0
+3D Absolute Human Pose Estimation,3D Human Pose Estimation,3,8,,Human3.6M; Surreal; Total Capture,,4
+Video Semantic Segmentation,Scene Understanding,3,8,,VSPW; CamVid; LaRS; Cityscapes val; Multispectral Video Semantic Segmentation,,1
+Pose Prediction,3D Human Pose Estimation,3,8,,,,0
+3D Absolute Human Pose Estimation,3D Human Pose Estimation,3,8,,Human3.6M; Surreal; Total Capture,,4
+Unsupervised Semantic Segmentation with Language-image Pre-training,Unsupervised Semantic Segmentation,3,7,,,,0
+Monocular 3D Object Detection,3D Object Detection,3,7,,,,0
+Monocular 3D Object Detection,3D Object Detection,3,7,,,,0
+Monocular 3D Object Detection,3D Object Detection,3,7,,,,0
+Monocular 3D Object Detection,3D Object Detection,3,7,,,,0
+3D Object Classification,3D Point Cloud Classification,3,7,,ModelNet40; 3R-Scan; ModelNet10; Remote Flash LiDAR Vehicles Dataset,,2
+Egocentric Pose Estimation,3D Human Pose Estimation,3,6,,,,0
+Video Panoptic Segmentation,Panoptic Segmentation,3,6,,,,0
+Egocentric Pose Estimation,3D Human Pose Estimation,3,6,,,,0
+Lightweight Face Recognition,Face Recognition,3,6,,,,0
+Talking Face Generation,Face Generation,3,6,,CREMA-D; LRW,,2
+Monocular 3D Human Pose Estimation,3D Human Pose Estimation,3,5,,,,0
+3D Multi-Person Pose Estimation,3D Human Pose Estimation,3,5,,Panoptic; Shelf; MuPoTS-3D; AGORA; Campus,,3
+Cross-Domain Few-Shot Object Detection,Few-Shot Object Detection,3,5,,,,0
+Cross-Domain Few-Shot Object Detection,Few-Shot Object Detection,3,5,,,,0
+Cross-Domain Few-Shot Object Detection,Few-Shot Object Detection,3,5,,,,0
+Visual Relationship Detection,Scene Understanding,3,5,,VRD Phrase Detection; VRD; VRD Relationship Detection; VRD Predicate Detection; Visual Genome,,2
+Cross-Domain Few-Shot Object Detection,Few-Shot Object Detection,3,5,,,,0
+Monocular 3D Human Pose Estimation,3D Human Pose Estimation,3,5,,,,0
+3D Multi-Person Pose Estimation,3D Human Pose Estimation,3,5,,Panoptic; Shelf; MuPoTS-3D; AGORA; Campus,,3
+Face Generation,Facial Recognition and Modelling,3,5,,,,5
+hand-object pose,6D Pose Estimation,3,4,,,,0
+Thermal Image Segmentation,Scene Segmentation,3,4,,,,0
+3D Object Detection From Stereo Images,3D Object Detection,3,4,,,,0
+Video Salient Object Detection,RGB Salient Object Detection,3,4,,,,0
+3D Object Detection From Stereo Images,3D Object Detection,3,4,,,,0
+Video Salient Object Detection,RGB Salient Object Detection,3,4,,,,0
+3D Object Detection From Stereo Images,3D Object Detection,3,4,,,,0
+Video Salient Object Detection,RGB Salient Object Detection,3,4,,,,0
+3D Object Detection From Stereo Images,3D Object Detection,3,4,,,,0
+Video Salient Object Detection,RGB Salient Object Detection,3,4,,,,0
+hand-object pose,6D Pose Estimation,3,4,,,,0
+3D Semantic Scene Completion from a single RGB image,3D Semantic Scene Completion,3,4,,,,0
+Face Reconstruction,Facial Recognition and Modelling,3,4,,,,0
+3D Facial Expression Recognition,Facial Expression Recognition (FER),3,4,,,,0
+hand-object pose,3D Hand Pose Estimation,3,4,,,,0
+Multi-Hypotheses 3D Human Pose Estimation,3D Human Pose Estimation,3,3,,,,0
+Robot Pose Estimation,6D Pose Estimation,3,3,,,,0
+Robust 3D Semantic Segmentation,3D Semantic Segmentation,3,3,,,,0
+3D Room Layouts From A Single RGB Panorama,Scene Understanding,3,3,,,,0
+Multi-Hypotheses 3D Human Pose Estimation,3D Human Pose Estimation,3,3,,,,0
+Robot Pose Estimation,6D Pose Estimation,3,3,,,,0
+Transparent Object Depth Estimation,3D Depth Estimation,3,3,,,,0
+Synthetic Face Recognition,Face Recognition,3,3,,,,0
+Face Quality Assessement,Face Recognition,3,3,,mebeblurf; Color FERET; LFW,,1
+Zero Shot Skeletal Action Recognition,3D Action Recognition,3,3,,,,0
+Generalized Zero Shot skeletal action recognition,3D Action Recognition,3,3,,,,0
+Activity Prediction,Activity Recognition In Videos,3,3,,ActEV,,3
+Zero Shot Skeletal Action Recognition,3D Action Recognition,3,3,,,,0
+Generalized Zero Shot skeletal action recognition,3D Action Recognition,3,3,,,,0
+Open-Domain Subject-to-Video,Image to Video Generation,3,3,,,,0
+Zero Shot Skeletal Action Recognition,3D Action Recognition,3,3,,,,0
+Generalized Zero Shot skeletal action recognition,3D Action Recognition,3,3,,,,0
+Activity Prediction,Activity Recognition In Videos,3,3,,ActEV,,3
+Video-Adverb Retrieval (Unseen Compositions),Video-Adverb Retrieval,3,3,,,,0
+Zero Shot Skeletal Action Recognition,3D Action Recognition,3,3,,,,0
+Generalized Zero Shot skeletal action recognition,3D Action Recognition,3,3,,,,0
+Activity Prediction,Activity Recognition In Videos,3,3,,ActEV,,3
+3D human pose and shape estimation,3D Human Pose Estimation,3,2,,EgoBody,,0
+Weakly-supervised 3D Human Pose Estimation,3D Human Pose Estimation,3,2,,,,0
+Robust 3D Object Detection,3D Object Detection,3,2,,,,0
+Dichotomous Image Segmentation,RGB Salient Object Detection,3,2,,,,0
+Co-Salient Object Detection,RGB Salient Object Detection,3,2,,,,0
+Robust 3D Object Detection,3D Object Detection,3,2,,,,0
+Dichotomous Image Segmentation,RGB Salient Object Detection,3,2,,,,0
+Co-Salient Object Detection,RGB Salient Object Detection,3,2,,,,0
+Robust 3D Object Detection,3D Object Detection,3,2,,,,0
+Dichotomous Image Segmentation,RGB Salient Object Detection,3,2,,,,0
+Co-Salient Object Detection,RGB Salient Object Detection,3,2,,,,0
+Robust 3D Object Detection,3D Object Detection,3,2,,,,0
+Dichotomous Image Segmentation,RGB Salient Object Detection,3,2,,,,0
+Co-Salient Object Detection,RGB Salient Object Detection,3,2,,,,0
+3D human pose and shape estimation,3D Human Pose Estimation,3,2,,EgoBody,,0
+Weakly-supervised 3D Human Pose Estimation,3D Human Pose Estimation,3,2,,,,0
+Age-Invariant Face Recognition,Face Recognition,3,2,,,,0
+Occluded Face Detection,Face Detection,3,2,,,,0
+Face Age Editing,Face Generation,3,2,,,,0
+Disguised Face Verification,Face Verification,3,2,,,,0
+Weakly-supervised Video Anomaly Detection,Video Anomaly Detection,3,2,,,,0
+3D Canonical Hand Pose Estimation,3D Hand Pose Estimation,3,2,,RHP; Ego3DHands; STB,,0
+Zero-Shot Transfer 3D Point Cloud Classification,3D Point Cloud Classification,3,2,,,,0
+Global 3D Human Pose Estimation,3D Human Pose Estimation,3,1,,,,0
+Semi-Supervised Human Pose Estimation,Multi-Person Pose Estimation,3,1,,,,0
+Uncertainty-Aware Panoptic Segmentation,Panoptic Segmentation,3,1,,,,0
+Real-Time 3D Semantic Segmentation,3D Semantic Segmentation,3,1,,,,0
+Unsupervised 3D Semantic Segmentation,3D Semantic Segmentation,3,1,,,,0
+Robust BEV Detection,3D Object Detection,3,1,,,,0
+Open Vocabulary Attribute Detection,Open Vocabulary Object Detection,3,1,,,,0
+Rice Grain Disease Detection,Small Object Detection,3,1,,,,0
+Robust BEV Detection,3D Object Detection,3,1,,,,0
+Open Vocabulary Attribute Detection,Open Vocabulary Object Detection,3,1,,,,0
+Rice Grain Disease Detection,Small Object Detection,3,1,,,,0
+Key-Frame-based Video Super-Resolution (K = 15),Video Super-Resolution,3,1,,,,0
+Robust BEV Detection,3D Object Detection,3,1,,,,0
+Open Vocabulary Attribute Detection,Open Vocabulary Object Detection,3,1,,,,0
+Rice Grain Disease Detection,Small Object Detection,3,1,,,,0
+Unbiased Scene Graph Generation,Scene Graph Generation,3,1,,,,0
+Panoptic Scene Graph Generation,Scene Graph Generation,3,1,,,,0
+Plan2Scene,Indoor Scene Reconstruction,3,1,,,,0
+Robust BEV Detection,3D Object Detection,3,1,,,,0
+Open Vocabulary Attribute Detection,Open Vocabulary Object Detection,3,1,,,,0
+Rice Grain Disease Detection,Small Object Detection,3,1,,,,0
+Global 3D Human Pose Estimation,3D Human Pose Estimation,3,1,,,,0
+Semi-Supervised Human Pose Estimation,Multi-Person Pose Estimation,3,1,,,,0
+Omnnidirectional Stereo Depth Estimation,Stereo Depth Estimation,3,1,,,,0
+Shape from Texture,3D Shape Reconstruction From A Single 2D Image,3,1,,,,0
+Face Image Quality Assessment,Face Recognition,3,1,,,,0
+Unsupervised face recognition,Face Recognition,3,1,,,,0
+Micro-Expression Recognition,Facial Expression Recognition (FER),3,1,,,,0
+Smile Recognition,Facial Expression Recognition (FER),3,1,,,,0
+motion retargeting,3D Action Recognition,3,1,,,,0
+motion retargeting,3D Action Recognition,3,1,,,,0
+Multi-Person Pose forecasting,Motion Forecasting,3,1,,,,0
+Photo to Rest Generalization,Single-Source Domain Generalization,3,1,,,,0
+Interactive 3D Instance Segmentation -Trained on Scannet40 - Evaluated on Scannet40,Interactive 3D Instance Segmentation,3,1,,,,0
+Cross-view Referring Multi-Object Tracking,Referring Multi-Object Tracking,3,1,,,,0
+Few-Shot 3D Point Cloud Classification,3D Point Cloud Classification,3,1,,,,0
+Supervised Only 3D Point Cloud Classification,3D Point Cloud Classification,3,1,,,,0
+Image Stylization,Style Transfer,3,1,,,,1
+Face Transfer,Style Transfer,3,1,,,,0
+motion retargeting,3D Action Recognition,3,1,,,,0
+One-shot visual object segmentation,Semi-Supervised Video Object Segmentation,3,1,,,,0
+Video Narrative Grounding,Video Grounding,3,1,,,,0
+motion retargeting,3D Action Recognition,3,1,,,,0
+One-Shot Face Stylization,Image Stylization,3,0,,,,0
+Sensor Modeling,Unsupervised Image-To-Image Translation,3,0,,,,0
+furniture segmentation,3D Semantic Segmentation,3,0,,,,0
+3D Point Cloud Part Segmentation,3D Semantic Segmentation,3,0,,,,0
+Lane Labeling,Road Segmentation,3,0,,,,0
+Blind All-in-One Image Restoration,Unified Image Restoration,3,0,,,,0
+vehicle detection,satellite image super-resolution,3,0,,,,0
+One-Shot Face Stylization,Image Stylization,3,0,,,,0
+One-Shot Face Stylization,Image Stylization,3,0,,,,0
+Lighting Estimation,Scene Understanding,3,0,,,,0
+road scene understanding,Scene Understanding,3,0,,,,2
+Outdoor Light Source Estimation,Scene Understanding,3,0,,,,0
+Jersey Number Recognition,Scene Text Recognition,3,0,,,,0
+Age Estimation,Facial Recognition and Modelling,3,0,,,,1
+Cross-corpus,Facial Expression Recognition (FER),3,0,,,,0
+Micro-Expression Spotting,Facial Expression Recognition (FER),3,0,,,,0
+Talking Head Generation,Face Generation,3,0,,,,1
+Facial expression generation,Face Generation,3,0,,,,0
+Kinship face generation,Face Generation,3,0,,,,0
+Few-shot Age Estimation,Age Estimation,3,0,,,,0
+Weakly Supervised Temporal Action Localization,Weakly-supervised Temporal Action Localization,3,0,,,,0
+Model Editing,3D Action Recognition,3,0,,,,0
+Model Editing,3D Action Recognition,3,0,,,,0
+Multiple Object Forecasting,Motion Forecasting,3,0,,,,0
+Overlapped 10-1,Class-Incremental Semantic Segmentation,3,0,,,,0
+Overlapped 15-5,Class-Incremental Semantic Segmentation,3,0,,,,0
+Overlapped 15-1,Class-Incremental Semantic Segmentation,3,0,,,,0
+Disjoint 15-1,Class-Incremental Semantic Segmentation,3,0,,,,0
+Disjoint 15-5,Class-Incremental Semantic Segmentation,3,0,,,,0
+Overlapped 100-5,Class-Incremental Semantic Segmentation,3,0,,,,0
+Disjoint 10-1,Class-Incremental Semantic Segmentation,3,0,,,,0
+Overlapped 100-50,Class-Incremental Semantic Segmentation,3,0,,,,0
+Overlapped 50-50,Class-Incremental Semantic Segmentation,3,0,,,,0
+Overlapped 100-10,Class-Incremental Semantic Segmentation,3,0,,,,0
+Grasp Generation,3D Hand Pose Estimation,3,0,,,,2
+Sensor Modeling,Unsupervised Image-To-Image Translation,3,0,,,,0
+Unconstrained Lip-synchronization,Talking Head Generation,3,0,,,,0
+Constrained Lip-synchronization,Talking Face Generation,3,0,,,,0
+Face  Dubbing,Talking Face Generation,3,0,,,,0
+Generalized Few-Shot Semantic Segmentation,Few-Shot Semantic Segmentation,3,0,,,,0
+cross-domain few-shot learning,Cross-Domain Few-Shot,3,0,,,,0
+Style Generalization,Style Transfer,3,0,,,,0
+Font Style Transfer,Style Transfer,3,0,,,,0
+Reverse Style Transfer,Style Transfer,3,0,,,,0
+Serial Style Transfer,Style Transfer,3,0,,,,0
+Weakly Supervised Temporal Action Localization,Weakly-supervised Temporal Action Localization,3,0,,,,0
+Model Editing,3D Action Recognition,3,0,,,,0
+Boundary Grounding,Video Grounding,3,0,,,,0
+FS-MEVQA,Explanatory Visual Question Answering,3,0,,,,0
+Weakly Supervised Temporal Action Localization,Weakly-supervised Temporal Action Localization,3,0,,,,0
+Model Editing,3D Action Recognition,3,0,,,,0
+motion prediction,Activity Prediction,4,14,,,,1
+motion prediction,Activity Prediction,4,14,,,,1
+motion prediction,Activity Prediction,4,14,,,,1
+3D Human Shape Estimation,3D Absolute Human Pose Estimation,4,7,,,,0
+3D Human Shape Estimation,3D Absolute Human Pose Estimation,4,7,,,,0
+3D Face Animation,3D Absolute Human Pose Estimation,4,6,,VOCASET; Biwi 3D Audiovisual Corpus of Affective Communication - B3D(AC)^2; BEAT2,,1
+3D Face Animation,3D Absolute Human Pose Estimation,4,6,,VOCASET; Biwi 3D Audiovisual Corpus of Affective Communication - B3D(AC)^2; BEAT2,,1
+Lightweight Face Recognition,Face Recognition,4,6,,,,0
+Talking Face Generation,Face Generation,4,6,,CREMA-D; LRW,,2
+hand-object pose,3D Hand Pose Estimation,4,4,,,,0
+hand-object pose,3D Hand Pose Estimation,4,4,,,,0
+Synthetic Speech Detection,DeepFake Detection,4,4,,,,0
+3D Facial Expression Recognition,Facial Expression Recognition (FER),4,4,,,,0
+Image to 3D,3D Absolute Human Pose Estimation,4,3,,,,0
+Image to 3D,3D Absolute Human Pose Estimation,4,3,,,,0
+Audio Deepfake Detection,DeepFake Detection,4,3,,,,0
+Synthetic Face Recognition,Face Recognition,4,3,,,,0
+Face Quality Assessement,Face Recognition,4,3,,mebeblurf; Color FERET; LFW,,1
+3D Multi-Person Pose Estimation (absolute),3D Multi-Person Pose Estimation,4,2,,MuPoTS-3D,,0
+3D Multi-Person Mesh Recovery,3D Multi-Person Pose Estimation,4,2,,,,0
+3D Canonical Hand Pose Estimation,3D Hand Pose Estimation,4,2,,RHP; Ego3DHands; STB,,0
+Video Visual Relation Detection,Visual Relationship Detection,4,2,,,,0
+Monocular Cross-View Road Scene Parsing(Road),road scene understanding,4,2,,,,0
+Monocular Cross-View Road Scene Parsing(Vehicle),road scene understanding,4,2,,,,0
+3D Multi-Person Pose Estimation (absolute),3D Multi-Person Pose Estimation,4,2,,MuPoTS-3D,,0
+3D Multi-Person Mesh Recovery,3D Multi-Person Pose Estimation,4,2,,,,0
+3D Canonical Hand Pose Estimation,3D Hand Pose Estimation,4,2,,RHP; Ego3DHands; STB,,0
+Age-Invariant Face Recognition,Face Recognition,4,2,,,,0
+Occluded Face Detection,Face Detection,4,2,,,,0
+Face Age Editing,Face Generation,4,2,,,,0
+Disguised Face Verification,Face Verification,4,2,,,,0
+Generative 3D Object Classification,3D Object Classification,4,2,,ModelNet40; Objaverse,,0
+3D Multi-Person Pose Estimation (root-relative),3D Multi-Person Pose Estimation,4,1,,MuPoTS-3D,,0
+Text-to-Face Generation,3D Absolute Human Pose Estimation,4,1,,,,0
+Camera shot segmentation,Video Semantic Segmentation,4,1,,,,0
+3D Multi-Person Pose Estimation (root-relative),3D Multi-Person Pose Estimation,4,1,,MuPoTS-3D,,0
+Text-to-Face Generation,3D Absolute Human Pose Estimation,4,1,,,,0
+Human Detection of Deepfakes,DeepFake Detection,4,1,,,,0
+Multimodal Forgery Detection,DeepFake Detection,4,1,,,,0
+Face Image Quality Assessment,Face Recognition,4,1,,,,0
+Unsupervised face recognition,Face Recognition,4,1,,,,0
+Micro-Expression Recognition,Facial Expression Recognition (FER),4,1,,,,0
+Smile Recognition,Facial Expression Recognition (FER),4,1,,,,0
+Cyber Attack Detection,Activity Prediction,4,1,,,,0
+Sequential skip prediction,Activity Prediction,4,1,,,,0
+Cyber Attack Detection,Activity Prediction,4,1,,,,0
+Sequential skip prediction,Activity Prediction,4,1,,,,0
+Cyber Attack Detection,Activity Prediction,4,1,,,,0
+Sequential skip prediction,Activity Prediction,4,1,,,,0
+Grasp Generation,3D Hand Pose Estimation,4,0,,,,2
+Human-Object Relationship Detection,Visual Relationship Detection,4,0,,,,0
+Grasp Generation,3D Hand Pose Estimation,4,0,,,,2
+diffusion-generated faces detection,DeepFake Detection,4,0,,,,0
+Cross-corpus,Facial Expression Recognition (FER),4,0,,,,0
+Micro-Expression Spotting,Facial Expression Recognition (FER),4,0,,,,0
+Talking Head Generation,Face Generation,4,0,,,,1
+Facial expression generation,Face Generation,4,0,,,,0
+Kinship face generation,Face Generation,4,0,,,,0
+Few-shot Age Estimation,Age Estimation,4,0,,,,0
+Face Image Quality,Face Quality Assessement,4,0,,,,0
+Unconstrained Lip-synchronization,Talking Head Generation,4,0,,,,0
+Constrained Lip-synchronization,Talking Face Generation,4,0,,,,0
+Face  Dubbing,Talking Face Generation,4,0,,,,0
+Grasp rectangle generation,Grasp Generation,4,0,,,,0
+Controllable Grasp Generation,Grasp Generation,4,0,,,,0
+Cube Engraving Classification,3D Object Classification,4,0,,,,0
+One-Shot Face Stylization,Image Stylization,4,0,,,,0
+Video Super-Resolution,3D Face Animation,5,16,,Vimeo-90K; Xiph HD - 4x upscaling; Vid4 - 4x upscaling - BD degradation; SPMCS - 4x upscaling; TbD-3D; UDM10 - 4x upscaling; TbD; MSU Video Upscalers: Quality Enhancement; MSU Super-Resolution for Video Compression; MSU Video Super Resolution Benchmark: Detail Restoration,,1
+Video Super-Resolution,3D Face Animation,5,16,,Vimeo-90K; Xiph HD - 4x upscaling; Vid4 - 4x upscaling - BD degradation; SPMCS - 4x upscaling; TbD-3D; UDM10 - 4x upscaling; TbD; MSU Video Upscalers: Quality Enhancement; MSU Super-Resolution for Video Compression; MSU Video Super Resolution Benchmark: Detail Restoration,,1
+Grasp rectangle generation,Grasp Generation,5,0,,,,0
+Controllable Grasp Generation,Grasp Generation,5,0,,,,0
+Grasp rectangle generation,Grasp Generation,5,0,,,,0
+Controllable Grasp Generation,Grasp Generation,5,0,,,,0
+Face Image Quality,Face Quality Assessement,5,0,,,,0
+Unconstrained Lip-synchronization,Talking Head Generation,5,0,,,,0
+Constrained Lip-synchronization,Talking Face Generation,5,0,,,,0
+Face  Dubbing,Talking Face Generation,5,0,,,,0
+OPD: Single-view 3D Openable Part Detection,motion prediction,5,0,,,,0
+OPD: Single-view 3D Openable Part Detection,motion prediction,5,0,,,,0
+OPD: Single-view 3D Openable Part Detection,motion prediction,5,0,,,,0
+Key-Frame-based Video Super-Resolution (K = 15),Video Super-Resolution,6,1,,,,0
+Key-Frame-based Video Super-Resolution (K = 15),Video Super-Resolution,6,1,,,,0

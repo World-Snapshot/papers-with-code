@@ -1,0 +1,1604 @@
+Task Name,Parent Task,Level,Dataset Count,Description,Benchmarks,Metrics,Children Count
+Question Answering,,0,416,,NExT-QA (Open-ended VideoQA); DROP Test; MuLD (NarrativeQA); MedQA; SIQA; MRQA; CODAH; Molweni; OpenBookQA; SchizzoSQUAD,,10
+Classification,,0,222,,RTE; Radar Dataset (DIAT-μRadHAR: Radar micro-Doppler Signature dataset for Human Suspicious Activity Recognition); MixedWM38; N-ImageNet; Chest X-Ray Images (Pneumonia); MHIST; SGD; HOWS long; Coordinated Reply Attacks in Influence Operations: Characterization and Detection; CWRU Bearing Dataset,,10
+Language Modelling,,0,166,,Text8 dev; PhilPapers; 100 sleep nights of 8 caregivers; FewCLUE (BUSTM); BIG-bench-lite; CLUE (WSC1.1); FewCLUE (OCNLI-FC); OpenWebText; CLUE (DRCD); OpenWebtext2,,6
+Text Generation,,0,162,,CNN/Daily Mail; LDC2016E25; CrimeStats; ReDial; Winogrande TR; Unruly; OpenBookQA; ARC Challenge (25-Shot); Open-Mindedness (0-shot); OpenWebText,,10
+Sentiment Analysis,,0,105,,ChnSentiCorp; IMDb Movie Reviews; FiQA; SLUE; IITP Movie Reviews Sentiment; 122 People - Passenger Behavior Recognition Data; TweetEval; RuSentiment; BanglaBook; Amazon Polarity,,10
+Text Summarization,,0,98,,BBC XSum; WikiHow; GigaWord; MeQSum; DUC 2004 Task 1; OrangeSum; GigaWord-10k; CL-SciSumm; LCSTS; ACI-Bench,,10
+Domain Adaptation,,0,96,,HMDBfull-to-UCF; LeukemiaAttri; GTA-to-FoggyCityscapes; Sim10k; Noisy-SYND-to-MNIST; GTAV+Synscapes to Cityscapes; MoLane; GTAV to Cityscapes+Mapillary; UCF-to-Olympic; SYNTHIA-to-FoggyCityscapes,,0
+Reading Comprehension,,0,95,,ReCAM; RACE; MuSeRC; RadQA; AdversarialQA; ReClor; CrowdSource QA,,10
+Machine Translation,,0,83,,Business Scene Dialogue EN-JA; IWSLT2015 English-Vietnamese; IWSLT2015 German-English; WMT 2018 English-Finnish; IWSLT2017 French-English; WMT 2022 English-Russian; WMT 2022 Czech-English; WMT2017 Finnish-English; WMT 2017 Latvian-English; WMT 2018 English-Estonian,,10
+Natural Language Inference,,0,81,,AX; RTE; MultiNLI; ANLI test; fever-nli; MedNLI; MNLI + SNLI + ANLI + FEVER; QNLI; GLUE; MultiNLI Dev,,3
+Node Classification,,0,76,,MuMiN-medium; pokec; Coauthor CS; DBLP: 20 nodes per class; London; Telegram (Directed Graph label rate 60%); Wiki-Vote; Amazon Photo; Wisconsin; ogbn-products: 20 nodes per class,,0
+Natural Language Understanding,,0,72,,DialoGLUE full; LexGLUE; GLUE; STREUSLE; PDP60; DialoGLUE fewshot,,2
+Code Generation,,0,70,,BigCodeBench-Instruct; HumanEval-ET; Multi-Source Python Code Corpus; TACO-BAAI; WebApp1K-React; CoNaLa-Ext; PECC; Android Repos; Django; MBPP-ET,,5
+Common Sense Reasoning,,0,56,,RWSD; ReCoRD; CODAH; PARus; Russian Event2Mind; Visual Dialog v0.9; Event2Mind test; WinoGrande; ARC (Challenge); BIG-bench (Sports Understanding),,10
+Recommendation Systems,,0,56,,Douban Monti; Gowalla; Amazon Games; MovieLens 10M; Yelp2018; Amazon-Movies; Amazon Books; ReDial; Flixster; Amazon Men,,0
+Word Embeddings,,0,53,,,,4
+Coreference Resolution,,0,45,,STM-coref; Quizbowl; WikiCoref; GAP; CoNLL12; XWinograd EN; DocRED-IE; The ARRAU Corpus; CoNLL 2012; Winograd Schema Challenge,,2
+Few-Shot Learning,,0,45,,Mini-ImageNet - 20-Shot Learning; Mini-Imagenet 5-way (1-shot); MedNLI; OxfordPets; EuroSAT; MR; food101; UCF101; Mini-ImageNet - 1-Shot Learning; CaseHOLD,,10
+Zero-Shot Learning,,0,43,,How2QA; TVQA; COCO-MLT; AwA2; CUB-200-2011; VOC-MLT; EuroSAT; ImageNet_CN; UCF101; Oxford-IIIT Pets,,0
+Unsupervised Domain Adaptation,,0,34,,Duke to Market; PreSIL to KITTI; ImageNet-R; GTAV-to-Cityscapes Labels; UCF-HMDB; VehicleID to VERI-Wild Medium; EPIC-KITCHENS-100; Veri-776 to VehicleID Medium; PACS; Duke to MSMT,,0
+Domain Generalization,,0,31,,"ImageNet-R; Stylized-ImageNet; NICO Vehicle; PACS; ImageNet-Sketch; ImageNet-A; NICO Animal; GTA-to-Avg(Cityscapes,BDD,Mapillary); VLCS; VizWiz-Classification",,0
+Multi-Label Classification,,0,30,,ChestX-ray14; MRNet; MIMIC-CXR; PASCAL VOC 2007; MLRSNet; MS-COCO; PASCAL VOC 2012; CheXpert; OpenImages-v6; NUS-WIDE,,0
+Slot Filling,,0,28,,Dialogue State Tracking Challenge; CAIS; KILT: Zero Shot RE; MASSIVE; MULTIWOZ 2.2; KILT: T-REx; MixATIS; MixSNIPS; ATIS; ATIS (vi),,2
+Mathematical Reasoning,,0,26,,Lila (IID); PGPS9K; MATH500; FrontierMath; AMC23; Lila (OOD); GSM8K; UniGeo; GeoQA; UniGeo (PRV),,7
+Part-Of-Speech Tagging,,0,26,,ANTILLES; UD2.5 test; Sequoia Treebank; Spoken Corpus; Penn Treebank; ARK; Morphosyntactic-analysis-dataset; DaNE; Tweebank; ParTUT,,1
+Question Generation,,0,25,,GrailQA-IID; COCO Visual Question Answering (VQA) real images 1.0 open ended; GrailQA-Compositional; SQuAD; GrailQA-Zero-Shot; Natural Questions; FairytaleQA; Visual Question Generation; WeiboPolls; SQuAD1.1,,1
+Language Identification,,0,20,,Nordic Language Identification; VoxForge; OpenSubtitles; GlotLID-C; VOXLINGUA107; Universal Dependencies,,2
+Text Simplification,,0,20,,DEplain-web-doc; EurekaAlert; Wiki-Auto + Turk; WikiLargeFR; TurkCorpus; ASSET; PWKP / WikiSmall; DEplain-web-sent; DEplain-APA-doc; DEplain-APA-sent,,0
+Time Series Classification,,0,19,,DigitShapes; ACSF1; Heartbeat; AATLD Gesture Recognition; LP5; ERing; ArabicDigits; UEA; EigenWorms; KickvsPunch,,0
+Transfer Learning,,0,18,,COCO70; 100 sleep nights of 8 caregivers; KITTI Object Tracking Evaluation 2012; Office-Home; BanglaLekha Isolated Dataset; Retinal Fundus MultiDisease Image Dataset (RFMiD),,0
+Logical Reasoning,,0,18,,BIG-bench (Formal Fallacies Syllogisms Negation); Winograd Automatic; BIG-bench (Reasoning About Colored Objects); BIG-bench (Temporal Sequences); BIG-bench (Penguins In A Table); RuWorldTree; BIG-bench (Logic Grid Puzzle); LingOly; BIG-bench (Logical Fallacy Detection); BIG-bench (StrategyQA),,0
+Binary Classification,,0,17,,dev; quora tr; Glyphnet Dataset; quora duplicates; wmt16; snli tr; msmarco tr; xnli tr; kickstarter; fake,,6
+Sign Language Translation,,0,17,,RWTH-PHOENIX-Weather 2014 T; CSL-Daily; How2Sign; ASLG-PC12; LSA-T; Mediapi-RGB,,0
+Translation,,0,17,,MuLD (OpenSubtitles); small content; Oxford Radar RobotCar Dataset; PhoMT,,0
+Knowledge Graph Completion,,0,16,,DBbook2014; WN18RR; DBP-5L (English); DBP-5L (Greek); DPB-5L (French); MovieLens 1M; FB15k-237,,4
+Word Sense Disambiguation,,0,16,,BIG-bench (Anachronisms); WiC-TSV; SensEval 2 Lexical Sample; FEWS; SemEval 2007 Task 7; SemEval 2015 Task 13; Words in Context; TS50; RUSSE; SensEval 3 Task 1,,1
+Zero-shot Text Search,,0,16,,,,0
+Dependency Parsing,,0,15,,UD2.5 test; CoNLL-2009; Spoken Corpus; Sequoia Treebank; Chinese Treebank; Penn Treebank; DaNE; GENIA - LAS; Universal Dependency Treebank; Tweebank,,5
+Token Classification,,0,15,,conll2002; peoples_daily_ner; x_glue; mim_gold_ner; grit-id/id_nergrit_corpus ner; nielsr/funsd-layoutlmv3; wikiann sk; ingredients_yes_no; MNIST; SROIE,,2
+Sentiment Classification,,0,15,,,,0
+Node Classification on Non-Homophilic (Heterophilic) Graphs,,0,15,,,,0
+Hierarchical Multi-label Classification,,0,15,,,,0
+Code Search,,0,14,,; CodeSearchNet; CodeXGLUE - WebQueryTest; CodeSearchNet - Ruby; CoIR; CodeXGLUE - AdvTest; CoDesc,,0
+Intent Classification,,0,14,,KUAKE-QIC; ORCAS-I; SLURP; MASSIVE,,0
+Document Layout Analysis,,0,13,,Document Layout Recognition Challenge mini-dev; RVL-CDIP; D4LA; Document Layout Recognition Challenge test; PubLayNet val; U-DIADS-Bib,,0
+Relational Reasoning,,0,12,,CLUTRR (k=3),,0
+Code Completion,,0,12,,Defects4J; CodeXGLUE - Github Java Corpus; Rambo Benchmark; SAFIM; CodeXGLUE - PY150; DotPrompts,,0
+Chatbot,,0,11,,AlpacaEval,,1
+Generalizable Person Re-identification,,0,11,,,,0
+Sequential Recommendation,,0,11,,,,0
+Audio Generation,,0,11,,"Symphony music; Classical music, 5 seconds at 12 kHz; AudioCaps",,0
+Synthetic Data Generation,,0,11,,UNSW-NB15; UCI Epileptic Seizure Recognition,,0
+Mathematical Question Answering,,0,11,,Geometry3K; GeoS,,0
+Multimodal Reasoning,,0,11,,AlgoPuzzleVQA; MATH-V; REBUS,,0
+Binary text classification,,0,10,,"MixSet (Binary); MAGE (Arbitrary-domains & Arbitrary-models); Ghostbuster (All Domains); ECHR Non-Anonymized; TURINGBENCH (Turing Test, GPT-3); TweepFake; TURINGBENCH (Turing Test, FAIR_wmt20)",,1
+Conversational Response Generation,,0,10,,,,1
+Discourse Parsing,,0,10,,Instructional-DT (Instr-DT); RST-DT; Molweni; STAC,,3
+Generalized Zero-Shot Learning,,0,10,,,,0
+Robust classification,,0,10,,,,0
+Topic Classification,,0,10,,,,0
+Audio Tagging,,0,10,,AudioSet,,0
+Citation Recommendation,,0,10,,,,0
+Music Classification,,0,10,,,,0
+Handwriting generation,,0,10,,,,0
+Text-to-Code Generation,,0,10,,CodeXGLUE - CONCODE,,0
+Explanation Generation,,0,9,,VQA-X; e-SNLI-VE; WHOOPS!; CLEVR-X; VCR,,0
+Person Search,,0,9,,CUHK-SYSU; PRW,,0
+Anomaly Classification,,0,9,,VisA-AC; MVTec-AC; GoodsAD; VisA; MVTecAD,,0
+Abusive Language,,0,9,,,,0
+Arithmetic Reasoning,,0,9,,MathMC; MultiArith; Game of 24; GSM8K; MathToF,,0
+Summarization,,0,8,,ccdv/arxiv-summarization; scientific_papers; XSum; SAMSum; BillSum; big_patent; launch/gov_report; bazzhangz/sumdataset; kmfoda/booksum; SAMSum Corpus: A Human-annotated Dialogue Dataset for Abstractive Summarization,,2
+General Classification,,0,8,,iris; XOR; Fashion-MNIST; Mice Protein; CVR; Shrutime; ISOLET; CVE to CWE mapping; MNIST; Wine,,0
+Few-Shot Learning - 4 shots,,0,8,,,,0
+Formation Energy,,0,8,,OQMD v1.2; Salicylic Acid; GeTe; QM9; Materials Project; LiPS20; JARVIS-DFT; Ethanol; OQM9HK; Aspirin,,0
+Gloss-free Sign Language Translation,,0,8,,,,0
+ECG Classification,,0,8,,UCR Time Series Classification Archive; PhysioNet Challenge 2021; PhysioNet Challenge 2020; PTB-XL; Electrocardiography (ECG) on Telehealth Network of Minas Gerais (TNMG),,0
+Chinese Reading Comprehension,,0,8,,,,0
+Heterogeneous Node Classification,,0,8,,,,0
+Translation deu-eng,,0,8,,,,0
+Translation eng-deu,,0,8,,,,0
+Keyword Spotting,,0,8,,Google Speech Commands (v2); FKD; VoxForge; QUESST; TAU Urban Acoustic Scenes 2019; TensorFlow; Google Speech Commands V2 12; Google Speech Commands; hey Siri; Google Speech Commands V2 35,,0
+Causal Inference,,0,8,,Jobs; IDHP; IHDP,,0
+Stance Classification,,0,8,,,,0
+Code Classification,,0,8,,,,0
+Code Summarization,,0,8,,,,0
+Multilingual NLP,,0,8,,,,0
+Response Generation,,0,8,,MMConv; ArgSciChat; SIMMC2.0,,0
+Language Acquisition,,0,7,,SLAM 2018,,1
+Source Code Summarization,,0,7,,Java scripts; CodeSearchNet; Summarizing Source Code using a Neural Attention Model - C#; DeepCom-Java; CodeSearchNet - Python; ParallelCorpus-Python; Summarizing Source Code using a Neural Attention Model - SQL; Summarizing Source Code using a Neural Attention Model - Python; CoDesc,,1
+imbalanced classification,,0,7,,,,0
+Bayesian Inference,,0,7,,cifar100,,0
+Sequence-to-sequence Language Modeling,,0,7,,,,0
+News Recommendation,,0,7,,,,0
+Tabular Data Generation,,0,7,,Diabetes; SICK; Travel; California Housing Prices; HELOC; Adult Census Income,,0
+Malware Classification,,0,7,,Microsoft Malware Classification Challenge; Malimg Dataset; MaleVis,,0
+Extreme Summarization,,0,7,,GEM-XSum; XSum; CiteSum; TLDR9+,,0
+Systematic Generalization,,0,7,,,,0
+General Reinforcement Learning,,0,7,,Obstacle Tower (Strong Gen) varied; Obstacle Tower (No Gen) varied; Obstacle Tower (No Gen) fixed; Obstacle Tower (Weak Gen) varied; Obstacle Tower (Weak Gen) fixed; Obstacle Tower (Strong Gen) fixed,,0
+News Summarization,,0,7,,,,0
+Masked Language Modeling,,0,7,,,,0
+Age And Gender Classification,,0,6,,BN-AuthProf; Adience Age; Adience Gender,,1
+Constituency Parsing,,0,6,,CTB7; ATB; Penn Treebank; CTB5,,1
+Document Text Classification,,0,6,,Tobacco-3482; CUB-200-2011; Food-101; Tobacco small-3482,,3
+Knowledge Distillation,,0,6,,en pt br; en es; CIFAR-100; PASCAL VOC; big content; ImageNet; COCO 2017 val; COCO (Common Objects in Context); KITTI; Cityscapes,,2
+Meme Classification,,0,6,,Hateful Memes; Tamil Memes; MultiOFF,,1
+News Generation,,0,6,,,,1
+Concept-based Classification,,0,6,,CelebA; AwA2; CUB-200-2011; CheXpert; aPY,,0
+Multi-Modal Document Classification,,0,6,,,,0
+Generative Question Answering,,0,6,,,,0
+Environmental Sound Classification,,0,6,,ESC-50; UrbanSound8K; FSD50K,,0
+Text Spotting,,0,6,,Inverse-Text; SCUT-CTW1500; Total-Text; ICDAR 2015,,0
+Source-Free Domain Adaptation,,0,6,,Cityscapes to Dark Zurich; SYNTHIA-to-Cityscapes; Cityscapes to ACDC; VisDA-2017; PACS; GTA5 to Cityscapes; 	VIPER-to-Cityscapes,,0
+Multi-Source Unsupervised Domain Adaptation,,0,6,,,,0
+Compositional Zero-Shot Learning,,0,6,,,,0
+Lexical Entailment,,0,6,,,,0
+Multimodal Recommendation,,0,6,,,,0
+Genre classification,,0,6,,,,0
+Meeting Summarization,,0,6,,ICSI Meeting Corpus; AMI Meeting Corpus,,0
+Text-to-Music Generation,,0,6,,MusicCaps; MusicBench,,0
+text annotation,,0,6,,,,0
+Text Clustering,,0,5,,Urdu News Headlines Dataset; 20 Newsgroups; MTEB,,3
+Generalized Few-Shot Learning,,0,5,,SUN; CUB; AwA2,,0
+Reading Comprehension (Zero-Shot),,0,5,,,,0
+Reading Comprehension (One-Shot),,0,5,,,,0
+Reading Comprehension (Few-Shot),,0,5,,,,0
+Synthetic-to-Real Translation,,0,5,,,,0
+Variational Inference,,0,5,,,,0
+Universal Domain Adaptation,,0,5,,Office-Home; Office-31; DomainNet; VisDA2017,,0
+Paper generation,,0,5,,,,0
+AMR-to-Text Generation,,0,5,,,,0
+Translation eng-fra,,0,5,,,,0
+Morphological Analysis,,0,5,,,,0
+Zero-shot Classification (unified classes),,0,5,,,,0
+Cross-Lingual Question Answering,,0,5,,,,0
+Multilabel Text Classification,,0,5,,,,0
+Material Classification,,0,5,,,,0
+Graph Generation,,0,5,,Toulouse Road Network,,0
+Texture Classification,,0,5,,,,0
+Crop Classification,,0,5,,CropHarvest - Brazil; CropHarvest multicrop - Global; CropHarvest - Global; CropHarvest - Kenya; CropHarvest - Togo,,0
+Knowledge Probing,,0,5,,,,0
+Multi-task Language Understanding,,0,5,,,,0
+Speech-to-Speech Translation,,0,5,,TAT; CVSS; FLEURS X-eng,,0
+Gender Classification,,0,5,,,,0
+Long-Context Understanding,,0,5,,Ada-LEval (TSort); Ada-LEval (BestAnswer); LongBench; L-Eval; MMNeedle,,0
+Speech-to-Text Translation,,0,4,,MuST-C; FLEURS eng-X; MediBeng; CoVoST 2 eng-X; MuST-C EN->FR; libri-trans; CoVoST 2 X-eng; MuST-C EN->ES; MuST-C EN->DE; MuST-C EN->NL,,1
+Text2text Generation,,0,4,,lmqg/qg_squad; lmqg/qg_jaquad; MTTN: Multi-Pair Text to Text Narratives for Prompt Generation,,3
+Weakly Supervised Classification,,0,4,,ShARe/CLEF 2014: Task 2 Disorders; THYME-2016,,1
+Multi Label Text Classification,,0,4,,,,0
+Multi-Human Parsing,,0,4,,,,0
+Predicate Classification,,0,4,,,,0
+Zero-shot Audio Classification,,0,4,,,,0
+Intent Discovery,,0,4,,SNIPS; ATIS; Persian-ATIS,,0
+Unsupervised Text Classification,,0,4,,,,0
+Zero-Shot Text Classification,,0,4,,,,0
+Citation Intent Classification,,0,4,,,,0
+Partial Domain Adaptation,,0,4,,,,0
+Multi-target Domain Adaptation,,0,4,,Office-Home; Office-31; DomainNet; OBJ-MDA,,0
+Knowledge Graph Embedding,,0,4,,FB15k,,0
+Breast Tumour Classification,,0,4,,PCam,,0
+Logical Reasoning Question Answering,,0,4,,,,0
+Translation ces-eng,,0,4,,,,0
+Translation deu-fra,,0,4,,,,0
+Spoken language identification,,0,4,,,,0
+Music Auto-Tagging,,0,4,,TimeTravel; Million Song Dataset; MagnaTagATune; MagnaTagATune (clean),,0
+Music Tagging,,0,4,,,,0
+End-To-End Dialogue Modelling,,0,4,,,,0
+Cloze (multi-choices) (Zero-Shot),,0,4,,,,0
+Cloze (multi-choices) (Few-Shot),,0,4,,,,0
+Morphological Tagging,,0,4,,,,0
+Translation eng-spa,,0,4,,,,0
+Translation ben-eng,,0,4,,,,0
+Grasp Generation,,0,4,,,,0
+text-based games,,0,4,,,,0
+Multi-hop Question Answering,,0,4,,MuSiQue-Ans; ConcurrentQA,,0
+Temporal/Casual QA,,0,4,,,,0
+Math Word Problem SolvingΩ,,0,4,,,,0
+Music Recommendation,,0,4,,,,0
+Text Reranking,,0,4,,,,0
+Sports Understanding,,0,4,,,,0
+Out-of-Distribution Generalization,,0,4,,,,0
+Referring expression generation,,0,4,,ColonINST-v1 (Seen); ColonINST-v1 (Unseen),,0
+tabular-classification,,0,4,,,,0
+Natural Language Queries,,0,3,,Ego4D,,1
+Classification with Binary Weight Network,,0,3,,,,0
+Sentence-Embedding,,0,3,,,,0
+Classification with Binary Neural Network,,0,3,,,,0
+Human Parsing,,0,3,,4D-DRESS; PASCAL Context,,0
+Few-Shot Class-Incremental Learning,,0,3,,,,0
+text2text-generation,,0,3,,,,0
+SQL Parsing,,0,3,,,,0
+Chinese Sentiment Analysis,,0,3,,,,0
+Unsupervised Text Style Transfer,,0,3,,,,0
+Multibehavior Recommendation,,0,3,,,,0
+Molecular Graph Generation,,0,3,,,,0
+Blended-target Domain Adaptation,,0,3,,,,0
+Talking Head Generation,,0,3,,VoxCeleb1 - 1-shot learning; 100 sleep nights of 8 caregivers; VoxCeleb2 - 32-shot learning; VoxCeleb1 - 8-shot learning; VoxCeleb2 - 1-shot learning; VoxCeleb1 - 32-shot learning; VoxCeleb2 - 8-shot learning,,0
+Annotated Code Search,,0,3,,,,0
+Automatic Sleep Stage Classification,,0,3,,Sleep-EDF; ISRUC-Sleep,,0
+Topological Data Analysis,,0,3,,,,0
+Sentence Fusion,,0,3,,,,0
+Few-Shot Point Cloud Classification,,0,3,,,,0
+Recipe Generation,,0,3,,allrecipes.com; Food.com; Now You're Cooking!; Recipe1M; RecipeNLG,,0
+Translation ces-deu,,0,3,,,,0
+Graph Similarity,,0,3,,IMDb,,0
+Spoken Dialogue Systems,,0,3,,,,0
+Translation spa-eng,,0,3,,,,0
+Translation afr-deu,,0,3,,,,0
+Translation afr-eng,,0,3,,,,0
+Translation cat-eng,,0,3,,,,0
+Translation rus-por,,0,3,,,,0
+Translation eng-por,,0,3,,,,0
+Translation ara-eng,,0,3,,,,0
+Translation cym-eng,,0,3,,,,0
+Translation dan-eng,,0,3,,,,0
+Translation heb-eng,,0,3,,,,0
+Translation hun-eng,,0,3,,,,0
+Translation cat-fra,,0,3,,,,0
+Translation glg-spa,,0,3,,,,0
+Translation por-fra,,0,3,,,,0
+Translation por-spa,,0,3,,,,0
+Translation dan-spa,,0,3,,,,0
+Translation ara-fra,,0,3,,,,0
+Translation heb-fra,,0,3,,,,0
+Translation heb-por,,0,3,,,,0
+Translation afr-spa,,0,3,,,,0
+Translation ceb-eng,,0,3,,,,0
+Translation ces-spa,,0,3,,,,0
+Translation hin-eng,,0,3,,,,0
+Translation hun-deu,,0,3,,,,0
+Translation hun-fra,,0,3,,,,0
+Translation hun-por,,0,3,,,,0
+Translation ind-deu,,0,3,,,,0
+Translation ind-eng,,0,3,,,,0
+Translation ind-fra,,0,3,,,,0
+Translation mar-eng,,0,3,,,,0
+Arabic Text Diacritization,,0,3,,CATT; Tashkeela,,0
+Font Generation,,0,3,,,,0
+automatic-speech-translation,,0,3,,,,0
+Contextual Embedding for Source Code,,0,3,,,,0
+Short-Text Conversation,,0,3,,,,0
+Food recommendation,,0,3,,Oktoberfest Food Dataset,,0
+Knowledge Base Population,,0,3,,LM-KBC 2023,,0
+Session-Based Recommendations,,0,3,,,,0
+Intent Classification and Slot Filling,,0,3,,,,0
+Facial Makeup Transfer,,0,3,,,,0
+Text to Speech,,0,3,,,,0
+Document Translation,,0,3,,,,0
+Translation hin-fra,,0,3,,,,0
+Music Style Transfer,,0,3,,,,0
+Probing Language Models,,0,3,,KAMEL,,0
+Word Similarity,,0,3,,WS353,,0
+ContextNER,,0,3,,,,0
+Land Cover Classification,,0,3,,,,0
+Text-based de novo Molecule Generation,,0,3,,ChEBI-20,,0
+text similarity,,0,3,,,,0
+Lemmatization,,0,3,,,,0
+Word Translation,,0,3,,,,0
+Data Summarization,,0,3,,,,0
+Text Pair Classification,,0,3,,,,0
+Document Shadow Removal,,0,3,,,,0
+Sentence-Pair Classification,,0,3,,,,0
+Music Question Answering,,0,3,,MusicQA,,0
+Commonsense Causal Reasoning,,0,3,,,,0
+Multi-modal Recommendation,,0,3,,,,0
+TruthfulQA,,0,3,,,,0
+Informal-to-formal Style Transfer,,0,3,,,,0
+NLP based Person Retrival,,0,2,,,,1
+Sentence Completion,,0,2,,HellaSwag,,1
+Facial Expression Translation,,0,2,,,,0
+Point Cloud Generation,,0,2,,ShapeNet Chair; ShapeNet; ShapeNet Car; ShapeNet Airplane,,0
+NR-IQA,,0,2,,,,0
+Zero-shot Relation Classification,,0,2,,,,0
+Passage Re-Ranking,,0,2,,TREC-PM; MS MARCO,,0
+Chinese Sentence Pair Classification,,0,2,,,,0
+Linear-Probe Classification,,0,2,,,,0
+Environment Sound Classification,,0,2,,,,0
+One-shot Unsupervised Domain Adaptation,,0,2,,,,0
+Explainable Recommendation,,0,2,,,,0
+Movie Recommendation,,0,2,,,,0
+Multi-label zero-shot learning,,0,2,,,,0
+CCG Supertagging,,0,2,,CCGbank,,0
+Unconditional Molecule Generation,,0,2,,QM9; GEOM-DRUGS,,0
+Extended Summarization,,0,2,,,,0
+Open-Set Multi-Target Domain Adaptation,,0,2,,,,0
+Few-Shot NLI,,0,2,,,,0
+Zero-Shot Learning + Domain Generalization,,0,2,,,,0
+Cross-Lingual POS Tagging,,0,2,,,,0
+Reasoning Chain Explanations,,0,2,,,,0
+Translation fra-eng,,0,2,,,,0
+Translation ces-fra,,0,2,,,,0
+Dialogue Rewriting,,0,2,,CANARD; Rewrite; Multi-Rewrite,,0
+domain classification,,0,2,,,,0
+Cross-Lingual Sentiment Classification,,0,2,,,,0
+Phrase Ranking,,0,2,,KP20k; KPTimes,,0
+Phrase Tagging,,0,2,,KP20k; KPTimes,,0
+Zero-shot Audio Captioning,,0,2,,,,0
+Music Genre Classification,,0,2,,,,0
+Cross-Lingual Paraphrase Identification,,0,2,,,,0
+Re-Ranking,,0,2,,,,0
+Natural Language Inference (Few-Shot),,0,2,,,,0
+Veracity Classification,,0,2,,,,0
+Translation tur-eng,,0,2,,,,0
+Translation deu-afr,,0,2,,,,0
+Translation eng-afr,,0,2,,,,0
+Translation eng-nld,,0,2,,,,0
+Translation nld-eng,,0,2,,,,0
+Translation rus-eng,,0,2,,,,0
+Translation rus-deu,,0,2,,,,0
+Translation rus-spa,,0,2,,,,0
+Translation bel-spa,,0,2,,,,0
+Translation eng-cat,,0,2,,,,0
+Translation eng-tur,,0,2,,,,0
+Translation bul-eng,,0,2,,,,0
+Translation gle-eng,,0,2,,,,0
+Translation ell-eng,,0,2,,,,0
+Translation est-eng,,0,2,,,,0
+Translation isl-eng,,0,2,,,,0
+Translation fao-eng,,0,2,,,,0
+Translation hrv-eng,,0,2,,,,0
+Translation pol-eng,,0,2,,,,0
+Translation kor-eng,,0,2,,,,0
+Translation cat-por,,0,2,,,,0
+Translation cat-spa,,0,2,,,,0
+Translation fra-por,,0,2,,,,0
+Translation fra-spa,,0,2,,,,0
+Translation glg-por,,0,2,,,,0
+Translation ita-por,,0,2,,,,0
+Translation ita-spa,,0,2,,,,0
+Translation ron-fra,,0,2,,,,0
+Translation ron-spa,,0,2,,,,0
+Translation bul-spa,,0,2,,,,0
+Translation hrv-fra,,0,2,,,,0
+Translation hrv-spa,,0,2,,,,0
+Translation mkd-spa,,0,2,,,,0
+Translation dan-fra,,0,2,,,,0
+Translation isl-spa,,0,2,,,,0
+Translation ara-spa,,0,2,,,,0
+Translation bul-deu,,0,2,,,,0
+Translation hrv-deu,,0,2,,,,0
+Translation deu-spa,,0,2,,,,0
+Translation heb-spa,,0,2,,,,0
+Translation fas-fra,,0,2,,,,0
+Translation dan-deu,,0,2,,,,0
+Translation deu-por,,0,2,,,,0
+Translation ell-deu,,0,2,,,,0
+Translation ell-fra,,0,2,,,,0
+Translation ell-por,,0,2,,,,0
+Translation ell-spa,,0,2,,,,0
+Translation epo-deu,,0,2,,,,0
+Translation epo-eng,,0,2,,,,0
+Translation epo-por,,0,2,,,,0
+Translation epo-spa,,0,2,,,,0
+Translation est-deu,,0,2,,,,0
+Translation eus-deu,,0,2,,,,0
+Translation hun-spa,,0,2,,,,0
+Translation hye-eng,,0,2,,,,0
+Translation ilo-eng,,0,2,,,,0
+Translation isl-deu,,0,2,,,,0
+Translation ita-deu,,0,2,,,,0
+Translation jpn-eng,,0,2,,,,0
+Translation jpn-por,,0,2,,,,0
+Translation jpn-spa,,0,2,,,,0
+Translation kat-eng,,0,2,,,,0
+Translation mal-eng,,0,2,,,,0
+Translation mlt-eng,,0,2,,,,0
+Translation pes-eng,,0,2,,,,0
+Translation pol-deu,,0,2,,,,0
+Translation pol-fra,,0,2,,,,0
+Translation pol-por,,0,2,,,,0
+Translation pol-spa,,0,2,,,,0
+Translation por-deu,,0,2,,,,0
+Translation ron-deu,,0,2,,,,0
+Translation ron-eng,,0,2,,,,0
+Translation run-eng,,0,2,,,,0
+Translation run-fra,,0,2,,,,0
+Common Sense Reasoning (Zero-Shot),,0,2,,,,0
+Knowledge Tracing,,0,2,,EdNet; Assistments,,0
+Paper generation (Conclusion-to-title),,0,2,,,,0
+Age Classification,,0,2,,,,0
+Physiological Computing,,0,2,,,,0
+English-Ukrainian Translation,,0,2,,,,0
+Context Query Reformulation,,0,2,,,,0
+Zero-Shot Region Description,,0,2,,,,0
+Extreme Multi-Label Classification,,0,2,,,,0
+Inference Attack,,0,2,,,,0
+Adversarial Text,,0,2,,,,0
+Vietnamese Machine Reading Comprehension,,0,2,,,,0
+Multi-modal Knowledge Graph,,0,2,,,,0
+Claim Verification,,0,2,,,,0
+Caption Generation,,0,2,,,,0
+Cancer type classification,,0,2,,,,0
+Robot Manipulation Generalization,,0,2,,,,0
+Translation bel-por,,0,2,,,,0
+Translation afr-fra,,0,2,,,,0
+Translation afr-por,,0,2,,,,0
+Translation amh-eng,,0,2,,,,0
+Translation ben-deu,,0,2,,,,0
+Translation ceb-deu,,0,2,,,,0
+Translation ceb-fra,,0,2,,,,0
+Translation ceb-por,,0,2,,,,0
+Translation cym-por,,0,2,,,,0
+Translation cym-spa,,0,2,,,,0
+Translation est-por,,0,2,,,,0
+Translation gle-spa,,0,2,,,,0
+Translation hau-eng,,0,2,,,,0
+Translation hye-deu,,0,2,,,,0
+Core Psychological Reasoning,,0,2,,,,0
+Sentence ReWriting,,0,2,,,,0
+Multilingual text classification,,0,2,,,,0
+Knowledge Base Completion,,0,2,,,,0
+Code Comment Generation,,0,2,,DeepCom,,0
+General Knowledge,,0,2,,BIG-bench,,0
+Logical Fallacies,,0,2,,BIG-bench,,0
+single catogory classification,,0,2,,,,0
+Behavioral Malware Classification,,0,2,,,,0
+Job classification,,0,2,,,,0
+Vocal technique classification,,0,2,,,,0
+Sentence Ordering,,0,2,,EconLogicQA,,0
+Multilingual Machine Comprehension in English Hindi,,0,2,,Extended XQuAD,,0
+Point Cloud Classification,,0,2,,ISPRS; PointCloud-C,,0
+Text based Person Search,,0,2,,,,0
+Translation rus-fra,,0,2,,,,0
+Translation ben-fra,,0,2,,,,0
+Translation ben-por,,0,2,,,,0
+Translation ben-spa,,0,2,,,,0
+Translation hau-fra,,0,2,,,,0
+Translation hin-por,,0,2,,,,0
+Translation hin-spa,,0,2,,,,0
+Translation ind-spa,,0,2,,,,0
+Translation mar-fra,,0,2,,,,0
+Translation mar-por,,0,2,,,,0
+Translation mar-spa,,0,2,,,,0
+Translation por-eng,,0,2,,,,0
+Translation prs-eng,,0,2,,,,0
+Translation prs-fra,,0,2,,,,0
+Translation prs-por,,0,2,,,,0
+Translation prs-spa,,0,2,,,,0
+Lung Sound Classification,,0,2,,ICBHI Respiratory Sound Database,,0
+Generalized Few-Shot Classification,,0,2,,,,0
+Zero-Shot Machine Translation,,0,2,,,,0
+Conversational Search,,0,2,,,,0
+Genome Understanding,,0,2,,,,0
+Sound Classification,,0,2,,,,0
+Atomic number classification,,0,2,,CHILI-3K; CHILI-100K,,0
+Crystal system classification,,0,2,,,,0
+Space group classification,,0,2,,,,0
+Distance regression,,0,2,,CHILI-3K; CHILI-100K,,0
+World Knowledge,,0,2,,,,0
+POS Tagging,,0,2,,WSJ POS; Twitter POS,,0
+Patent classification,,0,2,,,,0
+Drug ATC Classification,,0,2,,ATC-SMILES; ATC-GRAPH,,0
+2-task Classification,,0,2,,,,0
+Document AI,,0,1,,EPHOIE,,1
+Question Similarity,,0,1,,Q2Q Arabic Benchmark,,1
+Continuously Indexed Domain Adaptation,,0,1,,,,0
+candy animation generation,,0,1,,,,0
+text-to-speech,,0,1,,,,0
+SQL-to-Text,,0,1,,WikiSQL,,0
+Sql Chatbots,,0,1,,,,0
+Error Understanding,,0,1,,CUB-200-2011; CUB-200-2011 (ResNet-101),,0
+TREC 2019 Passage Ranking,,0,1,,,,0
+Passage Ranking,,0,1,,MS MARCO,,0
+Temporal Sentence Grounding,,0,1,,Ego4D-Goalstep; Charades-STA,,0
+Self-Supervised Audio Classification,,0,1,,,,0
+Zero-Shot Environment Sound Classification,,0,1,,,,0
+Paraphrase Identification within Bi-Encoder,,0,1,,,,0
+Cross-Domain Document Classification,,0,1,,,,0
+Multi-Media Recommendation,,0,1,,,,0
+Recommendation Systems (Item cold-start),,0,1,,,,0
+Sparse Representation-based Classification,,0,1,,,,0
+Concept-To-Text Generation,,0,1,,,,0
+Few-shot Age Estimation,,0,1,,,,0
+Unsupervised Domain Adaptationn,,0,1,,,,0
+cross-domain few-shot learning,,0,1,,,,0
+Memex Question Answering,,0,1,,MemexQA,,0
+Single-Source Domain Generalization,,0,1,,PACS; Digits-five,,0
+Thoracic Disease Classification,,0,1,,,,0
+Pulmonary Artery–Vein Classification,,0,1,,,,0
+Lung Nodule Classification,,0,1,,LIDC-IDRI,,0
+Chinese Document Classification,,0,1,,,,0
+Graph Ranking,,0,1,,ogbg-molfreesolv; ogbg-mollipo; ZINC; ogbg-molesol,,0
+Sentence Similarity,,0,1,,,,0
+LWR Classification,,0,1,,,,0
+Pill Classification (Both Sides),,0,1,,,,0
+Translation fra-deu,,0,1,,,,0
+Entity Cross-Document Coreference Resolution,,0,1,,,,0
+Mitigating Contextual Bias,,0,1,,,,0
+Semi-supervised Domain Adaptation,,0,1,,,,0
+Cross-Lingual Bitext Mining,,0,1,,BUCC Russian-to-English; BUCC French-to-English; BUCC Chinese-to-English; BUCC German-to-English,,0
+Graph Question Answering,,0,1,,GQA,,0
+Pitch Classification,,0,1,,,,0
+Cross-Lingual ASR,,0,1,,,,0
+Speech-to-Text,,0,1,,,,0
+Open Knowledge Graph Embedding,,0,1,,,,0
+Legal Document Summarization,,0,1,,,,0
+Unsupervised Text Summarization,,0,1,,,,0
+Text Infilling,,0,1,,,,0
+Procedural Text Understanding,,0,1,,,,0
+Natural Language Inference (Zero-Shot),,0,1,,,,0
+Natural Language Inference (One-Shot),,0,1,,,,0
+Translation afr-nld,,0,1,,,,0
+Translation deu-nld,,0,1,,,,0
+Translation ltz-deu,,0,1,,,,0
+Translation ltz-eng,,0,1,,,,0
+Translation ltz-nld,,0,1,,,,0
+Translation nld-afr,,0,1,,,,0
+Translation nld-deu,,0,1,,,,0
+Translation fry-eng,,0,1,,,,0
+Translation fry-nld,,0,1,,,,0
+Translation hrx-deu,,0,1,,,,0
+Translation hrx-eng,,0,1,,,,0
+Translation nds-deu,,0,1,,,,0
+Translation nds-eng,,0,1,,,,0
+Translation nds-nld,,0,1,,,,0
+Translation nld-fry,,0,1,,,,0
+Translation nld-nds,,0,1,,,,0
+Translation gos-deu,,0,1,,,,0
+Translation gos-eng,,0,1,,,,0
+Translation bel-deu,,0,1,,,,0
+Translation bel-fra,,0,1,,,,0
+Translation bos_Latn-eng,,0,1,,,,0
+Translation hbs-eng,,0,1,,,,0
+Translation lav-eng,,0,1,,,,0
+Translation slv-eng,,0,1,,,,0
+Translation oci-fra,,0,1,,,,0
+Translation bul-fra,,0,1,,,,0
+Translation slv-fra,,0,1,,,,0
+Translation hbs-fra,,0,1,,,,0
+Translation hbs-spa,,0,1,,,,0
+Translation slv-deu,,0,1,,,,0
+Translation hbs-deu,,0,1,,,,0
+Translation eus-spa,,0,1,,,,0
+Translation deu-deu,,0,1,,,,0
+Translation eng-eng,,0,1,,,,0
+Translation awa-eng,,0,1,,,,0
+Translation epo-fra,,0,1,,,,0
+Translation jpn-fra,,0,1,,,,0
+Translation kaz-eng,,0,1,,,,0
+Translation fas-deu,,0,1,,,,0
+Translation msa-deu,,0,1,,,,0
+Translation msa-eng,,0,1,,,,0
+Translation ara-deu,,0,1,,,,0
+Translation cmn_Hans-eng,,0,1,,,,0
+Translation cmn_Hans-fra,,0,1,,,,0
+Translation cmn_Hans-por,,0,1,,,,0
+Translation cmn_Hans-spa,,0,1,,,,0
+Translation cmn_Hant-eng,,0,1,,,,0
+Translation cmn_Hant-fra,,0,1,,,,0
+Translation cmn_Hant-por,,0,1,,,,0
+Translation cmn_Hant-spa,,0,1,,,,0
+Translation dsb-deu,,0,1,,,,0
+Translation hsb-deu,,0,1,,,,0
+Translation ido_Latn-eng,,0,1,,,,0
+Translation kaz_Cyrl-eng,,0,1,,,,0
+Translation lfn_Latn-deu,,0,1,,,,0
+Translation lfn_Latn-eng,,0,1,,,,0
+Translation lfn_Latn-por,,0,1,,,,0
+Translation nor-deu,,0,1,,,,0
+Translation por-por,,0,1,,,,0
+Micro-expression Generation,,0,1,,,,0
+Wildly Unsupervised Domain Adaptation,,0,1,,,,0
+Common Sense Reasoning (Few-Shot),,0,1,,,,0
+Common Sense Reasoning (One-Shot),,0,1,,,,0
+multi-word expression embedding,,0,1,,,,0
+Multi Class Text Classification,,0,1,,,,0
+Controllable Grasp Generation,,0,1,,,,0
+Conversation Disentanglement,,0,1,,,,0
+Traffic Classification,,0,1,,,,0
+Fashion Understanding,,0,1,,ModaNet Dev,,0
+Complex Word Identification,,0,1,,,,0
+Audio Question Answering,,0,1,,,,0
+Point cloud classification dataset,,0,1,,,,0
+dialogue summary,,0,1,,,,0
+Chinese Landscape Painting Generation,,0,1,,,,0
+Text Complexity Assessment (GermEval 2022),,0,1,,TextComplexityDE,,0
+Lip password classification,,0,1,,,,0
+Open Knowledge Graph Canonicalization,,0,1,,,,0
+Poem meters classification,,0,1,,PCD,,0
+Multi-Domain Sentiment Classification,,0,1,,,,0
+Word-level pronunciation scoring,,0,1,,,,0
+EEG Signal Classification,,0,1,,,,0
+Keyword Spotting CSS,,0,1,,,,0
+Scale Generalisation,,0,1,,,,0
+Morphological Disambiguation,,0,1,,,,0
+Translation oci-eng,,0,1,,,,0
+Translation eng-oci,,0,1,,,,0
+Translation eng-ell,,0,1,,,,0
+Translation bul-por,,0,1,,,,0
+Translation dan-por,,0,1,,,,0
+Translation fas-spa,,0,1,,,,0
+Translation cym-fra,,0,1,,,,0
+Translation zho-eng,,0,1,,,,0
+IFC Entity Classification,,0,1,,IFCNetCore,,0
+Handwritten Word Generation,,0,1,,,,0
+TFLM sequence generation,,0,1,,,,0
+Heartbeat Classification,,0,1,,,,0
+Compositional Generalization (AVG),,0,1,,,,0
+Czech Text Diacritization,,0,1,,Multilingual Dataset for Training and Evaluating Diacritics Restoration Systems,,0
+Vietnamese Text Diacritization,,0,1,,Multilingual Dataset for Training and Evaluating Diacritics Restoration Systems,,0
+Romanian Text Diacritization,,0,1,,Multilingual Dataset for Training and Evaluating Diacritics Restoration Systems,,0
+Slovak Text Diacritization,,0,1,,Multilingual Dataset for Training and Evaluating Diacritics Restoration Systems,,0
+Latvian Text Diacritization,,0,1,,Multilingual Dataset for Training and Evaluating Diacritics Restoration Systems,,0
+Polish Text Diacritization,,0,1,,Multilingual Dataset for Training and Evaluating Diacritics Restoration Systems,,0
+Irish Text Diacritization,,0,1,,Multilingual Dataset for Training and Evaluating Diacritics Restoration Systems,,0
+Hungarian Text Diacritization,,0,1,,Multilingual Dataset for Training and Evaluating Diacritics Restoration Systems,,0
+French Text Diacritization,,0,1,,Multilingual Dataset for Training and Evaluating Diacritics Restoration Systems,,0
+Turkish Text Diacritization,,0,1,,Multilingual Dataset for Training and Evaluating Diacritics Restoration Systems,,0
+Spanish Text Diacritization,,0,1,,Multilingual Dataset for Training and Evaluating Diacritics Restoration Systems,,0
+Croatian Text Diacritization,,0,1,,Multilingual Dataset for Training and Evaluating Diacritics Restoration Systems,,0
+CodeSearchNet - Java,,0,1,,,,0
+Audio Multiple Target Classification,,0,1,,,,0
+Syntax Representation,,0,1,,,,0
+Zero-shot Generalization,,0,1,,CALVIN,,0
+Analogical Similarity,,0,1,,BIG-bench,,0
+Understanding Fables,,0,1,,,,0
+Sentence Ambiguity,,0,1,,,,0
+TriviaQA,,0,1,,,,0
+Analytic Entailment,,0,1,,,,0
+Epistemic Reasoning,,0,1,,,,0
+Logical Args,,0,1,,,,0
+Clinical Knowledge,,0,1,,BIG-bench,,0
+Fantasy Reasoning,,0,1,,,,0
+GRE Reading Comprehension,,0,1,,,,0
+Nonsense Words Grammar,,0,1,,,,0
+Multlingual Neural Machine Translation,,0,1,,,,0
+Font Style Transfer,,0,1,,,,0
+Zero-Shot Intent Classification,,0,1,,,,0
+Zero-Shot Intent Classification and Slot Filling,,0,1,,,,0
+Time-Series Few-Shot Learning with Heterogeneous Channels,,0,1,,,,0
+Question to Declarative Sentence,,0,1,,,,0
+Skill Generalization,,0,1,,RGB-Stacking,,0
+Semi-supervised time series classification,,0,1,,,,0
+Jet Tagging,,0,1,,,,0
+Translation fin-eng,,0,1,,,,0
+Translation nob-eng,,0,1,,,,0
+Translation nno-eng,,0,1,,,,0
+Translation ita-eng,,0,1,,,,0
+Translation mkd-eng,,0,1,,,,0
+Translation ast-por,,0,1,,,,0
+Translation ast-spa,,0,1,,,,0
+Translation glg-fra,,0,1,,,,0
+Translation ita-fra,,0,1,,,,0
+Translation oci-spa,,0,1,,,,0
+Translation ron-por,,0,1,,,,0
+Translation hrv-por,,0,1,,,,0
+Translation mkd-fra,,0,1,,,,0
+Translation mkd-por,,0,1,,,,0
+Translation slv-por,,0,1,,,,0
+Translation isl-fra,,0,1,,,,0
+Translation nob-por,,0,1,,,,0
+Translation nob-spa,,0,1,,,,0
+Translation mkd-deu,,0,1,,,,0
+Translation lim-eng,,0,1,,,,0
+Translation acm-deu,,0,1,,,,0
+Translation acm-eng,,0,1,,,,0
+Translation acm-fra,,0,1,,,,0
+Translation acm-por,,0,1,,,,0
+Translation acm-spa,,0,1,,,,0
+Translation amh-fra,,0,1,,,,0
+Translation apc-deu,,0,1,,,,0
+Translation apc-eng,,0,1,,,,0
+Translation apc-fra,,0,1,,,,0
+Translation apc-spa,,0,1,,,,0
+Translation arz-deu,,0,1,,,,0
+Translation arz-eng,,0,1,,,,0
+Translation arz-fra,,0,1,,,,0
+Translation arz-por,,0,1,,,,0
+Translation arz-spa,,0,1,,,,0
+Translation ast-deu,,0,1,,,,0
+Translation ast-eng,,0,1,,,,0
+Translation awa-fra,,0,1,,,,0
+Translation awa-spa,,0,1,,,,0
+Translation bho-eng,,0,1,,,,0
+Translation bho-fra,,0,1,,,,0
+Translation bho-por,,0,1,,,,0
+Translation cat-deu,,0,1,,,,0
+Translation ceb-spa,,0,1,,,,0
+Translation ces-por,,0,1,,,,0
+Translation ckb-eng,,0,1,,,,0
+Translation ckb-fra,,0,1,,,,0
+Translation crh-deu,,0,1,,,,0
+Translation crh-eng,,0,1,,,,0
+Translation crh-fra,,0,1,,,,0
+Translation crh-por,,0,1,,,,0
+Translation crh-spa,,0,1,,,,0
+Translation cym-deu,,0,1,,,,0
+Translation est-fra,,0,1,,,,0
+Translation est-spa,,0,1,,,,0
+Translation eus-eng,,0,1,,,,0
+Translation eus-fra,,0,1,,,,0
+Translation eus-por,,0,1,,,,0
+Translation fao-deu,,0,1,,,,0
+Translation fao-fra,,0,1,,,,0
+Translation fao-por,,0,1,,,,0
+Translation fao-spa,,0,1,,,,0
+Translation fij-eng,,0,1,,,,0
+Translation fur-fra,,0,1,,,,0
+Translation fur-por,,0,1,,,,0
+Translation fur-spa,,0,1,,,,0
+Translation gla-eng,,0,1,,,,0
+Translation gle-deu,,0,1,,,,0
+Translation gle-fra,,0,1,,,,0
+Translation gle-por,,0,1,,,,0
+Translation glg-deu,,0,1,,,,0
+Translation glg-eng,,0,1,,,,0
+Translation grn-eng,,0,1,,,,0
+Translation grn-fra,,0,1,,,,0
+Translation grn-por,,0,1,,,,0
+Translation guj-eng,,0,1,,,,0
+Translation guj-fra,,0,1,,,,0
+Translation guj-por,,0,1,,,,0
+Translation guj-spa,,0,1,,,,0
+Translation hat-deu,,0,1,,,,0
+Translation hat-eng,,0,1,,,,0
+Translation hat-fra,,0,1,,,,0
+Translation hat-por,,0,1,,,,0
+Translation hat-spa,,0,1,,,,0
+Translation hin-deu,,0,1,,,,0
+Translation hne-deu,,0,1,,,,0
+Translation hne-eng,,0,1,,,,0
+Translation hne-fra,,0,1,,,,0
+Translation hne-por,,0,1,,,,0
+Translation hne-spa,,0,1,,,,0
+Translation hye-fra,,0,1,,,,0
+Translation hye-por,,0,1,,,,0
+Translation hye-spa,,0,1,,,,0
+Translation ibo-eng,,0,1,,,,0
+Translation ilo-deu,,0,1,,,,0
+Translation ilo-fra,,0,1,,,,0
+Translation ilo-por,,0,1,,,,0
+Translation ilo-spa,,0,1,,,,0
+Translation jav-deu,,0,1,,,,0
+Translation jav-eng,,0,1,,,,0
+Translation jav-fra,,0,1,,,,0
+Translation jav-por,,0,1,,,,0
+Translation jav-spa,,0,1,,,,0
+Translation kat-fra,,0,1,,,,0
+Translation kat-por,,0,1,,,,0
+Translation kat-spa,,0,1,,,,0
+Translation kaz-deu,,0,1,,,,0
+Translation kaz-por,,0,1,,,,0
+Translation kaz-spa,,0,1,,,,0
+Translation kea-deu,,0,1,,,,0
+Translation kea-eng,,0,1,,,,0
+Translation kea-fra,,0,1,,,,0
+Translation kea-por,,0,1,,,,0
+Translation kea-spa,,0,1,,,,0
+Translation kon-eng,,0,1,,,,0
+Translation lij-eng,,0,1,,,,0
+Translation lij-fra,,0,1,,,,0
+Translation lij-por,,0,1,,,,0
+Translation lij-spa,,0,1,,,,0
+Translation lim-fra,,0,1,,,,0
+Translation lim-por,,0,1,,,,0
+Translation lim-spa,,0,1,,,,0
+Translation lin-eng,,0,1,,,,0
+Translation lin-por,,0,1,,,,0
+Translation lin-spa,,0,1,,,,0
+Translation mag-fra,,0,1,,,,0
+Translation mal-fra,,0,1,,,,0
+Translation mar-deu,,0,1,,,,0
+Translation mlt-deu,,0,1,,,,0
+Translation mlt-fra,,0,1,,,,0
+Translation mlt-por,,0,1,,,,0
+Translation mlt-spa,,0,1,,,,0
+Translation nno-fra,,0,1,,,,0
+Translation npi-deu,,0,1,,,,0
+Translation npi-eng,,0,1,,,,0
+Translation nso-eng,,0,1,,,,0
+Translation nya-eng,,0,1,,,,0
+Translation oci-deu,,0,1,,,,0
+Translation pag-fra,,0,1,,,,0
+Translation pag-por,,0,1,,,,0
+Translation pag-spa,,0,1,,,,0
+Translation pan-deu,,0,1,,,,0
+Translation pan-eng,,0,1,,,,0
+Translation pan-por,,0,1,,,,0
+Translation pan-spa,,0,1,,,,0
+Translation pap-deu,,0,1,,,,0
+Translation pap-eng,,0,1,,,,0
+Translation pap-fra,,0,1,,,,0
+Translation pap-por,,0,1,,,,0
+Translation pap-spa,,0,1,,,,0
+Translation pes-deu,,0,1,,,,0
+Translation pes-fra,,0,1,,,,0
+Translation pes-por,,0,1,,,,0
+Translation pes-spa,,0,1,,,,0
+Translation plt-eng,,0,1,,,,0
+Translation plt-fra,,0,1,,,,0
+Translation plt-por,,0,1,,,,0
+Translation plt-spa,,0,1,,,,0
+Translation prs-deu,,0,1,,,,0
+Translation run-por,,0,1,,,,0
+Translation run-spa,,0,1,,,,0
+text political leaning classification,,0,1,,,,0
+Zero-Shot Counting,,0,1,,,,0
+Question-Answer-Generation,,0,1,,,,0
+Transfer Reinforcement Learning,,0,1,,,,0
+Document Level Machine Translation,,0,1,,,,0
+Persona Dialogue in Story,,0,1,,,,0
+Enumerative Search,,0,1,,,,0
+Stroke Classification,,0,1,,,,0
+Facial expression generation,,0,1,,,,0
+ArzEn Code-switched Translation to eng,,0,1,,,,0
+ArzEn Code-switched Translation to ara,,0,1,,,,0
+Speech Intent Classification,,0,1,,,,0
+Label shift of blended-target domain adaptation,,0,1,,,,0
+Zero-shot Sentiment Classification,,0,1,,AfriSenti,,0
+Steiner Tree Problem,,0,1,,,,0
+Early  Classification,,0,1,,ECG200,,0
+Vietnamese Natural Language Inference,,0,1,,ViNLI,,0
+Profile Generation,,0,1,,,,0
+Generalized Referring Expression Comprehension,,0,1,,gRefCOCO,,0
+Superclass classification,,0,1,,,,0
+Pretrained Multilingual Language Models,,0,1,,,,0
+Transferability,,0,1,,classification benchmark,,0
+Translation ara-por,,0,1,,,,0
+Translation fas-por,,0,1,,,,0
+Translation ind-por,,0,1,,,,0
+Translation hau-por,,0,1,,,,0
+Translation hau-spa,,0,1,,,,0
+Translation msa-fra,,0,1,,,,0
+Translation lug-eng,,0,1,,,,0
+Translation msa-por,,0,1,,,,0
+Translation pus-eng,,0,1,,,,0
+Translation pus-fra,,0,1,,,,0
+Translation pus-por,,0,1,,,,0
+Translation pus-spa,,0,1,,,,0
+Summarization Consistency Evaluation,,0,1,,,,0
+open-set classification,,0,1,,,,0
+Tumour Classification,,0,1,,,,0
+intent-classification,,0,1,,,,0
+Hint Generation,,0,1,,,,0
+OpenAPI code completion,,0,1,,OpenAPI completion refined,,0
+Edge Classification,,0,1,,,,0
+Person Identification (zero-shot),,0,1,,,,0
+Temporal Complex Logical Reasoning,,0,1,,,,0
+Knowledge-Aware Recommendation,,0,1,,,,0
+Artist classification,,0,1,,,,0
+Text-to-GQL,,0,1,,,,0
+text-classification,,0,1,,,,0
+Music Genre Transfer,,0,1,,,,0
+Text2Sparql,,0,1,,,,0
+Raw vs Ripe (Generic),,0,1,,,,0
+Description-guided molecule generation,,0,1,,TOMG-Bench,,0
+FS-MEVQA,,0,1,,,,0
+Time Series Generation,,0,1,,,,0
+Text-Variation,,0,1,,,,0
+Multimodal Large Language Model,,0,1,,,,0
+Small-Footprint Keyword Spotting,,0,1,,,,0
+Cancer Classification,,0,1,,"Multi-omics mRNA, miRNA, and DNA Methylation Dataset",,0
+Asthmatic Lung Sound Classification,,0,1,,Chest wall lung sound dataset,,0
+Lung Disease Classification,,0,1,,,,0
+Poker Hand Classification,,0,1,,,,0
+Conversational Recommendation,,0,1,,,,0
+Unconditional Crystal Generation,,0,1,,MP20,,0
+Perceptual Distance,,0,1,,,,0
+TinyQA Benchmark++,,0,1,,tinyqabenchmark_core-en,,0
+Reranking,,0,1,,,,0
+AMR Graph Similarity,,0,1,,Benchmark for AMR Metrics based on Overt Objectives,,0
+"1 Image, 2*2 Stitchi",,0,0,,,,10
+2D Semantic Segmentation,,0,0,,,,10
+3D Action Recognition,,0,0,,,,6
+Abuse Detection,,0,0,,,,1
+Ad-Hoc Information Retrieval,,0,0,,,,1
+Anaphora Resolution,,0,0,,,,2
+Attribute Extraction,,0,0,,,,1
+Authorship Attribution,,0,0,,,,1
+Bias Detection,,0,0,,,,1
+Biomedical Information Retrieval,,0,0,,,,2
+Chinese,,0,0,,,,5
+Clinical Concept Extraction,,0,0,,,,1
+Constrained Clustering,,0,0,,,,2
+Continual Learning,,0,0,,,,5
+Cross-Lingual,,0,0,,,,4
+Cross-Modal Retrieval,,0,0,,,,5
+Data Augmentation,,0,0,,,,2
+Data Integration,,0,0,,,,3
+Data Mining,,0,0,,,,7
+De-identification,,0,0,,,,2
+Deep Clustering,,0,0,,,,3
+Deep Learning,,0,0,,,,1
+Dialogue,,0,0,,Persona-Chat,,10
+Emotion Recognition,,0,0,,,,10
+Emotional Intelligence,,0,0,,,,3
+Entity Typing,,0,0,,,,1
+Grammatical Error Correction,,0,0,,,,1
+Handwriting Verification,,0,0,,,,1
+Image Captioning,,0,0,,,,8
+Image Generation,,0,0,,,,10
+Information Extraction,,0,0,,,,10
+Information Retrieval,,0,0,,,,6
+Instruction Following,,0,0,,,,1
+Intent Detection,,0,0,,,,1
+Intrusion Detection,,0,0,,,,1
+Key Information Extraction,,0,0,,,,1
+Language Modeling,,0,0,,,,1
+Lexical Analysis,,0,0,,,,1
+Lexical Normalization,,0,0,,,,1
+Link Prediction,,0,0,,,,6
+Literature Mining,,0,0,,,,1
+Multimodal Association,,0,0,,,,1
+Multimodal Deep Learning,,0,0,,,,1
+NMT,,0,0,,,,1
+Named Entity Recognition (NER),,0,0,,,,10
+Natural Language Transduction,,0,0,,,,1
+Negation Detection,,0,0,,,,1
+Open Information Extraction,,0,0,,,,1
+Open-Domain Dialog,,0,0,,,,1
+Optical Character Recognition (OCR),,0,0,,,,10
+Optical Charater Recogntion,,0,0,,,,1
+Pcl Detection,,0,0,,,,2
+Personality Generation,,0,0,,,,1
+Phrase Grounding,,0,0,,,,1
+Political evalutation,,0,0,,,,1
+Prompt Engineering,,0,0,,,,1
+Propaganda detection,,0,0,,,,2
+Recognizing Emotion Cause in Conversations,,0,0,,,,1
+Reinforcement Learning,,0,0,,,,1
+Relation Extraction,,0,0,,,,10
+Representation Learning,,0,0,,,,10
+Retrieval,,0,0,,,,3
+Semantic Parsing,,0,0,,,,7
+Semantic Role Labeling,,0,0,,,,3
+Semantic Textual Similarity,,0,0,,,,2
+Shallow Syntax,,0,0,,,,1
+Spam detection,,0,0,,,,2
+Speculation Detection,,0,0,,,,1
+Stance Detection,,0,0,,,,4
+Stock Prediction,,0,0,,,,3
+Symbolic Regression,,0,0,,,,1
+Taxonomy Learning,,0,0,,,,2
+Temporal Processing,,0,0,,,,3
+Term Extraction,,0,0,,,,2
+Text to Image Generation,,0,0,,,,1
+Text-To-Speech Synthesis,,0,0,,,,2
+Text-to-Video Generation,,0,0,,,,2
+Video Generation,,0,0,,,,2
+Vietnamese Sentiment Analysis,,0,0,,,,1
+Visual Question Answering (VQA),,0,0,,,,9
+trustable and focussed LLM generated content,,0,0,,,,1
+Graph-To-Graph Translation,,0,0,,,,0
+Acoustic Question Answering,,0,0,,,,0
+Classification Of Variable Stars,,0,0,,,,0
+Bird Classification,,0,0,,,,0
+Web Page Tagging,,0,0,,,,0
+Collaborative Ranking,,0,0,,,,0
+Age-Related Macular Degeneration Classification,,0,0,,,,0
+Joint NER and Classification,,0,0,,,,0
+Knowledge Graphs Data Curation,,0,0,,,,0
+Vowel Classification,,0,0,,,,0
+Generalized Zero-Shot Learning - Unseen,,0,0,,,,0
+breast density classification,,0,0,,,,0
+Git Commit Message Generation,,0,0,,CommitGen,,0
+Oceanic Eddy Classification,,0,0,,,,0
+Sperm Morphology Classification,,0,0,,,,0
+API Sequence Recommendation,,0,0,,DeepAPI,,0
+House Generation,,0,0,,,,0
+Immune Repertoire Classification,,0,0,,,,0
+Leadership Inference,,0,0,,,,0
+Commonsense Reasoning for RL,,0,0,,commonsense-rl,,0
+Next-basket recommendation,,0,0,,Instacart; TaFeng,,0
+band gap classification,,0,0,,,,0
+Ticket Search,,0,0,,,,0
+Temporal Knowledge Graph Completion,,0,0,,,,0
+Log Parsing,,0,0,,,,0
+Animated GIF Generation,,0,0,,,,0
+Generalization Bounds,,0,0,,,,0
+Classification on Time Series with Missing Data,,0,0,,,,0
+Sequential Bayesian Inference,,0,0,,,,0
+Chinese Spell Checking,,0,0,,SIGHAN 2015,,0
+Complaint Comment Classification,,0,0,,,,0
+Vietnamese Parsing,,0,0,,,,0
+Learning Language specific models,,0,0,,,,0
+Approximating Betweenness-Centrality ranking,,0,0,,,,0
+Diachronic Word Embeddings,,0,0,,,,0
+Subdomain adaptation,,0,0,,,,0
+Text Anonymization,,0,0,,,,0
+Cross-Lingual Word Embeddings,,0,0,,,,0
+Geographic Question Answering,,0,0,,,,0
+Human Judgment Classification,,0,0,,Pascal-50S,,0
+Phenotype classification,,0,0,,"MIMIC-CXR, MIMIC-IV",,0
+Hindu Knowledge,,0,0,,,,0
+Edit script generation,,0,0,,,,0
+energy management,,0,0,,,,0
+Wireframe Parsing,,0,0,,,,0
+Phonocardiogram Classification,,0,0,,,,0
+Community Search,,0,0,,,,0
+Prompt-driven Zero-shot Domain Adaptation,,0,0,,,,0
+text-guided-generation,,0,0,,,,0
+Readability optimization,,0,0,,,,0
+Comment Generation,,0,0,,,,0
+Coding Problem Tagging,,0,0,,,,0
+Legal Reasoning,,0,0,,LegalBench (Issue-spotting); LegalBench (Rule-recall),,0
+Potrait Generation,,0,0,,,,0
+Voice Similarity,,0,0,,,,0
+Change Data Generation,,0,0,,,,0
+Semi-Supervised Domain Generalization,,0,0,,,,0
+Topological Risk Measure,,0,0,,,,0
+Quantum Circuit Generation,,0,0,,,,0
+Reference Expression Generation,,0,0,,,,0
+Ordinal Classification,,0,0,,OASIS+NACC+ICBM+ABIDE+IXI,,0
+In-Context Learning,,0,0,,,,0
+Sentence,,0,0,,,,0
+Generative Temporal Nursing,,0,0,,,,0
+Vietnamese Language Models,,0,0,,,,0
+Vietnamese Natural Language Understanding,,0,0,,,,0
+Simultaneous Speech-to-Speech Translation,,0,0,,,,0
+Adversarial Natural Language Inference,,0,0,,,,0
+Runtime ranking,,0,0,,TpuGraphs Layout mean,,0
+GRAPH DOMAIN ADAPTATION,,0,0,,FRANKENSTEIN,,0
+Conversational Information Access,,0,0,,,,0
+Script Generation,,0,0,,,,0
+Urban Itinerary Planning,,0,0,,,,0
+Semi-Supervised Text Regression,,0,0,,,,0
+Multimodal Music Generation,,0,0,,,,0
+Dataset Generation,,0,0,,,,0
+MUlTI-LABEL-ClASSIFICATION,,0,0,,,,0
+NeRF,,0,0,,,,0
+Layout Generation,,0,0,,,,0
+Small Language Model,,0,0,,,,0
+Appearance Transfer,,0,0,,,,0
+Language Model Evaluation,,0,0,,,,0
+Text Normalization,,0,0,,,,0
+Text Classification,Classification,1,167,,HateXplain; Overruling; Twitter Sentiment Analysis; GLUE; reuters21578; NICE-45; RCV1; OneStopEnglish (Readability Assessment); 20 Newsgroups; IMDb,,10
+Graph Classification,Classification,1,54,,Citeseer; IPC-grounded; NC1; HIV-fMRI-77; IMDB-BINARY; MUTAG; MalNet-Tiny; MSRC-21 (per-class); UK Biobank Brain MRI; CSL,,0
+Audio Classification,Classification,1,43,,Multimodal PISA; DiCOVA; EPIC-KITCHENS-100; MeerKAT: Meerkat Kalahari Audio Transcripts; DEEP-VOICE: DeepFake Voice Recognition; EPIC-SOUNDS; ICBHI Respiratory Sound Database; GTZAN; Common Voice 16.1; MNIST,,0
+Machine Reading Comprehension,Reading Comprehension,1,43,,,,0
+Machine Reading Comprehension,Visual Question Answering (VQA),1,43,,,,0
+Dialogue Generation,Chatbot,1,34,,Ubuntu Dialogue (Entity); Twitter Dialogue (Noun); FusedChat; Persona-Chat; CMU-DoG; Ubuntu Dialogue (Cmd); PG-19; Ubuntu Dialogue (Tense); Reddit (multi-ref); Amazon-5,,1
+Dialogue Generation,Dialogue,1,34,,Ubuntu Dialogue (Entity); Twitter Dialogue (Noun); FusedChat; Persona-Chat; CMU-DoG; Ubuntu Dialogue (Cmd); PG-19; Ubuntu Dialogue (Tense); Reddit (multi-ref); Amazon-5,,1
+Dialogue Generation,Text Generation,1,34,,Ubuntu Dialogue (Entity); Twitter Dialogue (Noun); FusedChat; Persona-Chat; CMU-DoG; Ubuntu Dialogue (Cmd); PG-19; Ubuntu Dialogue (Tense); Reddit (multi-ref); Amazon-5,,1
+Music Generation,"1 Image, 2*2 Stitchi",1,33,,Song Describer Dataset,,0
+Document Summarization,Text Summarization,1,28,,BBC XSum; CNN / Daily Mail; WikiLingua (tr->en); Arxiv HEP-TH citation graph; arXiv Summarization Dataset; HowSumm-Method; HowSumm-Step,,1
+NER,Named Entity Recognition (NER),1,27,,,,0
+Open-Domain Question Answering,Question Answering,1,26,,KILT: ELI5; ELI5; KILT: TriviaQA; SQuAD1.1 dev; Quasar; Natural Questions (short); TQA; Natural Questions; SearchQA; WebQuestions,,0
+Data-to-Text Generation,Text Generation,1,24,,WebNLG ru; SR11Deep; Wikipedia Person and Animal Dataset; XAlign; Czech Restaurant NLG; MLB Dataset (Content Ordering); MLB Dataset; E2E; WikiOFGraph; MLB Dataset (Content Selection),,3
+Math Word Problem Solving,Mathematical Reasoning,1,23,,ALG514; MATH minival; MATH; ParaMAWPS; Math23K; SVAMP (1:N); SVAMP; DRAW-1K; MAWPS; PEN,,0
+Relation Classification,Relation Extraction,1,23,,SemEval 2010 Task 8; Discovery; DRI Corpus; TACRED; CDCP; MATRES; AbstRCT - Neoplasm; FewRel,,3
+Task-Oriented Dialogue Systems,Dialogue,1,22,,Kvret; KVRET; MULTIWOZ 2.0; SGD,,1
+Text-To-SQL,Semantic Parsing,1,21,,Text-To-SQL; spider; SQL-Eval; KaggleDBQA; SParC; 2D KITTI Cars Easy; Spider 2.0; SEDE; SPIDER; BIRD (BIg Bench for LaRge-scale Database Grounded Text-to-SQL Evaluation),,1
+Style Transfer,"1 Image, 2*2 Stitchi",1,20,,WikiArt; StyleBench; 01/01/1967' AND 2*3*8=6*8 AND 'AncJ'='AncJ; GYAFC; ^(#$!@#$)(()))******,,0
+Paraphrase Identification,Semantic Textual Similarity,1,18,,Quora Question Pairs; Translated SNLI Dataset in Marathi; MSRP; WikiHop; TURL; 2017_test set; PIT; Quora Question Pairs Dev; IMDb; AP,,0
+Paraphrase Generation,Text Generation,1,17,,Quora Question Pairs; Paralex; MSCOCO,,1
+Cross-Lingual Transfer,Cross-Lingual,1,15,,XCOPA,,2
+Knowledge Base Question Answering,Question Answering,1,15,,,,0
+Multi-Document Summarization,Text Generation,1,15,,,,0
+Multi-Document Summarization,Text Summarization,1,15,,,,0
+Multi-class Classification,Classification,1,14,,COVID-19 CXR Dataset; Training and validation dataset of capsule vision 2024 challenge.;  Reuters-52; COVID chest X-ray; TII-SSRC-23,,0
+Opinion Mining,Data Mining,1,11,,,,0
+Sentence Embeddings,Representation Learning,1,11,,,,4
+Code Translation,Code Generation,1,10,,,,0
+Large Language Model,Knowledge Graph Completion,1,10,,,,3
+Conversational Question Answering,Question Answering,1,10,,ConvFinQA,,1
+Dialogue Understanding,Dialogue,1,9,,,,2
+Few-Shot Audio Classification,Few-Shot Learning,1,9,,,,0
+Multiple Choice Question Answering (MCQA),Question Answering,1,9,,,,0
+Chart Question Answering,Visual Question Answering (VQA),1,9,,ChartQA; RealCQA; PlotQA,,0
+Dialogue Evaluation,Open-Domain Dialog,1,8,,USR-TopicalChat; USR-PersonaChat,,0
+Story Generation,Text Generation,1,8,,WritingPrompts; TVMegaSite test; Fandom test; Fandom dev; TVMegaSite dev,,1
+Text Style Transfer,2D Semantic Segmentation,1,7,,Yelp Review Dataset (Large); Yelp Review Dataset (Small),,3
+Document Ranking,Ad-Hoc Information Retrieval,1,7,,ClueWeb09-B; DaReCzech,,1
+Multimodal Sentiment Analysis,Sentiment Analysis,1,7,,,,0
+Twitter Sentiment Analysis,Sentiment Analysis,1,7,,,,1
+Text Style Transfer,Text Generation,1,7,,Yelp Review Dataset (Large); Yelp Review Dataset (Small),,3
+Scientific Document Summarization,Text Summarization,1,7,,CL-SciSumm,,1
+Cross-Domain Few-Shot,Few-Shot Learning,1,6,,CropDisease; miniImagenet; Plantae; CUB; ChestX; Places; EuroSAT; ISIC2018; cars,,0
+Few-Shot Relation Classification,Few-Shot Learning,1,6,,,,0
+multimodal generation,Multimodal Association,1,6,,,,0
+Community Question Answering,Question Answering,1,6,,,,0
+AMR Parsing,Semantic Parsing,1,6,,LDC2020T02; LDC2017T10; LDC2014T12; LDC2015E86; The Little Prince; New3; LDC2014T12:; Bio,,0
+Table-to-Text Generation,Text Generation,1,6,,RotoWire; Wikipedia Person and Animal Dataset; WebNLG (All); E2E; WikiBio; WebNLG (Unseen); WebNLG (Seen); DART,,1
+Code Documentation Generation,Code Generation,1,5,,CodeSearchNet - JavaScript; CodeSearchNet; CodeSearchNet - Ruby; CodeSearchNet - Java; CodeSearchNet - Python; CodeSearchNet - Php; CodeSearchNet - Go,,0
+Goal-Oriented Dialogue Systems,Dialogue,1,5,,,,0
+Protein Language Model,Language Modelling,1,5,,,,0
+Transliteration,Machine Translation,1,5,,,,0
+Multimodal Machine Translation,Machine Translation,1,5,,Hindi Visual Genome (Challenge Set); Multi30K; Hindi Visual Genome (Test Set),,2
+Low-Resource Neural Machine Translation,Machine Translation,1,5,,,,0
+Hateful Meme Classification,Meme Classification,1,5,,,,0
+Long Form Question Answering,Question Answering,1,5,,,,0
+Open Intent Discovery,Text Clustering,1,5,,BANKING77; DBpedia; Stackoverflow; ATIS; CLINC150; SNIPS,,0
+Multi-modal Classification,Classification,1,4,,VGG-Sound; AudioSet,,0
+Triple Classification,Knowledge Graph Completion,1,4,,YAGO39K,,0
+Unsupervised Machine Translation,Machine Translation,1,4,,,,0
+Few-shot NER,Named Entity Recognition (NER),1,4,,,,0
+Answer Generation,Natural Language Inference,1,4,,,,0
+Science Question Answering,Question Answering,1,4,,,,0
+Knowledge Graph Embeddings,Representation Learning,1,4,,,,0
+Arabic Sentiment Analysis,Sentiment Analysis,1,4,,!(()&&!|*|*|,,0
+Conditional Text Generation,Text Generation,1,4,,Lipogram-e,,2
+coreference-resolution,Coreference Resolution,1,3,,,,0
+Cross Document Coreference Resolution,Coreference Resolution,1,3,,,,0
+Data-free Knowledge Distillation,Knowledge Distillation,1,3,,SQuAD; QNLI,,1
+Formal Logic,Mathematical Reasoning,1,3,,,,0
+Multi-Hop Reading Comprehension,Reading Comprehension,1,3,,,,0
+Document Embedding,Representation Learning,1,3,,,,0
+Zero-shot Slot Filling,Slot Filling,1,3,,,,0
+Unsupervised Opinion Summarization,Text Summarization,1,3,,,,0
+Long-Form Narrative Summarization,Text Summarization,1,3,,,,0
+Cancer-no cancer per breast classification,Binary Classification,1,2,,,,0
+Library-Oriented Code Generation,Code Generation,1,2,,,,0
+Cross-Lingual Document Classification,Cross-Lingual,1,2,,MLDoc Zero-Shot English-to-Japanese; MLDoc Zero-Shot German-to-French; MLDoc Zero-Shot English-to-Russian; MLDoc Zero-Shot English-to-French; MLDoc Zero-Shot English-to-Italian; MLDoc Zero-Shot English-to-Spanish; Reuters RCV1/RCV2 German-to-English; Reuters RCV1/RCV2 English-to-German; MLDoc Zero-Shot English-to-German; MLDoc Zero-Shot English-to-Chinese,,1
+Cross-Lingual Entity Linking,Cross-Lingual,1,2,,,,1
+Empathetic Response Generation,Dialogue,1,2,,,,0
+Dialogue Management,Dialogue,1,2,,,,0
+End-to-End RST Parsing,Discourse Parsing,1,2,,,,0
+document understanding,Document AI,1,2,,,,1
+Native Language Identification,Language Identification,1,2,,,,0
+Cross-Lingual Natural Language Inference,Natural Language Inference,1,2,,,,0
+Headline Generation,News Generation,1,2,,,,0
+Open-Ended Question Answering,Question Answering,1,2,,,,0
+Logical Reasoning Reading Comprehension,Reading Comprehension,1,2,,,,0
+text-to-Cypher,Semantic Parsing,1,2,,,,0
+Persian Sentiment Analysis,Sentiment Analysis,1,2,,,,1
+Fine-Grained Opinion Analysis,Sentiment Analysis,1,2,,,,0
+Short Text Clustering,Text Clustering,1,2,,,,0
+Headline Generation,Text Generation,1,2,,,,0
+Zero-Shot Multi-Speaker TTS,Text-To-Speech Synthesis,1,2,,,,0
+Keyphrase Generation,Text2text Generation,1,2,,,,0
+Embodied Question Answering,Visual Question Answering (VQA),1,2,,,,0
+Bridging Anaphora Resolution,Anaphora Resolution,1,1,,,,0
+Physical Commonsense Reasoning,Common Sense Reasoning,1,1,,,,0
+Cross-Language Text Summarization,Cross-Lingual,1,1,,,,0
+Unsupervised Dependency Parsing,Dependency Parsing,1,1,,,,0
+Cross-lingual zero-shot dependency parsing,Dependency Parsing,1,1,,,,0
+Patent Figure Description Generation,Image Captioning,1,1,,,,0
+Table Search,Information Retrieval,1,1,,,,0
+Zero Shot on BEIR (Inference Free Model),Information Retrieval,1,1,,,,0
+Grounded language learning,Language Acquisition,1,1,,,,0
+Cross-Document Language Modeling,Language Modelling,1,1,,,,0
+Word Spotting In Handwritten Documents,Optical Character Recognition (OCR),1,1,,,,0
+Poll Generation,Question Generation,1,1,,,,0
+UCCA Parsing,Semantic Parsing,1,1,,,,0
+Hurtful Sentence Completion,Sentence Completion,1,1,,,,0
+Query-focused Summarization,Summarization,1,1,,,,0
+Document Dating,Temporal Processing,1,1,,,,0
+Blackout Poetry Generation,Token Classification,1,1,,,,0
+Chart Understanding,Visual Question Answering (VQA),1,1,,,,0
+Pose Estimation,"1 Image, 2*2 Stitchi",1,0,,,,0
+Text-to-Image Generation,"1 Image, 2*2 Stitchi",1,0,,,,7
+Voice Conversion,"1 Image, 2*2 Stitchi",1,0,,,,0
+Image Deblurring,"1 Image, 2*2 Stitchi",1,0,,,,0
+Virtual Try-on,"1 Image, 2*2 Stitchi",1,0,,,,0
+Talking Face Generation,"1 Image, 2*2 Stitchi",1,0,,,,0
+Image to Video Generation,"1 Image, 2*2 Stitchi",1,0,,,,0
+Pneumonia Detection,"1 Image, 2*2 Stitchi",1,0,,,,0
+Image Segmentation,2D Semantic Segmentation,1,0,,,,0
+Scene Parsing,2D Semantic Segmentation,1,0,,,,0
+Reflection Removal,2D Semantic Segmentation,1,0,,,,0
+Foreground Segmentation,2D Semantic Segmentation,1,0,,,,0
+Continual Semantic Segmentation,2D Semantic Segmentation,1,0,,,,0
+Building Damage Assessment,2D Semantic Segmentation,1,0,,,,0
+Human Part Segmentation,2D Semantic Segmentation,1,0,,,,0
+Overlapped 15-1,2D Semantic Segmentation,1,0,,,,0
+Disjoint 15-1,2D Semantic Segmentation,1,0,,,,0
+Skeleton Based Action Recognition,3D Action Recognition,1,0,,,,0
+Model Editing,3D Action Recognition,1,0,,,,1
+Image Manipulation Detection,3D Action Recognition,1,0,,,,0
+motion retargeting,3D Action Recognition,1,0,,,,0
+Zero Shot Skeletal Action Recognition,3D Action Recognition,1,0,,,,0
+Generalized Zero Shot skeletal action recognition,3D Action Recognition,1,0,,,,0
+Hate Speech Detection,Abuse Detection,1,0,,,,3
+Author Profiling,Age And Gender Classification,1,0,,,,0
+Abstract Anaphora Resolution,Anaphora Resolution,1,0,,,,0
+legal outcome extraction,Attribute Extraction,1,0,,,,0
+Source Code Authorship Attribution,Authorship Attribution,1,0,,,,0
+Selection bias,Bias Detection,1,0,,,,0
+LLM-generated Text Detection,Binary Classification,1,0,,,,0
+Cancer-no cancer per image classification,Binary Classification,1,0,,,,0
+"Suspicous (BIRADS 4,5)-no suspicous (BIRADS 1,2,3) per image classification",Binary Classification,1,0,,,,0
+Stable MCI vs Progressive MCI,Binary Classification,1,0,,,,0
+Cancer-no cancer per view classification,Binary Classification,1,0,,,,0
+Detection of potentially void clauses,Binary text classification,1,0,,,,0
+PICO,Biomedical Information Retrieval,1,0,,,,0
+SpO2 estimation,Biomedical Information Retrieval,1,0,,,,0
+Chinese Word Segmentation,Chinese,1,0,,,,0
+Handwritten Chinese Text Recognition,Chinese,1,0,,,,0
+Offline Handwritten Chinese Character Recognition,Chinese,1,0,,,,0
+Chinese Zero Pronoun Resolution,Chinese,1,0,,,,0
+Chinese Spelling Error Correction,Chinese,1,0,,,,0
+Medical Image Classification,Classification,1,0,,,,0
+Plant Phenotyping,Classification,1,0,,,,0
+Classifier calibration,Classification,1,0,,,,0
+Morphology classification,Classification,1,0,,,,0
+IoT Device Identification,Classification,1,0,,,,0
+Clinical Information Retreival,Clinical Concept Extraction,1,0,,,,0
+GitHub issue resolution,Code Generation,1,0,,,,0
+Class-level Code Generation,Code Generation,1,0,,,,0
+HellaSwag,Common Sense Reasoning,1,0,,,,0
+Winogrande,Common Sense Reasoning,1,0,,,,0
+Riddle Sense,Common Sense Reasoning,1,0,,,,0
+Causal Judgment,Common Sense Reasoning,1,0,,,,0
+Winowhy,Common Sense Reasoning,1,0,,,,0
+Anachronisms,Common Sense Reasoning,1,0,,,,0
+Disambiguation QA,Common Sense Reasoning,1,0,,,,0
+Discourse Marker Prediction,Common Sense Reasoning,1,0,,,,0
+Empirical Judgments,Common Sense Reasoning,1,0,,,,0
+Constituency Grammar Induction,Constituency Parsing,1,0,,,,0
+Only Connect Walls Dataset Task 1 (Grouping),Constrained Clustering,1,0,,,,0
+Incremental Constrained Clustering,Constrained Clustering,1,0,,,,0
+Class Incremental Learning,Continual Learning,1,0,,,,0
+Continual Named Entity Recognition,Continual Learning,1,0,,,,1
+unsupervised class-incremental learning,Continual Learning,1,0,,,,0
+Continual Panoptic Segmentation,Continual Learning,1,0,,,,0
+TiROD,Continual Learning,1,0,,,,0
+Personalized and Emotional Conversation,Conversational Response Generation,1,0,,,,0
+Image-text matching,Cross-Modal Retrieval,1,0,,,,0
+Cross-modal retrieval with noisy correspondence,Cross-Modal Retrieval,1,0,,,,0
+multilingual cross-modal retrieval,Cross-Modal Retrieval,1,0,,,,0
+Zero-shot Composed Person Retrieval,Cross-Modal Retrieval,1,0,,,,0
+Cross-Modal Retrieval on RSITMD,Cross-Modal Retrieval,1,0,,,,0
+Image Augmentation,Data Augmentation,1,0,,,,0
+Text Augmentation,Data Augmentation,1,0,,,,0
+Entity Alignment,Data Integration,1,0,,,,1
+Entity Resolution,Data Integration,1,0,,,,1
+Table annotation,Data Integration,1,0,,,,6
+Argument Mining,Data Mining,1,0,,,,6
+cognitive diagnosis,Data Mining,1,0,,,,0
+Subgroup Discovery,Data Mining,1,0,,,,0
+Sequential Pattern Mining,Data Mining,1,0,,,,0
+Parallel Corpus Mining,Data Mining,1,0,,,,0
+CSV dialect detection,Data Mining,1,0,,,,0
+Privacy Preserving Deep Learning,De-identification,1,0,,,,0
+Full-body anonymization,De-identification,1,0,,,,0
+Trajectory Clustering,Deep Clustering,1,0,,,,0
+NONPARAMETRIC DEEP CLUSTERING,Deep Clustering,1,0,,,,0
+Deep Nonparametric Clustering,Deep Clustering,1,0,,,,0
+Polynomial Neural Networks,Deep Learning,1,0,,,,0
+Transition-Based Dependency Parsing,Dependency Parsing,1,0,,,,0
+Prepositional Phrase Attachment,Dependency Parsing,1,0,,,,0
+Dependency Grammar Induction,Dependency Parsing,1,0,,,,0
+Dialogue State Tracking,Dialogue,1,0,,,,0
+Visual Dialog,Dialogue,1,0,,,,0
+Goal-Oriented Dialog,Dialogue,1,0,,,,1
+Dialogue Act Classification,Dialogue,1,0,,,,0
+Discourse Segmentation,Discourse Parsing,1,0,,,,0
+Connective Detection,Discourse Parsing,1,0,,,,0
+Learning with noisy labels,Document Text Classification,1,0,,,,0
+Multi-Label Classification Of Biomedical Texts,Document Text Classification,1,0,,,,0
+Political Salient Issue Orientation Detection,Document Text Classification,1,0,,,,0
+Speech Emotion Recognition,Emotion Recognition,1,0,,,,0
+Emotion Recognition in Conversation,Emotion Recognition,1,0,,,,0
+Multimodal Emotion Recognition,Emotion Recognition,1,0,,,,0
+Facial Emotion Recognition,Emotion Recognition,1,0,,,,0
+Emotion-Cause Pair Extraction,Emotion Recognition,1,0,,,,0
+EEG Emotion Recognition,Emotion Recognition,1,0,,,,0
+Emotion Cause Extraction,Emotion Recognition,1,0,,,,0
+Video Emotion Recognition,Emotion Recognition,1,0,,,,0
+Emotion Recognition in Context,Emotion Recognition,1,0,,,,0
+A-VB High,Emotion Recognition,1,0,,,,0
+SNARKS,Emotional Intelligence,1,0,,,,0
+Ruin Names,Emotional Intelligence,1,0,,,,0
+Dark Humor Detection,Emotional Intelligence,1,0,,,,0
+Entity Typing on DH-KGs,Entity Typing,1,0,,,,0
+One-Shot Learning,Few-Shot Learning,1,0,,,,0
+Few-Shot Semantic Segmentation,Few-Shot Learning,1,0,,,,0
+Unsupervised Few-Shot Learning,Few-Shot Learning,1,0,,,,0
+Few-Shot Imitation Learning,Few-Shot Learning,1,0,,,,0
+Few-Shot Camera-Adaptive Color Constancy,Few-Shot Learning,1,0,,,,0
+Few-shot HTC,Few-Shot Learning,1,0,,,,0
+Few-Shot Video Object Detection,Few-Shot Learning,1,0,,,,0
+Grammatical Error Detection,Grammatical Error Correction,1,0,,,,0
+Bangla Spelling Error Correction,Handwriting Verification,1,0,,,,0
+3D dense captioning,Image Captioning,1,0,,,,0
+controllable image captioning,Image Captioning,1,0,,,,0
+Relational Captioning,Image Captioning,1,0,,,,0
+Semi Supervised Learning for Image Captioning,Image Captioning,1,0,,,,0
+Aesthetic Image Captioning,Image Captioning,1,0,,,,0
+Vietnamese Image Captioning,Image Captioning,1,0,,,,0
+Hindi Image Captioning,Image Captioning,1,0,,,,0
+Image-to-Image Translation,Image Generation,1,0,,,,0
+Text-to-Image Generation,Image Generation,1,0,,,,7
+Image Inpainting,Image Generation,1,0,,,,0
+Image Manipulation,Image Generation,1,0,,,,0
+Conditional Image Generation,Image Generation,1,0,,,,0
+Face Generation,Image Generation,1,0,,,,0
+3D Generation,Image Generation,1,0,,,,0
+Pose Transfer,Image Generation,1,0,,,,0
+Image Harmonization,Image Generation,1,0,,,,0
+3D-Aware Image Synthesis,Image Generation,1,0,,,,0
+Event Extraction,Information Extraction,1,0,,,,3
+Extractive Summarization,Information Extraction,1,0,,,,0
+Joint Entity and Relation Extraction,Information Extraction,1,0,,,,0
+Temporal Information Extraction,Information Extraction,1,0,,,,1
+Document-level Event Extraction,Information Extraction,1,0,,,,0
+Attribute Value Extraction,Information Extraction,1,0,,,,0
+Low Resource Named Entity Recognition,Information Extraction,1,0,,,,0
+Drug–drug Interaction Extraction,Information Extraction,1,0,,,,0
+Definition Extraction,Information Extraction,1,0,,,,0
+Event Relation Extraction,Information Extraction,1,0,,,,0
+Passage Retrieval,Information Retrieval,1,0,,,,0
+TAR,Information Retrieval,1,0,,,,0
+Cross-Lingual Information Retrieval,Information Retrieval,1,0,,,,0
+Scientific Results Extraction,Information Retrieval,1,0,,,,0
+visual instruction following,Instruction Following,1,0,,,,0
+Open Intent Detection,Intent Detection,1,0,,,,0
+Network Intrusion Detection,Intrusion Detection,1,0,,,,0
+Key-value Pair Extraction,Key Information Extraction,1,0,,,,0
+Self-Knowledge Distillation,Knowledge Distillation,1,0,,,,0
+Inductive knowledge graph completion,Knowledge Graph Completion,1,0,,,,1
+Inductive Relation Prediction,Knowledge Graph Completion,1,0,,,,0
+Dialect Identification,Language Identification,1,0,,,,0
+Dream Generation,Language Modeling,1,0,,,,0
+XLM-R,Language Modelling,1,0,,,,0
+Long-range modeling,Language Modelling,1,0,,,,0
+Sentence Pair Modeling,Language Modelling,1,0,,,,1
+Controllable Language Modelling,Language Modelling,1,0,,,,0
+Lexical Complexity Prediction,Lexical Analysis,1,0,,,,0
+Pronunciation Dictionary Creation,Lexical Normalization,1,0,,,,0
+Inductive Link Prediction,Link Prediction,1,0,,,,0
+Dynamic Link Prediction,Link Prediction,1,0,,,,0
+Hyperedge Prediction,Link Prediction,1,0,,,,0
+Calibration for Link Prediction,Link Prediction,1,0,,,,0
+Anchor link prediction,Link Prediction,1,0,,,,0
+Link prediction on DH-KGs,Link Prediction,1,0,,,,0
+Systematic Literature Review,Literature Mining,1,0,,,,0
+Bilingual Lexicon Induction,Machine Translation,1,0,,,,0
+Automatic Post-Editing,Machine Translation,1,0,,,,0
+Low Resource Neural Machine Translation,Machine Translation,1,0,,,,0
+Low Resource NMT,Machine Translation,1,0,,,,0
+Clinical Language Translation,Machine Translation,1,0,,,,0
+Legal Document Translation,Machine Translation,1,0,,,,0
+Geometry Problem Solving,Mathematical Reasoning,1,0,,,,0
+Abstract Algebra,Mathematical Reasoning,1,0,,,,0
+Mathematical Induction,Mathematical Reasoning,1,0,,,,0
+High School Mathematics,Mathematical Reasoning,1,0,,,,0
+Professional Accounting,Mathematical Reasoning,1,0,,,,0
+Multimodal Text and Image Classification,Multimodal Deep Learning,1,0,,,,2
+Decoder,NLP based Person Retrival,1,0,,,,0
+Direct NMT,NMT,1,0,,,,0
+Nested Named Entity Recognition,Named Entity Recognition (NER),1,0,,,,0
+Chinese Named Entity Recognition,Named Entity Recognition (NER),1,0,,,,0
+Multilingual Named Entity Recognition,Named Entity Recognition (NER),1,0,,,,0
+Medical Named Entity Recognition,Named Entity Recognition (NER),1,0,,,,0
+Cross-Domain Named Entity Recognition,Named Entity Recognition (NER),1,0,,,,0
+Zero-shot Named Entity Recognition (NER),Named Entity Recognition (NER),1,0,,,,0
+Multi-modal Named Entity Recognition,Named Entity Recognition (NER),1,0,,,,0
+Named Entity Recognition In Vietnamese,Named Entity Recognition (NER),1,0,,,,0
+Visual Entailment,Natural Language Inference,1,0,,,,0
+Text-to-CQL,Natural Language Queries,1,0,,,,0
+Lipreading,Natural Language Transduction,1,0,,,,0
+Vietnamese Social Media Text Processing,Natural Language Understanding,1,0,,,,0
+Emotional Dialogue Acts,Natural Language Understanding,1,0,,,,0
+Negation Scope Resolution,Negation Detection,1,0,,,,0
+Event Extraction,Open Information Extraction,1,0,,,,3
+Active Learning,Optical Character Recognition (OCR),1,0,,,,1
+Handwritten Text Recognition,Optical Character Recognition (OCR),1,0,,,,0
+Handwriting Recognition,Optical Character Recognition (OCR),1,0,,,,0
+Handwritten Digit Recognition,Optical Character Recognition (OCR),1,0,,,,0
+Irregular Text Recognition,Optical Character Recognition (OCR),1,0,,,,0
+Handwritten Chinese Text Recognition,Optical Character Recognition (OCR),1,0,,,,0
+Offline Handwritten Chinese Character Recognition,Optical Character Recognition (OCR),1,0,,,,0
+Handwritten Digit Image Synthesis,Optical Character Recognition (OCR),1,0,,,,0
+Grapheme Detection,Optical Character Recognition (OCR),1,0,,,,0
+Bangla Text Detection,Optical Charater Recogntion,1,0,,,,0
+Unsupervised Part-Of-Speech Tagging,Part-Of-Speech Tagging,1,0,,,,0
+SemEval-2022 Task 4-1 (Binary PCL Detection),Pcl Detection,1,0,,,,0
+SemEval-2022 Task 4-2 (Multi-label PCL Detection),Pcl Detection,1,0,,,,0
+Personality Alignment,Personality Generation,1,0,,,,0
+Grounded Open Vocabulary Acquisition,Phrase Grounding,1,0,,,,0
+Alignement visualisation,Political evalutation,1,0,,,,0
+Visual Prompting,Prompt Engineering,1,0,,,,0
+Propaganda span identification,Propaganda detection,1,0,,,,0
+Propaganda technique identification,Propaganda detection,1,0,,,,0
+Zero-Shot Video Question Answer,Question Answering,1,0,,,,0
+Answer Selection,Question Answering,1,0,,,,0
+Medical question pair similarity computation,Question Similarity,1,0,,,,0
+Intent Recognition,Reading Comprehension,1,0,,,,0
+Implicit Relations,Reading Comprehension,1,0,,,,0
+Question Selection,Reading Comprehension,1,0,,,,0
+LAMBADA,Reading Comprehension,1,0,,,,0
+Implicatures,Reading Comprehension,1,0,,,,0
+Belebele,Reading Comprehension,1,0,,,,0
+Formal Fallacies Syllogisms Negation,Reading Comprehension,1,0,,,,0
+Causal Emotion Entailment,Recognizing Emotion Cause in Conversations,1,0,,,,0
+Deep Reinforcement Learning,Reinforcement Learning,1,0,,,,0
+Document-level Relation Extraction,Relation Extraction,1,0,,,,1
+Joint Entity and Relation Extraction,Relation Extraction,1,0,,,,0
+Temporal Relation Extraction,Relation Extraction,1,0,,,,1
+Dialog Relation Extraction,Relation Extraction,1,0,,,,0
+Relationship Extraction (Distant Supervised),Relation Extraction,1,0,,,,0
+Continual Relation Extraction,Relation Extraction,1,0,,,,0
+Binary Relation Extraction,Relation Extraction,1,0,,,,0
+Zero-shot Relation Triplet Extraction,Relation Extraction,1,0,,,,0
+4-ary Relation Extraction,Relation Extraction,1,0,,,,0
+Disentanglement,Representation Learning,1,0,,,,0
+Graph Representation Learning,Representation Learning,1,0,,,,0
+Network Embedding,Representation Learning,1,0,,,,0
+Learning Word Embeddings,Representation Learning,1,0,,,,0
+Feature Upsampling,Representation Learning,1,0,,,,0
+Learning Semantic Representations,Representation Learning,1,0,,,,0
+Multilingual Word Embeddings,Representation Learning,1,0,,,,0
+Text Retrieval,Retrieval,1,0,,,,0
+Deep Hashing,Retrieval,1,0,,,,0
+Table Retrieval,Retrieval,1,0,,,,0
+Semantic Dependency Parsing,Semantic Parsing,1,0,,,,0
+DRS Parsing,Semantic Parsing,1,0,,,,0
+Unsupervised semantic parsing,Semantic Parsing,1,0,,,,0
+Predicate Detection,Semantic Role Labeling,1,0,,,,0
+Semantic Role Labeling (predicted predicates),Semantic Role Labeling,1,0,,,,0
+Textual Analogy Parsing,Semantic Role Labeling,1,0,,,,0
+Cross-Lingual Semantic Textual Similarity,Semantic Textual Similarity,1,0,,,,0
+Aspect-Based Sentiment Analysis (ABSA),Sentiment Analysis,1,0,,,,8
+Aspect Sentiment Triplet Extraction,Sentiment Analysis,1,0,,,,0
+Aspect Term Extraction and Sentiment Classification,Sentiment Analysis,1,0,,,,0
+target-oriented opinion words extraction,Sentiment Analysis,1,0,,,,0
+Vietnamese Aspect-Based Sentiment Analysis,Sentiment Analysis,1,0,,,,1
+Chunking,Shallow Syntax,1,0,,,,0
+Extracting COVID-19 Events from Twitter,Slot Filling,1,0,,,,0
+Method name prediction,Source Code Summarization,1,0,,,,0
+Traditional Spam Detection,Spam detection,1,0,,,,0
+Context-specific Spam Detection,Spam detection,1,0,,,,0
+Speculation Scope Resolution,Speculation Detection,1,0,,,,0
+Simultaneous Speech-to-Text Translation,Speech-to-Text Translation,1,0,,,,0
+Zero-Shot Stance Detection,Stance Detection,1,0,,,,0
+Few-Shot Stance Detection,Stance Detection,1,0,,,,0
+Stance Detection (US Election 2020 - Biden),Stance Detection,1,0,,,,0
+Stance Detection (US Election 2020 - Trump),Stance Detection,1,0,,,,0
+Text-Based Stock Prediction,Stock Prediction,1,0,,,,0
+PAIR TRADING,Stock Prediction,1,0,,,,0
+Event-Driven Trading,Stock Prediction,1,0,,,,0
+Unsupervised Extractive Summarization,Summarization,1,0,,,,0
+Equation Discovery,Symbolic Regression,1,0,,,,0
+Taxonomy Expansion,Taxonomy Learning,1,0,,,,0
+Hypernym Discovery,Taxonomy Learning,1,0,,,,0
+Temporal Information Extraction,Temporal Processing,1,0,,,,1
+Timex normalization,Temporal Processing,1,0,,,,0
+Nested Term Extraction,Term Extraction,1,0,,,,0
+Nested Term Recognition,Term Extraction,1,0,,,,1
+Hierarchical Text Clustering,Text Clustering,1,0,,,,0
+Spelling Correction,Text Generation,1,0,,,,1
+Abstractive Text Summarization,Text Summarization,1,0,,,,3
+Opinion Summarization,Text Summarization,1,0,,,,0
+Extractive Text Summarization,Text Summarization,1,0,,,,1
+Sentence Compression,Text Summarization,1,0,,,,1
+Sentence Summarization,Text Summarization,1,0,,,,1
+Text to 3D,Text to Image Generation,1,0,,,,0
+Prosody Prediction,Text-To-Speech Synthesis,1,0,,,,0
+Text-to-Video Editing,Text-to-Video Generation,1,0,,,,0
+Subject-driven Video Generation,Text-to-Video Generation,1,0,,,,0
+Sketch-to-text Generation,Text2text Generation,1,0,,,,0
+Figurative Language Visualization,Text2text Generation,1,0,,,,0
+Toxic Spans Detection,Token Classification,1,0,,,,0
+Image to Video Generation,Video Generation,1,0,,,,0
+Unconditional Video Generation,Video Generation,1,0,,,,0
+Vietnamese Multimodal Sentiment Analysis,Vietnamese Sentiment Analysis,1,0,,,,0
+Visual Question Answering,Visual Question Answering (VQA),1,0,,,,5
+3D Question Answering (3D-QA),Visual Question Answering (VQA),1,0,,,,0
+Generative Visual Question Answering,Visual Question Answering (VQA),1,0,,,,0
+Factual Visual Question Answering,Visual Question Answering (VQA),1,0,,,,0
+Multimodal Colonoscopy,Visual Question Answering (VQA),1,0,,,,0
+Weakly Supervised Data Denoising,Weakly Supervised Classification,1,0,,,,0
+Learning Word Embeddings,Word Embeddings,1,0,,,,0
+Multilingual Word Embeddings,Word Embeddings,1,0,,,,0
+Embeddings Evaluation,Word Embeddings,1,0,,,,0
+Contextualised Word Representations,Word Embeddings,1,0,,,,0
+Word Sense Induction,Word Sense Disambiguation,1,0,,,,0
+Game Design,trustable and focussed LLM generated content,1,0,,,,0
+Knowledge Graphs,Large Language Model,2,46,,MARS (Multimodal Analogical Reasoning dataSet);  FB15k; JerichoWorld; WikiKG90M-LSC,,0
+NER,Event Extraction,2,27,,,,0
+NER,Event Extraction,2,27,,,,0
+Document Classification,Text Classification,2,18,,Recipe; SciDocs (MAG); Yelp-14; SciDocs (MeSH); BBCSport; MPQA; AAPD; Cora; Reuters-21578; Reuters De-En,,1
+Sentence Classification,Text Classification,2,14,,CHIP-CTC; ScienceCite; SciCite; PubMed 20k RCT; Paper Field; ACL-ARC,,0
+Spoken Language Understanding,Dialogue Understanding,2,14,,Snips-SmartLights; Snips-SmartSpeaker; Spoken-SQuAD; Timers and Such; Fluent Speech Commands,,0
+Multi-Label Text Classification,Text Classification,2,13,,MIMIC-III; USPTO-3M; Wiki-30K; EUR-Lex; MIMIC-III-50; RCV1; AAPD; Amazon-12K; CC3M-TagMask; Reuters-21578,,0
+News Classification,Cross-Lingual Document Classification,2,12,,,,0
+Large Language Model,Inductive knowledge graph completion,2,10,,,,3
+Cross-Lingual NER,Cross-Lingual Transfer,2,9,,,,0
+KG-to-Text Generation,Data-to-Text Generation,2,9,,AGENDA; WikiGraphs; WebNLG (All); WebNLG (Unseen); EventNarrative; WebNLG 2.0 (Unconstrained); WebQuestions; WebNLG (Seen); PathQuestion; ENT-DESC,,0
+Temporal Tagging,Temporal Information Extraction,2,8,,,,0
+Sentence Embedding,Sentence Embeddings,2,8,,,,0
+Temporal Tagging,Temporal Information Extraction,2,8,,,,0
+Toxic Comment Classification,Text Classification,2,7,,,,0
+Text Categorization,Text Classification,2,6,,,,0
+Few-Shot Relation Classification,Relation Classification,2,6,,,,0
+Temporal Relation Classification,Temporal Relation Extraction,2,5,,,,0
+Spatial Reasoning,Visual Question Answering,2,5,,,,0
+Few-Shot Text Classification,Text Classification,2,4,,ODIC 10-way (10-shot); RAFT; SST-5; Average on NLP datasets; ODIC 5-way (5-shot); ODIC 5-way (10-shot); Amazon Counterfeit; ODIC 10-way (5-shot),,1
+Zero-Shot Cross-Lingual Transfer,Cross-Lingual Transfer,2,4,,,,0
+Lay Summarization,Scientific Document Summarization,2,4,,,,0
+knowledge editing,Model Editing,2,3,,,,0
+Multi-modal Dialogue Generation,Dialogue Generation,2,3,,,,0
+Multi-modal Dialogue Generation,Dialogue Generation,2,3,,,,0
+Multi-modal Dialogue Generation,Dialogue Generation,2,3,,,,0
+Unsupervised KG-to-Text Generation,Data-to-Text Generation,2,3,,,,0
+Semi-Supervised Text Classification,Text Classification,2,2,,,,0
+Implicit Discourse Relation Classification,Relation Classification,2,2,,,,0
+Document-level RE with incomplete labeling,Document-level Relation Extraction,2,2,,,,0
+Formality Style Transfer,Text Style Transfer,2,1,,,,0
+Coherence Evaluation,Text Classification,2,1,,,,0
+Component Classification,Argument Mining,2,1,,,,0
+Multimodal Lexical Translation,Multimodal Machine Translation,2,1,,,,0
+Tweet-Reply Sentiment Analysis,Twitter Sentiment Analysis,2,1,,,,0
+Formality Style Transfer,Text Style Transfer,2,1,,,,0
+KB-to-Language Generation,Table-to-Text Generation,2,1,,,,0
+Email Thread Summarization,Document Summarization,2,1,,,,0
+text-guided-image-editing,Text-to-Image Generation,2,0,,,,0
+Text-based Image Editing,Text-to-Image Generation,2,0,,,,0
+Concept Alignment,Text-to-Image Generation,2,0,,,,0
+Zero-Shot Text-to-Image Generation,Text-to-Image Generation,2,0,,,,0
+Conditional Text-to-Image Synthesis,Text-to-Image Generation,2,0,,,,0
+Consistent Character Generation,Text-to-Image Generation,2,0,,,,0
+DreamBooth Personalized Generation,Text-to-Image Generation,2,0,,,,0
+Word Attribute Transfer,Text Style Transfer,2,0,,,,0
+Semi-Supervised Formality Style Transfer,Text Style Transfer,2,0,,,,0
+Hope Speech Detection,Hate Speech Detection,2,0,,,,3
+Hate Speech Normalization,Hate Speech Detection,2,0,,,,0
+Hate Speech Detection CrisisHateMM Benchmark,Hate Speech Detection,2,0,,,,0
+Session Search,Document Ranking,2,0,,,,0
+Topic Models,Text Classification,2,0,,,,2
+Emotion Classification,Text Classification,2,0,,,,0
+FG-1-PG-1,Continual Named Entity Recognition,2,0,,,,0
+Variable Disambiguation,Cross-Lingual Entity Linking,2,0,,,,0
+Multi-modal Entity Alignment,Entity Alignment,2,0,,,,0
+Blocking,Entity Resolution,2,0,,,,0
+Column Type Annotation,Table annotation,2,0,,,,0
+Cell Entity Annotation,Table annotation,2,0,,,,0
+Columns Property Annotation,Table annotation,2,0,,,,0
+Table Type Detection,Table annotation,2,0,,,,0
+Row Annotation,Table annotation,2,0,,,,0
+Metric-Type Identification,Table annotation,2,0,,,,0
+Key Point Matching,Argument Mining,2,0,,,,0
+Argument Pair Extraction (APE),Argument Mining,2,0,,,,0
+Claim Extraction with Stance Classification (CESC),Argument Mining,2,0,,,,0
+Claim-Evidence Pair Extraction (CEPE),Argument Mining,2,0,,,,0
+ValNov,Argument Mining,2,0,,,,0
+SSTOD,Task-Oriented Dialogue Systems,2,0,,,,0
+Dialogue Safety Prediction,Dialogue Understanding,2,0,,,,0
+User Simulation,Goal-Oriented Dialog,2,0,,,,0
+Line Items Extraction,document understanding,2,0,,,,0
+text-guided-image-editing,Text-to-Image Generation,2,0,,,,0
+Text-based Image Editing,Text-to-Image Generation,2,0,,,,0
+Concept Alignment,Text-to-Image Generation,2,0,,,,0
+Zero-Shot Text-to-Image Generation,Text-to-Image Generation,2,0,,,,0
+Conditional Text-to-Image Synthesis,Text-to-Image Generation,2,0,,,,0
+Consistent Character Generation,Text-to-Image Generation,2,0,,,,0
+DreamBooth Personalized Generation,Text-to-Image Generation,2,0,,,,0
+Event Causality Identification,Event Extraction,2,0,,,,0
+Zero-shot Event Extraction,Event Extraction,2,0,,,,0
+Benchmarking,Data-free Knowledge Distillation,2,0,,,,0
+RAG,Large Language Model,2,0,,,,0
+AI Agent,Large Language Model,2,0,,,,0
+Semantic Similarity,Sentence Pair Modeling,2,0,,,,2
+Face to Face Translation,Multimodal Machine Translation,2,0,,,,0
+image-sentence alignment,Multimodal Text and Image Classification,2,0,,,,0
+Open-World Social Event Classification,Multimodal Text and Image Classification,2,0,,,,0
+Event Causality Identification,Event Extraction,2,0,,,,0
+Zero-shot Event Extraction,Event Extraction,2,0,,,,0
+Active Object Detection,Active Learning,2,0,,,,0
+Question Rewriting,Conversational Question Answering,2,0,,,,0
+Cause-Effect Relation Classification,Relation Classification,2,0,,,,0
+Sentence Compression,Sentence Embeddings,2,0,,,,1
+Joint Multilingual Sentence Representations,Sentence Embeddings,2,0,,,,1
+Sentence Embeddings For Biomedical Texts,Sentence Embeddings,2,0,,,,0
+MMSQL performance,Text-To-SQL,2,0,,,,0
+Aspect Extraction,Aspect-Based Sentiment Analysis (ABSA),2,0,,,,2
+Aspect Category Sentiment Analysis,Aspect-Based Sentiment Analysis (ABSA),2,0,,,,0
+Extract Aspect,Aspect-Based Sentiment Analysis (ABSA),2,0,,,,0
+Aspect-oriented  Opinion Extraction,Aspect-Based Sentiment Analysis (ABSA),2,0,,,,0
+Aspect-Category-Opinion-Sentiment Quadruple Extraction,Aspect-Based Sentiment Analysis (ABSA),2,0,,,,1
+Extract aspect-polarity tuple,Aspect-Based Sentiment Analysis (ABSA),2,0,,,,0
+Aspect-Sentiment-Opinion Triplet Extraction,Aspect-Based Sentiment Analysis (ABSA),2,0,,,,0
+Aspect Category Sentiment Classification,Aspect-Based Sentiment Analysis (ABSA),2,0,,,,0
+Transition-Based Dependency Parsing,Persian Sentiment Analysis,2,0,,,,0
+Sentiment Dependency Learning,Vietnamese Aspect-Based Sentiment Analysis,2,0,,,,0
+Nested Term Recognition from Flat Supervision,Nested Term Recognition,2,0,,,,0
+Visual Storytelling,Data-to-Text Generation,2,0,,,,1
+Visual Storytelling,Story Generation,2,0,,,,1
+Word Attribute Transfer,Text Style Transfer,2,0,,,,0
+Semi-Supervised Formality Style Transfer,Text Style Transfer,2,0,,,,0
+Multilingual Paraphrase Generation,Paraphrase Generation,2,0,,,,0
+Bangla Spelling Error Correction,Spelling Correction,2,0,,,,0
+Multimedia Generative Script Learning,Conditional Text Generation,2,0,,,,0
+Contextualized Literature-based Discovery,Conditional Text Generation,2,0,,,,0
+Timeline Summarization,Abstractive Text Summarization,2,0,,,,0
+Multimodal Abstractive Text Summarization,Abstractive Text Summarization,2,0,,,,0
+Reader-Aware Summarization,Abstractive Text Summarization,2,0,,,,0
+Reader-Aware Summarization,Extractive Text Summarization,2,0,,,,0
+Unsupervised Sentence Compression,Sentence Compression,2,0,,,,0
+Unsupervised Sentence Summarization,Sentence Summarization,2,0,,,,0
+Object Hallucination,Visual Question Answering,2,0,,,,0
+Explanatory Visual Question Answering,Visual Question Answering,2,0,,,,0
+Vietnamese Visual Question Answering,Visual Question Answering,2,0,,,,0
+MM-Vet v2,Visual Question Answering,2,0,,,,0
+Knowledge Graphs,Large Language Model,3,46,,MARS (Multimodal Analogical Reasoning dataSet);  FB15k; JerichoWorld; WikiKG90M-LSC,,0
+Similarity Explanation,Semantic Similarity,3,1,,,,0
+Hope Speech Detection for English,Hope Speech Detection,3,0,,,,0
+Hope Speech Detection for Tamil,Hope Speech Detection,3,0,,,,0
+Hope Speech Detection for Malayalam,Hope Speech Detection,3,0,,,,0
+Page Stream Segmentation,Document Classification,3,0,,,,0
+Topic coverage,Topic Models,3,0,,,,0
+Dynamic Topic Modeling,Topic Models,3,0,,,,0
+Zero-Shot Out-of-Domain Detection,Few-Shot Text Classification,3,0,,,,0
+RAG,Large Language Model,3,0,,,,0
+AI Agent,Large Language Model,3,0,,,,0
+Semantic Shift Detection,Semantic Similarity,3,0,,,,0
+Unsupervised Sentence Compression,Sentence Compression,3,0,,,,0
+Abstract Meaning Representation,Joint Multilingual Sentence Representations,3,0,,,,0
+Hidden Aspect Detection,Aspect Extraction,3,0,,,,0
+Latent Aspect Detection,Aspect Extraction,3,0,,,,0
+Conversational Sentiment Quadruple Extraction,Aspect-Category-Opinion-Sentiment Quadruple Extraction,3,0,,,,0
+Image-guided Story Ending Generation,Visual Storytelling,3,0,,,,0
+Image-guided Story Ending Generation,Visual Storytelling,3,0,,,,0

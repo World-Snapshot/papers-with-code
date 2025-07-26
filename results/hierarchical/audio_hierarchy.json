@@ -1,0 +1,1143 @@
+{
+  "domain": "audio",
+  "hierarchical_tasks": [
+    {
+      "name": "1 Image, 2*2 Stitchi",
+      "children": [
+        {
+          "name": "Pose Estimation",
+          "children": []
+        },
+        {
+          "name": "Style Transfer",
+          "children": []
+        },
+        {
+          "name": "Text-to-Image Generation",
+          "children": []
+        },
+        {
+          "name": "Music Generation",
+          "children": [
+            {
+              "name": "Music Performance Rendering",
+              "children": []
+            },
+            {
+              "name": "Multimodal Music Generation",
+              "children": []
+            },
+            {
+              "name": "Music Texture Transfer",
+              "children": []
+            }
+          ]
+        },
+        {
+          "name": "Voice Conversion",
+          "children": [],
+          "description": "",
+          "dataset_count": 8,
+          "benchmarks": [
+            "LibriSpeech test-clean",
+            "ZeroSpeech 2019 English",
+            "VCTK"
+          ],
+          "metrics": [],
+          "task_id": "",
+          "area": ""
+        },
+        {
+          "name": "Image Deblurring",
+          "children": []
+        },
+        {
+          "name": "Virtual Try-on",
+          "children": []
+        },
+        {
+          "name": "Talking Face Generation",
+          "children": []
+        },
+        {
+          "name": "Image to Video Generation",
+          "children": []
+        },
+        {
+          "name": "Pneumonia Detection",
+          "children": []
+        }
+      ]
+    },
+    {
+      "name": "10-shot image generation",
+      "children": [
+        {
+          "name": "Semantic Segmentation",
+          "children": []
+        },
+        {
+          "name": "Decoder",
+          "children": []
+        },
+        {
+          "name": "Object",
+          "children": []
+        },
+        {
+          "name": "Image Restoration",
+          "children": []
+        },
+        {
+          "name": "Text-to-Image Generation",
+          "children": []
+        },
+        {
+          "name": "Deblurring",
+          "children": []
+        },
+        {
+          "name": "Text to Speech",
+          "children": []
+        },
+        {
+          "name": "Face Swapping",
+          "children": []
+        },
+        {
+          "name": "Motion Estimation",
+          "children": []
+        },
+        {
+          "name": "Image Deblurring",
+          "children": []
+        }
+      ]
+    },
+    {
+      "name": "2D Classification",
+      "children": [
+        {
+          "name": "Object Detection",
+          "children": []
+        },
+        {
+          "name": "Articles",
+          "children": []
+        },
+        {
+          "name": "Style Transfer",
+          "children": []
+        },
+        {
+          "name": "Deblurring",
+          "children": []
+        },
+        {
+          "name": "Backdoor Attack",
+          "children": []
+        },
+        {
+          "name": "Neural Rendering",
+          "children": []
+        },
+        {
+          "name": "Voice Conversion",
+          "children": [],
+          "description": "",
+          "dataset_count": 8,
+          "benchmarks": [
+            "LibriSpeech test-clean",
+            "ZeroSpeech 2019 English",
+            "VCTK"
+          ],
+          "metrics": [],
+          "task_id": "",
+          "area": ""
+        },
+        {
+          "name": "Neural Network Compression",
+          "children": []
+        },
+        {
+          "name": "Music Source Separation",
+          "children": [],
+          "description": "",
+          "dataset_count": 9,
+          "benchmarks": [
+            "MUSDB18",
+            "MUSDB18-HQ",
+            "Slakh2100"
+          ],
+          "metrics": [],
+          "task_id": "",
+          "area": ""
+        },
+        {
+          "name": "Cell Detection",
+          "children": []
+        }
+      ]
+    },
+    {
+      "name": "2D Semantic Segmentation",
+      "children": [
+        {
+          "name": "Image Segmentation",
+          "children": []
+        },
+        {
+          "name": "Text Style Transfer",
+          "children": []
+        },
+        {
+          "name": "Scene Parsing",
+          "children": []
+        },
+        {
+          "name": "Reflection Removal",
+          "children": []
+        },
+        {
+          "name": "Foreground Segmentation",
+          "children": []
+        },
+        {
+          "name": "Continual Semantic Segmentation",
+          "children": []
+        },
+        {
+          "name": "Building Damage Assessment",
+          "children": []
+        },
+        {
+          "name": "Human Part Segmentation",
+          "children": []
+        },
+        {
+          "name": "Overlapped 15-1",
+          "children": []
+        },
+        {
+          "name": "Disjoint 15-1",
+          "children": []
+        }
+      ]
+    },
+    {
+      "name": "3D Human Dynamics",
+      "children": [
+        {
+          "name": "Portrait Animation",
+          "children": []
+        }
+      ]
+    },
+    {
+      "name": "3D Human Pose Tracking",
+      "children": [
+        {
+          "name": "Motion Synthesis",
+          "children": []
+        }
+      ]
+    },
+    {
+      "name": "Audio Generation",
+      "children": [
+        {
+          "name": "Voice Cloning",
+          "children": [],
+          "description": "",
+          "dataset_count": 2,
+          "benchmarks": [],
+          "metrics": [],
+          "task_id": "",
+          "area": ""
+        },
+        {
+          "name": "Room Impulse Response (RIR)",
+          "children": []
+        },
+        {
+          "name": "Audio Super-Resolution",
+          "children": []
+        },
+        {
+          "name": "Video-to-Sound Generation",
+          "children": []
+        }
+      ]
+    },
+    {
+      "name": "Audio Signal Processing",
+      "children": [
+        {
+          "name": "blind source separation",
+          "children": [],
+          "description": "",
+          "dataset_count": 0,
+          "benchmarks": [],
+          "metrics": [],
+          "task_id": "",
+          "area": ""
+        },
+        {
+          "name": "Audio Compression",
+          "children": []
+        },
+        {
+          "name": "Audio Effects Modeling",
+          "children": [
+            {
+              "name": "Pitch control",
+              "children": []
+            },
+            {
+              "name": "Timbre Interpolation",
+              "children": []
+            }
+          ]
+        }
+      ],
+      "description": "",
+      "dataset_count": 2,
+      "benchmarks": [],
+      "metrics": [],
+      "task_id": "",
+      "area": ""
+    },
+    {
+      "name": "Audio Signal Recognition",
+      "children": [
+        {
+          "name": "Gunshot Detection",
+          "children": []
+        }
+      ]
+    },
+    {
+      "name": "Audio Source Separation",
+      "children": [
+        {
+          "name": "Target Sound Extraction",
+          "children": [
+            {
+              "name": "Streaming Target Sound Extraction",
+              "children": []
+            }
+          ]
+        },
+        {
+          "name": "Directional Hearing",
+          "children": [
+            {
+              "name": "Real-time Directional Hearing",
+              "children": []
+            }
+          ]
+        },
+        {
+          "name": "Single-Label Target Sound Extraction",
+          "children": []
+        }
+      ],
+      "description": "",
+      "dataset_count": 15,
+      "benchmarks": [
+        "MUSIC (multi-source)",
+        "AudioSet"
+      ],
+      "metrics": [],
+      "task_id": "",
+      "area": ""
+    },
+    {
+      "name": "Audio captioning",
+      "children": [
+        {
+          "name": "Retrieval-augmented Few-shot In-context Audio Captioning",
+          "children": []
+        },
+        {
+          "name": "Zero-shot Audio Captioning",
+          "children": []
+        }
+      ],
+      "description": "",
+      "dataset_count": 5,
+      "benchmarks": [
+        "Clotho",
+        "AudioCaps"
+      ],
+      "metrics": [],
+      "task_id": "",
+      "area": ""
+    },
+    {
+      "name": "Bird Classification",
+      "children": [
+        {
+          "name": "Bird Audio Detection",
+          "children": []
+        },
+        {
+          "name": "Bird Species Classification With Audio-Visual Data",
+          "children": []
+        }
+      ]
+    },
+    {
+      "name": "Classification",
+      "children": [
+        {
+          "name": "Text Classification",
+          "children": []
+        },
+        {
+          "name": "Graph Classification",
+          "children": []
+        },
+        {
+          "name": "Multi-class Classification",
+          "children": []
+        },
+        {
+          "name": "Audio Classification",
+          "children": [
+            {
+              "name": "Environmental Sound Classification",
+              "children": [
+                {
+                  "name": "Self-Supervised Sound Classification",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "name": "Audio Multiple Target Classification",
+              "children": []
+            },
+            {
+              "name": "Semi-supervised Audio Classification",
+              "children": []
+            },
+            {
+              "name": "Parkinson Detection from Speech",
+              "children": []
+            }
+          ]
+        },
+        {
+          "name": "Medical Image Classification",
+          "children": []
+        },
+        {
+          "name": "Plant Phenotyping",
+          "children": []
+        },
+        {
+          "name": "Classifier calibration",
+          "children": []
+        },
+        {
+          "name": "Morphology classification",
+          "children": []
+        },
+        {
+          "name": "Multi-modal Classification",
+          "children": []
+        },
+        {
+          "name": "IoT Device Identification",
+          "children": []
+        }
+      ]
+    },
+    {
+      "name": "DeepFake Detection",
+      "children": [
+        {
+          "name": "Audio Deepfake Detection",
+          "children": []
+        },
+        {
+          "name": "Synthetic Speech Detection",
+          "children": []
+        },
+        {
+          "name": "Human Detection of Deepfakes",
+          "children": []
+        },
+        {
+          "name": "Multimodal Forgery Detection",
+          "children": []
+        },
+        {
+          "name": "diffusion-generated faces detection",
+          "children": []
+        }
+      ]
+    },
+    {
+      "name": "Emotion Recognition",
+      "children": [
+        {
+          "name": "Speech Emotion Recognition",
+          "children": []
+        },
+        {
+          "name": "Emotion Recognition in Conversation",
+          "children": []
+        },
+        {
+          "name": "Multimodal Emotion Recognition",
+          "children": []
+        },
+        {
+          "name": "Facial Emotion Recognition",
+          "children": []
+        },
+        {
+          "name": "Emotion-Cause Pair Extraction",
+          "children": []
+        },
+        {
+          "name": "EEG Emotion Recognition",
+          "children": []
+        },
+        {
+          "name": "Emotion Cause Extraction",
+          "children": []
+        },
+        {
+          "name": "Video Emotion Recognition",
+          "children": []
+        },
+        {
+          "name": "Emotion Recognition in Context",
+          "children": []
+        },
+        {
+          "name": "A-VB High",
+          "children": []
+        }
+      ]
+    },
+    {
+      "name": "Few-Shot Learning",
+      "children": [
+        {
+          "name": "One-Shot Learning",
+          "children": []
+        },
+        {
+          "name": "Few-Shot Semantic Segmentation",
+          "children": []
+        },
+        {
+          "name": "Cross-Domain Few-Shot",
+          "children": []
+        },
+        {
+          "name": "Unsupervised Few-Shot Learning",
+          "children": []
+        },
+        {
+          "name": "Few-Shot Relation Classification",
+          "children": []
+        },
+        {
+          "name": "Few-Shot Imitation Learning",
+          "children": []
+        },
+        {
+          "name": "Few-Shot Audio Classification",
+          "children": []
+        },
+        {
+          "name": "Few-Shot Camera-Adaptive Color Constancy",
+          "children": []
+        },
+        {
+          "name": "Few-shot HTC",
+          "children": []
+        },
+        {
+          "name": "Few-Shot Video Object Detection",
+          "children": []
+        }
+      ]
+    },
+    {
+      "name": "Hearing Aid and device processing",
+      "children": [
+        {
+          "name": "Cadenza 1 - Task 1 - Headphone",
+          "children": []
+        },
+        {
+          "name": "Cadenza 1 - Task 2 - In Car",
+          "children": []
+        }
+      ]
+    },
+    {
+      "name": "Instance Search",
+      "children": [
+        {
+          "name": "Audio Fingerprint",
+          "children": [],
+          "description": "",
+          "dataset_count": 1,
+          "benchmarks": [],
+          "metrics": [],
+          "task_id": "",
+          "area": ""
+        }
+      ]
+    },
+    {
+      "name": "Language Identification",
+      "children": [
+        {
+          "name": "Dialect Identification",
+          "children": []
+        },
+        {
+          "name": "Native Language Identification",
+          "children": []
+        }
+      ]
+    },
+    {
+      "name": "Online Beat Tracking",
+      "children": [
+        {
+          "name": "Inference Optimization",
+          "children": []
+        }
+      ]
+    },
+    {
+      "name": "Signal Processing",
+      "children": [
+        {
+          "name": "Physiological Computing",
+          "children": []
+        }
+      ]
+    },
+    {
+      "name": "Speech Enhancement",
+      "children": [
+        {
+          "name": "Speech Dereverberation",
+          "children": [],
+          "description": "",
+          "dataset_count": 6,
+          "benchmarks": [],
+          "metrics": [],
+          "task_id": "",
+          "area": ""
+        },
+        {
+          "name": "Bandwidth Extension",
+          "children": []
+        },
+        {
+          "name": "Packet Loss Concealment",
+          "children": []
+        },
+        {
+          "name": "Speech Intelligibility Evaluation",
+          "children": []
+        }
+      ]
+    },
+    {
+      "name": "Speech Recognition",
+      "children": [
+        {
+          "name": "Automatic Speech Recognition (ASR)",
+          "children": []
+        },
+        {
+          "name": "Visual Speech Recognition",
+          "children": []
+        },
+        {
+          "name": "Robust Speech Recognition",
+          "children": []
+        },
+        {
+          "name": "Target Speaker Extraction",
+          "children": []
+        },
+        {
+          "name": "Distant Speech Recognition",
+          "children": []
+        },
+        {
+          "name": "Automatic Lyrics Transcription",
+          "children": []
+        },
+        {
+          "name": "Sequence-To-Sequence Speech Recognition",
+          "children": []
+        },
+        {
+          "name": "Accented Speech Recognition",
+          "children": [
+            {
+              "name": "Speech Synthesis",
+              "children": [
+                {
+                  "name": "Expressive Speech Synthesis",
+                  "children": []
+                },
+                {
+                  "name": "Emotional Speech Synthesis",
+                  "children": []
+                },
+                {
+                  "name": "Speech Synthesis - Gujarati",
+                  "children": []
+                },
+                {
+                  "name": "text-to-speech translation",
+                  "children": []
+                },
+                {
+                  "name": "Speech Synthesis - Tamil",
+                  "children": []
+                },
+                {
+                  "name": "Speech Synthesis - Kannada",
+                  "children": []
+                },
+                {
+                  "name": "Speech Synthesis - Malayalam",
+                  "children": []
+                },
+                {
+                  "name": "Speech Synthesis - Telugu",
+                  "children": []
+                },
+                {
+                  "name": "Speech Synthesis - Assamese",
+                  "children": []
+                },
+                {
+                  "name": "Speech Synthesis - Bengali",
+                  "children": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Noisy Speech Recognition",
+          "children": []
+        },
+        {
+          "name": "Speech Language Identification",
+          "children": []
+        }
+      ]
+    },
+    {
+      "name": "Text to Audio Retrieval",
+      "children": [
+        {
+          "name": "audio moment retrieval",
+          "children": []
+        }
+      ]
+    },
+    {
+      "name": "Text-To-Speech Synthesis",
+      "children": [
+        {
+          "name": "Prosody Prediction",
+          "children": []
+        },
+        {
+          "name": "Zero-Shot Multi-Speaker TTS",
+          "children": []
+        }
+      ]
+    }
+  ],
+  "standalone_tasks": [
+    {
+      "name": "Speech Separation",
+      "children": [],
+      "description": "",
+      "dataset_count": 16,
+      "benchmarks": [
+        "TCD-TIMIT corpus (mixed-speech)",
+        "Libri20Mix",
+        "Libri10Mix",
+        "WSJ0-2mix",
+        "Libri5Mix",
+        "WSJ0-5mix",
+        "GRID corpus (mixed-speech)",
+        "iKala",
+        "Libri15Mix",
+        "VoxCeleb2"
+      ],
+      "metrics": [],
+      "task_id": "",
+      "area": ""
+    },
+    {
+      "name": "Music Transcription",
+      "children": [],
+      "description": "",
+      "dataset_count": 14,
+      "benchmarks": [
+        "URMP",
+        "MAPS",
+        "MusicNet",
+        "Slakh2100",
+        "SMD Piano",
+        "MAESTRO"
+      ],
+      "metrics": [],
+      "task_id": "",
+      "area": ""
+    },
+    {
+      "name": "Speaker Verification",
+      "children": [],
+      "description": "",
+      "dataset_count": 12,
+      "benchmarks": [
+        "VibraVox (throat microphone)",
+        "CALLHOME",
+        "VibraVox (temple vibration pickup)",
+        "VoxCeleb1",
+        "VoxCeleb2",
+        "VibraVox (headset microphone)",
+        "VoxCeleb",
+        "VibraVox (soft in-ear microphone)",
+        "VibraVox (forehead accelerometer)",
+        "VibraVox (rigid in-ear microphone)"
+      ],
+      "metrics": [],
+      "task_id": "",
+      "area": ""
+    },
+    {
+      "name": "Speaker Diarization",
+      "children": [],
+      "description": "",
+      "dataset_count": 11,
+      "benchmarks": [
+        "DIHARD",
+        "DIHARD3-eval",
+        "AMI",
+        "CALLHOME",
+        "call_home_american_english_speech",
+        "AMI MixHeadset",
+        "AMI Lapel",
+        "CH109",
+        "Hub5'00 CallHome",
+        "NIST-SRE 2000"
+      ],
+      "metrics": [],
+      "task_id": "",
+      "area": ""
+    },
+    {
+      "name": "Music Modeling",
+      "children": [],
+      "description": "",
+      "dataset_count": 6,
+      "benchmarks": [
+        "JSB Chorales",
+        "Nottingham"
+      ],
+      "metrics": [],
+      "task_id": "",
+      "area": ""
+    },
+    {
+      "name": "Multi-instrument Music Transcription",
+      "children": [],
+      "description": "",
+      "dataset_count": 6,
+      "benchmarks": [],
+      "metrics": [],
+      "task_id": "",
+      "area": ""
+    },
+    {
+      "name": "Voice Anti-spoofing",
+      "children": [],
+      "description": "",
+      "dataset_count": 6,
+      "benchmarks": [
+        "ASVspoof2019",
+        "ASVspoof 2019 - LA",
+        "ASVspoof 2019 - PA"
+      ],
+      "metrics": [],
+      "task_id": "",
+      "area": ""
+    },
+    {
+      "name": "Music Captioning",
+      "children": [],
+      "description": "",
+      "dataset_count": 5,
+      "benchmarks": [],
+      "metrics": [],
+      "task_id": "",
+      "area": ""
+    },
+    {
+      "name": "Speaker Identification",
+      "children": [],
+      "description": "",
+      "dataset_count": 4,
+      "benchmarks": [
+        "EVI en-GB",
+        "VoxCeleb1",
+        "EVI fr-FR",
+        "EVI pl-PL"
+      ],
+      "metrics": [],
+      "task_id": "",
+      "area": ""
+    },
+    {
+      "name": "Speaker Separation",
+      "children": [],
+      "description": "",
+      "dataset_count": 3,
+      "benchmarks": [],
+      "metrics": [],
+      "task_id": "",
+      "area": ""
+    },
+    {
+      "name": "Multi-task Audio Source Seperation",
+      "children": [],
+      "description": "",
+      "dataset_count": 3,
+      "benchmarks": [],
+      "metrics": [],
+      "task_id": "",
+      "area": ""
+    },
+    {
+      "name": "Rhythm",
+      "children": [],
+      "description": "",
+      "dataset_count": 2,
+      "benchmarks": [],
+      "metrics": [],
+      "task_id": "",
+      "area": ""
+    },
+    {
+      "name": "Piano Music Modeling",
+      "children": [],
+      "description": "",
+      "dataset_count": 2,
+      "benchmarks": [],
+      "metrics": [],
+      "task_id": "",
+      "area": ""
+    },
+    {
+      "name": "Drum Transcription in Music (DTM)",
+      "children": [],
+      "description": "",
+      "dataset_count": 2,
+      "benchmarks": [],
+      "metrics": [],
+      "task_id": "",
+      "area": ""
+    },
+    {
+      "name": "Salt-And-Pepper Noise Removal",
+      "children": [],
+      "description": "",
+      "dataset_count": 1,
+      "benchmarks": [],
+      "metrics": [],
+      "task_id": "",
+      "area": ""
+    },
+    {
+      "name": "Cross-environment ASR",
+      "children": [],
+      "description": "",
+      "dataset_count": 1,
+      "benchmarks": [],
+      "metrics": [],
+      "task_id": "",
+      "area": ""
+    },
+    {
+      "name": "Cross-device ASR",
+      "children": [],
+      "description": "",
+      "dataset_count": 1,
+      "benchmarks": [],
+      "metrics": [],
+      "task_id": "",
+      "area": ""
+    },
+    {
+      "name": "Noise Estimation",
+      "children": [],
+      "description": "",
+      "dataset_count": 1,
+      "benchmarks": [
+        "SIDD"
+      ],
+      "metrics": [],
+      "task_id": "",
+      "area": ""
+    },
+    {
+      "name": "Soundscape evaluation",
+      "children": [],
+      "description": "",
+      "dataset_count": 1,
+      "benchmarks": [],
+      "metrics": [],
+      "task_id": "",
+      "area": ""
+    },
+    {
+      "name": "Speaker Attribution in German Parliamentary Debates (GermEval 2023, subtask 1)",
+      "children": [],
+      "description": "",
+      "dataset_count": 1,
+      "benchmarks": [
+        "GePaDe"
+      ],
+      "metrics": [],
+      "task_id": "",
+      "area": ""
+    },
+    {
+      "name": "Speaker Attribution in German Parliamentary Debates (GermEval 2023, subtask 2)",
+      "children": [],
+      "description": "",
+      "dataset_count": 1,
+      "benchmarks": [
+        "GePaDe"
+      ],
+      "metrics": [],
+      "task_id": "",
+      "area": ""
+    },
+    {
+      "name": "Acoustic Modelling",
+      "children": [],
+      "description": "",
+      "dataset_count": 1,
+      "benchmarks": [],
+      "metrics": [],
+      "task_id": "",
+      "area": ""
+    },
+    {
+      "name": "Speaker Profiling",
+      "children": [],
+      "description": "",
+      "dataset_count": 1,
+      "benchmarks": [],
+      "metrics": [],
+      "task_id": "",
+      "area": ""
+    },
+    {
+      "name": "Recognizing Seven Different Dastgahs Of Iranian Classical Music",
+      "children": [],
+      "description": "",
+      "dataset_count": 0,
+      "benchmarks": [],
+      "metrics": [],
+      "task_id": "",
+      "area": ""
+    },
+    {
+      "name": "Audio declipping",
+      "children": [],
+      "description": "",
+      "dataset_count": 0,
+      "benchmarks": [],
+      "metrics": [],
+      "task_id": "",
+      "area": ""
+    },
+    {
+      "name": "Audio Dequantization",
+      "children": [],
+      "description": "",
+      "dataset_count": 0,
+      "benchmarks": [],
+      "metrics": [],
+      "task_id": "",
+      "area": ""
+    },
+    {
+      "name": "Speaker Orientation",
+      "children": [],
+      "description": "",
+      "dataset_count": 0,
+      "benchmarks": [],
+      "metrics": [],
+      "task_id": "",
+      "area": ""
+    },
+    {
+      "name": "Hate Speech Normalization",
+      "children": [],
+      "description": "",
+      "dataset_count": 0,
+      "benchmarks": [],
+      "metrics": [],
+      "task_id": "",
+      "area": ""
+    },
+    {
+      "name": "Speech Representation Learning",
+      "children": [],
+      "description": "",
+      "dataset_count": 0,
+      "benchmarks": [],
+      "metrics": [],
+      "task_id": "",
+      "area": ""
+    },
+    {
+      "name": "Semi-Supervised Audio Regression",
+      "children": [],
+      "description": "",
+      "dataset_count": 0,
+      "benchmarks": [],
+      "metrics": [],
+      "task_id": "",
+      "area": ""
+    },
+    {
+      "name": "Speaker anonymization",
+      "children": [],
+      "description": "",
+      "dataset_count": 0,
+      "benchmarks": [],
+      "metrics": [],
+      "task_id": "",
+      "area": ""
+    }
+  ],
+  "total_tasks": 195
+}

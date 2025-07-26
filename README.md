@@ -1,8 +1,8 @@
-# Papers with Code 数据分析项目
+# Papers with Code Data Analysis Project
 
-## 项目背景
+## Project Background
 
-2025年7月，Papers with Code 网站停止服务。本项目紧急保存并分析了该网站的核心数据，包括计算机视觉、自然语言处理、音频等领域的任务的信息。
+In July 2025, the Papers with Code website ceased operations. This project urgently preserved and analyzed the website's core data, including task information across domains such as computer vision, natural language processing, and audio.
 
 This template is a commonly used template of the World Snapshot Organization. It is derived from [this link](https://github.com/World-Snapshot/doc):
 
@@ -10,115 +10,157 @@ This template is a commonly used template of the World Snapshot Organization. It
 >
 > CC BY-SA 4.0: Feel free to use this template, but please keep the Powered by [World Snapshot Doc](https://github.com/World-Snapshot/doc).
 
-## 数据来源
+## Data Sources
 
-### 原始数据文件（位于 `data/` 目录）
+### Original Data Files (located in `data/` directory)
 
-1. **datasets.json.gz** (来源：Papers with Code 官方数据导出)
-   - 包含所有数据集的详细信息
-   - 每个数据集关联的任务列表
-   - 数据集的描述、论文链接等元数据
+1. **datasets.json.gz** (Source: Papers with Code official data export)
+   - Contains detailed information for all datasets
+   - Task lists associated with each dataset
+   - Dataset descriptions, paper links, and other metadata
 
-2. **evaluation-tables.json.gz** (来源：Papers with Code 官方数据导出)
-   - 包含任务的评估表格
-   - 任务的层级关系（父任务-子任务）
-   - 基准测试信息
-   - SOTA（State of the Art）指标
+2. **evaluation-tables.json.gz** (Source: Papers with Code official data export)
+   - Contains task evaluation tables
+   - Task hierarchical relationships (parent-child tasks)
+   - Benchmark information
+   - SOTA (State of the Art) metrics
 
-3. **methods.json.gz** (来源：Papers with Code 官方数据导出)
-   - 包含各种方法/算法的信息
+3. **methods.json.gz** (Source: Papers with Code official data export)
+   - Contains information about various methods/algorithms
 
-4. **all_tasks.txt**
-   - 从datasets.json提取的所有任务名称列表
-   - 共3,722个独特任务
+4. **papers-with-abstracts.json.gz** (537.7 MB)
+   - Contains 576,261 papers with abstracts
+   - Full paper metadata: title, abstract, authors, date
 
-### 第三方仓库（位于 `repositories/` 目录）
+5. **links-between-papers-and-code.json.gz** (25.0 MB)
+   - Contains 300,161 links between papers and code
+   - Maps papers to their code implementations
+
+### Third-party Repositories (located in `repositories/` directory)
 
 1. **paperswithcode-client-develop**
-   - Papers with Code 的官方 Python 客户端
-   - 用于通过 API 访问 PWC 数据
-   - 包含数据模型定义
+   - Official Python client for Papers with Code
+   - Used to access PWC data via API
+   - Contains data model definitions
 
 2. **paperswithcode-data-master**
-   - PWC 数据仓库的说明文档
-   - 包含数据下载链接
+   - PWC data repository documentation
+   - Contains data download links
 
 3. **sota-extractor-master**
-   - 用于提取 SOTA 结果的工具
-   - 包含一些特定任务的数据
+   - Tool for extracting SOTA results
+   - Contains data for specific tasks
 
-## 数据处理脚本（位于 `scripts/` 目录）
+## Data Processing Scripts (located in `scripts/` directory)
 
 1. **classify_tasks.py**
-   - 将任务按领域分类（CV、NLP、Audio、Other）
-   - 统计每个任务的数据集数量
-   - 生成基础的任务分类CSV文件
+   - Classifies tasks by domain (CV, NLP, Audio, Other)
+   - Counts datasets per task
+   - Generates basic task classification CSV files
 
 2. **extract_detailed_tasks.py**
-   - 提取任务的详细信息
-   - 包括：数据集、基准、SOTA指标、子任务、描述等
-   - 生成详细的任务信息CSV文件
+   - Extracts detailed task information
+   - Includes: datasets, benchmarks, SOTA metrics, subtasks, descriptions, etc.
+   - Generates detailed task information CSV files
 
 3. **analyze_pwc_client.py**
-   - 分析任务的层级关系
-   - 统计研究领域分布
-   - 生成任务层级和研究领域CSV文件
+   - Analyzes task hierarchical relationships
+   - Generates research area statistics
+   - Creates task hierarchy and research area CSV files
 
-## 输出结果（位于 `results/` 目录）
+4. **create_hierarchical_tasks.py**
+   - Creates hierarchical task structures for each domain
+   - Combines task hierarchy with detailed task information
+   - Outputs both JSON and CSV formats for interactive visualization
 
-### 简单任务列表（按数据集数量排序）
-- **cv_tasks.csv** - 1,947个计算机视觉任务
-- **nlp_tasks.csv** - 999个自然语言处理任务
-- **audio_tasks.csv** - 31个音频处理任务
-- **other_tasks.csv** - 744个其他领域任务
+## Interactive Task Viewer
 
-### 详细任务信息（包含数据集、基准、指标等）
-- **cv_tasks_detailed.csv** - 2,275个CV任务的详细信息
-- **nlp_tasks_detailed.csv** - 1,093个NLP任务的详细信息
-- **audio_tasks_detailed.csv** - 40个音频任务的详细信息
-- **other_tasks_detailed.csv** - 1,043个其他任务的详细信息
-- **all_tasks_detailed.csv** - 所有任务的汇总信息
+The project includes an interactive web-based task viewer that allows you to:
+- Browse all 4,451 tasks in a hierarchical tree structure
+- Search and filter tasks by name
+- View detailed information for each task including datasets, benchmarks, and metrics
+- Navigate tasks by domain (Computer Vision, NLP, Audio, Other)
 
-### 任务关系和分类
-- **task_hierarchy.csv** - 766个任务的父子关系和层级深度
-- **research_areas.csv** - 16个研究领域的任务分类
+### Usage
+1. Open `index.html` in a web browser
+2. Navigate to the "Tasks" section
+3. Click on any task category to launch the interactive viewer
+4. Or directly open `interactive/task_viewer.html?domain=cv` (replace `cv` with `nlp`, `audio`, or `other`)
 
-## 主要发现
+## Output Results (located in `results/` directory)
 
-1. **任务总数**：4,451个独特任务（从evaluation-tables统计）
+### Simple Task Lists (sorted by dataset count)
+- **cv_tasks.csv** - 1,947 computer vision tasks
+- **nlp_tasks.csv** - 999 natural language processing tasks
+- **audio_tasks.csv** - 31 audio processing tasks
+- **other_tasks.csv** - 744 other domain tasks
 
-2. **任务分布**：
-   - 计算机视觉占主导地位（约51%）
-   - 自然语言处理次之（约25%）
-   - 其余为医疗、方法论、时间序列等领域
+### Detailed Task Information (including datasets, benchmarks, metrics, etc.)
+- **cv_tasks_detailed.csv** - Detailed information for 2,275 CV tasks
+- **nlp_tasks_detailed.csv** - Detailed information for 1,093 NLP tasks
+- **audio_tasks_detailed.csv** - Detailed information for 40 audio tasks
+- **other_tasks_detailed.csv** - Detailed information for 1,043 other tasks
+- **all_tasks_detailed.csv** - Combined information for all tasks
 
-3. **任务层级**：
-   - 最深达6层（如3D相关任务）
-   - Object Detection拥有最多子任务（39个）
+### Task Relationships and Classifications
+- **task_hierarchy.csv** - Parent-child relationships and hierarchy depth for 766 tasks
+- **research_areas.csv** - Task classifications across 17 research areas
 
-4. **评估指标**：
-   - 共3,468种不同的评估指标
-   - Accuracy是最常用的指标（9,307次）
+### Hierarchical Task Data (located in `results/hierarchical/` directory)
+- **cv_hierarchy.json/csv** - Hierarchical structure for Computer Vision tasks
+- **nlp_hierarchy.json/csv** - Hierarchical structure for NLP tasks
+- **audio_hierarchy.json/csv** - Hierarchical structure for Audio tasks
+- **other_hierarchy.json/csv** - Hierarchical structure for other domains
 
-## 关于客户端的持久性
+## Key Findings
 
-**paperswithcode-client** 是一个开源的Python包：
-- 代码已经下载到本地，即使官方停止维护也能继续使用
-- 但是客户端依赖于PWC的API服务
-- 如果PWC的API服务器关闭，客户端将无法获取在线数据
-- 建议：定期备份已下载的数据文件，不要依赖在线服务
+1. **Total Tasks**: 4,451 unique tasks (from evaluation-tables)
 
-## 使用建议
+2. **Task Distribution by Research Area** (from PWC client analysis):
+   - Computer Vision: 865 tasks
+   - Natural Language Processing: 436 tasks
+   - Miscellaneous: 219 tasks
+   - Medical: 190 tasks
+   - Methodology: 157 tasks
+   - Time Series: 98 tasks
+   - Graphs: 87 tasks
+   - Audio: 69 tasks
+   - Computer Code: 61 tasks
+   - Robots: 56 tasks
+   - Knowledge Base: 50 tasks
+   - Reasoning: 50 tasks
+   - Speech: 48 tasks
+   - Playing Games: 40 tasks
+   - Music: 32 tasks
+   - Adversarial: 31 tasks
 
-1. **查找特定任务**：在对应领域的CSV文件中搜索
-2. **了解任务关系**：查看task_hierarchy.csv
-3. **探索研究领域**：查看research_areas.csv
-4. **获取基准信息**：在detailed CSV文件中查看Benchmarks列
+3. **Task Hierarchy**:
+   - Maximum depth of 6 levels (e.g., 3D-related tasks)
+   - Object Detection has the most subtasks (39)
 
-## 数据更新
+4. **Evaluation Metrics**:
+   - 3,468 different evaluation metrics
+   - Accuracy is the most commonly used metric (9,307 occurrences)
 
-由于Papers with Code已停止服务，这些数据代表了网站关闭前的最后状态。建议妥善保存这些数据作为历史记录。
+## About Client Persistence
+
+**paperswithcode-client** is an open-source Python package:
+- Code has been downloaded locally and can continue to be used even if official maintenance stops
+- However, the client depends on PWC's API service
+- If PWC's API servers shut down, the client cannot retrieve online data
+- Recommendation: Regularly backup downloaded data files, do not rely on online services
+
+## Usage Recommendations
+
+1. **Find specific tasks**: Search in the corresponding domain CSV files
+2. **Understand task relationships**: View task_hierarchy.csv
+3. **Explore research areas**: View research_areas.csv
+4. **Get benchmark information**: View the Benchmarks column in detailed CSV files
+
+## Data Updates
+
+Since Papers with Code has ceased operations, this data represents the final state before the website closure. It is recommended to properly preserve this data as historical records.
 
 ---
-*数据收集日期：2025年7月*  
-*数据处理：使用Python脚本自动化处理*
+*Data collection date: July 2025*  
+*Data processing: Automated processing using Python scripts*

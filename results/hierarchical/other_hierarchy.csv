@@ -1,0 +1,1044 @@
+Task Name,Parent Task,Level,Dataset Count,Description,Benchmarks,Metrics,Children Count
+Person Re-Identification,,0,65,,eSports Sensors Dataset; DukeMTMC-reID; Market-1501->DukeMTMC-reID; P-DukeMTMC-reID; Market-1501; AG-ReID; SYSU-MM01; Market-1501-C; MSMT17; PRID2011,,0
+Data Augmentation,,0,63,,CIFAR-10; ImageNet; GA1457,,0
+Multi-Task Learning,,0,59,,NYUv2; CelebA; ChestX-ray14; Cityscapes test; QM9; UTKFace; OMNIGLOT; wireframe dataset,,0
+Self-Supervised Learning,,0,47,,TinyImageNet; STL-10; DABS; CREMA-D; cifar100; CIFAR-100; CIFAR-10; ImageNet-100 (TEMI Split); cifar10; Tiny ImageNet,,0
+Time Series Forecasting,,0,46,,ETTh2 (168) Multivariate; ETTh1 (720) Multivariate; Weather2K1786 (336); ETTh1 (48) Univariate; Weather (96); ETTh1 (336) Univariate; Solar (96); ETTh1 (336) Multivariate; Electricity (336); ETTh2 (24) Univariate,,0
+Entity Linking,,0,44,,BC7 NLM-Chem; WebQSP-WD; N3-Reuters-128; OKE-2015; WiC-TSV; TAC-KBP 2010; MSNBC; CoNLL-Aida; Rare Diseases Mentions in MIMIC-III (Text-to-UMLS); FUNSD,,0
+Misinformation,,0,44,,NLP4IF-2021--Fighting the COVID-19 Infodemic ,,0
+Decision Making,,0,40,,./01/01/1967; NASA C-MAPSS,,0
+Continual Learning,,0,35,,DSC (10 tasks); Split MNIST (5 tasks); CUB-200-2011 (20 tasks) - 1 epoch; Tiny-ImageNet (10tasks); visual domain decathlon (10 tasks); Flowers (Fine-grained 6 Tasks); AIDS; MLT17; split CIFAR-100; 5-Datasets,,0
+Metric Learning,,0,33,,DyML-Animal; DyML-Vehicle; CUB-200-2011; In-Shop; Stanford Online Products; CARS196; DyML-Product;  CUB-200-2011,,0
+regression,,0,31,,Synthetic: y = x * sin x; ADORE; Medical Cost Personal Dataset; California Housing Prices; Car_Price_Prediction; Concrete Compressive Strength,,0
+Drug Discovery,,0,26,,SIDER; BindingDB IC50; ToxCast; DRD2; KIBA; DAVIS-DTA; BACE; PDBbind; Tox21; QED,,0
+Time Series Analysis,,0,25,,PhysioNet Challenge 2012; Speech Commands; Ventilator Pressure Prediction,,0
+Fairness,,0,23,,DiveFace; BAF – Variant I; BAF – Base; BAF – Variant III; MORPH; BAF – Variant V; UTKFace; BAF – Variant II; BAF – Variant IV,,0
+Multimodal Deep Learning,,0,22,,CUB-200-2011,,0
+Robotic Grasping,,0,22,,NBMOD; GraspNet-1Billion;  Jacquard dataset; Cornell Grasp Dataset,,0
+Graph Regression,,0,21,,ZINC 10k; PGR ; PCQM4M-LSC; ZINC; F2; PARP1; ZINC-500k; ESOL; ZINC 100k; ZINC-full,,0
+Imitation Learning,,0,21,,,,0
+Age Estimation,,0,20,,ChaLearn 2015; AFAD; mebeblurf; AgeDB; LAGENDA; PhysioNet Challenge 2021; UTKFace; KANFace; FGNET; IMDB-Clean,,0
+Reinforcement Learning (RL),,0,20,,.; ProcGen,,0
+Graph Clustering,,0,19,,Citeseer; Deng et al; Cora; Treutlein et al; Pollen et al; Bozec et al; Biase et al; Goolam et al; Yan et al; Pubmed,,0
+Quantization,,0,18,,IJB-C; AgeDB-30; LFW; Wiki-40B; CFP-FP; CIFAR-10; ImageNet; Knowledge-based:; COCO (Common Objects in Context); IJB-B,,0
+Multivariate Time Series Forecasting,,0,18,,ETTh1 (48) Multivariate; ETTh1 (720) Multivariate; MIMIC-III; USHCN-Daily; ETTh2 (720) Multivariate; PhysioNet Challenge 2012; Weather; ETTh1 (96) Multivariate; Helpdesk; Traffic,,0
+Time Series,,0,18,,,,0
+Binarization,,0,17,,,,0
+Topic Models,,0,17,,AG News; AgNews; 20NewsGroups; Arxiv HEP-TH citation graph; 20 Newsgroups; NYT,,0
+Meta-Learning,,0,17,,"ML45; MT50; OMNIGLOT - 1-Shot, 20-way; ML10",,0
+SMAC+,,0,17,,,,0
+Long-tail Learning,,0,16,,CIFAR-10-LT (ρ=200); ImageNet-LT; COCO-MLT; MIMIC-CXR-LT; Places-LT; VOC-MLT; iNaturalist 2018; CIFAR-100-LT (ρ=50); Lot-insts; CIFAR-10-LT (ρ=50),,0
+Prompt Engineering,,0,16,,Food-101; FGVC-Aircraft; ImageNet-R; ImageNet V2; ImageNet-A; Oxford 102 Flower; Stanford Cars; Oxford-IIIT Pet Dataset; SUN397; ImageNet,,0
+Contrastive Learning,,0,16,,"imagenet-1k; STL-10; 10,000 People - Human Pose Recognition Data; CIFAR-10",,0
+Learning with noisy labels,,0,16,,,,0
+Self-Driving Cars,,0,16,,,,0
+Weather Forecasting,,0,16,,SEVIR; NOAA Atmospheric Temperature Dataset; Shifts; LA; SD,,0
+Node Clustering,,0,15,,,,0
+Physical Simulations,,0,15,,Impact Plate; 4D-DRESS; Deformable Plate; Deforming Plate; Sphere Simple,,0
+Within-Session ERP,,0,15,,,,0
+Density Estimation,,0,13,,BSDS300; Freyfaces; UCI POWER; UCI MINIBOONE; CIFAR-10; ImageNet 64x64; CIFAR-10 (Conditional); UCI HEPMASS; OMNIGLOT; Caltech-101,,0
+Clustering Algorithms Evaluation,,0,13,,pixraw10P; iris; Fashion-MNIST; JAFFE; ionosphere; Olivetti face; seeds; pathbased; MNIST; 97 synthetic datasets,,0
+Adversarial Robustness,,0,13,,Stylized ImageNet; ImageNet-A; AdvGLUE; ImageNet-C; CIFAR-100; CIFAR-10; ImageNet,,0
+UIE,,0,13,,,,0
+Entity Disambiguation,,0,13,,Mewsli-9; MSNBC; AIDA-CoNLL; ShadowLink-Top; WNED-WIKI; ACE2004; DocRED-IE; ShadowLink-Shadow; WNED-CWEB; AQUAINT,,0
+Open-Domain Dialog,,0,13,,KILT: Wizard of Wikipedia,,0
+Disentanglement,,0,13,,,,0
+Graph Embedding,,0,12,,Barabasi-Albert,,0
+Imputation,,0,12,,Adult; HMNIST; PhysioNet Challenge 2012; Sprites,,0
+Entity Typing,,0,12,,FIGER; Ontonotes v5 (English); Freebase FIGER; AIDA-CoNLL; DocRED-IE;  Open Entity; Open Entity; OntoNotes,,0
+COVID-19 Diagnosis,,0,12,,COVID-19 CXR Dataset; ; COVIDx; COVIDx CXR-3; Large COVID-19 CT scan slice dataset; Novel COVID-19 Chestxray Repository; Covid-19 Cough Cambridge; COVIDGR,,0
+Referring Expression Comprehension,,0,12,,,,0
+Entity Resolution,,0,12,,Amazon-Google; MusicBrainz20K; Abt-Buy; WDC Products; WDC Watches-xlarge; WDC Products-80%cc-seen-medium; WDC Computers-small; WDC Products-50%cc-unseen-medium; WDC Computers-xlarge; WDC Products-80%cc-seen-medium-multi,,0
+Robot Manipulation,,0,12,,SimplerEnv-Google Robot; CALVIN; RLBench; SimplerEnv-Widow X; MimicGen,,0
+Multiple-choice,,0,12,,,,0
+Stochastic Optimization,,0,11,,AG News; CIFAR-10 WRN-28-10 - 200 Epochs; CIFAR-10 ResNet-18 - 200 Epochs; ImageNet ResNet-50 - 60 Epochs; Penn Treebank (Character Level) 3x1000 LSTM - 500 Epochs; CIFAR-100; CoLA; CIFAR-10; CIFAR-100 WRN-28-10 - 200 Epochs; MNIST,,0
+Unsupervised Person Re-Identification,,0,11,,,,0
+Adversarial Attack,,0,11,,CIFAR-10; WSJ0-2mix; CIFAR-100,,0
+Virtual Try-on,,0,11,,MPV; Microsoft COCO dataset; StreetTryOn; Deep-Fashion; Dress Code; UBC Fashion Videos; VITON-HD; VITON; FashionIQ,,0
+Federated Learning,,0,11,,"CIFAR-100 (alpha=0, 10 clients per round); Landmarks-User-160k; CIFAR-100 (alpha=1000, 10 clients per round); Cityscapes heterogeneous; CIFAR-100 (alpha=1000, 20 clients per round); CIFAR100 (alpha=0.3, 10 clients per round); CIFAR-100 (alpha=1000, 5 clients per round); CIFAR-100 (alpha=0, 20 clients per round); CIFAR-100 (alpha=0.5, 10 clients per round); CIFAR-100 (alpha=0.5, 5 clients per round)",,0
+Continuous Control,,0,10,,"Simple Humanoid; Swimmer + Gathering; hopper.hop; walker.stand; Lunar Lander (OpenAI Gym); Ball in cup, catch (DMControl100k); quadruped.walk; Full Humanoid; Ant + Gathering; Cheetah, run (DMControl500k)",,0
+Graph Learning,,0,10,,CAMELS,,0
+Automatic Post-Editing,,0,10,,,,0
+Person Identification,,0,10,,WiGesture; BioEye; EEG Motor Movement/Imagery Dataset,,0
+Benchmarking,,0,10,,Wiki-40B; CloudEval-YAML,,0
+Table annotation,,0,10,,,,0
+Column Type Annotation,,0,10,,,,0
+Time Series Regression,,0,10,,USNA-Cn2 (long-term); MLO-Cn2; FinSen; USNA-Cn2 (short-duration),,0
+Homography Estimation,,0,9,,,,0
+Reinforcement Learning,,0,9,,Time Pilot; Venture; Boss Level; Frostbite; Ice Hockey; Stick Push; Unblock Pickup; ATLANTIS; Demon Attack; Tutankham,,0
+AutoML,,0,9,,Wine; Breast Cancer Coimbra Data Set; OrdinalDataset; Chalearn-AutoML-1,,0
+Shadow Removal,,0,9,,INS Dataset; ISTD+; SRD; WSRD+; ISTD; ^(#$!@#$)(()))******,,0
+Program Repair,,0,9,,GitHub-Python; TFix's Code Patches Data; HumanEvalPack; DeepFix,,0
+Learning-To-Rank,,0,9,,,,0
+Multi-agent Reinforcement Learning,,0,9,,SMAC-Exp; UAV Logistics; ParticleEnvs Cooperative Communication,,0
+Representation Learning,,0,9,,CIFAR10; Sports10; Animals-10; SciDocs; Circle Data,,0
+Code Repair,,0,9,,CodeXGLUE - Bugs2Fix,,0
+Multi-Label Learning,,0,8,,COCO 2014,,0
+Lipreading,,0,8,,LRS2; GRID corpus (mixed-speech); CMLR; CAS-VSR-S101; Lip Reading in the Wild; LRW-1000; CAS-VSR-W1k (LRW-1000); LRS3-TED,,0
+Incremental Learning,,0,8,,ImageNet-100 - 50 classes + 50 steps of 1 class; CIFAR100-B0(10steps of 10 classes); CIFAR-100 - 50 classes + 5 steps of 10 classes; ImageNet-100 - 50 classes + 25 steps of 2 classes; ImageNet - 500 classes + 25 steps of 20 classes; MLT17; CIFAR-100-B0(5steps of 20 classes); ImageNet - 10 steps; ImageNet - 500 classes + 5 steps of 100 classes; ImageNet-100 - 50 classes + 5 steps of 10 classes,,0
+Multivariate Time Series Imputation,,0,8,,,,0
+Correlated Time Series Forecasting,,0,8,,,,0
+Disaster Response,,0,8,,,,0
+Automated Theorem Proving,,0,8,,HolStep (Unconditional); miniF2F-valid; miniF2F-test; Metamath set.mm; CoqGym; HOList benchmark; miniF2F-curriculum; HolStep (Conditional); CompCert,,0
+Starcraft,,0,8,,,,0
+Heart rate estimation,,0,8,,,,0
+Explainable artificial intelligence,,0,8,,,,0
+AI Agent,,0,8,,,,0
+GLinear,,0,7,,,,0
+Argument Mining,,0,7,,TACO -- Twitter Arguments from COnversations,,0
+Driver Attention Monitoring,,0,7,,,,0
+Point Processes,,0,7,,MIMIC-II; MemeTracker; Amazon MTPP; Stackoverflow; Retweet MTPP; RETWEET; StackOverflow MTPP; AgeGroup Transactions MTPP,,0
+Offline RL,,0,7,,D4RL; Walker2d,,0
+Rain Removal,,0,7,,DID-MDN; Nightrain,,0
+Unsupervised Pre-training,,0,7,,UCI measles; Measles,,0
+Robot Task Planning,,0,7,,SheetCopilot; PackIt,,0
+Data Integration,,0,7,,,,0
+Within-Session SSVEP,,0,7,,,,0
+RAG,,0,7,,,,0
+Personalized Federated Learning,,0,6,,,,0
+Phrase Grounding,,0,6,,ReferIt; Flickr30k; Flickr30k Entities Dev; Flickr30k Entities Test; Visual Genome,,0
+Lip Reading,,0,6,,GRID corpus (mixed-speech); TCD-TIMIT corpus (mixed-speech); LRW,,0
+Explanation Fidelity Evaluation,,0,6,,,,0
+Collaborative Filtering,,0,6,,Yelp2018; Gowalla; MovieLens 1M; Amazon-Book,,0
+Graph Mining,,0,6,,,,0
+Band Gap,,0,6,,,,0
+Feature Importance,,0,6,,Breastcancer; Digits; iris; boston; Diabetes; Wine,,0
+Graph Representation Learning,,0,6,,COMA,,0
+Univariate Time Series Forecasting,,0,6,,,,0
+Bandwidth Extension,,0,6,,,,0
+Atari Games,,0,6,,Atari 2600 Gopher; Atari 2600 Berzerk; Atari 2600 Pooyan; Atari 2600 Elevator Action; Atari 2600 Fishing Derby; Atari 2600 Defender; Atari 2600 Up and Down; Atari 2600 Seaquest; Atari 2600 Pitfall!; Atari 2600 Tennis,,0
+Starcraft II,,0,6,,,,0
+Goal-Oriented Dialog,,0,6,,Kvret,,0
+Probabilistic Deep Learning,,0,6,,,,0
+16k,,0,6,,ConceptNet,,0
+Open Set Learning,,0,6,,,,0
+Explainable Artificial Intelligence (XAI),,0,6,,ADNI,,0
+Cross-Modal Person Re-Identification,,0,6,,,,0
+Protein Design,,0,6,,CATH 4.3; CATH 4.2,,0
+Math,,0,6,,,,0
+Core set discovery,,0,5,,Kr-vs-kp; Credit-g; Mozilla4; Amazon-employee-access; Abalone; Soybean; ISOLET; Letter; JM1; Electricity,,0
+Adversarial Defense,,0,5,,"ImageNet (non-targeted PGD, max perturbation=4); CAAD 2018; CIFAR-100; CIFAR-10; ImageNet; ImageNet (targeted PGD, max perturbation=16); miniImageNet; MNIST; TrojAI Round 1; TrojAI Round 0",,0
+Network Pruning,,0,5,,CIFAR-100; ImageNet - ResNet 50 - 90% sparsity; CIFAR-10; ImageNet; MNIST,,0
+Linguistic Acceptability,,0,5,,DaLAJ; CoLA; CoLA Dev; ItaCoLA; RuCoLA,,0
+Chunking,,0,5,,Penn Treebank; CoNLL 2000; CoNLL 2003 (English); CoNLL 2003 (German); CoNLL 2003,,0
+Point Cloud Completion,,0,5,,Completion3D; ShapeNet; ShapeNet-ViPC,,0
+Region Proposal,,0,5,,,,0
+Clustering,,0,5,,,,0
+Complex Query Answering,,0,5,,,,0
+Arousal Estimation,,0,5,,,,0
+Valence Estimation,,0,5,,,,0
+Handwriting Verification,,0,5,,AND Dataset; CEDAR Signature,,0
+Gaussian Processes,,0,5,,UCI POWER,,0
+Network Embedding,,0,5,,,,0
+Real-Time Strategy Games,,0,5,,,,0
+Color Constancy,,0,5,,INTEL-TUT2,,0
+Feature Engineering,,0,5,,2019_test set,,0
+Time Series Clustering,,0,5,,eICU Collaborative Research Database,,0
+Causal Discovery,,0,5,,,,0
+Physics-informed machine learning,,0,5,,,,0
+SSTOD,,0,5,,,,0
+Natural Questions,,0,5,,,,0
+College Mathematics,,0,5,,,,0
+Elementary Mathematics,,0,5,,,,0
+Uncertainty Quantification,,0,5,,,,0
+Intelligent Communication,,0,5,,,,0
+Occlusion Handling,,0,5,,,,0
+PDE Surrogate Modeling,,0,5,,,,0
+AI and Safety,,0,5,,,,0
+POS,,0,4,,,,0
+One-Shot Learning,,0,4,,MNIST,,0
+Fill Mask,,0,4,,,,0
+Dense Pixel Correspondence Estimation,,0,4,,TSS; HPatches; KITTI 2015; ETH3D; KITTI 2012,,0
+Interpretable Machine Learning,,0,4,,CUB-200-2011,,0
+Long-tail learning with class descriptors,,0,4,,,,0
+FG-1-PG-1,,0,4,,,,0
+Partial Label Learning,,0,4,,CIFAR-100 (partial ratio 0.1); M-VAD Names; CIFAR-100 (partial ratio 0.01); CIFAR-10 (partial ratio 0.3); Caltech-UCSD Birds 200 (partial ratio 0.05); CIFAR-10 (partial ratio 0.5); ISIC 2019; CIFAR-10 (partial ratio 0.1); Autoimmune Dataset; CIFAR-100 (partial ratio 0.05),,0
+Open-World Semi-Supervised Learning,,0,4,,,,0
+Learning with coarse labels,,0,4,,,,0
+Graph-to-Sequence,,0,4,,LDC2015E86:; WebNLG,,0
+SSIM,,0,4,,DocUNet,,0
+Compressive Sensing,,0,4,,BSD68 CS=50%; Urban100 - 2x upscaling; BSDS100 - 2x upscaling; Set5; Set11 cs=50%,,0
+Matrix Completion,,0,4,,,,0
+Room Layout Estimation,,0,4,,SUN RGB-D,,0
+Cloze (multi-choices) (One-Shot),,0,4,,,,0
+Disparity Estimation,,0,4,,Sintel 4D LFV - ambushfight5; Sintel 4D LFV - bamboo3; Sintel 4D LFV - shaman2; Sintel 4D LFV - thebigfight2,,0
+STS,,0,4,,,,0
+Meter Reading,,0,4,,UFPR-AMR Dataset; UFPR-AMR; Copel-AMR; UFPR-ADMR-v1,,0
+Decision Making Under Uncertainty,,0,4,,,,0
+Survival Analysis,,0,4,,,,0
+Remaining Useful Lifetime Estimation,,0,4,,NASA C-MAPSS-2; NASA C-MAPSS,,0
+Long-range modeling,,0,4,,,,0
+Astronomy,,0,4,,BIG-bench,,0
+Memorization,,0,4,,BIG-bench (Hindu Knowledge),,0
+Columns Property Annotation,,0,4,,,,0
+Persuasion Strategies,,0,4,,,,0
+Human Behavior Forecasting,,0,4,,,,0
+Temporal Sequences,,0,4,,,,0
+Pansharpening,,0,4,,,,0
+Model Poisoning,,0,3,,,,0
+Sparse Learning and binarization,,0,3,,,,0
+Sparse Learning,,0,3,,ImageNet; CINIC-10; ImageNet32,,0
+OpenAI Gym,,0,3,,HalfCheetah-v2; CartPole-v1; MountainCarContinuous-v0; Walker2d-v2; Ant-v4; Humanoid-v2; InvertedDoublePendulum-v2; InvertedPendulum-v2; Walker2d-v4; Hopper-v2,,0
+Unconstrained Lip-synchronization,,0,3,,,,0
+Blood pressure estimation,,0,3,,Multi-day Continuous BP Prediction; MIMIC-III; VitalDB,,0
+Dataset Distillation - 1IPC,,0,3,,,,0
+Timex normalization,,0,3,,,,0
+Continual Pretraining,,0,3,,AG News; ACL-ARC; SciERC,,0
+Novel Class Discovery,,0,3,,cifar100; SVHN; cifar10,,0
+ECG Patient Identification,,0,3,,,,0
+ECG Patient Identification (gallery-probe),,0,3,,,,0
+parameter-efficient fine-tuning,,0,3,,HellaSwag; WinoGrande; BoolQ,,0
+Skills Assessment,,0,3,,Multimodal PISA,,0
+Skills Evaluation,,0,3,,eSports Sensors Dataset,,0
+Cloud Removal,,0,3,,,,0
+Cross-Modal  Person Re-Identification,,0,3,,,,0
+Combinatorial Optimization,,0,3,,,,0
+Graph Sampling,,0,3,,,,0
+One-class classifier,,0,3,,,,0
+Art Analysis,,0,3,,,,0
+Mathematical Proofs,,0,3,,,,0
+Efficient Exploration,,0,3,,,,0
+Relation Linking,,0,3,,,,0
+Large-Scale Person Re-Identification,,0,3,,,,0
+Human Mesh Recovery,,0,3,,BEDLAM,,0
+Hyperparameter Optimization,,0,3,,,,0
+Radar odometry,,0,3,,Oxford Radar RobotCar Dataset,,0
+Privacy Preserving Deep Learning,,0,3,,,,0
+Multi-target regression,,0,3,,Google 5 qubit random Hamiltonian,,0
+Ensemble Learning,,0,3,,SMS Spam Collection Data Set,,0
+Heart Rate Variability,,0,3,,,,0
+Drum Transcription,,0,3,,,,0
+Diabetic Retinopathy Grading,,0,3,,Kaggle EyePACS,,0
+News Annotation,,0,3,,,,0
+Network Community Partition,,0,3,,,,0
+Parking Space Occupancy,,0,3,,ACMPS; Action-Camera Parking; CNRPark+EXT; SPKL; PKLot,,0
+Blocking,,0,3,,,,0
+Riddle Sense,,0,3,,,,0
+High School Mathematics,,0,3,,,,0
+Professional Psychology,,0,3,,BIG-bench,,0
+Eeg Decoding,,0,3,,CWL EEG/fMRI Dataset,,0
+Malware Clustering,,0,3,,,,0
+Malware Analysis,,0,3,,,,0
+Referring Expression,,0,3,,SQA3D,,0
+Symbolic Regression,,0,3,,,,0
+Explainable Models,,0,3,,,,0
+Multi-Domain Recommender Systems,,0,3,,,,0
+Brain Decoding,,0,3,,Stanford ECoG library: ECoG to Finger Movements; BCI Competition IV: ECoG to Finger Movements,,0
+Website Fingerprinting Attacks,,0,3,,Website Traffic Data on Tor,,0
+Plant Phenotyping,,0,3,,,,0
+Feedback Vertex Set (FVS),,0,3,,,,0
+MuJoCo Games,,0,3,,InvertedPendulum; Walker2d-v3; HalfCheetah; Point Maze; Humanoid-v3; Humanoid-v2; Swimmer; Hopper; HalfCHeetah-v3; Ant,,0
+Snow Removal,,0,3,,,,0
+Game of Sudoku,,0,3,,Sudoku 9x9,,0
+Hate Span Identification,,0,3,,,,0
+Hallucination Evaluation,,0,3,,,,0
+Theory of Mind Modeling,,0,3,,,,0
+Anomaly Forecasting,,0,3,,,,0
+LLM Jailbreak,,0,3,,,,0
+Deep Clustering,,0,2,,USPS; Coil-20; Stackoverflow; MNIST; Searchsnippets,,0
+Hard-label Attack,,0,2,,,,0
+Nature-Inspired Optimization Algorithm,,0,2,,CIFAR-10; MNIST,,0
+TAG,,0,2,,,,0
+Interpretability Techniques for Deep Learning,,0,2,,CelebA; CausalGym,,0
+QQP,,0,2,,,,0
+Feature Upsampling,,0,2,,,,0
+Missing Elements,,0,2,,,,0
+Horizon Line Estimation,,0,2,,Horizon Lines in the Wild; York Urban Dataset; Eurasian Cities Dataset; KITTI Horizon,,0
+Dense Captioning,,0,2,,Visual Genome,,0
+Defocus Estimation,,0,2,,CUHK - Blur Detection Dataset,,0
+FLUE,,0,2,,,,0
+Steering Control,,0,2,,,,0
+Boundary Captioning,,0,2,,,,0
+Boundary Grounding,,0,2,,,,0
+Domain-IL Continual Learning,,0,2,,,,0
+Provable Adversarial Defense,,0,2,,,,0
+Clean-label Backdoor Attack (0.05%),,0,2,,,,0
+Test Agnostic Long-Tailed Learning,,0,2,,,,0
+STS Benchmark,,0,2,,,,0
+Total Magnetization,,0,2,,,,0
+Unsupervised Continual Domain Shift Learning,,0,2,,,,0
+MuJoCo,,0,2,,,,0
+Incremental Constrained Clustering,,0,2,,,,0
+Q-Learning,,0,2,,,,0
+Test-time Adaptation,,0,2,,,,0
+Cross-Modality Person Re-identification,,0,2,,,,0
+Point Cloud Super Resolution,,0,2,,PU-GAN; SHREC15,,0
+Information Threading,,0,2,,,,0
+Deep Attention,,0,2,,,,0
+Authorship Verification,,0,2,,,,0
+Accident Anticipation,,0,2,,,,0
+Entity Embeddings,,0,2,,,,0
+Dominance Estimation,,0,2,,,,0
+Hierarchical Reinforcement Learning,,0,2,,Ant + Maze,,0
+graph partitioning,,0,2,,custom,,0
+Policy Gradient Methods,,0,2,,,,0
+Meta Reinforcement Learning,,0,2,,,,0
+Board Games,,0,2,,,,0
+Self-Supervised Person Re-Identification,,0,2,,,,0
+Multi-Goal Reinforcement Learning,,0,2,,no extra data,,0
+Clustering Ensemble,,0,2,,,,0
+Point Clouds,,0,2,,DTU; Tanks and Temples,,0
+Dial Meter Reading,,0,2,,,,0
+No real Data Binarization,,0,2,,,,0
+Behavioural cloning,,0,2,,,,0
+Relational Pattern Learning,,0,2,,,,0
+Human Dynamics,,0,2,,,,0
+Author Attribution,,0,2,,,,0
+ICU Mortality,,0,2,,,,0
+Popularity Forecasting,,0,2,,,,0
+Cloze Test,,0,2,,CodeXGLUE - CT-all; CodeXGLUE - CT-maxmin,,0
+Moment Queries,,0,2,,,,0
+Unsupervised Reinforcement Learning,,0,2,,,,0
+Linear evaluation,,0,2,,,,0
+Story Completion,,0,2,,,,0
+Multi-Armed Bandits,,0,2,,Mushroom,,0
+Molecule Captioning,,0,2,,ChEBI-20; L+M-24,,0
+Aggression Identification,,0,2,,,,0
+Irony Identification,,0,2,,,,0
+Moral Scenarios,,0,2,,,,0
+Computer Security,,0,2,,BIG-bench,,0
+Security Studies,,0,2,,BIG-bench,,0
+Multi-Agent Path Finding,,0,2,,,,0
+Record linking,,0,2,,,,0
+Multi-agent Integration,,0,2,,BBAI Dataset,,0
+De-identification,,0,2,,,,0
+Unsupervised Domain Expansion,,0,2,,,,0
+Automated Essay Scoring,,0,2,,ASAP-AES,,0
+Traffic Data Imputation,,0,2,,,,0
+Overall - Test,,0,2,,,,0
+Variable Disambiguation,,0,2,,,,0
+Embeddings Evaluation,,0,2,,,,0
+Multimodal Association,,0,2,,,,0
+Seeing Beyond the Visible,,0,2,,KITTI360-EX; HYPERVIEW,,0
+Flare Removal,,0,2,,,,0
+Website Fingerprinting Defense,,0,2,,Website Traffic Data on Tor,,0
+ValNov,,0,2,,ValNov Subtask A; ValNov Subtask B,,0
+Load Forecasting,,0,2,,,,0
+Spatio-Temporal Forecasting,,0,2,,,,0
+Protein Annotation,,0,2,,,,0
+slot-filling,,0,2,,,,0
+Ethics,,0,2,,Ethics; Ethics (per ethics),,0
+Dynamic Point Removal,,0,2,,semi-indoor; Argoverse 2,,0
+PAIR TRADING,,0,2,,,,0
+Irregular Time Series,,0,2,,,,0
+Age and Gender Estimation,,0,2,,LAGENDA gender; LAGENDA age,,0
+Mathematical Problem-Solving,,0,2,,,,0
+Sensor Fusion,,0,2,,,,0
+Negation,,0,2,,,,0
+Human Judgment Correlation,,0,2,,Flickr8k-Expert; Flickr8k-CF,,0
+Kinship Verification,,0,2,,KinFaceW-I; KinFaceW-II,,0
+Position regression,,0,2,,,,0
+SAXS regression,,0,2,,,,0
+XRD regression,,0,2,,,,0
+SANS regression,,0,2,,,,0
+ND regression,,0,2,,,,0
+Neutron PDF regression,,0,2,,,,0
+NMT,,0,2,,,,0
+Sports Analytics,,0,2,,,,0
+RTE,,0,2,,,,0
+Lung Cancer Diagnosis,,0,2,,,,0
+Collision Avoidance,,0,2,,A Ball Collision Dataset (ABCD),,0
+Modality completion,,0,2,,,,0
+Hybrid Machine Learning,,0,2,,,,0
+Raindrop Removal,,0,2,,,,0
+backdoor defense,,0,2,,,,0
+User Simulation,,0,2,,,,0
+Fault Diagnosis,,0,2,,Digital twin-supported deep learning for fault diagnosis,,0
+Unsupervised MNIST,,0,1,,,,0
+Rotated MNIST,,0,1,,Rotated MNIST,,0
+Adversarial Defense against FGSM Attack,,0,1,,,,0
+Türkçe Görüntü Altyazılama,,0,1,,,,0
+HairColor/Unbiased,,0,1,,,,0
+HeavyMakeup/Unbiased,,0,1,,,,0
+Lexical Simplification,,0,1,,,,0
+Gait Identification,,0,1,,,,0
+Online Clustering,,0,1,,,,0
+Long-tail Learning on CIFAR-10-LT (ρ=100),,0,1,,,,0
+ROLSSL-Consistent,,0,1,,,,0
+ROLSSL-Reversed,,0,1,,,,0
+ROLSSL-Uniform,,0,1,,,,0
+Class Incremental Learning,,0,1,,Cifar100-B0(10 tasks)-no-exemplars; CIFAR100-B0(50 tasks)-no-exemplars; cifar100; CIFAR-100 - 50 classes + 10 steps of 5 classes; Cifar100-B0(20 tasks)-no-exemplars; CIFAR-100 - 50 classes + 5 steps of 10 classes,,0
+Non-exemplar-based Class Incremental Learning,,0,1,,,,0
+Data Free Quantization,,0,1,,,,0
+Classifier calibration,,0,1,,,,0
+class-incremental learning,,0,1,,cifar100,,0
+Overlapped 100-50,,0,1,,,,0
+Overlapped 50-50,,0,1,,,,0
+Overlapped 100-10,,0,1,,,,0
+Overlapped 100-5,,0,1,,,,0
+Overlapped 25-25,,0,1,,,,0
+NMR J-coupling,,0,1,,,,0
+Race/Unbiased,,0,1,,,,0
+Age/Unbiased,,0,1,,,,0
+Surgical Skills Evaluation,,0,1,,JIGSAWS; MISTIC-SIL,,0
+Outdoor Light Source Estimation,,0,1,,,,0
+Materials Screening,,0,1,,,,0
+Cadenza 1 - Task 1 - Headphone,,0,1,,,,0
+Parallel Corpus Mining,,0,1,,,,0
+Story Continuation,,0,1,,PororoSV; VIST; FlintstonesSV,,0
+NetHack Score,,0,1,,,,0
+MS-SSIM,,0,1,,,,0
+Local Distortion,,0,1,,DocUNet,,0
+SENTS,,0,1,,,,0
+MORPH,,0,1,,,,0
+UNLABELED_DEPENDENCIES,,0,1,,,,0
+LABELED_DEPENDENCIES,,0,1,,,,0
+LEMMA,,0,1,,,,0
+Informativeness,,0,1,,,,0
+COVID-19 Modelling,,0,1,,,,0
+Question Rewriting,,0,1,,,,0
+HTR,,0,1,,,,0
+GPR,,0,1,,,,0
+Montezuma's Revenge,,0,1,,,,0
+Cadenza 1 - Task 2 - In Car,,0,1,,,,0
+Overlapped 10-1,,0,1,,,,0
+Domain 11-5,,0,1,,,,0
+Domain 11-1,,0,1,,,,0
+Domain 1-1,,0,1,,,,0
+Overlapped 14-1,,0,1,,,,0
+CARLA MAP Leaderboard,,0,1,,,,0
+CARLA longest6,,0,1,,CARLA,,0
+CARLA Leaderboard 2.0,,0,1,,,,0
+Uncropping,,0,1,,Places2 val,,0
+Distributed Computing,,0,1,,,,0
+Game of Doom,,0,1,,,,0
+Continuous Control (100k environment steps),,0,1,,,,0
+Continuous Control (500k environment steps),,0,1,,,,0
+SNES Games,,0,1,,,,0
+D4RL,,0,1,,,,0
+Gym halfcheetah-random,,0,1,,,,0
+Gym halfcheetah-medium,,0,1,,,,0
+Gym halfcheetah-expert,,0,1,,,,0
+Gym halfcheetah-medium-expert,,0,1,,,,0
+Gym halfcheetah-medium-replay,,0,1,,,,0
+Gym halfcheetah-full-replay,,0,1,,,,0
+Adroid pen-human,,0,1,,,,0
+Adroid hammer-human,,0,1,,,,0
+Adroid door-human,,0,1,,,,0
+Adroid relocate-human,,0,1,,,,0
+Adroid pen-cloned,,0,1,,,,0
+Adroid hammer-cloned,,0,1,,,,0
+Adroid door-cloned,,0,1,,,,0
+Adroid relocate-cloned,,0,1,,,,0
+Decipherment,,0,1,,,,0
+TGIF-Transition,,0,1,,,,0
+TGIF-Frame,,0,1,,,,0
+ListOps,,0,1,,,,0
+Diffusion Personalization Tuning Free,,0,1,,,,0
+Epidemiology,,0,1,,,,0
+Demosaicking,,0,1,,,,0
+Probabilistic Time Series Forecasting,,0,1,,,,0
+Metaheuristic Optimization,,0,1,,,,0
+Polyphone disambiguation,,0,1,,CPP,,0
+Sensor Modeling,,0,1,,,,0
+Multivariate Time Series Forecastingm,,0,1,,,,0
+Game of Hanabi,,0,1,,,,0
+Two-sample testing,,0,1,,"MNIST vs Fake MNIST; HDGM (d=10, N=4000); HIGGS Data Set; Blob (9 modes, 40 for each); CIFAR-10 vs CIFAR-10.1 (1000 samples)",,0
+Lexical Normalization,,0,1,,LexNorm,,0
+Period Estimation,,0,1,,OmniArt,,0
+OrangeSum,,0,1,,,,0
+Lake Ice Monitoring,,0,1,,,,0
+Clean-label Backdoor Attack (0.024%),,0,1,,,,0
+Micro-Expression Spotting,,0,1,,,,0
+Game of Football,,0,1,,,,0
+Replay Grounding,,0,1,,,,0
+Caricature,,0,1,,,,0
+Split and Rephrase,,0,1,,,,0
+Winogrande,,0,1,,WinoGrande,,0
+Geophysics,,0,1,,,,0
+Precipitation Forecasting,,0,1,,SEVIR,,0
+Noun Phrase Canonicalization,,0,1,,,,0
+Hypernym Discovery,,0,1,,Music domain; Medical domain; General,,0
+Col BERTTriplet,,0,1,,,,0
+point of interests,,0,1,,,,0
+Populist attitude,,0,1,,,,0
+Phone-level pronunciation scoring,,0,1,,,,0
+Utterance-level pronounciation scoring,,0,1,,,,0
+Non-Intrusive Load Monitoring,,0,1,,,,0
+Time Series Averaging,,0,1,,,,0
+Quantum Machine Learning,,0,1,,https://www.kaggle.com/datasets/saurabhshahane/classification-of-malwares; iris,,0
+N-Queens Problem - All Possible Solutions,,0,1,,,,0
+Traveling Salesman Problem,,0,1,,,,0
+Multi-Choice MRC,,0,1,,,,0
+Graphon Estimation,,0,1,,,,0
+Clinical Note Phenotyping,,0,1,,,,0
+Computational Phenotyping,,0,1,,,,0
+Propaganda technique identification,,0,1,,,,0
+Synthetic Data Evaluation,,0,1,,,,0
+Mobile Security,,0,1,,,,0
+Stable MCI vs Progressive MCI,,0,1,,,,0
+Human Body Volume Estimation,,0,1,,,,0
+Causal Identification,,0,1,,,,0
+HumanEval,,0,1,,,,0
+MTEB Benchmark,,0,1,,,,0
+AllNLI Triplet,,0,1,,,,0
+Question-Answer categorization,,0,1,,QC-Science,,0
+EditCompletion,,0,1,,C# EditCompletion,,0
+Node Regression,,0,1,,,,0
+Algorithmic Trading,,0,1,,,,0
+Patient Phenotyping,,0,1,,HiRID,,0
+Circulatory Failure,,0,1,,HiRID,,0
+Respiratory Failure,,0,1,,HiRID,,0
+Remaining Length of Stay,,0,1,,,,0
+Task 2,,0,1,,,,0
+Problem-Solving Deliberation,,0,1,,,,0
+Classify murmurs,,0,1,,,,0
+reinforcement-learning,,0,1,,,,0
+Capacity Estimation,,0,1,,,,0
+SMAC,,0,1,,SMAC MMM2; SMAC 6h_vs_8z; SMAC MMM2_7m2M1M_vs_9m3M1M; SMAC 3s5z_vs_4s6z; SMAC 6h_vs_9z; SMAC MMM2_7m2M1M_vs_8m4M1M; SMAC 27m_vs_30m; SMAC 3s5z_vs_3s6z; SMAC corridor_2z_vs_24zg; SMAC 26m_vs_30m,,0
+Moving Point Cloud Processing,,0,1,,,,0
+Fine-Grained Facial Editing,,0,1,,,,0
+VGSI,,0,1,,,,0
+Safe Reinforcement Learning,,0,1,,,,0
+GSM8K,,0,1,,gsm8k (5-shots); GSM8K,,0
+DrugProt,,0,1,,,,0
+Galaxy emergent property recreation,,0,1,,,,0
+BBBC021 NSC Accuracy,,0,1,,,,0
+CYCLoPs Accuracy,,0,1,,,,0
+Multimodal GIF Dialog,,0,1,,,,0
+Success Rate (5 task-horizon),,0,1,,,,0
+Avg. sequence length,,0,1,,,,0
+BIG-bench Machine Learning,,0,1,,38-Cloud; BIG-bench,,0
+Identify Odd Metapor,,0,1,,BIG-bench,,0
+Odd One Out,,0,1,,BIG-bench,,0
+Crash Blossom,,0,1,,,,0
+Auto Debugging,,0,1,,Big-bench Lite,,0
+Crass AI,,0,1,,,,0
+Empirical Judgments,,0,1,,,,0
+Timedial,,0,1,,,,0
+Business Ethics,,0,1,,,,0
+Moral Disputes,,0,1,,,,0
+Moral Permissibility,,0,1,,,,0
+FEVER (2-way),,0,1,,,,0
+FEVER (3-way),,0,1,,,,0
+Misconceptions,,0,1,,,,0
+High School European History,,0,1,,BIG-bench,,0
+High School US History,,0,1,,BIG-bench,,0
+High School World History,,0,1,,BIG-bench,,0
+International Law,,0,1,,BIG-bench,,0
+Jurisprudence,,0,1,,BIG-bench,,0
+Management,,0,1,,BIG-bench,,0
+Marketing,,0,1,,BIG-bench,,0
+Philosophy,,0,1,,BIG-bench,,0
+Prehistory,,0,1,,BIG-bench,,0
+Professional Law,,0,1,,BIG-bench,,0
+World Religions,,0,1,,BIG-bench,,0
+Entailed Polarity,,0,1,,,,0
+Evaluating Information Essentiality,,0,1,,,,0
+Metaphor Boolean,,0,1,,,,0
+Physical Intuition,,0,1,,,,0
+Presuppositions As NLI,,0,1,,,,0
+Professional Accounting,,0,1,,,,0
+Anatomy,,0,1,,BIG-bench,,0
+College Medicine,,0,1,,BIG-bench,,0
+Human Aging,,0,1,,BIG-bench,,0
+Human Organs Senses Multiple Choice,,0,1,,BIG-bench,,0
+Nutrition,,0,1,,BIG-bench,,0
+Professional Medicine,,0,1,,BIG-bench,,0
+Virology,,0,1,,BIG-bench,,0
+English Proverbs,,0,1,,,,0
+Implicatures,,0,1,,,,0
+Implicit Relations,,0,1,,,,0
+LAMBADA,,0,1,,,,0
+Movie Dialog Same Or Different,,0,1,,,,0
+Phrase Relatedness,,0,1,,,,0
+RACE-h,,0,1,,,,0
+RACE-m,,0,1,,,,0
+College Biology,,0,1,,,,0
+College Chemistry,,0,1,,,,0
+College Computer Science,,0,1,,,,0
+College Physics,,0,1,,,,0
+Conceptual Physics,,0,1,,,,0
+High School Biology,,0,1,,,,0
+High School Chemistry,,0,1,,,,0
+High School Computer Science,,0,1,,,,0
+High School Physics,,0,1,,,,0
+High School Statistics,,0,1,,,,0
+Physics MC,,0,1,,,,0
+Econometrics,,0,1,,BIG-bench,,0
+High School Geography,,0,1,,BIG-bench,,0
+High School Government and Politics,,0,1,,BIG-bench,,0
+High School Macroeconomics,,0,1,,BIG-bench,,0
+High School Microeconomics,,0,1,,BIG-bench,,0
+High School Psychology,,0,1,,BIG-bench,,0
+Human Sexuality,,0,1,,BIG-bench,,0
+Public Relations,,0,1,,BIG-bench,,0
+Sociology,,0,1,,BIG-bench,,0
+US Foreign Policy,,0,1,,BIG-bench,,0
+Sleep Staging,,0,1,,,,0
+W-R-L-D Sleep Staging,,0,1,,,,0
+W-R-N Sleep Staging,,0,1,,,,0
+Atari Games 100k,,0,1,,,,0
+fr-en,,0,1,,,,0
+es-en,,0,1,,,,0
+de-en,,0,1,,,,0
+EEG 4 classes,,0,1,,,,0
+EEG Left/Right hand,,0,1,,,,0
+EM showers clusterization,,0,1,,,,0
+Topic coverage,,0,1,,,,0
+Single Choice Question,,0,1,,,,0
+Toponym Resolution,,0,1,,,,0
+RoomEnv-v0,,0,1,,,,0
+Surveillance-to-Single,,0,1,,,,0
+Surveillance-to-Booking,,0,1,,,,0
+Surveillance-to-Surveillance,,0,1,,,,0
+ECG Wave Delineation,,0,1,,,,0
+TDC ADMET Benchmarking Group,,0,1,,,,0
+SpO2 estimation,,0,1,,,,0
+Time Offset Calibration,,0,1,,,,0
+Mental Workload Estimation,,0,1,,,,0
+Industrial Robots,,0,1,,,,0
+Singer Identification,,0,1,,,,0
+Skill Mastery,,0,1,,RGB-Stacking,,0
+Binary Quantification,,0,1,,,,0
+Unsupervised Spatial Clustering,,0,1,,,,0
+Privacy Preserving,,0,1,,,,0
+Log Solubility,,0,1,,ESOL,,0
+Row Annotation,,0,1,,,,0
+Morpheme Segmentaiton,,0,1,,UniMorph 4.0,,0
+Chemical Indexing,,0,1,,BC7 NLM-Chem,,0
+Virtual Try-Off,,0,1,,,,0
+Playing the Game of 2048,,0,1,,The Game of 2048,,0
+Lexical Analysis,,0,1,,,,0
+Negation Scope Resolution,,0,1,,,,0
+Speculation Scope Resolution,,0,1,,,,0
+Negation and Speculation Scope resolution,,0,1,,,,0
+Exemplar-Free Counting,,0,1,,,,0
+A-VB Two,,0,1,,,,0
+A-VB High,,0,1,,,,0
+A-VB Culture,,0,1,,,,0
+Open Relation Modeling,,0,1,,,,0
+Game of Go,,0,1,,ELO Ratings,,0
+Holdout Set,,0,1,,xView3-SAR,,0
+Humanitarian,,0,1,,,,0
+Descriptive,,0,1,,,,0
+Remove - PQ,,0,1,,,,0
+Remove - PO,,0,1,,,,0
+Replace - PQ,,0,1,,,,0
+Replace - PO,,0,1,,,,0
+Add - PQ,,0,1,,,,0
+Add - PO,,0,1,,,,0
+Specificity,,0,1,,,,0
+Partially Observable Reinforcement Learning,,0,1,,,,0
+Model-based Reinforcement Learning,,0,1,,,,0
+Definition Modelling,,0,1,,,,0
+Vocal ensemble separation,,0,1,,,,0
+Navigate,,0,1,,,,0
+RoomEnv-v1,,0,1,,,,0
+Card Games,,0,1,,,,0
+FocusNews (test),,0,1,,,,0
+SRF (test),,0,1,,,,0
+Protein Folding,,0,1,,,,0
+Driver Identification,,0,1,,,,0
+Graph Attention,,0,1,,,,0
+Film Simulation,,0,1,,,,0
+Acne Severity Grading,,0,1,,ACNE04,,0
+Subgraph Counting - K4,,0,1,,,,0
+Subgraph Counting - Triangle,,0,1,,,,0
+Subgraph Counting - 3 Star,,0,1,,,,0
+Subgraph Counting - Chordal C4,,0,1,,,,0
+Subgraph Counting - 2 star,,0,1,,,,0
+Subgraph Counting - C4,,0,1,,,,0
+Subgraph Counting - Tailed Triangle,,0,1,,,,0
+Subgraph Counting - C5,,0,1,,,,0
+Subgraph Counting - C6,,0,1,,,,0
+Subgraph Counting,,0,1,,,,0
+Hurricane Forecasting,,0,1,,,,0
+All,,0,1,,,,0
+Diagnostic,,0,1,,,,0
+Sub-diagnostic,,0,1,,,,0
+Super-diagnostic,,0,1,,,,0
+Form,,0,1,,,,0
+VCGBench-Diverse,,0,1,,VideoInstruct,,0
+Operator learning,,0,1,,,,0
+Solar Irradiance Forecasting,,0,1,,ASOS Data,,0
+Proper Noun,,0,1,,,,0
+XLM-R,,0,1,,,,0
+Bayesian Optimization,,0,1,,,,0
+Bug fixing,,0,1,,,,0
+Travel Time Estimation,,0,1,,,,0
+Automatic Lyrics Transcription,,0,1,,,,0
+Virtual Try-on (Shop2Street),,0,1,,,,0
+Virtual Try-on (Model2Street),,0,1,,,,0
+Virtual Try-on (Street2Street),,0,1,,,,0
+Vignetting Removal,,0,1,,,,0
+Model Editing,,0,1,,,,0
+SVBRDF Estimation,,0,1,,,,0
+TAR,,0,1,,,,0
+tabular-regression,,0,1,,,,0
+Mixed Reality,,0,1,,,,0
+Self-Learning,,0,1,,,,0
+Joint Radar-Communication,,0,1,,,,0
+EEG,,0,1,,,,0
+Multiclass Quantification,,0,1,,,,0
+Neural Network Security,,0,1,,,,0
+Long Term Anticipation,,0,1,,,,0
+point cloud upsampling,,0,1,,,,0
+Film Removal,,0,1,,,,0
+Citation worthiness,,0,1,,,,0
+Omniverse Isaac Gym,,0,1,,,,0
+Acrobot,,0,1,,,,0
+Low-latency processing,,0,1,,,,0
+Hypergraph Contrastive Learning,,0,1,,,,0
+Semi-Supervised Person Re-Identification,,0,1,,,,0
+Domain Adaptive Person Re-Identification,,0,1,,,,0
+MMLU,,0,1,,mmlu (5-shots); MMLU-Pro; mmlu (chat CoT),,0
+Hallucination,,0,1,,MMNeedle,,0
+Person Identification (1-shot),,0,1,,,,0
+Fashion Compatibility Learning,,0,1,,,,0
+4k,,0,1,,,,0
+Dataset Size Recovery,,0,1,,,,0
+Sequential Pattern Mining,,0,1,,,,0
+Layout Design,,0,1,,,,0
+RoomEnv-v2,,0,1,,,,0
+Vietnamese Datasets,,0,1,,,,0
+Game of Poker,,0,1,,,,0
+MMR total,,0,1,,MRR-Benchmark,,0
+GermEval2024 Shared Task 1 Subtask 1,,0,1,,GerMS-AT,,0
+GermEval2024 Shared Task 1 Subtask 2,,0,1,,GerMS-AT,,0
+Occlusion Estimation,,0,1,,,,0
+TiROD,,0,1,,,,0
+Flood extent forecasting,,0,1,,,,0
+News Authenticity Identification,,0,1,,,,0
+Li-ion State of Health Estimation,,0,1,,NASA Li-ion Dataset,,0
+Chemical Process,,0,1,,,,0
+software testing,,0,1,,,,0
+erson Re-Identification,,0,1,,,,0
+Demand Forecasting,,0,1,,,,0
+Neural Network simulation,,0,1,,,,0
+Liquid Simulation,,0,1,,,,0
+Equilibrium traffic assignment,,0,1,,,,0
+Authorship Attribution,,0,1,,,,0
+Author Profiling,,0,1,,,,0
+MMSQL performance,,0,1,,,,0
+Task Planning,,0,1,,,,0
+Quant Trading,,0,1,,,,0
+Raspberry Pi 3,,0,1,,,,0
+Raspberry Pi 4,,0,1,,,,0
+Raspberry Pi 5,,0,1,,,,0
+Crashworthiness Design,,0,1,,,,0
+ECG Digitization,,0,1,,ECG-Image-Database,,0
+Sand,,0,1,,,,0
+Sequential Decision Making,,0,1,,,,0
+Credit score,,0,1,,,,0
+Load Virtual Sensing,,0,1,,,,0
+Load Virtual Sensing (Fx),,0,1,,,,0
+Load Virtual Sensing (Fy),,0,1,,,,0
+Red Teaming,,0,1,,SUDO Dataset,,0
+Real-World Adversarial Attack,,0,1,,,,0
+Atomic Forces,,0,1,,,,0
+Field Boundary Delineation,,0,1,,,,0
+LLM real-life tasks,,0,1,,,,0
+Fixed Few Shot Prompting Danger Assessment,,0,1,,,,0
+Zero Shot Prompting Danger Assessment,,0,1,,,,0
+Fixed Few Shot Prompting,,0,1,,,,0
+Building Damage Assessment,,0,1,,,,0
+automatic short answer grading,,0,1,,,,0
+Causal Judgment,,0,1,,,,0
+Deep Learning,,0,1,,,,0
+Procedure Learning,,0,1,,,,0
+Scheduling,,0,1,,,,0
+Game of Mafia,,0,1,,,,0
+Asynchronous Group Communication,,0,1,,,,0
+Building Flood Damage Assessment,,0,1,,,,0
+2k,,0,1,,,,0
+Reinforcement Learning (Atari Games),,0,1,,Seaquest - OpenAI Gym,,0
+Foveation,,0,0,,,,0
+Cancer,,0,0,,,,0
+Data Mining,,0,0,,,,0
+Dehazing,,0,0,,,,0
+Forgery,,0,0,,,,0
+Write Computer Programs From Specifications,,0,0,,,,0
+Clustering Multivariate Time Series,,0,0,,,,0
+Chinese,,0,0,,,,0
+Ecommerce,,0,0,,,,0
+Sequential Diagnosis,,0,0,,,,0
+Patient Outcomes,,0,0,,,,0
+Mammogram,,0,0,,,,0
+Ecg Risk Stratification,,0,0,,ngm,,0
+Atrial Fibrillation,,0,0,,,,0
+Advertising,,0,0,,,,0
+Hand,,0,0,,,,0
+Remote Sensing,,0,0,,,,0
+Molecule Interpretation,,0,0,,,,0
+Tomography,,0,0,,,,0
+Magnetic Resonance Fingerprinting,,0,0,,,,0
+Animation,,0,0,,,,0
+Bilevel Optimization,,0,0,,Equilibrium-Traffic-Networks/Anaheim;  Equilibrium-Traffic-Networks/Eastern Massachusetts; 	Equilibrium-Traffic-Networks/Sioux Falls,,0
+Dynamic graph embedding,,0,0,,,,0
+Tensor Networks,,0,0,,,,0
+Portfolio Optimization,,0,0,,Yahoo ,,0
+hypergraph embedding,,0,0,,,,0
+Intelligent Surveillance,,0,0,,,,0
+Pain Intensity Regression,,0,0,,UNBC-McMaster ShoulderPain dataset,,0
+Safe Exploration,,0,0,,,,0
+Game of Chess,,0,0,,,,0
+Game of Shogi,,0,0,,ELO Ratings,,0
+FPS Games,,0,0,,,,0
+Network Congestion Control,,0,0,,,,0
+Artificial Life,,0,0,,,,0
+Skull Stripping,,0,0,,,,0
+Distributional Reinforcement Learning,,0,0,,,,0
+Cryptanalysis,,0,0,,,,0
+Learning to Execute,,0,0,,,,0
+Outdoor Positioning,,0,0,,,,0
+Materials Imaging,,0,0,,,,0
+Query Wellformedness,,0,0,,Query Wellformedness,,0
+Automatic Writing,,0,0,,,,0
+Bayesian Optimisation,,0,0,,,,0
+Radio Interferometry,,0,0,,,,0
+Seismic Interpretation,,0,0,,,,0
+Steganographics,,0,0,,,,0
+Problem Decomposition,,0,0,,,,0
+Non-Linear Elasticity,,0,0,,,,0
+Metamerism,,0,0,,,,0
+Web Credibility,,0,0,,,,0
+Observation Completion,,0,0,,,,0
+Graph Neural Network,,0,0,,..,,0
+hypergraph partitioning,,0,0,,,,0
+Game of Cricket,,0,0,,,,0
+Transparency Separation,,0,0,,,,0
+Molecular Dynamics,,0,0,,,,0
+Data Poisoning,,0,0,,,,0
+RDF Dataset Discovery,,0,0,,,,0
+Lightfield,,0,0,,,,0
+L2 Regularization,,0,0,,,,0
+Automated Writing Evaluation,,0,0,,,,0
+Landmine,,0,0,,,,0
+Meme Captioning,,0,0,,,,0
+Amodal Layout Estimation,,0,0,,,,0
+Cover song identification,,0,0,,Da-TACOS; YouTube350; Covers80; SHS100K-TEST,,0
+One-shot model fusion,,0,0,,,,0
+Information Plane,,0,0,,,,0
+Mutual Information Estimation,,0,0,,,,0
+Misogynistic Aggression Identification,,0,0,,,,0
+NetHack,,0,0,,,,0
+Blink estimation,,0,0,,Researcher's Night; Eyeblink8; RT-BENE,,0
+Spatial Interpolation,,0,0,,,,0
+Hypergraph representations,,0,0,,,,0
+quantum gate design,,0,0,,,,0
+Sequential Quantile Estimation,,0,0,,,,0
+Re-basin,,0,0,,,,0
+Quantum Circuit Equivalence Checking,,0,0,,,,0
+JSONiq Query Execution,,0,0,,,,0
+Cyber Attack Investigation,,0,0,,,,0
+Population Assignment,,0,0,,,,0
+Survey Sampling,,0,0,,,,0
+Influence Approximation,,0,0,,,,0
+Robust Design,,0,0,,,,0
+Ensemble Pruning,,0,0,,,,0
+statistical independence testing,,0,0,,,,0
+band gap regression,,0,0,,,,0
+Sequential Correlation Estimation,,0,0,,,,0
+Making Hiring Decisions,,0,0,,SIOP 2020/2021,,0
+Survey,,0,0,,,,0
+Domain Labelling,,0,0,,BabelDomains,,0
+Cervical cancer biopsy identification,,0,0,,Cervical Cancer (Risk Factors) Data Set,,0
+Breast Tissue Identification,,0,0,,Breast Tissue Data Set,,0
+Sparse subspace-based clustering,,0,0,,,,0
+Turning Point Identification,,0,0,,,,0
+Edge-computing,,0,0,,,,0
+Neural Stylization,,0,0,,Meshes,,0
+Temporal Processing,,0,0,,,,0
+Taxonomy Learning,,0,0,,,,0
+Pulse wave simulation,,0,0,,,,0
+Formalize foundations of universal algebra in dependent type theory,,0,0,,,,0
+Data Ablation,,0,0,,,,0
+Numerical Integration,,0,0,,,,0
+Tensor Decomposition,,0,0,,,,0
+Pronunciation Assessment,,0,0,,,,0
+Dynamic Time Warping,,0,0,,,,0
+Exponential degradation,,0,0,,,,0
+Im2Spec,,0,0,,,,0
+BRDF estimation,,0,0,,,,0
+Stochastic Block Model,,0,0,,,,0
+Emergent communications on relations,,0,0,,,,0
+Reliable Intelligence Identification,,0,0,,,,0
+Unity,,0,0,,,,0
+Service Composition,,0,0,,,,0
+Learning Theory,,0,0,,,,0
+Riemannian optimization,,0,0,,,,0
+Model Discovery,,0,0,,,,0
+Spike Sorting,,0,0,,,,0
+Additive models,,0,0,,,,0
+Density Ratio Estimation,,0,0,,,,0
+Experimental Design,,0,0,,,,0
+FAD,,0,0,,,,0
+Hard Attention,,0,0,,,,0
+Literature Mining,,0,0,,,,0
+Superpixels,,0,0,,,,0
+Anachronisms,,0,0,,,,0
+DNN Testing,,0,0,,,,0
+Side Channel Analysis,,0,0,,,,0
+Variational Monte Carlo,,0,0,,,,0
+Graph Nonvolutional Network,,0,0,,,,0
+Majority Voting Classifier,,0,0,,,,0
+Neural Radiance Caching,,0,0,,,,0
+Facial Editing,,0,0,,,,0
+Tropical Cyclone Track Forecasting,,0,0,,,,0
+Tropical Cyclone Intensity Forecasting,,0,0,,,,0
+Procgen Hard (100M),,0,0,,,,0
+SMC会议,,0,0,,,,0
+ARQMath2,,0,0,,,,0
+Nonparametric Clustering,,0,0,,,,0
+Seismic Inversion,,0,0,,,,0
+Seismic Imaging,,0,0,,,,0
+Suggestion mining,,0,0,,,,0
+Geometry-aware processing,,0,0,,,,0
+Second-order methods,,0,0,,,,0
+PSO-ConvNets Dynamics 1,,0,0,,,,0
+PSO-ConvNets Dynamics 2,,0,0,,,,0
+PAC learning,,0,0,,,,0
+Maximum Separation,,0,0,,,,0
+Radar waveform design,,0,0,,,,0
+Dataset Condensation,,0,0,,,,0
+Weight Space Learning,,0,0,,,,0
+Network Interpretation,,0,0,,,,0
+File difference,,0,0,,,,0
+Respiratory Rate Estimation,,0,0,,,,0
+Molecular Docking,,0,0,,,,0
+Penn Machine Learning Benchmark (Real-World),,0,0,,,,0
+Deep Feature Inversion,,0,0,,,,0
+Computational fabrication,,0,0,,,,0
+Stability-aware design,,0,0,,,,0
+Brain Morphometry,,0,0,,,,0
+Rubik's Cube,,0,0,,,,0
+Thompson Sampling,,0,0,,,,0
+Federated Unsupervised Learning,,0,0,,,,0
+Humanoid Control,,0,0,,,,0
+Spatial Token Mixer,,0,0,,,,0
+Steganalysis,,0,0,,,,0
+highlight removal,,0,0,,,,0
+Job Shop Scheduling,,0,0,,,,0
+Li-ion battery degradation modes diagnosis,,0,0,,,,0
+Battery diagnosis,,0,0,,,,0
+Penn Machine Learning Benchmark,,0,0,,Real-world Datasets,,0
+Compiler Optimization,,0,0,,,,0
+Data Valuation,,0,0,,,,0
+Efficient Neural Network,,0,0,,,,0
+Eikonal Tomography,,0,0,,,,0
+Tree Decomposition,,0,0,,,,0
+Weakly-supervised Learning,,0,0,,,,0
+Result aggregation,,0,0,,,,0
+quantum gate calibration,,0,0,,,,0
+Ontology Subsumption Inferece,,0,0,,,,0
+Ontology Embedding,,0,0,,,,0
+Model free quantum gate design,,0,0,,,,0
+Multi-Modal Learning,,0,0,,,,0
+Joint Deblur and Frame Interpolation,,0,0,,,,0
+Joint Deblur and Unrolling,,0,0,,,,0
+Sensitivity,,0,0,,,,0
+Unsupervised Long Term Person Re-Identification,,0,0,,,,0
+Collaborative Plan Acquisition,,0,0,,,,0
+DNA analysis,,0,0,,,,0
+Relation Network,,0,0,,,,0
+MonkeyPox Diagnosis,,0,0,,,,0
+Cloud Computing,,0,0,,,,0
+molecular representation,,0,0,,,,0
+Self Adaptive System,,0,0,,,,0
+Constrained Clustering,,0,0,,,,0
+Linguistic steganography,,0,0,,,,0
+Hearing Aid and device processing,,0,0,,,,0
+NWP Post-processing,,0,0,,,,0
+Persuasiveness,,0,0,,,,0
+Diffusion Personalization,,0,0,,,,0
+Geometry Problem Solving,,0,0,,,,0
+Artificial Global Workspace,,0,0,,,,0
+Atomistic Description,,0,0,,,,0
+de novo peptide sequencing,,0,0,,,,0
+WNLI,,0,0,,,,0
+GPS Embeddings,,0,0,,Geo-Tagged NUS-WIDE (GPS + Visual); Geo-Tagged NUS-WIDE (GPS Only),,0
+Partially Labeled Datasets,,0,0,,,,0
+Pseudo Label Filtering,,0,0,,,,0
+Non-Adversarial Robustness,,0,0,,,,0
+C++ code,,0,0,,,,0
+Discrete Choice Models,,0,0,,,,0
+Machine Unlearning,,0,0,,,,0
+Pre-Fine-Tuning Weight Recovery,,0,0,,,,0
+nlg evaluation,,0,0,,,,0
+Computational Efficiency,,0,0,,Plant village,,0
+6D Vision,,0,0,,,,0
+Satellite Orbit Determination,,0,0,,,,0
+Signal Processing,,0,0,,,,0
+Feature Correlation,,0,0,,,,0
+Single Particle Analysis,,0,0,,,,0
+Earth Observation,,0,0,,,,0
+ERP,,0,0,,,,0
+SSVEP,,0,0,,,,0
+Financial Analysis,,0,0,,,,0
+Portrait Animation,,0,0,,,,0
+Diversity,,0,0,,,,0
+Therapeutics Data Commons,,0,0,,,,0
+Dataset Distillation,,0,0,,,,0
+Network Identification,,0,0,,,,0
+Wrong PDF attached,,0,0,,,,0
+Vietnamese Multimodal Learning,,0,0,,,,0
+Ingenuity,,0,0,,,,0
+Deep imbalanced regression,,0,0,,,,0
+Local intrinsic dimension estimation,,0,0,,,,0
+Surrogate Hydrodynamic Modeling,,0,0,,,,0
+Part-based Representation Learning,,0,0,,,,0
+Assortment Optimization,,0,0,,,,0
+Test Case Creation,,0,0,,,,0
+Disjoint 19-1,,0,0,,PASCAL VOC 2012,,0
+Pupil Diameter Estimation,,0,0,,,,0
+Mammographic Breast Positioning Assessment,,0,0,,,,0
+ARC,,0,0,,,,0
+HellaSwag,,0,0,,,,0
+Student dropout,,0,0,,,,0
+Crash injury severity,,0,0,,,,0
+Kolmogorov-Arnold Networks,,0,0,,,,0
+test driven development,,0,0,,,,0
+Molecular geometry optimization,,0,0,,,,0
+Computational chemistry,,0,0,,,,0
+rllib,,0,0,,,,0
+scientific discovery,,0,0,,,,0
+Missing Values,,0,0,,,,0
+Vietnamese Lexical Normalization,,0,0,,,,0
+Traffic Signal Control,,0,0,,,,0
+(deleted task 2),,0,0,,,,0
+DFT Z isomer pi-pi* wavelength,,0,0,,,,0
+Mamba,,0,0,,,,0
+State Space Models,,0,0,,,,0
+Political evalutation,,0,0,,,,0
+User Identification,,0,0,,,,0
+scoring rule,,0,0,,,,0
+Minecraft,,0,0,,,,0
+4K 60Fps,,0,0,,,,0
+Model Optimization,,0,0,,,,0
+LMM real-life tasks,,0,0,,Leaderboard,,0
+Drug Design,,0,0,,,,0
+dambreak,,0,0,,,,0
+ArabicMMLU,,0,0,,,,0
+Autonomous Racing,,0,0,,,,0
+Geometry-based operator learning,,0,0,,,,0
+Dynamic neural networks,,0,0,,,,0
+model,,0,0,,,,0
+iFun,,0,0,,,,0
+global-optimization,,0,0,,,,0
+Data Driven Optimal Control,,0,0,,,,0
+spatio-temporal extrapolation,,0,0,,,,0
+陕西、四川、重庆地区2017-2022年末人口数（如图1-7所示）中，陕西省人口数较稳 定，维持在3940万人，四川和重庆均呈上升趋势。,,0,0,,,,0
+ICU Admission,,0,0,,,,0
+input filtering,,0,0,,,,0
+Human Fitting,,0,0,,,,0
+Self-Evolving AI,,0,0,,,,0
+Integrated sensing and communication,,0,0,,,,0
+ISAC,,0,0,,,,0
+parameter estimation,,0,0,,,,0
+tensor algebra,,0,0,,,,0
+compressed sensing,,0,0,,,,0
+subspace methods,,0,0,,,,0
+Lifelong learning,,0,0,,,,0
+Exemplar-Free,,0,0,,,,0
+Prompt Learning,,0,0,,,,0
+Mixture-of-Experts,,0,0,,,,0
+OpenAI Vision,,0,0,,,,0
+Lightweight Deployment,,0,0,,,,0
+BraTS2021,,0,0,,,,0
+Weather Editing,,0,0,,,,0
+State Estimation,,0,0,,,,0
+PHMbench,,0,0,,,,0
+Terrain Estimation,,0,0,,,,0
+Human Agent Collaboration,,0,0,,,,0
+Diverse Top-k Subgroup List Discovery,,0,0,,,,0

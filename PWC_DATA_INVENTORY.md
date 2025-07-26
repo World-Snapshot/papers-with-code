@@ -1,107 +1,119 @@
-# Papers with Code 数据清单
+# Papers with Code Data Inventory
 
-## 🗄️ 已保存的数据
+## 🗄️ Preserved Data
 
-### 核心数据文件（位于 `data/` 目录）
+### Core Data Files (located in `data/` directory)
 
 1. **datasets.json.gz** (8.0 MB)
-   - 包含所有数据集的完整信息
-   - 数据集描述、关联任务、论文链接等
-   - 这是PWC最重要的数据之一
+   - Contains complete information for all datasets
+   - Dataset descriptions, associated tasks, paper links, etc.
+   - This is one of PWC's most important datasets
 
 2. **evaluation-tables.json.gz** (21 MB)
-   - 所有任务的评估表和基准测试
-   - 任务层级关系（父任务-子任务）
-   - SOTA（State of the Art）结果
-   - 各种评估指标
+   - All task evaluation tables and benchmarks
+   - Task hierarchical relationships (parent-child tasks)
+   - SOTA (State of the Art) results
+   - Various evaluation metrics
 
 3. **methods.json.gz** / **methods.json** (5.2 MB / 28 MB)
-   - 所有方法和算法的详细信息
-   - 方法描述、相关论文等
+   - Detailed information for all methods and algorithms
+   - Method descriptions, related papers, etc.
 
-4. **all_tasks.txt** (100 KB)
-   - 提取的3,722个任务名称列表
+4. **papers-with-abstracts.json.gz** (537.7 MB)
+   - Contains 576,261 papers with abstracts
+   - Full paper metadata
 
-### 处理后的数据（位于 `results/` 目录）
+5. **links-between-papers-and-code.json.gz** (25.0 MB)
+   - Paper-to-code repository associations
+   - 300,161 links between papers and implementations
 
-共11个CSV文件，包含分类和详细信息：
-- 按领域分类的任务列表（CV、NLP、Audio、Other）
-- 任务的详细信息（数据集、基准、指标等）
-- 任务层级关系
-- 研究领域分类
+### Processed Data (located in `results/` directory)
 
-## ⚠️ 缺失的数据
+11 CSV files containing classifications and detailed information:
+- Task lists classified by domain (CV, NLP, Audio, Other)
+- Detailed task information (datasets, benchmarks, metrics, etc.)
+- Task hierarchical relationships
+- Research area classifications
 
-根据PWC官方数据导出页面，以下数据未能下载：
+## 🔍 Data Integrity Assessment
 
-1. **papers-with-abstracts.json.gz** (估计 ~560 MB)
-   - 所有论文及其摘要
-   - 这是最大的数据文件
+### Data You Have:
+- ✅ **Task System**: Complete classification of 4,451 tasks
+- ✅ **Dataset Information**: Metadata for all datasets
+- ✅ **Evaluation Benchmarks**: All benchmarks and SOTA results
+- ✅ **Methods & Algorithms**: Information for all methods
+- ✅ **Papers & Abstracts**: 576,261 papers with full abstracts
+- ✅ **Paper-Code Links**: 300,161 implementation links
 
-2. **links-between-papers-and-code.json.gz**
-   - 论文与代码仓库的关联信息
+## 💡 Data Value
 
-## 🔍 数据完整性评估
+The preserved data contains Papers with Code's most essential content:
 
-### 你拥有的数据：
-- ✅ **任务体系**：完整的4,451个任务分类
-- ✅ **数据集信息**：所有数据集的元数据
-- ✅ **评估基准**：所有基准测试和SOTA结果
-- ✅ **方法算法**：所有方法的信息
+1. **Complete AI/ML Task Classification System**
+   - A valuable resource for understanding AI research domains
+   - Includes 2,275 CV tasks, 1,093 NLP tasks, etc.
 
-### 缺失但不太影响的：
-- ❌ 论文摘要（但有论文链接）
-- ❌ 论文-代码关联（但数据集中有部分信息）
+2. **Benchmarks and Evaluation Standards**
+   - 3,468 different evaluation metrics
+   - Historical SOTA results for each task
 
-## 💡 数据价值
+3. **Dataset Catalog**
+   - Information for all major datasets used in AI research
+   - Dataset-to-task mappings
 
-你保存的数据包含了Papers with Code最核心的内容：
+## 📊 Statistical Summary
 
-1. **完整的AI/ML任务分类体系**
-   - 这是理解AI研究领域的宝贵资源
-   - 包含1,900+个CV任务、1,000+个NLP任务等
+- **Total Data Volume**: ~625 MB (compressed)
+- **Total Tasks**: 4,451
+- **Papers**: 576,261
+- **Code Links**: 300,161
+- **Datasets**: 15,008
+- **Evaluation Metrics**: 3,468
+- **Research Areas**: 17 major categories
 
-2. **基准测试和评估标准**
-   - 3,468种不同的评估指标
-   - 各任务的SOTA结果历史
+### Research Area Distribution (from PWC client analysis):
+1. Computer Vision: 865 tasks
+2. Natural Language Processing: 436 tasks
+3. Miscellaneous: 219 tasks
+4. Medical: 190 tasks
+5. Methodology: 157 tasks
+6. Time Series: 98 tasks
+7. Graphs: 87 tasks
+8. Audio: 69 tasks
+9. Computer Code: 61 tasks
+10. Robots: 56 tasks
+11. Knowledge Base: 50 tasks
+12. Reasoning: 50 tasks
+13. Speech: 48 tasks
+14. Playing Games: 40 tasks
+15. Music: 32 tasks
+16. Adversarial: 31 tasks
 
-3. **数据集目录**
-   - AI研究中使用的所有主要数据集信息
-   - 数据集与任务的对应关系
+## 🔐 Backup Recommendations
 
-## 📊 统计摘要
+1. **Immediate Backup** to multiple locations:
+   - Cloud storage (Google Drive, Dropbox, etc.)
+   - External hard drives
+   - Version control systems (Git LFS)
 
-- **总数据量**：约62 MB（压缩后）
-- **任务总数**：4,451个
-- **数据集数量**：数千个（具体数量需解析）
-- **评估指标**：3,468种
-- **研究领域**：16个主要类别
+2. **Regular Verification** of data integrity:
+   - Check file sizes
+   - Verify successful decompression
+   - Ensure CSV files are readable
 
-## 🔐 备份建议
+3. **Documentation**:
+   - Save this README and all documentation
+   - Keep data processing scripts
+   - Preserve original link information
 
-1. **立即备份**到多个位置：
-   - 云存储（Google Drive、Dropbox等）
-   - 外部硬盘
-   - 版本控制系统（Git LFS）
+## 🚨 Important Reminder
 
-2. **定期验证**数据完整性：
-   - 检查文件大小
-   - 验证解压是否成功
-   - 确保CSV文件可读
+Papers with Code has ceased operations, and this data represents:
+- The final snapshot before website closure
+- An important record of AI/ML research history
+- A precious resource that cannot be obtained again
 
-3. **文档化**：
-   - 保存本README和所有文档
-   - 记录数据处理脚本
-   - 保留原始链接信息
-
-## 🚨 重要提醒
-
-Papers with Code已经停止服务，这些数据是：
-- 网站关闭前的最后快照
-- AI/ML研究历史的重要记录
-- 无法再获取的珍贵资源
-
-**请妥善保管这些数据！**
+**Please carefully preserve this data!**
 
 ---
-*最后更新：2025年7月25日*
+*Last updated: July 25, 2025*

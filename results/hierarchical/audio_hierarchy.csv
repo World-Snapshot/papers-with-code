@@ -1,0 +1,196 @@
+Task Name,Parent Task,Level,Dataset Count,Description,Benchmarks,Metrics,Children Count
+Speech Separation,,0,16,,TCD-TIMIT corpus (mixed-speech); Libri20Mix; Libri10Mix; WSJ0-2mix; Libri5Mix; WSJ0-5mix; GRID corpus (mixed-speech); iKala; Libri15Mix; VoxCeleb2,,0
+Audio Source Separation,,0,15,,MUSIC (multi-source); AudioSet,,3
+Music Transcription,,0,14,,URMP; MAPS; MusicNet; Slakh2100; SMD Piano; MAESTRO,,0
+Speaker Verification,,0,12,,VibraVox (throat microphone); CALLHOME; VibraVox (temple vibration pickup); VoxCeleb1; VoxCeleb2; VibraVox (headset microphone); VoxCeleb; VibraVox (soft in-ear microphone); VibraVox (forehead accelerometer); VibraVox (rigid in-ear microphone),,0
+Speaker Diarization,,0,11,,DIHARD; DIHARD3-eval; AMI; CALLHOME; call_home_american_english_speech; AMI MixHeadset; AMI Lapel; CH109; Hub5'00 CallHome; NIST-SRE 2000,,0
+Music Modeling,,0,6,,JSB Chorales; Nottingham,,0
+Multi-instrument Music Transcription,,0,6,,,,0
+Voice Anti-spoofing,,0,6,,ASVspoof2019; ASVspoof 2019 - LA; ASVspoof 2019 - PA,,0
+Audio captioning,,0,5,,Clotho; AudioCaps,,2
+Music Captioning,,0,5,,,,0
+Speaker Identification,,0,4,,EVI en-GB; VoxCeleb1; EVI fr-FR; EVI pl-PL,,0
+Speaker Separation,,0,3,,,,0
+Multi-task Audio Source Seperation,,0,3,,,,0
+Audio Signal Processing,,0,2,,,,3
+Rhythm,,0,2,,,,0
+Piano Music Modeling,,0,2,,,,0
+Drum Transcription in Music (DTM),,0,2,,,,0
+Salt-And-Pepper Noise Removal,,0,1,,,,0
+Cross-environment ASR,,0,1,,,,0
+Cross-device ASR,,0,1,,,,0
+Noise Estimation,,0,1,,SIDD,,0
+Soundscape evaluation,,0,1,,,,0
+"Speaker Attribution in German Parliamentary Debates (GermEval 2023, subtask 1)",,0,1,,GePaDe,,0
+"Speaker Attribution in German Parliamentary Debates (GermEval 2023, subtask 2)",,0,1,,GePaDe,,0
+Acoustic Modelling,,0,1,,,,0
+Speaker Profiling,,0,1,,,,0
+"1 Image, 2*2 Stitchi",,0,0,,,,10
+10-shot image generation,,0,0,,,,10
+2D Classification,,0,0,,,,10
+2D Semantic Segmentation,,0,0,,,,10
+3D Human Dynamics,,0,0,,,,1
+3D Human Pose Tracking,,0,0,,,,1
+Audio Generation,,0,0,,,,4
+Audio Signal Recognition,,0,0,,,,1
+Bird Classification,,0,0,,,,2
+Classification,,0,0,,,,10
+DeepFake Detection,,0,0,,,,5
+Emotion Recognition,,0,0,,,,10
+Few-Shot Learning,,0,0,,,,10
+Hearing Aid and device processing,,0,0,,,,2
+Instance Search,,0,0,,,,1
+Language Identification,,0,0,,,,2
+Online Beat Tracking,,0,0,,,,1
+Signal Processing,,0,0,,,,1
+Speech Enhancement,,0,0,,,,4
+Speech Recognition,,0,0,,,,10
+Text to Audio Retrieval,,0,0,,,,1
+Text-To-Speech Synthesis,,0,0,,,,2
+Recognizing Seven Different Dastgahs Of Iranian Classical Music,,0,0,,,,0
+Audio declipping,,0,0,,,,0
+Audio Dequantization,,0,0,,,,0
+Speaker Orientation,,0,0,,,,0
+Hate Speech Normalization,,0,0,,,,0
+Speech Representation Learning,,0,0,,,,0
+Semi-Supervised Audio Regression,,0,0,,,,0
+Speaker anonymization,,0,0,,,,0
+Music Source Separation,2D Classification,1,9,,MUSDB18; MUSDB18-HQ; Slakh2100,,0
+Voice Conversion,"1 Image, 2*2 Stitchi",1,8,,LibriSpeech test-clean; ZeroSpeech 2019 English; VCTK,,0
+Voice Conversion,2D Classification,1,8,,LibriSpeech test-clean; ZeroSpeech 2019 English; VCTK,,0
+Speech Dereverberation,Speech Enhancement,1,6,,,,0
+Voice Cloning,Audio Generation,1,2,,,,0
+Audio Fingerprint,Instance Search,1,1,,,,0
+Pose Estimation,"1 Image, 2*2 Stitchi",1,0,,,,0
+Style Transfer,"1 Image, 2*2 Stitchi",1,0,,,,0
+Text-to-Image Generation,"1 Image, 2*2 Stitchi",1,0,,,,0
+Music Generation,"1 Image, 2*2 Stitchi",1,0,,,,3
+Image Deblurring,"1 Image, 2*2 Stitchi",1,0,,,,0
+Virtual Try-on,"1 Image, 2*2 Stitchi",1,0,,,,0
+Talking Face Generation,"1 Image, 2*2 Stitchi",1,0,,,,0
+Image to Video Generation,"1 Image, 2*2 Stitchi",1,0,,,,0
+Pneumonia Detection,"1 Image, 2*2 Stitchi",1,0,,,,0
+Semantic Segmentation,10-shot image generation,1,0,,,,0
+Decoder,10-shot image generation,1,0,,,,0
+Object,10-shot image generation,1,0,,,,0
+Image Restoration,10-shot image generation,1,0,,,,0
+Text-to-Image Generation,10-shot image generation,1,0,,,,0
+Deblurring,10-shot image generation,1,0,,,,0
+Text to Speech,10-shot image generation,1,0,,,,0
+Face Swapping,10-shot image generation,1,0,,,,0
+Motion Estimation,10-shot image generation,1,0,,,,0
+Image Deblurring,10-shot image generation,1,0,,,,0
+Object Detection,2D Classification,1,0,,,,0
+Articles,2D Classification,1,0,,,,0
+Style Transfer,2D Classification,1,0,,,,0
+Deblurring,2D Classification,1,0,,,,0
+Backdoor Attack,2D Classification,1,0,,,,0
+Neural Rendering,2D Classification,1,0,,,,0
+Neural Network Compression,2D Classification,1,0,,,,0
+Cell Detection,2D Classification,1,0,,,,0
+Image Segmentation,2D Semantic Segmentation,1,0,,,,0
+Text Style Transfer,2D Semantic Segmentation,1,0,,,,0
+Scene Parsing,2D Semantic Segmentation,1,0,,,,0
+Reflection Removal,2D Semantic Segmentation,1,0,,,,0
+Foreground Segmentation,2D Semantic Segmentation,1,0,,,,0
+Continual Semantic Segmentation,2D Semantic Segmentation,1,0,,,,0
+Building Damage Assessment,2D Semantic Segmentation,1,0,,,,0
+Human Part Segmentation,2D Semantic Segmentation,1,0,,,,0
+Overlapped 15-1,2D Semantic Segmentation,1,0,,,,0
+Disjoint 15-1,2D Semantic Segmentation,1,0,,,,0
+Portrait Animation,3D Human Dynamics,1,0,,,,0
+Motion Synthesis,3D Human Pose Tracking,1,0,,,,0
+Room Impulse Response (RIR),Audio Generation,1,0,,,,0
+Audio Super-Resolution,Audio Generation,1,0,,,,0
+Video-to-Sound Generation,Audio Generation,1,0,,,,0
+blind source separation,Audio Signal Processing,1,0,,,,0
+Audio Compression,Audio Signal Processing,1,0,,,,0
+Audio Effects Modeling,Audio Signal Processing,1,0,,,,2
+Gunshot Detection,Audio Signal Recognition,1,0,,,,0
+Target Sound Extraction,Audio Source Separation,1,0,,,,1
+Directional Hearing,Audio Source Separation,1,0,,,,1
+Single-Label Target Sound Extraction,Audio Source Separation,1,0,,,,0
+Retrieval-augmented Few-shot In-context Audio Captioning,Audio captioning,1,0,,,,0
+Zero-shot Audio Captioning,Audio captioning,1,0,,,,0
+Bird Audio Detection,Bird Classification,1,0,,,,0
+Bird Species Classification With Audio-Visual Data,Bird Classification,1,0,,,,0
+Text Classification,Classification,1,0,,,,0
+Graph Classification,Classification,1,0,,,,0
+Multi-class Classification,Classification,1,0,,,,0
+Audio Classification,Classification,1,0,,,,4
+Medical Image Classification,Classification,1,0,,,,0
+Plant Phenotyping,Classification,1,0,,,,0
+Classifier calibration,Classification,1,0,,,,0
+Morphology classification,Classification,1,0,,,,0
+Multi-modal Classification,Classification,1,0,,,,0
+IoT Device Identification,Classification,1,0,,,,0
+Audio Deepfake Detection,DeepFake Detection,1,0,,,,0
+Synthetic Speech Detection,DeepFake Detection,1,0,,,,0
+Human Detection of Deepfakes,DeepFake Detection,1,0,,,,0
+Multimodal Forgery Detection,DeepFake Detection,1,0,,,,0
+diffusion-generated faces detection,DeepFake Detection,1,0,,,,0
+Speech Emotion Recognition,Emotion Recognition,1,0,,,,0
+Emotion Recognition in Conversation,Emotion Recognition,1,0,,,,0
+Multimodal Emotion Recognition,Emotion Recognition,1,0,,,,0
+Facial Emotion Recognition,Emotion Recognition,1,0,,,,0
+Emotion-Cause Pair Extraction,Emotion Recognition,1,0,,,,0
+EEG Emotion Recognition,Emotion Recognition,1,0,,,,0
+Emotion Cause Extraction,Emotion Recognition,1,0,,,,0
+Video Emotion Recognition,Emotion Recognition,1,0,,,,0
+Emotion Recognition in Context,Emotion Recognition,1,0,,,,0
+A-VB High,Emotion Recognition,1,0,,,,0
+One-Shot Learning,Few-Shot Learning,1,0,,,,0
+Few-Shot Semantic Segmentation,Few-Shot Learning,1,0,,,,0
+Cross-Domain Few-Shot,Few-Shot Learning,1,0,,,,0
+Unsupervised Few-Shot Learning,Few-Shot Learning,1,0,,,,0
+Few-Shot Relation Classification,Few-Shot Learning,1,0,,,,0
+Few-Shot Imitation Learning,Few-Shot Learning,1,0,,,,0
+Few-Shot Audio Classification,Few-Shot Learning,1,0,,,,0
+Few-Shot Camera-Adaptive Color Constancy,Few-Shot Learning,1,0,,,,0
+Few-shot HTC,Few-Shot Learning,1,0,,,,0
+Few-Shot Video Object Detection,Few-Shot Learning,1,0,,,,0
+Cadenza 1 - Task 1 - Headphone,Hearing Aid and device processing,1,0,,,,0
+Cadenza 1 - Task 2 - In Car,Hearing Aid and device processing,1,0,,,,0
+Dialect Identification,Language Identification,1,0,,,,0
+Native Language Identification,Language Identification,1,0,,,,0
+Inference Optimization,Online Beat Tracking,1,0,,,,0
+Physiological Computing,Signal Processing,1,0,,,,0
+Bandwidth Extension,Speech Enhancement,1,0,,,,0
+Packet Loss Concealment,Speech Enhancement,1,0,,,,0
+Speech Intelligibility Evaluation,Speech Enhancement,1,0,,,,0
+Automatic Speech Recognition (ASR),Speech Recognition,1,0,,,,0
+Visual Speech Recognition,Speech Recognition,1,0,,,,0
+Robust Speech Recognition,Speech Recognition,1,0,,,,0
+Target Speaker Extraction,Speech Recognition,1,0,,,,0
+Distant Speech Recognition,Speech Recognition,1,0,,,,0
+Automatic Lyrics Transcription,Speech Recognition,1,0,,,,0
+Sequence-To-Sequence Speech Recognition,Speech Recognition,1,0,,,,0
+Accented Speech Recognition,Speech Recognition,1,0,,,,1
+Noisy Speech Recognition,Speech Recognition,1,0,,,,0
+Speech Language Identification,Speech Recognition,1,0,,,,0
+audio moment retrieval,Text to Audio Retrieval,1,0,,,,0
+Prosody Prediction,Text-To-Speech Synthesis,1,0,,,,0
+Zero-Shot Multi-Speaker TTS,Text-To-Speech Synthesis,1,0,,,,0
+Music Performance Rendering,Music Generation,2,0,,,,0
+Multimodal Music Generation,Music Generation,2,0,,,,0
+Music Texture Transfer,Music Generation,2,0,,,,0
+Pitch control,Audio Effects Modeling,2,0,,,,0
+Timbre Interpolation,Audio Effects Modeling,2,0,,,,0
+Streaming Target Sound Extraction,Target Sound Extraction,2,0,,,,0
+Real-time Directional Hearing,Directional Hearing,2,0,,,,0
+Environmental Sound Classification,Audio Classification,2,0,,,,1
+Audio Multiple Target Classification,Audio Classification,2,0,,,,0
+Semi-supervised Audio Classification,Audio Classification,2,0,,,,0
+Parkinson Detection from Speech,Audio Classification,2,0,,,,0
+Speech Synthesis,Accented Speech Recognition,2,0,,,,10
+Self-Supervised Sound Classification,Environmental Sound Classification,3,0,,,,0
+Expressive Speech Synthesis,Speech Synthesis,3,0,,,,0
+Emotional Speech Synthesis,Speech Synthesis,3,0,,,,0
+Speech Synthesis - Gujarati,Speech Synthesis,3,0,,,,0
+text-to-speech translation,Speech Synthesis,3,0,,,,0
+Speech Synthesis - Tamil,Speech Synthesis,3,0,,,,0
+Speech Synthesis - Kannada,Speech Synthesis,3,0,,,,0
+Speech Synthesis - Malayalam,Speech Synthesis,3,0,,,,0
+Speech Synthesis - Telugu,Speech Synthesis,3,0,,,,0
+Speech Synthesis - Assamese,Speech Synthesis,3,0,,,,0
+Speech Synthesis - Bengali,Speech Synthesis,3,0,,,,0
