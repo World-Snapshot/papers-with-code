@@ -1,5 +1,11 @@
 # Papers with Code Data Analysis Project
 
+## Note:
+
+[https://web.archive.org/web/20250616051252/https://paperswithcode.com/](https://web.archive.org/web/20250616051252/https://paperswithcode.com/)
+
+I hope someone can help to deploy all the snapshots of this webpage to Github. It can be this repository or any other repository. In short, paperwithcode must not disappear!
+
 ## Project Background
 
 In July 2025, the Papers with Code website ceased operations. This project urgently preserved and analyzed the website's core data, including task information across domains such as computer vision, natural language processing, and audio.
