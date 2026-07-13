@@ -4,6 +4,9 @@
 
 [https://web.archive.org/web/20250616051252/https://paperswithcode.com/](https://web.archive.org/web/20250616051252/https://paperswithcode.com/)
 
+<img width="1880" height="945" alt="image" src="https://github.com/user-attachments/assets/1edb5d35-54d0-43a4-aeb0-978b317f24fb" />
+
+
 I hope someone can help to deploy all the snapshots of this webpage to Github. It can be this repository or any other repository. In short, paperwithcode must not disappear!
 
 ## Some External Links
